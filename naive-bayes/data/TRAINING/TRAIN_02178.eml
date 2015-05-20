@@ -1,0 +1,172 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287391429456394
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs459055wfb;
+        Fri, 7 May 2010 09:20:20 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr238545fai.98.1273249219538;
+        Fri, 07 May 2010 09:20:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si2454565faw.71.2010.05.07.09.20.19;
+        Fri, 07 May 2010 09:20:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 94D4813A5ADF; Fri,  7 May 2010 16:20:13 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.1 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,RERE,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 01AE813A5734
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 16:20:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, RERE=1,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id jJM8u4Y2uwzQ for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 16:20:00 +0000 (UTC)
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id E464813A476D
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 16:19:59 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so2112958qyk.3
+        for <debian-user@lists.debian.org>; Fri, 07 May 2010 09:19:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=tsB1cCE5GRnUd28Gfmv2ncCdLgD7RtkmS8c5gcU7Q84=;
+        b=uwkZbbYXLTT+gd9GMTyXADqYrnK4m5bnohPW4/kR2TPX2c8FJ9lIeFsHSdc1edx/hc
+         SxQHjvpIsj5oIoxsJeqIOamzMWybEnrJHp+JBZR2SNmxbVJmbvahFp6HxF3nzia50Us6
+         hvqkOdcANWBqL1AyQexFsPJXXGO7rrrvs5fSU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=gII2IpsqTQrW49+KviLL82f/SmrKRhZg+xisoKgetPV9iKJ5MshlOc3CLt+OoMwZKk
+         FJ6sNKl6w789kV1z5vaHX2+EmKl/aeFzC9JVSXTtANgZ5iAu05B+e60f2hZXii2onHiI
+         FO7XVP+uccoFHI7UJAvPR4G8SBo0ld9dM/Nh0=
+MIME-Version: 1.0
+Received: by 10.229.250.211 with SMTP id mp19mr131841qcb.42.1273249194619; 
+	Fri, 07 May 2010 09:19:54 -0700 (PDT)
+Received: by 10.229.221.13 with HTTP; Fri, 7 May 2010 09:19:54 -0700 (PDT)
+In-Reply-To: <201005071123.48345.lisi.reisz@csmining.org>
+References: <201005071123.48345.lisi.reisz@csmining.org>
+Date: Fri, 7 May 2010 19:19:54 +0300
+Message-ID: <g2h880dece01005070919yce94d995rd670844d68f5bce1@mail.csmining.org>
+Subject: Re: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <C0WJ7As7IqO.A.aEE.92D5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576156
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 16:20:13 +0000 (UTC)
+
+On 7 May 2010 11:56, Lisi <lisi.reisz@csmining.org> wrote:
+> On Thursday 06 May 2010 18:22:18 you wrote:
+>> >> You still have gnustep, xfce, lxde, no using any or simply never
+>> >> upgrade.
+>> >
+>> > I have looked at all those, in addition to KDE 4 and Gnome.  None appeals
+>> > to me.  Each has something that I strongly dislike or does not have
+>> > something that I like and use a lot.
+>>
+>> Please tell me what KDE 4.4 is missing, or what it has that you
+>> dislike. I can help address those issues.
+>
+> I doubt it, because I think that the problem is the basic philosophy.  They
+> have sacrificed funtionality in favour of glitz.
+>
+> E.g.
+> 1. You cannot turn off all those horrible, and to me actually physically
+> painful (I have problems with my eyes) "special effects" _before_ being
+> subjected to them.  (All that horrible wobbly, wavy, shimmery, spinning
+> transparent glitz.)
+
+That boils down to "it's on by default". Just go turn them off. And
+the defaults do not have wobbly windows, wavy effects, or anything
+shimmering. Nothing spins either, but the Alt-tab dialogue does slide.
+There is plenty of transparency, though, and I hate that too. So I
+turn it off.
+
+My mother suffers from what she calls "vertigo" and the effects do not
+upset her. Nor do they upset the autistics that I volunteer with. They
+are merely an annoyance to those annoyed by them, nothing wild.
+
+
+> 2. ctrl+tab does not move to the next window.
+
+Do you mean between tabs? Fixed:
+https://bugs.kde.org/show_bug.cgi?id=231541
+
+
+> 3. alt+F2 is cumbersome and unhelpful.  (In KDE 3.5.x I can type e.g. k and be
+> presented with a list of all the applications that I have previously used
+> beginning with k.)
+
+It works that way in KDE 4 as well, so long as you have opened them
+from Krunner in the past. That is how I open all my applications.
+
+
+> 4. Alt+F1 does not bring up the menu.
+
+It's Alt-F5 for the Kmenu. Has been since KDE 3 I think.
+
+
+> 5. Kcontrol no longer exists.
+
+It's called System Settings, and with the Tree menu it's very similar.
+It is being reworked for KDE 4.5, so if you have any suggestions then
+now is the time to make them!
+
+> etc etc.
+>
+
+Tell me more!
+
+
+>> > I am, however, very sad that KDE 3.5, which I regard as the pinnacle of
+>> > DE's, is being laid to rest.
+>>
+>> Then help me shape it's successor. What is not suitable about KDE 4?
+>
+> Why would I rather have a Toyota hatchback (especially a hybrid one) than a
+> two seater sports car?
+>
+
+You evaded the question. I cannot help when you evade the question.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/g2h880dece01005070919yce94d995rd670844d68f5bce1@mail.csmining.org
+
+

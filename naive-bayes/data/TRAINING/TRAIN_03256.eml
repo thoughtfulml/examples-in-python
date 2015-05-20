@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280f1a9e7890a78
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs34093wfj;
+        Sat, 17 Apr 2010 21:08:43 -0700 (PDT)
+Received: by 10.223.65.77 with SMTP id h13mr1743536fai.91.1271563722520;
+        Sat, 17 Apr 2010 21:08:42 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si7516297fks.50.2010.04.17.21.08.41;
+        Sat, 17 Apr 2010 21:08:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1FF9C13A489C; Sun, 18 Apr 2010 04:08:37 +0000 (UTC)
+Old-Return-Path: <monique@mail.bounceswoosh.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.8 required=4.0 tests=LDO_WHITELIST,MURPHY_SEX_L2,
+	RDNS_NONE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C7E1A13A483E
+	for <lists-debian-user@liszt.debian.org>; Sun, 18 Apr 2010 04:08:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_SEX_L2=0.1,
+	RDNS_NONE=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id TbWujNw+dYCg for <lists-debian-user@liszt.debian.org>;
+	Sun, 18 Apr 2010 04:08:23 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from mail.bounceswoosh.org (unknown [173.160.50.61])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id DE8F713A4837
+	for <debian-user@lists.debian.org>; Sun, 18 Apr 2010 04:08:16 +0000 (UTC)
+Received: from monique by mail.bounceswoosh.org with local (Exim 4.71 #1 (Debian))
+	id 1O3LuL-0005b6-JT
+	for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 22:14:57 -0600
+Date: Sat, 17 Apr 2010 22:14:57 -0600
+From: "Monique Y. Mudama" <spam@bounceswoosh.org>
+To: debian-user@lists.debian.org
+Subject: Re: How to migrate my localhost php site to my ISP - Was: willing
+ to learn php basics
+Message-ID: <20100418041457.GA20950@mail.bounceswoosh.org>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <4B0DA73C.1020908@teaser.fr>
+ <20091126090817.374f312a@jup-linux2.SGL.GROUP>
+ <4BC78879.6@teaser.fr>
+ <20100416001551.GD11310@mail.bounceswoosh.org>
+ <4BC97C1E.2020407@teaser.fr>
+ <4BC9DB8A.2030309@jretrading.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BC9DB8A.2030309@jretrading.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kIxNK_61_cM.A.B_F.FXoyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574353
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 18 Apr 2010 04:08:37 +0000 (UTC)
+
+On Sat, Apr 17 at 17:02, Joe penned:
+> 
+> In order to achieve this, you need write access to that directory
+> tree above apache's docroot, with the ability to set permissions
+> correctly. From what you say, it does not seem that you have that
+> with your current ISP. You would seem to need to spend some money,
+> even before you are sure you will have the access you need.
+
+There are a few different ways to deal with not exposing your password
+to the world, but one thing I do want to note: in a hosted situation,
+you should have a user home directory in addition to the directory for
+your website.  If you need a file to be inaccessible from the web, you
+can just put it in your home directory.  There's no need for root
+level permissions.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100418041457.GA20950@mail.bounceswoosh.org
+
+

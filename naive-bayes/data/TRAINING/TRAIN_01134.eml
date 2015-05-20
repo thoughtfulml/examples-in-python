@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId12819496f7d2b5ab
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs51720wfj;
+        Mon, 19 Apr 2010 20:36:03 -0700 (PDT)
+Received: by 10.224.78.148 with SMTP id l20mr2017097qak.67.1271734562360;
+        Mon, 19 Apr 2010 20:36:02 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 33si16178863iwn.56.2010.04.19.20.36.02;
+        Mon, 19 Apr 2010 20:36:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id DB3691C0FDB14
+	for <mlsubscriber.tech@csmining.org>; Mon, 19 Apr 2010 20:36:01 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D6AB826F3E168
+	for <mlsubscriber.tech@csmining.org>; Mon, 19 Apr 2010 20:36:01 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 7DECA26F3DF60
+	for <x11-users@lists.apple.com>; Mon, 19 Apr 2010 20:35:43 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 6D0B4D0C2692
+	for <x11-users@lists.apple.com>; Mon, 19 Apr 2010 20:35:43 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-8d-4bcd210ef6d2
+Received: from mail-vw0-f51.google.com (mail-vw0-f51.google.com
+	[209.85.212.51])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	30.DB.25880.F012DCB4; Mon, 19 Apr 2010 20:35:43 -0700 (PDT)
+Received: by vws15 with SMTP id 15so3089112vws.24
+	for <x11-users@lists.apple.com>; Mon, 19 Apr 2010 20:35:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from
+	:user-agent:mime-version:to:subject:content-type
+	:content-transfer-encoding;
+	bh=orZi2Mwoxz+Nc8Me1exltLnNoY6cNdD+GWByH/YtY5s=;
+	b=sTn6y2addtlc7P9owBE9IJeUBkwA5WMMH0rD5mJcQRUStR4jfMUUa2VDgAHm8bYws0
+	c30MtYbsev+HmCPv3HoVVxDIz32Z1NTgLEm8evaIgrNLGKaqKKjxUNEoZSdsxDvuTnSB
+	4dLDbK8HRAXW3oXbSRIXJunZ2kx5bZcnds/34=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=message-id:date:from:user-agent:mime-version:to:subject
+	:content-type:content-transfer-encoding;
+	b=ja+WE521KxMF3zZ6kfIKW9EPAeBo+sANcAfX7c//xhRT6TQJrQ8oI2jEIfPQOH5J9k
+	XJOy5bkegGniXQZKzUnfmapcxZrEqlIi48uXxf+FfxUgYCxGV5j/VLRsTDhToMtbq/g0
+	UlxT5nGyIeFjxwQHIjIS3VrO+Vgoo54UlLavg=
+Received: by 10.220.157.143 with SMTP id b15mr4219995vcx.96.1271734542225;
+	Mon, 19 Apr 2010 20:35:42 -0700 (PDT)
+Received: from nobody.westell.com (pool-74-104-44-120.bstnma.east.verizon.net
+	[74.104.44.120])
+	by mx.google.com with ESMTPS id b22sm21654192vcp.8.2010.04.19.20.35.41
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Mon, 19 Apr 2010 20:35:41 -0700 (PDT)
+Message-ID: <4BCD210B.4060906@csmining.org>
+Date: Mon, 19 Apr 2010 23:35:39 -0400
+From: Dave Della Costa <ddellacosta@csmining.org>
+User-Agent: Thunderbird 2.0.0.24 (Macintosh/20100228)
+MIME-Version: 1.0
+To: x11-users@lists.apple.com
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAxO1VpgTth2LE7ZYTA==
+Subject: strange issue after upgrading to latest 10.6.3
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi folks,
+
+I *think* this happened after upgrading to 10.6.3, but I also recall
+there was a security patch, I apologize because I was sort of
+absentmindedly updating myself which I hadn't done in a while.  So...er,
+not exactly sure what the cause is.  But, the issue is this:
+
+When I'm using X11/XQuartz (I've just tried the default xterm as well as
+rxvt I installed via macports), what seems to happen is that I can open
+a terminal and use it for a little while, but if I leave x11, that is if
+it looses focus, and then I come back, I can no longer switch between
+windows, enter anything with the keyboard, click and select windows with
+my mouse, etc.  All input to x11 seems to be dead.  I have to kill it
+and then restart it again to get it to work at all, and then the same
+thing happens.  I've tried reinstalling it but that hasn't helped.
+
+Does this behavior ring a bell to anyone?  Any help would be greatly
+appreciated, I live in rxvt and don't like using Terminal.app very much!
+
+Thanks--
+
+Dave
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

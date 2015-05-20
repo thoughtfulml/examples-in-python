@@ -1,0 +1,337 @@
+X-Account-Key: account5
+X-UIDL: GmailId12813812699f81a0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs3290wfj;
+        Sun, 18 Apr 2010 17:39:11 -0700 (PDT)
+Received: by 10.150.14.12 with SMTP id 12mr5023426ybn.282.1271637550869;
+        Sun, 18 Apr 2010 17:39:10 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 39si12579283iwn.115.2010.04.18.17.39.10;
+        Sun, 18 Apr 2010 17:39:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 6DEB31BADDD14
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 17:39:10 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 68CA026EB7146
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 17:39:10 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id AEB0426EB7099
+	for <augd@lists.apple.com>; Sun, 18 Apr 2010 17:39:02 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 9D883D26778F
+	for <augd@lists.apple.com>; Sun, 18 Apr 2010 17:39:02 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-25-4bcba625adc2
+Authentication-Results: mail-in12.apple.com x-tls.subject="/C=US/ST=UT/L=Salt
+	Lake City/O=The USERTRUST
+	Network/OU=http://www.usertrust.com/CN=UTN-USERFirst-Network
+	Applications"; auth=fail (cipher=RC4-SHA)
+Received: from c60.cesmail.net (c60.cesmail.net [216.154.195.49])
+	(using TLS with cipher RC4-SHA (RC4-SHA/128 bits))
+	(Client CN "UTN-USERFirst-Network Applications",
+	Issuer "UTN-USERFirst-Network Applications" (not verified))
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	F9.90.25880.626ABCB4; Sun, 18 Apr 2010 17:39:02 -0700 (PDT)
+Received: from unknown (HELO delta2) ([192.168.1.50])
+	by c60.cesmail.net with ESMTP; 18 Apr 2010 20:39:01 -0400
+Received: from pool-72-66-232-104.ronkva.east.verizon.net
+	(pool-72-66-232-104.ronkva.east.verizon.net [72.66.232.104]) by
+	webmail.spamcop.net (Horde MIME library) with HTTP; Sun, 18 Apr 2010
+	20:39:00 -0400
+Message-ID: <20100418203900.ck7j2ecbswog4848-fubjxre@webmail.spamcop.net>
+Date: Sun, 18 Apr 2010 20:39:00 -0400
+From: showker@spamcop.net
+To: augd@lists.apple.com
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.4)
+X-Brightmail-Tracker: AAAAARO1WC4=
+Subject: AUGD: InfoManager for Monday, April 19, 2010
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+InfoManager for Monday, April 19, 2010
+-------------------------------------------------------------------
+by Lynn Wegley, InfoManager, with coeditor Fred Showker
+
+What's Here:
+01  UGNN Salutes The Mac Group
+02  Apple App Store Threat
+03  Mac Malware Alert
+04  Top Ten Coolest iPad Apps
+05  Adobe CS5 gets Vjoon
+06  Paper scanner to GO
+07  Bulk Mailing on Mac
+08  Mac UseNet
+09  HoudahGeo 2.5
+10  GoodReader for iPad
+11  PrintCentral 1.2 for iPad
+12  Google Voice Explained
+13  FoodEssentials- iPhone App
+14  Speaking of threats
+15  Quotes: All about simplicity
+
+* Follow and Be Followed: http://twitter.com/UGNnet
+
+Subscribe / unsubscribe:
+http://dtgnews.com/mailman/listinfo/infomanager_dtgnews.com
+
+-------------------------------------------------------------------
+
+01  UGNN Salutes The Mac Group
+
+      The Mac Group brings top-drawer support to Mac users in
+the Dayton Oh area; Montgomery and Greene counties as
+well as all of Southwest Ohio
+
+http://www.ugnn.com/2010/04/ugnn-salutes-the-mac/
+
+-------------------------------------------------------------------
+
+02  Apple App Store Threat
+
+      I've been tracking "Apple" in thetraps for the past
+ten days and find the phishers and cyber-crooks actively
+pursuing Mac users' accounts at the App store.
+
+http://www.ugnn.com/2010/04/apple-app-store-threat/
+
+-------------------------------------------------------------------
+
+03  Mac Malware Alert
+
+      DO NOT CLICKAustin based Intego has discovered a new variant
+of a malware for Mac, called HellRTS. When installed on computers
+running Mac OS X, HellRTS opens a backdoor that allows remote
+users to take control of infected Macs and
+perform actions on them.
+
+http://www.ugnn.com/2010/04/mac-malware-alert/
+
+-------------------------------------------------------------------
+
+04  Top Ten Coolest iPad Apps
+
+      Retrevo sends in their top ten coolest iPad apps, and we
+agree with them -- amongst others. These are sure fire to
+get you started on top of the resident, built-in apps
+
+http://www.ugnn.com/2010/04/top-ten-coolest-ipad-apps/
+
+-------------------------------------------------------------------
+
+05  Adobe CS5 gets Vjoon
+
+      vjoon's new Cross-media Publishing Platformvjoon's new
+Cross-media Publishing Platform K4 version 6 will be
+compatible with Adobe Creative Suite 5 in Q2 of 2010.
+
+http://www.ugnn.com/2010/04/adobe-cs5-gets-vjoon/
+
+-------------------------------------------------------------------
+
+06  Paper scanner to GO
+
+      Doxie, the modern paper scannerDoxie, the modern paper
+scanner that scans directly to the cloud, is now shipping.
+For home and small business
+
+http://www.ugnn.com/2010/04/paper-scanner-to-go/
+
+-------------------------------------------------------------------
+
+07  Bulk Mailing on Mac
+
+      mailings is a full featured application for batch emailing
+Mailings is a full featured application for batch emailing
+that delivers any web page or plain text document with
+attachments to multiple recipients for marketing,
+news announcements, product updates etc.
+
+http://www.ugnn.com/2010/04/bulk-mailing-on-mac/
+
+-------------------------------------------------------------------
+
+08  Mac UseNet
+
+      Back in my Apple //e days, I had a subcription to IsleNet
+in Honolulu. IsleNet gave us acess to the early version of
+the Internet called UseNet. it was great using UseNet because
+it gave you access to real experts on ARPNET. Since most
+people on UseNet were affiliated with universities and
+defense industries, mostly researchers.
+
+http://www.ugnn.com/2010/04/mac-usenet/
+
+-------------------------------------------------------------------
+
+09  HoudahGeo 2.5
+
+      Houdah Software last Friday announced release of HoudahGeo 2.5,
+the photo geocoding solution for the Mac. HoudahGeo is tightly
+integrated with iPhoto'09 and Aperture Places. It offers a
+myriad of ways to geocode and publish photos. The latest
+of which is geocoding from iPhoto reference photos.
+
+http://www.ugnn.com/2010/04/houdahgeo-2-5/
+
+-------------------------------------------------------------------
+
+10  GoodReader for iPad
+
+      On Friday, Good.iWare's iPad version of GoodReader was
+announced. It now offers full support for Apple's Document
+Sharing. GoodReader, which has toggled between the #1 and
+#2 overall best-selling iPad app, now offers two-way sharing
+of documents with other apps that support Document Sharing.
+
+http://www.ugnn.com/2010/04/goodreader-for-ipad/
+
+-------------------------------------------------------------------
+
+11  PrintCentral 1.2 for iPad
+
+      On Saturday, 4/17, EuroSmartz, the Apple' iPad & iPhone
+application development company, announced that hot on the
+heels of the release of the PrintCentral app two weeks ago,
+version 1.2 of the app contains major enhancements to the
+way users can handle documents both from within PrintCentral
+as well as from other apps.
+
+http://www.ugnn.com/2010/04/printcentral-1-2-for-ipad/
+
+-------------------------------------------------------------------
+
+12  Google Voice Explained
+
+      I have been a user of what is now Google Voice for several
+years. (Originally heard about it from David Pogue when it
+was called "Grand Central."
+
+http://www.ugnn.com/2010/04/google-voice-explained/
+
+-------------------------------------------------------------------
+
+13  FoodEssentials- iPhone App
+
+      By now, you have probably heard of Red Laser, which saves
+you money when shopping, but FoodEssentials is an app for
+improving your health.
+
+http://www.ugnn.com/2010/04/foodessentials-iphone-app/
+
+-------------------------------------------------------------------
+
+14  Speaking of threats
+
+      I got a FaceBook alert from a friend the other day, but it
+looked a little suspect. It said "Look at you in this video, ha, ha!"
+
+In the first place, she would never have written "ha, ha"
+-- and the second point, the URL lead to an unfamiliar domain.
+
+You did read my alert piece above, right? So, I immediately wrote
+her at her email address and alerted her that the FaceBook
+account had been compromised. A day later she wrote:
+
+   > I have been told by our IS department that this is a
+   >  very bad worm.  If you were also hijacked be sure to monitor
+   >  your credit card and banking accounts regularly.
+   >  Never click on any links in the future.  This has been a
+   >  vicious attack and they had to go back two weeks on my
+   > work pc and we still found at least 6 objects (Worm.Koobface)
+   > through Malwarebytes and Sybot scans.
+
+Need I say more?
+
+-------------------------------------------------------------------
+
+15  Quotes: All about simplicity
+
+Beauty of style and harmony and grace and good rhythm
+depend on simplicity.
+       -- Plato
+
+Everything should be made as simple as possible,
+but not simpler.
+       -- Albert Einstein
+
+-------------------------------------------------------------------
+
+14  For April 19, have a great week!
+
+      Remember, I invite all user groups to use this column in full
+or in pieces in your newsletter. Or add a link to their web site.
+
+         Pau
+
+See last week's InfoManager
+* http://www.ugnn.com/2010/04/infomanager-april-12/
+
+* Participate:
+    http://www.ugnn.com/post-your-article/
+   * Follow and Be Followed: http://twitter.com/UGNnet
+   * Subscribe:
+         http://dtgnews.com/mailman/listinfo/infomanager_dtgnews.com
+   -------------------------------------------------------------------
+
+   ** THE INFO MANAGER
+   A weekly column from the mice of Lynn Wegley and Fred Showker.
+
+   Lynn is a UGN veteran (AOL User Groups Forum) and User Group Network.
+He's been a supporter and volunteer on many, many UGNet and User
+Group Academy projects. As a long time user group member, he's
+been a volunteer from Honolulu to Boston and beyond.
+
+Currently working primarily the with the Cowtown MUG of Ft. Worth
+but also works with the Apple Corp of Dallas and is a lifetime
+member of TUMS the Tulsa Users of Macintosh Society).
+
+Fred has been user group guy since 1986, through the AOL
+UG Forumdays, then out onto the web.
+
+-------------------------------------------------------------------
+Copyright 2010, All Rights Reserved. Affiliate User Groups are
+granted permission to reprint the InfoManager column or excerpts
+thereof so long as proper credit is given, and a clearly
+stated web URL link to: http://www.UGNN.com
+
+Subscribe or Unsubscribe:
+http://dtgnews.com/mailman/listinfo/infomanager_dtgnews.com
+PLEASE NOTE:  If a link is disconnected due to your email client's
+wrapping of text, remove the return character or space separating
+the parts of the link and paste it into your browser.
+Thanks for reading! We'll leave the modem on for'ya!
+
+-------------------------------------------------------------------
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

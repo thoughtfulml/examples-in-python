@@ -1,0 +1,205 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d42d7d9120bf0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs203857wfa;
+        Tue, 6 Apr 2010 10:31:46 -0700 (PDT)
+Received: by 10.87.62.28 with SMTP id p28mr11546932fgk.16.1270575103304;
+        Tue, 06 Apr 2010 10:31:43 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si16650758fxm.37.2010.04.06.10.31.42;
+        Tue, 06 Apr 2010 10:31:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 77B1713A62FD; Tue,  6 Apr 2010 17:31:38 +0000 (UTC)
+Old-Return-Path: <smokejohn@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CB31E13A628C
+	for <lists-debian-kde@liszt.debian.org>; Tue,  6 Apr 2010 17:31:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QiRR43LGGZzz for <lists-debian-kde@liszt.debian.org>;
+	Tue,  6 Apr 2010 17:31:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f210.google.com (mail-fx0-f210.google.com [209.85.220.210])
+	by liszt.debian.org (Postfix) with ESMTP id 0AD0913A585E
+	for <debian-kde@lists.debian.org>; Tue,  6 Apr 2010 17:31:24 +0000 (UTC)
+Received: by fxm2 with SMTP id 2so127033fxm.30
+        for <debian-kde@lists.debian.org>; Tue, 06 Apr 2010 10:31:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=yx7Ps2vh2HYxwKDDGRlb6psarndntIz4TozIzBOTS8o=;
+        b=Tv7ICqap+PKSNfcE4sG/91D0oE/3OC2FeJ97TPF/n0Zx2hXsNajgg09pVmVNJ3Vu/0
+         fusLu2o2XmLzk8of1M0SU7OGueYzY83tWkbVVwBh7xeySTwoZIfEvsC73e2uyCmsfDpb
+         pEJhosI6m46isL7n1LHiXwhG/KGXBoUcYHwb4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=FaTVJiACXamVem48wLQ78cG0zrFzGvAtiIc/E3Me57MyRwdjJBwCoxfcgu0pgzI4WW
+         9seZHUDYZ20p0X5z1D/zwzo/JxQAt7E3GaxD3XPC4epQ4R++9IjAQ8loFGewX6XXvvGz
+         yJg7gyiwt/YTbk2rGFAaq1zKidnBFXSXrOwMI=
+MIME-Version: 1.0
+Received: by 10.223.108.2 with HTTP; Tue, 6 Apr 2010 10:31:19 -0700 (PDT)
+In-Reply-To: <n2l8f23146b1004061030g1a0c682ua29bafb491292c2a@mail.csmining.org>
+References: <4BBB62E7.9010208@csmining.org> <201004061857.46387.colonius@free.fr>
+	 <n2l8f23146b1004061030g1a0c682ua29bafb491292c2a@mail.csmining.org>
+Date: Tue, 6 Apr 2010 20:31:19 +0300
+Received: by 10.223.58.20 with SMTP id e20mr7583013fah.96.1270575079356; Tue, 
+	06 Apr 2010 10:31:19 -0700 (PDT)
+Message-ID: <v2y8f23146b1004061031i5e410c8dj686a5625f24e0f43@mail.csmining.org>
+Subject: Re: Cannot login
+From: Smokejohn <smokejohn@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=0015174768a243fa26048394d047
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <e1b34eJUamJ.A.HJH.6_2uLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31962
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 17:31:38 +0000 (UTC)
+
+--0015174768a243fa26048394d047
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Apr 6, 2010 at 7:57 PM, Klaus Becker <colonius@free.fr> wrote:
+
+> Le Mardi 06 Avril 2010 18:35:51, John Kapnogiannis a =E9crit :
+> > Hello there. I got a debian testing installation and I currently cannot
+> > login in kde. I give my pass and instead of a proper kde session I get
+> > kdm's login screen again. I haven't done any upgrade but I did a really
+> > stupid thing: I hit the power button and turn the laptop off the hard
+> > way while it was in suspend mode. I tried googling but it gave me no
+> > usefull things.
+> >
+> > The .xsession-errors file in my home folder says Permission denied. I
+> > checked the permissions in /tmp and /var/tmp and everything seems fine.
+> > I also deleted the .kde folder. Login in as root and typing startx open=
+s
+> > a kde session.
+> >
+> > Any ideas?
+> >
+> > PS: I did the instructions described in this page:
+> > https://developer.skype.com/jira/browse/SCL-510 in order to fix skype o=
+n
+> > me 64-bit installation, but I don't think it has something to do with m=
+y
+> > problem. I think something got wrong when I hit the power button. :(
+>
+> Hi,
+>
+> perhaps
+>
+> #chown -R john /home/john
+>
+> or any username you use ?
+>
+> If this does'nt work, you can try to create a new user and then cope all
+> your
+> files to /home/new-user.
+>
+>
+> Nope did not help. Adding a new user did not fix anything too. I tried
+login in a console and then startx and I got some errors about xkb not bein=
+g
+able to get initialized. Strange....  So the thing is that no user except
+the root can start a kde session.
+
+--0015174768a243fa26048394d047
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"im"><br><br><div class=3D"gmai=
+l_quote">On Tue, Apr 6, 2010 at 7:57 PM, Klaus Becker <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:colonius@free.fr" target=3D"_blank">colonius@free.fr</a>=
+&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+Le Mardi 06 Avril 2010 18:35:51, John Kapnogiannis a =E9crit :<br>
+<div><div></div><div>&gt; Hello there. I got a debian testing installation =
+and I currently cannot<br>
+&gt; login in kde. I give my pass and instead of a proper kde session I get=
+<br>
+&gt; kdm&#39;s login screen again. I haven&#39;t done any upgrade but I did=
+ a really<br>
+&gt; stupid thing: I hit the power button and turn the laptop off the hard<=
+br>
+&gt; way while it was in suspend mode. I tried googling but it gave me no<b=
+r>
+&gt; usefull things.<br>
+&gt;<br>
+&gt; The .xsession-errors file in my home folder says Permission denied. I<=
+br>
+&gt; checked the permissions in /tmp and /var/tmp and everything seems fine=
+.<br>
+&gt; I also deleted the .kde folder. Login in as root and typing startx ope=
+ns<br>
+&gt; a kde session.<br>
+&gt;<br>
+&gt; Any ideas?<br>
+&gt;<br>
+&gt; PS: I did the instructions described in this page:<br>
+&gt; <a href=3D"https://developer.skype.com/jira/browse/SCL-510" target=3D"=
+_blank">https://developer.skype.com/jira/browse/SCL-510</a> in order to fix=
+ skype on<br>
+&gt; me 64-bit installation, but I don&#39;t think it has something to do w=
+ith my<br>
+&gt; problem. I think something got wrong when I hit the power button. :(<b=
+r>
+<br>
+</div></div>Hi,<br>
+<br>
+perhaps<br>
+<br>
+#chown -R john /home/john<br>
+<br>
+or any username you use ?<br>
+<br>
+If this does&#39;nt work, you can try to create a new user and then cope al=
+l your<br>
+files to /home/new-user.<br>
+<br>
+<br>
+</blockquote></div></div>Nope did not help. Adding a new user did not fix a=
+nything too. I tried login in a console and then startx and I got some erro=
+rs about xkb not being able to get initialized. Strange....=A0 So the thing=
+ is that no user except the root can start a kde session.<br>
+
+</div><br>
+
+--0015174768a243fa26048394d047--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2y8f23146b1004061031i5e410c8dj686a5625f24e0f43@mail.csmining.org
+
+

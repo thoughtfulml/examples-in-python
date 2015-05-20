@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288d819306a4ef6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs3595wfo;
+        Wed, 12 May 2010 10:13:19 -0700 (PDT)
+Received: by 10.115.65.12 with SMTP id s12mr6107970wak.76.1273684398930;
+        Wed, 12 May 2010 10:13:18 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 36si456777pzk.124.2010.05.12.10.13.18;
+        Wed, 12 May 2010 10:13:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 949E91C765CD2
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 10:13:18 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8F9142798AFDB
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 10:13:18 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 11B812798AAA1
+	for <filesystem-dev@lists.apple.com>;
+	Wed, 12 May 2010 10:12:37 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 006ABD2A0A58
+	for <filesystem-dev@lists.apple.com>;
+	Wed, 12 May 2010 10:12:37 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-a3-4beae184b8d5
+Received: from mail.math.udel.edu (mail.math.udel.edu [128.175.16.195])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	28.80.05834.481EAEB4; Wed, 12 May 2010 10:12:36 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.math.udel.edu (Postfix) with ESMTP id ECF2D12F0D1C
+	for <filesystem-dev@lists.apple.com>;
+	Wed, 12 May 2010 13:12:35 -0400 (EDT)
+X-Virus-Scanned: amavisd-new at example.com
+Received: from mail.math.udel.edu ([127.0.0.1])
+	by localhost (mail.math.udel.edu [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id K9ZlI+EhOVXi for <filesystem-dev@lists.apple.com>;
+	Wed, 12 May 2010 13:12:35 -0400 (EDT)
+Received: from ripley.math.udel.edu (ripley.math.udel.edu [128.175.16.230])
+	by mail.math.udel.edu (Postfix) with ESMTP id 98EAD12F0D10
+	for <filesystem-dev@lists.apple.com>;
+	Wed, 12 May 2010 13:12:35 -0400 (EDT)
+From: Peter Schwenk <schwenk@math.udel.edu>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 12 May 2010 13:12:35 -0400
+Message-Id: <66A2B89C-68DF-45B7-A64E-98FECF17098F@math.udel.edu>
+To: filesystem-dev@lists.apple.com
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Subject: Any updated information to "FileID race detected" email thread?
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hello:
+
+I=92ve recently had a few users get new Snow Leopard machines.  They all =
+are having problems similar to those described in the =93FileID race =
+detected=94 (Jan 19, 2010) of this list.  I share home directories using =
+NFS (Mac OS X Server 10.5.8).  My Leopard clients do not exhibit this =
+behavior.
+
+The Snow Leopard clients are all patched up to 10.6.3.  I searched this =
+list and did not see any information indicating that this bug, alluded =
+to by Jim Luther (response to initial =93FileID race detected=94 posting =
+also on Jan 19, 2010), has been fixed by now.  Does anyone have some =
+concrete information about this bug?  Thanks a bunch for your help.
+
+--
+Peter Schwenk  ||  Campus IT Associate 3
+Mathematical Sciences  ||  University of Delaware
+Newark, DE  19716-2553  ||  (302) 831-0437 (v)
+schwenk @ math . udel . edu  ||  http://www.math.udel.edu/~schwenk
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

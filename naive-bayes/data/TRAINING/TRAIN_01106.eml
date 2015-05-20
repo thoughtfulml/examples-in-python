@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId128757b760726385
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs482986wfb;
+        Fri, 7 May 2010 18:15:46 -0700 (PDT)
+Received: by 10.223.92.154 with SMTP id r26mr878224fam.33.1273281345288;
+        Fri, 07 May 2010 18:15:45 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si3314599far.0.2010.05.07.18.15.44;
+        Fri, 07 May 2010 18:15:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 12F9813A4794; Sat,  8 May 2010 01:15:36 +0000 (UTC)
+Old-Return-Path: <dulist@noark.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.0 required=4.0 tests=COMPANYSYMBOLPRICE,GMAIL,
+	LDOSUBSCRIBER,LDO_WHITELIST,RERE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0EF2513A547E
+	for <lists-debian-user@liszt.debian.org>; Sat,  8 May 2010 01:15:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, COMPANYSYMBOLPRICE=3, GMAIL=1, LDO_WHITELIST=-5,
+	RERE=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 9mj68ZJFPjwm for <lists-debian-user@liszt.debian.org>;
+	Sat,  8 May 2010 01:15:22 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) HELO_IP_IN_CL_SUBNET=-1.2 (check from: .noark. - helo: .homiemail-a22.g.dreamhost. - helo-domain: .dreamhost.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -6.2
+Received: from homiemail-a22.g.dreamhost.com (caiajhbdcagg.dreamhost.com [208.97.132.66])
+	by liszt.debian.org (Postfix) with ESMTP id 94B5A13A544E
+	for <debian-user@lists.debian.org>; Sat,  8 May 2010 01:15:22 +0000 (UTC)
+Received: from [192.168.0.18] (102.237.dsl-dhcp.ytc.net [216.134.237.102])
+	(Authenticated sender: dlj_mailbox@noark.net)
+	by homiemail-a22.g.dreamhost.com (Postfix) with ESMTPA id BBA191A805F
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 18:15:18 -0700 (PDT)
+Message-ID: <4BE4BB25.6060004@noark.net>
+Date: Fri, 07 May 2010 20:15:17 -0500
+From: Don <dulist@noark.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.18) Gecko/20081030 Iceape/1.1.13 (Debian-1.1.13-1)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Re: Password messed up
+References: <pan.2010.05.07.08.38.23@csmining.org>
+In-Reply-To: <pan.2010.05.07.08.38.23@csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <B3EpJj4cn7I.A.YOD.4sL5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576193
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 01:15:36 +0000 (UTC)
+
+I posted this earlier today but did not see it come across in email, so 
+I am re-posting.  Excuse if this is a duplicate!  Thanks...
+
+-------- Original Message --------
+Subject: Re: Re: Password messed up
+Date: Fri, 07 May 2010 15:13:14 -0500
+From: Don <dulist@noark.net>
+To: debian-user@lists.debian.org
+References: <pan.2010.05.07.08.38.23@csmining.org>
+
+ > At login screen, jump to a tty console and login as root (or with your
+ > usual user). Then, run "startx" and check for the output.
+
+Thanks again for your reply Camaleón.
+
+I booted up and got the login GUI screen.  Then used the choice of
+console login, and using my usual user name, logged in with the CLI.
+Then run "startx" ... and lo and behold get my KDE4 main screen!
+
+So I conclude that the problem lies with the GUI KDE login.
+
+Although some might be interested in figuring out exactly the problem, I
+take on the role of a "user" here and wish to figure out how to make my
+system well again.  (Of course, anyone reading this who wants to delve
+into why this is happening, I'd assist.)
+
+If you, or anyone else, could tell me what I can try to do to fix
+things, I'd appreciate it.  I know I can do a clean install of
+everything, but I would be hopeful that less drastic things might work.
+  Any chance of fixing things by doing a reinstall or particular
+packages?  If so, not only telling me which packages to try, but also a
+little guidance with exactly *how* to do it would be appreciated.
+
+At least at this point, I can get back to most of my old system programs
+and data, so the urgency is abated.
+
+I want to throw one other thing in here, just in case it rings a bell or
+someone sees some relationship to this password/login problem.  I
+mentioned in my original post that I had other problems.  Back in March,
+just before my emergency 1-week residence in a hospital, I suddenly
+starting having problems with certain programs I regularly use (date was
+probably around March 14).  The programs I believe all use GTK.  Some
+are: iceape, synaptic, geany.  And here are the results when I try
+running them from the command line:
+
+don@kali:~$ sudo synaptic
+synaptic: symbol lookup error: /usr/lib/libgdk-x11-2.0.so.0: undefined
+symbol: g_malloc_n
+don@kali:~$ iceape
+/usr/lib/iceape/iceape-bin: symbol lookup error:
+/usr/lib/libgdk-x11-2.0.so.0: undefined symbol: g_malloc_n
+don@kali:~$ geany
+geany: symbol lookup error: /usr/lib/libgdk-x11-2.0.so.0: undefined
+symbol: g_malloc_n
+don@kali:~$
+
+Unless there is some relation to my password/login problem of this
+thread, I'll start a new thread with the above problem.
+
+Thanks, and if anyone has more ideas on fixing my password/login
+problem, please help!
+
+Regards,
+Don
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE4BB25.6060004@noark.net
+
+

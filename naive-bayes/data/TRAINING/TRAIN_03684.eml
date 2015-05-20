@@ -1,0 +1,133 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f21fdd9fff6df
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs147339wfo;
+        Mon, 12 Apr 2010 06:05:27 -0700 (PDT)
+Received: by 10.223.100.141 with SMTP id y13mr2745296fan.15.1271077526702;
+        Mon, 12 Apr 2010 06:05:26 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h2si8331058fkh.25.2010.04.12.06.05.26;
+        Mon, 12 Apr 2010 06:05:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6B2F12D0D39; Mon, 12 Apr 2010 13:05:24 +0000 (UTC)
+Old-Return-Path: <vandenberg_ra@hotmail.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.7 required=4.0 tests=FVGT_m_MULTI_ODD,
+	LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C113D13A51BE
+	for <lists-debian-kde@liszt.debian.org>; Mon, 12 Apr 2010 13:05:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.68 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Q+xpwRgKfQ4Z for <lists-debian-kde@liszt.debian.org>;
+	Mon, 12 Apr 2010 13:05:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.8
+X-Greylist: delayed 62 seconds by postgrey-1.31 at liszt; Mon, 12 Apr 2010 13:05:10 UTC
+Received: from bay0-omc2-s7.bay0.hotmail.com (bay0-omc2-s7.bay0.hotmail.com [65.54.190.82])
+	by liszt.debian.org (Postfix) with ESMTP id F1FB213A50DC
+	for <debian-kde@lists.debian.org>; Mon, 12 Apr 2010 13:05:10 +0000 (UTC)
+Received: from BAY110-DS16 ([65.54.190.125]) by bay0-omc2-s7.bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.3959);
+	 Mon, 12 Apr 2010 06:04:04 -0700
+X-Originating-IP: [134.58.253.57]
+X-Originating-Email: [vandenberg_ra@hotmail.com]
+Message-ID: <BAY110-DS169B20CF8BCA0A85EC138387120@phx.gbl>
+From: "Robert van den Berg" <vandenberg_ra@hotmail.com>
+To: <debian-kde@lists.debian.org>
+References: <o2g2fc5f091004111716oe078137dse05f0b82f4e519cc@mail.csmining.org> <hpv3bl$fjp$1@dough.gmane.org>
+In-Reply-To: <hpv3bl$fjp$1@dough.gmane.org>
+Subject: RE: Amarok's Issues
+Date: Mon, 12 Apr 2010 15:04:01 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcraOwZ5WBVriXWYSB+Dybtgo8fvJQABX88Q
+Content-Language: nl-be
+X-OriginalArrivalTime: 12 Apr 2010 13:04:04.0092 (UTC) FILETIME=[A09D83C0:01CADA40]
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <B5YQ3rBcGLM.A._DG.UqxwLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32025
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 12 Apr 2010 13:05:24 +0000 (UTC)
+
+
+
+-----Original Message-----
+From: Marcus Better [mailto:marcus@better.se] 
+Sent: maandag 12 april 2010 14:23
+To: debian-kde@lists.debian.org
+Subject: Re: Amarok's Issues
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Edson Marquezani Filho wrote:
+
+> I would like to know if people here have the same problems with Amarok
+> (Squeeze's version of it), as I do. I haven't looked for bugs filled
+> about it yet, but these issues have been annoying for time enough to
+> put me wondering if I'am the only who has been facing them.
+
+I've had other weird problems with the collection (like missing albums) 
+after an upgrade of Amarok. This was due to database corruption, and the fix
+
+was to nuke the database (somewhere under ~/.kde).
+
+Cheers,
+
+Marcus
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvDEKQACgkQXjXn6TzcAQleVgCfe1FbgnBz+meuuveGGHaHwWmW
+YzUAoIgxPWIrzc+8FcrKwu42+jb6RHbN
+=Uo2C
+-----END PGP SIGNATURE-----
+
+I do run with an external MySQL database.
+
+Cheers,
+
+Robert
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact
+listmaster@lists.debian.org
+Archive: http://lists.debian.org/hpv3bl$fjp$1@dough.gmane.org
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BAY110-DS169B20CF8BCA0A85EC138387120@phx.gbl
+
+

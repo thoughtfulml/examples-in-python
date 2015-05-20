@@ -1,0 +1,182 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285b90dd4adac0d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs197998wfj;
+        Sun, 2 May 2010 17:29:00 -0700 (PDT)
+Received: by 10.143.21.32 with SMTP id y32mr8528191wfi.60.1272846540244;
+        Sun, 02 May 2010 17:29:00 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 14si6516790pzk.102.2010.05.02.17.29.00;
+        Sun, 02 May 2010 17:29:00 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id DC6A51BE50EF8
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 17:28:59 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D3E2D2753AAD8
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 17:28:59 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id D4F672753AACC
+	for <augd@lists.apple.com>; Sun,  2 May 2010 17:28:57 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id C3B4CD7BBB74
+	for <augd@lists.apple.com>; Sun,  2 May 2010 17:28:57 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-ba-4bde18c9e259
+Received: from homiemail-a3.g.dreamhost.com (mailbigip.dreamhost.com
+	[208.97.132.5])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	7A.2D.15139.9C81EDB4; Sun,  2 May 2010 17:28:57 -0700 (PDT)
+Received: from [10.0.1.3] (c-98-235-193-116.hsd1.pa.comcast.net
+	[98.235.193.116])
+	by homiemail-a3.g.dreamhost.com (Postfix) with ESMTP id 891D7C5CDD
+	for <augd@lists.apple.com>; Sun,  2 May 2010 17:28:56 -0700 (PDT)
+From: "Chuck Joiner" <chuck@chuckjoiner.com>
+To: "Apple Discussion List" <augd@lists.apple.com>
+Date: Sun, 2 May 2010 20:26:14 -0400
+Message-Id: <20100503002614.1990543881@mail.chuckjoiner.com>
+X-Mailer: CTM PowerMail version 6.0.3 build 4609 English (intel)
+	<http://www.ctmdev.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAhPvtBwT8AJX
+Subject: AUGD: The MUG Center Briefing: May 2, 2010
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+May 2, 2010
+The MUG Center
+The Mac User Group Resource Site
+<http://www.mugcenter.com>
+
+
+CONTENTS:
+
+1 - The MUG Event Calendar for May 3: Bob "Dr. Mac" LeVitus, Aaron Davis
+of Apple Times Two, James Lee of Tropical Software, Dave Stillman and
+Peter Christenson of Strider Software, Canon and More
+
+2 - Global Delight Offers MUG Demos of Voila, Raffle Prizes and More
+
+3 - This Week on the MUG Event Calendar
+
+---------
+
+1 - The MUG Event Calendar for May 3: Bob "Dr. Mac" LeVitus, Aaron Davis
+of Apple Times Two, James Lee of Tropical Software, Dave Stillman and
+Peter Christenson of Strider Software, Canon and More
+<http://www.mugcenter.com/the-mug-event-calendar-for-may-3-bob-dr-mac-
+levitus-aaron-davis-of-apple-times-two-james-lee-of-tropical-software-
+dave-stillman-and-peter-christenson-of-strider-software-canon-and-more/>
+The MUG Event Calendar starts to heat up, right along with the weather
+in parts of the Northern Hemisphere, during the first week of May.
+
+Bob "Dr. Mac" LeVitus kicks off his annual Mid-Atlantic MUG Tour this
+week, with the first stop in Pennsylvania. Apple Systems Engineer Aaron
+Davis will deliver two MUG presentations, one in Virginia and one in
+Washington D.C. James Lee is on the list again, presenting to a Florida
+group, Dave Stillman and Peter Christensen of Strider Software will
+present TypeStyler to a California group, and representatives from Canon
+will visit a Texas group. (more)
+
+
+2 - Global Delight Offers MUG Demos of Voila, Raffle Prizes and More
+<http://www.mugcenter.com/global-delight-offers-mug-demos-of-voila-
+raffle-prizes-and-more/>
+The folks at Global Delight Technologies are offering a virtual
+presentation event of their screen capture software, Voila, to your Mac
+User Group. (more)
+
+
+3 - This week on The MUG Event Calendar
+<http://www.mugcenter.com/mug-event-calendar-may-2010/>
+
+Monday  3-May   
+ - Virginia Macintosh Users Group - Apple Systems Engineer Aaron Davis
+ - Stanford/Palo Alto Mac User Group - Google Social Apps
+ - Gold Coast Macintosh User Group (Australia) - Latest iPhone Apps La
+Di Da, Pano, Solve, Urban Spoon
+ - Wellington Macintosh Users Group (New Zealand) - Backing Up Your
+Valuable Files
+ - Sydney Macintosh Users Group (Australia) - Backup Strategies and Products
+
+Tuesday 4-May   
+ - South Louisiana Final Cut Pro Users Group - Canon 5D/7D Workflow
+ - Fresno Macintosh Users Group - EasyDraw; Making Music with Apple
+ - appleJAC - Mariner Paperless
+ - Mac2MUG - Avery DesignPro
+
+Wednesday   5-May  
+ - MacValley Macintosh Users Group - TypeStyler with Dave Stillman &
+Peter Christensen
+ - Chicago Macintosh Users Group - Cool Demos by Our Members
+ - ClubMac (Ireland) - Annual General Meeting & iPad
+ - Cape Cod Computer Society - Mini Media Center
+ - Fox Valley Macintosh Users Group - iMovie
+ - Alaskan Apple Users Group - iPad Panel; Nature Videographer Bill
+Rome; MacScan
+ - San Diego Macintosh Users Group - Exploring the iPad and
+Synchronizing with MobileMe
+ - Yale Macintosh Users Group - TBA
+
+Thursday    6-May  
+ - Englewood Area Mac User Group - James Lee of Tropical Software
+presents TopXNotes
+ - Kachemacs Macintosh User Group - Budget Image Editors for the Mac
+ - Silicon Mountain Macintosh User Group - iPad Presentation
+ - Bux-Mont Macintosh Users Group - TBA
+ - Bracknell-Forrest Mac Users Group (United Kingdom) - TBA
+
+=46riday  7-May   
+ -  Lawrence Apple Users' Group 2.0 - Power to the PDF
+
+Saturday    8-May  
+ - Main Line Macintosh Users Group - Bob "Dr. Mac" LeVitus Mid-Atlantic
+MUG Tour
+ - National Capital Apple Macintosh Users Group - Apple Systems Engineer
+Aaron Davis
+ - Las Vegas Macintosh Users Group - Keynote
+ - AppleCore of Dallas - Canon USA and "The State of the Industry"
+ - Mac Mavericks - Genealogy
+ - Transylvania Macintosh Users Group - Screenflow; iPad demo
+ - Huntsville Macintosh Users Group - TBA
+ - The Northwest of Us - TBA
+
+
+
+Thanks,
+
+---Chuck
+=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F
+
+Chuck Joiner
+Editor-In-Chief
+The MUG Center
+http://www.mugcenter.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

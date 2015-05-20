@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e7f81fa3b2b44
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs80584wfo;
+        Sat, 10 Apr 2010 06:45:50 -0700 (PDT)
+Received: by 10.87.63.1 with SMTP id q1mr2235459fgk.38.1270907149861;
+        Sat, 10 Apr 2010 06:45:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si5618350fxm.11.2010.04.10.06.45.49;
+        Sat, 10 Apr 2010 06:45:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 21BCD13A66BF; Sat, 10 Apr 2010 13:45:44 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=DNS_FROM_RFC_WHOIS,FOURLA,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7A36413A66B2
+	for <lists-debian-user@liszt.debian.org>; Sat, 10 Apr 2010 13:45:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Or6+nZqvt7hG for <lists-debian-user@liszt.debian.org>;
+	Sat, 10 Apr 2010 13:45:31 +0000 (UTC)
+Received: from eastrmmtao103.cox.net (eastrmmtao103.cox.net [68.230.240.9])
+	by liszt.debian.org (Postfix) with ESMTP id C2FD413A66A3
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 13:45:30 +0000 (UTC)
+Received: from eastrmimpo02.cox.net ([68.1.16.120])
+          by eastrmmtao103.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100410134528.MURN27114.eastrmmtao103.cox.net@eastrmimpo02.cox.net>
+          for <debian-user@lists.debian.org>;
+          Sat, 10 Apr 2010 09:45:28 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo02.cox.net with bizsmtp
+	id 3plS1e00J4dcMZy02plTBW; Sat, 10 Apr 2010 09:45:27 -0400
+X-VR-Score: -100.00
+X-Authority-Analysis: v=1.1 cv=lL4dQe6A0XfTYzqIbzpq/h+TkgPEjAvcHnuEPneVQrQ=
+ c=1 sm=1 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=InQY6s0GoRSFBB5OcXYA:9 a=G5MMGS8oOMgFhwqq4_IA:7
+ a=ajdIiEdr63qj4JS-2K4f6q3JocMA:4 a=wPNLvfGTeEIA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BC080F6.60005@cox.net>
+Date: Sat, 10 Apr 2010 08:45:26 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: About USB hard drives and errors
+References: <20100409004433.GA2823@big.lan.gnu> <4BC026CC.8000704@web.de>
+In-Reply-To: <4BC026CC.8000704@web.de>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0xv56tjOx8E.A.GHF.IEIwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573792
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 13:45:44 +0000 (UTC)
+
+On 2010-04-10 02:20, Clive McBarton wrote:
+> 
+> Paul E Condon wrote:>
+>> dumpe2fs -b <device> is supposed to print the bad blocks that have
+>> been marked on a device. When I run it, it prints nothing. I find it
+>> hard to believe that a 500GB HD contains ZERO bad blocks. 
+> 
+> Every HD that is even remotely close to being usable will always have
+> zero bad blocks when seen from outside the HD. All HDs have error
+> recognition and error correction and automatic replacement of faulty
+> sectors with spare ones. A HD will only show bad blocks after all of its
+> remapping area is used, at which point it is far beyond being usable.
+> 
+> In other words, scanning for bad blocks on a HD cannot work.
+> 
+> You can see the internal count of the remapped sectors with SMART, as
+> others have already pointed out here.
+
+Interesting.  So what is /badblocks/ for, and should it be removed 
+in order to remove useless complexity?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC080F6.60005@cox.net
+
+

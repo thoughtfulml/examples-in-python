@@ -1,0 +1,179 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a567a437255cc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs7667wfo;
+        Mon, 17 May 2010 01:35:59 -0700 (PDT)
+Received: by 10.227.156.139 with SMTP id x11mr4466984wbw.104.1274085352658;
+        Mon, 17 May 2010 01:35:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id l38si15590800wbe.24.2010.05.17.01.35.51;
+        Mon, 17 May 2010 01:35:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2DC8313A5C16; Mon, 17 May 2010 08:35:44 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 75D0213A581F
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 08:35:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id eBQAdX6nmD1P for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 08:35:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 2BC4513A57C2
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 08:35:31 +0000 (UTC)
+Received: by fxm15 with SMTP id 15so316802fxm.6
+        for <debian-user@lists.debian.org>; Mon, 17 May 2010 01:35:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=tpmDJFlM2i76VLVdYX6Z5iyK/EKHb5XaKZvDr1G3JeY=;
+        b=e536PgR8jvTvxVUDZwfcGwDxzh+zJ2H933FEmJgb4itcEuCnLmfphKQEboumVwTdD3
+         7eCSTM3E9D/S7Lr9xQxTyilMzP6rtJkTfXDgVsMR1rBZVhpsdD7ZQ66cIoFv9ALY/0k4
+         37QMXQjiDT/rTByJPICkU1fwFRu1z4lu3ee28=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=uI9K9ZMODbsZU5Jte/g+fiV0kQI+9uoqSQrBBV3Fhs+vFMsQFUjrQk8OV6pV/8MsqR
+         BTH9sTU0dwCzk4Ol0T6HRQD9kZLhkhmVLS4ds9JVg0D7+BH4QXfJ2MhctkNcJpB+ZEEv
+         XRPZwCGRbYvJ8pXmUnA20Mkr3sbC2WPxTJjKs=
+MIME-Version: 1.0
+Received: by 10.223.31.136 with SMTP id y8mr5898867fac.19.1274085326324; Mon, 
+	17 May 2010 01:35:26 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Mon, 17 May 2010 01:35:26 -0700 (PDT)
+In-Reply-To: <20100517050102.GA975@faust.net>
+References: <20100516215331.250C62D0EB2@liszt.debian.org>
+	 <20100517050102.GA975@faust.net>
+Date: Mon, 17 May 2010 10:35:26 +0200
+Message-ID: <AANLkTinf9jY7nu-EQXGSfWUJk3Zd7wYq0o1y3MEEBJ3k@mail.csmining.org>
+Subject: Re: Still can't read DVDs/CDs
+From: James Stuckey <jhstuckey@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0015174795f64a064a0486c61b7b
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Gn68DBxGw0P.A.AcB.g_P8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577014
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 08:35:44 +0000 (UTC)
+
+--0015174795f64a064a0486c61b7b
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Mon, May 17, 2010 at 7:01 AM, Zoran Kolic <zkolic@sbb.rs> wrote:
+
+> > > *What I'm doing to mount the media: *
+> > > root@debian:/home/stuckey# mount /dev/sr0
+> > > mount: block device /dev/sr0 is write-protected, mounting read-only
+> > > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+> > >        missing codepage or helper program, or other error
+> > >        (could this be the IDE device where you in fact use
+> > >        ide-scsi so that sr0 or sda or so is needed?)
+> > >        In some cases useful info is found in syslog - try
+> > >        dmesg | tail  or so
+> > Is this a data or audio CD (audio CDs can't be mounted, only played)? Is
+> > it possible to test with another OS on the same hardware?
+>
+> As another poster pointed, the device could be wrongly picked up.
+> Also, I'm not sure for udf, made on win. Best bet would be to
+> mount it by the hand, trying all devices out. Further, helps to use
+> dvd/cd that worked as a charm previously.
+> Do you noticed any change in /dev directory after inserting op-
+> tical media in the device?
+> Best regards
+>
+>                                 Zoran
+>
+>
+Sometimes I'll get "mount: no medium found on /dev/sr0" or it will mount, or
+it will give me the other error message I posted.
+
+I just put a disc in, tried to mount it three times, and got three different
+results. Now it is mounted and /dev looks like
+http://paste.debian.net/73572/
+
+Now I've taken the disc out and dev looks like:
+http://paste.debian.net/73573/
+
+They look the same to me.
+
+--0015174795f64a064a0486c61b7b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Mon, May 17, 2010 at 7:01 AM, Zoran K=
+olic <span dir=3D"ltr">&lt;<a href=3D"mailto:zkolic@sbb.rs">zkolic@sbb.rs</=
+a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"border-l=
+eft: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left:=
+ 1ex;">
+<div class=3D"im">&gt; &gt; *What I&#39;m doing to mount the media: *<br>
+&gt; &gt; root@debian:/home/stuckey# mount /dev/sr0<br>
+&gt; &gt; mount: block device /dev/sr0 is write-protected, mounting read-on=
+ly<br>
+&gt; &gt; mount: wrong fs type, bad option, bad superblock on /dev/sr0,<br>
+&gt; &gt; =A0 =A0 =A0 =A0missing codepage or helper program, or other error=
+<br>
+&gt; &gt; =A0 =A0 =A0 =A0(could this be the IDE device where you in fact us=
+e<br>
+&gt; &gt; =A0 =A0 =A0 =A0ide-scsi so that sr0 or sda or so is needed?)<br>
+&gt; &gt; =A0 =A0 =A0 =A0In some cases useful info is found in syslog - try=
+<br>
+&gt; &gt; =A0 =A0 =A0 =A0dmesg | tail =A0or so<br>
+&gt; Is this a data or audio CD (audio CDs can&#39;t be mounted, only playe=
+d)? Is<br>
+&gt; it possible to test with another OS on the same hardware?<br>
+<br>
+</div>As another poster pointed, the device could be wrongly picked up.<br>
+Also, I&#39;m not sure for udf, made on win. Best bet would be to<br>
+mount it by the hand, trying all devices out. Further, helps to use<br>
+dvd/cd that worked as a charm previously.<br>
+Do you noticed any change in /dev directory after inserting op-<br>
+tical media in the device?<br>
+Best regards<br>
+<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Zoran<br><=
+br></blockquote><div><br> Sometimes I&#39;ll get &quot;mount: no medium fou=
+nd on /dev/sr0&quot; or it will mount, or it will give me the other error m=
+essage I posted. <br><br>I just put a disc in, tried to mount it three time=
+s, and got three different results. Now it is mounted and /dev looks like <=
+a href=3D"http://paste.debian.net/73572/">http://paste.debian.net/73572/</a=
+><br>
+<br>Now I&#39;ve taken the disc out and dev looks like: <a href=3D"http://p=
+aste.debian.net/73573/">http://paste.debian.net/73573/</a><br><br>They look=
+ the same to me. <br><br><br><br><br></div></div>
+
+--0015174795f64a064a0486c61b7b--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinf9jY7nu-EQXGSfWUJk3Zd7wYq0o1y3MEEBJ3k@mail.csmining.org
+
+

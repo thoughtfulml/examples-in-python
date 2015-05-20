@@ -1,0 +1,125 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289846b1399e127
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs44218wfo;
+        Fri, 14 May 2010 12:24:50 -0700 (PDT)
+Received: by 10.223.53.91 with SMTP id l27mr2181646fag.0.1273865089287;
+        Fri, 14 May 2010 12:24:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u3si6573799fan.80.2010.05.14.12.24.48;
+        Fri, 14 May 2010 12:24:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 81D932D0DEC; Fri, 14 May 2010 19:24:43 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=DNS_FROM_RFC_WHOIS,FOURLA,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F07B02D0DE7
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 19:24:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id k9sRWnLcA8gX for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 19:24:30 +0000 (UTC)
+Received: from eastrmmtao106.cox.net (eastrmmtao106.cox.net [68.230.240.48])
+	by liszt.debian.org (Postfix) with ESMTP id 3C83E2D0D68
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 19:24:30 +0000 (UTC)
+Received: from eastrmimpo02.cox.net ([68.1.16.120])
+          by eastrmmtao106.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100514192428.PPTE26523.eastrmmtao106.cox.net@eastrmimpo02.cox.net>
+          for <debian-user@lists.debian.org>;
+          Fri, 14 May 2010 15:24:28 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo02.cox.net with bizsmtp
+	id HXPz1e00A4dcMZy02XQ0V5; Fri, 14 May 2010 15:24:00 -0400
+X-VR-Score: -110.00
+X-Authority-Analysis: v=1.1 cv=aULFgNpA2FocahsKo8+v7SODIG/QbULPhZLHKS4UqaY=
+ c=1 sm=1 a=6Sr0ymt2OEMA:10 a=ADBQPqJMlbwA:10 a=8nJEP1OIZ-IA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:17 a=_F2sX6b92j091LhfI_oA:9
+ a=zRG3gyrh0OwwRCbJN1O4msLx-WQA:4 a=wPNLvfGTeEIA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BEDA36A.4040303@cox.net>
+Date: Fri, 14 May 2010 14:24:26 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: PDF grief - was Re: Flash is open?
+References: <20100513193147.0466ac73.celejar@csmining.org>	 <pan.2010.05.14.06.52.05@csmining.org> <1273835658.16485.8.camel@localhost>	 <4BED34A1.8040203@cox.net> <1273862435.16485.18.camel@localhost>
+In-Reply-To: <1273862435.16485.18.camel@localhost>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <46giVjWJU1C.A.JLE.7Na7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576825
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 19:24:43 +0000 (UTC)
+
+On 05/14/2010 01:40 PM, John A. Sullivan III wrote:
+> On Fri, 2010-05-14 at 06:31 -0500, Ron Johnson wrote:
+>> On 05/14/2010 06:14 AM, John A. Sullivan III wrote:
+>>> On Fri, 2010-05-14 at 06:52 +0000, Camaleón wrote:
+>>> <snip>
+>>>> Look at PDF. PDF became a ISO/IEC standard but we (at linux) still lack
+>>>> for a PDF editor that can compete with Acrobat Professional.
+>>> <snip>
+>>> That comment really strikes home.  We are working on a potential major
+>>> Windows desktop replacement project.  The two things that are absolutely
+>>> killing us are email and a viable substitute for Acrobat Standard.  We
+>>> can roughly mimic everything Acrobat does
+>>
+>> Forms, you mean?
+> No, editing the PDF file, e.g., adding text, stamps, markups.
+
+But, but, but... you're not *supposed* to edit PDF files!
+
+>>>                                             but only with create
+>>> complexity, taking ten times longer to get it done, using several
+>>> applications in the process, having less than comparable results, and
+>>> making the process detestable to the end users who wonder why would
+>>> anyone give up Windows for this.  There are couple of admirable efforts
+>>> out there but they have a very, very long way to go - John
+>>>
+>>
+>> Disable internet access and they can't get infected by malware.
+> Not something that will sell the solution.  They can run their business
+> with the distraction of malware and the expense of malware solutions.
+> They can't run their business if the functionality is missing with no
+> viable workaround.  Editing a page at a time in GIMP, editing a page at
+
+You miss my point: leave them on Windows and disable internet access.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEDA36A.4040303@cox.net
+
+

@@ -1,0 +1,122 @@
+X-Account-Key: account5
+X-UIDL: GmailId128143dcd9a9c8b1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs7499wfj;
+        Sun, 18 Apr 2010 21:05:15 -0700 (PDT)
+Received: by 10.150.117.42 with SMTP id p42mr5532145ybc.77.1271649914182;
+        Sun, 18 Apr 2010 21:05:14 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 27si14046641iwn.70.2010.04.18.21.05.13;
+        Sun, 18 Apr 2010 21:05:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id AA2011BAE5E48
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 21:05:13 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A591326ECCA71
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 21:05:13 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 4344126ECC870
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 21:04:54 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 32C65D05E1DA
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 21:04:54 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-00-4bcbd666e5e7
+Authentication-Results: mail-in12.apple.com
+	x-tls.subject="/C=US/ST=California/L=San
+	Jose/O=Cisco/OU=EMS/CN=sj-iport-4.cisco.com/emailAddress=ems-duty@cisco.com";
+	auth=fail (cipher=RC4-SHA)
+Received: from sj-iport-4.cisco.com (sj-iport-4.cisco.com [171.68.10.86])
+	(using TLS with cipher RC4-SHA (RC4-SHA/128 bits))
+	(Client CN "sj-iport-4.cisco.com", Issuer "Cisco SSCA" (not verified))
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	8D.D5.25880.666DBCB4; Sun, 18 Apr 2010 21:04:54 -0700 (PDT)
+Authentication-Results: sj-iport-4.cisco.com;
+	dkim=neutral (message not signed) header.i=none
+X-IronPort-AntiFiltered: true
+X-IronPort-AntiResult: AvsEAA9zy0urR7Ht/2dsb2JhbACbdXGhLJh3hRAEgzI
+X-IronPort-AV: E=Sophos;i="4.52,233,1270425600"; d="scan'208";a="117171790"
+Received: from sj-core-1.cisco.com ([171.71.177.237])
+	by sj-iport-4.cisco.com with ESMTP; 19 Apr 2010 04:04:53 +0000
+Received: from cisco.com (pita.cisco.com [171.71.177.199])
+	by sj-core-1.cisco.com (8.13.8/8.14.3) with ESMTP id o3J44rPI028190;
+	Mon, 19 Apr 2010 04:04:53 GMT
+Received: from localhost (localhost [127.0.0.1])
+	by cisco.com (8.8.8-Cisco List Logging/8.8.8) with ESMTP id VAA26088;
+	Sun, 18 Apr 2010 21:03:08 -0700 (PDT)
+Date: Sun, 18 Apr 2010 21:03:08 -0700 (PDT)
+From: Mike Thornburg <mthorn@cisco.com>
+To: Jeremy Huddleston <jeremyhu@apple.com>
+In-Reply-To: <5986D43C-57E9-4DF3-8DA5-9705B1C3B2D8@apple.com>
+Message-ID: <Pine.GSO.4.63.1004182046500.4522@pita.cisco.com>
+References: <543587.87903.qm@web55604.mail.re4.yahoo.com>
+	<FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+	<460333.63537.qm@web55608.mail.re4.yahoo.com>
+	<20100418.095448.252095907.hanche@math.ntnu.no>
+	<944345.33232.qm@web55601.mail.re4.yahoo.com>
+	<A6E290FA-B555-4377-9308-433E28FD24FC@mac.com>
+	<631726.36063.qm@web55606.mail.re4.yahoo.com>
+	<5986D43C-57E9-4DF3-8DA5-9705B1C3B2D8@apple.com>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: X11-users@lists.apple.com,
+	Harald Hanche-Olsen <hanche@math.ntnu.no>
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Sun, 18 Apr 2010, Jeremy Huddleston wrote:
+
+> On Apr 18, 2010, at 10:06, Pierre Baguis wrote:
+>
+>> I tried to logout and it made no difference. Rebooting solved the issue.
+>>
+>> In the other machine where I installed XQuartz, not even a logout was necessary. Everything went smoothly and the update was applied right away.
+>
+> I suspect something else was going on outside of X11... the symptoms you were describing were very odd and not something a reboot would effect in X11.
+>
+
+This is exactly the problem I saw when I updated X11 to 2.5.0 (mouse 
+button 2 sends Leave/Notify instead of ButtonPress or ButtonRelease), and 
+as a matter of fact I went so far as to open a ticket on it.  It was 
+marked invalid a short while later when I reported that the problem went 
+away with a reboot.
+
+<http://xquartz.macosforge.org/trac/ticket/369>
+
+Since that ticket was closed, I have seen the same problem on a second 
+system running 10.5.8 (a PowerBook G4 15").  A reboot also solved the 
+problem on the second system.  Unfortunately I haven't seen the problem 
+appear again on either of my two systems, so I can't offer any help in 
+root causing it.
+
+Mike
+-- 
+Mike Thornburg
+mthorn@cisco.com
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

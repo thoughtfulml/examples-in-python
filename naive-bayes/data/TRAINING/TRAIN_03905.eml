@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId128061e9785f2713
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs17589wfj;
+        Fri, 16 Apr 2010 03:16:29 -0700 (PDT)
+Received: by 10.223.67.141 with SMTP id r13mr652581fai.6.1271412987534;
+        Fri, 16 Apr 2010 03:16:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si3309170fks.42.2010.04.16.03.16.26;
+        Fri, 16 Apr 2010 03:16:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A007E13A5C7B; Fri, 16 Apr 2010 10:16:21 +0000 (UTC)
+Old-Return-Path: <jmtd@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-17.3 required=4.0 tests=ALL_TRUSTED,FOURLA,
+	LDOSUBSCRIBER,LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0536613A5C79
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 10:16:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-13.7 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id YE-dgNkm6jiN for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 10:16:10 +0000 (UTC)
+Received: from forelli.alcopop.org (a.slice.of.chocolate-doom.org [IPv6:2002:51ab:2e8c::2])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id CA2F213A5ADB
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 10:16:08 +0000 (UTC)
+Received: from janus-nat-128-240-225-120.ncl.ac.uk ([128.240.225.120] helo=[10.64.64.42])
+	by forelli.alcopop.org with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <jmtd@debian.org>)
+	id 1O2iaj-0004Dh-6t
+	for debian-user@lists.debian.org; Fri, 16 Apr 2010 11:16:05 +0100
+Message-ID: <4BC838D7.9070904@debian.org>
+Date: Fri, 16 Apr 2010 11:15:51 +0100
+From: Jon Dowland <jmtd@debian.org>
+Organization: debian.org
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20091109)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Boot / LVM best practices
+References: <4BC17813.6080302@cajuninc.com>	<4BC1AF63.3060208@hardwarefreak.com> <4BC4461B.2030801@debian.org>	<4BC489D1.60308@cox.net> <jwvtyrdlw3c.fsf-monnier+gmane.linux.debian.user@gnu.org> <4BC6378A.5050700@cox.net>
+In-Reply-To: <4BC6378A.5050700@cox.net>
+X-Enigmail-Version: 0.95.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig7C8B7A394D223DA821A76747"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <j8ve19EkopP.A.wFC.1jDyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574247
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 10:16:21 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig7C8B7A394D223DA821A76747
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 14/04/10 Ron Johnson wrote:
+> That is correct.  No RAID protects against user stupidity.=20
+
+In my personal experience, user stupidity (even my own) is as common a
+cause of data loss as hardware failure.
+
+
+--=20
+Jon Dowland
+
+
+--------------enig7C8B7A394D223DA821A76747
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvIONwACgkQFotOcXAy8jj4awCcC0fwxyBrs/PXJNDaWSF/RXRy
+ooUAoL1UgwfC3NE/nzyvCT2p6ilpzS7M
+=XNVo
+-----END PGP SIGNATURE-----
+
+--------------enig7C8B7A394D223DA821A76747--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC838D7.9070904@debian.org
+
+

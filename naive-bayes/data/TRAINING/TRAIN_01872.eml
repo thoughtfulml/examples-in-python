@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d240fb3012840
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs178790wfa;
+        Tue, 6 Apr 2010 01:33:47 -0700 (PDT)
+Received: by 10.223.29.135 with SMTP id q7mr6838328fac.30.1270542826452;
+        Tue, 06 Apr 2010 01:33:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si15125190fxm.37.2010.04.06.01.33.45;
+        Tue, 06 Apr 2010 01:33:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7EC422D0EEB; Tue,  6 Apr 2010 08:33:39 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 954A82D0DD9
+	for <lists-debian-user@liszt.debian.org>; Tue,  6 Apr 2010 08:33:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dUsf1ILNhszJ for <lists-debian-user@liszt.debian.org>;
+	Tue,  6 Apr 2010 08:33:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 418A92D0EEB
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 08:33:20 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id CB69415D80D9
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 10:33:14 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hjygCC2B8DmU for <debian-user@lists.debian.org>;
+	Tue,  6 Apr 2010 10:33:14 +0200 (CEST)
+Received: from [132.229.227.77] (brood.lorentz.leidenuniv.nl [132.229.227.77])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 45BB91568565
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 10:33:14 +0200 (CEST)
+Message-ID: <4BBAF1C4.7040203@lorentz.leidenuniv.nl>
+Date: Tue, 06 Apr 2010 10:33:08 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.8.1.21) Gecko/20090318 Lightning/0.9 Thunderbird/2.0.0.21 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: horrible mc colorscheme
+References: <hpddmv$2a7$1@dough.gmane.org> <hpdlgp$ucl$1@dough.gmane.org> <4BBA959F.7060906@cox.net> <201004052122.55466.anonymous.jondoe@csmining.org> <4BBAACDF.4020905@cox.net>
+In-Reply-To: <4BBAACDF.4020905@cox.net>
+X-Enigmail-Version: 0.95.6
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig89C232D0E21B9B95FC5FECB6"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Wii8SlV1juB.A.NNB.jHvuLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573416
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 08:33:39 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig89C232D0E21B9B95FC5FECB6
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson schreef:
+> On 2010-04-05 22:22, Matthew Moore wrote:
+>> On Monday April 5 2010 7:59:59 pm Ron Johnson wrote:
+>>> On 2010-04-05 16:42, Thilo Six wrote:
+>>>> but still
+>>>> it's unix style to use the right tool for the right task.
+>>> You're correct: bash is the right tool for the job.
+>>
+>> Heresy! zsh is *always* the right tool for the job. As a corollary, if=
+=20
+>> zsh is not the right tool for the job, then it is not, in fact, a job.=
+
+>>
+>=20
+> Linux (and Unix, for that matter) does not have the concept of the "job=
+"
+>=20
+> Business-oriented operating systems (like OpenVMS, MVS/OS, OS/400 and=20
+> other legacy systems) do, but any operating system without a batch queu=
+e=20
+> (which is, naturally, to where you submit jobs) can not have "jobs".
+Then please file a bug report to rename the inaptly named "jobs" command
+
+Sjoerd
+
+
+--------------enig89C232D0E21B9B95FC5FECB6
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.7 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLuvHKHKEdNPY5OOURAgXhAKDRSATEnTHPZeHDfdY3QcLA7u+dSACfWOXw
+yvCS8AugN6PlCqD/5eDuwKo=
+=LCEy
+-----END PGP SIGNATURE-----
+
+--------------enig89C232D0E21B9B95FC5FECB6--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBAF1C4.7040203@lorentz.leidenuniv.nl
+
+

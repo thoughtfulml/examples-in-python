@@ -1,0 +1,570 @@
+X-Account-Key: account5
+X-UIDL: GmailId128acc482d6d779c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs24860wfo;
+        Tue, 18 May 2010 11:54:40 -0700 (PDT)
+Received: by 10.223.144.77 with SMTP id y13mr8576137fau.86.1274208879648;
+        Tue, 18 May 2010 11:54:39 -0700 (PDT)
+Return-Path: <bounce-debian-news=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h4si16405514fai.43.2010.05.18.11.54.39;
+        Tue, 18 May 2010 11:54:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-news=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-news=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-news=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6EE2213A511C; Tue, 18 May 2010 18:53:57 +0000 (UTC)
+Old-Return-Path: <tolimar@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.4 required=4.0 tests=ALL_TRUSTED,FOURLA,
+	FVGT_m_MULTI_ODD,HEADER_SPAM,IMPRONONCABLE_1,IMPRONONCABLE_2,LDOSUBSCRIBER,
+	LDO_WHITELIST,MDO_BAD_WORD1,MURPHY_DRUGS_REL8,MURPHY_WRONG_WORD2,
+	SARE_HEAD_HDR_APPROV autolearn=no version=3.2.5
+X-Original-To: lists-debian-news@liszt.debian.org
+Delivered-To: lists-debian-news@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C138813A504A
+	for <lists-debian-news@liszt.debian.org>; Tue, 18 May 2010 18:53:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+X-AmavisStatus: No, score=0.553 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1,
+	FVGT_m_MULTI_ODD=0.02, HEADER_SPAM=3.396, IMPRONONCABLE_1=1,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MDO_BAD_WORD1=2.8,
+	MURPHY_DRUGS_REL8=0.02, MURPHY_WRONG_WORD2=0.2,
+	SARE_HEAD_HDR_APPROV=0.817] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id J93+PHV4VBDo for <lists-debian-news@liszt.debian.org>;
+	Tue, 18 May 2010 18:53:43 +0000 (UTC)
+Received: from melusine.alphascorpii.net (cl-961.dus-01.de.sixxs.net [IPv6:2a01:198:200:3c0::2])
+	by liszt.debian.org (Postfix) with ESMTP id E1C9913A5111
+	for <debian-news@lists.debian.org>; Tue, 18 May 2010 18:53:42 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by melusine.alphascorpii.net (Postfix) with ESMTP id 8251087F22A
+	for <debian-news@lists.debian.org>; Tue, 18 May 2010 20:53:40 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at melusine.alphascorpii.net
+Received: from melusine.alphascorpii.net ([127.0.0.1])
+	by localhost (melusine.alphascorpii.net [127.0.0.1]) (amavisd-new, port 10026)
+	with LMTP id dHLS0zHc3PxJ for <debian-news@lists.debian.org>;
+	Tue, 18 May 2010 20:53:37 +0200 (CEST)
+Received: by melusine.alphascorpii.net (Postfix, from userid 1001)
+	id 46AE187F222; Tue, 18 May 2010 20:53:37 +0200 (CEST)
+Date: Tue, 18 May 2010 20:53:37 +0200
+From: Alexander Reichle-Schmehl <tolimar@debian.org>
+To: debian-news@lists.debian.org
+Subject: Debian Project News - May 18th, 2010
+Message-ID: <20100518185336.GX3233@melusine.alphascorpii.net>
+Mail-Followup-To: debian-news@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-15
+Content-Disposition: inline
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <F9HRaSgmR9E.A.UnG.FJu8LB@liszt>
+Resent-From: debian-news@lists.debian.org
+X-Mailing-List: <debian-news@lists.debian.org> archive/latest/457
+X-Loop: debian-news@lists.debian.org
+List-Id: <debian-news.lists.debian.org>
+List-Post: <mailto:debian-news@lists.debian.org>
+List-Help: <mailto:debian-news-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-news-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-news-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-news-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 18:53:57 +0000 (UTC)
+
+------------------------------------------------------------------------
+The Debian Project                                http://www.debian.org/
+Debian Project News                    debian-publicity@lists.debian.org
+May 18th, 2010                   http://debian.org/News/project/2010/03/
+------------------------------------------------------------------------
+
+Welcome to this year's third issue of DPN, the newsletter for the Debian
+community. Topics covered in this issue include:
+
+  * DebConf10 update
+  * Squeeze freeze
+  * Debian-Ubuntu relationship
+  * Debian installation media and non-free firmware
+  * ... and much more.
+
+
+DebConf10 update
+----------------
+
+Deadlines are looming for DebConf10 - some have already passed. For
+example, the last day to submit a BoF (Birds of a Feather) talk has come
+and gone. There is still lots you can do for DebConf10 however including
+volunteering time, lending equipment, and even donating money. Sponsors
+and donors are needed to help defray the costs of holding DebConf10 as
+Raphael Geissert wrote on his blog [6].
+
+   6 : http://my.opera.com/atomo64/blog/2010/05/04/debconf10-needs-your-help
+
+Joey Hess also blogged about DebConf10 [7] saying "Let us get you to
+DebConf -- I promise you won't regret it!" There is still time (you have
+until the 15th of May) to contact Joey about this year's special funding
+to get you to DebConf10.
+
+   7 : http://kitenet.net/~joey/blog/entry/Sponsoring_non-regulars_for_DebConf10/
+
+
+Squeeze freeze
+--------------
+
+Adam Barratt and the release team sent out an update on the status of
+transitions, Release Critical bugs and a Timeline of the Squeeze freeze.
+In short, we have a way to go before Squeeze is frozen and it is
+difficult for the release team to estimate when Squeeze will get frozen.
+Adam writes "In order to help us keep a clearer picture of which changes
+still need to occur before we can freeze, we will be introducing a
+'transition freeze' before the end of this month. If you have not yet
+discussed your transition with the Release Team, please ensure that you
+have done so before May 21st."
+
+The release team is already working on some transitions now, like Qt4
+and gnome-desktop, which are finished. The KDE team is working on KDE
+4.4 with the goal of having as up-to-date and stable version of the KDE
+suite as is possible. To quote Adam: "We're also close to completing the
+evince / totem-pl-parser transition, which means we're well on the way
+to have GNOME 2.30 in Squeeze."
+
+"Even though the descending slope of theRC bug graph [8] is pretty
+impressive [2], we still have about 400 RC bugs in Squeeze. Some of them
+are waiting for packages to transition from unstable to testing, but
+there's still a large number which need working on. On this every DD can
+help out by NMUing packages which are currently affected by RC bugs.
+Please remember that releasing is a collective effort and it is not
+enough to just have your own packages RC-bug free (although it's a good
+start) to be able to release. So, if you can help, please choose an RC
+bug [9], fix it :-) and NMU it, possibly to the DELAYED queue so that
+the maintainer can react if needed."
+
+   8 : http://bugs.debian.org/release-critical/
+   9 : http://bugs.debian.org/release-critical/debian/all.html
+
+
+Debian-Ubuntu relationship
+--------------------------
+
+Being invited to the recent Ubuntu Developer Summit, Debian Project
+Leader Stefano Zacchiroli gathered feedback [10] and examples about the
+relationship between the two projects. Most interesting where of course
+success stories, "epic fails" and requests from the Debian Project at
+large to the Ubuntu community. Later he posted a link to his slided [11]
+(a video is also available [12]) also containing some figures, e.g. that
+roughly 75% of all packages in Ubuntu are taken without further patches
+directly from Debian. Stefano later posted a summary of his talk [13]
+and the feedback he got.
+
+   10 : http://lists.debian.org/debian-project/2010/05/msg00083.html
+   11 : http://upsilon.cc/~zack/stuff/debian-uds-m.pdf
+   12 : http://blip.tv/file/3622104
+   13 : http://lists.debian.org/debian-project/2010/05/msg00084.html
+
+
+Debian installation media and non-free firmware
+-----------------------------------------------
+
+With Debian's Kernel Team moving firmware files (binary data needed for
+some hardware like network interface cards) in separate packages in
+Debian's non-free section, Kurt Roeckx wondered [14], if that approach
+could lead to usage problems especially during installation and if these
+files should be added to the installation media. Several people pointed
+out, that the debian installation system already supports loading
+firmware [15] from a separate installation media, e.g. a USB stick. That
+however would still be to complicate for many users or use cases (e.g.
+remote installation). In the end Steve Langasek proposed [16] to offer
+normal installation media without non-free firmware files and an easy to
+use tool, which would add the distributable non-free firmware files to
+the installation media image.
+
+   14 : http://lists.debian.org/20100505162955.GA17250@roeckx.be
+   15 : http://www.debian.org/releases/lenny/i386/ch06s04.html
+   16 : http://lists.debian.org/debian-project/2010/05/msg00081.html
+
+
+Other news
+----------
+
+The 22nd issue of the miscellaneous news for developers [17] has been
+released and covers the following topics:
+
+   17 : http://lists.debian.org/debian-devel-announce/2010/05/msg00006.html
+
+
+  * LWN subscriptions
+  * ubuntudiff.debian.net
+  * TXT records on debian.net
+  * Debian Sysadmin Team seeks for help
+  * Receive Ubuntu bugs by mail via PTS
+
+mips* porter Andreas Barth gave a status update [18] about the mips and
+mipsel ports [19]. While the situation for mipsel have been improved
+dramatically, the situation for mips remains unchanged [20].
+
+   18 : http://lists.debian.org/debian-devel-announce/2010/05/msg00005.html
+   19 : http://www.debian.org/ports/mips/
+   20 : http://lists.debian.org/debian-devel-announce/2010/04/msg00010.html
+
+Debian System Administrator Martin Zobel-Helas announced [21] a new
+version of the "Debian Machine Usage Policies" becoming effective on
+July 04th, 2010.  The DMUP basically covers what Debian Developers may
+or may not do with their accounts on debian.org hardware. The change was
+necessary to clarify responsibilities between the Debian System
+Administrators and the Debian Account Managers.
+
+   21 : http://lists.debian.org/debian-devel-announce/2010/05/msg00001.html
+
+Debian New Maintainer Frontdesk Member Enrico Zini reminded [22]
+Developers on how to properly advocate applicants for the new maintainer
+process. While advocation message don't need to be cumbersome and long,
+he highlights that only persons, who already have actively contributed
+to Debian should be advocated.
+
+   22 : http://lists.debian.org/debian-devel-announce/2010/05/msg00003.html
+
+Debian System Administrator Peter Palfrader welcomed some volunteers for
+maintaining porter chroot environments [23] on different architectures.
+He also gave some guidelines on how developers should request
+installation of packages in these chroot environments.
+
+   23 : http://lists.debian.org/debian-devel-announce/2010/05/msg00002.html
+
+Bdale Garbee bloged about sponsored LWN subscriptions [24] where HP [25]
+sponsors the subscription fee to access LWN.net [26] for Debian
+Developers and - just recently introduced - for Debian Maintainers. He
+also noted, that currently 571 Debian Contributors use this service.
+
+   24 : http://www.gag.com/bdale/blog/posts/Debian_and_LWN.html
+   25 : http://www.hp.com/go/linux
+   26 : http://lwn.net/
+
+Debian System Administrator Peter Palfrader asked [27] that all bug
+reports concerning the removal of undistributable packages should also
+be sent to the maintainers of the snapshot.debian.org [28] service.
+
+   27 : http://lists.debian.org/debian-devel-announce/2010/05/msg00004.html
+   28 : http://snapshot.debian.org/
+
+Sune Vuorela, member of the KDE package maintenance team, wondered if
+distribution specific tools [29] are missing for Debian.
+
+   29 : http://pusling.com/blog/?p=163
+
+Martin Michlmayr announced the availability of a Debian 5.0 [30] "Lenny"
+installation system for Marvell's Kirkwood based systems like
+the SheevaPlug [31] or the QNAP TS-11x/TS-21x [32].
+
+   30 : http://www.cyrius.com/journal/debian/kirkwood/lenny-installer
+   31 : http://www.cyrius.com/debian/kirkwood/sheevaplug/
+   32 : http://www.cyrius.com/debian/kirkwood/qnap/
+
+Jan Dittberner added [33] links to UbuntuDiff, piuparts and patch
+tracker to the Debian Developer Portfolio Service [34].
+
+   33 : http://www.dittberner.info/en/content/small-update-debian-developer-portfolio-service
+   34 : http://ddportfolio.debian.net/
+
+Stefano Zacchiroli co-authored a paper introducing the The Ultimate
+Debian Database [35] a collection of several data sources to scientists
+doing data mining on software repositories.
+
+   35 : http://upsilon.cc/~zack/blog/posts/2010/05/UDD_-_consolidating_bazaar_metadata_for_QA_and_data_mining/
+
+
+New Developers and Maintainers
+------------------------------
+
+9 applicants have been accepted [36] as Debian Developers and 6
+applicants have been [37] accepted [38] as Debian Maintainer since the
+previous issue of the Debian Project News. Please welcome Deepak
+Tripathi, Daniel Nurmi, Paul Gevers, Thomas Goirand, Pino Toscano, Johan
+Euphrosine, Kanru Chen, Mikhail Gusarov, Obey Arthur Liu, Thierry
+Soloniaina Randrianiriana, Ritesh Sarraf, Tommi Vainikainen, Thomas
+Weber, Hideki Yamane and Serafeim Zanikolas into our project!
+
+   36 : http://lists.debian.org/E1OBGLq-0004Fc-16@merkel.debian.org
+   37 : http://lists.debian.org/E1OE0zH-0008Py-VZ@ries.debian.org
+   38 : http://lists.debian.org/E1ODk88-0001Je-3Q@ries.debian.org
+
+
+Release-critical bugs statistics for the upcoming release
+---------------------------------------------------------
+
+According to the unofficial RC-bugs count [39], the upcoming release,
+Debian 6.0 "Squeeze", is currently affected by 370 release critical
+bugs. 72 of them have already been fixed in Debian's "unstable" branch.
+Of the remaining 298 release critical bugs, 37 already have a patch
+(which might need testing) and 20 are marked as pending.
+
+   39 : http://bts.turmzimmer.net/details.php
+
+Ignoring these bugs as well as release critical bugs for packages in
+contrib or non-free, 180 release critical bugs remain to be solved for
+the release to happen.
+
+
+
+Important Debian Security Advisories
+------------------------------------
+
+Debian's Security Team recently released advisories for these packages
+(among others): mediawiki [40], iscsitarget [41], vlc [42], mplayer [43]
+and phpgroupware [44]. Please read them carefully and take the proper
+measures.
+
+   40 : http://www.debian.org/security/2010/dsa-2041
+   41 : http://www.debian.org/security/2010/dsa-2042
+   42 : http://www.debian.org/security/2010/dsa-2043
+   43 : http://www.debian.org/security/2010/dsa-2044
+   44 : http://www.debian.org/security/2010/dsa-2046
+
+Please note that these are a selection of the more important security
+advisories of the last weeks. If you need to be kept up to date about
+security advisories released by the Debian Security Team, please
+subscribe to the security mailing list [45] for announcements.
+
+   45 : http://lists.debian.org/debian-security-announce/
+
+
+New and noteworthy packages
+---------------------------
+
+The following packages were added to the unstable Debian archive
+recently (among others [46]):
+
+   46 : http://packages.debian.org/unstable/main/newpkg
+
+  * akonadiconsole -- the Management and Debugging Console for Akonadi [47]
+  * asciio -- dynamically create ASCII charts and graphs with GTK+2 [48]
+  * astk -- Code_Aster build/control system and front-end -- Tcl client [49]
+  * blogilo -- blogging client based on the KDE Platform [50]
+  * cantor -- interface for mathematical applications [51]
+  * chordii -- Text file (chordpro format) to music sheet converter [52]
+  * chromium-browser -- Chromium browser [53]
+  * cmospwd -- decrypt BIOS passwords from CMOS [54]
+  * coffeescript -- interpreter and compiler for the CoffeeScript language [55]
+  * dh-autoreconf -- debhelper add-on to call autoreconf and clean up after the build [56]
+  * ditaa -- convert ASCII diagrams into proper bitmap graphics [57]
+  * ecm -- prepares CD image files so they compress better [58]
+  * eiskaltdcpp -- EiskaltDC++ is graphical client for Direct Connect [59]
+  * emerillon -- map viewer for the GNOME desktop [60]
+  * etsf-io -- Binary tools to check, merge and read ETSF files [61]
+  * fso-specs -- freesmartphone.org DBus XML specification & documentation [62]
+  * gnome-color-manager -- Color management integration for the Gnome desktop environment [63]
+  * gnome-icon-theme-extras -- GNOME Desktop icon theme (additional icons) [64]
+  * google-mock -- Google's framework for writing and using C++ mock classes [65]
+  * granatier -- Bomberman clone [66]
+  * iputils-clockdiff -- Measure the time difference between networked computers [67]
+  * jbig2dec -- JBIG2 decoder library - tools [68]
+  * jedit -- A plugin-based editor for programmers [69]
+  * kbluetooth -- KDE Bluetooth Framework [70]
+  * kde-config-cddb -- KDE CDDB Retrieval configuration [71]
+  * kde-config-cron -- program scheduler frontend [72]
+  * kde-config-phonon-xine -- advanced Phonon Xine configuration [73]
+  * kde-l10n-cavalencia -- Southern Catalan (Valencian) (ca@valencia) files for KDE [74]
+  * kde-l10n-eo -- Esperanto (eo) localization files for KDE [75]
+  * kde-l10n-id -- Indonesian (id) localization files for KDE [76]
+  * kde-l10n-si -- Sinhala (si) localization files for KDE [77]
+  * kdelibs5-plugins -- core plugins for KDE Applications [78]
+  * kdevelop-l10n-cavalencia -- Southern Catalan (Valencian) (ca@valencia) files for the KDevelop IDE [79]
+  * kdevelop-l10n-da -- Danish (da) localization files for the KDevelop IDE [80]
+  * kdevelop-l10n-de -- German (de) localization files for the KDevelop IDE [81]
+  * kdevelop-l10n-engb -- British English (en_GB) localization files for the KDevelop IDE [82]
+  * kdevelop-l10n-es -- Spanish (es) localization files for the KDevelop IDE [83]
+  * kdevelop-l10n-et -- Estonian (et) localization files for the KDevelop IDE [84]
+  * kdevelop-l10n-fr -- French (fr) localization files for the KDevelop IDE [85]
+  * kdevelop-l10n-gl -- Galician (gl) localization files for the KDevelop IDE [86]
+  * kdevelop-l10n-it -- Italian (it) localization files for the KDevelop IDE [87]
+  * kdevelop-l10n-nds -- Low Saxon (nds) localization files for the KDevelop IDE [88]
+  * kdevelop-l10n-ptbr -- Brazilian Portugese (pt_BR) localization files for the KDevelop IDE [89]
+  * kdevelop-l10n-pt -- Portugese (pt) localization files for the KDevelop IDE [90]
+  * kdevelop-l10n-sv -- Swedish (sv) localization files for the KDevelop IDE [91]
+  * kdevelop-l10n-tr -- Turkish (tr) localization files for the KDevelop IDE [92]
+  * kdevelop-l10n-uk -- Ukrainian (uk) localization files for the KDevelop IDE [93]
+  * kdevelop-l10n-zhcn -- Chinese Simplified (zh_CN) localization files for the KDevelop IDE [94]
+  * kdevelop-l10n-zhtw -- Chinese Traditional (zh_TW) localization files for the KDevelop IDE [95]
+  * kdoctools -- various tools for accessing application documentation [96]
+  * kigo -- Open-source implementation of the popular Go game [97]
+  * llvm-2.7 -- Low-Level Virtual Machine (LLVM) [98]
+  * mailavenger -- Highly configurable, MTA-independent SMTP filter server [99]
+  * marble-plugins -- plugins for Marble [100]
+  * mongodb-clients -- An object/document-oriented database (client apps) [101]
+  * mongodb-server -- An object/document-oriented database (server package) [102]
+  * ojs -- Journal management and publishing system [103]
+  * olpc-kbdshim -- OLPC XO keyboard support daemon [104]
+  * olpc-powerd -- OLPC XO power management support daemon [105]
+  * opticalraytracer -- A virtual lens design workshop [106]
+  * php-textile -- PHP parser for the Textile markup [107]
+  * plasma-desktop -- The KDE Plasma workspace for desktop and laptop computers [108]
+  * plasma-netbook -- The KDE Plasma workspace for netbook computers [109]
+  * ploader -- Application to upload your pictures to your Piwigo gallery [110]
+  * posterazor -- splits an image into multiple sheets for assembly into a poster [111]
+  * psi-plus-icons -- Icons for Psi+ [112]
+  * psi-plus-skins -- Skins for Psi+ [113]
+  * python-django-countries -- provides a country field for Django models [114]
+  * python-django-djblets -- Re-usable components for Django projects [115]
+  * python-django-markupfield -- custom Django field for easy use of markup in text fields [116]
+  * python-flask -- micro web framework based on Werkzeug, Jinja2 and good intentions [117]
+  * python-nids -- Python binding for libnids (aka pynids) [118]
+  * python-prctl -- Python interface to the prctl() syscall [119]
+  * python-prctl -- Python interface to the prctl() syscall [120]
+  * python-xklavier -- Python binding for libxklavier, a X Keyboard Extension API [121]
+  * rabbitvcs-cli -- Command line interface for RabbitVCS [122]
+  * rabbitvcs-gedit -- Gedit extension for RabbitVCS [123]
+  * rabbitvcs-nautilus -- Nautilus extension for RabbitVCS [124]
+  * rocs -- graph theory IDE [125]
+  * shiboken -- CPython bindings generator for C++ libraries [126]
+  * skrooge -- personal finance manager for KDE [127]
+  * sylph-searcher -- Full-text search program for Sylpheed or MH folders [128]
+  * tempest-for-eliza -- demostrate electromagnetic emissions from computer systems [129]
+  * torque-client -- command line interface to Torque server [130]
+  * torque-client-x11 -- GUI for torque clients [131]
+  * torque-scheduler -- scheduler part of Torque [132]
+  * torque-server -- PBS-derived batch processing server [133]
+  * totem-plugin-arte -- A totem plugin to watch streams from arte.tv [134]
+  * trac-icalviewplugin -- Provides iCalendar feeds for ticket queries [135]
+  * vala-dbus-binding-tool -- Vala binding-generator for xml introspection files [136]
+  * vowpal-wabbit -- fast and scalable online learning algorithm [137]
+  * xul-ext-monkeysphere -- Iceweasel/Firefox extension for using Monkeysphere on the web [138]
+  * yorick-mira -- optical intreferometry image reconstruction within Yorick [139]
+
+   47 : http://packages.debian.org/unstable/main/akonadiconsole
+   48 : http://packages.debian.org/unstable/main/asciio
+   49 : http://packages.debian.org/unstable/main/astk
+   50 : http://packages.debian.org/unstable/main/blogilo
+   51 : http://packages.debian.org/unstable/main/cantor
+   52 : http://packages.debian.org/unstable/main/chordii
+   53 : http://packages.debian.org/unstable/main/chromium-browser
+   54 : http://packages.debian.org/unstable/main/cmospwd
+   55 : http://packages.debian.org/unstable/main/coffeescript
+   56 : http://packages.debian.org/unstable/main/dh-autoreconf
+   57 : http://packages.debian.org/unstable/main/ditaa
+   58 : http://packages.debian.org/unstable/main/ecm
+   59 : http://packages.debian.org/unstable/main/eiskaltdcpp
+   60 : http://packages.debian.org/unstable/main/emerillon
+   61 : http://packages.debian.org/unstable/main/etsf-io
+   62 : http://packages.debian.org/unstable/main/fso-specs
+   63 : http://packages.debian.org/unstable/main/gnome-color-manager
+   64 : http://packages.debian.org/unstable/main/gnome-icon-theme-extras
+   65 : http://packages.debian.org/unstable/main/google-mock
+   66 : http://packages.debian.org/unstable/main/granatier
+   67 : http://packages.debian.org/unstable/main/iputils-clockdiff
+   68 : http://packages.debian.org/unstable/main/jbig2dec
+   69 : http://packages.debian.org/unstable/main/jedit
+   70 : http://packages.debian.org/unstable/main/kbluetooth
+   71 : http://packages.debian.org/unstable/main/kde-config-cddb
+   72 : http://packages.debian.org/unstable/main/kde-config-cron
+   73 : http://packages.debian.org/unstable/main/kde-config-phonon-xine
+   74 : http://packages.debian.org/unstable/main/kde-l10n-cavalencia
+   75 : http://packages.debian.org/unstable/main/kde-l10n-eo
+   76 : http://packages.debian.org/unstable/main/kde-l10n-id
+   77 : http://packages.debian.org/unstable/main/kde-l10n-si
+   78 : http://packages.debian.org/unstable/main/kdelibs5-plugins
+   79 : http://packages.debian.org/unstable/main/kdevelop-l10n-cavalencia
+   80 : http://packages.debian.org/unstable/main/kdevelop-l10n-da
+   81 : http://packages.debian.org/unstable/main/kdevelop-l10n-de
+   82 : http://packages.debian.org/unstable/main/kdevelop-l10n-engb
+   83 : http://packages.debian.org/unstable/main/kdevelop-l10n-es
+   84 : http://packages.debian.org/unstable/main/kdevelop-l10n-et
+   85 : http://packages.debian.org/unstable/main/kdevelop-l10n-fr
+   86 : http://packages.debian.org/unstable/main/kdevelop-l10n-gl
+   87 : http://packages.debian.org/unstable/main/kdevelop-l10n-it
+   88 : http://packages.debian.org/unstable/main/kdevelop-l10n-nds
+   89 : http://packages.debian.org/unstable/main/kdevelop-l10n-ptbr
+   90 : http://packages.debian.org/unstable/main/kdevelop-l10n-pt
+   91 : http://packages.debian.org/unstable/main/kdevelop-l10n-sv
+   92 : http://packages.debian.org/unstable/main/kdevelop-l10n-tr
+   93 : http://packages.debian.org/unstable/main/kdevelop-l10n-uk
+   94 : http://packages.debian.org/unstable/main/kdevelop-l10n-zhcn
+   95 : http://packages.debian.org/unstable/main/kdevelop-l10n-zhtw
+   96 : http://packages.debian.org/unstable/main/kdoctools
+   97 : http://packages.debian.org/unstable/main/kigo
+   98 : http://packages.debian.org/unstable/main/llvm-2.7
+   99 : http://packages.debian.org/unstable/main/mailavenger
+   100 : http://packages.debian.org/unstable/main/marble-plugins
+   101 : http://packages.debian.org/unstable/main/mongodb-clients
+   102 : http://packages.debian.org/unstable/main/mongodb-server
+   103 : http://packages.debian.org/unstable/main/ojs
+   104 : http://packages.debian.org/unstable/main/olpc-kbdshim
+   105 : http://packages.debian.org/unstable/main/olpc-powerd
+   106 : http://packages.debian.org/unstable/main/opticalraytracer
+   107 : http://packages.debian.org/unstable/main/php-textile
+   108 : http://packages.debian.org/unstable/main/plasma-desktop
+   109 : http://packages.debian.org/unstable/main/plasma-netbook
+   110 : http://packages.debian.org/unstable/main/ploader
+   111 : http://packages.debian.org/unstable/main/posterazor
+   112 : http://packages.debian.org/unstable/main/psi-plus-icons
+   113 : http://packages.debian.org/unstable/main/psi-plus-skins
+   114 : http://packages.debian.org/unstable/main/python-django-countries
+   115 : http://packages.debian.org/unstable/main/python-django-djblets
+   116 : http://packages.debian.org/unstable/main/python-django-markupfield
+   117 : http://packages.debian.org/unstable/main/python-flask
+   118 : http://packages.debian.org/unstable/main/python-nids
+   119 : http://packages.debian.org/unstable/main/python-prctl
+   120 : http://packages.debian.org/unstable/main/python-prctl
+   121 : http://packages.debian.org/unstable/main/python-xklavier
+   122 : http://packages.debian.org/unstable/main/rabbitvcs-cli
+   123 : http://packages.debian.org/unstable/main/rabbitvcs-gedit
+   124 : http://packages.debian.org/unstable/main/rabbitvcs-nautilus
+   125 : http://packages.debian.org/unstable/main/rocs
+   126 : http://packages.debian.org/unstable/main/shiboken
+   127 : http://packages.debian.org/unstable/main/skrooge
+   128 : http://packages.debian.org/unstable/main/sylph-searcher
+   129 : http://packages.debian.org/unstable/main/tempest-for-eliza
+   130 : http://packages.debian.org/unstable/main/torque-client
+   131 : http://packages.debian.org/unstable/main/torque-client-x11
+   132 : http://packages.debian.org/unstable/main/torque-scheduler
+   133 : http://packages.debian.org/unstable/main/torque-server
+   134 : http://packages.debian.org/unstable/main/totem-plugin-arte
+   135 : http://packages.debian.org/unstable/main/trac-icalviewplugin
+   136 : http://packages.debian.org/unstable/main/vala-dbus-binding-tool
+   137 : http://packages.debian.org/unstable/main/vowpal-wabbit
+   138 : http://packages.debian.org/unstable/main/xul-ext-monkeysphere
+   139 : http://packages.debian.org/unstable/main/yorick-mira
+
+Work-needing packages
+---------------------
+
+Currently 607 packages are orphaned and 120 packages are up for
+adoption.  Please take a look at the recent [140] reports [141] to see
+if there are packages you are interested in or view the complete list of
+packages which need your help [142].
+
+   140 : http://lists.debian.org/E1OCilA-0001ft-ME@merkel.debian.org
+   141 : http://lists.debian.org/E1OABQP-0004Lu-Nq@merkel.debian.org
+   142 : http://www.debian.org/devel/wnpp/help_requested
+
+
+Want to continue reading DPN?
+-----------------------------
+
+Please help us create this newsletter. We still need more volunteer
+writers to watch the Debian community and report about what is going on.
+Please see the contributing page [143] to find out how to help. We're
+looking forward to receiving your mail at
+debian-publicity@lists.debian.org [144].
+
+   143 : http://wiki.debian.org/ProjectNews/HowToContribute
+   144 : mailto:debian-publicity@lists.debian.org
+
+
+
+This issue of Debian Project News was edited by Jeremiah C. Foster and
+Alexander Reichle-Schmehl [145].
+
+   145 : mailto:debian-publicity@lists.debian.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-news-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100518185336.GX3233@melusine.alphascorpii.net
+
+

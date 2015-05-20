@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285e7eb68aaad0f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs224044wfj;
+        Mon, 3 May 2010 07:08:03 -0700 (PDT)
+Received: by 10.87.15.13 with SMTP id s13mr10333432fgi.48.1272895682369;
+        Mon, 03 May 2010 07:08:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si8940214fka.14.2010.05.03.07.08.01;
+        Mon, 03 May 2010 07:08:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 220A013A4691; Mon,  3 May 2010 14:07:56 +0000 (UTC)
+Old-Return-Path: <dburrows@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 476E413A4595
+	for <lists-debian-user@liszt.debian.org>; Mon,  3 May 2010 14:07:49 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dSXwA5QfBYE2 for <lists-debian-user@liszt.debian.org>;
+	Mon,  3 May 2010 14:07:42 +0000 (UTC)
+Received: from algebraicthunk.net (algebraicthunk.net [67.207.130.13])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 2B2B713A4466
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 14:07:42 +0000 (UTC)
+Received: from c-76-104-234-217.hsd1.wa.comcast.net ([76.104.234.217] helo=emurlahn.burrows.local)
+	by algebraicthunk.net with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <dburrows@debian.org>)
+	id 1O8wJ9-00078Z-2H
+	for debian-user@lists.debian.org; Mon, 03 May 2010 07:07:39 -0700
+Date: Mon, 3 May 2010 07:07:37 -0700
+From: Daniel Burrows <dburrows@debian.org>
+To: "List: debian-user" <debian-user@lists.debian.org>
+Subject: Re: aptitude in lenny: cmdline queueing of packages
+Message-ID: <20100503140737.GB14980@emurlahn.burrows.local>
+References: <20100501021442.GB3019@esterhazy>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20100501021442.GB3019@esterhazy>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <TJJIiJuwIWN.A.QMC.8it3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575761
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 14:07:56 +0000 (UTC)
+
+On Fri, Apr 30, 2010 at 09:14:43PM -0500, Brian Ryans <brian.l.ryans@csmining.org> was heard to say:
+> In Aptitude, I can execute queued package modification orders (install,
+> remove, etc) by use of 'aptitude install', with no arguments.
+> 
+> How does one queue packages using only the command line? I'm looking to
+> duplicate the following sequence done in the curses UI:
+> 
+> sudo aptitude
+> /* browse package lists, find desired pkgs to install */
+> Q
+> 
+> Standard information sources (README, usd/aptitude, etc) were no-go as
+> to getting the information.
+> 
+> Any pointers would be appreciated.
+
+  Add --schedule-only to the command-line.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100503140737.GB14980@emurlahn.burrows.local
+
+

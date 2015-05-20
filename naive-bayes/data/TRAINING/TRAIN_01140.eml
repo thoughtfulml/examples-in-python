@@ -1,0 +1,292 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d6f8293c92706
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs7734wfi;
+        Tue, 6 Apr 2010 23:32:21 -0700 (PDT)
+Received: by 10.86.239.8 with SMTP id m8mr12832011fgh.62.1270621939971;
+        Tue, 06 Apr 2010 23:32:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 28si23167623fxm.8.2010.04.06.23.32.19;
+        Tue, 06 Apr 2010 23:32:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4383113A60EF; Wed,  7 Apr 2010 06:32:11 +0000 (UTC)
+Old-Return-Path: <alex@samad.com.au>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.9 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A9C1613A60D8
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 06:32:04 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id tm7MR0ZkEQs2 for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 06:31:57 +0000 (UTC)
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id ED0B613A60D0
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 06:31:56 +0000 (UTC)
+Received: by gya1 with SMTP id 1so418393gya.6
+        for <debian-user@lists.debian.org>; Tue, 06 Apr 2010 23:31:49 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.143.198 with HTTP; Tue, 6 Apr 2010 23:31:48 -0700 (PDT)
+In-Reply-To: <875011336.1550981270605358122.JavaMail.root@md01.wow.synacor.com>
+References: <20100406225346.GA14732@alex-mini.samad.com.au>
+	 <875011336.1550981270605358122.JavaMail.root@md01.wow.synacor.com>
+Date: Wed, 7 Apr 2010 16:31:48 +1000
+Received: by 10.101.130.2 with SMTP id h2mr17697830ann.75.1270621908541; Tue, 
+	06 Apr 2010 23:31:48 -0700 (PDT)
+Message-ID: <r2g836a6dcf1004062331z61507077ra3443d198a75288c@mail.csmining.org>
+Subject: Re: how to control tty to external monitor or local lcd
+From: Alexander Samad <alex@samad.com.au>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016369205a880b65704839fb74e
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dW5GaFYyG8F.A.xEF.rbCvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573487
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 06:32:11 +0000 (UTC)
+
+--0016369205a880b65704839fb74e
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Wed, Apr 7, 2010 at 11:55 AM, Stephen Powell <zlinuxman@wowway.com>wrote:
+
+> On Tue, 6 Apr 2010 18:53:46 -0400 (EDT), Alex Samad wrote:
+> >
+> > Okay a couple of things, I thing we are talking similiar and dissimiliar
+> > things.
+> >
+> >
+> > turn on laptop - not connected to ext monitor
+> > loads debian
+> > starts gdm
+> > login
+> > connect to external monitor
+> > use xrandr to move screen to ext monitor
+> > close lid on laptop
+> > use alt+ctrl+f1 to get to tty1
+> >
+> > the ext monitor stays on the X screen and the laptop monitors goes to
+> > the tty - but the lid is closed, I want to move the tty to the ext
+> > monitor
+> >
+> > hope that clears it up...
+>
+> How can you use Ctrl+Alt+F1 to switch to virtual terminal number 1 if the
+> lid is closed?  Are you using an external keyboard as well as an external
+> monitor?  You never mentioned that.
+>
+
+yep external keyboard - does that make a difference !
+
+
+>
+> I have an IBM ThinkPad 600.  Here's what I do:
+>
+> (1) While the laptop is powered off, I connect the external monitor.
+> I do not connect an external keyboard.
+>
+> (2) I power on the external monitor, then I power on the laptop.
+>
+> (3) As soon as possible during the boot process, usually after "LILO"
+> has been written to the screen but before the timeout occurs to
+> boot the default kernel (which for me is a four-second window),
+> I use Fn+F7 on the internal keyboard to switch to the external monitor.
+>
+
+I don;t need to do that, my laptop autoamically picks the external monitor
+if the lid is closed - on boot up
+
+
+>
+> (4) By the time the kernel boots, the display is on the external
+> monitor for the text-mode portion of the boot.
+>
+> (5) When gdm starts, the graphical console also displays on the
+> external monitor.
+>
+> (6) When I use Ctrl+Alt+F1 on the *internal* keyboard, without
+> closing the lid, the display switches to virtual terminal 1 on
+> the external monitor.
+>
+> (7) When I use Alt+F7 to switch back to the graphical console,
+> the display stays on the external monitor.
+>
+
+yep this doesn't work on mine, plus I want to do it from software. I would
+like a xrandr for the console if such a thing exists
+
+
+>
+> I don't have your hardware, but I would assume that some function
+> is provided on your laptop to do what Fn+F7 does on mine.
+>
+> When I do things this way, the X server picks a decent vertical
+> refresh rate (about 75 Hz) for my CRT-based external monitor.
+> I leave the lid open and use the internal keyboard for everything.
+> The internal display is black from the moment I press Fn+F7 the
+> one and only time.  I leave the lid open and I use the internal
+> keyboard for everything.  Everything, text mode virtual terminals
+> and the graphical X server, stays on the external monitor.
+>
+> HTH
+>
+> --
+>  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+>  : :'  :
+>  `. `'`
+>   `-
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/875011336.1550981270605358122.JavaMail.root@md01.wow.synacor.com
+>
+>
+
+--0016369205a880b65704839fb74e
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Wed, Apr 7, 2010 at 11:55 AM, Stephen=
+ Powell <span dir=3D"ltr">&lt;<a href=3D"mailto:zlinuxman@wowway.com">zlinu=
+xman@wowway.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" =
+style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8=
+ex; padding-left: 1ex;">
+<div class=3D"im">On Tue, 6 Apr 2010 18:53:46 -0400 (EDT), Alex Samad wrote=
+:<br>
+&gt;<br>
+&gt; Okay a couple of things, I thing we are talking similiar and dissimili=
+ar<br>
+&gt; things.<br>
+&gt;<br>
+&gt;<br>
+&gt; turn on laptop - not connected to ext monitor<br>
+&gt; loads debian<br>
+&gt; starts gdm<br>
+&gt; login<br>
+&gt; connect to external monitor<br>
+&gt; use xrandr to move screen to ext monitor<br>
+&gt; close lid on laptop<br>
+&gt; use alt+ctrl+f1 to get to tty1<br>
+&gt;<br>
+&gt; the ext monitor stays on the X screen and the laptop monitors goes to<=
+br>
+&gt; the tty - but the lid is closed, I want to move the tty to the ext<br>
+&gt; monitor<br>
+&gt;<br>
+&gt; hope that clears it up...<br>
+<br>
+</div>How can you use Ctrl+Alt+F1 to switch to virtual terminal number 1 if=
+ the<br>
+lid is closed? =A0Are you using an external keyboard as well as an external=
+<br>
+monitor? =A0You never mentioned that.<br></blockquote><div><br>yep external=
+ keyboard - does that make a difference !<br>=A0</div><blockquote class=3D"=
+gmail_quote" style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0p=
+t 0pt 0pt 0.8ex; padding-left: 1ex;">
+
+<br>
+I have an IBM ThinkPad 600. =A0Here&#39;s what I do:<br>
+<br>
+(1) While the laptop is powered off, I connect the external monitor.<br>
+I do not connect an external keyboard.<br>
+<br>
+(2) I power on the external monitor, then I power on the laptop.<br>
+<br>
+(3) As soon as possible during the boot process, usually after &quot;LILO&q=
+uot;<br>
+has been written to the screen but before the timeout occurs to<br>
+boot the default kernel (which for me is a four-second window),<br>
+I use Fn+F7 on the internal keyboard to switch to the external monitor.<br>=
+</blockquote><div><br>I don;t need to do that, my laptop autoamically picks=
+ the external monitor if the lid is closed - on boot up<br>=A0<br></div>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+<br>
+(4) By the time the kernel boots, the display is on the external<br>
+monitor for the text-mode portion of the boot.<br>
+<br>
+(5) When gdm starts, the graphical console also displays on the<br>
+external monitor.<br>
+<br>
+(6) When I use Ctrl+Alt+F1 on the *internal* keyboard, without<br>
+closing the lid, the display switches to virtual terminal 1 on<br>
+the external monitor.<br>
+<br>
+(7) When I use Alt+F7 to switch back to the graphical console,<br>
+the display stays on the external monitor.<br></blockquote><div><br>yep thi=
+s doesn&#39;t work on mine, plus I want to do it from software. I would lik=
+e a xrandr for the console if such a thing exists<br>=A0<br></div><blockquo=
+te class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, 204, 204)=
+; margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+
+<br>
+I don&#39;t have your hardware, but I would assume that some function<br>
+is provided on your laptop to do what Fn+F7 does on mine.<br>
+<br>
+When I do things this way, the X server picks a decent vertical<br>
+refresh rate (about 75 Hz) for my CRT-based external monitor.<br>
+I leave the lid open and use the internal keyboard for everything.<br>
+The internal display is black from the moment I press Fn+F7 the<br>
+one and only time. =A0I leave the lid open and I use the internal<br>
+keyboard for everything. =A0Everything, text mode virtual terminals<br>
+and the graphical X server, stays on the external monitor.<br>
+<br>
+HTH<br>
+<div class=3D"im"><br>
+--<br>
+ =A0.&#39;&#39;`. =A0 =A0 Stephen Powell =A0 =A0&lt;<a href=3D"mailto:zlinu=
+xman@wowway.com">zlinuxman@wowway.com</a>&gt;<br>
+=A0: :&#39; =A0:<br>
+=A0`. `&#39;`<br>
+ =A0 `-<br>
+<br>
+<br>
+--<br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-user-REQUEST@lists.debian=
+.org">debian-user-REQUEST@lists.debian.org</a><br>
+with a subject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mail=
+to:listmaster@lists.debian.org">listmaster@lists.debian.org</a><br>
+</div>Archive: <a href=3D"http://lists.debian.org/875011336.155098127060535=
+8122.JavaMail.root@md01.wow.synacor.com" target=3D"_blank">http://lists.deb=
+ian.org/875011336.1550981270605358122.JavaMail.root@md01.wow.synacor.com</a=
+><br>
+
+<br>
+</blockquote></div><br>
+
+--0016369205a880b65704839fb74e--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2g836a6dcf1004062331z61507077ra3443d198a75288c@mail.csmining.org
+
+

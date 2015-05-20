@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a839b6955a940
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs34666wfo;
+        Mon, 17 May 2010 14:44:35 -0700 (PDT)
+Received: by 10.223.27.151 with SMTP id i23mr6980643fac.104.1274132674293;
+        Mon, 17 May 2010 14:44:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si13983622fas.51.2010.05.17.14.44.33;
+        Mon, 17 May 2010 14:44:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4634813A4CDB; Mon, 17 May 2010 21:44:28 +0000 (UTC)
+Old-Return-Path: <spida@spida.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A02FF13A4AB9
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 21:44:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id jeXHaqNgSY9h for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 21:44:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 1921 seconds by postgrey-1.31 at liszt; Mon, 17 May 2010 21:44:15 UTC
+Received: from spinnennetz.org (ns1.spinnennetz.org [213.164.145.162])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 3003F13A4BA6
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 21:44:02 +0000 (UTC)
+Received: from pd9ebb469.dip.t-dialin.net ([217.235.180.105] helo=timo1.spida.spinnennetz.org)
+	by spinnennetz.org with esmtpsa 
+	Exim 4.69 id 1OE7bO-0002eN-Bz; Mon, 17 May 2010 23:11:54 +0200
+Received: from timo by timo1.spida.spinnennetz.org with local 
+	Exim 4.69 id 1OE7ba-0001TF-96; Mon, 17 May 2010 23:12:06 +0200
+Date: Mon, 17 May 2010 23:12:06 +0200
+From: Timo Boettcher <spida@spida.net>
+To: debian-user@lists.debian.org
+Subject: Re: Put date on log file names?
+Message-ID: <20100517211206.GA5127@spinnennetz.org>
+References: <4BF183E6.6020400@iotk.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BF183E6.6020400@iotk.net>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <FoQErkge4ZD.A.8w.8ib8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577073
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 21:44:28 +0000 (UTC)
+
+Hi!
+
+* vr <debian-user@iotk.net> wrote:
+> I'd like to have the date in the file names so visually I'll know
+> what span is in each file.
+>
+> Can this be done? (put dates into the file name)
+Depends. See the other posts about logrotate
+> Should this be done? (put the date into the file name)
+No clue
+
+> If you're doing something like this already, how did you do it?
+I am logging to syslog (the protocol) and replaced syslog (the package)
+with syslog-ng. syslog-ng can be configured to do this:
+
+destination df_syslog {
+        file("/var/log/$HOST/$YEAR/$MONTH/$DAY/syslog"
+        template("$ISODATE $HOST $MSG\n")
+        owner(root) group(root) perm(0600) dir_perm(0700) create_dirs(yes));
+};
+
+This is a snipped that configures a file in a directory-structure matching
+the hostname and the date (you should be able to guess the details...)
+
+http://www.syslog.org/syslog-ng/v2/ has some more examples.
+
+ Timo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517211206.GA5127@spinnennetz.org
+
+

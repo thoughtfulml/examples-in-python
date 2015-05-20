@@ -1,0 +1,137 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286031143de0f77
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs247871wfj;
+        Mon, 3 May 2010 15:02:29 -0700 (PDT)
+Received: by 10.223.143.67 with SMTP id t3mr3646835fau.16.1272924148788;
+        Mon, 03 May 2010 15:02:28 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si9948473fkb.33.2010.05.03.15.02.28;
+        Mon, 03 May 2010 15:02:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CC08F13A50FB; Mon,  3 May 2010 22:02:18 +0000 (UTC)
+Old-Return-Path: <mark@allums.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BDD9813A50E2
+	for <lists-debian-user@liszt.debian.org>; Mon,  3 May 2010 22:02:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id RKYUTp83zGNN for <lists-debian-user@liszt.debian.org>;
+	Mon,  3 May 2010 22:02:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from p3plsmtpa01-05.prod.phx3.secureserver.net (p3plsmtpa01-05.prod.phx3.secureserver.net [72.167.82.85])
+	by liszt.debian.org (Postfix) with SMTP id EE14F13A503E
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 22:02:04 +0000 (UTC)
+Received: (qmail 20075 invoked from network); 3 May 2010 22:02:01 -0000
+Received: from unknown (98.106.251.222)
+  by p3plsmtpa01-05.prod.phx3.secureserver.net (72.167.82.85) with ESMTP; 03 May 2010 22:02:00 -0000
+Message-ID: <4BDF47C6.7080503@allums.com>
+Date: Mon, 03 May 2010 17:01:42 -0500
+From: Mark Allums <mark@allums.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: 64-bit netbooks with Debian linux
+References: <t2s92e02fab1005021217le43861d0m64e19a959c3f6ad9@mail.csmining.org> <w2u92e02fab1005031429g36268ej8c7c065fd5d49d5a@mail.csmining.org>
+In-Reply-To: <w2u92e02fab1005031429g36268ej8c7c065fd5d49d5a@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <rHi6GMBK5RP.A.EgE.qf03LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575787
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 22:02:18 +0000 (UTC)
+
+On 5/3/2010 4:29 PM, Peter Tenenbaum wrote:
+> Hi, everyone --
+>
+> I guess I should clarify my desirement for 64-bit.  There are two things
+> here.  First, I intend to build a home computer which will run linux,
+> and it will be 64-bit; since I'm quite new to maintaining my own linux
+> computers, I'd rather limit the number of differences between the home
+> machine and my portable.  Second is just a desire to avoid early
+> obsolescence in the portable, since at some point I expect 64 bit to
+> become the standard and 32-bit to fade into the past.  That day may not
+> be near, and in any event it may be crazy to worry about obsolescence of
+> a computer which costs less than an iPod, but that's just the way I roll.
+>
+> It also sounds like the respndents to my first message are underwhelmed
+> by netbooks in general and recommend that I look at a low-end notebook /
+> laptop computer instead.  I confess that the distinction is a bit blurry
+> to me.
+>
+> In any event, with those caveats, perhaps I should ask more generally
+> for recommendations of netbooks or smallish laptops which people
+> recommend as being compatible with Debian linux.
+>
+> Thanks again,
+> -PT
+
+
+I was a respondent who questioned the netbook route, but I see now that 
+there may be good reasons to prefer one.
+
+However, most netbooks are deliberately crippled, such as allowing only 
+1 or 2 GB of memory when there is no technical reason why 4 GB shouldn't 
+work.  It is a matter of segmenting a market, and manufacturers want 
+netbooks to have specific capabilities for marketing reasons, not 
+technical ones.
+
+I wanted to suggest that you choose a machine based on your needs, and I 
+wanted you to question your initial assumptions.
+
+However, I see you have done some thinking about it, and future-proofing 
+*does* seem like a good reason to get a dual-core, 64-bit machine.
+
+With 64 bits, you will need more memory, so I suggest you look for a 
+machine that can use 4 GB of memory.
+
+I suggest also that you make sure that the machine you get can use 
+solid-state storage devices.  In time, the advantages of SSDs will make 
+them compelling, though now they are too expensive.  That is, you will 
+probably buy a machine with a standard notebook HD, but if you ever need 
+to replace it, being able to replace it with an SSD gives you another 
+option.  This also is in the area of future-proofing.
+
+
+Just a couple of suggestions.  I would like to hear more from other 
+people.  (I am also contemplating a portable computer purchase.)
+
+
+MAA
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDF47C6.7080503@allums.com
+
+

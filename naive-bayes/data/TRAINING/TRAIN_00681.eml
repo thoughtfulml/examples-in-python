@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId12808eda52668885
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs43373wfj;
+        Fri, 16 Apr 2010 16:21:52 -0700 (PDT)
+Received: by 10.101.136.33 with SMTP id o33mr4515459ann.63.1271460111576;
+        Fri, 16 Apr 2010 16:21:51 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 41si7841313iwn.25.2010.04.16.16.21.51;
+        Fri, 16 Apr 2010 16:21:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 1A1F61BDA10E7
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:21:51 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 14F4226DF7161
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:21:51 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay16.apple.com (relay16.apple.com [17.128.113.55])
+	by lists.apple.com (Postfix) with ESMTP id 1251126DF6EDC
+	for <objc-language@lists.apple.com>;
+	Fri, 16 Apr 2010 16:21:30 -0700 (PDT)
+X-AuditID: 11807137-b7ce7ae0000056c8-06-4bc8f0f9da68
+Received: from dormouse.apple.com (dormouse.apple.com [17.226.12.90])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay16.apple.com (Apple SCV relay) with SMTP id
+	B9.0C.22216.9F0F8CB4; Fri, 16 Apr 2010 16:21:29 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1142)
+Content-Type: text/plain; charset=us-ascii
+From: Greg Parker <gparker@apple.com>
+In-Reply-To: <h2k597e7edb1004161553l6b445fd7h3af760ba0af3a1d5@mail.csmining.org>
+Date: Fri, 16 Apr 2010 16:21:29 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <5D5795AC-62EC-435D-B0C7-E3ADE983F2DF@apple.com>
+References: <h2k597e7edb1004161553l6b445fd7h3af760ba0af3a1d5@mail.csmining.org>
+To: Hamish Allan <hamish@csmining.org>
+X-Mailer: Apple Mail (2.1142)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: @synchronized scope strangeness
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On Apr 16, 2010, at 3:53 PM, Hamish Allan wrote:
+
+> Hi,
+>=20
+> I'm rather puzzled by some behaviour I'm seeing, as explained by the
+> comment in the following short category:
+>=20
+> @implementation NSPersistentStore (OTAdditions)
+> - (NSNumber *)autoincrementingNumberForKey:(NSString *)key
+> {
+>    NSNumber *number;
+>    @synchronized(self)
+>    {
+>        NSMutableDictionary *metadata =3D [[self metadata] =
+mutableCopy];
+>=20
+>        // need to copy and autorelease the number because the original
+>        // does not remain valid outside of the @synchronized block =
+(why?!)
+>        number =3D [[[metadata objectForKey:key] copy] autorelease];
+>=20
+>        if (!number)
+>            number =3D [NSNumber numberWithUnsignedLongLong:1];
+>        [metadata setValue:[NSNumber
+> numberWithUnsignedLongLong:([number unsignedLongLongValue] + 1)]
+> forKey:key];
+>        [self setMetadata:metadata];
+>    }
+>    return number;
+> }
+> @end
+>=20
+> The behaviour I'm seeing is as though the NSNumber returned by
+> [metadata objectForKey:key] has been added to a special
+> mini-autorelease pool scoped by the @synchronized block, whereas the
+> autoreleased copy is added to the normal autorelease pool. At least, I
+> assume the NSNumber is being deallocated, but symbolic breakpoints on
+> -[NSNumber release] and -[NSNumber dealloc] remain in a pending state
+> so I haven't been able confirm that.
+>=20
+> Can anyone tell me what's going on here?
+
+Nothing related to @synchronized. Your problem is that you are acquiring =
+an unretained pointer to an object, then doing something that releases =
+the object behind your back.
+
+    number =3D [metadata objectForKey:key];
+
+`number` now points to some object. Importantly, -objectForKey: just =
+hands back the pointer, without doing the [[result retain] autorelease] =
+dance. It's possible that the only thing that retained `number` is the =
+`metadata` dictionary.
+
+    [metadata setValue:something forKey:key];
+
+Now `metadata` has released `number`. It may be dead.
+
+You need to be careful with -objectForKey: and -objectAtIndex: while you =
+are mutating the container. Those methods avoid autorelease for =
+performance, but (as you found) it's also less safe.
+
+Your solution of copy+autorelease is correct. retain+autorelease might =
+be better.=20
+
+
+--=20
+Greg Parker     gparker@apple.com     Runtime Wrangler
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

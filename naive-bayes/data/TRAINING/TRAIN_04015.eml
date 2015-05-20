@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId128396d9a5d3d8cc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs77731wfj;
+        Mon, 26 Apr 2010 02:23:25 -0700 (PDT)
+Received: by 10.87.63.21 with SMTP id q21mr1509987fgk.52.1272273803969;
+        Mon, 26 Apr 2010 02:23:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si517923fks.5.2010.04.26.02.23.23;
+        Mon, 26 Apr 2010 02:23:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5FBB513A55C3; Mon, 26 Apr 2010 09:23:16 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 59DEE13A55A7
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 09:23:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dy-F0vf4Dr0M for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 09:23:03 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 41D8913A5548
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 09:22:57 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O6KWi-0002Xp-8a
+	for debian-user@lists.debian.org; Mon, 26 Apr 2010 11:22:52 +0200
+Received: from cpc2-sand2-0-0-cust1285.wolv.cable.virginmedia.com ([82.37.109.6])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 11:22:52 +0200
+Received: from liam.p.otoole by cpc2-sand2-0-0-cust1285.wolv.cable.virginmedia.com with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 11:22:52 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Liam O'Toole <liam.p.otoole@csmining.org>
+Subject: Re: GNOME crashes when .xsession file is present.
+Date: Mon, 26 Apr 2010 09:22:45 +0000 (UTC)
+Lines: 16
+Message-ID: <slrnhtamr5.bu7.liam.p.otoole@dipsy.selfip.org>
+References: <k2q308d4701004140621ibf159f8dycc2bb534b1aeb7bd@mail.csmining.org>
+ <pan.2010.04.14.14.49.58@csmining.org>
+ <i2m308d4701004140825md3393aa6ya7f452d356bd4ebb@mail.csmining.org>
+ <pan.2010.04.14.15.31.29@csmining.org>
+ <y2q2645c3ed1004140905q8d46501egec8b761a63ba2ab1@mail.csmining.org>
+ <pan.2010.04.14.17.08.32@csmining.org>
+ <m2h308d4701004251507y5ab5e093ye814f86e7e1d8c11@mail.csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: cpc2-sand2-0-0-cust1285.wolv.cable.virginmedia.com
+User-Agent: slrn/pre0.9.9-111 (Linux)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6MTows2LG4K.A.UGH.EuV1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575094
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 09:23:16 +0000 (UTC)
+
+On 2010-04-25, Disc Magnet <discmagnet@csmining.org> wrote:
+---SNIP---
+> I was just experimenting to see if I can
+> put any startup commands which will run everytime I log into GNOME. In
+> both trials, GNOME crashed.
+
+Put the commands in .gnomerc (for GNOME only) or .xsessionrc (for all X
+sessions). If you want to start graphical applications, put the
+appropriate .desktop files in ~/.config/autostart, or use the GNOME
+session manager for the purpose. As others have pointed out, the file
+.xsession should be reserved for starting an X session.
+
+-- 
+Liam O'Toole
+Birmingham, United Kingdom
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhtamr5.bu7.liam.p.otoole@dipsy.selfip.org
+
+

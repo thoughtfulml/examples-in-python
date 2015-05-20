@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e17083f985899
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs15367wfi;
+        Fri, 9 Apr 2010 00:20:01 -0700 (PDT)
+Received: by 10.223.101.80 with SMTP id b16mr1218348fao.25.1270797599504;
+        Fri, 09 Apr 2010 00:19:59 -0700 (PDT)
+Return-Path: <bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 7si2151599fxm.19.2010.04.09.00.19.58;
+        Fri, 09 Apr 2010 00:19:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4A2E113A652C; Fri,  9 Apr 2010 07:19:57 +0000 (UTC)
+Old-Return-Path: <mailinglists@kobelnet.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=CAPINIT,LDOSUBSCRIBER,
+	LDO_WHITELIST,RCVD_IN_DNSWL_LOW autolearn=failed version=3.2.5
+X-Original-To: lists-debian-isp@liszt.debian.org
+Delivered-To: lists-debian-isp@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AFF3713A6525
+	for <lists-debian-isp@liszt.debian.org>; Fri,  9 Apr 2010 07:19:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, LDO_WHITELIST=-5, RCVD_IN_DNSWL_LOW=-1]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id qUwNNiXfsOYd for <lists-debian-isp@liszt.debian.org>;
+	Fri,  9 Apr 2010 07:19:44 +0000 (UTC)
+Received: from mail11.bluewin.ch (mail11.bluewin.ch [195.186.18.61])
+	by liszt.debian.org (Postfix) with ESMTP id A9D5713A6521
+	for <debian-isp@lists.debian.org>; Fri,  9 Apr 2010 07:19:44 +0000 (UTC)
+X-FXIT-IP: IPv4[213.3.42.33] Epoch[1270797582]
+Received: from [213.3.42.33] ([213.3.42.33:7322] helo=lauteraarhorn.office.itds.ch)
+	by mail11.bluewin.ch (envelope-from <mailinglists@kobelnet.ch>)
+	(ecelerity 2.2.2.41 r(31179/31189)) with ESMTP
+	id 77/71-09922-E05DEBB4; Fri, 09 Apr 2010 07:19:42 +0000
+Received: from simplon ([192.168.1.42] helo=simplon.office.itds.ch)
+	by lauteraarhorn.office.itds.ch with esmtp (Exim 4.63)
+	(envelope-from <mailinglists@kobelnet.ch>)
+	id 1O08VA-0003Mi-7x
+	for debian-isp@lists.debian.org; Fri, 09 Apr 2010 09:19:40 +0200
+Received: from mkobel by simplon.office.itds.ch with local (Exim 4.69)
+	(envelope-from <mailinglists@kobelnet.ch>)
+	id 1O08VA-0003dA-2F
+	for debian-isp@lists.debian.org; Fri, 09 Apr 2010 09:19:40 +0200
+Date: Fri, 9 Apr 2010 09:19:40 +0200
+From: Moritz Kobel <mailinglists@kobelnet.ch>
+Sender: mailinglists@kobelnet.ch
+To: debian-isp@lists.debian.org
+Subject: How To Manage Logmails
+Message-ID: <20100409071939.GF23814@aletschhorn.itds.ch>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+X-Editor: Vim http://www.vim.org/
+X-Location: Europe, Switzerland
+X-Operating-System: simplon.office.itds.ch Linux 2.6.18-openvz-686
+X-Display-Host: 192.168.1.52
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <SoFpTYIkbAP.A.9iB.dUtvLB@liszt>
+Resent-From: debian-isp@lists.debian.org
+X-Mailing-List: <debian-isp@lists.debian.org> archive/latest/26643
+X-Loop: debian-isp@lists.debian.org
+List-Id: <debian-isp.lists.debian.org>
+List-Post: <mailto:debian-isp@lists.debian.org>
+List-Help: <mailto:debian-isp-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-isp-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-isp-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-isp-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 07:19:57 +0000 (UTC)
+
+Hello,
+
+we have several servers which generate logmails every day.
+How do you manage these if several people should have access? 
+With a logmail-mailbox, a shared mailbox or a special software?
+
+thx
+
+Moritz
+
+
+-- 
+Wissen ist das einzige Gut, das sich vermehrt, wenn man es teilt.
+--
+http://www.lagerkochbuch.ch
+
+
+-- 
+To UNSUBSCRIBE, email to debian-isp-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409071939.GF23814@aletschhorn.itds.ch
+
+

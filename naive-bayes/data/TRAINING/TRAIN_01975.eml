@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281992cd5951af5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs53493wfj;
+        Mon, 19 Apr 2010 21:57:17 -0700 (PDT)
+Received: by 10.223.102.206 with SMTP id h14mr1387793fao.23.1271739370991;
+        Mon, 19 Apr 2010 21:56:10 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si2207038fka.1.2010.04.19.21.56.10;
+        Mon, 19 Apr 2010 21:56:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0DBA913A48DE; Tue, 20 Apr 2010 04:56:03 +0000 (UTC)
+Old-Return-Path: <agianson@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2963813A48CC
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 04:55:57 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wIpEkNhmNpGI for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 04:55:49 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-pw0-f47.google.com (mail-pw0-f47.google.com [209.85.160.47])
+	by liszt.debian.org (Postfix) with ESMTP id 8782113A48B0
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 04:55:49 +0000 (UTC)
+Received: by pwj5 with SMTP id 5so3569310pwj.6
+        for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 21:55:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:subject:from:to:in-reply-to
+         :references:content-type:date:message-id:mime-version:x-mailer
+         :content-transfer-encoding;
+        bh=v16fgnYPP11GAafhdt6KTZEOMqFO91/wvWFeW8Yz4ms=;
+        b=WQFaMqlxgCsEj4WoGxP0YTG4qpMw/kmkNX+UUGCfc3sEs9GGwSQetd5rz46WcFFTIR
+         irRZ05tJUCQ8q/adiC591QfqVNpFN+t/h1Ho0wm7X+8dgyzbiTxCy+/JaeE/owWrCoLz
+         9uM5uLxG72shFccZiMt7hqL9lmT08SkhyP+U0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=subject:from:to:in-reply-to:references:content-type:date:message-id
+         :mime-version:x-mailer:content-transfer-encoding;
+        b=SPXFWFf4tGaicZ2qsIqNjPXW3skQHjdrMUtmzBOY2mN1Naib+fddfz6grPvBbL5vu1
+         nYJVjLNNXsGwCHtuP61dPlKPFjhqWzKnEkcWYYnONxxaPHQUjfRW7Csp+Y/vWbk2x3/7
+         RdrzzNy9bUViAjXWCDQaDfD0Vq7/tGpB2RYas=
+Received: by 10.142.119.26 with SMTP id r26mr2639095wfc.257.1271739341632;
+        Mon, 19 Apr 2010 21:55:41 -0700 (PDT)
+Received: from [192.168.0.100] (S0106001cf04279c3.ok.shawcable.net [24.70.174.83])
+        by mx.google.com with ESMTPS id 23sm6123409pzk.2.2010.04.19.21.55.39
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Mon, 19 Apr 2010 21:55:40 -0700 (PDT)
+Subject: Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on
+ Lenny?
+From: Alan Ianson <agianson@csmining.org>
+To: debian-user@lists.debian.org
+In-Reply-To: <871veagb57.fsf@thumper.dhh.gt.org>
+References: <p2q631fe46c1004151106k67c61faxe809a17d576affef@mail.csmining.org>
+	 <h2l631fe46c1004151802r92941076qf14c0f8bacbb76de@mail.csmining.org>
+	 <4BC934A7.3050808@web.de> <slrnhsjcc4.bu7.liam.p.otoole@dipsy.selfip.org>
+	 <4BCCC8EB.8000702@web.de> <4BCCCC25.9000401@cox.net>
+	 <4BCCD26B.4020408@web.de> <1271725695.3636.3.camel@debian.ok.shawcable.net>
+	 <871veagb57.fsf@thumper.dhh.gt.org>
+Content-Type: text/plain; charset="UTF-8"
+Date: Mon, 19 Apr 2010 21:55:38 -0700
+Message-ID: <1271739338.4132.1.camel@debian.ok.shawcable.net>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.28.3 
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <lD_a2R9CJZG.A.6pH.jPTzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574514
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 04:56:03 +0000 (UTC)
+
+On Mon, 2010-04-19 at 20:34 -0500, John Hasler wrote:
+> Alan Ianson writes:
+> > All the stuff at debian-multimedia can't be included in debian for
+> > various reasons, mostly freedom I think, so you won't find it in
+> > debian at all. It's made for debian but it isn't debian.
+> 
+> Most of it is Free Software but encumbered by actively-enforced
+> patents.  d-mm.o has a non-free section for non-free stuff.
+
+That's a much better description, thanks for the clarification.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271739338.4132.1.camel@debian.ok.shawcable.net
+
+

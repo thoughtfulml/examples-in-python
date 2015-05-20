@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284f6463e6f2049
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs102247wfj;
+        Fri, 30 Apr 2010 08:45:01 -0700 (PDT)
+Received: by 10.150.213.16 with SMTP id l16mr2174825ybg.108.1272642299052;
+        Fri, 30 Apr 2010 08:44:59 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 1si3108093gxk.69.2010.04.30.08.44.58;
+        Fri, 30 Apr 2010 08:44:58 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 4A8491BDCD67E
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 08:44:58 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 45EE02745677E
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 08:44:58 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id BBB6A27456102
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 08:44:04 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id ABCDED2F2B0F
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 08:44:04 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-38-4bdafac279ae
+Received: from gmp-eb-inf-2.sun.com (gmp-eb-inf-2.sun.com [192.18.6.24])
+	(using TLS with cipher DES-CBC3-SHA (DES-CBC3-SHA/168 bits))
+	(Client did not present a certificate)
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	94.07.25880.3CAFADB4; Fri, 30 Apr 2010 08:44:04 -0700 (PDT)
+Received: from fe-emea-10.sun.com (gmp-eb-lb-1-fe1.eu.sun.com [192.18.6.7]
+	(may be forged))
+	by gmp-eb-inf-2.sun.com (8.13.7+Sun/8.12.9) with ESMTP id
+	o3UFi1Nu020617
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 15:44:01 GMT
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; CHARSET=US-ASCII; delsp=yes; format=flowed
+Received: from conversion-daemon.fe-emea-10.sun.com by fe-emea-10.sun.com
+	(Sun Java(tm) System Messaging Server 7u2-7.04 64bit (built Jul 2
+	2009))
+	id <0L1P00A004YMAJ00@fe-emea-10.sun.com> for java-dev@lists.apple.com;
+	Fri, 30 Apr 2010 16:43:59 +0100 (BST)
+Received: from dhcp-eprg06-20-113.Czech.Sun.COM ([unknown] [129.157.20.113])
+	by fe-emea-10.sun.com
+	(Sun Java(tm) System Messaging Server 7u2-7.04 64bit (built Jul 2
+	2009)) with ESMTPSA id <0L1P00IKT51188E0@fe-emea-10.sun.com> for
+	java-dev@lists.apple.com; Fri, 30 Apr 2010 16:43:49 +0100 (BST)
+Date: Fri, 30 Apr 2010 17:43:48 +0200
+From: Tomas Hurka <Tomas.Hurka@Sun.COM>
+In-reply-to: <4BDAF3EB.3070607@pixelture.com>
+To: list Java-dev <java-dev@lists.apple.com>
+Message-id: <60E7F99E-EE49-4B1F-A5AB-B76EEB561D0F@sun.com>
+X-Mailer: Apple Mail (2.936)
+References: <F119FF46-8C89-4B47-BE59-F5DA1D0E5220@amug.org>
+	<0F0C063C-AB78-4758-841A-F311082DDC5E@apple.com>
+	<4BDAF3EB.3070607@pixelture.com>
+X-Brightmail-Tracker: AAAAARPwkXg=
+Subject: Re: Problem detecting sleep in 10.6
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi Brandon,
+
+On 30 Apr 2010, at 17:14, Brandon Moon wrote:
+
+[..]
+>   I also tried attaching VisualVM to it, but I couldn't even see the  
+> thread dump option.
+The easiest way is to right-click on your application and invoke  
+'Thread Dump' from a context menu.
+
+Bye,
+--
+Tomas Hurka   <mailto:tomas.hurka@sun.com>
+NetBeans Profiler http://profiler.netbeans.org
+VisualVM http://visualvm.dev.java.net
+Software Engineer, Developer Platforms Group
+Sun Microsystems, Praha Czech Republic
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

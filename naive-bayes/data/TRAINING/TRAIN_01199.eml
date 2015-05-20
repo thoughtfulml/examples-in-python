@@ -1,0 +1,924 @@
+X-Account-Key: account5
+X-UIDL: GmailId128cbb29928c7d92
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs101683wfo;
+        Mon, 24 May 2010 12:03:20 -0700 (PDT)
+Received: by 10.223.98.24 with SMTP id o24mr4978341fan.29.1274727799086;
+        Mon, 24 May 2010 12:03:19 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si5861631far.56.2010.05.24.12.03.18;
+        Mon, 24 May 2010 12:03:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A632813A531C; Mon, 24 May 2010 19:03:11 +0000 (UTC)
+Old-Return-Path: <eatnumber1@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.6 required=4.0 tests=FOURLA,FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,PGPSIGNATURE
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 48D5713A4A94
+	for <lists-debian-security@liszt.debian.org>; Mon, 24 May 2010 18:45:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.58 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_2=1, MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2,
+	PGPSIGNATURE=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id qS9OpPSbma7V
+	for <lists-debian-security@liszt.debian.org>;
+	Mon, 24 May 2010 18:45:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 28EC813A4A43;
+	Mon, 24 May 2010 18:44:58 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so6071131qyk.3
+        for <multiple recipients>; Mon, 24 May 2010 11:44:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:sender:received
+         :in-reply-to:references:from:date:x-google-sender-auth:message-id
+         :subject:to:cc:content-type:content-transfer-encoding;
+        bh=5u5EQorv1VtXP3ON0C+Bu1mOTHYoegVKAfHGrWvmHbs=;
+        b=qRyq4iKbBjdcyNO7H8N9vsXd1VFhfSH+3UNChbKbbx76TlYHRLEas4ZEF6SlaMwlof
+         JbFO0Iomci19CkBuJNN9IMQf/OvcduBuie5bqCpF1K0ps/xX2wJC+cn53fQz/HO/4pd3
+         HDAkEcmTpL8Rj7N45mXMu8QYzIrsIABHRO4DM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:sender:in-reply-to:references:from:date
+         :x-google-sender-auth:message-id:subject:to:cc:content-type
+         :content-transfer-encoding;
+        b=SorLjF6tua3hil9CEgI8a3pO7HEFvFr8pLLjwDax5dAczPKokRUYOB6+amCvVER6W7
+         n1DmdhNOHiqQ2Mm5UTPjrchkh3MPNqR8ihgQbkv2Ysq9rnTvs3cejeoAb8dSIlFXGZD5
+         y2L/xqhoDr8XIa+WVN8xq7C/XXuJqDiYFYZTw=
+Received: by 10.224.53.135 with SMTP id m7mr3342517qag.380.1274726689910; Mon, 
+	24 May 2010 11:44:49 -0700 (PDT)
+MIME-Version: 1.0
+Sender: eatnumber1@csmining.org
+Received: by 10.229.40.130 with HTTP; Mon, 24 May 2010 11:44:29 -0700 (PDT)
+In-Reply-To: <20100524160011.GA3712@galadriel.inutil.org>
+References: <20100524160011.GA3712@galadriel.inutil.org>
+From: Russell Harmon <russ@eatnumber1.com>
+Date: Mon, 24 May 2010 14:44:29 -0400
+X-Google-Sender-Auth: 6Mbkd8HS1WKRc4gFoXgzdsqcOuY
+Message-ID: <AANLkTimvuK2kip4YC6s56xsR99rbzQGq-RJlRFlw5X6a@mail.csmining.org>
+Subject: Re: [SECURITY] [DSA 2051-1] New postgresql-8.3 packages fix several 
+	vulnerabilities
+To: debian-security@lists.debian.org
+Cc: debian-security-announce@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PbsqH04JlkH.A.e0E.v1s-LB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23815
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Mon, 24 May 2010 19:03:11 +0000 (UTC)
+
+I've update postgres on totoro.
+--
+Russell Harmon
+RTP Computer Science House
+
+
+
+On Mon, May 24, 2010 at 12:00, Moritz Muehlenhoff <jmm@debian.org> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> - -----------------------------------------------------------------------=
+-
+> Debian Security Advisory DSA-2051-1 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0security@debian.org
+> http://www.debian.org/security/ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Moritz Muehlenhoff
+> May 24, 2010 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0http://www.debian.org/security/faq
+> - -----------------------------------------------------------------------=
+-
+>
+> Package =C2=A0 =C2=A0 =C2=A0 =C2=A0: postgresql-8.3
+> Vulnerability =C2=A0: several
+> Problem type =C2=A0 : local
+> Debian-specific: no
+> CVE Id(s) =C2=A0 =C2=A0 =C2=A0: CVE-2010-0442 CVE-2010-1169 CVE-2010-1170=
+ CVE-2010-1975
+>
+> Several local vulnerabilities have been discovered in PostgreSQL, an
+> object-relational SQL database. The Common Vulnerabilities and
+> Exposures project identifies the following problems:
+>
+> CVE-2010-1169
+>
+> =C2=A0 =C2=A0Tim Bunce discovered that the implementation of the procedur=
+al
+> =C2=A0 =C2=A0language PL/Perl insufficiently restricts the subset of allo=
+wed
+> =C2=A0 =C2=A0code, which allows authenticated users the execution of arbi=
+trary
+> =C2=A0 =C2=A0Perl code.
+>
+> CVE-2010-1170
+>
+> =C2=A0 =C2=A0Tom Lane discovered that the implementation of the procedura=
+l
+> =C2=A0 =C2=A0language PL/Tcl insufficiently restricts the subset of allow=
+ed
+> =C2=A0 =C2=A0code, which allows authenticated users the execution of arbi=
+trary
+> =C2=A0 =C2=A0Tcl code.
+>
+> CVE-2010-1975
+>
+> =C2=A0 =C2=A0It was discovered that an unprivileged user could reset
+> =C2=A0 =C2=A0superuser-only parameter settings.
+>
+> For the stable distribution (lenny), these problems have been fixed in
+> version 8.3.11-0lenny1. This update also introduces a fix for
+> CVE-2010-0442, which was originally scheduled for the next Lenny point
+> update.
+>
+> For the unstable distribution (sid), these problems have been fixed in
+> version 8.4.4-1 of postgresql-8.4.
+>
+> We recommend that you upgrade your postgresql-8.3 packages.
+>
+> Upgrade instructions
+> - --------------------
+>
+> wget url
+> =C2=A0 =C2=A0 =C2=A0 =C2=A0will fetch the file for you
+> dpkg -i file.deb
+> =C2=A0 =C2=A0 =C2=A0 =C2=A0will install the referenced file.
+>
+> If you are using the apt-get package manager, use the line for
+> sources.list as given below:
+>
+> apt-get update
+> =C2=A0 =C2=A0 =C2=A0 =C2=A0will update the internal database
+> apt-get upgrade
+> =C2=A0 =C2=A0 =C2=A0 =C2=A0will install corrected packages
+>
+> You may use an automated update by adding the resources from the
+> footer to the proper configuration.
+>
+>
+> Debian GNU/Linux 5.0 alias lenny
+> - --------------------------------
+>
+> Stable updates are available for alpha, amd64, arm, armel, hppa, i386, ia=
+64, mips, mipsel, powerpc, s390 and sparc.
+>
+> Source archives:
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11.orig.tar.gz
+> =C2=A0 =C2=A0Size/MD5 checksum: 13913683 02472af037929fe30405d1497f07421d
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1.diff.gz
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 =C2=A050334 717569100b751cfc3c18ca=
+82b70fd0f4
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1.dsc
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 =C2=A0 1673 725fcd67e1b92cc9bd9f78=
+c9aefa1d83
+>
+> Architecture independent packages:
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql_8.3.11-0lenny1_all.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 263636 9dd154ff43d8dd67cbc9e92a911=
+56362
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client_8.3.11-0lenny1_all.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 263608 ef90b5f536cff943601e3b12f42=
+f18c7
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib_8.3.11-0lenny1_all.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 263506 f5c5e8f917b6275b9a25d5c4abf=
+5a1f7
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-doc-8.3_8.3.11-0lenny1_all.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A02194706 0cf86f435601423485565bc69e5=
+3c837
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-doc_8.3.11-0lenny1_all.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 263450 1605ce58c660805db2cf8856ec4=
+16d2d
+>
+> alpha architecture (DEC Alpha)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 833060 cf22e01a9227a279be3d5338328=
+d9f4e
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 485598 ba9abe30da3eac9f42e927314c0=
+10633
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 292830 fc0a66d65d86b50de0f1fa9dc19=
+64e6b
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282624 839273128e95d0687daaf569abc=
+ef024
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 292710 906574dc9d5dc2b64e5bcb4b2f8=
+1d841
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 292084 315ceae207f68f94b2afcf48c61=
+8de7c
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 629712 1f67c09851d817774a381d97bc7=
+e090a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01711018 5849a68db84cebb4b844912009b=
+2a0df
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 271898 a0d1c8b15ad1363a64535d3e92d=
+ee535
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 283656 660d866b958c59aa543796bd1b2=
+dc06b
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05279124 00d62d1c50ceb8563bc24f5388e=
+6618a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 488256 20ae4d402afc3e1be9738bc62c8=
+ea4d2
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_alpha.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 400546 26b31f133f90081bfaac9a1642f=
+3a100
+>
+> amd64 architecture (AMD x86_64 (AMD64))
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05375772 1b5ef9ceba9baa46167e00b3722=
+70066
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 836896 c3eb338e2ad07ae51e75a407c2c=
+d4bf0
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 292774 836027236a48ae103a292cada97=
+7094f
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 401862 57cf63727b123cf6fad17ad7d09=
+a3e84
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 470532 2436b21aa2203eee039e2cbb458=
+27d4e
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 292804 a5093c44db8a7241ad5f67dfa8e=
+98c28
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 292664 0e3d90165381d8acaec7594aa5c=
+fa362
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 283080 6ddf3d08223b718ee0859d64a41=
+49b21
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 481712 850e779fc73a4431f30c0d86342=
+928ec
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01711384 c0d2226a6a187fbeed9e75bc605=
+7acca
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 271560 dabf3fc59799e0f7d263994ce0d=
+c0bcc
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 628566 e757827b14491e32ac6f006eb3e=
+63793
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_amd64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 285326 ad78582673618ab2836aa24ee72=
+a18c4
+>
+> arm architecture (ARM)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 472960 fe8cc5691416b7cc3c2b36a645a=
+db639
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 269954 1c93e1231d8331efa77465c418c=
+070aa
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 289502 da7726a05d45400b4c007420f56=
+c006b
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 835060 289953df2f3ac5d2c86636b0647=
+7ea7a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 389790 56c3323b35a61645e5e29d1288b=
+87db7
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 290658 2f121609743855645e629ff7c42=
+88799
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 586654 fd1bb0fd528807e1705e46b70f0=
+bbbfd
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01664532 d96b04e7b6f0a535d1abe5e8835=
+c9927
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 455990 fc96a2cf7b95cf6129f6c528499=
+2908e
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282142 9ecdcf1b777ec05dde7bbbd799a=
+6b052
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 290180 74e6d4c162e50b4fdbeafde67c1=
+1c066
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 283922 3350c2daef586c1130b21108ade=
+5bd88
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_arm.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05245868 0c3afc1a8d08f7ebb4ae25ddba4=
+96ae3
+>
+> armel architecture (ARM EABI)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282518 7ca3b28c51910f1639028a9a95c=
+142b9
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 477594 07ca162be9f7d2bdf7b272d3489=
+a4078
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 270164 abbf91c0a56544410dc8c39727c=
+aa231
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 603264 4464cbcf14d57c0ea0525985629=
+d489d
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 835784 11369732566ab84ab578f3bb88a=
+c151b
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01672178 97017b022b8acab8642de6c1c05=
+45ec3
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 291848 db619c0061dd08c44ec211432a3=
+3b6dd
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 387204 3dbbfd3201c6d386852360f75d8=
+64bf6
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05258502 3db482fa20df2112db0091a7d29=
+0b27b
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 455958 1abb02fe9aa6194ac0c9efd790e=
+b2fa0
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 284068 2f22508bad6ef53dcfc709db439=
+c7123
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 293810 ae788af24d7e4e8eb6dcc72e9d3=
+d49d1
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_armel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 290648 f20e48398eac9999268acf45ee0=
+a0f0e
+>
+> hppa architecture (HP PA RISC)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 272004 64bfabaf99c79a0ddce35783294=
+04e90
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 641828 f12c53161379b705bc019c05bfe=
+89637
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01745616 2aa0b084e9f8a00d4f82a94b44b=
+dd169
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 489012 96de40a2655bb0e854e962782aa=
+24323
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 294706 fc695557d42cccad92de8ff2796=
+4ade9
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 295712 c28d6c588d0e113d189aac09a02=
+7bdc9
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 475034 cb05559ac8ccb25623bd8c74782=
+aa70f
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 284658 a8eb118508191a2c6fdcf03ce85=
+e9951
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 297382 ed3e0639baed2c8aa65f71c5725=
+beabc
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 286796 24f6f7b7a635c186e80190dc819=
+35b77
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 838992 94d1e8a875126447a30ec39e5cb=
+8ec79
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 405388 ab55a8f837c66d4024df0b1150c=
+d3ca9
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_hppa.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05829748 e1dbe9fb61b83dbccb6f9f59f33=
+a436c
+>
+> i386 architecture (Intel ia32)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05255786 ce7947b358fff8ab6f1bfe7d1c0=
+c0a4e
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 835736 509389e561b76d8784166acd313=
+687dd
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 291080 fa0f8a1ce1b8e81af56daa3ecd1=
+3f4a2
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 291824 3f0824fa2792813d40c81375c0b=
+39ebc
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01677900 01a1ec4f0da6b1e39b9b67d59d9=
+8cc3a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282388 914133383cd75de657b210c8afd=
+7c2ed
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 461084 2cbf6ca577c60ba3dfa7440e4da=
+25283
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 473852 1b34ceb28f69243090c0b82f910=
+f44b1
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282662 22e424fa9f4c2a0839b034ec7d3=
+a9ffc
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 292330 4c9a2f38e64fbe8f6a5b7bc9f7c=
+55402
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 394346 43f4b3f1c8eca35a06c616e8221=
+9eedc
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 593030 4e891fb5f83bdeab2818ada13c7=
+accb4
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_i386.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 270770 fb1087795e4567e418b3029090a=
+25e8e
+>
+> ia64 architecture (Intel ia64)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 743282 fcc0d5c7a5293f4f39978d8ae10=
+f8591
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 273658 7b4f4c4e5a48ec9d371d5b6c95a=
+9d2c9
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 534538 d2525fd072531449509a0f88ee9=
+5308c
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 297310 898bfe967df5ee0454ea3788a2c=
+8f45e
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 509026 cbcad8a1a040e0a8325ed3ca81b=
+584a3
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 304136 6e78aa7beaaf01773dc69b0033c=
+9f7d8
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 306870 13fa1fa60d2ae7528024decd71f=
+b6923
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A06289748 93e99ce8ffb6d581ae37ebef5fe=
+5ad70
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 289588 5f7042d1b8389bbad92a2f9211f=
+beb44
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 844568 9e9c5276b894cc11310834ede88=
+e465c
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01890002 dc219d099edc208dd2abf5be197=
+04408
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 425888 7ff059573bd46379e2c9aa7bcaf=
+0a093
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_ia64.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 308946 4f29e0f8e29c9e57b5d7c451599=
+b370f
+>
+> mips architecture (MIPS (Big Endian))
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 836436 db57d0415721cedf39113986465=
+7805c
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282870 e4ed274ed7d27a9db736d431406=
+9cf79
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 472644 ba0b1ef71e28b992bec49f254a2=
+b5b1a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 293404 cddea3863e6e3e011b0a4d00c3c=
+e54f1
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 593662 f9e736d98dd2cc7e71445cc27e4=
+39689
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 472994 cf36b149f66678314ec2273af9c=
+1c8b0
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 290904 9f6ac8eb332d6a374755ebb2504=
+611cd
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 281652 31ada2a1e9a28c84d0fb7a08436=
+3bb0e
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05587414 282c8cd55b44816ec56c1852457=
+8e0c4
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01694716 1a47e9ce68b8ff525e417992ec3=
+1ebf4
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 285864 17f29a29f86d77103c601a8019f=
+19448
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 269704 7fb4039990d2b7c391e0b780fe2=
+db663
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_mips.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 395316 892ba66f6b8d4f5596996d3f2b1=
+005c3
+>
+> mipsel architecture (MIPS (Little Endian))
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 286032 c5beab7d9650cdcd2ba1600b612=
+d974f
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01688486 3a327c8c8ac6e4080fce5f0eaee=
+d0ce9
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 588432 bbdcd971025a8e15ad488118839=
+7188c
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 393938 5475333da86294081f324acb4df=
+e71cd
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 270160 c5ec94cf7ee248e584827780d13=
+41b70
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05227666 5613b554da7bb94c42b9082cdfa=
+9a7aa
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 829842 0281839e4cdf4c6bcf60dbf6239=
+30152
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 469464 9909eee5caa2dd33bccdd474790=
+908f7
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282730 d6d7824c38ab11db540a859705b=
+c8362
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 471782 11d7e55f7f79e6663ff23ca3c32=
+3accf
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 290814 352096495a561cfcc786fd96591=
+d3d5b
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 281726 eceae658540981670c2b867b264=
+20cc9
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_mipsel.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 293644 22f5c66ea0f1933a5db18439f50=
+e9046
+>
+> powerpc architecture (PowerPC)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 293934 f9a70aebf11f8e832dfc338baa5=
+fc0ca
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05733422 9073ec575403d28c181cc66a4e0=
+0ed82
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 397610 894eeeae5997d2b3ea36ac1e04d=
+84d7d
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 286274 0d8906aa296ace1706125a23e65=
+a01ca
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 271362 1b59fb5564bc6a1d5965d391354=
+604f1
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 675216 7640f941a0d270cadafc5ad3d7d=
+a3c55
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 838168 5385aeb42872bf9c3e65eb889f7=
+ba4ba
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 295608 149e72fb3e792fb42d009e6ca2e=
+e7733
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 293786 d54438da4ea1cbda5a2ee52a629=
+87ba7
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 284710 e643414ac256226b7ded77fa9d8=
+d1704
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 466834 c9b11d289c04ce70215ea0435da=
+b59ea
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01738298 5f0662e4ba2aa7eea01506f36c3=
+355d7
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_powerpc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 477434 263cc61a74244d6e52f47b54810=
+c02db
+>
+> s390 architecture (IBM S/390)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 831670 333d657b8ddb4c1e8faaf439076=
+f557c
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 294090 070519cc8983496f4652182c15d=
+d3eed
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 271318 ad2f51a8a2500b975e4e8a851d4=
+a892b
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 634554 aaf93b693cb8656a8ba6929e0c9=
+63b22
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 486432 3add85eb35a26382cd81b33e67d=
+0f892
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 282732 985ef02b86a22db4d47a3cfed7b=
+1ffb3
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 284996 e6d501a30aa744478400a90ec53=
+d06fb
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 294138 f1ac682321080de637e1fab2bba=
+6f88c
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01728470 ad27d5d6c693bfb9cc15751c70f=
+ac196
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 290006 9a4a7041270702799acc404f4ac=
+7dcca
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 471334 3cf82c61845a0e6c196012fe3c1=
+9a945
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 402138 d6d9892459b9689ccb0cb842d97=
+7d592
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_s390.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05766242 715a7a6646c875bfa0a3e7ba9ca=
+3d1ad
+>
+> sparc architecture (Sun SPARC/UltraSPARC)
+>
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg6_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 289250 30ca0db3ebf321ab7d80c410b48=
+8810a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+5_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 392720 7331446d08f5f6c36918a8a3aca=
+efd7f
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpg=
+types3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 288950 f0d2b39c1f23ccc98e525bda8b2=
+8ae6f
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plperl-8.3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 288910 15250277b9985545a801a6d342c=
+1c3e5
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-8.3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A05468534 a085b02736ec16113b82c53cc6c=
+ddc3a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libpq=
+-dev_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 457198 b0a3449d8ca2511ae778e5cb852=
+f897a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-client-8.3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A01671324 8d96985e292dfbd97625453689c=
+0b668
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-contrib-8.3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 585400 519f6486e1fe5dfaf3443e3ea81=
+72dbd
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-server-dev-8.3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 836060 55e1a83ca5b4cdadf1226816807=
+5f3b3
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-compat3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 269778 58eb626b5cb5d93c20f60b98490=
+af13e
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-pltcl-8.3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 281124 cba572e5b5b4779dbc524417f54=
+9f1d8
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/postg=
+resql-plpython-8.3_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 281836 263c5bea85ae065f55606fd0d97=
+ada7a
+> =C2=A0http://security.debian.org/pool/updates/main/p/postgresql-8.3/libec=
+pg-dev_8.3.11-0lenny1_sparc.deb
+> =C2=A0 =C2=A0Size/MD5 checksum: =C2=A0 462776 cbaf37213c34d66d2d0d053fbd8=
+9a4ce
+>
+>
+> =C2=A0These files will probably be moved into the stable distribution on
+> =C2=A0its next update.
+>
+> - -----------------------------------------------------------------------=
+----------
+> For apt-get: deb http://security.debian.org/ stable/updates main
+> For dpkg-ftp: ftp://security.debian.org/debian-security dists/stable/upda=
+tes/main
+> Mailing list: debian-security-announce@lists.debian.org
+> Package info: `apt-cache show <pkg>' and http://packages.debian.org/<pkg>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.10 (GNU/Linux)
+>
+> iEYEARECAAYFAkv6okAACgkQXm3vHE4uylqTkQCggprL0e+QqELpa27K2nvAPFbw
+> 4wQAn0y3PWWK8+DeOOVUvN5SHwVM7ogF
+> =3DH2tK
+> -----END PGP SIGNATURE-----
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-security-announce-REQUEST@lists.debian.or=
+g
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/20100524160011.GA3712@galadriel.inutil.o=
+rg
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTimvuK2kip4YC6s56xsR99rbzQGq-RJlRFlw5X6a@mail.csmining.org
+
+

@@ -1,0 +1,236 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285c818a5cfc83e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs205428wfj;
+        Sun, 2 May 2010 21:51:53 -0700 (PDT)
+Received: by 10.142.202.5 with SMTP id z5mr825366wff.296.1272862313329;
+        Sun, 02 May 2010 21:51:53 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 37si6677128pzk.130.2010.05.02.21.51.53;
+        Sun, 02 May 2010 21:51:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id DEF441BE58E90
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 21:51:52 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D6B9B27550AA4
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 21:51:52 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 23B4C27550A9A
+	for <Augd@lists.apple.com>; Sun,  2 May 2010 21:51:51 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 023C4D7C04E5
+	for <Augd@lists.apple.com>; Sun,  2 May 2010 21:51:51 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-2e-4bde5666a227
+Received: from oakford.webserversystems.com (oakford.webserversystems.com
+	[74.54.107.139])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	A2.8A.05834.6665EDB4; Sun,  2 May 2010 21:51:50 -0700 (PDT)
+Received: from 124-168-168-110.dyn.iinet.net.au ([124.168.168.110]
+	helo=[10.1.1.7])
+	by oakford.webserversystems.com with esmtpa (Exim 4.69)
+	(envelope-from <lists@nicholaspyers.com>) id 1O8ndE-00009N-Bn
+	for Augd@lists.apple.com; Sun, 02 May 2010 23:51:50 -0500
+Message-Id: <4B24D9F1-5C33-494A-88DC-5CD365B20FAE@nicholaspyers.com>
+From: Nicholas Pyers <lists@nicholaspyers.com>
+To: Augd@lists.apple.com
+In-Reply-To: <y2taae88f271005011513y9872f3f6jc1bbef2a0dd63515@mail.csmining.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: Re: Re(4): AUGD: Free Ride for Board Members?
+Date: Mon, 3 May 2010 14:51:29 +1000
+References: <C7FF39E3.51ABA%augd@chrishart.net>
+	<94A402DF-9874-4154-8222-0BD5F594404C@mus.ch>
+	<20100430162512.1658598795@sendmail.Joiner.net>
+	<z2saae88f271004301657m1cbc6552nf528f7446c7572eb@mail.csmining.org>
+	<20100501145718.476178133@mail.mugcenter.com>
+	<y2taae88f271005011513y9872f3f6jc1bbef2a0dd63515@mail.csmining.org>
+X-Mailer: Apple Mail (2.936)
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - oakford.webserversystems.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - nicholaspyers.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Brightmail-Tracker: AAAAARPvoAQ=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 02/05/2010, at 8:13 AM, Dave G wrote:
+> There mere fact we use MUG shows a lack of acceptance of the
+> situation.  Macintosh is but one product Apple offers.
+
+This is so true.
+When I looked at establishing AppleUsers.org, as a central location of  
+resources for Australian User Groups, I thought long and hard about  
+the name I was going to call the group... and I deliberately steered  
+clear of using Mac or Macintosh in the name... as I was aware that  
+Apple provides more than that product.
+
+Also Apple themselves have never referred to User Groups as Macintosh  
+User Groups... the official logo they provide actually says Apple User  
+Group
+
+Mind you MUG sounds better as an acronym then AUG does :)
+
+> A for profit enterprise has a clear goal.  To make a profit!
+>
+> Any "cause" aspect of a User Group is as outdated as the SCSI and
+> serial ports.  Apple doesn't need to be saved.  World hunger, the
+> environment, and animal welfare are causes.
+
+Apple has saved itself... and as much as I believe User Groups did a  
+far better job of keeping the Apple Flag visible back in the '90's  
+then Apple itself did, that is no longer the case in the 21st Century
+
+> A User Group is neither a for profit enterprise or a cause.  It's a
+> non-profit group of people with a similar shared interest: a fan club.
+
+I agree that User Groups are now basically fan clubs... or social  
+groups that are bought together through a common interest of the  
+devices and software that one company produces.
+
+But I disagree that a User Group can't be a "for profit" enterprize...  
+as there are groups out there that are exactly that - look at some of  
+the Final Cut Pro groups as a perfect example that works extremely  
+well under a "for profit" arrangement.
+
+> Nothing more and nothing less.  I suspect more people are in the
+> Hannah Montana fan clubs than are in User Groups.  Once we accept that
+> Apple isn't obligated to us or owe us anything, we can move to a
+> better place for discussion.  Hannah Montana fans don't expect every
+> time she comes into town that she visit their club or give free
+> tickets.  Not picking on that singer- I just know the niece thinks
+> she's the bomb).  Putting into perspective reduces the emotion and the
+> attachment to the ways of the past.
+
+As others have mentioned, could you have chosen a better analogy than  
+Hannah Montana :)
+but the point you are making is quite correct.
+
+I have friends who are involved with Local Historical Societies, Model  
+Train (and even real ones) Appreciation Societies, and even reptile  
+keepers who get together to discuss raising of snakes, lizards etc...  
+they don't expect that one single company owes them anything to help  
+them exist or to function.  Apple User Groups should look at how some  
+other 'social', 'hobby' and 'fan' clubs work.
+
+> Nobody wants to hear they need to adapt and many are afraid.  They've
+> always known a certain way of doing things and are unwilling to
+> change.  Number one phrase I hear is "I've been involved in User
+> Groups   xxx number of years.  We've done it this way and it works."
+> Even better  "Our members want it this way."
+
+Every group that I have seen take that attitude isn't around anymore,  
+or are quite visibly killing themselves right now
+
+> Problem of course is, when you do what the members want, then you
+> aren't leading.  Don't expect anything to change if you do what the
+> existing members want.  You won't attract new members.  Eventually,
+> though attrition, your group dies out.  You'll be paralyzed by the
+> status quo
+
+Whilst I strongly advise all User Groups that they need to EVOLVE,  
+they don't need to be reactionary with changes. Evolution is a gradual  
+change.
+
+And whilst every group needs new members to survive, let alone expand,  
+we have to remember that Marketing 101 theorem that it is often easier  
+to retain an existing customer then it is to get a new one.
+
+So don't suddenly alienate your existing membership, but rather help  
+lead them
+
+> I'm not surprised by Apple's success.  During the "lean" years they
+> didn't differentiate themselves in the marketplace and were too afraid
+> to do something different.
+>
+> Does Apple lead the marketplace now or follow?  "You can't make a
+> computer without a floppy drive", "Record companies will never allow
+> people to buy digital music", "A smart phone need a keyboard" are all
+> things the market wanted.  Apple said  "We have a better way and we'll
+> show you"
+>
+> The basic question for any user group, in my not so humble opinion is
+> "Are you emulate the behaviors and philosophies of Apple"  How can you
+> be an Apple fan and not?
+
+Apple's own 'Think Different' marketing strategy is STILL in place at  
+Apple today, even if you don't hear it been said... there is no other  
+way they could have produced the iPhone and iPad without embracing  
+this philosophy.
+
+User Groups need to do the same
+
+> Are printed newsletters and disks of the month emulating Apple's
+> behavior?  Or is it acting like Microsoft that STILL allows you to run
+> WordPerfect 5.1 for DOS on the newest and latest computers?
+
+There are still places for newsletters and Discs of the Month, even in  
+the 21st century... but again they need to be thought about  
+differently... and form part of an overall strategy of attracting the  
+same sort of customers that Apple themselves now target.
+
+> I must comment on the irony that while many User Groups want fully
+> elected democratic process each year in their leadership, the User
+> Group Regional Liasons and the User Group Advisory Board, as I
+> understand are not.
+
+Then again, Apple itself isn't exactly democratic in the way it  
+appoints its' own board. The Board itself effectively nominates itself  
+and then shareholders ratify those nominations.... usually for the  
+Board as a block and not for individual nominees.
+
+And shareholders certainly don't get a say in the day to day  
+management of the company nor the projects that Apple work on and  
+eventually bring to market or even kill off before they get to market!
+
+> I hope this leads to an interesting and much needed discussion that is
+> long overdue.
+
+hear, hear :)
+
+
+--
+Nicholas Pyers (nicholas@appleusers.org)
+Founder & Publisher, AppleUsers.org
+
+http://www.appleusers.org/
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

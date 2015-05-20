@@ -1,0 +1,204 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288fc1df02909bc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs37100wfo;
+        Wed, 12 May 2010 20:42:48 -0700 (PDT)
+Received: by 10.223.20.216 with SMTP id g24mr939789fab.63.1273722166939;
+        Wed, 12 May 2010 20:42:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si1963394fas.51.2010.05.12.20.42.46;
+        Wed, 12 May 2010 20:42:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4B6D22E8AF4; Thu, 13 May 2010 03:42:41 +0000 (UTC)
+Old-Return-Path: <aaron.toponce@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4B2A52E8AF3
+	for <lists-debian-user@liszt.debian.org>; Thu, 13 May 2010 03:42:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 0gF64l1XQYPp for <lists-debian-user@liszt.debian.org>;
+	Thu, 13 May 2010 03:42:28 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-px0-f175.google.com (mail-px0-f175.google.com [209.85.212.175])
+	by liszt.debian.org (Postfix) with ESMTP id 7212E2D8C00
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 03:42:15 +0000 (UTC)
+Received: by pxi14 with SMTP id 14so417685pxi.6
+        for <debian-user@lists.debian.org>; Wed, 12 May 2010 20:42:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:references:in-reply-to
+         :x-enigmail-version:content-type;
+        bh=eQ2y/TLXNonX09SKpIYeNdtVaJyAHd7sU/EBmne9iao=;
+        b=cukJQ/01ZuAe/0XP+7H4nsZj5GzjrGqUx+OG2GBZ+XVcca3s+pC9Q7H+Kd7TGcq++u
+         xtRKsUEmNELSj5ZeVnOWZ7oXnB5ewoAZVx981hIEBE34JiFQqG+VomH6mMfU4lSq/hHw
+         GmYbciKmHZt9yGSR9XE/TEEjlYhgthZXsf3Kg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:x-enigmail-version:content-type;
+        b=vfasRoC9YLgumY223Q80davzor+a0qXO1t0mTowQnWsFarX49KrBFgd/F0pP9lC8PX
+         CKGS5y2pb+txeZcsjhED8g1Z4x5XLw90WPXNIWFn6TRFe/uu3fbajPeaWKNN/QQeSH5c
+         9m1RXUcMO+oYWnX/TAJDvf54jYhPWkGM3qAKo=
+Received: by 10.143.20.13 with SMTP id x13mr43015wfi.285.1273722127424;
+        Wed, 12 May 2010 20:42:07 -0700 (PDT)
+Received: from [192.168.1.4] (c-24-10-200-153.hsd1.ut.comcast.net [24.10.200.153])
+        by mx.google.com with ESMTPS id s21sm394796wff.0.2010.05.12.20.42.05
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 12 May 2010 20:42:06 -0700 (PDT)
+Message-ID: <4BEB74CE.4090006@csmining.org>
+Date: Wed, 12 May 2010 21:41:02 -0600
+From: Aaron Toponce <aaron.toponce@csmining.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: What to choose for Core i5 64 bits?
+References: <COL122-W552C2CBA6682ADBE143AB487FA0@phx.gbl>	<jwvtyqc268v.fsf-monnier+gmane.linux.debian.user@gnu.org>	<4BEB1E2A.7090900@csmining.org> <jwvzl04sjo4.fsf-monnier+gmane.linux.debian.user@gnu.org>
+In-Reply-To: <jwvzl04sjo4.fsf-monnier+gmane.linux.debian.user@gnu.org>
+X-Enigmail-Version: 1.0.1
+Content-Type: multipart/signed; micalg=pgp-sha512;
+ protocol="application/pgp-signature";
+ boundary="------------enigFF247917E7DCC99DE6C210DA"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-uakdu5XBjE.A.oa.xU36LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576650
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 03:42:41 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enigFF247917E7DCC99DE6C210DA
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 05/12/2010 07:03 PM, Stefan Monnier wrote:
+>> The 64-bit vs 32-bit argument is multi-faceted.  It gets much deeper t=
+han
+>> just addressing more than 3GB of RAM:
+>> * twice the transfer width on the bus
+>=20
+> Nope, no difference on the bus.   Most accesses will be
+> cache-line-sized anyway at that level.
+
+You're kidding, right? You can push twice the data, which means faster
+CPU to memory utilization for CPU intensive applications. Flash anyone?
+
+>> * no memory split issues
+>=20
+> For <=3D3GB systems, that makes no difference.  And as someone running
+> a bigmem kernel on a 4GB system, I can say that even for other systems,=
+
+> it's not necessarily relevant.
+
+It's very relevant. You must not have run into this issue much. 4:4
+kernel splits are the best you can do on a 32-bit system, but it comes
+at a performance cost. Splitting and performance are never an issue on
+64-bit until you've reache 17 EB of RAM.
+
+>> * increased virtual address space
+>=20
+> Right.  Unlikely he'll ever notice it.
+
+Whether he will or won't isn't the issue. I'm not discussing use cases,
+I'm discussing the facts on why 64-bit is superior to 32-bit.
+
+>> * more breathing room for mmap()'d files
+>=20
+> Again, unlikely he'll ever notice it (otherwise he wouldn't have asked)=
+=2E
+
+See above.
+
+>> * deeper nested system calls with increased stability
+>=20
+> I see no evidence of increased stability and have no idea what you want=
+
+> to say with "deeper nested system calls".
+
+I'll give you an example. Use XFS on LVM, and export the mount over NFS.
+The nested system calls in this scenario will cause a kernel oops on any
+4K 32-bit kernel nearly every time (the default for Debian GNU/Linux,
+Fedora, Ubuntu, openSUSE, etc). On a 64-bit kernel, because you have the
+ability to make deeper nested system calls, you have stability in your
+infrastructure. Something that couldn't be achieved with a 32-bit kernel.=
+
+
+>> * certain applications and operations will execute faster
+>=20
+> Yup.  And others will be slower since you'll have to move around more
+> data (up to twice as much if your data is made up mostly of pointers),
+> which means that the apparent cache and RAM size will end up
+> being reduced.
+
+The same would be said for a 32-bit application implemented the same
+way. Poor software development is hardly an argument against choosing a
+CPU architecture.
+
+>> If you have the hardware, you should definitely be running a 64-bit
+>> operating system, even if you don't have 4GB+ of RAM.
+>=20
+> If you have to ask, you probably won't notice any difference
+> either way.
+
+To each their own. I for one want to get my money out of my hardware. If
+you don't want a 64-bit system, then why did you pay for it?
+
+--=20
+=2E O .   O . O   . . O   O . .   . O .
+=2E . O   . O O   O . O   . O O   . . O
+O O O   . O .   . O O   O O .   O O O
+
+
+--------------enigFF247917E7DCC99DE6C210DA
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: Public Key at: http://tinyurl.com/aaron-gpg
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iQEcBAEBCgAGBQJL63TTAAoJEM55Ebf8BAiP6p8H/3R52lO4nYvpfTqxeT/AalEa
+GQmB4ClVwpMlIkmonDdVcuBrEqQ+Z6AnWHzVXPt0yBliar13xXGj+81pTAuMT0LG
+4C4UJ6T0lDKspcdAMB0eEuwvsBopX7oDHUTSOJk/frLONkEQiGJSbAKp+aDSP1CA
+NxrKF0dyxug9xMI3/TaodiCUSc9tBPBKuwUvlDGK7F3StqeursiGvEGJdVz6kZHE
+oE8pufE2iNicGa0wn0WuDnQa1lRSnLYDqtJ1gud/frW8JGxUWcq1aoXiU6aEGuEl
+JjhfgCqxzRaN2eTMeaH7mePDr0FH//iBsfYGyFfdF9KpK523BXaHbt/+fLAHcSU=
+=NVwG
+-----END PGP SIGNATURE-----
+
+--------------enigFF247917E7DCC99DE6C210DA--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEB74CE.4090006@csmining.org
+
+

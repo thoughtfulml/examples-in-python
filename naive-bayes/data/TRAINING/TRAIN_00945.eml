@@ -1,0 +1,83 @@
+X-Account-Key: account4
+X-UIDL: GmailId12826e912a8d1eff
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: hibody@csmining.org
+Received: by 10.231.39.131 with SMTP id g3cs36342ibe;
+        Thu, 22 Apr 2010 12:05:30 -0700 (PDT)
+Received: by 10.114.2.17 with SMTP id 17mr169286wab.35.1271963129573;
+        Thu, 22 Apr 2010 12:05:29 -0700 (PDT)
+Return-Path: <info@chiefdidspeech.com>
+Received: from pic12.pictureclawshaven.com (pic12.pictureclawshaven.com [173.45.8.173])
+        by mx.google.com with ESMTP id 40si304173pzk.23.2010.04.22.12.05.28;
+        Thu, 22 Apr 2010 12:05:28 -0700 (PDT)
+Received-SPF: neutral (google.com: 173.45.8.173 is neither permitted nor denied by best guess record for domain of info@chiefdidspeech.com) client-ip=173.45.8.173;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 173.45.8.173 is neither permitted nor denied by best guess record for domain of info@chiefdidspeech.com) smtp.mail=info@chiefdidspeech.com; dkim=pass (test mode) header.i=info@chiefdidspeech.com
+Message-Id: <4bd09df8.a813f30a.0e8c.ffff83c7SMTPIN_ADDED@mx.google.com>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=fd215; d=chiefdidspeech.com;
+ h=To:From:Subject:Content-Type:Content-Transfer-Encoding:MIME-Version:Date; i=info@chiefdidspeech.com;
+ bh=BiYGKdE9Fe9CQNUvAYVugVCLUeU=;
+ b=Ilv2LtkkobhYgowMmOkYFedL6WjqD/JqvI+7WKYmHVSpy5Qi3u107GUteIYLYPKoNpMzUFfYYn9C
+   /tUBjDZqgNQbreBvjU9gp1hccURY8E20mUbHGXvN8fT8k8MeBF90HBn7AhE3xU/p7ZzUJrQ6oDK9
+   VuSbRn6p8WKweoOsDXM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=fd215; d=chiefdidspeech.com;
+ b=OcAKbDQgwAt02uw0jBrbfuhRt8PlC04ibfzeMrxbab1NsYBITLFYN1hQqnlggaK6vXFt2lcrZ5qb
+   UX6pzCwMw6HIVa+RIj4oF3U6Aa2hc4Ya9IlEulUw7kpGZ1XJWYAMkqTifqU+9c7Vb69wcotLKwUS
+   NCifrPJH0rv9VqglmZw=;
+To: hibody@csmining.org
+From: "Courses in Radiology"<info@chiefdidspeech.com>
+Subject: Go to school for a radiology technician degree
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Date: Thu, 22 Apr 2010 12:04:40 -0700
+
+<html>
+<head>
+<title>
+</title>
+</head>
+
+
+<body>
+<center>
+
+
+
+
+<div style="font-family:Arial;width:617px;border:1px solid #03264C;">
+
+<div style="font-size:20px;font-weight:bold;color:#ffffff;padding:5px;background-color:#5B88DB;border-bottom:1px solid #03264C;">
+Sign up for convenient classes and get your radiology degree
+</div>
+
+<div style="font-size:15px;padding:3px; border-bottom:1px solid #03264C;">
+Train for your Radiology Degree Today
+</div>
+
+
+<div style="font-size:15px;padding:3px;border-bottom:1px solid #03264C;">
+<a href="http://www.propagateraiserope.com/MAliYW50YW9AZ21haWwuY29t/b/21629/76616" >Classes Starting Soon</a>
+</div>
+
+
+<div style="font-size:10px;padding:5px;background-color:#eeeeee;">
+If you would like to opt out of upcoming promotions,
+please <a href="http://www.propagateraiserope.com/MAliYW50YW9AZ21haWwuY29t/b/21629/76618" >click here</a> or send you email address to:<br />
+PinpointMediaServices, 4255 E. Charleston Blvd. Suite D-345, Las Vegas, NV 89104.<br />
+Please allow up to 10 days up receipt to process posted mail.
+
+</div>
+
+
+
+
+
+</div>
+
+</center>
+</body>
+</html>
+
+

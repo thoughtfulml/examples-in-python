@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288c86aadffa025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs52342wfb;
+        Wed, 12 May 2010 05:39:17 -0700 (PDT)
+Received: by 10.223.65.73 with SMTP id h9mr8028724fai.75.1273667955697;
+        Wed, 12 May 2010 05:39:15 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org ([82.195.75.100])
+        by mx.google.com with ESMTP id s7si313723faa.92.2010.05.12.05.39.15;
+        Wed, 12 May 2010 05:39:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E11CB13A501D; Wed, 12 May 2010 12:39:07 +0000 (UTC)
+Old-Return-Path: <abhidg@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A1ABF13A4E9B
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 12:23:40 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id NyUykqeEaciM for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 12:23:33 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id DD54313A46B5
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 12:23:32 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so9817059qyk.6
+        for <debian-user@lists.debian.org>; Wed, 12 May 2010 05:23:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:received:from:date
+         :message-id:subject:to:content-type;
+        bh=EXlhgWdj7iWyizmrpBLNUVagHk33SUNyJV6EsA6uGdw=;
+        b=Krtwz1TeZPscmtdLsUEwa+WZTaPLTWT035DR9X310y2slijf6/kueG9Rm5dzl7JMhi
+         D864LvpZLKfG/6b0AH/YdkQvsIKOVLJUjnf4wHqfReoMJwBeuiVmmnl5PxtEa+GwP8m8
+         nWXYFGDMoJbQLx0HkPdOCDncF/XihpnKpWbiY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        b=OLSTNbaHwe3yMW7nSketYBZT3icaNxcZuXMFYcEfvvY3OwjE/+Se3og0IDEHurz5SP
+         zYdTyJDermc7z9Xho1GBd5MzjHAyhl5lRIc0QLduKM+sUVGHdi5erlUB57ptKkz9pcO3
+         W7EXNTswzv+dKLACnEcDp0qqDRfYJKcqDRGH4=
+Received: by 10.224.123.156 with SMTP id p28mr4923600qar.152.1273667005236; 
+	Wed, 12 May 2010 05:23:25 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.96.74 with HTTP; Wed, 12 May 2010 05:23:05 -0700 (PDT)
+From: Abhishek Dasgupta <abhidg@csmining.org>
+Date: Wed, 12 May 2010 17:53:05 +0530
+Message-ID: <AANLkTinkeQCHQnw2ja6ziJe7g9ESlap37WJJb3YfU_LP@mail.csmining.org>
+Subject: aptitude update thinks there are no updates! (solved by deleting 
+	apt/lists)
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <xZ7nxmArTSB.A.D5H.rFq6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576605
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 12:39:07 +0000 (UTC)
+
+Hi all,
+
+After about a fortnight, I tried to update my Debian squeeze desktop,
+and I was using the mirror.cse.iitk.ac.in mirror. After downloading
+the repository lists, it tells me there are no updates -- I am
+surprised as I know that Gnome 2.30 is already in testing. Thinking
+that it could be a problem with the mirror, I switch to
+ftp.ch.debian.org and update. This time, it does say there are about
+300 updates.
+
+I issue a safe-upgrade, but the electricity goes out just as the
+updates begin downloading. After I turn the computer back on, issuing
+a safe-upgrade shows there are no updates! I try to aptitude update
+but it thinks that the repositories are already updated, though
+apt-cache show nautilus gives the version 2.28.4. As I was in a hurry
+at the time, I just deleted /var/lib/apt/lists, so aptitude had no
+choice but to really download the lists. After this the safe-upgrade
+proceeded as usual. I realised after deleting /var/lib/apt/lists that
+I should have kept a copy, but too late.
+
+Though the problem is (in a sense) solved, I am curious as to how this
+(bug?) could have occurred. After all this I checked
+mirror.cse.iitk.ac.in  and it does have nautilus 2.30.1, so maybe the
+first no-updates scenario was also caused by this bug/problem.
+
+Abhishek
+--
+Please cc me as I am not subscribed to debian-user.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinkeQCHQnw2ja6ziJe7g9ESlap37WJJb3YfU_LP@mail.csmining.org
+
+

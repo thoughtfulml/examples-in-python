@@ -1,0 +1,144 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e9d4057fd933a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs95468wfo;
+        Sat, 10 Apr 2010 15:25:38 -0700 (PDT)
+Received: by 10.223.15.143 with SMTP id k15mr1663159faa.57.1270938338343;
+        Sat, 10 Apr 2010 15:25:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si5794018fkt.11.2010.04.10.15.25.37;
+        Sat, 10 Apr 2010 15:25:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1426113A6887; Sat, 10 Apr 2010 22:25:29 +0000 (UTC)
+Old-Return-Path: <pecondon@mesanetworks.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 981B013A66F8
+	for <lists-debian-user@liszt.debian.org>; Sat, 10 Apr 2010 22:25:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kXtSKK4+GFBE for <lists-debian-user@liszt.debian.org>;
+	Sat, 10 Apr 2010 22:25:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from omta0110.mta.everyone.net (imta-38.everyone.net [216.200.145.38])
+	by liszt.debian.org (Postfix) with ESMTP id B08D913A687D
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 22:25:08 +0000 (UTC)
+Received: from dm0201.mta.everyone.net (sj1-slb03-gw2 [172.16.1.96])
+	by omta0110.mta.everyone.net (Postfix) with ESMTP id E3B5A63CB83
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 15:25:04 -0700 (PDT)
+X-Eon-Dm: dm0201
+Received: by dm0201.mta.everyone.net (EON-AUTHRELAY2 - 4813b144) id dm0201.4bbbd54e.9a8748
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 15:25:04 -0700
+X-Eon-Sig: AQMnnbRLwPrAeFVDxAIAAAAB,5bfee719b08c4ecc96b2bc842ce4f066
+Received: from pec by big.lan.gnu with local (Exim 4.71)
+	(envelope-from <pecondon@mesanetworks.net>)
+	id 1O0j6b-0002lo-TM
+	for debian-user@lists.debian.org; Sat, 10 Apr 2010 16:24:45 -0600
+Date: Sat, 10 Apr 2010 16:24:45 -0600
+From: Paul E Condon <pecondon@mesanetworks.net>
+To: debian-user@lists.debian.org
+Subject: Re: About USB hard drives and errors
+Message-ID: <20100410222445.GC5664@big.lan.gnu>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100409004433.GA2823@big.lan.gnu>
+ <4BC026CC.8000704@web.de>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BC026CC.8000704@web.de>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2BNFveg2twJ.A.OjG.ZrPwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573827
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 22:25:29 +0000 (UTC)
+
+On 20100410_092044, Clive McBarton wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Paul E Condon wrote:>
+> > dumpe2fs -b <device> is supposed to print the bad blocks that have
+> > been marked on a device. When I run it, it prints nothing. I find it
+> > hard to believe that a 500GB HD contains ZERO bad blocks. 
+> 
+> Every HD that is even remotely close to being usable will always have
+> zero bad blocks when seen from outside the HD. All HDs have error
+> recognition and error correction and automatic replacement of faulty
+> sectors with spare ones. A HD will only show bad blocks after all of its
+> remapping area is used, at which point it is far beyond being usable.
+> 
+> In other words, scanning for bad blocks on a HD cannot work.
+
+Thanks Clive. Your post has been invaluable in fixing some faulty thinking
+on my part, and in provoking other useful posts. But I want more ...
+
+The errors that I am experiencing are all similar. The first
+indication of a problem is a message from the kernel (I think). An
+example is:
+
+kernel: [78454.939948] journal commit I/O error
+
+This appears on all xterm windows on the affected machine. On the
+xterm that is controlling a process that is using one of the USB
+drives, there follows a long sequence of error messages about the
+drive being read-only, which stops after a while. Or sometimes I stop
+it by typing ^C on that xterm. 
+
+When this happens, all the USB drives (3 of them) disappear from
+/dev/disks/by-label (they are all labeled by me). I have not
+discovered any to make them re-appear, short of rebooting the
+computer. After reboot, I run e2fsck on all of them, and always get a
+longish delay on each while e2fsck commits (or whatever) the
+journal. This can take a few seconds or up to half a minute. Then
+I manually mount them using pmount, and all data upto the point
+where the crash happened seems to be present. 
+
+I have installed smartmontools, but I think there is some
+incompatibility between the installed version and the installed
+docs. The README.Debian makes reference to editing some lines in the
+config file that are not present in the default, package installed,
+config file. There is (apparently) some incompatibility between using
+the daemon and using smartctl. The problem host is running Lenny, but
+the docs seem to be the same as on a different host that is running
+Squeeze. 
+
+I would very much appreciate some help in understanding the docs.
+What is a safe thing for a nubie to type as a first command to
+smartctl? 
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100410222445.GC5664@big.lan.gnu
+
+

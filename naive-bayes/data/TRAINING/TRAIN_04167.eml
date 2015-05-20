@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281cd41983d6de7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs84462wfj;
+        Tue, 20 Apr 2010 13:07:44 -0700 (PDT)
+Received: by 10.223.143.9 with SMTP id s9mr240502fau.52.1271793981782;
+        Tue, 20 Apr 2010 13:06:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si3296666fka.16.2010.04.20.13.06.21;
+        Tue, 20 Apr 2010 13:06:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 930F513A477E; Tue, 20 Apr 2010 20:06:16 +0000 (UTC)
+Old-Return-Path: <tchatelet@free.fr>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9EFF213A46CF
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 20:06:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1+n8OaKIHr5V for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 20:06:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from smtp1-g21.free.fr (smtp1-g21.free.fr [212.27.42.1])
+	by liszt.debian.org (Postfix) with ESMTP id F328013A46A2
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 20:06:02 +0000 (UTC)
+Received: from smtp1-g21.free.fr (localhost [127.0.0.1])
+	by smtp1-g21.free.fr (Postfix) with ESMTP id 01D83940144
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 22:05:58 +0200 (CEST)
+Received: from pc01-ftc.localnet (sdo26-1-78-245-148-13.fbx.proxad.net [78.245.148.13])
+	by smtp1-g21.free.fr (Postfix) with ESMTP id 144FE9400D4
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 22:05:56 +0200 (CEST)
+From: Thierry Chatelet <tchatelet@free.fr>
+To: debian-user@lists.debian.org
+Subject: Re: Sudden reboots with Firefox and Flash
+Date: Tue, 20 Apr 2010 22:05:57 +0200
+User-Agent: KMail/1.12.4 (Linux/2.6.32-3-amd64; KDE/4.3.4; x86_64; ; )
+References: <20100420190026.GA4575@deathfog> <201004202143.18859.tchatelet@free.fr> <20100420195701.GC4575@deathfog>
+In-Reply-To: <20100420195701.GC4575@deathfog>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004202205.57988.tchatelet@free.fr>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <L6delq_b26H.A.PMB.4kgzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574590
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 20:06:16 +0000 (UTC)
+
+On Tuesday 20 April 2010 21:57:01 Nick Douma wrote:
+> On Tue, Apr 20, 2010 at 09:43:18PM +0200, Thierry Chatelet wrote:
+> > +1
+> > I  had the same problem. The fan control was not working well. A BIOS
+> > upgrade solved the problem.
+> 
+> Did you also experience this problem with this motherboard, or a similar
+>  one?
+> 
+
+No was not the same. But you can hear if fan speed goes up when you load 
+either the cpu or the graphic card.
+Thierry
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004202205.57988.tchatelet@free.fr
+
+

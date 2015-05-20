@@ -1,0 +1,194 @@
+X-Account-Key: account5
+X-UIDL: GmailId12825e451fe521e9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs21329wfj;
+        Thu, 22 Apr 2010 07:24:13 -0700 (PDT)
+Received: by 10.223.18.154 with SMTP id w26mr144398faa.39.1271946040501;
+        Thu, 22 Apr 2010 07:20:40 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 26si3453537fks.22.2010.04.22.07.20.38;
+        Thu, 22 Apr 2010 07:20:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=pass (test mode) header.i=@b1online.de
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BCD9313A4AB4; Thu, 22 Apr 2010 14:20:21 +0000 (UTC)
+Old-Return-Path: <forum@b1online.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=FOURLA,FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD2
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 46D8813A476D
+	for <lists-debian-user@liszt.debian.org>; Thu, 22 Apr 2010 14:20:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.679 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD2=0.2,
+	WEIRD_PORT=0.001] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id cLFp8OKBwO+9 for <lists-debian-user@liszt.debian.org>;
+	Thu, 22 Apr 2010 14:20:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from mo-p00-ob.rzone.de (mo-p00-ob.rzone.de [81.169.146.160])
+	(using TLSv1 with cipher EDH-RSA-DES-CBC3-SHA (168/168 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 2FF4D13A4650
+	for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 14:20:05 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; t=1271946002; l=2798;
+	s=domk; d=b1online.de;
+	h=Content-Transfer-Encoding:Mime-Version:Date:Content-Type:To:From:
+	Subject:X-RZG-CLASS-ID:X-RZG-AUTH;
+	bh=21ZC/LMH2VEaJeO4Zf1k+7KXa5s=;
+	b=EAq2BBtzba/32li4XJorTn/mD0tHmRyvN79V4SzjVWh22XU3P26jYRwosECUS2ipgLo
+	G+1d4CEvtcSV8cb0NiGSLnBVHHSdkQPRUUdquAbsDwZcl8mImPzRCOSwH/KsMZL38gLaz
+	itkWQDTyoMSLxrFqfeNtgWJdNRtxV7b8/m8=
+X-RZG-AUTH: :KmMWYE2Iea4v2PoM04O078scTzUs/Cq7DCygNNYsrBQPzFMcvYqRm2m9
+X-RZG-CLASS-ID: mo00
+Received: from [192.168.2.105] (p4FE65B52.dip.t-dialin.net [79.230.91.82])
+	by post.strato.de (klopstock mo56) (RZmta 23.0)
+	with ESMTP id 501609m3ME37DR for <debian-user@lists.debian.org>;
+	Thu, 22 Apr 2010 16:20:02 +0200 (MEST)
+Subject: SMTP-Error 451 while using smarthost for mail delivery
+From: b1 <forum@b1online.de>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset="UTF-8"
+Date: Thu, 22 Apr 2010 16:20:01 +0200
+Message-ID: <1271946001.11753.18.camel@localhost.localdomain>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.30.0.1 
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7nnHRs86akF.A.JjB.lsF0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574760
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 22 Apr 2010 14:20:21 +0000 (UTC)
+
+Hello alltogether
+
+Currently I am trying to set up a Debian Lenny Server, but I am stuck at
+mail delivery. The server I am trying to set up, has no FQDN, so I used
+my ISP-Mailserver as a smarthost (I enabled the proper SMTP
+authentication in exim4).
+This setup worked a few days, before I suddenly received 451 errors.
+At first I thought it to be a problem with Exim4, so I switched to
+postfix. But postfix also gives me the 451 error:
+
+Apr 22 15:53:31 openshoolproxy postfix/smtp[24368]: 413CF26EF9:
+to=<webservice@b1online.de>, orig_to=<root@openshoolproxy>,
+relay=smtp.strato.com[81.169.145.132]:25, delay=2137,
+delays=2136/0.05/0.33/0.12, dsn=4.0.0, status=deferred (host
+smtp.strato.com[81.169.145.132] said: 451 Local Error (in reply to end
+of DATA command))
+
+To further troubleshoot my problem I used telnet to connect to
+smtp.strato.com and to send a mail manually.
+
+This is what I did:
+
+telnet smtp.strato.de 25
+Trying 81.169.145.133...
+Connected to smtp.strato.de.
+Escape character is '^]'.
+220 smtp.passthru
+EHLO openshoolproxy
+250-smtp.passthru
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DELIVERBY
+250-SIZE 104857600
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 HELP
+AUTH LOGIN
+334 VXNlcm5hbWU6
+d2Vic2VydmljZUBiMW9ubGluZS5kZQ==
+334 UGFzc3dvcmQ6
+xxxxMYPASSWORD_IN_BASE64xxxx
+235 2.0.0 OK Authenticated
+mail from: webservice@b1online.de
+250 2.1.0 <webservice@b1online.de> Sender ok
+rcpt to: benedikt@b1online.de
+250 2.1.5 <benedikt@b1online.de> Recipient ok
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+test
+.
+451 Local Error
+
+
+
+
+Very odd. After this fail I tried the same procedure from my arch linux
+box at home. It succeeded:
+
+
+
+
+telnet smtp.strato.com 25
+Trying 81.169.145.132...
+Connected to smtp.strato.com.
+Escape character is '^]'.
+220 post.strato.de [fruni mo3] ESMTP RZmta 23.0 ready; Thu, 22 Apr 2010
+15:55:55 +0200 (MEST)
+EHLO openshoolproxy
+250-post.strato.de [fruni mo3] greets 79.230.91.82
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-PIPELINING
+250-DELIVERBY
+250-SIZE 104857600
+250-AUTH PLAIN LOGIN CRAM-MD5
+250-STARTTLS
+250 HELP
+AUTH LOGIN
+334 VXNlcm5hbWU6
+d2Vic2VydmljZUBiMW9ubGluZS5kZQ==
+334 UGFzc3dvcmQ6
+xxxxMYPASSWORD_IN_BASE64xxxx
+235 2.0.0 OK Authenticated
+mail from: webservice@b1online.de
+250 2.1.0 <webservice@b1online.de> Sender ok
+rcpt to: benedikt@b1online.de
+250 2.1.5 <benedikt@b1online.de> Recipient ok
+DATA
+354 Enter data for mail with id g0718am3MD7AJw
+test mich
+.
+250 queued as g0718am3MD7AJw
+
+
+This looks very strange to me. Independently from my mailserver the
+telnet command should have succeeded on both machines. But it failed on
+my debian box. What could be wrong? Is this a problem of my setup, or is
+my ISP blocking something?
+
+Thanks in advance
+
+Benedikt
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271946001.11753.18.camel@localhost.localdomain
+
+

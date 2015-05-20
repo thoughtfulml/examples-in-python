@@ -1,0 +1,129 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ddc6b13d87b10
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs81297wfi;
+        Thu, 8 Apr 2010 07:15:39 -0700 (PDT)
+Received: by 10.87.73.1 with SMTP id a1mr493342fgl.17.1270736138565;
+        Thu, 08 Apr 2010 07:15:38 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 20si315488fxm.24.2010.04.08.07.15.37;
+        Thu, 08 Apr 2010 07:15:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B259A2D1E9A; Thu,  8 Apr 2010 14:15:33 +0000 (UTC)
+Old-Return-Path: <carsten.pfeiffer@alumni.tu-berlin.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=PGPSIGNATURE autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BBF002D104F
+	for <lists-debian-kde@liszt.debian.org>; Thu,  8 Apr 2010 14:15:27 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id GOLW-1kx8dfn for <lists-debian-kde@liszt.debian.org>;
+	Thu,  8 Apr 2010 14:15:20 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 624 seconds by postgrey-1.31 at liszt; Thu, 08 Apr 2010 14:15:20 UTC
+Received: from mailbox.alumni.tu-berlin.de (mailbox.alumni.TU-Berlin.DE [130.149.4.218])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 471E113A50F3
+	for <debian-kde@lists.debian.org>; Thu,  8 Apr 2010 14:15:13 +0000 (UTC)
+X-tubIT-Incoming-IP: 212.23.33.42
+Received: from [212.23.33.42] (helo=nb-carsten-xp.localnet)
+	  by mailbox.alumni.tu-berlin.de (exim-4.71) with esmtpsa [TLSv1:DHE-RSA-AES256-SHA:256] 
+	  for <debian-kde@lists.debian.org>
+	  id 1NzsLf-00054U-NN; Thu, 08 Apr 2010 16:04:47 +0200
+From: Carsten Pfeiffer <carsten.pfeiffer@alumni.tu-berlin.de>
+To: debian-kde@lists.debian.org
+Subject: Re: Attach gdb to program?
+Date: Thu, 8 Apr 2010 16:04:39 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.32-trunk-686-bigmem; KDE/4.4.2; i686; ; )
+References: <201004080722.14782@fortytwo.ch>
+In-Reply-To: <201004080722.14782@fortytwo.ch>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart10772301.uGUVpxrFK8";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004081604.45115.carsten.pfeiffer@alumni.tu-berlin.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <RuC9IzuGChO.A.gX.FUevLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31994
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 14:15:33 +0000 (UTC)
+
+--nextPart10772301.uGUVpxrFK8
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag, 8. April 2010 schrieb Adrian von Bidder:
+
+> Given a Debian package (kmail, in this case, with installed kdepim-dbg
+> package) and an extracted source package: how do I properly start gdb (or
+> ddd or ...) so that it finds both the debugging symbols and the source
+> code?
+>=20
+> Just gdb -p <pid> /usr/bin/kmail doesn't work :-(
+>=20
+> (I've only ever used gdb on locally compiled simple projects, I've never
+> worked with the separate symbol files as delivered in -dbg packages.)
+
+Not sure if this is the same as your example, but I usually used
+
+gdb kmail
+attach <pid>
+
+But check the output of ps aux | grep kmail -- if kmail is launched via=20
+kdeinit or kdeinit4, you need to run "gdb kdeinit" or kdeinit4.
+
+Cheers,
+Carsten
+
+--nextPart10772301.uGUVpxrFK8
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEVAwUAS73id6WgYMJuwmZtAQLgNAf/QfTqq+5KWtI1OBAF59zXLSQZVOJ5QfvG
+TaiUkjS1gvLvT4oix6kBWFyN77Q9GI+ydJ2raWQ7J5lPcfAokmuNj9Gh3GHIgUJK
+QriKnGNBCQ7Xz6t2ocPt4bhI/sOqq9h0YJcVvpZoV3FiMA8S6DwORRZ7MVGENNvx
+Wt1YME/DQuxMWtzqN4sY9n3BHhPoSX4n+ol/9R/JxpPICuYpnRRoehhsmRqRsYNw
+gElwCGxuZXThLmc/CZQFnMMIh0phBsBYTKABJxh0ie6m0JKxOAgw77V4Y/xxAnvu
+ZzOUI78tJkAmGMOZgiPNCnxhEqX+swK5o7SeAJpUTb5itVtyQ81vhw==
+=rqAC
+-----END PGP SIGNATURE-----
+
+--nextPart10772301.uGUVpxrFK8--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004081604.45115.carsten.pfeiffer@alumni.tu-berlin.de
+
+

@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281bb99929008c3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs73491wfj;
+        Tue, 20 Apr 2010 07:58:44 -0700 (PDT)
+Received: by 10.223.10.11 with SMTP id n11mr1515984fan.3.1271775467794;
+        Tue, 20 Apr 2010 07:57:47 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si2014349fkg.28.2010.04.20.07.57.47;
+        Tue, 20 Apr 2010 07:57:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0A9D213A4F28; Tue, 20 Apr 2010 14:57:40 +0000 (UTC)
+Old-Return-Path: <wes@page.ca>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,ONEWORD,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A8FF213A4F18
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 14:57:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5, ONEWORD=2,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mnQbVtu21TFy for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 14:57:25 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .page. - helo: .mail-qy0-f175.google. - helo-domain: .google.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id A9AFE13A4EED
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 14:57:24 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so7891757qyk.3
+        for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 07:57:15 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.86.212 with HTTP; Tue, 20 Apr 2010 07:57:14 -0700 (PDT)
+Date: Tue, 20 Apr 2010 10:57:14 -0400
+Received: by 10.229.227.10 with SMTP id iy10mr2248617qcb.55.1271775434601; 
+	Tue, 20 Apr 2010 07:57:14 -0700 (PDT)
+Message-ID: <p2gfa6be6421004200757wc22952c7n1c0ba53954c2f8cd@mail.csmining.org>
+Subject: dash-as-bin-sh
+From: Wes Garland <wes@page.ca>
+To: Debian User List <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=00163631023d039bd70484ac4b36
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Ssc-FylPuMC.A.mwB.kDczLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574555
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 14:57:40 +0000 (UTC)
+
+--00163631023d039bd70484ac4b36
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi, List!
+
+I have a few simple questions for you:
+
+1 - I there a better place to get help with dash
+2 - Is there way to detect that a script is running as dash, instead of a
+shell like Solaris' /bin/sh
+3 - Corollary to #2, can I expect dash-as-sh to by a hard link or a sym
+link?   (I would think not, but don't know Debian's policy here)
+4 - Reason for #2, is there a way to list all functions declared in a script
+with dash?  Under Solaris' shell, bash, or the korn shell I can use
+"typeset" -- I've searched POSIX and don't see a way that doesn't involve
+parsing the script.
+
+Thanks,
+Wes
+
+-- 
+Wesley W. Garland
+Director, Product Development
+PageMail, Inc.
++1 613 542 2787 x 102
+
+--00163631023d039bd70484ac4b36
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi, List!<br><br>I have a few simple questions for you:<br><br>1 - I there =
+a better place to get help with dash<br>2 - Is there way to detect that a s=
+cript is running as dash, instead of a shell like Solaris&#39; /bin/sh<br>
+3 - Corollary to #2, can I expect dash-as-sh to by a hard link or a sym lin=
+k?=A0=A0 (I would think not, but don&#39;t know Debian&#39;s policy here)<b=
+r>4 - Reason for #2, is there a way to list all functions declared in a scr=
+ipt with dash?=A0 Under Solaris&#39; shell, bash, or the korn shell I can u=
+se &quot;typeset&quot; -- I&#39;ve searched POSIX and don&#39;t see a way t=
+hat doesn&#39;t involve parsing the script.<br>
+<br>Thanks,<br>Wes<br clear=3D"all"><br>-- <br>Wesley W. Garland<br>Directo=
+r, Product Development<br>PageMail, Inc.<br>+1 613 542 2787 x 102<br>
+
+--00163631023d039bd70484ac4b36--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/p2gfa6be6421004200757wc22952c7n1c0ba53954c2f8cd@mail.csmining.org
+
+

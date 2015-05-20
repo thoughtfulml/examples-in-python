@@ -1,0 +1,134 @@
+X-Account-Key: account5
+X-UIDL: GmailId12860b708b214d4c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs252945wfj;
+        Mon, 3 May 2010 17:28:49 -0700 (PDT)
+Received: by 10.86.239.33 with SMTP id m33mr11278658fgh.31.1272932927993;
+        Mon, 03 May 2010 17:28:47 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si10095062fkt.19.2010.05.03.17.28.47;
+        Mon, 03 May 2010 17:28:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@pobox.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 38F6313A4F8D; Tue,  4 May 2010 00:26:11 +0000 (UTC)
+Old-Return-Path: <joelz@pobox.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 53C5A13A49A8
+	for <lists-debian-user@liszt.debian.org>; Tue,  4 May 2010 00:26:05 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ykUu4ox51jbZ for <lists-debian-user@liszt.debian.org>;
+	Tue,  4 May 2010 00:25:57 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -8.1
+X-Greylist: delayed 144 seconds by postgrey-1.31 at liszt; Tue, 04 May 2010 00:25:57 UTC
+Received: from sasl.smtp.pobox.com (b-pb-sasl-quonix.pobox.com [208.72.237.35])
+	by liszt.debian.org (Postfix) with ESMTP id 8452F13A4F2A
+	for <debian-user@lists.debian.org>; Tue,  4 May 2010 00:25:51 +0000 (UTC)
+Received: from sasl.smtp.pobox.com (unknown [127.0.0.1])
+	by b-sasl-quonix.pobox.com (Postfix) with ESMTP id D1E53A3519
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 20:23:28 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=pobox.com; h=date:from:to
+	:subject:message-id:reply-to:references:mime-version
+	:content-type:in-reply-to; s=sasl; bh=18zqgYX5c4lI5Ln/4WKTBNsZS+
+	E=; b=P79cByP0t4RPG5CVKaO0RHsljOaPB3iseBirfu7FvgZw4Sa3BUmb+qLhaI
+	xf/SWEq94vMjrQpnEmfN0pbkqCcWYgqpD4ANVNspKKMCenPMJKxqJkpFOucvdZWU
+	1Pu30RKZh5APEHucyX52T5tE09txxB6bT/zfuhcpKWG7Pxsjk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=pobox.com; h=date:from:to
+	:subject:message-id:reply-to:references:mime-version
+	:content-type:in-reply-to; q=dns; s=sasl; b=lZ9ldAiJuWtTBrifYzRM
+	6+Y85KRTQwgk70d7dDIEWGK9zMEgon137HBjtiq446MW7Q4C8tsxmnpRHKg2YREO
+	3Ixmi5WQzyBzVER/AvByesw47DCgyD3VS6W8YB/lRodGQjhl+jNv6XMvS/9fO/2O
+	7OgZgRF5XbcaFtSP6vIUdLQ=
+Received: from b-pb-sasl-quonix. (unknown [127.0.0.1])
+	by b-sasl-quonix.pobox.com (Postfix) with ESMTP id CE745A3518
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 20:23:27 -0400 (EDT)
+Received: from sprite (unknown [72.234.43.214]) (using TLSv1 with cipher
+ AES256-SHA (256/256 bits)) (No client certificate requested) by
+ b-sasl-quonix.pobox.com (Postfix) with ESMTPSA id 886A0A3517 for
+ <debian-user@lists.debian.org>; Mon,  3 May 2010 20:23:27 -0400 (EDT)
+Received: from jroth by sprite with local (Exim 4.69) (envelope-from
+ <joelz@pobox.com>) id 1O95Za-0000bQ-To for debian-user@lists.debian.org; Mon,
+ 03 May 2010 14:01:14 -1000
+Date: Mon, 3 May 2010 14:01:14 -1000
+From: Joel Roth <joelz@pobox.com>
+To: debian-user@lists.debian.org
+Subject: Re: 64-bit netbooks with Debian linux
+Message-ID: <20100504000114.GA2112@sprite>
+Reply-To: Joel Roth <joelz@pobox.com>
+References: <t2s92e02fab1005021217le43861d0m64e19a959c3f6ad9@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <t2s92e02fab1005021217le43861d0m64e19a959c3f6ad9@mail.csmining.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Pobox-Relay-ID:
+ 429FE48E-5713-11DF-8A72-68E3016DD5F0-04347428!b-pb-sasl-quonix.pobox.com
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-yOT5MrZkwC.A.q3H.jm23LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575797
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 00:26:11 +0000 (UTC)
+
+On Sun, May 02, 2010 at 12:17:54PM -0700, Peter Tenenbaum wrote:
+> I've been thinking about getting a netbook and I'd like to install Debian
+> linux on it when / if I do.  I'd also like to get one which uses an
+> AMD64-class processor.  Does anyone have any suggestions?  The Gateway LT21
+> looks like just what I want in terms of hardware (ie, fairly low-end but
+> 64-bit); has anyone got any positive / negative experience installing Debian
+> on this computer?
+
+No specific suggestions. A caution: go to a store and make
+sure your future netbook supports ACPI. I've had bad
+experiences with my cheap Toshiba Satellite L305 series
+laptop: the fan controls (and most other ACPI registers) do
+nothing.
+
+It seems either Toshiba or the BIOS maker Insyde H2O has
+chosen non-standard SSDT/DSDT table values, with the result
+that only Microsoft's OS knows where to twiddle.
+
+There are reports that the omnibook module will correctly
+handle Insyde H2O BIOS'ed notebook. Have yet to test here.
+
+Good luck,
+
+Joel
+
+ 
+> Thanks in advance,
+> -PT
+
+-- 
+Joel Roth
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100504000114.GA2112@sprite
+
+

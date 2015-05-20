@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId12808329a0e7517b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs38845wfj;
+        Fri, 16 Apr 2010 12:57:34 -0700 (PDT)
+Received: by 10.115.64.13 with SMTP id r13mr2301595wak.11.1271447853982;
+        Fri, 16 Apr 2010 12:57:33 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 15si15505456iwn.6.2010.04.16.12.57.33;
+        Fri, 16 Apr 2010 12:57:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 5BC291BA6B650
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 12:57:33 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 5770726DD94D4
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 12:57:33 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 8858E26DD92D5
+	for <X11-users@lists.apple.com>; Fri, 16 Apr 2010 12:57:13 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 77553CAA02AC
+	for <X11-users@lists.apple.com>; Fri, 16 Apr 2010 12:57:13 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-bb-4bc8c1187359
+Received: from fmmailgate03.web.de (fmmailgate03.web.de [217.72.192.234])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	B3.39.25880.811C8CB4; Fri, 16 Apr 2010 12:57:13 -0700 (PDT)
+Received: from smtp06.web.de (fmsmtp06.dlan.cinetic.de [172.20.5.172])
+	by fmmailgate03.web.de (Postfix) with ESMTP id C78DC14DAF635
+	for <X11-users@lists.apple.com>; Fri, 16 Apr 2010 21:57:11 +0200 (CEST)
+Received: from [212.122.41.35] (helo=[192.168.21.151])
+	by smtp06.web.de with asmtp (TLSv1:AES128-SHA:128) (WEB.DE 4.110 #4)
+	id 1O2rf5-0002Fw-00
+	for X11-users@lists.apple.com; Fri, 16 Apr 2010 21:57:11 +0200
+From: Schindler Karl-Michael <karl-michael.schindler@web.de>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 16 Apr 2010 21:57:10 +0200
+Message-Id: <520FA3E8-3D63-4C96-8315-268C49D2B24F@web.de>
+To: X11-users@lists.apple.com
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Sender: karl-michael.schindler@web.de
+X-Provags-ID: V01U2FsdGVkX18lgOyKmSfhCPN9SBPN4VYrb+Iejd4VnXzVpkiB
+	fU/ccDRiVejhQdSlXACjrqFbn4VBltF2O0tZqSkjlNf8R38Qqc
+	0aVQmQ1BtUV8z9W0Cn5mXOPANWR39V
+X-Brightmail-Tracker: AAAAARO1d2Y=
+Cc: 
+Subject: BadAtom X11 Error with fpGUI
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi,
+
+When running pascal programs based on fpGUI, an X11 based interface =
+package, I get an error if the application needs to create the top level =
+(root?) X11 window. but only then. If there is already a toplevel =
+window, for example because xterm runs, then the application open its =
+window and everything behaves as expected.
+
+the problematic call is this:
+
+XGetWMProtocols(FDisplay, AWindow, @Protocols, @Count);
+
+gdb shows these values (if there is an X11 window, the values are =
+exactly the same):
+
+4: COUNT =3D 0
+3: PROTOCOLS =3D 0x0
+2: AWINDOW =3D 6291457
+1: this->FDISPLAY =3D 0x803a00
+
+This call produces this X11 error:
+
+X Error of failed request:  BadAtom (invalid Atom parameter)
+ Major opcode of failed request:  18 (X_ChangeProperty)
+ Atom id in failed request:  0x0
+ Serial number of failed request:  103
+ Current serial number in output stream:  104
+
+System: Mac OS X 10.6.3
+
+X11 version:
+michael% X -version
+X.org Release 7.3
+X.Org X Server 1.4.2-apple53
+Build Date: 20100211
+
+Someone suggested  XSync and XInterAtom , but I am fairly clueless, when =
+it comes to X11. So could you give me directions how to resolve this?
+
+Michael=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

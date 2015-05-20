@@ -1,0 +1,129 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286039a0cff59a9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs248210wfj;
+        Mon, 3 May 2010 15:11:50 -0700 (PDT)
+Received: by 10.223.24.5 with SMTP id t5mr3644172fab.72.1272924709008;
+        Mon, 03 May 2010 15:11:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y15si9948000fkd.8.2010.05.03.15.11.48;
+        Mon, 03 May 2010 15:11:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 462CB13A43D8; Mon,  3 May 2010 22:11:39 +0000 (UTC)
+Old-Return-Path: <tv.debian@googlemail.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8D98313A4333
+	for <lists-debian-user@liszt.debian.org>; Mon,  3 May 2010 22:11:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id B3rI4Yy5ZFjO for <lists-debian-user@liszt.debian.org>;
+	Mon,  3 May 2010 22:11:26 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .googlemail. - helo: .ey-out-1920.google. - helo-domain: .google.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from ey-out-1920.google.com (ey-out-1920.google.com [74.125.78.144])
+	by liszt.debian.org (Postfix) with ESMTP id 22F4D13A5074
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 22:11:19 +0000 (UTC)
+Received: by ey-out-1920.google.com with SMTP id 3so129021eyh.56
+        for <debian-user@lists.debian.org>; Mon, 03 May 2010 15:11:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:references:in-reply-to
+         :content-type:content-transfer-encoding;
+        bh=XVo+GXAMr7U8sPwFKhkVn8pK2gd7Zjp6L5dObB/xhME=;
+        b=LcuG9uQBSrnKgpNyClsT7wCs6R7EGDEQLTpWDQ8l6Z20NzYjnyFakG9rwtFkssp0Oi
+         d4z/6v+Kb9yQKK+6/Sdy/j18nU+Vil64zLmIwueNBhg/x+jBVc2WnGEm9Eos2CV7z2PY
+         gp0oR9lySFMoGz6IfVZkeUxmIjr7Kez42T6Ms=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=googlemail.com; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type:content-transfer-encoding;
+        b=YhQ936SlQJLxOAYptxyZmdhdYnoA9ODHhCvjbJ/Py6k6kzEza0iuSKtAKVY6qNIZEY
+         AgdRSmMzdt2LGmEbe73gIjmMi6o5NsS+f7Afse+wVPp4cD9L4DhuvXeLWZ5cNb1GdEtl
+         tHvVa73gaK9QUGh2i6MDi9+p6VlY5Ir4t/m4o=
+Received: by 10.213.48.9 with SMTP id p9mr1591787ebf.73.1272924672478;
+        Mon, 03 May 2010 15:11:12 -0700 (PDT)
+Received: from [192.168.1.4] (ti0027a380-1143.bb.online.no [80.212.67.121])
+        by mx.google.com with ESMTPS id 14sm3348799ewy.10.2010.05.03.15.11.11
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Mon, 03 May 2010 15:11:11 -0700 (PDT)
+Message-ID: <4BDF49FE.6080906@googlemail.com>
+Date: Tue, 04 May 2010 00:11:10 +0200
+From: "tv.debian@googlemail.com" <tv.debian@googlemail.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Iceowl/1.0b1 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: fglrx driver in debian squeeze in limbo - any ideas?
+References: <v2kecfa260c1005022248p2c98eed9qa35bd2dc6ccc61a4@mail.csmining.org>	 <pan.2010.05.03.09.43.31@csmining.org> <4BDEC502.20505@googlemail.com> <k2v82aadc8f1005031349j8274e6bdh5b40fb03b690700e@mail.csmining.org>
+In-Reply-To: <k2v82aadc8f1005031349j8274e6bdh5b40fb03b690700e@mail.csmining.org>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <t13ob4qypLI.A.KtF.bo03LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575789
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 22:11:39 +0000 (UTC)
+
+Le 03/05/2010 22:49, Carlos Miranda Molina (Mstaaravin) wrote:
+> On Mon, May 3, 2010 at 9:43 AM, tv.debian@googlemail.com
+> <tv.debian@googlemail.com>  wrote:
+>> Hi, what exactly is broken ?
+>> As a workaround you could use Sid packages if Squeeze's are in bad shape. I
+>> have two mostly Squeeze (amd64, kde with desktop "effects" enabled) machines
+>> running Sid's fglrx at the moment and they seem fine, glxinfo and fglrxinfo
+>> doesn't spit any error, xorg logs doesn't contain errors, and the few OpenGl
+>> stuff I just tried are working fine (namely "Torcs" and "xmoto").
+>
+> Hi
+> everyone is wrong, fglrx in Debian Squeeze need non-free packages in
+> /etc/apt/sources.list
+> ll they need is module-assistant and fglrx
+>
+> root@forest:~# aptitude install fglrx-driver fglrx-glx fglrx-control
+> fglrx-source fglrx-kernel-2.6.32-3-amd64 module-assistant -y
+> root@forest:~# module-assistant (and follow assistant, select fglrx,
+> make, build and install)
+> root@forest:~# modprobe fglrx
+> root@forest:~# aticonfig --initial (replaces /etc/X11/xorg.conf if exists)
+> root@forest:~# /etc/init.d/gdm restart (or kdm if you have  QT vaccine)
+>
+>
+Hi Carlos Miranda Molina, please work on your message trimming 
+technique, the OP was already hinted toward non-free by Camaleón earlier 
+in this thread so I could only assume he was aware of the need to use 
+non-free. I just mentioned that for me fglrx from Sid is working fine.
+I am sorry if "everyone" is wrong, but your message trimming suggest I 
+am "everyone" all by myself...
+I like your prompt by the way.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDF49FE.6080906@googlemail.com
+
+

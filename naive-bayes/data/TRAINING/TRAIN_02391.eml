@@ -1,0 +1,170 @@
+X-Account-Key: account5
+X-UIDL: GmailId12887a6a396d7ab7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs65034wfb;
+        Tue, 11 May 2010 06:56:06 -0700 (PDT)
+Received: by 10.227.141.201 with SMTP id n9mr5313258wbu.31.1273586164506;
+        Tue, 11 May 2010 06:56:04 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u22si7642874wbc.74.2010.05.11.06.56.03;
+        Tue, 11 May 2010 06:56:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D8AAE6C845F; Tue, 11 May 2010 13:55:55 +0000 (UTC)
+Old-Return-Path: <debian.dev.list@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.4 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 638806C845A
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 13:55:50 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id G77FWrefxwKg for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 13:55:43 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.156])
+	by liszt.debian.org (Postfix) with ESMTP id EB0FF6C845F
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 13:55:42 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id 22so1261738fge.12
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 06:55:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:cc:subject:references:in-reply-to
+         :content-type;
+        bh=27v70mgNEpYncuQNYQtzg1aH/serqMLkgRp165Jn2M4=;
+        b=ji+MZ0yNAfdO8R/hpCURvJPYXUMhLmbuWlzwkEC77IeUeZvc+fQsczbySd6acdalaf
+         zOBFdsb2UnwWxoFPNQ0dSjuBUC7SRtakSClk8Ngl+wjx1eBravNCuRDG82O2vaGeupPi
+         vYUWafwCTxYznCFGOG6iBelSiHAesnURgYNzg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:cc:subject
+         :references:in-reply-to:content-type;
+        b=pAGBSRcZk0jahqc6UaaYfYGk9Fj6JmB6mcBlhOwrIj/QTKqxSNV2kskL81Vrr86roF
+         wKyV5CI9pSJZzLkP6U3fHOscxuZmKarzeOQCUBYPZTgjtMpxIOllYtn05Au81hyjfj5y
+         tOKlEQXqtjqDKhh7W5b+8VULhPXKay1G/0C28=
+Received: by 10.87.71.21 with SMTP id y21mr11664868fgk.69.1273586137940;
+        Tue, 11 May 2010 06:55:37 -0700 (PDT)
+Received: from [192.168.0.100] ([89.47.83.116])
+        by mx.google.com with ESMTPS id 1sm11538678fkt.41.2010.05.11.06.55.35
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Tue, 11 May 2010 06:55:36 -0700 (PDT)
+Message-ID: <4BE961DD.50503@csmining.org>
+Date: Tue, 11 May 2010 16:55:41 +0300
+From: Aioanei Rares <debian.dev.list@csmining.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: Oscar Corte <oect_1964@hotmail.com>
+CC: Debian Users Mail List <debian-user@lists.debian.org>
+Subject: Re: What to choose for Core i5 64 bits?
+References: <COL122-W552C2CBA6682ADBE143AB487FA0@phx.gbl>
+In-Reply-To: <COL122-W552C2CBA6682ADBE143AB487FA0@phx.gbl>
+Content-Type: multipart/alternative;
+ boundary="------------020901010904050701050602"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kcPbY5zLWHB.A.EBG.rHW6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576504
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 13:55:55 +0000 (UTC)
+
+This is a multi-part message in MIME format.
+--------------020901010904050701050602
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+On 05/11/2010 04:40 PM, Oscar Corte wrote:
+> Hi:
+>
+> I would like to test Debian on a new PC.
+>
+> It's a DELL XPS Inspiron 8100 with a Core i5 64 bits processor.
+>
+> What would it be the recommended architecture/versioin to choose for 
+> download an install?
+>
+> Could Intel IA-64 work right?
+>
+> Regards
+> ------------------------------------------------------------------------
+> Hotmail: Free, trusted and rich email service. Get it now. 
+> <https://signup.live.com/signup.aspx?id=60969>
+Not IA64 , that's Itanium; amd64 will work for you.
+
+--------------020901010904050701050602
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="Content-Type">
+  <title></title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+On 05/11/2010 04:40 PM, Oscar Corte wrote:
+<blockquote cite="mid:COL122-W552C2CBA6682ADBE143AB487FA0@phx.gbl"
+ type="cite">
+  <style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 10pt;
+font-family:Verdana
+}
+--></style>Hi:<br>
+  <br>
+I would like to test Debian on a new PC.<br>
+  <br>
+It's a DELL XPS Inspiron 8100 with a Core i5 64 bits processor.<br>
+  <br>
+What would it be the recommended architecture/versioin to choose for
+download an install?<br>
+  <br>
+Could Intel IA-64 work right?<br>
+  <br>
+Regards <br>
+  <hr>Hotmail: Free, trusted and rich email service. <a
+ moz-do-not-send="true"
+ href="https://signup.live.com/signup.aspx?id=60969" target="_new">Get
+it now.</a></blockquote>
+Not IA64 , that's Itanium; amd64 will work for you.<br>
+</body>
+</html>
+
+--------------020901010904050701050602--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE961DD.50503@csmining.org
+
+

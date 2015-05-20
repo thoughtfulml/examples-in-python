@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286c638140b482e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs376350wfb;
+        Wed, 5 May 2010 23:53:00 -0700 (PDT)
+Received: by 10.86.6.16 with SMTP id 16mr918043fgf.55.1273128779963;
+        Wed, 05 May 2010 23:52:59 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d4si1704917fga.10.2010.05.05.23.52.59;
+        Wed, 05 May 2010 23:52:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C7D3513A525D; Thu,  6 May 2010 06:52:57 +0000 (UTC)
+Old-Return-Path: <avbidder@fortytwo.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-20.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E1F7B13A5222
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 06:52:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LExVz3q+Q+UH for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 06:52:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from zbasel.fortytwo.ch (zbasel.fortytwo.ch [193.138.215.60])
+	by liszt.debian.org (Postfix) with ESMTP id 9582713A51BB
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 06:52:44 +0000 (UTC)
+Received: from laeggerli.fortytwo.ch (62-2-219-110.static.cablecom.ch [62.2.219.110])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by zbasel.fortytwo.ch (Postfix) with ESMTP id 2E3551E0E
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 08:52:42 +0200 (CEST)
+From: Adrian von Bidder <avbidder@fortytwo.ch>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 08:52:37 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33-2-686; KDE/4.4.2; i686; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005051621.23651.bss@iguanasuicide.net>
+In-Reply-To: <201005051621.23651.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart3225280.4nXTKs0gty";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005060852.37551@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <EGpB5vorlfH.A.QrB.Jdm4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32085
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 06:52:57 +0000 (UTC)
+
+--nextPart3225280.4nXTKs0gty
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 05 May 2010 23.21:15 Boyd Stephen Smith Jr. wrote:
+> In 4.4, kmail depends on mysql-server in order to send mail. (kmail ->
+> Akonadi  -> mysql-server).
+
+Note that mysql recently split their server package into a "server" and a=20
+"core" package, so you get a minimal mysql installation without a system-
+wide copy of mysql running.
+
+Yes, akonadi will still use mysql internally, but it's (mostly) transparent=
+=20
+to the user.  My main issue with the akonadi/mysql dependencies is thus=20
+solved.
+
+(Yes, it is not very cool to have mysql running for akonadi and virtuoso fo=
+r=20
+nepomuk/strigi and probably quite a few copies of libsqlite and libdb for=20
+other subsystems.  But I guess we'll just have to live with that unless=20
+we're prepared to do the work ourselves... )
+
+cheers
+=2D- vbi
+
+=2D-=20
+=46orgive him, for he believes that the customs of his tribe are the laws
+of nature!
+		-- G. B. Shaw
+
+--nextPart3225280.4nXTKs0gty
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: get my key from http://fortytwo.ch/gpg/92082481
+
+iKcEABECAGcFAkviZzVgGmh0dHA6Ly9mb3J0eXR3by5jaC9sZWdhbC9ncGcvZW1h
+aWwuMjAwMjA4MjI/dmVyc2lvbj0xLjUmbWQ1c3VtPTVkZmY4NjhkMTE4NDMyNzYw
+NzFiMjVlYjcwMDZkYTNlAAoJECqqZti935l684sAn2eHuTtI5SVjuVt0DTTlsX01
+T8bZAJ9xBYaPQ1O4JyqJpMb3ffZWDWJeKA==
+=tlgK
+-----END PGP SIGNATURE-----
+
+--nextPart3225280.4nXTKs0gty--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005060852.37551@fortytwo.ch
+
+

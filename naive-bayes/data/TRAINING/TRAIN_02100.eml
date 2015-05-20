@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a6832d4f9d070
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs17464wfo;
+        Mon, 17 May 2010 06:45:35 -0700 (PDT)
+Received: by 10.223.92.144 with SMTP id r16mr6328213fam.62.1274103934245;
+        Mon, 17 May 2010 06:45:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k9si12911502fad.29.2010.05.17.06.45.33;
+        Mon, 17 May 2010 06:45:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CCA076C842F; Mon, 17 May 2010 13:45:19 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 326B76C8426
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 13:45:13 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 9CpA28AcpF-D for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 13:45:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 9772B13A56A8
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 13:45:05 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id E73AC15D818E
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 15:44:59 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id VlO3zFrxsuCs for <debian-user@lists.debian.org>;
+	Mon, 17 May 2010 15:44:59 +0200 (CEST)
+Received: from [132.229.227.77] (brood.lorentz.leidenuniv.nl [132.229.227.77])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 64D1615D8186
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 15:44:59 +0200 (CEST)
+Message-ID: <4BF1485B.3020501@lorentz.leidenuniv.nl>
+Date: Mon, 17 May 2010 15:44:59 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.8.1.21) Gecko/20090318 Lightning/0.9 Thunderbird/2.0.0.21 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: How to keep debian current??
+References: <2146380320-1273918352-cardhu_decombobulator_blackberry.rim.net-558375620-@bda030.bisx.prodap.on.blackberry> <20100515115555.GA3073@kinakuta.local> <1965615763-1273929389-cardhu_decombobulator_blackberry.rim.net-1787116711-@bda030.bisx.prodap.on.blackberry> <4BEEA03D.1000905@cox.net> <20100515133902.GB17069@osamu.debian.net>
+In-Reply-To: <20100515133902.GB17069@osamu.debian.net>
+X-Enigmail-Version: 0.95.6
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig96EBAFF48A8D4DABA0007B32"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7xD8urcBAzP.A.oPC.vhU8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577031
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 13:45:19 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig96EBAFF48A8D4DABA0007B32
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Osamu Aoki schreef:
+> On Sat, May 15, 2010 at 08:23:09AM -0500, Ron Johnson wrote:
+>> On 05/15/2010 08:16 AM, RyanJB wrote:
+>>> Thanks for the comprehensive reply, it's like you just whipped up
+>>> a new documentation for this problem ;)
+>>>
+>>> I think it's best for me to run lenny with backport. My need is
+>>> actually only a stable home system. I do favor current apps
+>>> though; I often use betas (but not alphas), but I can live with
+>>> old apps.
+>>>
+>> Then use Sid.  Lots of non-geeks do.
+>=20
+> Why??? I think he made a correct judgement.=20
+>=20
+> He said "I can live with old apps".
+>=20
+> He can always run sid in chroot or virtual machine.  But the fact that
+> he is asking this question is the proof, he should get to lern Debian
+> system now.
+>=20
+> Once he will get to used to Debian system, he can do sid as I do or Ron=
+
+> does.  But I think it is premature.  Give him few months, he will....
+This is a very sane advice. I also started with a stable install, but=20
+after some time I decided I can handle testing. The problem is not that=20
+it's hard to run testing because it breaks, it is just a bit more likely =
+
+to break in which case it is good to have some experience sorting out=20
+the debris. For unstable, this is probably even more true.
+
+Sjoerd
+
+
+--------------enig96EBAFF48A8D4DABA0007B32
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.7 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFL8UhbHKEdNPY5OOURAoe8AJ4wXZZAMJ0P1hxsz9CYPCqKWEnqmACgrPUT
+16sFkygab0ZkcIDXJk7kZIw=
+=cKcF
+-----END PGP SIGNATURE-----
+
+--------------enig96EBAFF48A8D4DABA0007B32--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF1485B.3020501@lorentz.leidenuniv.nl
+
+

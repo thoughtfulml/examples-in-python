@@ -1,0 +1,160 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bf2afd8222ef9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs26780wfo;
+        Sat, 22 May 2010 01:39:46 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr2362893fai.98.1274517584966;
+        Sat, 22 May 2010 01:39:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n27si2909828faa.88.2010.05.22.01.39.44;
+        Sat, 22 May 2010 01:39:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1B0A02D0CE9; Sat, 22 May 2010 08:39:40 +0000 (UTC)
+Old-Return-Path: <d.sastre.medina@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.4 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,NO_REAL_NAME,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4490F13A574D
+	for <lists-debian-user@liszt.debian.org>; Sat, 22 May 2010 08:39:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id CqK8OJNu1XC7 for <lists-debian-user@liszt.debian.org>;
+	Sat, 22 May 2010 08:39:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 417D713A4F04
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 08:39:20 +0000 (UTC)
+Received: by wwi17 with SMTP id 17so592208wwi.6
+        for <debian-user@lists.debian.org>; Sat, 22 May 2010 01:39:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=0WC2HwgHSBqmXoqyf+Aff+lM3Xl+cMi8AZG0dQ1jlmQ=;
+        b=c/VPwkCsJPF5N2zLe0rGHEqNYsie4Fv8fZlsG93qbggvRfFKgSKZOpJ/QWGg7Qyb5g
+         CGLvqh+2qOaYFbAxQVoVbhamrUFaVik7uWpyKMIBsyiDiEvB+IsaPilWhrkwFEPMIw1k
+         ee3OMJCIqL0uN1s4WnDHLNm50vqnZPzeUW+oc=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=CKoz4wa/xkfTrS1evyN2J0QmG7AW4kt2m469DBWoxQ9uup7WpLEt5SjC0mwQ8/0OvQ
+         TTfwpjlKnNCy/npW4l0UDYcZc/3Ee33ziert6Xt/21O2Y7BH89LK8xg89SzW9Zh21dnO
+         3zpenpCW6+Y+do1rJveX4LTF7SDBzp2i0pqbw=
+Received: by 10.227.137.143 with SMTP id w15mr2467021wbt.117.1274517553035;
+        Sat, 22 May 2010 01:39:13 -0700 (PDT)
+Received: from localhost (6.145.217.87.dynamic.jazztel.es [87.217.145.6])
+        by mx.google.com with ESMTPS id l23sm13814573wbb.2.2010.05.22.01.39.12
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 22 May 2010 01:39:12 -0700 (PDT)
+Date: Sat, 22 May 2010 10:39:08 +0200
+From: d.sastre.medina@csmining.org
+To: debian-user@lists.debian.org
+Subject: Re: pygrub is failing to boot centos domu on Debian lenny dom0
+Message-ID: <20100522083908.GC4173@ghost.local.lan>
+References: <AANLkTimIPr4pFLWr-I_9XpSuxT0bjak8aEKJEzm-G5Xq@mail.csmining.org>
+ <AANLkTinJcOIJ-qF-1qf7gSc11gMr1MKx2Sk0bpQTIWqe@mail.csmining.org>
+ <20100521135312.GA3629@ghost.local.lan>
+ <AANLkTik-rvHPviUWSdI86md8-T0EPK2H07zzsvR7mVl6@mail.csmining.org>
+ <AANLkTinCfAB5o-D_YjBDAqewzbHJVatWmM2L4OR_0592@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="V88s5gaDVPzZ0KCq"
+Content-Disposition: inline
+In-Reply-To: <AANLkTinCfAB5o-D_YjBDAqewzbHJVatWmM2L4OR_0592@mail.csmining.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Cj26L_JxGqL.A.CpG.Mh59LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577366
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 08:39:40 +0000 (UTC)
+
+
+--V88s5gaDVPzZ0KCq
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat, May 22, 2010 at 09:50:19AM +0530, Tapas Mishra wrote:
+> On Fri, May 21, 2010 at 8:32 PM, Tapas Mishra <mightydreams@csmining.org> wr=
+ote:
+> > On Fri, May 21, 2010 at 7:23 PM, =A0<d.sastre.medina@csmining.org> wrote:
+> >> On Fri, May 21, 2010 at 04:10:55PM +0530, Tapas Mishra wrote:
+> >>> bootloader =3D "/usr/lib/xen-3.2-1/bin/pygryb"
+> >> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0^^^^^^^^
+> >>>(there was no softlink
+> >>> from /usr/lib/xen-3.2-1/bin/pygryb to /usr/bin)
+> >>> boot =3D "c"
+> >>>
+> >>> Error: Bootloader isn't executable
+> >>
+> >> Shouldn't that be pygrub?
+> > Sorry that was a type error I mean the same.
+> >
+> I do not understand why it happens that Debian's user experience is
+> more than frustrating.
+> I am finally wiping out all Debian installations from my server.
+> Assuming that I am not good at Linux or Xen or what ever it is
+> I will switch to some other commercial Linux distribution.
+> If you try to do any thing on Debian in a production environment its
+> just useless.
+
+As a general rule, not being able to solve a problem leads to
+frustation. However, the conclusion you reach at is not in any way
+following but a subjective *logic*.
+
+BTW, you actually checked the permissions on that bootloader, didn't
+you?
+
+Good luck anyway.
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB
+
+--V88s5gaDVPzZ0KCq
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkv3mCwACgkQYX05bESLMesJqACfYg0x5lWQb3hFixvlsCDyNXlP
+C5MAn1RvNRDmztByadE3dvpUNSaLo/dZ
+=UTJH
+-----END PGP SIGNATURE-----
+
+--V88s5gaDVPzZ0KCq--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522083908.GC4173@ghost.local.lan
+
+

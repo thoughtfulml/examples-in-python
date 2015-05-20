@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287bf09db3d7d85
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs539897wfb;
+        Sun, 9 May 2010 00:21:26 -0700 (PDT)
+Received: by 10.223.68.13 with SMTP id t13mr2405680fai.69.1273389686179;
+        Sun, 09 May 2010 00:21:26 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si5616408fay.83.2010.05.09.00.21.25;
+        Sun, 09 May 2010 00:21:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 24EF82E8B10; Sun,  9 May 2010 07:21:19 +0000 (UTC)
+Old-Return-Path: <freddy36@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.1 required=4.0 tests=GMAIL,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8DCC92D0C15
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 07:21:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id D+eChT5lyQTg for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 07:21:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 752B213A50CD
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 07:21:02 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1685621fxm.6
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 00:20:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:sender:reply-to:received
+         :in-reply-to:references:from:date:x-google-sender-auth:message-id
+         :subject:to:cc:content-type:content-transfer-encoding;
+        bh=+PvD45ZZDsMziyQPCN3qfv4mw7CrlEemOZNXOlRBFm8=;
+        b=bED8X8h+BHOxhU4egxWGHGSjlyiZ+9/5jMlTH6M8V1LQ/YqREvWoHdHhGOOklzVH8J
+         5oHzcSuGyRqxbm1dcYdPVevJt63+Nv8dkxCflQPETtybeOOymhLjk/uAtr4UIkydlDRj
+         cpPy5UjHAthV3JL6k0b6nGGc5yoAF7N+555Mo=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:sender:reply-to:in-reply-to:references:from:date
+         :x-google-sender-auth:message-id:subject:to:cc:content-type
+         :content-transfer-encoding;
+        b=eRZeJkN45EC+SoUXp1M6pknX2Q77fUaKnPKDqLxTRu+mA0SQmn7aSfzIwl8xzZfV6x
+         EzHuSzSP6DUEsUn3hNXJMttw06VmkK35knZQSyJQ1HvAm95ScHqd6VWnI2GUAjzF01Qz
+         RFsrzUFTkUYsiYdF6ZjKUOKDSU/e6vdMpbNrU=
+Received: by 10.239.165.7 with SMTP id v7mr226848hbd.176.1273389656080; Sun, 
+	09 May 2010 00:20:56 -0700 (PDT)
+MIME-Version: 1.0
+Sender: freddy36@csmining.org
+Reply-To: frederik@kriewitz.eu
+Received: by 10.239.163.3 with HTTP; Sun, 9 May 2010 00:20:36 -0700 (PDT)
+In-Reply-To: <20100509030342.8f65db26.celejar@csmining.org>
+References: <20100509020815.653242ea.celejar@csmining.org> <AANLkTiktpUjLW3jAV8ZHak6np-sgbi7fW8ak9u9rHoZy@mail.csmining.org> 
+	<20100509030342.8f65db26.celejar@csmining.org>
+From: Frederik Kriewitz <frederik@kriewitz.eu>
+Date: Sun, 9 May 2010 09:20:36 +0200
+X-Google-Sender-Auth: c05e498bd2cbb39f
+Message-ID: <v2xf67028d41005090020kebdb09a5zfe49825b5bfd4c3f@mail.csmining.org>
+Subject: Re: bandwidth measurement by process
+To: Celejar <celejar@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <T6f5SVz9V1B.A.8-G.vJm5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576262
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 07:21:19 +0000 (UTC)
+
+On Sun, May 9, 2010 at 9:03 AM, Celejar <celejar@csmining.org> wrote:
+> Yeah, that's pretty much what I thought. =A0Well, I think that I'm going
+> to code something like this, unless someone else will point out that
+> it's already been done.
+
+I don't know anything like this, but another approch to to this might
+be to use LD_PRELOAD and/or PTRACE to hook connect(), write() and
+read().
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2xf67028d41005090020kebdb09a5zfe49825b5bfd4c3f@mail.csmining.org
+
+

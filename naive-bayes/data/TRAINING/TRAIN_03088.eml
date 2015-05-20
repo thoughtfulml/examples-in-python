@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId128485a91824cf40
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs6354wfj;
+        Wed, 28 Apr 2010 23:56:56 -0700 (PDT)
+Received: by 10.87.71.21 with SMTP id y21mr454634fgk.69.1272524214733;
+        Wed, 28 Apr 2010 23:56:54 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e20si7906013fga.26.2010.04.28.23.56.54;
+        Wed, 28 Apr 2010 23:56:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B565113A539E; Thu, 29 Apr 2010 06:56:44 +0000 (UTC)
+Old-Return-Path: <javibarroso@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MISSING_HEADERS,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4666413A4D32
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 06:56:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.815 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MISSING_HEADERS=1.292,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id XIZ6HK8SbS5X for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 06:56:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 06A8113A49F5
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 06:56:30 +0000 (UTC)
+Received: by wwg30 with SMTP id 30so493145wwg.6
+        for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 23:56:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:cc:content-type
+         :content-transfer-encoding;
+        bh=DARM2K9Gz/Mgf+6Z8s3JCs7prlDq3V7PIDrHv4HMTSY=;
+        b=d/uAnO6lbT6iAbZM/wf3SG5fXykWZ1HYOGdj+U1oz3dFF42uwgF9EUpYaxdrTeylaz
+         bLmqRTA0PY5cNXUrKB+0uERSLk6tjDnEu4GXn7xqURJVJ9uvDV517C/ee+WU8lW2XlQJ
+         WjmWzBkVp3louF7tc32AiiF1ZGomJ9jyF2EtI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:cc
+         :content-type:content-transfer-encoding;
+        b=D9H1Na3itGHpq5CtTgRwQ60y3YosE/ylQcfOxbemiLaHEk7+GNqgE+uR3rXDajvWag
+         3lIDiPson+pYQIdGrEC7r0hFyb2HpwBOWyI98ax7q++HB05o7H8S957vxAMad1UBOzGo
+         rJFIWDCvUHXdwB1N0DiuPSe+95T4wQdnuneLQ=
+MIME-Version: 1.0
+Received: by 10.216.155.196 with SMTP id j46mr655719wek.1.1272524176033; Wed, 
+	28 Apr 2010 23:56:16 -0700 (PDT)
+Received: by 10.216.183.82 with HTTP; Wed, 28 Apr 2010 23:56:15 -0700 (PDT)
+In-Reply-To: <20100429012405.GA8530@aurora.owens.net>
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org>
+	 <4BD3425F.6080301@cox.net> <4BD3DEEF.7050305@allums.com>
+	 <4BD53D53.9050205@hardwarefreak.com> <4BD54D42.3030701@allums.com>
+	 <4BD562A7.3050907@hardwarefreak.com>
+	 <r2g81c921f31004260456z3c6f41ddg86e45cdae1257104@mail.csmining.org>
+	 <20100429012405.GA8530@aurora.owens.net>
+Date: Thu, 29 Apr 2010 08:56:15 +0200
+Message-ID: <i2x81c921f31004282356xf4c875bcpf88220aa45102a49@mail.csmining.org>
+Subject: Re: Filesystem recommendations
+From: Javier Barroso <javibarroso@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <CodNYQYWr5H.A.IIE.s2S2LB@liszt>
+To: debian-user@lists.debian.org
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575418
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 06:56:44 +0000 (UTC)
+
+On Thu, Apr 29, 2010 at 3:24 AM, Rob Owens <rowens@ptd.net> wrote:
+> On Mon, Apr 26, 2010 at 01:56:21PM +0200, Javier Barroso wrote:
+>> Hello Stan,
+>>
+>> Why Debian Installer doesn't change its default filesystem to xfs if
+>> it is better than ext3 / ext4? I think always is better stick to
+>> defaults if it is possible
+>>
+> I've read articles which state that ext3 has superior resilience to
+> sudden power loss. =A0That sentiment has been echoed in this thread, by
+> Stan I think, with statements like (paraphrasing): =A0XFS is good for
+> production servers which have uninterruptible power supplies.
+Good to know, thanks
+
+I will take a look!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2x81c921f31004282356xf4c875bcpf88220aa45102a49@mail.csmining.org
+
+

@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bddedd23cf548
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs21483wfo;
+        Fri, 21 May 2010 19:36:59 -0700 (PDT)
+Received: by 10.223.144.77 with SMTP id y13mr2146783fau.86.1274495818775;
+        Fri, 21 May 2010 19:36:58 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t1si2625666faa.46.2010.05.21.19.36.58;
+        Fri, 21 May 2010 19:36:58 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 04DDA13A4F02; Sat, 22 May 2010 02:36:49 +0000 (UTC)
+Old-Return-Path: <n0nb@n0nb.us>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6364D13A4EF7
+	for <lists-debian-user@liszt.debian.org>; Sat, 22 May 2010 02:36:43 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id RF1bxyUQf-51 for <lists-debian-user@liszt.debian.org>;
+	Sat, 22 May 2010 02:36:36 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 389 seconds by postgrey-1.31 at liszt; Sat, 22 May 2010 02:36:35 UTC
+Received: from smtpauth23.prod.mesa1.secureserver.net (smtpauth23.prod.mesa1.secureserver.net [64.202.165.47])
+	by liszt.debian.org (Postfix) with SMTP id AD49C13A4EF2
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 02:36:35 +0000 (UTC)
+Received: (qmail 2026 invoked from network); 22 May 2010 02:29:52 -0000
+Received: from unknown (68.234.124.24)
+  by smtpauth23.prod.mesa1.secureserver.net (64.202.165.47) with ESMTP; 22 May 2010 02:29:51 -0000
+Date: Fri, 21 May 2010 21:29:51 -0500
+From: Nate Bargmann <n0nb@n0nb.us>
+To: debian-user@lists.debian.org
+Subject: Re: Unable to connect to my home wireless
+Message-ID: <20100522022951.GE2171@n0nb.us>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <201005202210.17618.tehpeh@gmx.net>
+ <34fc541415163b94a68a0e2fc782eda9.squirrel@www.tty1.net>
+ <201005210945.04224.bss@iguanasuicide.net>
+ <201005212329.07787.tehpeh@gmx.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <201005212329.07787.tehpeh@gmx.net>
+X-Operating-System: Linux 2.6.32-5-686 i686
+Organization: Amateur Radio!
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BcsnnVpds8D.A.YsB.AN09LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577349
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 02:36:49 +0000 (UTC)
+
+* On 2010 21 May 17:30 -0500, Thomas Pircher wrote:
+> Boyd Stephen Smith Jr. wrote:
+> >> a) without asking me,
+> >> b) without telling me and
+> >> c) without being told to do so.
+> >
+> > From what I understand, all 3 of these are primary goals of the network-
+> > manager package.
+> 
+> I'm sure network-manager will live up to its goals, eventually. For the time 
+> being I have created a new bug with the title "network-manager ignores 
+> configured interfaces in /etc/network/interfaces". ;-)
+> It doesn't yet show up on bugs.debian.org, I guess it takes some time.
+
+As I understand it, both Network Manager and Wicd are intended to
+control the network interfaces.  If you want to control the interfaces
+manually, remove NM.  If you want to use NM then only the loopback
+interface should be defined in /etc/network/interface.  
+
+NM works very well for me on my Ubuntu Lucid laptop.  Meanwhile, my
+Debian desktop utilizes /etc/network/interface as it doesn't roam
+anywhere.
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522022951.GE2171@n0nb.us
+
+

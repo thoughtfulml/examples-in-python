@@ -1,0 +1,179 @@
+X-Account-Key: account5
+X-UIDL: GmailId12874bfa57c84528
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs476848wfb;
+        Fri, 7 May 2010 14:50:37 -0700 (PDT)
+Received: by 10.223.30.130 with SMTP id u2mr689381fac.70.1273269036146;
+        Fri, 07 May 2010 14:50:36 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c3si3115585fah.73.2010.05.07.14.50.35;
+        Fri, 07 May 2010 14:50:36 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 12FD113A54CC; Fri,  7 May 2010 21:50:31 +0000 (UTC)
+Old-Return-Path: <jsullivan@opensourcedevel.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D407C13A54C4
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 21:50:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1-4FMrqAGxEY for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 21:50:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.194])
+	by liszt.debian.org (Postfix) with ESMTP id 2D03813A54A8
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 21:50:17 +0000 (UTC)
+Received: from [192.168.223.100] (cpe-74-75-231-235.maine.res.rr.com [74.75.231.235])
+	by mrelay.perfora.net (node=mrus1) with ESMTP (Nemesis)
+	id 0MItG5-1OCyHA2Qi9-002kUT; Fri, 07 May 2010 17:50:11 -0400
+Subject: Re: debuild of evolution-data-server fails
+From: "John A. Sullivan III" <jsullivan@opensourcedevel.com>
+To: Sven Joachim <svenjoac@gmx.de>
+Cc: debian-user@lists.debian.org
+In-Reply-To: <1273266682.17252.30.camel@Family.pacifera.com>
+References: <1273263443.17252.23.camel@Family.pacifera.com>
+	 <87hbmjctwg.fsf@turtle.gmx.de>
+	 <1273266682.17252.30.camel@Family.pacifera.com>
+Content-Type: text/plain; charset=utf-8
+Date: Fri, 07 May 2010 17:49:57 -0400
+Message-Id: <1273268997.17252.34.camel@Family.pacifera.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1 
+Content-Transfer-Encoding: quoted-printable
+X-Provags-ID: V01U2FsdGVkX19exfMcnTv29x5ipYzcB+7bWbUIcuH4nnRFxhV
+ 3TuGycVZ1kNAWWC9t/yPoe2GgfsTWNdNQPS8LWPBoGO6VkXd3/
+ na10bbHWU86wZZfAQ8xFq2UMsDZ4GdHDgG4a97mBkY=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <20flyiaGvjL.A.L_C.msI5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576188
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 21:50:31 +0000 (UTC)
+
+On Fri, 2010-05-07 at 17:11 -0400, John A. Sullivan III wrote:
+> On Fri, 2010-05-07 at 22:57 +0200, Sven Joachim wrote:
+> > On 2010-05-07 22:17 +0200, John A. Sullivan III wrote:
+> >=20
+> > > Hello, all. We are trying to rebuild the evolution-data-server packag=
+e
+> > > after patching it to hopefully end our current email nightmare.  The
+> > > base system is Lenny but we are using evolution from squeeze.  When I
+> > > try to debuild, I am getting the following errors:
+> > >
+> > > checking for GNOME_PLATFORM... configure: error: Package requirements
+> > > (glib-2.0 >=3D 2.16.1
+> > >         gtk+-2.0 >=3D 2.14.0
+> >=20
+> > I think this is the problem, since lenny has only gtk+-2.0 2.12.12.  Th=
+e
+> > build dependencies in debian/control might not be correct.  Note that
+> > lenny-backports has a newer version, though.
+> >=20
+> > >         ORBit-2.0 >=3D 2.9.8
+> > >         libbonobo-2.0 >=3D 2.20.3
+> > >         gconf-2.0 >=3D 2.0.0
+> > >         libglade-2.0 >=3D 2.0.0
+> > >         libxml-2.0 >=3D 2.0.0
+> > >         libsoup-2.4 >=3D 2.3.0) were not met:
+> > >
+> > > Package zlib was not found in the pkg-config search path.
+> > > Perhaps you should add the directory containing `zlib.pc'
+> > > to the PKG_CONFIG_PATH environment variable
+> > > Package 'zlib', required by 'GnuTLS', not found
+> > >
+> > > zlib is installed.
+> >=20
+> > True, but the zlib1g-dev package in lenny does not ship a zlib.pc file;
+> > the version in squeeze does.
+> >=20
+> > > I did not check all the listed packages but the ones
+> > > I checked were installed with the latest versions.  My command sequen=
+ce
+> > > was:
+> > >
+> > > apt-get -t testing source evolution-data-server (as non-root)
+> > > apt-get -t testing build-dep evolution-data-server (as root)
+> >=20
+> > This might not do what you want.  When you fetch the build dependencies
+> > from testing, the built packages will likely also depend on libraries
+> > not present in stable.  But it appears to be impossible to build
+> > squeeze's evolution-data-server in lenny anyway (see above).
+> >=20
+> > > patched evolution-data-server
+> > > edited debian/changelog and debian/rules (disabled gnome-key-ring - a=
+lso
+> > > tried it with this enabled as per the default)
+> > > debuild -uc -us
+> > >
+> > > What am I doing wrong? We are rather desperate to get this running.
+> >=20
+> > There are various possibilities, all not very appealing:
+> >=20
+> > - Install the lenny backport of gtk+-2.0 and see what's necessary to ge=
+t
+> >   the zlib.pc file into the libz1g-dev package.  Resolve further build
+> >   problems by installing packages from lenny-backports or creating your
+> >   own backports.  You may want to hire somebody to do the work.
+> >=20
+> > - Upgrade to squeeze, deal with the ensuing breakage and hope that it
+> >   will freeze in a few months.
+> >=20
+> > - use Ubuntu 10.04 or whatever current distribution has the new
+> >   evolution-data-server and deal with whatever bugs these distributions
+> >   have.
+> >=20
+> > I would go for the first option, but note that you should set
+> > GDK_NATIVE_WINDOWS=3D1 in the environment if you upgrade gtk+-2.0 to
+> > version 2.18, otherwise several applications might break=C2=B9.
+> >=20
+> > Sven
+> >=20
+> >=20
+> > =C2=B9 http://blogs.gurulabs.com/dax/2009/10/what-gdk-native.html
+> >=20
+> >=20
+> The upgrade to the squeeze zlib did the trick but now I've hit what I
+> think is a linker problem:
+>=20
+> libtool: link: only absolute run-paths are allowed
+>=20
+> I ran libtoolize and aclocal but that didn't seem to help.  Off to
+> Google to find out what this is.  Thanks - John
+>=20
+>=20
+It looks like the error was due to an autoconf I had run earlier while
+troubleshooting.  I wiped it all out, started over again with the newer
+zlib1g-dev in place and all worked.  We are rather ecstatic.  Thanks -
+John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273268997.17252.34.camel@Family.pacifera.com
+
+

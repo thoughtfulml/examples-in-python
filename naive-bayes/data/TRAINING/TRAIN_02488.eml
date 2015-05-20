@@ -1,0 +1,159 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bb979e196c207
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs7801wfo;
+        Fri, 21 May 2010 08:59:57 -0700 (PDT)
+Received: by 10.227.134.206 with SMTP id k14mr1595915wbt.94.1274457595606;
+        Fri, 21 May 2010 08:59:55 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id x6si2419761gvf.12.2010.05.21.08.59.54;
+        Fri, 21 May 2010 08:59:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 374001C9E908B
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 08:59:54 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 32D4B27D28999
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 08:59:54 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id E84EC27D28730
+	for <objc-language@lists.apple.com>;
+	Fri, 21 May 2010 08:59:31 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id D7FB5D60E0B2
+	for <objc-language@lists.apple.com>;
+	Fri, 21 May 2010 08:59:31 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c82ae00000112c-bb-4bf6ade314ed
+Received: from mail-yw0-f202.google.com (mail-yw0-f202.google.com
+	[209.85.211.202])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	D6.51.04396.3EDA6FB4; Fri, 21 May 2010 08:59:31 -0700 (PDT)
+Received: by ywh40 with SMTP id 40so659758ywh.18
+	for <objc-language@lists.apple.com>;
+	Fri, 21 May 2010 08:59:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	bh=MgY4IB9kaKfuk65weS8LPA3rpLZYa3UJBjyenGxAGcE=;
+	b=KH7gYRI/2rzXrfTvpPYgvC+TDzFEcr9PDT+G+0ul+5ivNAzmQUjYdEF997d4XJFRDr
+	pExMmho197CN+cBIsXnWsRxy8Fu+ly/nBDutFUjEZVBOH1LnjW1FCjqirz0nK35aNX3/
+	JC5aa+9P1/LeyR4EQDpAFCyoefX/Tb7TrL4pM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type:content-transfer-encoding;
+	b=uXepCa/rKg7XRXcC3Z1rqvX/cma+7DJPwk7hKysLKLKAkQQTYLhoVP62zKnp2TX8Ol
+	zAv0fXDxDAzTzHZD/wZeG5+nOrjtxA5ulxx27DFc693Xs9TAIvRmuPnAh9Bb5qla0Pqb
+	Ug9rWJQsgMsTdqYqY7RxINleCaKHID9UIkPI4=
+MIME-Version: 1.0
+Received: by 10.150.13.20 with SMTP id 20mr3555933ybm.170.1274457570947; Fri, 
+	21 May 2010 08:59:30 -0700 (PDT)
+Received: by 10.151.101.8 with HTTP; Fri, 21 May 2010 08:59:30 -0700 (PDT)
+In-Reply-To: <AANLkTikKV7gGSsp7AJi8E2mFeGWOQv4EX0cXXd-G7I2y@mail.csmining.org>
+References: <20100519021456.6E05C27C124F1@lists.apple.com>
+	<4BF487F7.2040007@mac.com>
+	<8DAB639D-3AFA-4ABE-AAAF-04D1F8566FD5@apple.com>
+	<6D2572D9-FD76-4188-8235-3DF9FD537457@earthlink.net>
+	<AANLkTikKV7gGSsp7AJi8E2mFeGWOQv4EX0cXXd-G7I2y@mail.csmining.org>
+Date: Fri, 21 May 2010 08:59:30 -0700
+Message-ID: <AANLkTikcmSJxdB7uss6zGwVQjaBtKOid5Rm2hPwBGsX2@mail.csmining.org>
+From: Clark Cox <clarkcox3@csmining.org>
+To: John Engelhart <john.engelhart@csmining.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: objc-language@lists.apple.com
+Subject: Re: Nil messaging statement in "Cocoa Fundimentals Guide"
+	misleading?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Fri, May 21, 2010 at 1:44 AM, John Engelhart
+<john.engelhart@csmining.org> wrote:
+> On Thu, May 20, 2010 at 3:23 PM, Quincey Morris
+> <quinceymorris@earthlink.net> wrote:
+>>
+>> On May 20, 2010, at 11:50, Greg Parker wrote:
+>>
+>> > "The Objective-C Programming Language" includes a section that documen=
+ts
+>> > the well-defined nil return types. Other documentation should point ba=
+ck to
+>> > that.
+>>
+>> Interestingly, the section you refer to includes the following statement=
+:
+>>
+>> > "If the method returns any pointer type, any integer scalar of size le=
+ss
+>> > than or equal to sizeof(void*), a float, a double, a long double, or a=
+ long
+>> > long, then a message sent to nil returns 0."
+>>
+>> This makes me wonder what the answer is for an integer scalar of size
+>> *greater* than sizeof(void*) that isn't a long long.
+>
+> 6.3.1.1 Arithmetic operands
+> 1) The rank of long long int shall be greater than the rank of long int,
+> which shall be greater than the rank of int, which shall be greater than =
+the
+> rank of short int, which shall be greater than the rank of signed char.
+> The fact that the documentation explicitly calls out "long long" means th=
+at
+> the statement "any integer scalar of size less than or equal to
+> sizeof(void*)" is redundant because the "long long" type is, by definitio=
+n,
+> the largest of the "standard integer types".
+
+There is no guarantee that (void*) is the same size as *any* of the
+standard integer types.
+
+>
+>>
+>> For example, if the architecture has sizeof(long) > sizeof(void*), the
+>> above definition would rule out long, but rule in long long. Odd.
+>
+> Nope. =C2=A0By definition, long is a subset of long long-
+> 6.2.5 Types
+> 8) For any two integer types with the same signedness and different integ=
+er
+> conversion rank (see 6.3.1.1), the range of values of the type with small=
+er
+> integer conversion rank is a subrange of the values of the other type.
+
+That, in no way, means that (long) cannot be larger than (void*). That
+said, I do believe that the intent is that all of the standard integer
+types can be assumed to be zero when returned from a message sent to
+nil, even if the wording leaves the potential for a gap on unusual
+architectures (such as where long is larger than void*).
+
+
+--=20
+Clark S. Cox III
+clarkcox3@csmining.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

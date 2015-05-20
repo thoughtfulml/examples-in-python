@@ -1,0 +1,95 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284eeab65df5a6c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs94724wfj;
+        Fri, 30 Apr 2010 06:32:05 -0700 (PDT)
+Received: by 10.87.67.8 with SMTP id u8mr4001856fgk.9.1272634324843;
+        Fri, 30 Apr 2010 06:32:04 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si2932019fkt.7.2010.04.30.06.32.04;
+        Fri, 30 Apr 2010 06:32:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4DA8613A51C9; Fri, 30 Apr 2010 13:31:54 +0000 (UTC)
+Old-Return-Path: <rick@niof.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 81F2F13A50B7
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 13:31:48 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id VnEWa6QPUE2h for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 13:31:41 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from niof.net (niof.net [69.17.2.49])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 1E9DE13A4B84
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 13:31:40 +0000 (UTC)
+Received: from rick by niof.net with local (Exim 4.71)
+	(envelope-from <rick@niof.net>)
+	id 1O7qJU-00045P-EM
+	for debian-user@lists.debian.org; Fri, 30 Apr 2010 09:31:34 -0400
+Date: Fri, 30 Apr 2010 09:31:28 -0400
+From: Rick Pasotto <rick@niof.net>
+To: debian-user@lists.debian.org
+Message-ID: <20100430133128.GA30106@niof.net>
+Mail-Followup-To: debian-user@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-SA-Exim-Connect-IP: <locally generated>
+X-SA-Exim-Mail-From: rick@niof.net
+Subject: aptitude stuck
+X-SA-Exim-Version: 4.2.1 (built Mon, 22 Mar 2010 06:51:10 +0000)
+X-SA-Exim-Scanned: Yes (on niof.net)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <CkaHW6Lxlm.A.A8B.Kvt2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575549
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 13:31:54 +0000 (UTC)
+
+Today's run of 'aptitude -s safe-upgrade' had been running for over an
+hour and was using half my memory when I killed it. The status line was:
+
+open: 107756; closed: 119093; defer: 107181; conflict: 167
+
+There's evidently some situation it can't resolve. How can I figure out
+what package(s) cause the problem?
+
+-- 
+If tyranny and oppression come to this land, it will be in the guise
+of fighting a foreign enemy. -- James Madison
+    Rick Pasotto    rick@niof.net    http://www.niof.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430133128.GA30106@niof.net
+
+

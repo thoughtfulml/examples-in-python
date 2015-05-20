@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId12819251163c42f7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs50478wfj;
+        Mon, 19 Apr 2010 19:56:45 -0700 (PDT)
+Received: by 10.223.77.86 with SMTP id f22mr567907fak.49.1271732179262;
+        Mon, 19 Apr 2010 19:56:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z15si10103724fkz.51.2010.04.19.19.56.18;
+        Mon, 19 Apr 2010 19:56:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 926D713A4F02; Tue, 20 Apr 2010 02:56:13 +0000 (UTC)
+Old-Return-Path: <mark@allums.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9DB0713A4A9B
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 02:56:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Dt63oH7+c-54 for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 02:56:00 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .allums. - helo: .smtpauth20.prod.mesa1.secureserver. - helo-domain: .secureserver.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from smtpauth20.prod.mesa1.secureserver.net (smtpauth20.prod.mesa1.secureserver.net [64.202.165.36])
+	by liszt.debian.org (Postfix) with SMTP id 262B213A46FD
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 02:55:53 +0000 (UTC)
+Received: (qmail 32305 invoked from network); 20 Apr 2010 02:55:49 -0000
+Received: from unknown (98.106.157.183)
+  by smtpauth20.prod.mesa1.secureserver.net (64.202.165.36) with ESMTP; 20 Apr 2010 02:55:49 -0000
+Message-ID: <4BCD177C.6040200@allums.com>
+Date: Mon, 19 Apr 2010 21:54:52 -0500
+From: Mark Allums <mark@allums.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Epiphany browser continues to get worse and worse
+References: <1137023388.158078.1271728834477.JavaMail.root@md01.wow.synacor.com> <4BCD1581.8080107@allums.com>
+In-Reply-To: <4BCD1581.8080107@allums.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tFjm_awW5CL.A.uUF.NfRzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574510
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 02:56:13 +0000 (UTC)
+
+On 4/19/2010 9:46 PM, Mark Allums wrote:
+> On 4/19/2010 9:00 PM, Stephen Powell wrote:
+>> On Mon, 19 Apr 2010 21:01:41 -0400 (EDT), Andrew Malcolmson wrote:
+>>> Couldn't say why they switched, but I find pages in Epiphany 2.29 in
+>>> Squeeze look vivid compared with the Gecko version.
+>>
+>> I have switched back and forth between epiphany and iceweasel several
+>> times, on the same computer and monitor, and I have not noticed any
+>> difference in image quality between iceweasel, which is based on
+>> gecko (xulrunner-1.9.1) and epiphany-browser, which is based on webkit
+>> (libwebkit-1.0-2).
+>>
+>
+> One word: Chrome.
+>
+>
+>
+
+
+Sorry.  I had an aneurysm, and didn't say what I meant, what with all 
+the blood distracting me, and everything.  Disregard.
+
+Never mind, carry on...
+
+
+MAA
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD177C.6040200@allums.com
+
+

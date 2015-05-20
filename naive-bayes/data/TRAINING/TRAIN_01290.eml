@@ -1,0 +1,170 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e29e0a105d7dd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs25325wfi;
+        Fri, 9 Apr 2010 05:49:23 -0700 (PDT)
+Received: by 10.87.67.25 with SMTP id u25mr327106fgk.32.1270817361665;
+        Fri, 09 Apr 2010 05:49:21 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 24si2951961fxm.53.2010.04.09.05.49.20;
+        Fri, 09 Apr 2010 05:49:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+DomainKey-Status: no key
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org; domainkeys=neutral (no key) header.From=webmaster@politikcity.de
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id DB2FF2D0F60; Fri,  9 Apr 2010 12:49:06 +0000 (UTC)
+Old-Return-Path: <webmaster@politikcity.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.6 required=4.0 tests=CR_SYSTEM7,FOURLA,
+	IMPRONONCABLE_1,IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_DRUGS_REL8,
+	MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2 autolearn=no version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 214502D0E40
+	for <lists-debian-security@liszt.debian.org>; Fri,  9 Apr 2010 12:49:01 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=2.41 tagged_above=-10000 required=5.3
+	tests=[BAYES_40=-0.01, CR_SYSTEM7=5, FOURLA=0.1, IMPRONONCABLE_1=1,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id V5eo3pkMRYJ6
+	for <lists-debian-security@liszt.debian.org>;
+	Fri,  9 Apr 2010 12:48:53 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 413 seconds by postgrey-1.31 at liszt; Fri, 09 Apr 2010 12:48:53 UTC
+Received: from alster172.server4you.de (alster172.server4you.de [62.75.216.176])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "plesk", Issuer "plesk" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id AACB72D0EC8
+	for <debian-security@lists.debian.org>; Fri,  9 Apr 2010 12:48:41 +0000 (UTC)
+DomainKey-Signature: a=rsa-sha1;  q=dns; c=nofws;
+  s=default; d=politikcity.de;
+  b=VO5fJ7VNCgM0tQkKfI+O3PjndZvo1QEPMUj3JxIXpnrqWkWjQfoZI3heTYLu6gCP7p//4PkDchRRV1hywzzP1ujWwv4LJWMiJDI000KUMAIofWiAjTw8L6lVuyoI9rtZ;
+  h=Received:Received:Return-Receipt-To:From:To:References:In-Reply-To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:Thread-Index:Content-Language:x-cr-hashedpuzzle:x-cr-puzzleid:Disposition-Notification-To;
+Received: (qmail 20499 invoked from network); 9 Apr 2010 14:42:00 +0200
+Received: from p5de856f2.dip.t-dialin.net (HELO HAWKCENTER) (93.232.86.242)
+  by alster172.server4you.de with SMTP; 9 Apr 2010 14:41:57 +0200
+From: "webmaster of politikcity.de" <webmaster@politikcity.de>
+To: "'debian release team'" <debian-release@lists.debian.org>,
+	<debian-security@lists.debian.org>,
+	<debian-user-german@lists.debian.org>
+References: <e13a36b30910062347sfbf876cp32662bc50c4b7d49@mail.csmining.org> <l2le13a36b31004080020nf26fa8edh4456b761f5433af2@mail.csmining.org> <4BBF1786.3060903@csmining.org>
+In-Reply-To: <4BBF1786.3060903@csmining.org>
+Subject: Kernel Bug | 2.26.26-2-amd64
+Date: Fri, 9 Apr 2010 14:41:47 +0200
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAANgZQ03M4XJFtKmiKKICjALCgAAAEAAAAHBFwEeRy5RAgbCQOKLCihcBAAAAAA==@politikcity.de>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcrX3M+lJaRhWvRWS1+my7wVApyerAABHq8g
+Content-Language: de
+x-cr-hashedpuzzle: K0mV PDU2 QRgo QwFk UMAD URmc WoqB YIol YrdV cml/ ebdi fs58 f9N5 iR+W jN7q lbxP;3;ZABlAGIAaQBhAG4ALQByAGUAbABlAGEAcwBlAEAAbABpAHMAdABzAC4AZABlAGIAaQBhAG4ALgBvAHIAZwA7AGQAZQBiAGkAYQBuAC0AcwBlAGMAdQByAGkAdAB5AEAAbABpAHMAdABzAC4AZABlAGIAaQBhAG4ALgBvAHIAZwA7AGQAZQBiAGkAYQBuAC0AdQBzAGUAcgAtAGcAZQByAG0AYQBuAEAAbABpAHMAdABzAC4AZABlAGIAaQBhAG4ALgBvAHIAZwA=;Sosha1_v1;7;{98BCBE21-E2A6-4479-B1AF-B07A3B85EF3C};dwBlAGIAbQBhAHMAdABlAHIAQABwAG8AbABpAHQAaQBrAGMAaQB0AHkALgBkAGUA;Fri, 09 Apr 2010 12:41:26 GMT;SwBlAHIAbgBlAGwAIABCAHUAZwAgAHwAIAAyAC4AMgA2AC4AMgA2AC0AMgAtAGEAbQBkADYANAA=
+x-cr-puzzleid: {98BCBE21-E2A6-4479-B1AF-B07A3B85EF3C}
+Disposition-Notification-To: "webmaster of politikcity.de" <webmaster@politikcity.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Y4ONUBqgLrE.A.fgF.CJyvLB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23774
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 12:49:06 +0000 (UTC)
+
+Hallo,
+
+
+Seit dem Update auf den 2.26-2er Kernel friert mein System =
+regelm=C3=A4=C3=9Fig alle 2 -3 Tage ein.
+
+Auszug aus dem Kernel.log:=20
+Apr  7 23:31:03 alster172 kernel: [85333.490300] INFO: task apache2:5282 =
+blocked for more than 120 seconds.
+Apr  7 23:31:03 alster172 kernel: [85333.490300] "echo 0 > =
+/proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Apr  7 23:31:03 alster172 kernel: [85333.490300] apache2       D =
+0000000000000002     0  5282   6692
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  ffff810008425c58 =
+0000000000000082 0000000000000001 ffffffff8024aba6
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  ffff810008422080 =
+ffff810083da1060 ffff810008422308 0000000080248cb2
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  ffffffffa0106a47 =
+0000000000000206 0000000000000206 ffffffff8024aba6
+Apr  7 23:31:03 alster172 kernel: [85333.490300] Call Trace:
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8024aba6>] =
+getnstimeofday+0x39/0x98
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffffa0106a47>] =
+:ext3:ext3_get_block+0x0/0xf9
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8024aba6>] =
+getnstimeofday+0x39/0x98
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8027102a>] =
+sync_page+0x0/0x41
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff80429177>] =
+io_schedule+0x5c/0x9e
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff80271066>] =
+sync_page+0x3c/0x41
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff804292ea>] =
+__wait_on_bit_lock+0x36/0x66
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff80271017>] =
+__lock_page+0x5e/0x64
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8024613f>] =
+wake_bit_function+0x0/0x23
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff802711dd>] =
+find_lock_page+0x5e/0x8a
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff80272f3a>] =
+filemap_fault+0x72/0x33c
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8027e5a4>] =
+__do_fault+0x50/0x3e6
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff80281907>] =
+handle_mm_fault+0x3f4/0x867
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8028a20e>] =
+free_pages_and_swap_cache+0x72/0x8e
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff80221fbc>] =
+do_page_fault+0x5d8/0x9c8
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8023d4bf>] =
+switch_uid+0x64/0x76
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [<ffffffff8042a689>] =
+error_exit+0x0/0x60
+
+Die Logs sind voll solcher Eintr=C3=A4ge. Nicht nur der Apache-Dienst =
+ist betroffen.=20
+
+#517449: linux-image-2.6.26-1-amd64: SCHED_IDLE issues (tasks blocked =
+for more
+than 120 seconds)
+#517586: "INFO: task * blocked for more than 120 seconds" causes system =
+freeze
+
+Wie kann ich den Bug umgehen? Gibt es einen Patch hierzu? Kann ich unter =
+Lenny einen neueren Kernel installieren?
+
+
+Danke vorab.
+
+Gr=C3=BC=C3=9Fe
+
+Kadir
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/!&!AAAAAAAAAAAYAAAAAAAAANgZQ03M4XJFtKmiKKICjALCgAAAEAAAAHBFwEeRy5RAgbCQOKLCihcBAAAAAA==@politikcity.de
+
+

@@ -1,0 +1,98 @@
+X-Account-Key: account5
+X-UIDL: GmailId12811c96216c747f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs49668wfj;
+        Sun, 18 Apr 2010 09:38:50 -0700 (PDT)
+Received: by 10.150.172.14 with SMTP id u14mr4650311ybe.298.1271608730279;
+        Sun, 18 Apr 2010 09:38:50 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 39si12057558iwn.115.2010.04.18.09.38.50;
+        Sun, 18 Apr 2010 09:38:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id BF9071C080558
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 09:38:49 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id BAA8126E94678
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 09:38:49 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id D74E726E94477
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 09:38:30 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id BAD91CBAEC4E
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 09:38:30 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-c0-4bcb358658ac
+Received: from asmtpout020.mac.com (asmtpout020.mac.com [17.148.16.95])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	4B.36.26228.6853BCB4; Sun, 18 Apr 2010 09:38:30 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=US-ASCII; format=flowed
+Received: from [192.168.1.3] (ool-ad03951e.dyn.optonline.net [173.3.149.30])
+	by asmtp020.mac.com
+	(Sun Java(tm) System Messaging Server 6.3-8.01 (built Dec 16 2008;
+	32bit)) with ESMTPA id <0L1200KODZJGH160@asmtp020.mac.com> for
+	X11-users@lists.apple.com; Sun, 18 Apr 2010 09:38:11 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004180159
+Message-id: <A6E290FA-B555-4377-9308-433E28FD24FC@mac.com>
+From: Allen Bennett <allenbennett@mac.com>
+To: Pierre Baguis <pbaguis@yahoo.com>
+In-reply-to: <944345.33232.qm@web55601.mail.re4.yahoo.com>
+Date: Sun, 18 Apr 2010 12:38:03 -0400
+References: <543587.87903.qm@web55604.mail.re4.yahoo.com>
+	<FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+	<460333.63537.qm@web55608.mail.re4.yahoo.com>
+	<20100418.095448.252095907.hanche@math.ntnu.no>
+	<944345.33232.qm@web55601.mail.re4.yahoo.com>
+X-Mailer: Apple Mail (2.936)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: X11-users@lists.apple.com, jeremyhu@apple.com,
+	Harald Hanche-Olsen <hanche@math.ntnu.no>
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I do believe you have to logout/login only, when you update X11.
+
+-Allen Bennett
+allenbennett@mac.com
+
+On Apr 18, 2010, at 11:10 AM, Pierre Baguis wrote:
+
+> Should we reboot after updating X11?
+>
+> Thanks,
+> Pierre
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,150 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287a1a8bd0f7b19
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs525712wfb;
+        Sat, 8 May 2010 15:48:00 -0700 (PDT)
+Received: by 10.223.29.156 with SMTP id q28mr2063557fac.77.1273358879567;
+        Sat, 08 May 2010 15:47:59 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y11si5197109fak.67.2010.05.08.15.47.58;
+        Sat, 08 May 2010 15:47:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 028D513A51CF; Sat,  8 May 2010 22:47:53 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 766AC13A5192
+	for <lists-debian-user@liszt.debian.org>; Sat,  8 May 2010 22:47:48 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id NGz-iU2LQc6H for <lists-debian-user@liszt.debian.org>;
+	Sat,  8 May 2010 22:47:41 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 2416313A5116
+	for <debian-user@lists.debian.org>; Sat,  8 May 2010 22:47:41 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OAso1-0000ky-L8
+	for debian-user@lists.debian.org; Sun, 09 May 2010 00:47:33 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 00:47:33 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 00:47:33 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: Hptalx is buggy once calculator is plugged and linked
+Date: Sat, 8 May 2010 22:47:22 +0000 (UTC)
+Lines: 55
+Message-ID: <pan.2010.05.08.22.47.21@csmining.org>
+References: <4BE4428E.40301@student.ulg.ac.be>
+	<pan.2010.05.07.16.51.41@csmining.org>
+	<87k4rfmx5n.fsf@merciadriluca-station.MERCIADRILUCA>
+	<pan.2010.05.07.18.12.32@csmining.org>
+	<87vdazwgd5.fsf@merciadriluca-station.MERCIADRILUCA>
+	<pan.2010.05.08.17.12.26@csmining.org>
+	<87tyqiuozm.fsf@merciadriluca-station.MERCIADRILUCA>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6LW36QjNV6K.A.GNG.Zoe5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576245
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 22:47:53 +0000 (UTC)
+
+On Sat, 08 May 2010 22:18:05 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>> Can you see the "Awaiting Server Cmd." message in calculator's display?
+
+> Pointing this out is a good thing, but I had already tested this.
+> Actually, since I installed many programs in Spanish, my calculator is
+> (to my dismay) in Spanish, and I get, by pressing and holding right
+> shift and by pressing the right arrow, on the calculator,
+> 
+> ==
+> Espero comand.Servidor
+> ==
+> 
+> It looks like
+> 
+> ==
+> Awaiting Server Cmd.
+> ==
+
+Ah, in Spanish. Curious :-). Yes, so it translates.
+ 
+> and, evidently, doing *another* combination of keys gives me a text with
+> the Xmodem server.
+> 
+> Thus, what I am doing is right.
+
+O.k.
+
+>> Port "100"? What kind of port nomenclature is that? :-?
+> I do not know. I also wondered.
+> 
+>> I would expect "/dev/ttyUSB0" for an USB device or "/dev/ttyS0" for the
+>> first rs-232 port...
+> Me too.
+> 
+>> I think the application is crashing because cannot establish a
+>> connection with the device.
+> Such a (trivial, as habitual) case should have been handled by the
+> developers, shouldn't it?
+
+Yes... I would report. But also take a look into this:
+
+Connect HP 50g (or HP 49g+) to a Linux Box with hptalx
+http://bleedux.wordpress.com/2010/03/11/connect-hp-50g-to-a-linux-box-with-hptalx/
+
+And see if that helps. It seems to be written for ArchLinux (another 
+linux distribution) but it points some interesting things that you can 
+check.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.08.22.47.21@csmining.org
+
+

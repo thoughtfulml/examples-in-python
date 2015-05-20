@@ -1,0 +1,159 @@
+X-Account-Key: account5
+X-UIDL: GmailId128991814e153a35
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs52478wfo;
+        Fri, 14 May 2010 16:13:33 -0700 (PDT)
+Received: by 10.223.32.85 with SMTP id b21mr2325784fad.95.1273878812069;
+        Fri, 14 May 2010 16:13:32 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si6931616far.4.2010.05.14.16.13.31;
+        Fri, 14 May 2010 16:13:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CA2EC13A5972; Fri, 14 May 2010 23:13:22 +0000 (UTC)
+Old-Return-Path: <linux4michelle@tamay-dogan.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8BCBE13A595B
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 23:13:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id xcYTP3Wb9SPN for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 23:13:08 +0000 (UTC)
+Received: from mail.tamay-dogan.net (mail.tamay-dogan.net [88.168.69.36])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 1B59113A5954
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 23:13:08 +0000 (UTC)
+Received: from michelle1.private.tamay-dogan.net (router.private.tamay-dogan.net [::ffff:192.168.0.65])
+  by mail.tamay-dogan.net with esmtp; Sat, 15 May 2010 01:13:04 +0200
+  id 0002BD45.4BEDD900.00002AF2
+Received: by michelle1.private.tamay-dogan.net (sSMTP sendmail emulation); Sat, 15 May 2010 01:13:04 +0200
+Date: Sat, 15 May 2010 01:13:04 +0200
+From: Michelle Konzack <linux4michelle@tamay-dogan.net>
+To: debian-user@lists.debian.org
+Subject: Re: Flash is open?
+Message-ID: <20100514231304.GE21756@tamay-dogan.net>
+References: <20100513193147.0466ac73.celejar@csmining.org>
+ <4BED4493.4010708@allums.com>
+Mime-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1; protocol="application/pgp-signature"; boundary="=_samba3-10994-1273878785-0001-2"
+Content-Disposition: inline
+In-Reply-To: <4BED4493.4010708@allums.com>
+X-Message-Flag: Improper configuration of Outlook is a breeding ground for
+ viruses. Please take care your Client is configured correctly. Greetings
+ Michelle.
+X-Disclaimer-DE: Eine weitere Verwendung oder die Veroeffentlichung dieser
+ Mail oder dieser Mailadresse ist nur mit der Einwilligung des Autors
+ gestattet.
+Organization: Tamay Dogan Network
+X-Operating-System: Linux michelle1 2.6.26-1-686
+X-Uptime: 01:09:58 up 37 days, 13:12, 16 users,  load average: 2.63, 2.01,
+ 2.05
+X-Homepage: http://www.debian.tamay-dogan.net/
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <4XI0fjulDPJ.A.7QC.Skd7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576862
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 23:13:22 +0000 (UTC)
+
+This is a MIME-formatted message.  If you see this text it means that your
+E-mail software does not support MIME-formatted messages.
+
+--=_samba3-10994-1273878785-0001-2
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hello Mark Allums,
+
+Am 2010-05-14 07:39:47, hacktest Du folgendes herunter:
+> Flash may not be a priority, sense it performs two functions.  One,
+> it acts as the standard web video player.  Two, it tries to be a
+> standard web programming interface and SDK.
+>=20
+> The former is becoming mooted by the advent of HTML5.  The latter is
+> boring, since there are 1000s of other ways to write programs that
+> run in web browsers, e.g., Javascript.  No one really wants Flash to
+> be the go-to standard for programming, even if it offers a few shiny
+> gewgaws. Don't you hate Flash-based sites?  I know I do.
+
+=2E..and I hate websites using a 200 kByte JavaScript,  sucking  500 MByte
+of memory and  consuming  100%  CPU  resources  to  implement  the  same
+functionality as the Adobe Flash-Pluging.
+
+Yes, I know a bunch of Websites claiming there are  Flash-Free...  Using
+JavaScript for this purpose is the same crap as using Flash.
+
+Thanks, Greetings and nice Day/Evening
+    Michelle Konzack
+
+--=20
+##################### Debian GNU/Linux Consultant ######################
+   Development of Intranet and Embedded Systems with Debian GNU/Linux
+
+itsystems@tdnet France EURL       itsystems@tdnet UG (limited liability)
+Owner Michelle Konzack            Owner Michelle Konzack
+
+Apt. 917 (homeoffice)
+50, rue de Soultz                 Kinzigstra=DFe 17
+67100 Strasbourg/France           77694 Kehl/Germany
+Tel: +33-6-61925193 mobil         Tel: +49-177-9351947 mobil
+Tel: +33-9-52705884 fix
+
+<http://www.itsystems.tamay-dogan.net/>  <http://www.flexray4linux.org/>
+<http://www.debian.tamay-dogan.net/>         <http://www.can4linux.org/>
+
+Jabber linux4michelle@jabber.ccc.de
+ICQ    #328449886
+
+Linux-User #280138 with the Linux Counter, http://counter.li.org/
+
+--=_samba3-10994-1273878785-0001-2
+Content-Type: application/pgp-signature; name="signature.pgp"
+Content-Transfer-Encoding: 7bit
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iD8DBQFL7dkAC0FPBMSS+BIRAgJ3AJ90fxKFFGqyzPPgR7iLQxpyUuNtRgCdFaMX
+lmOenJnKQ7sUttlY6I2AsPw=
+=WTQ0
+-----END PGP SIGNATURE-----
+
+--=_samba3-10994-1273878785-0001-2--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514231304.GE21756@tamay-dogan.net
+
+

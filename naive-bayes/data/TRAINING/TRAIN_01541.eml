@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e542720db2734
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs62457wfi;
+        Fri, 9 Apr 2010 18:08:10 -0700 (PDT)
+Received: by 10.223.117.164 with SMTP id r36mr790763faq.28.1270861689666;
+        Fri, 09 Apr 2010 18:08:09 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 23si4707660fxm.61.2010.04.09.18.08.09;
+        Fri, 09 Apr 2010 18:08:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 10CB613A5FAF; Sat, 10 Apr 2010 01:08:02 +0000 (UTC)
+Old-Return-Path: <thib@stammed.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7D1A313A5F89
+	for <lists-debian-user@liszt.debian.org>; Sat, 10 Apr 2010 01:07:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id KWkY0bWbqinD for <lists-debian-user@liszt.debian.org>;
+	Sat, 10 Apr 2010 01:07:49 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .stammed. - helo: .30.mail-out.ovh. - helo-domain: .ovh.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from 30.mail-out.ovh.net (30.mail-out.ovh.net [213.186.62.213])
+	by liszt.debian.org (Postfix) with SMTP id 1FD5313A5E98
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 01:07:36 +0000 (UTC)
+Received: (qmail 21941 invoked by uid 503); 10 Apr 2010 01:06:58 -0000
+Received: from b9.ovh.net (HELO mail638.ha.ovh.net) (213.186.33.59)
+  by 30.mail-out.ovh.net with SMTP; 10 Apr 2010 01:06:58 -0000
+Received: from b0.ovh.net (HELO queueout) (213.186.33.50)
+	by b0.ovh.net with SMTP; 10 Apr 2010 01:07:33 -0000
+Received: from ip-80-236-232-177.dsl.scarlet.be (HELO ?192.168.1.101?) (thib@stammed.net@80.236.232.177)
+  by ns0.ovh.net with SMTP; 10 Apr 2010 01:07:32 -0000
+Message-ID: <4BBFCF53.4050901@stammed.net>
+Date: Sat, 10 Apr 2010 03:07:31 +0200
+From: thib <thib@stammed.net>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: automate updates in Lenny
+References: <1270666354.6395.7.camel@localhost> <4BBCDC8E.2090306@cox.net> <3D49F10D-E1EA-416B-B742-ACCDBF123859@salk.edu>
+In-Reply-To: <3D49F10D-E1EA-416B-B742-ACCDBF123859@salk.edu>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Ovh-Tracer-Id: 14939565865625929478
+X-Ovh-Remote: 80.236.232.177 (ip-80-236-232-177.dsl.scarlet.be)
+X-Ovh-Local: 213.186.33.20 (ns0.ovh.net)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <zxJNxDVXjX.A.MlG.y98vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573764
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 01:08:02 +0000 (UTC)
+
+Chris Hiestand wrote:
+> On Apr 7, 2010, at 12:27 PM, Ron Johnson wrote:
+> 
+>> On 2010-04-07 13:52, Jozsi Vadkan wrote:
+>>> [snip]
+>> That's a foolish thing to do, since blind acceptance can lead to a broken system.
+> 
+> Maybe so, but I've been using automatic upgrades for the last 2-3 years on many stable systems without a problem. The nice thing about staying within the stable distribution is that typically the only updates are security updates which are generally very small changes.
+> 
+> When you get to the scale of managing tens or hundreds of debian systems it's easier to automatically upgrade and fix any problems in the off-chance they happen. If you wanted to be more careful, one solution is to setup your systems in such a way that a small group of computers get updated before the rest, as an early warning system.
+> 
+> The major package changes happen between inter-distribution (eg etch -> lenny), which always need a human supervisor. This is acceptable on a larger scale because that only happens every 1.5 - 2 years.
+> 
+> Also if you have other management software (eg cfengine, puppet) in place, it helps mitigate problems when upgrading debian packages or distributions - decreasing the cost of a package upgrade mishap across many systems.
+
+As nicely put in the reference (2.7.5):
+
+"If the risk of breaking an existing stable system by the automatic upgrade 
+is smaller than that of the system broken by the intruder using its security 
+hole which has been closed by the security update, you should consider using 
+[the] automatic upgrade [...]"
+
+In other words, use automatic security upgrades if you can't maintain the 
+system actively and have enemies.
+
+-thib
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBFCF53.4050901@stammed.net
+
+

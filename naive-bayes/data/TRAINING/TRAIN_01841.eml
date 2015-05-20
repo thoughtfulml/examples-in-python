@@ -1,0 +1,142 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287f35c8463c518
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs567264wfb;
+        Sun, 9 May 2010 15:35:53 -0700 (PDT)
+Received: by 10.223.17.197 with SMTP id t5mr3335442faa.84.1273444551972;
+        Sun, 09 May 2010 15:35:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si7204759fah.22.2010.05.09.15.35.50;
+        Sun, 09 May 2010 15:35:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7448C13A48AB; Sun,  9 May 2010 22:35:40 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7787813A446A
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 22:35:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id KpxGsJe8WmdX for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 22:35:27 +0000 (UTC)
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.155])
+	by liszt.debian.org (Postfix) with ESMTP id 594B613A5485
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 22:35:27 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id 22so581651fge.12
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 15:35:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=a9AJooXksiCmzL5CndPyQ8VjWSK/hlgrfE0e+pXTQXA=;
+        b=FzKJsTjXL3kuL/Gn7X+Bz+rq7ExlXACGqyh7KzXF5hG5GdNmcdMy8GVcK0ZJgnoBDw
+         nbaNJ0o5vrj9q0oIw5TMDS+d108eQFT+LnCAg7jip1p0NQWov+i6cSHnaPHDSZkz/XGO
+         sXx9jQcNq6YJjRKOqf3hBEz5M4iFXxca6sQU4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=MEp8E36LEIa4EeJwBbz6Yzdnk5mXyXtA1spssadDBWxual4HuHJf2a5uoltDX+i0rg
+         CGmIFt0T0Mu8zfvlLa4a/WeczfOZFuL8cOkQmj03fBslFgTDbYRHMAVnzOLpfOdMEAbv
+         fQlEFDli9qLbe+PQsm3qLBUkQN6XPD4JyREdc=
+Received: by 10.103.141.3 with SMTP id t3mr32777mun.48.1273444521580;
+        Sun, 09 May 2010 15:35:21 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id i7sm17628883mue.34.2010.05.09.15.35.20
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 09 May 2010 15:35:21 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id 4E83C20A0; Mon, 10 May 2010 00:56:18 +0300 (EEST)
+Date: Mon, 10 May 2010 00:56:18 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: [Semi-OT] Accessing gmail from Python
+Message-ID: <20100509215618.GB4807@think.homelan>
+References: <4BE3231E.5070102@cox.net>
+ <hs1prb$53o$1@dough.gmane.org>
+ <4BE47CD7.4030408@cox.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="pvezYHf7grwyp3Bc"
+Content-Disposition: inline
+In-Reply-To: <4BE47CD7.4030408@cox.net>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <FJ5IImvpxZJ.A.3qH.8iz5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576325
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 22:35:40 +0000 (UTC)
+
+
+--pvezYHf7grwyp3Bc
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri,07.May.10, 15:49:27, Ron Johnson wrote:
+
+> >I just set up getmail do do this.
+> >That seemed a lot simpler than fetchmail withh the certificates.
+>=20
+> Maybe the certificates are already somewhere in /usr/share?
+
+IIUC getmail doesn't check the certificates.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--pvezYHf7grwyp3Bc
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL5y+CAAoJEHNWs3jeoi3p8ZUIAJbTmo60RkYT7FOtfdjHvYuG
+Ndsx8ScOO+wVCfDIQNamCtEB4YBmEAOKTiky/FcMLWb1aS3IutpO5C45YkIxDufi
+MPhgrLRod+ZPcTh086hZrfaxtPIMhC0vqY5W9TkBTM6Arr/zVYvfbF2nbAK4me3Z
+Nvgl44Mj4Mu4+1bP69026YAGEZLVSwPw7dS+7b/X6XZDX/OuYMBBNhPQ5ibN/P6W
+c7zjlzcq/GWzuR3rps1la00dq6flO1hNwUKkphddBbNvdTcn7Ylwa0kZdRDJAXbp
+E+3oABmtM1MxbTsJd//xz9XRUH8wI3pVjjOBxu7CY978zyjqxuTgxx9QlrsGmRg=
+=neRn
+-----END PGP SIGNATURE-----
+
+--pvezYHf7grwyp3Bc--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100509215618.GB4807@think.homelan
+
+

@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId128031e1627510ba
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs75582wfa;
+        Thu, 15 Apr 2010 13:17:04 -0700 (PDT)
+Received: by 10.223.56.216 with SMTP id z24mr223221fag.82.1271362623369;
+        Thu, 15 Apr 2010 13:17:03 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si2071179fka.16.2010.04.15.13.17.02;
+        Thu, 15 Apr 2010 13:17:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id F0B3913A5297; Thu, 15 Apr 2010 20:16:58 +0000 (UTC)
+Old-Return-Path: <kurt@roeckx.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C2A3113A5761
+	for <lists-debian-security@liszt.debian.org>; Thu, 15 Apr 2010 20:16:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ftC1NfaCyrRU
+	for <lists-debian-security@liszt.debian.org>;
+	Thu, 15 Apr 2010 20:16:44 +0000 (UTC)
+Received: from juliette.telenet-ops.be (juliette.telenet-ops.be [195.130.137.74])
+	by liszt.debian.org (Postfix) with ESMTP id A8CC113A5297
+	for <debian-security@lists.debian.org>; Thu, 15 Apr 2010 20:16:44 +0000 (UTC)
+Received: from intrepid.roeckx.be ([84.194.126.74])
+	by juliette.telenet-ops.be with bizsmtp
+	id 5wGi1e0051cSCaU06wGiD1; Thu, 15 Apr 2010 22:16:42 +0200
+Received: by intrepid.roeckx.be (Postfix, from userid 1000)
+	id 0127DEAD3C; Thu, 15 Apr 2010 22:16:41 +0200 (CEST)
+Date: Thu, 15 Apr 2010 22:16:41 +0200
+From: Kurt Roeckx <kurt@roeckx.be>
+To: Jason Self <jason@bluehome.net>
+Cc: debian-volatile@lists.debian.org, debian-security@lists.debian.org,
+	debian-release@lists.debian.org
+Subject: Re: [volatile] Updated clamav-related packages available fortesting
+Message-ID: <20100415201641.GA837@roeckx.be>
+References: <20100415185846.GA32206@roeckx.be>
+ <1271361167.4998@bluehome.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <1271361167.4998@bluehome.net>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <SeK_LBHYJmG.A.nJC.6Q3xLB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23783
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 20:16:58 +0000 (UTC)
+
+On Thu, Apr 15, 2010 at 12:52:47PM -0700, Jason Self wrote:
+> Kurt Roeckx <kurt@roeckx.be> wrote ..
+>  
+> > What does this mean exactly?
+> 
+> It means that versions older than 0.95 will be remotely disabled by the ClamAV 
+> folks once your copy of ClamAV gets the CVD update that includes what I like to 
+> call the special "self-destruct" code. :)
+> 
+> It means that you need to be running least version 0.95 of ClamAV, and 
+> preferably always the latest & greatest version, to be protected. Outdated anti-
+> virus software is not effective.
+
+I forgot about DSA 1906 in october which basicly already announced
+it.
+
+
+Kurt
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415201641.GA837@roeckx.be
+
+

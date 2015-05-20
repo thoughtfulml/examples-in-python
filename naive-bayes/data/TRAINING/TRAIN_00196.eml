@@ -1,0 +1,125 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888a01a8aa03d9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs1429wfb;
+        Tue, 11 May 2010 11:28:34 -0700 (PDT)
+Received: by 10.227.134.209 with SMTP id k17mr5614602wbt.122.1273602513519;
+        Tue, 11 May 2010 11:28:33 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y37si19140082wby.82.2010.05.11.11.28.32;
+        Tue, 11 May 2010 11:28:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1186313A5A21; Tue, 11 May 2010 18:28:25 +0000 (UTC)
+Old-Return-Path: <kelly.clowers@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 99C9513A4306
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 18:28:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 60WADTBS36Ps for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 18:28:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 6D22413A59D7
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 18:28:11 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so8634271qyk.3
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 11:28:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=0WQcVscGWHDGHhyCRkugINK3OliIOWDhU7xA24N0QOM=;
+        b=chAKjWmA0XpJyWKx2aVeMqKTtmnUokCWDPVJ18xlnUB8+bRwhGsmwzrIyxhsDtwMj5
+         qCulfb6JuMz2SJvl7tfSxOzt42ZBDlx3qkSFSmUEUvGIrMZY58Hk8JnuM2Qi667aLQlU
+         CEiIpOuVAYTj2H61+xdkH88Yls0urIxW3pRVY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=nO1GNdkEAdMijiXajvxFAhFLgwp7caBot90tNUDKkfjFyitrXxESsNQ8pxyfv00f/y
+         x6UnXBKFEnPO+WiSgs/r2jk0MijPYEkswP9UaROPXSgOhd3cehic2EdOC4aot/HPXPuE
+         hc8sjKt+ijiixTWfDJTuK6uugwK2Ud9OOQyRE=
+MIME-Version: 1.0
+Received: by 10.224.79.92 with SMTP id o28mr4186601qak.2.1273602480781; Tue, 
+	11 May 2010 11:28:00 -0700 (PDT)
+Received: by 10.229.218.21 with HTTP; Tue, 11 May 2010 11:28:00 -0700 (PDT)
+In-Reply-To: <pan.2010.05.11.16.48.28@csmining.org>
+References: <COL122-W552C2CBA6682ADBE143AB487FA0@phx.gbl>
+	 <AANLkTil3IyBhKeJ2xkvAooM-q9w_LCP_0phW8zY2xm8L@mail.csmining.org>
+	 <pan.2010.05.11.14.02.19@csmining.org>
+	 <AANLkTin9u3Dmww3x0eT8I9cRPFwP-hP7lefE9LtopTLj@mail.csmining.org>
+	 <pan.2010.05.11.15.05.28@csmining.org>
+	 <AANLkTinbOa8yPuJ9x1fouM0w3m6rBpevtu9VgtYaUHJI@mail.csmining.org>
+	 <pan.2010.05.11.15.44.05@csmining.org>
+	 <AANLkTilOGuOHOZ10MtB5_IGgJHsEh0ohpV-IhEsAk7gC@mail.csmining.org>
+	 <pan.2010.05.11.16.48.28@csmining.org>
+Date: Tue, 11 May 2010 11:28:00 -0700
+Message-ID: <AANLkTim-MDYZhnwXWHgdsm3O_AUoIDtJxd2CtnLss6aQ@mail.csmining.org>
+Subject: Re: 64 bit-flash failing sites (was: What to choose for Core i5 64 
+	bits?)
+From: Kelly Clowers <kelly.clowers@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <sqg2XvuDEIH.A.4KD.JHa6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576553
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 18:28:25 +0000 (UTC)
+
+On Tue, May 11, 2010 at 09:48, Camale=C3=B3n <noelamac@csmining.org> wrote:
+> On Tue, 11 May 2010 12:26:21 -0400, Jordan Metzmeier wrote:
+>
+>>> Users having problems with flash plugin on their 64 bits OS can install
+>>> a 32 bits browser and run the 32 bits plugin, which is annoying but it
+>>> should work.
+>>>
+>>>
+>> Does this work natively or does it require a chroot?
+>
+> Natively... AFAIK, I see two approaches:
+>
+> 1/ Firefox can be downloaded from Mozilla site (and Mozilla does not
+> provide a 64-bit version for their browser, only 32-bit binaries). Once
+> downloaded, no need to install anything, just click and run. Then, you
+> can download the flash plugin (32 bits) and store it under Firefox
+> plugins folder.
+
+They do provide 64-bit nightly builds, though.
+
+Cheers,
+Kelly Clowers
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTim-MDYZhnwXWHgdsm3O_AUoIDtJxd2CtnLss6aQ@mail.csmining.org
+
+

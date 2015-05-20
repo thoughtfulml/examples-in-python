@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f8a0fd5d3af7c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs36250wfa;
+        Tue, 13 Apr 2010 12:24:13 -0700 (PDT)
+Received: by 10.141.214.26 with SMTP id r26mr5966580rvq.225.1271186652455;
+        Tue, 13 Apr 2010 12:24:12 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 29si12376561iwn.68.2010.04.13.12.24.12;
+        Tue, 13 Apr 2010 12:24:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id F1AD81BF18DDF
+	for <mlsubscriber.tech@csmining.org>; Tue, 13 Apr 2010 12:24:11 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E4C1E26C3D499
+	for <mlsubscriber.tech@csmining.org>; Tue, 13 Apr 2010 12:24:11 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 6A2C626C3D224
+	for <objc-language@lists.apple.com>;
+	Tue, 13 Apr 2010 12:23:50 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 59408CEA5698
+	for <objc-language@lists.apple.com>;
+	Tue, 13 Apr 2010 12:23:50 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7cccae000002a80-16-4bc4c4c68fa7
+Received: from asmtpout026.mac.com (asmtpout026.mac.com [17.148.16.101])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	A1.82.10880.6C4C4CB4; Tue, 13 Apr 2010 12:23:50 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [192.168.1.103]
+	(c-69-181-71-117.hsd1.ca.comcast.net [69.181.71.117])
+	by asmtp026.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPSA id <0L0T00MCLXV6S880@asmtp026.mac.com> for
+	objc-language@lists.apple.com; Tue, 13 Apr 2010 12:23:34 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004130212
+From: Daniel DeCovnick <danhd123@me.com>
+In-reply-to: <4F77AC33-E99F-4DC5-860A-65F154719979@apple.com>
+Date: Tue, 13 Apr 2010 12:23:30 -0700
+Message-id: <841256F4-C54E-4927-A79E-AE5AECACD1FD@me.com>
+References: <t2ja92022a41004111315y4f399596pdfb107eb86563859@mail.csmining.org>
+	<z2ide3c77431004111322v7e93615x6941a344be5353ea@mail.csmining.org>
+	<y2v597e7edb1004111359s8d7c36fewc473913688d153b2@mail.csmining.org>
+	<w2ja92022a41004111426tf6fe14a6u7f30eb60fe31df26@mail.csmining.org>
+	<r2w597e7edb1004111436s2bc182a6qb98d2a98320220b1@mail.csmining.org>
+	<6219CEC0-B93B-4B6D-889A-85DD4B05B56B@onlinehome.de>
+	<485490F8-C62F-4DA4-BC56-31A23D0DDBE5@me.com>
+	<4F77AC33-E99F-4DC5-860A-65F154719979@apple.com>
+To: Greg Parker <gparker@apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: objc-language@lists.apple.com
+Subject: Re: class variables
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Kind of a Catch-22, isn't it? Why does it exist?
+
+-Daniel
+
+On Apr 13, 2010, at 12:16 PM, Greg Parker wrote:
+
+> On Apr 13, 2010, at 11:37 AM, Daniel DeCovnick wrote:
+>> Out of curiosity, what is this for
+>> class_getClassVariable
+>> Returns the Ivar for a specified class variable of a given class.
+>> 
+>> Ivar class_getClassVariable(Class cls, const char* name)
+> 
+> It returns a class variable from a class. Since no classes have class variables, it won't actually do anything.
+> 
+> The implementation is approximately: 
+>    return class_getInstanceVariable(cls->isa, name);
+> 
+> 
+> -- 
+> Greg Parker     gparker@apple.com     Runtime Wrangler
+> 
+> 
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

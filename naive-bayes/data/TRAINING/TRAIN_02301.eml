@@ -1,0 +1,122 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286ea0698ae1c5e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs406376wfb;
+        Thu, 6 May 2010 10:18:47 -0700 (PDT)
+Received: by 10.223.24.130 with SMTP id v2mr6944769fab.61.1273166326115;
+        Thu, 06 May 2010 10:18:46 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si2496439fks.24.2010.05.06.10.18.45;
+        Thu, 06 May 2010 10:18:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B6A0A13A5641; Thu,  6 May 2010 17:18:43 +0000 (UTC)
+Old-Return-Path: <ana@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F0A2013A5565
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 17:18:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id fx01Ad31wbow for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 17:18:29 +0000 (UTC)
+Received: from ekaia.org (ekaia.org [109.74.204.229])
+	by liszt.debian.org (Postfix) with ESMTP id A169613A54EE
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 17:18:29 +0000 (UTC)
+Received: from pryan.aurel32.net (localhost [127.0.0.1])
+	by ekaia.org (Postfix) with SMTP id 32EB6124CE;
+	Thu,  6 May 2010 19:18:27 +0200 (CEST)
+Received: (nullmailer pid 7733 invoked by uid 1000);
+	Thu, 06 May 2010 17:18:18 -0000
+Date: Thu, 6 May 2010 19:18:18 +0200
+From: Ana Guerrero <ana@debian.org>
+To: Martin Steigerwald <Martin@lichtvoll.de>
+Cc: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Message-ID: <20100506171818.GB7551@ana.debian.net>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+ <201005060741.29747.Howland@priss.com>
+ <slrnhu5bem.rvp.nospam@sshway.ssh.pusling.com>
+ <201005061639.16309.Martin@lichtvoll.de>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <201005061639.16309.Martin@lichtvoll.de>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <mzGJwKddpWE.A.j2H.znv4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32156
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 17:18:43 +0000 (UTC)
+
+On Thu, May 06, 2010 at 04:39:02PM +0200, Martin Steigerwald wrote:
+> Am Donnerstag 06 Mai 2010 schrieb Sune Vuorela:
+> > On 2010-05-06, Curt Howland <Howland@priss.com> wrote:
+> > > On Thursday 06 May 2010, Ana Guerrero was heard to say:
+> > >> On Thu, May 06, 2010 at 03:17:43AM -0300, Jorge Gonçalves wrote:
+> > >> > Maybe use dummy packages, or rename the packages so that KDE 3.5
+> > >> > could remain installed, and not be forced to upgrade to Kde4.
+> > >> 
+> > >> No, there is not sane way and there is nobody interested on it.
+> > > 
+> > > While the former is certainly true, the latter is demonstrably false.
+> > 
+> > Where is your code?
+> > 
+> > I will repeat "No one is interested in doing it".
+> 
+> That does not seem to be entirely true as was mentioned elsewhere in this 
+> thread:
+> 
+> http://trinity.pearsoncomputing.net/
+> 
+> However this seems far away from the man-power behind KDE 3 until 3.5.10. 
+> To truly get forward with this one it appears to me that way more 
+> developers are needed. Who then would have less or no time to work on 
+> improving KDE 4.
+
+Doing stuff in your own is easy. Doing stuff coordinating with a whole distro,
+whithin ugly hacks and with a good ending quality, is not.
+
+BTW, I would rather advise people learn how to build their own packages before
+using and thus depending in this 3rd party repo, no only because security reasons, 
+or because it is not built in the top of debian.  This repo is not going to be 
+there forever, for sure, sooner or later people maintaining it will get tired, 
+and if you are planning to use KDE 3 forever...
+
+Just pointing about this to people mentioning this repo, nothing direclty to
+Martin here :)
+
+Ana
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506171818.GB7551@ana.debian.net
+
+

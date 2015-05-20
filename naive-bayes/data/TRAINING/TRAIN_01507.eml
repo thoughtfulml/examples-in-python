@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId127df2aa2f1e7e1f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs97764wfi;
+        Thu, 8 Apr 2010 13:44:26 -0700 (PDT)
+Received: by 10.141.125.20 with SMTP id c20mr1034226rvn.238.1270759465667;
+        Thu, 08 Apr 2010 13:44:25 -0700 (PDT)
+Return-Path: <quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 13si1229743pzk.7.2010.04.08.13.44.25;
+        Thu, 08 Apr 2010 13:44:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 66EA31BDD1130
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 13:44:25 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 61DFE26A38E7B
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 13:44:25 -0700 (PDT)
+X-Original-To: quicktime-users@lists.apple.com
+Delivered-To: quicktime-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id BBBE726A38D09
+	for <quicktime-users@lists.apple.com>;
+	Thu,  8 Apr 2010 13:44:11 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id AB208CD777DC
+	for <quicktime-users@lists.apple.com>;
+	Thu,  8 Apr 2010 13:44:11 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7c81ae0000050dc-83-4bbe401a693d
+Authentication-Results: mail-in13.apple.com x-tls.subject="/C=US/ST=Ct/L=New
+	London/O=Connecticut College/OU=Information
+	Services/CN=keykeeper.conncoll.edu";
+	auth=fail (cipher=AES256-SHA)
+Received: from keykeeper.conncoll.edu (keykeeper.conncoll.edu [136.244.1.161])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client CN "keykeeper.conncoll.edu",
+	Issuer "keykeeper.conncoll.edu" (not verified))
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	E9.A7.20700.B104EBB4; Thu,  8 Apr 2010 13:44:11 -0700 (PDT)
+X-ASG-Debug-ID: 1270759449-6ee5001f0000-TiysXq
+X-Barracuda-URL: http://136.244.1.161:8000/cgi-bin/mark.cgi
+Received: from cypress.conncoll.edu (cypress.conncoll.edu [136.244.1.20])
+	by keykeeper.conncoll.edu & Virus Firewall) with ESMTP id
+	7A9A72003D88 for <quicktime-users@lists.apple.com>;
+	Thu,  8 Apr 2010 16:44:09 -0400 (EDT)
+Received: from cypress.conncoll.edu (cypress.conncoll.edu [136.244.1.20]) by
+	keykeeper.conncoll.edu with ESMTP id B1iWbKqX3Ls6iLEM for
+	<quicktime-users@lists.apple.com>;
+	Thu, 08 Apr 2010 16:44:09 -0400 (EDT)
+Received: from [136.244.13.169] ([136.244.13.169]) by cypress.conncoll.edu
+	over TLS secured channel with Microsoft SMTPSVC(6.0.3790.3959); 
+	Thu, 8 Apr 2010 16:44:06 -0400
+Message-Id: <916FBCFA-84F8-4926-A07E-0F7ADA17547E@conncoll.edu>
+From: Frank Fulchiero <fful@conncoll.edu>
+To: quicktime-users@lists.apple.com
+In-Reply-To: <20100408191025.EFF7A26A278BA@lists.apple.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+X-ASG-Orig-Subj: Re: File Size & cut
+Date: Thu, 8 Apr 2010 16:44:06 -0400
+References: <20100408191025.EFF7A26A278BA@lists.apple.com>
+X-Mailer: Apple Mail (2.936)
+X-OriginalArrivalTime: 08 Apr 2010 20:44:06.0714 (UTC)
+	FILETIME=[3B6861A0:01CAD75C]
+X-Barracuda-Connect: cypress.conncoll.edu[136.244.1.20]
+X-Barracuda-Start-Time: 1270759449
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at conncoll.edu
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=1000.0
+	QUARANTINE_LEVEL=1000.0 KILL_LEVEL=6.2 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.27031
+	Rule breakdown below
+	pts rule name              description
+	---- ----------------------
+	--------------------------------------------------
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+Subject: Re: File Size & cut
+X-BeenThere: quicktime-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Usage of QuickTIme <quicktime-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-users@lists.apple.com>
+List-Help: <mailto:quicktime-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+>
+> From: M Christol <christol@fuse.net>
+> Subject: File Size & cut
+>
+> I had a 40 minute .mov file. I cut 36 minutes off and the file size
+> remained the same (499MB).
+> I had used h.264 & AAC
+> I exported the movie & the file size went down to what I expected.
+> Why didn't the file size reduce afer the cut?
+
+The file size will stay the same unless you save as a new self- 
+contained QT movie.
+Frank
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

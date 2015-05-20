@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287969955d8bf43
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs520332wfb;
+        Sat, 8 May 2010 12:34:43 -0700 (PDT)
+Received: by 10.223.144.79 with SMTP id y15mr1976656fau.22.1273347282387;
+        Sat, 08 May 2010 12:34:42 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s12si4935478fah.57.2010.05.08.12.34.41;
+        Sat, 08 May 2010 12:34:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 54A3913A553E; Sat,  8 May 2010 19:34:38 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BF02F13A5529
+	for <lists-debian-kde@liszt.debian.org>; Sat,  8 May 2010 19:34:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id iyiI5rAxypiw for <lists-debian-kde@liszt.debian.org>;
+	Sat,  8 May 2010 19:34:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 5AB1813A54B9
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 19:34:25 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1OApn4-0006O8-Ek
+	for debian-kde@lists.debian.org; Sat, 08 May 2010 22:34:22 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: ANN: libktorrent 1.0rc1 && ktorrent 4.0rc1
+Date: Sat, 8 May 2010 22:34:11 +0300
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-amd64; KDE/4.4.3; x86_64; ; )
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1599789.fGAHtOro4e";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005082234.21429.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Uq6gXh0F4YE.A.mcG.Ozb5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32282
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 19:34:38 +0000 (UTC)
+
+--nextPart1599789.fGAHtOro4e
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Till libktorrent waits in NEW, both libktorrent 1.0rc1 && ktorrent 4.0rc1 a=
+re=20
+available in experimental-snapshots repository on http://qt-kde.debian.net/
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart1599789.fGAHtOro4e
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvlvLUACgkQHO9JRnPq4hQHHwCgsN5qkPY9o94zg/h/cJzx5Ud8
+S8kAoKof3TLbz1OoXjxmbTf6mjYISHqD
+=NhMW
+-----END PGP SIGNATURE-----
+
+--nextPart1599789.fGAHtOro4e--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005082234.21429.modestas@vainius.eu
+
+

@@ -1,0 +1,77 @@
+From - Thu Jan 28 09:20:36 2010
+X-Account-Key: account2
+X-UIDL: UID10595-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id A1C752301
+	for <m0620212@mail.csmining.org>; Thu, 28 Jan 2010 02:06:08 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 9DEB922D3
+	for <m0620212@mail.csmining.org>; Thu, 28 Jan 2010 02:06:08 +0900 (JST)
+X-ASG-Debug-ID: 1264611968-240f01810000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1264611968
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251])
+	by spamgw.csmining.org Firewall) with SMTP id 2CC538AB3DB
+	for <m0620212@mail.csmining.org>; Thu, 28 Jan 2010 02:06:08 +0900 (JST)
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o0RH68PZ011849
+        for <m0620212@mail.csmining.org>; Thu, 28 Jan 2010 02:06:08 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id o0RH67k1011846
+        for <hibody@csmining.org>; Thu, 28 Jan 2010 02:06:07 +0900 (JST)
+Received: from 213.37.211.213.dyn.user.ono.com (213.37.211.213.dyn.user.ono.com [213.37.211.213])
+	by ns2.csmining.org  with ESMTP id o0RH65Lj012503
+	for <hibody@csmining.org>; Thu, 28 Jan 2010 02:06:06 +0900 (JST)
+Date: Thu, 28 Jan 2010 02:06:06 +0900 (JST)
+Message-Id: <201001271706.o0RH65Lj012503@ns2.csmining.org>
+From: Alexandra <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: You have so much? Saw your video!
+Subject: You have so much? Saw your video!
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-Barracuda-Spam-Score: 7.48
+X-Barracuda-Spam-Status: No, SCORE=7.48 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL, HELO_DYNAMIC_IPADDR2, HELO_DYNAMIC_SPLIT_IP, HTML_MESSAGE, MIME_HTML_ONLY, MSGID_FROM_MTA_ID, PLING_QUERY, RCVD_NUMERIC_HELO, RDNS_DYNAMIC
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.108178
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.88 HELO_DYNAMIC_SPLIT_IP  Relay HELO'd using suspicious hostname (Split
+	                           IP)
+	1.21 HELO_DYNAMIC_IPADDR2   Relay HELO'd using suspicious hostname (IP addr
+	                            2)
+	1.25 RCVD_NUMERIC_HELO      Received: contains an IP address used for HELO
+	0.70 MSGID_FROM_MTA_ID      Message-Id for external message added locally
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.10 RDNS_DYNAMIC           Delivered to trusted network by host with
+	                           dynamic-looking rDNS
+	0.33 PLING_QUERY            Subject has exclamation mark and question mark
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<title>
+</title>
+</head>
+<body bgcolor="#ffffff" style="text-align: left">
+<font face="ARIAL">
+We were talking on the forum, remember me?<br> I am Maria from Russia!<br><a href="http://kursofdollar.ru/?idAff=127">Click here</a>
+</font>
+</body>
+</html>
+

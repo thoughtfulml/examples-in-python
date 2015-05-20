@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId12862b111e652686
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs271838wfj;
+        Tue, 4 May 2010 02:41:32 -0700 (PDT)
+Received: by 10.223.16.142 with SMTP id o14mr3935080faa.11.1272966091101;
+        Tue, 04 May 2010 02:41:31 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z15si1312037fkz.21.2010.05.04.02.41.30;
+        Tue, 04 May 2010 02:41:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B62C613A435F; Tue,  4 May 2010 09:41:28 +0000 (UTC)
+Old-Return-Path: <debian-kde@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2855713A433D
+	for <lists-debian-kde@liszt.debian.org>; Tue,  4 May 2010 09:41:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1dU0na+DSyrM for <lists-debian-kde@liszt.debian.org>;
+	Tue,  4 May 2010 09:41:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id BD20D2D0C5E
+	for <debian-kde@lists.debian.org>; Tue,  4 May 2010 09:41:03 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <debian-kde@m.gmane.org>)
+	id 1O9Ecb-0002CW-MG
+	for debian-kde@lists.debian.org; Tue, 04 May 2010 11:40:57 +0200
+Received: from lns-bzn-30-82-253-148-133.adsl.proxad.net ([82.253.148.133])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-kde@lists.debian.org>; Tue, 04 May 2010 11:40:57 +0200
+Received: from xavier by lns-bzn-30-82-253-148-133.adsl.proxad.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-kde@lists.debian.org>; Tue, 04 May 2010 11:40:57 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-kde@lists.debian.org
+connect(): No such file or directory
+From: Xavier Brochard <xavier@alternatif.org>
+Subject: Re: Placing icons on bottom bar.
+Followup-To: gmane.linux.debian.user.kde
+Date: Tue, 04 May 2010 11:40:28 +0200
+Lines: 17
+Message-ID: <hroq30$10q$1@dough.gmane.org>
+References: <201004281609.40763.john@wexfordpress.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7Bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: lns-bzn-30-82-253-148-133.adsl.proxad.net
+User-Agent: KNode/4.4.2
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <3POdsp17hWB.A.x_F.Iv-3LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32064
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 09:41:28 +0000 (UTC)
+
+John Culleton wrote:
+> I have the Debian variant Knoppix installed on my laptop. Now I want to
+> move some icons to the bottom bar and have them stay there between
+> sessions. I know how to do this with various versions of Slackware using
+> KDE 3.5 and XFCE but I am a newcomer to the world of Debian.
+> 
+> Anyone have any hints?
+
+There is nothing related to Debian, only to the Desktop in use. 
+The latest Knoppix (6.0) use LXDE for the desktop. If this is your version, 
+aqd your Desktop, have a look at the LXDE documentation on 
+http://www.lxde.org/
+You could also ask for help on the LXDE forum (same url as above).
+
+xavier
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hroq30$10q$1@dough.gmane.org
+
+

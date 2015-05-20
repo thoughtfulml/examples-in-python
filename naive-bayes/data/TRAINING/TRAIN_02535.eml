@@ -1,0 +1,147 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281b2b86b57e1c0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs67043wfj;
+        Tue, 20 Apr 2010 05:23:46 -0700 (PDT)
+Received: by 10.223.101.4 with SMTP id a4mr1219797fao.71.1271766157081;
+        Tue, 20 Apr 2010 05:22:37 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si2840163fka.44.2010.04.20.05.22.36;
+        Tue, 20 Apr 2010 05:22:37 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A5DB813A464F; Tue, 20 Apr 2010 12:22:27 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.4 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	MURPHY_WRONG_WORD2,PGPSIGNATURE,PLING_QUERY autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EE38913A461F
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 12:22:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.31 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, MURPHY_WRONG_WORD2=0.2,
+	PGPSIGNATURE=-5, PLING_QUERY=1.39] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 3sMdlve-Es34 for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 12:22:14 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 558C413A4617
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 12:22:14 +0000 (UTC)
+Received: (qmail 29862 invoked from network); 20 Apr 2010 14:00:53 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <gwolf@gwolf.org>; 20 Apr 2010 14:00:53 +0200
+Message-ID: <4BCD974D.6020400@student.ulg.ac.be>
+Date: Tue, 20 Apr 2010 14:00:13 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: Gunnar Wolf <gwolf@gwolf.org>
+CC: debian-user@lists.debian.org
+Subject: Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is	protected! Why?
+References: <4BCC5B32.5030300@student.ulg.ac.be> <20100419144409.e99ce9d8.codehelp@debian.org> <4BCC5FB0.7060106@student.ulg.ac.be> <4BCC613C.6090107@lorentz.leidenuniv.nl> <4BCC77A3.9080803@student.ulg.ac.be> <20100419225344.GF29145@gwolf.org>
+In-Reply-To: <20100419225344.GF29145@gwolf.org>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig480172EF78A95EBCCD25B7C9"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WwRfM3Q8xON.A.ynB.DyZzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574531
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 12:22:27 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig480172EF78A95EBCCD25B7C9
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Gunnar Wolf wrote:
+> Merciadri Luca dijo [Mon, Apr 19, 2010 at 05:32:51PM +0200]:
+>  =20
+>
+> Thing is, PDF is a printing-oriented format. It is a close descendent
+> of PostScript, a full-fledged programming language, but geared towards
+> printers. The main point that makes PDF a more convenient format is
+> that Acrobat made a big campaign to distribute its PDF reader program.
+>  =20
+As you say.
+> As you quote, others have told you the PDF-provided security is
+> fake. It is just a flag flipped to tell the reader program to pretty
+> please make life miserable for the user.
+>  =20
+Yes, but it is often sufficient to prevent _beginners_ from hacking the
+whole stuff.
+> What do you want to achieve with this _real_ protection you say?
+>  =20
+See my other messages. I am/was encountering a special situation.
+> Whatever can be displayed on screen can be captured (i.e. with the
+> common "PrtScr" keybinding in many environments). If you want to
+> distribute material and make it hellish to your users to print it,
+> copy from it or use it in any useful way, why don't you send the
+> document as a .jpg file?
+>  =20
+With such files (.jpg ones) they can print it directly, can't they?
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+When making your choices in life, do not forget to live. (Samuel Johnson)=
+
+
+
+--------------enig480172EF78A95EBCCD25B7C9
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvNl00ACgkQM0LLzLt8MhxhlACgi4xJciQuaOo8h2kdLXGBzVgb
+CQEAn3sYwPIzyJ2ddvT+RT8meHdfpDfZ
+=rN1u
+-----END PGP SIGNATURE-----
+
+--------------enig480172EF78A95EBCCD25B7C9--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD974D.6020400@student.ulg.ac.be
+
+

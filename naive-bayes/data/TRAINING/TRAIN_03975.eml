@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282c54c9255744f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs75582wfj;
+        Fri, 23 Apr 2010 13:21:15 -0700 (PDT)
+Received: by 10.87.67.8 with SMTP id u8mr1252822fgk.9.1272054073821;
+        Fri, 23 Apr 2010 13:21:13 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si458816fkq.17.2010.04.23.13.21.13;
+        Fri, 23 Apr 2010 13:21:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BCACE13A4992; Fri, 23 Apr 2010 20:21:07 +0000 (UTC)
+Old-Return-Path: <Eugen.Dedu@pu-pm.univ-fcomte.fr>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.0 required=4.0 tests=FVGT_m_MULTI_ODD,
+	LDO_WHITELIST,RERE autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9812C13A47A3
+	for <lists-debian-user@liszt.debian.org>; Fri, 23 Apr 2010 20:04:27 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, LDO_WHITELIST=-5, RERE=1]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id IZUmVxu2Vitk for <lists-debian-user@liszt.debian.org>;
+	Fri, 23 Apr 2010 20:04:20 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from tharradin.pu-pm.univ-fcomte.fr (tharradin.pu-pm.univ-fcomte.fr [194.57.85.210])
+	by liszt.debian.org (Postfix) with ESMTP id 6793813A46B3
+	for <debian-user@lists.debian.org>; Fri, 23 Apr 2010 20:04:20 +0000 (UTC)
+Received: by tharradin.pu-pm.univ-fcomte.fr (Postfix, from userid 65534)
+	id C6A843407E1; Fri, 23 Apr 2010 22:04:17 +0200 (CEST)
+Received: from [192.168.0.2] (localhost [127.0.0.1])
+	by tharradin.pu-pm.univ-fcomte.fr (Postfix) with ESMTP id 0EEBB340176;
+	Fri, 23 Apr 2010 22:04:16 +0200 (CEST)
+Message-ID: <4BD1FD3E.3000803@pu-pm.univ-fcomte.fr>
+Date: Fri, 23 Apr 2010 22:04:14 +0200
+From: Eugen Dedu <Eugen.Dedu@pu-pm.univ-fcomte.fr>
+Organization: University of =?UTF-8?B?RnJhbmNoZS1Db210w6ksIEZyYW5jZQ==?=
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20091109)
+MIME-Version: 1.0
+To: tomh0665@csmining.org
+CC: debian-user@lists.debian.org
+Subject: Re: Re: Re: Help needed: error booting to btrfs filesystem
+References: <k2x6d4219cc1004231200q41526068z87e9b0fc010b9bdf@mail.csmining.org>
+In-Reply-To: <k2x6d4219cc1004231200q41526068z87e9b0fc010b9bdf@mail.csmining.org>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Nz5ZNIAWkNH.A.nCF.zEg0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574856
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 23 Apr 2010 20:21:07 +0000 (UTC)
+
+> On Fri, Apr 23, 2010 at 2:34 PM, Eugen Dedu
+> <Eugen.Dedu@pu-pm.univ-fcomte.fr> wrote:
+>>> On Fri, Apr 23, 2010 at 11:25 AM, Eugen Dedu
+>>> <Eugen.Dedu@pu-pm.univ-fcomte.fr> wrote:
+>>>
+>>> What is the filesystem of /boot?
+>>>
+>>> It should not be btrfs.
+>>
+>> Well, /boot is on the same filesystem as / (only one FS), so it is
+>> btrfs.  Does not grub2 boot linux from btrfs?  I have seen Web pages
+>> saying that it boots...
+> 
+> It is unlikely because /boot/grub contains ext2.mod, jfs.mod,
+> ntfs.mod, ufs1.mod, ufs2.mod, xfs.mod, zfs.mod but not btrfs.mod.
+
+Indeed, I see in sources that fs/ does not contain btrfs.c...  So it
+seems that /boot must use another FS for the moment...
+
+Well, I will wait...
+
+Thank you very much for help,
+-- 
+Eugen
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD1FD3E.3000803@pu-pm.univ-fcomte.fr
+
+

@@ -1,0 +1,85 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fddf6569d55d3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs30369wfa;
+        Wed, 14 Apr 2010 12:50:28 -0700 (PDT)
+Received: by 10.142.65.24 with SMTP id n24mr3626102wfa.302.1271274628217;
+        Wed, 14 Apr 2010 12:50:28 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 2si1447249yxe.2.2010.04.14.12.50.27;
+        Wed, 14 Apr 2010 12:50:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 7C1671BF6A9DD
+	for <mlsubscriber.tech@csmining.org>; Wed, 14 Apr 2010 12:50:27 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 76E8A26CBC3C4
+	for <mlsubscriber.tech@csmining.org>; Wed, 14 Apr 2010 12:50:27 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id DBA0D26CBAB03
+	for <java-dev@lists.apple.com>; Wed, 14 Apr 2010 12:46:51 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id C9825D053119
+	for <java-dev@lists.apple.com>; Wed, 14 Apr 2010 12:46:51 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7cccae000002a80-08-4bc61bab37a3
+Received: from monk.ccl.northwestern.edu (monk.ccl.northwestern.edu
+	[129.105.107.80])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	2E.BF.10880.BAB16CB4; Wed, 14 Apr 2010 12:46:51 -0700 (PDT)
+Received: from monk.ccl.northwestern.edu (localhost.localdomain [127.0.0.1])
+	by monk.ccl.northwestern.edu (Postfix) with ESMTP id F1715EC418F
+	for <java-dev@lists.apple.com>; Wed, 14 Apr 2010 14:44:02 -0500 (CDT)
+To: java-dev@lists.apple.com
+In-Reply-To: <4BC4D284.5080800@unavco.org> 
+From: Seth Tisue <seth@tisue.net>
+X-Mailer: MH-E 8.0.2; nmh 1.1; GNU Emacs 22.0.50
+Date: Wed, 14 Apr 2010 14:44:02 -0500
+Message-ID: <7923.1271274242@monk.ccl.northwestern.edu>
+X-Brightmail-Tracker: AAAAARO1Y9E=
+Subject: Re: Java graphicsgeneration on Mac servers without graphics
+	hardware 
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+>>>>> "Stuart" == Stuart Wier <wier@unavco.org> writes:
+
+ Stuart> "headless=true" is not a help since the program
+ Stuart> needs to run just as if it had graphics.
+
+I don't understand this explanation.  I generate large image files all
+the time using java.awt.headless=true.  My graphics code can't tell the
+difference whether it's running on real AWT or headless AWT, it works
+fine either way.  I didn't have to do anything special for this to work.
+Are you sure it matters to your code?
+
+Just checking...
+
+-- 
+Seth Tisue @ Northwestern University | http://tisue.net
+lead developer, NetLogo: http://ccl.northwestern.edu/netlogo/
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

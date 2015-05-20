@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b02f026aa66a4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs48915wfo;
+        Wed, 19 May 2010 03:49:52 -0700 (PDT)
+Received: by 10.223.127.212 with SMTP id h20mr9567318fas.89.1274266190727;
+        Wed, 19 May 2010 03:49:50 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e15si17739102fai.75.2010.05.19.03.49.50;
+        Wed, 19 May 2010 03:49:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1E69713A5210; Wed, 19 May 2010 10:49:40 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A5DC313A51E1
+	for <lists-debian-user@liszt.debian.org>; Wed, 19 May 2010 10:49:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id MRfA7kHQyhwf for <lists-debian-user@liszt.debian.org>;
+	Wed, 19 May 2010 10:49:27 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 5EF8413A518E
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 10:49:27 +0000 (UTC)
+Received: (qmail 12913 invoked from network); 19 May 2010 12:49:24 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <ron.l.johnson@cox.net>; 19 May 2010 12:49:24 +0200
+Message-ID: <4BF3C1DC.8050300@student.ulg.ac.be>
+Date: Wed, 19 May 2010 12:47:56 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: Ron Johnson <ron.l.johnson@cox.net>
+CC: debian-user@lists.debian.org
+Subject: Re: Accelerating directory's content's viewing: how, is directory
+  is huge?
+References: <4BF2D97B.5030107@student.ulg.ac.be> <201005181354.15832.bss@iguanasuicide.net> <4BF2E741.2020108@student.ulg.ac.be> <4BF2FD4A.5030203@cox.net> <877hn17wu7.fsf@merciadriluca-station.MERCIADRILUCA> <4BF305A0.6010906@cox.net>
+In-Reply-To: <4BF305A0.6010906@cox.net>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig31CAAED0FB049D5BD7604594"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ov-yAYueI4O.A.SoC.EJ88LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577167
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 19 May 2010 10:49:40 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig31CAAED0FB049D5BD7604594
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson wrote:
+> On 05/18/2010 03:56 PM, Merciadri Luca wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Ron Johnson<ron.l.johnson@cox.net>  writes:
+>>
+>>> Don't use Nautilus, or reorganize your directory structure.
+>> Okay. Then, for browsing big directories with a GUI, which GUI do you
+>> advice to use? Thanks.
+>
+> I wouldn't.  (Real Men use the CLI.)
+>
+> Anyway... there are many lightweight file managers in Debian.  I'd
+> install a bunch and see which is the least slow.
+>
+Okay. As I belong to Real Men, I will use CLI(!)
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+
+
+--------------enig31CAAED0FB049D5BD7604594
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvzwdwACgkQM0LLzLt8MhzxEQCgjPt0omQDM0d4J3Ji91liwC6b
+lPwAoKbMZ4Im8/sNJGNiSOuvEApgX2iz
+=n2Jz
+-----END PGP SIGNATURE-----
+
+--------------enig31CAAED0FB049D5BD7604594--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF3C1DC.8050300@student.ulg.ac.be
+
+

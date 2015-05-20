@@ -1,0 +1,89 @@
+From - Mon Feb 23 10:57:14 2009
+X-Account-Key: account2
+X-UIDL: UID3554-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <gun.hansson4@comhem.se>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail2.csmining.org
+Received: from mail2.csmining.org (localhost [127.0.0.1])
+	by localhost.csmining.org (Postfix) with ESMTP id 9E97F6EE5
+	for <m0620212@mail.csmining.org>; Sat, 21 Feb 2009 12:31:45 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail2.csmining.org (Postfix) with ESMTP id 816756E78
+	for <m0620212@mail.csmining.org>; Sat, 21 Feb 2009 12:31:45 +0900 (JST)
+X-ASG-Debug-ID: 1235187104-125a00870000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1235187104
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251])
+	by spamgw.csmining.org Firewall) with SMTP id CE93D410CD9
+	for <m0620212@mail.csmining.org>; Sat, 21 Feb 2009 12:31:44 +0900 (JST)
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id n1L3Vi9W001488
+        for <m0620212@mail.csmining.org>; Sat, 21 Feb 2009 12:31:44 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id n1L3VivD001485
+        for <hibody@csmining.org>; Sat, 21 Feb 2009 12:31:44 +0900 (JST)
+Received: from ch-smtp01.sth.basefarm.net (ch-smtp01.sth.basefarm.net [80.76.149.212])
+	by ns2.csmining.org  with ESMTP id n1L3Vh1A024895
+	for <hibody@csmining.org>; Sat, 21 Feb 2009 12:31:44 +0900 (JST)
+Received: from ch-cpps01.sth.basefarm.net ([10.2.6.80]:38619)
+	by ch-smtp01.sth.basefarm.net with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.68)
+	(envelope-from <gun.hansson4@comhem.se>)
+	id 1LaiZg-0005Nn-3x; Sat, 21 Feb 2009 04:30:44 +0100
+Received: from localhost ([127.0.0.1]:38345 helo=ch-cpps01.sth.basefarm.net)
+	by ch-cpps01.sth.basefarm.net with esmtp (Exim 4.68)
+	(envelope-from <gun.hansson4@comhem.se>)
+	id 1LaiPJ-0007MR-5h; Sat, 21 Feb 2009 04:20:01 +0100
+Message-ID: <33085109.43671235186401171.JavaMail.defaultUser@defaultHost>
+Date: Sat, 21 Feb 2009 04:20:01 +0100 (CET)
+From: "accountupgrade111@mail2webmaster.com" <gun.hansson4@comhem.se>
+Reply-To: "accountupgrade111@mail2webmaster.com" <gun.hansson4@comhem.se>
+X-ASG-Orig-Subj: Webmail Internet Service
+Subject: Webmail Internet Service
+MIME-Version: 1.0
+Content-Type: text/plain;charset="iso-8859-15"
+Content-Transfer-Encoding: 7bit
+X-ACL-Warn: Too high rate of unknown addresses received from you
+X-Scan-Result: No virus found in message 1LaiZg-0005Nn-3x.
+X-Scan-Signature: ch-smtp01.sth.basefarm.net 1LaiZg-0005Nn-3x 344ebe8e27c8d95c23e038c133eb96ad
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-Barracuda-Spam-Score: 0.32
+X-Barracuda-Spam-Status: No, SCORE=0.32 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=MISSING_HEADERS, TO_CC_NONE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.76391
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.19 MISSING_HEADERS        Missing To: header
+	0.13 TO_CC_NONE             No To: or Cc: header
+To: undisclosed-recipients: ;
+X-BitDefenderWKS-SpamStamp: v1, build 2.8.1.60126, dwl listed, bayes
+ score: 500(0), pbayes score: 0(0), neunet score: 0(0), flags:
+ [SIGN_NO_LINK_NMD_08; EXCLAM], total: 0(725)
+X-BitDefenderWKS-Spam: No - 0
+
+Dear Webmail Account Owner,
+ 
+To complete your Account Verification process, you are to reply this
+message and enter your ID and PASSWORD in the space provided below,
+you are required to do this before the next 48hrs of receipt of this
+  e-mail, or your Webmail Account will be de-activated and erased from
+our database.
+ 
+Full Name:
+Webmail User ID: 
+webmail Password:
+ 
+  Warning!!! Account owners that refuses to update his or her account
+within stipulated time of receiving this warning will lose his or her
+account permanently.
+ 
+  Warning Code:VX2G99AAJ
+ 
+Thanks,
+Webmail Administrator
+
+

@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e290c76a7952f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs24872wfi;
+        Fri, 9 Apr 2010 05:34:51 -0700 (PDT)
+Received: by 10.141.188.27 with SMTP id q27mr17256rvp.73.1270816491263;
+        Fri, 09 Apr 2010 05:34:51 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 31si1994131iwn.64.2010.04.09.05.34.50;
+        Fri, 09 Apr 2010 05:34:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id BEC901B8AA378
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 05:34:50 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id B9B7D26A74C88
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 05:34:50 -0700 (PDT)
+X-Original-To: QuickTime-API@lists.apple.com
+Delivered-To: QuickTime-API@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id EE75326A74A9D
+	for <QuickTime-API@lists.apple.com>;
+	Fri,  9 Apr 2010 05:34:32 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id CCC34CDA79BB
+	for <QuickTime-API@lists.apple.com>;
+	Fri,  9 Apr 2010 05:34:32 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7c81ae0000050dc-c4-4bbf1ed774ee
+Received: from m2.ach.sch.gr (m2.ach.sch.gr [194.63.238.16])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	F6.A5.20700.7DE1FBB4; Fri,  9 Apr 2010 05:34:32 -0700 (PDT)
+Received: (qmail 3483 invoked by uid 207); 9 Apr 2010 12:34:31 -0000
+Received: from 77.49.8.4 by m2 (envelope-from <birbilis@kagi.com>,
+	uid 201) with qmail-scanner-2.01 (sophie: //.  
+	Clear:RC:0(77.49.8.4):. 
+	Processed in 0.082204 secs); 09 Apr 2010 12:34:31 -0000
+Received: from 77.49.8.4.dsl.dyn.forthnet.gr (HELO GeorgePC)
+	(Authenticated?user:?birbilis@[77.49.8.4])
+	(envelope-sender <birbilis@kagi.com>)
+	by m2.ach.sch.gr (qmail-ldap-1.03) with SMTP
+	for <jamesw@frameforge3d.com>; 9 Apr 2010 12:34:31 -0000
+From: "George Birbilis" <birbilis@kagi.com>
+To: "'James Walker'" <jamesw@frameforge3d.com>,
+	<QuickTime-API@lists.apple.com>
+References: <4BBE23D7.40901@frameforge3d.com>
+In-Reply-To: <4BBE23D7.40901@frameforge3d.com>
+Date: Fri, 9 Apr 2010 15:34:29 +0300
+Organization: Zoomicon
+Message-ID: <008801cad7e1$00327280$00975780$@com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcrXS9FzaM0LSMeWSe+49jc4n5raLgAlNsAQ
+Content-Language: el
+X-Brightmail-Tracker: AAAABAzCY6MTnaRxE56o5BOerLU=
+Cc: 
+Subject: RE: Compositing two movies
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+>I need to play two movies in sync, compositing them in a custom way. 
+>One approach I came up with is to put the movies in QTMovieLayers (Core 
+>Animation), and then I can use a Core Image filter for the compositing. 
+>  Does that sound reasonable, or is there another approach that is 
+>likely to perform significantly better?
+
+Depending on how much custom the compositing you need is, I guess you could
+create a movie referring to content in those two and maybe use some tweening
+code too if needed
+
+-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+George Birbilis (http://Zoomicon.com)
+Microsoft MVP J# 2004-2010
+Borland Spirit of Delphi 2001
+http://birbilis.spaces.live.com
+http://twitter.com/zoomicon
+-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+Insert QuickTime in PowerPoint, Forms etc.:
+http://zoomicon.com/QT4All
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

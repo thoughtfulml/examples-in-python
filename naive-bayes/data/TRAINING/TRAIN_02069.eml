@@ -1,0 +1,184 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284b164da49362e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs46677wfj;
+        Thu, 29 Apr 2010 12:41:13 -0700 (PDT)
+Received: by 10.86.239.11 with SMTP id m11mr2070852fgh.22.1272570072398;
+        Thu, 29 Apr 2010 12:41:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si1554174fkt.41.2010.04.29.12.41.11;
+        Thu, 29 Apr 2010 12:41:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1110E13A4AF3; Thu, 29 Apr 2010 19:41:02 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A937513A4ADF
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 19:40:55 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 0GLzFFww-FsJ for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 19:40:48 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 6D84813A48CB
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 19:40:48 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1292288fxm.6
+        for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 12:40:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=rPM5fDN2YY9QqmaCqqzyYqhhXNDBaWXvYi2sAcC4HH0=;
+        b=LoQkN7Xj03G5dBirCusPmzAgHIbLYyEgClTZ/4H1/O2yM+vwjWd5Kmmj4WsCIA3kN/
+         NrzFdRVMPyLayaMJ9AHXsJnAmPvL2alUk3PeUcm2ez9hkdZshgTbbTEMYddwuHqfcYSh
+         lV8ZbYN41zUhy7r8IgZz81lHnn986sh5XjL2c=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=GYhKeBovI07Zoc8BUMZWldfnegIZiApRKHKoMoSM0CCq7W8Su8og3M5L3VEAStzjsU
+         Jf3oTH5V67mnhHBfE8hJSl37K6GWic2VwNLXqKrhBh88tXV2G8Lotdj7jKI4zirzj9pJ
+         RAAUSO1wYaLRcjJ61BL5Pm+sJTihIIztIetuI=
+MIME-Version: 1.0
+Received: by 10.223.98.24 with SMTP id o24mr931256fan.29.1272570046221; Thu, 
+	29 Apr 2010 12:40:46 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Thu, 29 Apr 2010 12:40:46 -0700 (PDT)
+In-Reply-To: <pan.2010.04.29.19.39.08@csmining.org>
+References: <o2ib36d43c31004291227o21734bfenee035d037cec4a2e@mail.csmining.org>
+	 <pan.2010.04.29.19.39.08@csmining.org>
+Date: Thu, 29 Apr 2010 21:40:46 +0200
+Message-ID: <s2xb36d43c31004291240r6e8f452en64acf67fb04be95a@mail.csmining.org>
+Subject: Re: Making onscreen fonts read-able[was:New monitor, how to change 
+	screen resolution?]
+From: James Stuckey <jhstuckey@csmining.org>
+To: =?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0015174be79e8e8df80485654d98
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <j59367-jKEI.A.7VG.ODe2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575487
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 19:41:02 +0000 (UTC)
+
+--0015174be79e8e8df80485654d98
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, Apr 29, 2010 at 9:39 PM, Camale=F3n <noelamac@csmining.org> wrote:
+
+> On Thu, 29 Apr 2010 21:27:59 +0200, James Stuckey wrote:
+>
+> (...)
+>
+> > I don't recall how the config file was made. The resolution I want is
+> > 1920x1080. Restarting X gave me this resolution. Now my fonts on screen
+> > (like on the menu bar in iceweasel/icedove, for example) aren't too eas=
+y
+> > to read. They just don't look right. How do I fix that?
+>
+> That is probably due to a low DPI value. You can change it to whatever
+> value you feel more confortable with.
+>
+> DPI value can be modified in GNOME under "fonts settings / details" and
+> in KDE there should be a similar way under its control center / fonts.
+>
+> A value of "96 dpi" should render fonts just fine.
+>
+> Greetings,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/pan.2010.04.29.19.39.08@csmining.org
+>
+>
+I don't use gnome or KDE.
+
+--0015174be79e8e8df80485654d98
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Thu, Apr 29, 2010 at 9:39 PM, Camale=
+=F3n <span dir=3D"ltr">&lt;<a href=3D"mailto:noelamac@csmining.org">noelamac@g=
+mail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; p=
+adding-left: 1ex;">
+On Thu, 29 Apr 2010 21:27:59 +0200, James Stuckey wrote:<br>
+<br>
+(...)<br>
+<div class=3D"im"><br>
+&gt; I don&#39;t recall how the config file was made. The resolution I want=
+ is<br>
+&gt; 1920x1080. Restarting X gave me this resolution. Now my fonts on scree=
+n<br>
+&gt; (like on the menu bar in iceweasel/icedove, for example) aren&#39;t to=
+o easy<br>
+&gt; to read. They just don&#39;t look right. How do I fix that?<br>
+<br>
+</div>That is probably due to a low DPI value. You can change it to whateve=
+r<br>
+value you feel more confortable with.<br>
+<br>
+DPI value can be modified in GNOME under &quot;fonts settings / details&quo=
+t; and<br>
+in KDE there should be a similar way under its control center / fonts.<br>
+<br>
+A value of &quot;96 dpi&quot; should render fonts just fine.<br>
+<br>
+Greetings,<br>
+<br>
+--<br>
+Camale=F3n<br>
+<font color=3D"#888888"><br>
+<br>
+--<br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-user-REQUEST@lists.debian=
+.org">debian-user-REQUEST@lists.debian.org</a><br>
+with a subject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mail=
+to:listmaster@lists.debian.org">listmaster@lists.debian.org</a><br>
+Archive: <a href=3D"http://lists.debian.org/pan.2010.04.29.19.39.08@gmail.c=
+om" target=3D"_blank">http://lists.debian.org/pan.2010.04.29.19.39.08@gmail=
+.com</a><br>
+<br>
+</font></blockquote></div><br>I don&#39;t use gnome or KDE.<br>
+
+--0015174be79e8e8df80485654d98--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/s2xb36d43c31004291240r6e8f452en64acf67fb04be95a@mail.csmining.org
+
+

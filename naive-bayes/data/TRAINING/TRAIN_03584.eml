@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b70f84605c36
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs36929wfb;
+        Wed, 12 May 2010 00:35:57 -0700 (PDT)
+Received: by 10.223.31.136 with SMTP id y8mr997376fac.19.1273649756303;
+        Wed, 12 May 2010 00:35:56 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z14si13207933fah.17.2010.05.12.00.35.55;
+        Wed, 12 May 2010 00:35:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 280AA13A506E; Wed, 12 May 2010 07:35:52 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A883713A4EB7
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 07:35:46 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id b+WWXBrWEupF for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 07:35:39 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 2296A13A4EA0
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 07:35:39 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so9538787qyk.6
+        for <debian-kde@lists.debian.org>; Wed, 12 May 2010 00:35:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=M8txN4RtjG0pCAdNx64HQSG1+TeZZA0+CwDJKQ3Gw8s=;
+        b=bis+1vLLbg6+IoomdYCQVb+t4MwKISaLSiJNserejnWbw01bqiqmX/wZjXfzHXyMHs
+         bXBsDTbB83aZ9FHyIt9ngtXRbLJ9ingUp3//AsVN8/R+UXQD1X4Pq+4MadttfLeBmtjx
+         7jkwFydUnH8hA2Qsnv3MZ8yxV+deAP+aOMjL8=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=TiXszBMOty8mMT27uLYWea+sJHHRqFdInLEp9U6BVS9+bI388zhivNhTIr5g8nw3Zo
+         n0eVpdHLCE2zOUYs4WPol1zQ3R4T1jfrqbArSV+lJIWM2QeW1AfNOoYDNu67WpOZ/r9V
+         v+vXVMd0TWyrZjW/moBH3maza02jj+wChEWKE=
+MIME-Version: 1.0
+Received: by 10.224.116.137 with SMTP id m9mr4609420qaq.162.1273649725586; 
+	Wed, 12 May 2010 00:35:25 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Wed, 12 May 2010 00:35:25 -0700 (PDT)
+In-Reply-To: <201005120858.36643.devil@sidux.com>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+	 <201005110815.00823@fortytwo.ch>
+	 <AANLkTindJyX3GKOI6qbBYrPgX2B_6XbImPPYv_yZPg5P@mail.csmining.org>
+	 <201005120858.36643.devil@sidux.com>
+Date: Wed, 12 May 2010 10:35:25 +0300
+Message-ID: <AANLkTikfcRd13r2HRal2uIWS1ochLzwijVKcMG_KEY_B@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <AVKn_KcKGnB.A.s8H.Ypl6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32406
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 07:35:52 +0000 (UTC)
+
+On 12 May 2010 09:58, Ferdinand Thommes <devil@sidux.com> wrote:
+>> > Nepomuk / Strigi need to improve a *lot*.
+> yes, for sure
+
+It has, it's down to 2 MB of memory in KDE 4.5.
+
+
+>> What version? Strigi in 4.4 seems rather usable, those issues sound
+>> like familiar 4.3 issues.
+>
+> The whole virtuoso/strigi ensemble needs a lot of polishing. It is not re=
+ady
+> for simple usage yet.
+> I have spent some days fiddling with that stuff based on my own experienc=
+e and
+> feedback i got from users at sidux.
+> The best way i found to have a usable index is:
+> =C2=A0- stop nepomuk and strigi in systemsettings
+> =C2=A0- move away or delete everything in:
+> ~/.kde/share/apps/nepomuk/repository/main/data/virtuosobackend
+> (there might be incompatible database from virtuoso 5.x in there)
+> =C2=A0- out and back in to your account
+> =C2=A0- start nepomuk andv strigi
+> =C2=A0- let it do the indexing
+> =C2=A0- test (in dolphin, krunner is unreliable atm) your index
+> =C2=A0- see if e.g. files under kmail got indexed
+>
+> for me to have a complete index i had to do 5 runs of strigi.
+> in the first 3 runs it would not even touch any dot files under .kde
+> in the end it works fine now but popular searches use a lot of ram.
+>
+
+Please test Strigi and Nepomuk in KDE Trunk / 4.5, and if you have
+problems let me know or file issues. It's all been heavily reworked
+and should really be usable now.
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikfcRd13r2HRal2uIWS1ochLzwijVKcMG_KEY_B@mail.csmining.org
+
+

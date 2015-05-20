@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ad3753ac8d6f4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs27149wfo;
+        Tue, 18 May 2010 14:00:05 -0700 (PDT)
+Received: by 10.223.25.208 with SMTP id a16mr1901165fac.79.1274216403969;
+        Tue, 18 May 2010 14:00:03 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w14si16644772faj.38.2010.05.18.14.00.03;
+        Tue, 18 May 2010 14:00:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D2AB413A5230; Tue, 18 May 2010 20:59:57 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CB6F313A5226
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 20:59:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Ez00r1vbYp0u for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 20:59:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 948BD13A520A
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 20:59:44 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OETt6-0007T3-59
+	for debian-user@lists.debian.org; Tue, 18 May 2010 22:59:40 +0200
+Received: from cpc2-sand2-0-0-cust1285.wolv.cable.virginmedia.com ([82.37.109.6])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 18 May 2010 22:59:40 +0200
+Received: from liam.p.otoole by cpc2-sand2-0-0-cust1285.wolv.cable.virginmedia.com with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 18 May 2010 22:59:40 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Liam O'Toole <liam.p.otoole@csmining.org>
+Subject: Re: How to run an X program as a different user?
+Date: Tue, 18 May 2010 20:59:31 +0000 (UTC)
+Lines: 34
+Message-ID: <slrnhv5vtj.b3s.liam.p.otoole@dipsy.selfip.org>
+References: <AANLkTinaGUvyzL8f_eIwWB4dmbf2i9VJHKFrwuq-9HD7@mail.csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: cpc2-sand2-0-0-cust1285.wolv.cable.virginmedia.com
+User-Agent: slrn/pre0.9.9-111 (Linux)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LhdzZieycON.A.WvC.N_v8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577142
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 20:59:57 +0000 (UTC)
+
+On 2010-05-18, Robert Latest <boblatest@googlemail.com> wrote:
+> Hello all,
+>
+> my question is already in the subject line. Also I think that I've got
+> the basics figured out, it's just that I don't understand the details.
+>
+> Essentially I want user A to run a specific X app as user B. So I
+> think I need to write a tiny shell script like this:
+>
+> #!/bin/sh
+> xhost +B
+> sudo -u B /path/to/app arg1 arg2 arg3
+> xhost -B
+>
+> I need help with two things though:
+>
+> One, "xhost +B" doesn't work, contrary to the manpage. "xhost +"
+> works, granting X access to the entire Net, but who cares. This is
+> just a home computer.
+>
+> Two, I can't figure out for the life of me what the entry in
+> /etc/sudoers must look like to make sudo do what I want.
+>
+> Thanks,
+> robert
+>
+>
+
+Consider using the gksu package instead.
+
+-- 
+Liam O'Toole
+Birmingham, United Kingdom
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhv5vtj.b3s.liam.p.otoole@dipsy.selfip.org
+
+

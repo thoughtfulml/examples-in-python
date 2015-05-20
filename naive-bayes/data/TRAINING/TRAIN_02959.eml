@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c14ab881b05f8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs39280wfo;
+        Sat, 22 May 2010 11:33:39 -0700 (PDT)
+Received: by 10.140.179.20 with SMTP id b20mr2446615rvf.246.1274553219480;
+        Sat, 22 May 2010 11:33:39 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id c9si4123484rvi.6.2010.05.22.11.33.39;
+        Sat, 22 May 2010 11:33:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 4355D1C619B6F
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 11:33:39 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 3C70F27D97EBE
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 11:33:39 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay15.apple.com (relay15.apple.com [17.128.113.54])
+	by lists.apple.com (Postfix) with ESMTP id 8AE5727D9785B
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 11:32:46 -0700 (PDT)
+X-AuditID: 11807136-b7c2eae00000113b-a7-4bf8234ec2a1
+Received: from [17.151.81.57] (Unknown_Domain [17.151.81.57])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay15.apple.com (Apple SCV relay) with SMTP id
+	09.E7.04411.E4328FB4; Sat, 22 May 2010 11:32:46 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=iso-8859-1
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <821213D4-80CB-4EA9-B66D-B4FABA526775@activemath.org>
+Date: Sat, 22 May 2010 11:32:45 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <36A81879-8E81-457E-9B1D-6AF1975F38BA@apple.com>
+References: <DC58EDE0-BC94-4E56-BA37-7C8A277A71CD@q7design.demon.co.uk>
+	<ADB71160-5E91-4D4D-B41E-5F76A1A1B855@apple.com>
+	<821213D4-80CB-4EA9-B66D-B4FABA526775@activemath.org>
+To: Paul Libbrecht <paul@activemath.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: "java-dev@lists.apple.com Java-dev" <java-dev@lists.apple.com>
+Subject: Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are live
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On May 22, 2010, at 9:30 AM, Paul Libbrecht wrote:
+
+> Le 22-mai-10 =E0 17:36, Mike Swingler a =E9crit :
+>=20
+>>> I don't think this was mentioned but the Mac beta of the Chrome =
+browser will now run applets which I gather is dependent on this java =
+upgrade.
+>>>=20
+>>> (Not that I am in any way suggesting Mac users should use anything =
+other than Safari themselves, but if one produces web sites that contain =
+Java applets it is obviously something which one has to be aware of.)
+>>=20
+>> This is because the out-of-process Plugin2 is now present in =
+/Library/Internet Plug-Ins by default, and is picked up automatically by =
+browsers that support it.
+>=20
+> Which browsers is that?
+> My java preferences indicate I wish JDK 1.6 but browserspy confirms =
+I'm running 1.5:
+> 	http://browserspy.dk/java.php
+> (for Safari and Camino at least)
+
+Off the top of my head:
+
+Safari will pickup Plugin2 if Plugin1 is not present - which Java =
+Preferences toggles
+Chrome picks up Plugin2 only
+Firefox is hardwired to Plugin1 with the JEP/MRJ, unless you remove it =
+them from (app)/Contents/MacOS/plugins
+Camino is also hardwired with the JEP/MRJ, but does not pick up Plugin2 =
+if they are disabled (not sure why)
+Opera seems to always die on launch for me
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

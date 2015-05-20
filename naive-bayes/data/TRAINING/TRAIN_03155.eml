@@ -1,0 +1,137 @@
+X-Account-Key: account5
+X-UIDL: GmailId128718119fdab632
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs433707wfb;
+        Thu, 6 May 2010 23:43:26 -0700 (PDT)
+Received: by 10.223.101.81 with SMTP id b17mr3480935fao.17.1273214605563;
+        Thu, 06 May 2010 23:43:25 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si1304537fah.89.2010.05.06.23.43.25;
+        Thu, 06 May 2010 23:43:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6C68E13A56DF; Fri,  7 May 2010 06:43:23 +0000 (UTC)
+Old-Return-Path: <cobaco@linux.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=FOURLA,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E5C9013A56D1
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 06:43:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id x5T4cIycCaY1 for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 06:43:09 +0000 (UTC)
+Received: from mail.unilogicnetworks.net (mail-out123.unilogicnetworks.net [62.133.206.123])
+	by liszt.debian.org (Postfix) with ESMTP id A4B6A13A56CF
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 06:43:09 +0000 (UTC)
+Received: from router (router.unilogic.nl [62.133.193.82])
+	by mail.unilogicnetworks.net (Postfix) with ESMTP id 131054A150
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 08:38:50 +0200 (CEST)
+Received: from mail.unilogic.local (mail.unilogic.nl [10.0.11.245])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by router (Postfix) with ESMTP id 351C96E786
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 08:43:06 +0200 (CEST)
+Received: from localhost ([127.0.0.1])
+	by mail.unilogic.local
+	(using TLSv1/SSLv3 with cipher AES256-SHA (256 bits))
+	for debian-kde@lists.debian.org;
+	Fri, 7 May 2010 08:43:04 +0200
+From: cobaco <cobaco@linux.be>
+Reply-To: cobaco@linux.be
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Date: Fri, 7 May 2010 08:42:45 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-trunk-686; KDE/4.4.3; i686; ; )
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org> <201005070708.48362.msp@debian.org> <x2r2d460de71005061432ha24a74f8jaf9962505de9feb@mail.csmining.org>
+In-Reply-To: <x2r2d460de71005061432ha24a74f8jaf9962505de9feb@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1490106.qCDG4s8418";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005070843.04006.cobaco@linux.be>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <49Cl52Ruw2D.A.B_D.La74LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32209
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 06:43:23 +0000 (UTC)
+
+--nextPart1490106.qCDG4s8418
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 06 May 2010, Richard Hartmann wrote:
+> On Thu, May 6, 2010 at 23:08, Mark Purcell <msp@debian.org> wrote:
+> > This is free software, nobody is forced to do anything.
+>=20
+> Not 100% true. A plain user who wants to keep on using KDE 3
+> will not be able to do so forever. A year or two are certainly possible
+> even though people will need a different browser for security &
+> HTML 5 & CSS reasons.
+> But realistically speaking, KDE 3's days are numbered and there
+> are a lot of people who can do nothing about it.
+
+If there's such a mass of users wanting to keep kde3 going, it is=20
+theoretically possible to collectively fund a developper to do the work you=
+=20
+want done.=20
+
+quanta and freenet are 2 examples of programs for whom such a thing has bee=
+n=20
+done
+
+That ofc assumes that:
+a) theres's a sufficient mass of users that want to keep kd3 going in at=20
+least maintenance mode
+b) they care enough to chip in a little bit=20
+
+=2D-=20
+Cheers, Cobaco (aka Bart Cornelis)
+
+--nextPart1490106.qCDG4s8418
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvjtmUACgkQ5ihPJ4ZiSrvf2QCfUdTw3lVPUDfvvXGJbsrdZWhF
+8NkAmgOEYx/B+7LlI82cO5Sxyw5GEiSB
+=38tO
+-----END PGP SIGNATURE-----
+
+--nextPart1490106.qCDG4s8418--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005070843.04006.cobaco@linux.be
+
+

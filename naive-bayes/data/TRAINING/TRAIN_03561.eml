@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d913dac90191a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs31879wfi;
+        Wed, 7 Apr 2010 09:21:51 -0700 (PDT)
+Received: by 10.223.29.135 with SMTP id q7mr9166221fac.30.1270657309544;
+        Wed, 07 Apr 2010 09:21:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 3si5092295fxm.46.2010.04.07.09.21.48;
+        Wed, 07 Apr 2010 09:21:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 755032D1022; Wed,  7 Apr 2010 16:21:38 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=FOURLA,JOBS,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 769C313A4EDD
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 16:21:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, JOBS=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id PSDAAlYfPDlf for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 16:21:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id E990413A4E5E
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 16:21:24 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=qhkFTjdWoSEA:10 a=FKkrIqjQGGEA:10 a=wRYNL2Oru-QA:10 a=IkcTkHD0fZMA:10 a=QP5IY3kgAAAA:8 a=UWpuqr7w5qQyNzZOzlkA:9 a=Po8uZVHfwgjH6nhIIkYA:7 a=7A-CpdfdmrryUB26OmHhrAHJTZcA:4 a=QEXdDO2ut3YA:10 a=WDAFAe8ipWIA:10 a=zEoJXyrrGmEA:10 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:33373] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id FD/31-21309-201BCBB4; Wed, 07 Apr 2010 12:21:22 -0400
+Date: Wed, 7 Apr 2010 12:21:21 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <1287129746.1654901270657281956.JavaMail.root@md01.wow.synacor.com>
+Subject: How do I get the mbr package to do its job quietly?
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [66.145.136.6]
+X-Mailer: Zimbra 5.0.11_GA_2696.RHEL4 (zclient/5.0.11_GA_2696.RHEL4)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <xfbIHlKmeHJ.A.2CF.SELvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573526
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 16:21:38 +0000 (UTC)
+
+I have been experimenting with the mbr package.  (mbr is a dependency for
+the lilo package; so if you have lilo installed you have mbr package installed
+too.)  I usually install lilo to the master boot record (boot=/dev/hda
+specified in /etc/lilo.conf).  But in certain situations it is advantageous to
+install lilo to the boot sector of a primary partition (boot=/dev/hda1) and
+install a DOS-like master boot record program in the master boot record,
+making the partition containing the lilo boot loader the active partition.
+
+For example, on some of our Dell servers one can bring up a "boot menu" via
+the BIOS setup program by pressing F12 during the POST process.  (This is during
+POST and before the actual boot process.)  Upon completion of POST, the "BIOS
+boot menu" (not to be confused with the boot menu of any boot loader) will
+be displayed.  One of the choices in this BIOS boot menu is "Boot to Utility
+Partition", or something like that.  This boots a maintenance partition
+containing some hardware testing programs supplied by Dell.  This works fine
+if the master boot record is a standard DOS/Windows-style master boot record,
+but does not work with Linux-style boot loaders, such as grub or lilo.
+Of course, I can always add the maintenance partition to the lilo boot
+menu, but our non-Linux-proficient technicians aren't used to this.  I
+want a Linux box to look just like a Windows box as viewed by a service
+technician.
+
+I could use DOS or Windows to install its master boot record program
+with "fdisk /mbr" or fixmbr, or whatever, depending on the release of
+DOS or Windows, and set the Linux partition active, and that works.  But
+Microsoft may claim that this means that our box requires a license
+for DOS or Windows.  I'd hate to burn a Windows license just to get its
+master boot record installed, when that's all I'm using.  It would seem that
+the mbr package in Debian GNU/Linux is just the ticket for this sort of
+problem.  I have run the "install-mbr" program, and it works just as
+expected.  There is just one little nit left that I would like to take
+care of.  lilo advertises itself by printing out "LILO" on the screen
+prior to booting the Linux kernel.  That's fine.  I want to see that.
+mbr also advertises itself by printing out "MBR" on the screen when it
+boots.  So what I see at boot time is something like this:
+
+   MBR
+
+   LILO 22.8 Loading Linux
+   BIOS data check successful
+
+and then the Linux kernel boot messages.  That's tolerable, but I'd
+like that "MBR" advertisement to be eliminated.  I read the man page
+for install-mbr, and I can see how to eliminate the boot prompt,
+which I have done, but I couldn't find a way to suppress the MBR
+advertisement.  The DOS/Windows mbr program is totally silent, a trick
+that I would like to teach this program.  Does anyone know of a way
+to accomplish this?  Or is this just something I have to live with?
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1287129746.1654901270657281956.JavaMail.root@md01.wow.synacor.com
+
+

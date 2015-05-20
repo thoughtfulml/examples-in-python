@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280c6f5701e2a88
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs20503wfj;
+        Sat, 17 Apr 2010 08:42:23 -0700 (PDT)
+Received: by 10.90.198.19 with SMTP id v19mr1758022agf.100.1271518942905;
+        Sat, 17 Apr 2010 08:42:22 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 13si9338462iwn.72.2010.04.17.08.42.22;
+        Sat, 17 Apr 2010 08:42:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 6B7C81BA95D22
+	for <mlsubscriber.tech@csmining.org>; Sat, 17 Apr 2010 08:42:22 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 66C5426E2FB23
+	for <mlsubscriber.tech@csmining.org>; Sat, 17 Apr 2010 08:42:22 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 1EBB526E2F1B8
+	for <X11-users@lists.apple.com>; Sat, 17 Apr 2010 08:41:01 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 06907CF8D7DE
+	for <X11-users@lists.apple.com>; Sat, 17 Apr 2010 08:41:01 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-f1-4bc9d68b568c
+Received: from anne.math.ntnu.no (anne.math.ntnu.no [129.241.15.150])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	73.D7.25880.C86D9CB4; Sat, 17 Apr 2010 08:41:00 -0700 (PDT)
+Received: (qmail 23528 invoked from network); 17 Apr 2010 15:40:58 -0000
+Received: from gauss.math.ntnu.no (HELO localhost) (hanche@129.241.15.102)
+	by anne.math.ntnu.no with ESMTPA; 17 Apr 2010 15:40:58 -0000
+Date: Sat, 17 Apr 2010 11:40:55 -0400 (EDT)
+Message-Id: <20100417.114055.362175913.hanche@math.ntnu.no>
+To: pbaguis@yahoo.com
+From: Harald Hanche-Olsen <hanche@math.ntnu.no>
+In-Reply-To: <822791.81619.qm@web55608.mail.re4.yahoo.com>
+References: <822791.81619.qm@web55608.mail.re4.yahoo.com>
+X-URL: http://www.math.ntnu.no/~hanche/
+X-Mailer: Mew version 6.3.50 on Emacs 24.0.50 / Mule 6.0 (HANACHIRUSATO)
+Mime-Version: 1.0
+Content-Type: Text/Plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11-users@lists.apple.com
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
++ Pierre Baguis <pbaguis@yahoo.com>:
+
+> I have installed XQuartz 2.5.0 under 10.5.8 and now the middle 
+> button click is broken.
+
+I have the same, and it works for me.
+
+> The window manager is Gnome and the middle click instead of pasting 
+> the selection, it just switches the focus to another window. Ctrl-c 
+> and ctrl-v the selection stopped also working. Is there some way to 
+> restore this functionality?
+
+Run xev from a terminal window. If you move the mouse cursor into the 
+window that pops up, hold it still there and click the middle button, 
+you should see something like this:
+
+ButtonPress event, serial 26, synthetic NO, window 0x400001,
+     root 0x381, subw 0x0, time 208302587, (103,133), root:(107,155),
+     state 0x0, button 2, same_screen YES
+
+ButtonRelease event, serial 26, synthetic NO, window 0x400001,
+     root 0x381, subw 0x0, time 208302722, (103,133), root:(107,155),
+     state 0x200, button 2, same_screen YES
+
+If it says button 2, your X11 setup is okay. If not, please run this 
+command and tell us the output:
+
+   defaults read org.x.x11
+
+If your xev run does give you button 2 events, then there is probably 
+something wrong with your window manager setup.
+
+- Harald
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

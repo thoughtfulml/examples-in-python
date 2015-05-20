@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289fe942444e436
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs108083wfo;
+        Sat, 15 May 2010 23:59:44 -0700 (PDT)
+Received: by 10.141.15.7 with SMTP id s7mr2381444rvi.296.1273993184167;
+        Sat, 15 May 2010 23:59:44 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id c9si10125977rvi.6.2010.05.15.23.59.44;
+        Sat, 15 May 2010 23:59:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id ECE401C4817BD
+	for <mlsubscriber.tech@csmining.org>; Sat, 15 May 2010 23:59:43 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E7F4827AD3C22
+	for <mlsubscriber.tech@csmining.org>; Sat, 15 May 2010 23:59:43 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id D650827AD3A4C
+	for <quicktime-api@lists.apple.com>;
+	Sat, 15 May 2010 23:59:28 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id B49EAD959A16
+	for <quicktime-api@lists.apple.com>;
+	Sat, 15 May 2010 23:59:28 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-cb-4bef97cf3b90
+Received: from mail-fx0-f51.google.com (mail-fx0-f51.google.com
+	[209.85.161.51])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	A0.7D.07800.0D79FEB4; Sat, 15 May 2010 23:59:28 -0700 (PDT)
+Received: by fxm18 with SMTP id 18so113618fxm.24
+	for <quicktime-api@lists.apple.com>;
+	Sat, 15 May 2010 23:59:27 -0700 (PDT)
+Received: by 10.223.21.22 with SMTP id h22mr4160909fab.106.1273993167155;
+	Sat, 15 May 2010 23:59:27 -0700 (PDT)
+Received: from [192.168.2.123] (av24166.comex.ru [83.167.97.96])
+	by mx.google.com with ESMTPS id 2sm19489553faf.15.2010.05.15.23.59.26
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Sat, 15 May 2010 23:59:26 -0700 (PDT)
+Message-Id: <E251F61F-DC72-4017-AB0D-D0D92FCF294B@epiphan.com>
+From: Slava Monich <monich@epiphan.com>
+To: Quicktime Dev <quicktime-api@lists.apple.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Sun, 16 May 2010 10:59:24 +0400
+X-Mailer: Apple Mail (2.936)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: QuickTime Player 7 recording problem (maximum duration for the file
+	has been reached)
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+After one of the recent QuickTime updates QT Player 7 (Pro) seems to  
+have lost its ability to record movies from video digitizer  
+components. It shows preview all right but once the user presses the  
+Record button, it writes exactly one frame to the .mov file and stops  
+with the error message "Recording stopped because the maximum duration  
+for the file has been reached". The same thing happened with all vdigs  
+I have installed on my Mac, including Apple's SoftVDigX sample.
+
+QT Player does record movies from iSight but unfortunately it's not  
+doing that via QuickTimeUSBVDCDigitizer (otherwise it would be  
+possible to trace QT component calls and find the difference between  
+Apple's vdig and mine). And every piece of software that works with  
+QuickTimeUSBVDCDigitizer, works with my vdig too. Ugh...
+
+The following versions do NOT work for me:
+
+QuickTime Player 7 Version 7.6.6 (1709) + QuickTime Version 7.6.6  
+(1729) + Mac OS X 10.6.3
+QuickTime Player Version 7.6.6 (1632) + QuickTime Version 7.6.6 (1674)  
++ Mac OS X 10.5.8
+
+This one (still) does work:
+
+QuickTime Player Version 7.6.4 (518.35) + QuickTime Version 7.6.4  
+(1327.73) + Mac OS X 10.4.11
+
+Does anyone know a way to make a vdig component (say, SoftVDigX)  
+compatible with the latest QT Player 7?
+
+Thanks in advance,
+-Slava
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

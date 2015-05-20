@@ -1,0 +1,181 @@
+X-Account-Key: account5
+X-UIDL: GmailId12896b1659a77b10
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs25073wfo;
+        Fri, 14 May 2010 05:02:09 -0700 (PDT)
+Received: by 10.223.67.144 with SMTP id r16mr1463758fai.102.1273838527872;
+        Fri, 14 May 2010 05:02:07 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c9si5664050fac.12.2010.05.14.05.02.07;
+        Fri, 14 May 2010 05:02:07 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9892D13A567A; Fri, 14 May 2010 12:01:58 +0000 (UTC)
+Old-Return-Path: <eheil1@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BEF6613A5676
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 12:01:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id xCBwe4xr1gcY for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 12:01:45 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 91D9813A5674
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 12:01:45 +0000 (UTC)
+Received: by wyi11 with SMTP id 11so845227wyi.6
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 05:01:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=oCCOckdr9O6KtmBg+A07k1KV+3Org7paadNvNmPFo6I=;
+        b=FQex1shvoNgqxBkz3w9PSs0E6nt3Ugx/WmgXawsPcmcVNA/ttb+OwLAXETtIR6s58S
+         dS+mQ817mY5Ee23LvGEaUYcA70mfAXynNYC5kdoF5j/uLmAuJJgHALTlOaYlbbanuwtq
+         UfiKRM4Y9CFO0yX7r2KO5Caxs7TbEfFgMn6H0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=EJiTgmnkZ6xlXRTwX7AF03y4VSOjqP8pCO10eY7kjhkzZeIavmi+sbLq05WlzDo7y0
+         y7ZSOd1Pho4R11eNAHkZdoARJRyQYA2HHE+A/ly1mgoqtvUPDNIcrHmjyU2PaG819gWu
+         MfSzUNyBFLLIxFCitM+IaUYO7JNrXQBSTNz6E=
+MIME-Version: 1.0
+Received: by 10.216.168.135 with SMTP id k7mr798428wel.129.1273838500706; Fri, 
+	14 May 2010 05:01:40 -0700 (PDT)
+Received: by 10.216.176.5 with HTTP; Fri, 14 May 2010 05:01:40 -0700 (PDT)
+In-Reply-To: <4BEC71E3.7090200@student.ulg.ac.be>
+References: <4BEC1506.4090508@student.ulg.ac.be> <87ocgj8s2y.fsf@turtle.gmx.de>
+	 <4BEC71E3.7090200@student.ulg.ac.be>
+Date: Fri, 14 May 2010 08:01:40 -0400
+Message-ID: <AANLkTimza2PO6g_7aDaRh0Nd0qjbdl283hswYOzZg79H@mail.csmining.org>
+Subject: Re: Is acroread blind, or ps2pdf dangerous?
+From: Erik Heil <eheil1@csmining.org>
+To: Luca.Merciadri@student.ulg.ac.be
+Cc: Sven Joachim <svenjoac@gmx.de>, debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bPAr2aWIMAN.A.LhD.2uT7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576761
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 12:01:58 +0000 (UTC)
+
+Hi,
+The problem here is that Windows has problems in implementing
+"propper" file locking symantics. On the side of acroread.exe, it
+should not assume documents are static on disk. Not sure if something
+like file alteration monitor exists on Windows. What is needed is a
+cross-platform FAM-like library. Any suggestions?
+
+Erik Heil
+<eheil1@csmining.org>
+
+On 5/13/10, Merciadri Luca <Luca.Merciadri@student.ulg.ac.be> wrote:
+> Sven Joachim wrote:
+>> On 2010-05-13 17:04 +0200, Merciadri Luca wrote:
+>>
+>>
+>>> When compiling any .tex document using the route latex -> dvips ->
+>>> ps2pdf, I get a PDF.
+>>>
+>>
+>> This is a rather clumsy way these days.  Why don't you use pdflatex?
+>>
+>>
+>>> Normal, but the problem is that if I the PDF is
+>>> already opened (e.g. because I was reading the version of the document
+>>> before having modified and compiled it) when the compilation and the
+>>> whole process ends, the opened PDF is blank, i.e. the current page
+>>> becomes white, and every page I go at is white.
+>>>
+>>
+>> The changes in the file seem to confuse acroread.  At least it does not
+>> crash.
+>>
+>>
+>>> If I then re-open the
+>>> document, I find the new version of my PDF.
+>>>
+>>
+>> A smart reader would have an option to detect changes to the file and
+>> reload it automatically.  Since I haven't used acroread for ages I don't
+>> know whether it has such an option.
+>>
+>>
+>>> I would like to know how this process actually works. For me, it looks
+>>> like the ps2pdf tool creates the PDF from scratch, and overwrites the
+>>> old PDF.
+>>>
+>>
+>> A quick experiment shows that this does not seem to be the case, ps2pdf
+>> writes to the existing file.
+>>
+>>
+>>> But why am I receiving no warning message from acroread?
+>>>
+>>
+>> Ask Adobe=E2=80=A6
+>>
+>>
+>>> Anyway, acroread seems not to be locking the file, or, if so, ps2pdf
+>>> forces the writing.
+>>>
+>>
+>> I would be rather annoyed if a reader locked a file that it does not
+>> even open for writing.
+>>
+> Thanks for this answer. There are *many* reasons not to use pdfLaTeX.
+> They do not enter in the scope of this mailing list, but I am pretty
+> sure you will find them directly on the Internet. For example, pdfLaTeX
+> encourages one to use directly JPG, etc., for the inclusion in the
+> document, which is pretty bad. There are also many incompatibilities
+> with different packages.
+>
+> Note that, under Windows, I remember that acrord32.exe always blocked
+> the file for writing, even if it was only being read by acrord32.exe.
+> Okay, it's Windows. Bad memories.
+>
+> --
+> Merciadri Luca
+> See http://www.student.montefiore.ulg.ac.be/~merciadri/
+> I use PGP. If there is an incompatibility problem with your mail
+> client, please contact me.
+>
+>
+> What doesn't kill you will make you stronger. (Friedrich Nietzsche)
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTimza2PO6g_7aDaRh0Nd0qjbdl283hswYOzZg79H@mail.csmining.org
+
+

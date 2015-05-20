@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287e1e1e410c5dd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs558924wfb;
+        Sun, 9 May 2010 10:30:23 -0700 (PDT)
+Received: by 10.223.19.87 with SMTP id z23mr3131152faa.7.1273426222601;
+        Sun, 09 May 2010 10:30:22 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s7si6689493faa.40.2010.05.09.10.30.22;
+        Sun, 09 May 2010 10:30:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2E49513A5A39; Sun,  9 May 2010 17:30:16 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.1 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FVGT_m_MULTI_ODD,GMAIL,IMPRONONCABLE_2,MDO_DATING2,
+	MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2670B13A5979
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 17:30:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.38 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, GMAIL=1,
+	IMPRONONCABLE_2=1, MDO_DATING2=0.1, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2KORF0sDfVqn for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 17:30:05 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id E4B0413A59CE
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 17:30:04 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id CBC2C3A605D
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 19:30:02 +0200 (CEST)
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Subject: Re: Capture (for video) what is displayed on the screen
+Date: Sun, 09 May 2010 19:24:31 +0200
+Message-ID: <8739y1xa28.fsf@merciadriluca-station.MERCIADRILUCA>
+References: <87tyqhcbry.fsf@merciadriluca-station.MERCIADRILUCA> <pan.2010.05.09.16.12.29@csmining.org> <871vdlc9b7.fsf@merciadriluca-station.MERCIADRILUCA> <pan.2010.05.09.17.13.43@csmining.org>
+To: debian-user@lists.debian.org
+Organization: ULg
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+Cancel-Lock: sha1:iaT/0z/kbns4I42k5qeBYKoN7jE=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+NNTP-Posting-Host: 62.197.101.67
+X-Trace: news.sunsite.dk DXC=S`4M_L6\a67jd^7_dR6Ih5YSB=nbEKnk;fPSZB06Fl<2B`G2cTG;Mn1LGVLjEY^2Y8[=LHD=0P^Y49g\V1BeNHO95Z@8`56Df90jM5Q1af546;RePE95[\WJ:
+X-Complaints-To: staff@sunsite.dk
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eIheN-2EV-7@gated-at.bofh.it> <eIhou-2Qw-15@gated-at.bofh.it> <eIi1c-3AV-13@gated-at.bofh.it> <eIikx-4eM-7@gated-at.bofh.it>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <JJphdjTfFSO.A.35E.oEv5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576296
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 17:30:16 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón <noelamac@csmining.org> writes:
+
+> On Sun, 09 May 2010 18:46:20 +0200, Merciadri Luca wrote:
+>
+>> Camaleón writes:
+>> 
+>>> Ffmpeg (command line tool) can achieve that:
+>>>
+>>> http://ffmpeg.org/ffmpeg-doc.html#SEC4
+>>>
+>>> With "-t" you specify the time interval for screen grabbing.
+>> Nice, but
+>> 
+>> ==
+>> ~$ ffmpeg -f x11grab -s cif -i :0.0 /tmp/out.mpg 
+>
+> (...)
+>
+>> [x11grab @ 0xb7f7fec8]device: :0.0 -> display: :0.0 x: 0 y: 0 width: 352
+>> height: 288 [x11grab @ 0xb7f7fec8]AVParameters don't have video size
+>> and/or rate. Use -s and -r. :0.0: I/O error occured
+>> Usually that means that input file is truncated and/or corrupted. 
+>
+> And what happens when you specify another "-s" (size) and "-r"
+> (rate)?
+See my answer to our fellow Alexander. (And also, sorry for not trying
+it correctly, apparently.)
+
+> ffmpeg -f x11grab -r 24 -s 640x480 -i :0.0 /tmp/out.mpg
+>
+>>> There also some nice GUI apps ("Istambul" or "gtk-recordmydesktop")
+>>> that can also help you with this task.
+>
+>> Istanbul looks nice, but I am obliged to choose `Record 3D' to actually
+>> record something acceptable: if this option is unticked, the video
+>> images' alternate between (black&white) and (color). Note the `n' at the
+>> place of your `m'. Weird, once again!
+>
+> Yep, it's named "Ista[n]bul" :-)
+>
+> "Recordmydesktop" is another option. There are many others, just check 
+> what is better for you.
+I do not even try it. I could not have asked for something better than
+Istanbul: it just fits my needs. (Except if you're `recordmydesktop's
+secret developer, case where I would try it ;-).)
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Love doesn't make the world go round. Love is what makes the ride
+ worthwhile.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 <http://mailcrypt.sourceforge.net/>
+
+iEYEARECAAYFAkvm788ACgkQM0LLzLt8MhwwlgCgkaVLwS5X9F6L3h9JWgWQFwMr
+o/0An0XOh8v9AOoIrkvRgUvgmrS4Umxk
+=DPAz
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8739y1xa28.fsf@merciadriluca-station.MERCIADRILUCA
+
+

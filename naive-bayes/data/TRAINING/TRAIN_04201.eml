@@ -1,0 +1,133 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d51cff5cfd6d1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs214392wfa;
+        Tue, 6 Apr 2010 14:53:20 -0700 (PDT)
+Received: by 10.87.73.1 with SMTP id a1mr2608861fgl.17.1270590799704;
+        Tue, 06 Apr 2010 14:53:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 8si31237268fxm.5.2010.04.06.14.53.19;
+        Tue, 06 Apr 2010 14:53:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5F1C72E8AFC; Tue,  6 Apr 2010 21:53:12 +0000 (UTC)
+Old-Return-Path: <robin@rkrahl.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D2DBC13A5B23
+	for <lists-debian-user@liszt.debian.org>; Tue,  6 Apr 2010 21:53:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id PYfDqnKPCMaN for <lists-debian-user@liszt.debian.org>;
+	Tue,  6 Apr 2010 21:52:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 540 seconds by postgrey-1.31 at liszt; Tue, 06 Apr 2010 21:52:59 UTC
+Received: from srv29.ffm.w-united.de (srv29.ffm.w-united.de [84.201.5.55])
+	by liszt.debian.org (Postfix) with ESMTP id 84A2D13A5AF2
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 21:52:59 +0000 (UTC)
+Received: from [192.168.69.3] (dslb-088-066-056-151.pools.arcor-ip.net [88.66.56.151])
+	by srv29.ffm.w-united.de (Postfix) with ESMTPA id 90B2597C2D
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 23:44:01 +0200 (CEST)
+Message-ID: <4BBBAB14.1050801@rkrahl.de>
+Date: Tue, 06 Apr 2010 23:43:48 +0200
+From: Robin Krahl <robin@rkrahl.de>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Display Problems with several Web Browsers
+X-Enigmail-Version: 1.0.1
+Content-Type: multipart/signed; micalg=pgp-sha224;
+ protocol="application/pgp-signature";
+ boundary="------------enig31B014C083F3B06A71C0196F"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <NJLom66_xzD.A.dRG.I16uLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573481
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 21:53:12 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig31B014C083F3B06A71C0196F
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Hi!
+
+I=92m having strange display problems with several web browsers. Certain
+layout parts (as borders or backgrounds) aren=92t at the appropriate
+place; and they=92re moving if I hover them. I encountered this problem
+with the following browsers:
+
+ - iceweasel from lenny-backports
+ - firefox downloaded directly from Mozilla
+ - epiphany from lenny-backports
+
+This behaviour already occured before installing firefox; and it=92s not
+caused by any plug-ins or add-ons as epiphany (which I didn=92t customize=
+)
+behaves the same (wrong) way.
+
+To illustrate the problem, I made a screenshot of e. g. German Bash
+Blog: web page [1], screenshot [2]. On other pages, there are similar
+errors.
+
+It would be great if anyone could tell me how to fix this or where to
+ask for further help.
+
+Best regards,
+Robin
+
+[1] http://german-blog.org/
+[2] http://rkrahl.de/gbo.png
+
+--=20
+Robin Krahl
+robin@rkrahl.de
+http://rkrahl.de
+
+
+--------------enig31B014C083F3B06A71C0196F
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iFYEARELAAYFAku7qxQACgkQMmq4cQVLkmBCFwDfRgzswCk9P4OZwczS+hlZHVIS
+txKvb25/5dRKQADdFb5ZQ/AR7t/6cGGj/XukkCAEk165mz+TQ+L/dA==
+=lQmb
+-----END PGP SIGNATURE-----
+
+--------------enig31B014C083F3B06A71C0196F--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBBAB14.1050801@rkrahl.de
+
+

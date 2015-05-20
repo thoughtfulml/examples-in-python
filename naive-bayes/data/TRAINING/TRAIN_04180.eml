@@ -1,0 +1,87 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280790fd01218f0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs32355wfj;
+        Fri, 16 Apr 2010 10:01:02 -0700 (PDT)
+Received: by 10.150.141.2 with SMTP id o2mr2008917ybd.332.1271437262255;
+        Fri, 16 Apr 2010 10:01:02 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 23si5934239gxk.50.2010.04.16.10.01.01;
+        Fri, 16 Apr 2010 10:01:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id EC02E1C0015A6
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 10:00:00 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id CE4EF26DB5A02
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 10:00:00 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id E583A26DB5389
+	for <java-dev@lists.apple.com>; Fri, 16 Apr 2010 09:59:05 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id D5EE0D0E4119
+	for <java-dev@lists.apple.com>; Fri, 16 Apr 2010 09:59:05 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-e1-4bc89759f33b
+Received: from outbound.vnet-inc.com (outbound.vnet-inc.com [216.146.104.103])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	BF.20.25880.95798CB4; Fri, 16 Apr 2010 09:59:05 -0700 (PDT)
+Received: from bj39.montanavision.com (bj39.montanavision.com [216.146.121.39])
+	by outbound.vnet-inc.com (Postfix) with ESMTP id 7F386592F
+	for <java-dev@lists.apple.com>; Fri, 16 Apr 2010 10:59:06 -0600 (MDT)
+From: Nick Howes <nick@ghostwood.org>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 16 Apr 2010 10:59:04 -0600
+Message-Id: <D51E87D1-3EF3-43C7-AE49-014E9590677D@ghostwood.org>
+To: Java List Apple <java-dev@lists.apple.com>
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAARO2g8c=
+Subject: Java Web Start Offline Problems
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+In recent Java versions, there is a regression that prevents Java Web =
+Start applications from launching if there is no internet connection, =
+even if they have <offline-allowed/> attribute.  Launching without an =
+internet connection causes the application to "hang".  This is a serious =
+problem for us, since many of our users move between having an internet =
+connection and not having an internet connection - we have lots of =
+unhappy customers.
+
+I believe that at least part of the problem is this Oracle bug: =
+<http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=3D6911785> which =
+claims will be fixed in 1.6.0_20.  (There also seem to be other bugs =
+because launching without an internet connection still takes way too =
+long even with the developer preview of 1.6.0_20 on Windows7 - but at =
+least it does launch.)
+
+Has anyone figured out a workaround for this problem?  Any suggestions?
+
+thanks, Nick=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

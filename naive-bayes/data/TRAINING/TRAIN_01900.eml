@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283057ec161f9bf
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs16662wfj;
+        Sat, 24 Apr 2010 08:03:09 -0700 (PDT)
+Received: by 10.87.73.1 with SMTP id a1mr2732914fgl.17.1272121388119;
+        Sat, 24 Apr 2010 08:03:08 -0700 (PDT)
+Return-Path: <bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si4274295fkt.7.2010.04.24.08.03.07;
+        Sat, 24 Apr 2010 08:03:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id EFCBF13A534C; Sat, 24 Apr 2010 15:03:06 +0000 (UTC)
+Old-Return-Path: <giuliospinozzi@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.1 required=4.0 tests=GMAIL,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-volatile@liszt.debian.org
+Delivered-To: lists-debian-volatile@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B169113A5339
+	for <lists-debian-volatile@liszt.debian.org>; Sat, 24 Apr 2010 14:47:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id SlKhP5VZO9Sk
+	for <lists-debian-volatile@liszt.debian.org>;
+	Sat, 24 Apr 2010 14:47:28 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmail. - helo: .mail-bw0-f210.google. - helo-domain: .google.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from mail-bw0-f210.google.com (mail-bw0-f210.google.com [209.85.218.210])
+	by liszt.debian.org (Postfix) with ESMTP id 7E42813A531F
+	for <debian-volatile@lists.debian.org>; Sat, 24 Apr 2010 14:47:22 +0000 (UTC)
+Received: by bwz2 with SMTP id 2so10146319bwz.30
+        for <debian-volatile@lists.debian.org>; Sat, 24 Apr 2010 07:47:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:received:in-reply-to
+         :references:from:date:message-id:subject:to:cc:content-type
+         :content-transfer-encoding;
+        bh=8GVaMCZGqatZPxjO4RxGwQxWCy8Wiswi3cAdDro4rsY=;
+        b=crHeWALBiw8aiMKWRXcyybpt+KbGI3/mqYHqKLPvLSp3oLmqnqJqk2wN8WYjcmQAzW
+         0JDoswazciawAyl9rtcmrGVEc81QVRZaj8Ez+t93LdvYJlc0fwOT9xREf4hVq+qGbc3D
+         bd5sb+qYOnbRkpZHB+WlpKz0q/SdEA4eWKk14=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc:content-type:content-transfer-encoding;
+        b=WlyxW59pjO3mH/OessFb5zP+fMECGro2flcY3cC7aFhQaw8ph/k/0hNlx2PDeJ4M+D
+         ZlsB8NLM+TtWzTFLcAbcO+zYpiVeZB7O6qlfnjAUYlGssjlIfKjNpgfkbcGOVzxFAWwo
+         /b89NZfEaEcbGf4z4+0Vez2075YVDs4emD8Y8=
+Received: by 10.204.161.199 with SMTP id s7mr961825bkx.9.1272120439290; Sat, 
+	24 Apr 2010 07:47:19 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.204.128.86 with HTTP; Sat, 24 Apr 2010 07:46:59 -0700 (PDT)
+In-Reply-To: <1272116492.2336.5.camel@tomoe>
+References: <1271686219.5255.12.camel@debian-gs.homenet.telecomitalia.it> 
+	<1271706271.7430.3.camel@tomoyo> <q2z951d34ac1004191247oa5db050v24437077ee2cbf9f@mail.csmining.org> 
+	<1271831784.6335.3.camel@tomoyo> <20100421070034.GA9224@kelgar.0x539.de> 
+	<20100424110204.GA17941@kelgar.0x539.de> <1272116492.2336.5.camel@tomoe>
+From: Giulio Spinozzi <giuliospinozzi@csmining.org>
+Date: Sat, 24 Apr 2010 16:46:59 +0200
+Message-ID: <r2n951d34ac1004240746he45d72ebq4958a7bdc6141510@mail.csmining.org>
+Subject: Re: Bug#578383: Bug nautilus-clamscan
+To: Josselin Mouette <joss@debian.org>
+Cc: Philipp Kern <pkern@debian.org>, 578383@bugs.debian.org, 
+	debian-volatile@lists.debian.org, 
+	Clement Lorteau <northern_lights@users.sourceforge.net>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <55MOTFJ8FHF.A.6kG.qgw0LB@liszt>
+Resent-From: debian-volatile@lists.debian.org
+X-Mailing-List: <debian-volatile@lists.debian.org> archive/latest/1301
+X-Loop: debian-volatile@lists.debian.org
+List-Id: <debian-volatile.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-volatile/>
+List-Post: <mailto:debian-volatile@lists.debian.org>
+List-Help: <mailto:debian-volatile-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 15:03:06 +0000 (UTC)
+
+yes, tomorrow i'll try...
+thanks for the moment
+
+2010/4/24 Josselin Mouette <joss@debian.org>:
+> Le samedi 24 avril 2010 =C3=A0 13:02 +0200, Philipp Kern a =C3=A9crit :
+>> On Wed, Apr 21, 2010 at 09:00:34AM +0200, Philipp Kern wrote:
+>> > On Wed, Apr 21, 2010 at 08:36:24AM +0200, Josselin Mouette wrote:
+>> > > Dear volatile team, would it be possible to have binNMUs for
+>> > > python-clamav in volatile? Or does it need a source upload? If so, w=
+ho
+>> > > could do it?
+>> > thanks to adsb that already happened. =C2=A0However unless somebody wh=
+o's used
+>> > to the package tests it and reports back a success it won't be copied =
+over.
+>> > dansguardian was the only package for now where that happened. =C2=A0W=
+ould you
+>> > mind testing it?
+>>
+>> ping. =C2=A0It's in volatils's lenny-proposed fwiw.
+>
+> Giulio, could you test it? Or Cl=C3=A9ment?
+> --
+> =C2=A0.''`. =C2=A0 =C2=A0 =C2=A0Josselin Mouette
+> : :' :
+> `. `' =C2=A0=E2=80=9CIf you behave this way because you are blackmailed b=
+y someone,
+> =C2=A0`- =C2=A0 =C2=A0[=E2=80=A6] I will see what I can do for you.=E2=80=
+=9D =C2=A0-- J=C3=B6rg Schilling
+>
+>
+
+
+
+--=20
+Dr. Giulio Spinozzi
+E-Mail: giuliospinozzi@csmining.org
+Web: http://giuliospinozzi.altervista.org
+GnuPG Key ID: 0xABBF9D15 | http://pgp.mit.edu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2n951d34ac1004240746he45d72ebq4958a7bdc6141510@mail.csmining.org
+
+

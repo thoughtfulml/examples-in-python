@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286d037cf4dbbbc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs385138wfb;
+        Thu, 6 May 2010 02:47:45 -0700 (PDT)
+Received: by 10.223.92.152 with SMTP id r24mr6420856fam.74.1273139264849;
+        Thu, 06 May 2010 02:47:44 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si1564609fks.24.2010.05.06.02.47.44;
+        Thu, 06 May 2010 02:47:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 996AD2E8AFA; Thu,  6 May 2010 09:47:42 +0000 (UTC)
+Old-Return-Path: <schwarzerf@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AA4E14C9DF2
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 09:47:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id J0aeNSKJyUsI for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 09:47:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.158])
+	by liszt.debian.org (Postfix) with ESMTP id 6738D2E8AEC
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 09:47:29 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id 22so413740fge.12
+        for <debian-kde@lists.debian.org>; Thu, 06 May 2010 02:47:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=WxnrulqIvsK9XWl38ZsGHeakUUVxprysIUgzQCF1tfQ=;
+        b=Mq3HmNi7vzA/0nmNJjzo85rugiVMiYQV644m/T/F+CebhtJOTPuW+h+MpeKXf2krr9
+         c8z55oh+0bCMrmY6jWcN3nrcb25Is+HO9xylPuIKwOtX1pJdVzne7gf1vtBfGLUv5rAV
+         y9FWw12tSi1aW4iVMWPbcxhUcYItt8CTeBVJA=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+         :content-type:content-transfer-encoding:message-id;
+        b=rx6kXUOq/PPgKRaatq7bKux6Lg4znkhhw+vtMT1XYTXg9j10QTe436JYVI1HtHZRar
+         HKVNnuGvbjyXkFLvl5LEyuaB4M+WUreW79eA4/j/CCd8TzsLmh++4aazXpaXqiEhNNf/
+         4v1N0qLWIhVKmWvIvgJTZzIF9QzlD2hFIJODY=
+Received: by 10.87.67.8 with SMTP id u8mr1283857fgk.9.1273139247126;
+        Thu, 06 May 2010 02:47:27 -0700 (PDT)
+Received: from tamaki.localnet (g225202030.adsl.alicedsl.de [92.225.202.30])
+        by mx.google.com with ESMTPS id e11sm15985112fga.8.2010.05.06.02.47.26
+        (version=SSLv3 cipher=RC4-MD5);
+        Thu, 06 May 2010 02:47:26 -0700 (PDT)
+From: Frederik Schwarzer <schwarzerf@csmining.org>
+To: debian-kde@lists.debian.org
+Subject: Re: akonadi first time start bugs with KDE 4.4.3
+Date: Thu, 6 May 2010 11:44:03 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-fs; KDE/4.4.3; i686; ; )
+References: <201005061135.07080.Martin@lichtvoll.de>
+In-Reply-To: <201005061135.07080.Martin@lichtvoll.de>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061144.03642.schwarzerf@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PYCuKDgzuOF.A._XG.-Ap4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32094
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 09:47:42 +0000 (UTC)
+
+[Martin Steigerwald - Donnerstag 06 Mai 2010 11:34:57] 
+> 
+> Hi!
+> 
+> JFYI as this might (partly) be packaging related.
+> 
+> I found the following bugs with Akonadi since I upgraded to KDE 4.4.3 
+> happening often, possibly always when I start Kontact for the first time 
+> after starting a KDE session. On further starts of Kontact it works as 
+> expected:
+
+Umm, that's interesting. I had this since KDE 4.4.0 (self-compiled) and
+it vanished when switching from the 4.4.2 debs to the 4.4.3 ones.
+So I thought it was just fixed for 4.4.3. Now I wonder what I did to
+make it work.
+
+Regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061144.03642.schwarzerf@csmining.org
+
+

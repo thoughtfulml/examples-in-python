@@ -1,0 +1,161 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888e311f16f077
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs5687wfb;
+        Tue, 11 May 2010 12:41:43 -0700 (PDT)
+Received: by 10.223.63.17 with SMTP id z17mr6799804fah.66.1273606901805;
+        Tue, 11 May 2010 12:41:41 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f1si12160092fai.79.2010.05.11.12.41.41;
+        Tue, 11 May 2010 12:41:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5F37D13A5A35; Tue, 11 May 2010 19:41:39 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E5E9113A5A26
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 19:41:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 7J3vnR0xvBrE for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 19:41:26 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id 51BAE13A5A13
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 19:41:26 +0000 (UTC)
+Received: from shambhala.localnet (ppp-93-104-157-25.dynamic.mnet-online.de [93.104.157.25])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id 1A5905ADED;
+	Tue, 11 May 2010 21:41:24 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: Dotan Cohen <dotancohen@csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+Date: Tue, 11 May 2010 21:41:11 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.2-tp42-toi-3.1-lowmem-free-991-992-04964-gf00c7ec-dirty; KDE/4.4.3; i686; ; )
+Cc: debian-kde@lists.debian.org
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org> <201005102358.43775.Martin@lichtvoll.de> <AANLkTinU0FqAz1n_Yux04G3Cq6OhD8x0EELtZ57jOq1Y@mail.csmining.org> (sfid-20100511_213543_890566_C5842DDE)
+In-Reply-To: <AANLkTinU0FqAz1n_Yux04G3Cq6OhD8x0EELtZ57jOq1Y@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart3633658.15rVAX8bUx";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005112141.21845.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <byiERNQ1eVC.A.stG.zLb6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32393
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 19:41:39 +0000 (UTC)
+
+--nextPart3633658.15rVAX8bUx
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+I ccd you since you ccd me. Please do not cc me in the future. I read the=20
+list and that new thread grouping features of KMail are really handy ;).
+
+Am Dienstag 11 Mai 2010 schrieb Dotan Cohen:
+> On 11 May 2010 00:58, Martin Steigerwald <Martin@lichtvoll.de> wrote:
+> > Am Montag 10 Mai 2010 schrieb Nate Bargmann:
+> >> * On 2010 10 May 11:50 -0500, Dotan Cohen wrote:
+> >> > Yes, 4.2 and now 4.4 seem to behave badly without a clean ~/.kde.
+> >> > I find that very disturbing and unstable.
+> >>=20
+> >> For the record, I had a clean ~/.kde for 4.2 when it hit Sid about a
+> >> year ago and upgraded the offered KDE packages through 4.3.4, IIRC,
+> >> and then started with a clean ~/.kde for Sid's new 4.4.3.
+> >>=20
+> >> - Nate >>
+> >=20
+> > IMHO when a config setting is not handled properly on upgrade of KDE
+> > its a bug.
+>=20
+> Agreed, but it's not one that is likely to be fixed. There seems to be
+> no backwards-compatibility in KDE anymore. It's a problem, I know.
+
+Well I got no reply to my detailed bug report yet.
+
+> > I migrated configuration from KDE 3.5.10 and just pressed on "Reset
+> > to defaults" for quite some appearance related settings in order to
+> > switch them to Oxygen. There have been issues, but I mostly didn't
+> > file them as bugs.
+> >=20
+> > Only one I triaged and filed: The separator "58" for colon for web
+> > shortcuts in kuriikwsrc or something like that it was is not
+> > recognized by KRunner, only by Konqueror. ":" instead works with
+> > both. Unfortunately Konqueror saved it as "58" not as ":".
+>=20
+> It _should_ be escaped.
+
+It doesn't work in krunner when it is. See here:
+
+[Bug 218272] New: webshortcuts broken after upgrading KDE 3 to 4 due to=20
+decimal in keyword delimiter which krunner doesnt support
+
+https://bugs.kde.org/218272
+=20
+> > Anyway I suggest to file those issues as concrete as possible as bugs
+> > as you manage to take time for it.
+
+I did so really. This bug report contains quite some hints on testing with=
+=20
+an empty configuration. Its as easy as that:
+
+mkdir ~/.kde-test
+export KDEHOME=3D~/.kde-test
+
+Then start your KDE application you want to test with empty settings from=20
+this shell. You can also easily see what configuration files the applicatio=
+n=20
+or the subsystems it uses create.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart3633658.15rVAX8bUx
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvpstgACgkQmRvqrKWZhMduJwCffZhDp4Ipn25jl0egTkEZXA8P
+jMsAn3ImjLAG3gZPHlcMMnsP5JNW14/A
+=5fht
+-----END PGP SIGNATURE-----
+
+--nextPart3633658.15rVAX8bUx--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005112141.21845.Martin@lichtvoll.de
+
+

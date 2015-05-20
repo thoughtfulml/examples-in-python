@@ -1,0 +1,154 @@
+X-Account-Key: account5
+X-UIDL: GmailId12818c2a216f381a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs47310wfj;
+        Mon, 19 Apr 2010 18:08:55 -0700 (PDT)
+Received: by 10.223.144.79 with SMTP id y15mr635704fau.22.1271725728526;
+        Mon, 19 Apr 2010 18:08:48 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si764708fkr.59.2010.04.19.18.08.47;
+        Mon, 19 Apr 2010 18:08:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2C8FD13A4B5F; Tue, 20 Apr 2010 01:08:39 +0000 (UTC)
+Old-Return-Path: <agianson@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 723FF13A4AF1
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 01:08:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 3bi-x2BxdngK for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 01:08:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-pv0-f175.google.com (mail-pv0-f175.google.com [74.125.83.175])
+	by liszt.debian.org (Postfix) with ESMTP id BC2FF13A4A9B
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 01:08:25 +0000 (UTC)
+Received: by pvb32 with SMTP id 32so3215939pvb.6
+        for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 18:08:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:subject:from:to:in-reply-to
+         :references:content-type:date:message-id:mime-version:x-mailer
+         :content-transfer-encoding;
+        bh=SiylUTsEMxNKEoLGV9rTHol0xq5ZGKN7X61zun83jJ4=;
+        b=jEeAyaZqp7zUWVLMHABCWOB7vRLvi2lYxnOlMNEmRJZHnV1dSDb74nW5WtdOS5nmdw
+         A7FePi+zh+uzTnPPcKwxU8xN6bcvJf/8JAFgXapQkgxUosfYFamySu5NZKpQmU5DDPCT
+         zg4Kk/0QVdfybqyReHFLW3/Ak1P4h1BiH46mk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=subject:from:to:in-reply-to:references:content-type:date:message-id
+         :mime-version:x-mailer:content-transfer-encoding;
+        b=M9TiCHqdcknnRqfiTGAmvdZGyk5vQEE/WmNY9T/ocAq9VOwtoRMlmZmGOSoSOFw53N
+         hXEklmnGGlX9QA7QKEQPHWqB6rP09ZMURPyiTPC5P1eszSCPIfce9hekKoSR6HvJOypx
+         aaMPfbRdtaH/FzkFgr7rm3Rw1CkrroPwVfjxA=
+Received: by 10.115.28.1 with SMTP id f1mr151362waj.181.1271725697718;
+        Mon, 19 Apr 2010 18:08:17 -0700 (PDT)
+Received: from [192.168.0.100] (S0106001cf04279c3.ok.shawcable.net [24.70.174.83])
+        by mx.google.com with ESMTPS id 21sm5984782pzk.4.2010.04.19.18.08.16
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Mon, 19 Apr 2010 18:08:16 -0700 (PDT)
+Subject: Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on
+ Lenny?
+From: Alan Ianson <agianson@csmining.org>
+To: debian-user@lists.debian.org
+In-Reply-To: <4BCCD26B.4020408@web.de>
+References: <p2q631fe46c1004151106k67c61faxe809a17d576affef@mail.csmining.org>
+	 <h2l631fe46c1004151802r92941076qf14c0f8bacbb76de@mail.csmining.org>
+	 <4BC934A7.3050808@web.de> <slrnhsjcc4.bu7.liam.p.otoole@dipsy.selfip.org>
+	 <4BCCC8EB.8000702@web.de> <4BCCCC25.9000401@cox.net>
+	 <4BCCD26B.4020408@web.de>
+Content-Type: text/plain; charset="UTF-8"
+Date: Mon, 19 Apr 2010 18:08:15 -0700
+Message-ID: <1271725695.3636.3.camel@debian.ok.shawcable.net>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.28.3 
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ckFxZcQHXuN.A.Jg.X6PzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574501
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 01:08:39 +0000 (UTC)
+
+On Tue, 2010-04-20 at 00:00 +0200, Clive McBarton wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Ron Johnson wrote:
+> > On 2010-04-19 16:19, Clive McBarton wrote:
+> > [snip]
+> >>
+> >> How come there is no link anywhere on debian.org pointing to
+> >> debian-multimedia.org? Anything to establish a chain of trust. As it is,
+> >> I looked and looked but didn't find. Even when searching for
+> >> "multimedia" on debian.org, it does not mention debian-multimedia.org at
+> >> all. Not even when searching for "debian-multimedia". Every new debian
+> >> user trying to verify the credibilitiy of debian-multimedia.org would
+> >> have given up at this point for sure.
+> > 
+> > Google is pretty darned ubiquitous, and has been for 8+ years.
+> > 
+> > Putting "Debian play" in the FF/IW search bar auto-completes "debian
+> > play encrypted dvd", and each of the first 5 links mentions d-mm.o.
+> 
+> Yes, google (and all other search sites) quickly lead to d-m. But what
+> does this really prove? We all know that google (and all other search
+> sites) are far from immune against finding malware sites. Example:
+> google "windows multimedia". On the first page of results, half the hits
+> are sites with pretty dubious names. I wouldn't be surprised if some of
+> them actually distributed malware.
+> 
+> Linux is generally better protected against malware as Windows, but this
+>  is one vulnerability that is common to both: if you install anything
+> from an untrusted repo, and if that repo had malware, you're toast.
+> 
+> > "Mentioned" does *not* mean "endorsed".  Never has, never will.
+> 
+> > d-mm.o is not an official Debian site, so it's nor mentioned anywhere 
+> > except his personal page and the list archives.
+> 
+> I understand that point of view. But it is a point of view that will
+> make people stay away from d-m (and pretty much all other repos for that
+> matter).
+> 
+> It would help a lot if the key of d-m (package
+> debian-multimedia-keyring) was in the debian repos, not just the d-m repos.
+
+All the stuff at debian-multimedia can't be included in debian for
+various reasons, mostly freedom I think, so you won't find it in debian
+at all. It's made for debian but it isn't debian.
+
+I started using d-mm.o from the reply to a question I posted in this
+list many years ago and I suspect most people still find it today the
+same way.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271725695.3636.3.camel@debian.ok.shawcable.net
+
+

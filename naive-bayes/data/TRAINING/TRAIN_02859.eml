@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId12807b9494510bef
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs34310wfj;
+        Fri, 16 Apr 2010 10:45:03 -0700 (PDT)
+Received: by 10.223.24.133 with SMTP id v5mr855038fab.46.1271439902873;
+        Fri, 16 Apr 2010 10:45:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si4400216fkr.29.2010.04.16.10.45.02;
+        Fri, 16 Apr 2010 10:45:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0C00D13A4960; Fri, 16 Apr 2010 17:44:57 +0000 (UTC)
+Old-Return-Path: <tim@clewlow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B417913A489D
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 17:44:50 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DEDcGJMNhVPd for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 17:44:43 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 602 seconds by postgrey-1.31 at liszt; Fri, 16 Apr 2010 17:44:43 UTC
+Received: from clewlow.org (clewlow.org [210.215.149.194])
+	by liszt.debian.org (Postfix) with ESMTP id 447C913A4851
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 17:44:43 +0000 (UTC)
+Received: from [192.168.1.100] (localhost [127.0.0.1])
+	by clewlow.org (Postfix) with ESMTP id 8D3EE1C0859
+	for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 03:34:36 +1000 (EST)
+Received: from 192.168.1.3
+        (SquirrelMail authenticated user tim)
+        by 192.168.1.100 with HTTP;
+        Sat, 17 Apr 2010 03:34:36 +1000
+Message-ID: <b15e5b53f92a5f588f473e131f0b6409.squirrel@192.168.1.100>
+In-Reply-To: 
+ <j2q194a2c241004160911nb2b1ad62xf899de7a0987f43c@mail.csmining.org>
+References:
+    <j2q194a2c241004160911nb2b1ad62xf899de7a0987f43c@mail.csmining.org>
+Date: Sat, 17 Apr 2010 03:34:36 +1000
+Subject: Re: debian on a raid5 (4TB) issues
+From: "Tim Clewlow" <tim@clewlow.org>
+To: debian-user@lists.debian.org
+User-Agent: SquirrelMail/1.4.20-RC2
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <41GSU6y24SJ.A.KFF.YIKyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574262
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 17:44:57 +0000 (UTC)
+
+
+> Hi, maybe OT but, I\m trying to install debian lenny on a raid5 with
+> 4TB. OS sees one big sda with 4TB, I can particion /boot, / and swap
+> but it only recognize 78GB instead the 4TB available. Is this
+> because
+> the partition in booteable? Can I install debian OS  on this hdd
+> with
+> these 3 partitions and use the rest for LVM? Thanks in advance,
+>
+.
+
+Seriously consider using Raid 6. If you use Raid 5 then the
+probability of an unrecoverable read error (URE) occurring while
+rebuilding the 4TB of data is IMO a little too high. With Raid 6 it
+would require 2 URE's that happen to be located in the same raid
+segment on both disks - the odds of that are extremely low.
+
+my 2c,- tim
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/b15e5b53f92a5f588f473e131f0b6409.squirrel@192.168.1.100
+
+

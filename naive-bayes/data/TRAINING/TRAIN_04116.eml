@@ -1,0 +1,107 @@
+From - Tue Apr 20 20:29:59 2010
+X-Account-Key: account2
+X-UIDL: UID12827-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <MicahHoefle@cea.fr>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id F1BD82C44E
+	for <m0620212@mail.csmining.org>; Tue, 20 Apr 2010 20:32:34 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id EDED116937
+	for <m0620212@mail.csmining.org>; Tue, 20 Apr 2010 20:32:34 +0900 (JST)
+X-ASG-Debug-ID: 1271763154-78f43aed0001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id 6JPkrQzHGdF6frEL for <m0620212@mail.csmining.org>; Tue, 20 Apr 2010 20:32:34 +0900 (JST)
+X-Barracuda-Envelope-From: MicahHoefle@cea.fr
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o3KBWYYb009424
+        for <m0620212@mail.csmining.org>; Tue, 20 Apr 2010 20:32:34 +0900 (JST)
+Received: from mx1.csmining.org (ns3.csmining.org [192.168.3.3])
+        by gw1.csmining.org  with ESMTP id o3KBWYBm009421
+        for <hibody@csmining.org>; Tue, 20 Apr 2010 20:32:34 +0900 (JST)
+Received: from edward (unknown [186.82.223.7])
+	by mx1.csmining.org (csminingorg MX Server1) with ESMTP id 00DD16C
+	for <hibody@csmining.org>; Tue, 20 Apr 2010 20:32:33 +0900 (JST)
+Received: from smtprly-da03.mx.aol.com (smtprly-da03.mx.aol.com [205.188.249.168]) by cia-mb04.mx.aol.com (v127_r1.2) with ESMTP id MAILCIAMC058-tl2g4w0emwilb; Tue, 20 Apr 2010 06:32:33 -0500
+X-Barracuda-BWL-IP: 186.82.223.7
+X-Barracuda-BBL-IP: 186.82.223.7
+X-Barracuda-RBL-IP: 186.82.223.7
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Received: from Webmail-d023 (webmail-d023.sim.aol.com [205.188.181.30]) by smtprly-da03.mx.aol.com (v127_r1.2) with ESMTP id MAILSMTPRLYDE026-tl2g4w0emwilb; Tue, 20 Apr 2010 06:32:33 -0500
+To: hibody@csmining.org
+X-ASG-Orig-Subj: AutoCAD 2009 32 and 64 bit - $169.95
+Subject:   AutoCAD 2009 32 and 64 bit - $169.95
+Date: Tue, 20 Apr 2010 06:32:33 -0500
+X-MB-Message-Source: WebUI
+X-AOL-IP: edward
+X-MB-Message-Type: User
+MIME-Version: 1.0
+From: ALIDAANNEN@aol.com
+Content-Type: multipart/alternative; 
+ boundary="--------MB_8CCAB6758BA7584_850_8409_Webmail-d023.sysops.aol.com"
+X-Mailer: AOL Webmail 31226-STANDARD
+Received: from edward by Webmail-d023.sysops.aol.com (205.188.181.30) with HTTP (WebMailUI); Tue, 20 Apr 2010 06:32:33 -0500
+Message-Id: <8CCAB6758B2CBDA-850-1D3AE@Webmail-d023.sysops.aol.com>
+X-Spam-Flag:NO
+X-AOL-SENDER: ALIDAANNEN@aol.com
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1271763154
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: BRL ()
+X-Barracuda-Spam-Score: 6.26
+X-Barracuda-Spam-Status: No, SCORE=6.26 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA290_RN, BSF_SC5_MJ1963, CN_BODY_332, HTML_MESSAGE, NORMAL_HTTP_TO_IP, NO_REAL_NAME, RDNS_NONE, URIBL_PH_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.27947
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 NO_REAL_NAME           From: does not include a real name
+	0.12 CN_BODY_332            BODY: CN_BODY_332
+	0.00 NORMAL_HTTP_TO_IP      URI: Uses a dotted-decimal IP address in URL
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	2.04 URIBL_PH_SURBL         Contains an URL listed in the PH SURBL blocklist
+	                           [URIs: 200.58.115.33]
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+
+----------MB_8CCAB6758BA7584_850_8409_Webmail-d023.sysops.aol.com
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="Windows-1252"
+
+
+A lot of software for Windows and MAC OS in different languages! Anti-CRI=
+SIS DIDCOUNT for license Sohttp://200.58.115.33/~rl000306/jgnmzm.html
+
+
+
+----------MB_8CCAB6758BA7584_850_8409_Webmail-d023.sysops.aol.com
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=3D"Windows-1252"
+
+<font color=3D'black' size=3D'2' face=3D'arial'>
+<div> <br>
+</div>
+
+<div> <font size=3D"2"><font face=3D"Arial, Helvetica, sans-serif"><p sty=
+le=3D"color:#D0EE6A; font-size:11px;"><b>A lot of software for Windows an=
+d MAC OS in different languages! Anti-CRISIS DIDCOUNT for license So</b><=
+/p>
+<a href=3D"http://200.58.115.33/~rl000306/jgnmzm.html" style=3D"color:#9A=
+BF10; font-size:20px;"><b>http://200.58.115.33/~rl000306/jgnmzm.html</b><=
+/a></font></font><br>
+</div>
+
+<div style=3D"clear: both;"></div>
+</font>
+
+----------MB_8CCAB6758BA7584_850_8409_Webmail-d023.sysops.aol.com--
+

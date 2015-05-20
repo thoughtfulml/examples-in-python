@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId128aaadb5be7d663
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs9640wfo;
+        Tue, 18 May 2010 02:10:31 -0700 (PDT)
+Received: by 10.227.127.197 with SMTP id h5mr6056273wbs.15.1274173830359;
+        Tue, 18 May 2010 02:10:30 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y37si19044223wby.56.2010.05.18.02.10.29;
+        Tue, 18 May 2010 02:10:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1361B13A48DF; Tue, 18 May 2010 09:10:23 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7D76B13A48F3
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 09:10:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id VcxmHt2XXvuL for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 09:10:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 1B1B113A486A
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 09:09:59 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id B380A15D819A
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 11:09:39 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id LAX4bGiyM3gG for <debian-user@lists.debian.org>;
+	Tue, 18 May 2010 11:09:39 +0200 (CEST)
+Received: from [132.229.227.77] (brood.lorentz.leidenuniv.nl [132.229.227.77])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 3ACE015D8186
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 11:09:39 +0200 (CEST)
+Message-ID: <4BF25952.8050901@lorentz.leidenuniv.nl>
+Date: Tue, 18 May 2010 11:09:38 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.8.1.21) Gecko/20090318 Lightning/0.9 Thunderbird/2.0.0.21 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Exim4 Administration
+References: <201005180954.41976.d_baron@012.net.il> <20100518101559.59c49479@pbmiha.malagasy.com>
+In-Reply-To: <20100518101559.59c49479@pbmiha.malagasy.com>
+X-Enigmail-Version: 0.95.6
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig389424A7280153C348ED4D40"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2yhlCsxR-oD.A.7eC._ll8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577086
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 09:10:23 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig389424A7280153C348ED4D40
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Mihamina Rakotomandimby schreef:
+>> David Baron <d_baron@012.net.il> :
+>> Is there any other way?
+>=20
+> Yes.
+Of course it's list policy to ask smart questions, but it's also list=20
+policy not to give useless answers (well, not policy, but it's certainly =
+
+recommended).
+@David: read=20
+http://www.exim.org/exim-html-current/doc/html/spec_html/index.html for=20
+the full documentation.
+exim has a cli interface to remove frozen messages, man exim for=20
+details. Eg. to show frozen messages:
+  exim -bp
+And read
+
+Sjoerd
+
+
+
+--------------enig389424A7280153C348ED4D40
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.7 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFL8llTHKEdNPY5OOURAig/AJ9drEZczuEBIX8hIWMF57hHVutoUwCgxR7c
+wHAgavkDaaOq2BTEdNA47fY=
+=scB7
+-----END PGP SIGNATURE-----
+
+--------------enig389424A7280153C348ED4D40--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF25952.8050901@lorentz.leidenuniv.nl
+
+

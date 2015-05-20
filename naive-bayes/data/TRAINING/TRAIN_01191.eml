@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId128415d2a03a7320
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs154882wfj;
+        Tue, 27 Apr 2010 15:22:25 -0700 (PDT)
+Received: by 10.87.70.7 with SMTP id x7mr8932678fgk.77.1272406944525;
+        Tue, 27 Apr 2010 15:22:24 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si4411671fks.5.2010.04.27.15.22.23;
+        Tue, 27 Apr 2010 15:22:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8870013A4FBA; Tue, 27 Apr 2010 22:22:17 +0000 (UTC)
+Old-Return-Path: <mark@allums.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.6 required=4.0 tests=DATE_IN_FUTURE_03_06,
+	LDOSUBSCRIBER,LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9A74913A4F36
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 22:22:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.726 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, DATE_IN_FUTURE_03_06=0.274, LDO_WHITELIST=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id bfU234gcIKTX for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 22:22:04 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .allums. - helo: .smtpauth18.prod.mesa1.secureserver. - helo-domain: .secureserver.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from smtpauth18.prod.mesa1.secureserver.net (smtpauth18.prod.mesa1.secureserver.net [64.202.165.31])
+	by liszt.debian.org (Postfix) with SMTP id F0FEF13A4EB2
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 22:22:03 +0000 (UTC)
+Received: (qmail 28657 invoked from network); 27 Apr 2010 22:22:00 -0000
+Received: from unknown (174.43.55.75)
+  by smtpauth18.prod.mesa1.secureserver.net (64.202.165.31) with ESMTP; 27 Apr 2010 22:21:59 -0000
+Message-ID: <4BD7A9D3.7040301@allums.com>
+Date: Tue, 27 Apr 2010 22:21:55 -0500
+From: Mark Allums <mark@allums.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: VM software for personal use?
+References: <87y6ge166m.fsf@berkeley.edu> <20100424094421.GC6685@think.homelan> <4BD36227.20609@worldwideweber.ch> <4BD3E06E.9050809@allums.com> <4BD612B2.1060008@web.de>
+In-Reply-To: <4BD612B2.1060008@web.de>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <4YR7pOKOKBB.A.6DG.ZO21LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575328
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 22:22:17 +0000 (UTC)
+
+On 4/26/2010 5:24 PM, Clive McBarton wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Mark Allums wrote:
+>> Some people are scared of shared folders as possible attack vectors, thus security risks.
+>
+> What exactly are those risks?
+
+
+(For me, personally, it's theoretical, as I only am repeating things I 
+have picked up.  It may be out of date, now, but if I had to guess, the 
+level of threat has only grown.)
+
+It depends on the mechanism used to share the folders.  If if is through 
+a network interface, then the risks are similar to the risks on any 
+trusted intranet.
+
+If the folders are provided by the VM internals, then the risk is what 
+you can lose by a successful attack on the guest kernel or the host VM. 
+  If the host VM is kernel-based, then the risk is that of a (host) 
+kernel attack.
+
+Note: I'm using "risk" as in "what can you lose?"  If you mean attack 
+vectors, then those should be evident; again, I am not a security 
+reseacher.  Google Joanna Rutkowska.  She probably knows as much as 
+anyone about breaking out of a VM to attack the host.
+
+I'm sure others on this list know more than I do about it.
+
+MAA
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD7A9D3.7040301@allums.com
+
+

@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283552b2d810aac
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs48106wfj;
+        Sun, 25 Apr 2010 07:15:32 -0700 (PDT)
+Received: by 10.143.153.1 with SMTP id f1mr1236929wfo.3.1272204932032;
+        Sun, 25 Apr 2010 07:15:32 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 14si4752978pzk.102.2010.04.25.07.15.31;
+        Sun, 25 Apr 2010 07:15:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id C0BFC1BF7C068
+	for <mlsubscriber.tech@csmining.org>; Sun, 25 Apr 2010 07:15:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id BBDCD2718BA96
+	for <mlsubscriber.tech@csmining.org>; Sun, 25 Apr 2010 07:15:31 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 4A11F2718B821
+	for <objc-language@lists.apple.com>;
+	Sun, 25 Apr 2010 07:15:08 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 3984BD558F78
+	for <objc-language@lists.apple.com>;
+	Sun, 25 Apr 2010 07:15:08 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-55-4bd44e6cdd60
+Received: from asmtpout027.mac.com (asmtpout027.mac.com [17.148.16.102])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	08.97.17067.C6E44DB4; Sun, 25 Apr 2010 07:15:08 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [192.168.0.3] ([65.243.186.220])
+	by asmtp027.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPSA id <0L1F00E96RL1W9A0@asmtp027.mac.com> for
+	objc-language@lists.apple.com; Sun, 25 Apr 2010 07:15:08 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004250103
+From: "Adam R. Maxwell" <amaxwell@mac.com>
+In-reply-to: <l2o360bd19f1004250412qee7b90ecv392a901dc913fa94@mail.csmining.org>
+Date: Sun, 25 Apr 2010 07:15:00 -0700
+Message-id: <A9ADB0BE-5E17-438E-8385-C27972F5FD8C@mac.com>
+References: <i2j360bd19f1004250051v4f032850pf0366c170a5a7482@mail.csmining.org>
+	<u2l1645b0571004250240wcb7a6ebdib2c9fcb85468ec1a@mail.csmining.org>
+	<l2o360bd19f1004250412qee7b90ecv392a901dc913fa94@mail.csmining.org>
+To: Dave Keck <davekeck@csmining.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAgAAAUoT2ZbK
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: Protocol implementation in category
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On Apr 25, 2010, at 4:12 AM, Dave Keck wrote:
+
+>> Just include the protocol in the category interface e.g.
+>> 
+>> @interface MyObject(FooDelegate) <MyFooProtocol>
+>> ....
+>> @end
+>> 
+>> And make sure this is visible to the compiler when you set an instance
+>> as a delegate.
+> 
+> Ah! I was under the false impression that categories couldn't declare
+> themselves as implementing a protocol. This works beautifully.
+
+I ran into a problem doing this a few years ago, where calling
+-conformsToProtocol: would cause a hang when the protocol was 
+implemented in a category.  That might be fixed by now, but be 
+careful if you check conformance.
+
+-- 
+Adam
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

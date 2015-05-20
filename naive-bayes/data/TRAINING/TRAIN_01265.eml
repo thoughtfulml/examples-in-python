@@ -1,0 +1,209 @@
+X-Account-Key: account5
+X-UIDL: GmailId12802fe3697b4f70
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs74518wfa;
+        Thu, 15 Apr 2010 12:42:15 -0700 (PDT)
+Received: by 10.102.236.19 with SMTP id j19mr341311muh.110.1271360534462;
+        Thu, 15 Apr 2010 12:42:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e9si9790057muf.40.2010.04.15.12.42.13;
+        Thu, 15 Apr 2010 12:42:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 875B113A5B92; Thu, 15 Apr 2010 19:42:07 +0000 (UTC)
+Old-Return-Path: <florian.kulzer+debian@icfo.es>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=RCVD_IN_DNSWL_MED,
+	XORGBUGREPORTS autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4014613A4D04
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 19:24:48 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, RCVD_IN_DNSWL_MED=-4, XORGBUGREPORTS=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mZHB4dcqHdhL for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 19:24:40 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from esrv1.icfo.es (esrv1.icfo.es [84.88.69.10])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "smtp.icfo.es", Issuer "TERENA SSL CA" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id 8EBE213A49E8
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 19:24:34 +0000 (UTC)
+Received: from isar.localhost (ALyon-153-1-76-230.w86-202.abo.wanadoo.fr [86.202.119.230])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by esrv1.icfo.es (Postfix) with ESMTP id 45677D18FDA
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 21:24:29 +0200 (CEST)
+Date: Thu, 15 Apr 2010 21:24:19 +0200
+From: Florian Kulzer <florian.kulzer+debian@icfo.es>
+To: debian-user@lists.debian.org
+Subject: Re: xorg synaptics driver no longer working with udev?
+Message-ID: <20100415192418.GA5431@isar.localhost>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <4BC62051.4080008@lorentz.leidenuniv.nl>
+ <20100414215118.GA6134@isar.localhost>
+ <q2g77f417a21004141738nc6bb17b4i9805c4c1427d59ca@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+In-Reply-To: <q2g77f417a21004141738nc6bb17b4i9805c4c1427d59ca@mail.csmining.org>
+X-Operating-System: Debian GNU/Linux Sid
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ggBDgRXAWSE.A.-0D.Pw2xLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574201
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 19:42:07 +0000 (UTC)
+
+On Wed, Apr 14, 2010 at 19:38:23 -0500, francis southern wrote:
+> On 14 April 2010 16:51, Florian Kulzer wrote:
+> > On Wed, Apr 14, 2010 at 22:06:41 +0200, Sjoerd Hardeman wrote:
+> >> Hi list,
+> >>
+> >> After a large set of updates today on testing, xorg no longer picks up
+> >> my udev rules file. A few months ago hal stopped working, as a change =
+to
+> >> udev was required (see also the list history for several threads on th=
+at
+> >> topic).
+
+[...]
+
+> I am in exactly the same situation.
+
+[...]
+
+> > 1) Does hal know that there is a touchpad?
+> >
+> > =A0 lshal -u $(hal-find-by-capability --capability input.touchpad)
+> >
+> > 2) The output of 1) should tell you the associated linux.device_file; in
+> > =A0 my case this is /dev/input/event7. The next step is to find the
+> > =A0 devpath:
+> >
+> > =A0 udevadm info --query=3Dpath --name=3D/dev/input/event7
+> >
+> > 3) I get "/devices/platform/i8042/serio4/input/input7/event7" from 2).
+> > =A0 Now one can test what udev does when the device is added; maybe that
+> > =A0 command will give you a clue, or you can make the output available =
+so
+> > =A0 that we can compare:
+> >
+> > =A0 udevadm test /devices/platform/i8042/serio4/input/input7/event7
+> >
+>=20
+> I followed your advice, here's the output of that command:
+> http://debian.pastebin.com/Bft7phBw
+> It's quite long, and I have to say that I have very little
+> understanding of anything it says...
+
+It looks OK to me; your custom rules file is read by udev (line 24) and
+the corresponding variables are set (lines 110-116).
+
+> I do know that /etc/udev/rules.d/66-xorg-synaptics.rules is the file
+> that I created when HAL stopped working, and it was working up until
+> two days ago (more or less).
+
+I now tried to activate the extra options in the fdi file that comes
+with xserver-xorg-input-synaptics and that gave me right-edge-scrolling
+and the other stuff. Thus it seems that the fdi directives are working
+right now on my Sid system. (As I wrote earlier, I have not used these
+features in a long while, therefore I do not know if the fdi files
+worked all the time or if this functionality was only recently
+restored.)
+
+I suggest that you try the same approach and then we can compare our
+results. In other words:
+
+1) Shut down X and remove your custom udev rules for the time being,
+   then restart udev. (invoke-rc.d udev restart)
+
+2) Uncomment the extra rules in
+   /usr/share/hal/fdi/policy/20thirdparty/11-x11-synaptics.fdi. You have
+   to close the comment in the "<!-- EXAMPLES:" line by adding " -->" to
+   the end of this line; also insert a new line with "<!--" just before
+   the line starting with "For other possible options, check".
+
+3) Restart dbus, which will also restart hal.
+   (invoke-rc.d debus restart)
+
+4) Verify that hal is paying attention to the newly-uncommented options;
+   the output of
+  =20
+   lshal -u $(hal-find-by-capability --capability input.touchpad)
+
+   should include:
+
+   input.x11_driver =3D 'synaptics'  (string)
+   input.x11_options.CircularScrolling =3D 'true'  (string)
+   input.x11_options.HorizTwoFingerScroll =3D 'true'  (string)
+   input.x11_options.MaxTapMove =3D '2000'  (string)
+   input.x11_options.SHMConfig =3D 'true'  (string)
+   input.x11_options.VertEdgeScroll =3D 'true'  (string)
+   input.x11_options.VertTwoFingerScroll =3D 'true'  (string)
+
+5) Restart X, then find the synaptics part in /var/log/Xorg.0.log. It
+   should contain lines like these:
+
+   (II) config/hal: Adding input device SynPS/2 Synaptics TouchPad
+   (II) LoadModule: "synaptics"
+   (II) Loading /usr/lib/xorg/modules/input//synaptics_drv.so
+   (II) Module synaptics: vendor=3D"X.Org Foundation"
+           compiled for 1.6.5, module version =3D 1.2.0
+           Module class: X.Org XInput Driver
+           ABI class: X.Org XInput driver, version 4.0
+   (II) Synaptics touchpad driver version 1.2.0
+   (**) Option "Device" "/dev/input/event7"
+   (II) SynPS/2 Synaptics TouchPad: x-axis range 1472 - 5472
+   (II) SynPS/2 Synaptics TouchPad: y-axis range 1408 - 4448
+   (II) SynPS/2 Synaptics TouchPad: pressure range 0 - 255
+   (II) SynPS/2 Synaptics TouchPad: finger width range 0 - 0
+   (II) SynPS/2 Synaptics TouchPad: buttons: left right middle double triple
+   (**) Option "SHMConfig" "true"
+   (**) Option "MaxTapMove" "2000"
+   (**) Option "VertEdgeScroll" "true"
+   (**) Option "VertTwoFingerScroll" "true"
+   (**) Option "HorizTwoFingerScroll" "true"
+   (**) Option "CircularScrolling" "true"
+
+6) Check if VertEdgeScroll and the other stuff works; if it does then
+   you can try to add your other options to the fdi file and remove the
+   ones that you do not like. Once you are done with the tests you can
+   restore 20thirdparty/11-x11-synaptics.fdi to its original state and
+   put your rules into a separate fdi files so that they will not be
+   overwritten at the next upgrade of xserver-xorg-input-synaptics.
+
+--=20
+Regards,            |
+          Florian   |
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415192418.GA5431@isar.localhost
+
+

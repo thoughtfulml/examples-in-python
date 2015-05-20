@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b0e3630cb6003
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs53712wfo;
+        Wed, 19 May 2010 07:06:52 -0700 (PDT)
+Received: by 10.223.98.83 with SMTP id p19mr1931482fan.27.1274278011757;
+        Wed, 19 May 2010 07:06:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y11si18154845fak.67.2010.05.19.07.06.51;
+        Wed, 19 May 2010 07:06:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9048D13A5288; Wed, 19 May 2010 14:06:39 +0000 (UTC)
+Old-Return-Path: <dburrows@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MAILTO_TO_SPAM_ADDR autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AC5B713A526B
+	for <lists-debian-user@liszt.debian.org>; Wed, 19 May 2010 14:06:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id NCIcPqqMWjGk for <lists-debian-user@liszt.debian.org>;
+	Wed, 19 May 2010 14:06:26 +0000 (UTC)
+Received: from algebraicthunk.net (algebraicthunk.net [67.207.130.13])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 4D5A913A5281
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 14:06:26 +0000 (UTC)
+Received: from c-76-104-234-217.hsd1.wa.comcast.net ([76.104.234.217] helo=emurlahn.burrows.local)
+	by algebraicthunk.net with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <dburrows@debian.org>)
+	id 1OEjuh-0005KW-5J
+	for debian-user@lists.debian.org; Wed, 19 May 2010 07:06:23 -0700
+Date: Wed, 19 May 2010 07:06:21 -0700
+From: Daniel Burrows <dburrows@debian.org>
+To: debian-user@lists.debian.org
+Subject: Re: pinning + apt-get vs aptitude
+Message-ID: <20100519140621.GC12104@emurlahn.burrows.local>
+References: <hsmeqm$lmp$1@dough.gmane.org> <87fx1tcg4h.fsf@turtle.gmx.de>
+	<hsv5r3$3vm$1@dough.gmane.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <hsv5r3$3vm$1@dough.gmane.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <m4w44TBCEsB.A.hzF.vB_8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577178
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 19 May 2010 14:06:39 +0000 (UTC)
+
+On Tue, May 18, 2010 at 05:54:27PM -0500, Hugo Vanwoerkom <hvw59601@care2.com> was heard to say:
+> Sven Joachim wrote:
+> >>The following packages will be REMOVED:
+> >>... grub-legacy{a} ...
+
+  [snip]
+
+> >>The following NEW packages will be installed:
+> >>... grub-pc{a} ...
+> >>
+> >>So why does aptitude pay no attention to my pin?
+> >
+> >Because it decides that the grub-legacy package is unused and can be
+> >removed despite the pin.  Whether this is the right thing is debatable;
+> >I'm sure you find some bug reports about that if you dig into the long
+> >list of aptitude bugs.
+> >
+> 
+> That explains it well, thanks
+
+  It probably won't help, though.  If grub-legacy was unused, it would
+say "grub-legacy{u}".  Instead it says "grub-legacy{a}", indicating that
+it was forced off the system by a conflicting package.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519140621.GC12104@emurlahn.burrows.local
+
+

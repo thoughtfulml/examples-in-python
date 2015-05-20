@@ -1,0 +1,312 @@
+From - Wed Nov 04 08:29:19 2009
+X-Account-Key: account2
+X-UIDL: UID8698-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <thomaso@acanac.com>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 486A4168C2
+	for <m0620212@mail.csmining.org>; Tue,  3 Nov 2009 22:46:04 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 44A6E168BF
+	for <m0620212@mail.csmining.org>; Tue,  3 Nov 2009 22:46:04 +0900 (JST)
+X-ASG-Debug-ID: 1257255963-4b1501c60000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1257255963
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250])
+	by spamgw.csmining.org Firewall) with SMTP id 76E7F8AB8D7
+	for <m0620212@mail.csmining.org>; Tue,  3 Nov 2009 22:46:03 +0900 (JST)
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id nA3Dk3Lx021747
+        for <m0620212@mail.csmining.org>; Tue, 3 Nov 2009 22:46:03 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id nA3Dk3Xs021744
+        for <hibody@csmining.org>; Tue, 3 Nov 2009 22:46:03 +0900 (JST)
+Received: from adsl.86.57.167.26.grodno.by (adsl.86.57.167.26.grodno.by [86.57.167.26] (may be forged))
+      by ns1.csmining.org  with ESMTP id nA3DjbXZ026751
+      for <hibody@csmining.org>; Tue, 3 Nov 2009 22:45:52 +0900 (JST)
+Message-ID: <c93a019dbf2a$fbf685f8$e764007c@acanac.com>
+From: "Ad Copeland" <thomaso@acanac.com>
+To: <hibody@csmining.org>
+X-ASG-Orig-Subj: =?iso-8859-1?B?b2sgZnVjayA4?=
+Subject: =?iso-8859-1?B?W1NQQU1dIA==?= =?iso-8859-1?B?b2sgZnVjayA4?=
+Date: Tue, 03 Nov 3610 15:45:52 +0200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0023_37_70909336.AB32CECE"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-ASG-Tag: BRL ([<http://www.barracuda.com/reputation?ip=86.57.167.26>])
+X-Barracuda-Spam-Score: 48.85
+X-Barracuda-Spam-Status: No, SCORE=48.85 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.98870
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.50 BARRACUDA_HEADER_FP20  RBL: Barracuda Reputation
+	                      [<http://www.barracuda.com/reputation?ip=86.57.167.26>]
+	0.01 INVALID_DATE           Invalid Date: header (not RFC 2822)
+	0.01 X_MAILER_PRESENT       exists:X-Mailer
+	1.80 SARE_ADLTSUB2          Contains possible adult words
+	2.00 BSF_SC1_7561           Subject has words that are profanity or are
+	                           sexually-explicit
+	1.66 HELO_DYNAMIC_DHCP      Relay HELO'd using suspicious hostname (DHCP)
+	1.89 DATE_IN_FUTURE_96_XX   Date: is 96 hours or more after Received: date
+	2.03 MSGID_OUTLOOK_INVALID  Message-Id is fake (in Outlook Express format)
+	3.00 BSF_SC0_SA119a         BODY: Custom Rule SA119a
+	0.13 HTML_TAG_EXIST_TBODY   BODY: HTML has "tbody" tag
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.26 HTML_FONT_BIG          BODY: HTML tag for a big font size
+	0.01 BSF_SC2_SA022a         Custom Rule SA022a
+	0.00 SUBJECT_EXCESS_BASE64  Subject: base64 encoded encoded unnecessarily
+	0.10 RDNS_DYNAMIC           Delivered to trusted network by host with
+	                           dynamic-looking rDNS
+	1.76 INVALID_DATE_2         Invalid Date: header (not RFC 2822)
+	0.00 BSF_SC0_TG035a         Message contains invalid style definition
+	1.00 BSF_SC0_SA119b         Custom Rule SA119b
+	1.00 BSF_SC1_TG070          Custom Rule TG070
+	1.00 BSF_SC1_TG070b         Custom Rule TG070b
+	3.50 BSF_SC5_SA011          Custom Rule SA011
+	1.10 BSF_SC0_SA081          Custom Rule SA081
+	2.50 BSF_SC5_SA011c         Custom Rule SA011c
+	0.10 BSF_SC0_SA085          Custom Rule SA085
+	1.50 BSF_SC0_SA082_OFFN_HL  Custom Rule SA082_OFFN_HL
+	1.50 BSF_SC0_SA081_HL       Custom Rule SA081_HL
+	4.00 BSF_SC1_TG103d         Custom Rule TG103d
+	3.00 BSF_SC5_SA269_HL       Custom Rule SA269_HL
+	  10 BSF_SC2_SA021          Custom Rule SA021
+	2.00 BSF_SC0_SA275a_HL      Custom Rule SA275a_HL
+	2.00 BSF_SC0_SA119_HL       Custom Rule SA119_HL
+X-Barracuda-Spam-Flag: YES
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0023_37_70909336.AB32CECE
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+
+
+
+=20
+
+ =20
+ =20
+   =20
+      Canadian ***=20
+      Pharmacy=20
+      #1 Internet Inline=20
+    Drugstore
+ =20
+   =20
+   =20
+      V 1 1 A G R A
+
+          Our price $1.15
+   =20
+   =20
+      C I 1 A 1 1 S
+
+          Our price $1.99
+   =20
+   =20
+      L E V I 1 T R A.
+
+      Our price $2.93
+ =20
+   =20
+   =20
+      V 1 1 A G R A
+S0FT =20
+      Tab`s
+
+      Our price $1.64
+   =20
+   =20
+      V 1 1 A G R A
+Super=20
+      Active
+
+      Our price $2.82
+   =20
+   =20
+      C I 1 A 1 1 S
+ Super=20
+      Active
+
+      Our price $3.66
+ =20
+   =20
+   =20
+      V 1 1 A G R A Professional
+
+          Our price $3.73
+   =20
+   =20
+      C I 1 A 1 1 S Professional
+
+      Our price $4.17
+   =20
+   =20
+      C I 1 A 1 1
+S0FT =20
+      Tab`s
+
+      Our price $3.51
+ =20
+    And=20
+      more...
+ =20
+   =20
+     =20
+       =20
+       =20
+          Click=20
+  here
+=20
+that send into 10 business call change see when hit free when give feel out=
+ whole forward
+god talk after did looking follow working may than why after while i first =
+so room quite
+sorry movie off trying tinyurl.com buy enough mac bit enough man said eat r=
+emember how year does
+early late lot doing por use phone funny early ok fuck 8 test that send int=
+o 10
+
+
+
+------=_NextPart_000_0023_37_70909336.AB32CECE
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1"=
+>
+<META content=3D"MSHTML 6.00.6000.16788" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D2>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<TABLE height=3D300 cellSpacing=3D0 cellPadding=3D2 width=3D600 border=3D0>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dmiddle bgColor=3D#5492c3>
+    <TD colSpan=3D6>
+      <DIV><FONT face=3D"Arial Narrow" color=3D#ffffff size=3D4><STRONG><FO=
+NT=20
+      size=3D5>Canadian&nbsp;*<FONT color=3D#ff0000>*</FONT><FONT color=3D#=
+ffffff>*=20
+      Pharmacy</FONT></FONT> </STRONG></FONT></DIV>
+      <DIV><FONT color=3D#e0e0e0 size=3D2>#1 Internet Inline=20
+    Drugstore</FONT></DIV></TD></TR>
+  <TR>
+    <TD align=3Dleft width=3D50></TD>
+    <TD width=3D150 height=3D70>
+      <DIV align=3Dleft><FONT=20
+      face=3D"Times New Roman"><STRONG>V 1 1 A G R A</STRONG><BR>
+          Our price <FONT=20
+      color=3D#ff0000>$1.15</FONT></FONT></DIV></TD>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150>
+      <DIV align=3Dleft><FONT=20
+      face=3D"Times New Roman"><STRONG>C I 1 A 1 1 S</STRONG><BR>
+          Our price <FONT=20
+      color=3D#ff0000>$1.99</FONT></FONT></DIV></TD>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150>
+      <DIV align=3Dleft><FONT face=3D"Times New Roman"><STRONG>L E V I 1 T =
+R A<font size=3D"2">.</font></STRONG><BR>
+      Our price <FONT=20
+      color=3D#ff0000>$2.93</FONT></FONT></DIV></TD></TR>
+  <TR>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150 height=3D70>
+      <DIV align=3Dleft><FONT face=3D"Times New Roman"><STRONG>V 1 1 A G R =
+A<BR>S0FT =20
+      Tab`s</STRONG><BR>
+      Our price <FONT=20
+      color=3D#ff0000>$1.64</FONT></FONT></DIV></TD>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150>
+      <DIV align=3Dleft><FONT face=3D"Times New Roman"><STRONG>V 1 1 A G R =
+A<BR>Super=20
+      Active</STRONG><BR>
+      Our price <FONT=20
+    color=3D#ff0000>$2.82</FONT></FONT></DIV></TD>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150>
+      <DIV align=3Dleft><FONT face=3D"Times New Roman"><STRONG>C I 1 A 1 1 =
+S<BR><font size=3D"2"> </font>Super=20
+      Active</STRONG><BR>
+      Our price <FONT=20
+    color=3D#ff0000>$3.66</FONT></FONT></DIV></TD></TR>
+  <TR>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150 height=3D70>
+      <DIV align=3Dleft><FONT=20
+      face=3D"Times New Roman"><STRONG>V 1 1 A G R A Professional</STRONG><=
+BR>
+          Our price <FONT=20
+      color=3D#ff0000>$3.73</FONT></FONT></DIV></TD>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150>
+      <DIV align=3Dleft><FONT face=3D"Times New Roman"><STRONG>C I 1 A 1 1 =
+S Professional<font size=3D"2"></font></STRONG><BR>
+      Our price <FONT=20
+color=3D#ff0000>$4.17</FONT></FONT></DIV></TD>
+    <TD align=3Dleft width=3D50><FONT face=3D"Times New Roman"></FONT></TD>
+    <TD width=3D150>
+      <DIV align=3Dleft><FONT face=3D"Times New Roman"><STRONG>C I 1 A 1 1<=
+BR>S0FT =20
+      Tab`s</STRONG><BR>
+      Our price <FONT=20
+  color=3D#ff0000>$3.51</FONT></FONT></DIV></TD></TR>
+  <TR align=3Dmiddle>
+    <TD align=3Dmiddle colSpan=3D6 height=3D39><FONT face=3D"Times New Roma=
+n">And=20
+      more...</FONT></TD></TR>
+  <TR align=3Dmiddle>
+    <TD colSpan=3D6 height=3D39>
+      <TABLE=20
+      style=3D"BORDER-RIGHT: #9bc2e5 2px solid; BORDER-TOP: #9bc2e5 4px sol=
+id; BORDER-LEFT: #9bc2e5 3px solid; BORDER-BOTTOM: #9bc2e5 4px solid"=20
+      height=3D30 cellSpacing=3D0 cellPadding=3D2 width=3D200 border=3D0>
+        <TBODY>
+        <TR>
+          <TD align=3Dmiddle><A style=3D"COLOR: #ff7401"=20
+            href=3D"http://m.www.yahoo.com/_ylt=3DArUxFQBcq_.8XDDCPbUGAKabv=
+Zx4/SIG=3D11k01qcpg/**http%3A//r.mail.ru/clb453217/fannie.topmiddle.com"><F=
+ONT face=3DTahoma=20
+            size=3D4><STRONG>Click=20
+  here</STRONG></FONT></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TAB=
+LE></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2>that send into 10 business call change see=
+ when hit free when give feel out whole forward</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>god talk after did looking follow working =
+may than why after while i first so room quite</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>sorry movie off trying tinyurl.com buy eno=
+ugh mac bit enough man said eat remember how year does</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>early late lot doing por use phone funny e=
+arly ok fuck 8 test that send into 10</FONT></DIV>
+
+<DIV>&nbsp;</DIV></BODY></HTML>
+
+------=_NextPart_000_0023_37_70909336.AB32CECE--
+
+

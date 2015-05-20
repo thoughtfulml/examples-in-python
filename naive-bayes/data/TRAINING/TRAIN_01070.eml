@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281f60382e93fe8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs102869wfj;
+        Wed, 21 Apr 2010 00:58:39 -0700 (PDT)
+Received: by 10.114.32.34 with SMTP id f34mr6881025waf.133.1271836719204;
+        Wed, 21 Apr 2010 00:58:39 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 31si12108902pzk.99.2010.04.21.00.58.39;
+        Wed, 21 Apr 2010 00:58:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id EA4E01BB7401E
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 00:58:38 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E32D126FAD189
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 00:58:38 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 796C526FACFB0
+	for <quicktime-api@lists.apple.com>;
+	Wed, 21 Apr 2010 00:58:22 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 68006D378FC5
+	for <quicktime-api@lists.apple.com>;
+	Wed, 21 Apr 2010 00:58:22 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-58-4bceb01d6269
+Received: from mail-qy0-f177.google.com (mail-qy0-f177.google.com
+	[209.85.221.177])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	30.25.17067.E10BECB4; Wed, 21 Apr 2010 00:58:22 -0700 (PDT)
+Received: by qyk7 with SMTP id 7so729526qyk.6
+	for <quicktime-api@lists.apple.com>;
+	Wed, 21 Apr 2010 00:58:21 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.81.144 with HTTP; Wed, 21 Apr 2010 00:58:20 -0700 (PDT)
+Date: Wed, 21 Apr 2010 00:58:20 -0700
+Received: by 10.229.190.213 with SMTP id dj21mr6055527qcb.66.1271836700680; 
+	Wed, 21 Apr 2010 00:58:20 -0700 (PDT)
+Message-ID: <z2te4c5112a1004210058p50dba298v841367b8c25fdf9@mail.csmining.org>
+From: Matt Veenstra <matts_lists@tribalmedia.com>
+To: quicktime-api@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAxO1VpgTth2SE7ZYTA==
+Subject: Sequence Grabber and Movie Sync - Recording starts earlier
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi everyone,
+
+We are struggling with an offset issue in trying to sync a movie
+playing in the background with the start of a sequence grabber record.
+ The end result of the capture always seems to be ahead of the actual
+movie that is playing back.  We are trying to pipe the end result into
+an audio echo cancellation library and this offset is causing pain.
+
+Here is the issue.
+
+- We use SGDataProc callback for the recording and preview.
+- We start by calling SGStartRecord() for the preview.
+- We then PreRoll() the movie and set up all the capture movies.
+- We share the SG SoundChannel clock with the movie, and the VideoChannel.
+- After this is all complete we call SetMovieRate() to start the
+movie.  And then log a time stamp from the clock for recording.  This
+happens about 5 seconds after previewing.
+- We call AddMediaSample() when the time stamps (adjusted for scale)
+passed into the proc are greater than the time set for recording.  We
+adjust the audio buffer and sample input so this is cut at the right
+time based on the time stamp.
+- We are using a USB Audio Mic and a USB Video Camera.
+- We have good A/V sync (lip sync)
+- When we compare the recorded track to the background track the
+recorded echo starts before the echo in the movie.  This is by about
+0.1 seconds give or take.  One would expect the echo to happen after
+not before.
+
+We have tried to manually offset the time stamp for start time.  But
+this then produces A/V sync (lip sync) issues.  I assume this is
+because our
+video frame is getting there faster than our audio frame.  As one would expect.
+
+Is there any reason why these frames are getting dropped in the
+recording?  Does anyone have any ideas to get these 2 in sync.
+
+Thx for your time,
+Matt
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

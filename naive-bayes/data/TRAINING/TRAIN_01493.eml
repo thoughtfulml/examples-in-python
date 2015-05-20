@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ad37f1dc025e9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs27167wfo;
+        Tue, 18 May 2010 14:00:46 -0700 (PDT)
+Received: by 10.223.99.156 with SMTP id u28mr8809417fan.53.1274216444376;
+        Tue, 18 May 2010 14:00:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e19si16640349fai.48.2010.05.18.14.00.43;
+        Tue, 18 May 2010 14:00:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E4BBC13A5236; Tue, 18 May 2010 21:00:24 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.4 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FVGT_m_MULTI_ODD,GMAIL,IMPRONONCABLE_2,MDO_DATING2,
+	PGPSIGNATURE autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 82D9F13A5233
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 21:00:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.68 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, GMAIL=1,
+	IMPRONONCABLE_2=1, MDO_DATING2=0.1, PGPSIGNATURE=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id RLcGlj6M4QiI for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 21:00:06 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id F0D4613A522D
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 21:00:05 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id B75B73A662F
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 23:00:03 +0200 (CEST)
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Subject: Re: X11 just froze, and /var/log/syslog (dmesg)'s output seems to   mean something
+Date: Tue, 18 May 2010 22:55:08 +0200
+Message-ID: <87fx1p7wwj.fsf@merciadriluca-station.MERCIADRILUCA>
+References: <4BF2BB78.9090002@student.ulg.ac.be> <pan.2010.05.18.17.20.50@csmining.org> <877hn1ytfh.fsf@merciadriluca-station.MERCIADRILUCA> <pan.2010.05.18.20.02.09@csmining.org>
+To: debian-user@lists.debian.org
+Organization: ULg
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+Cancel-Lock: sha1:kkEP7hWV1cyUb1Pjo7sCsrzFR8U=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+NNTP-Posting-Host: 62.197.101.67
+X-Trace: news.sunsite.dk DXC=e6de7jX_ab4\:k25BLkF8;YSB=nbEKnk;QZdgl@i=>26B`G2cTG;Mn1LGVLjEY^2Y8[=LHD=0P^Y49g\V1BeNHO95Z@8`56Df90>0_g4HJ[3a2E[h4S4V_kl7
+X-Complaints-To: staff@sunsite.dk
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eLxGr-80S-33@gated-at.bofh.it> <eLyMa-19f-11@gated-at.bofh.it> <eLzyx-2xe-5@gated-at.bofh.it> <eLBgZ-5jB-1@gated-at.bofh.it>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <iSWMM3AFvfG.A.HuD.o_v8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577145
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 21:00:24 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón <noelamac@csmining.org> writes:
+
+> On Tue, 18 May 2010 20:08:02 +0200, Merciadri Luca wrote:
+>
+>> Camaleón writes:
+>
+>>> Just review your "/var/log/Xorg.0.log". If X crashed there must
+>>> something there :-?
+>> Nothing really interesting there. Just:
+>> 
+>> ==
+>> AUDIT: Tue May 18 18:01:04 2010: 3716 X: client 33 rejected from local
+>> host (uid 0)
+>>   Auth name: MIT-MAGIC-COOKIE-1 ID: -1
+>> ==
+>> but 18:01:24 seems to be when I asked to restart gdm.
+>
+> Nothing more in the rest of the "/var/log/Xorg.x.log" files?
+No. Weird.
+
+>
+>> Note that I do not think that X crashed entirely. I just mean that the
+>> screen was looking like frozen, but screensaver was still moving...
+>> slowly, or sometimes really slowly.
+>
+> Next time it happens, go to a tty and type "top" to list the processes in 
+> use. Sort the table by CPU cycles and/or memory use. The slowness could 
+> be caused by a "rampant" program consuming a lot of resources.
+Okay. Thanks!
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Love is like war, Easy to start, Hard to end, Impossible to forget.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 <http://mailcrypt.sourceforge.net/>
+
+iEYEARECAAYFAkvy/qwACgkQM0LLzLt8MhyleACdE1SB1i3O5/Qv4sGEkHl3pn8R
+fooAn1Cq6U6XVwGs6VBAhfGSuDqi7Ave
+=HdAk
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87fx1p7wwj.fsf@merciadriluca-station.MERCIADRILUCA
+
+

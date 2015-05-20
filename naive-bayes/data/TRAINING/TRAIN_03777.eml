@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283ba569d25baf1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs102220wfj;
+        Mon, 26 Apr 2010 12:43:38 -0700 (PDT)
+Received: by 10.86.126.4 with SMTP id y4mr3106325fgc.47.1272311015807;
+        Mon, 26 Apr 2010 12:43:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si1462741fkr.9.2010.04.26.12.43.35;
+        Mon, 26 Apr 2010 12:43:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5CCAB13A4ED4; Mon, 26 Apr 2010 19:41:15 +0000 (UTC)
+Old-Return-Path: <andy@earthsong.free-online.co.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CF5FE13A4EB4
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 19:41:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kHeGoD+gMJWI for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 19:41:01 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 2233 seconds by postgrey-1.31 at liszt; Mon, 26 Apr 2010 19:41:01 UTC
+Received: from newyear.aktivix.org (newyear.aktivix.org [209.234.249.206])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 5DFAF13A4EBF
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 19:41:01 +0000 (UTC)
+Received: from newyear.aktivix.org by newyear.aktivix.org with esmtpsa; Mon, 26 Apr 2010 19:03:44 +0000
+Message-ID: <4BD5E2E3.7010207@earthsong.free-online.co.uk>
+Date: Mon, 26 Apr 2010 20:00:51 +0100
+From: andy baxter <andy@earthsong.free-online.co.uk>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+To: debian-user <debian-user@lists.debian.org>
+Subject: using samba with unix acls
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <pTWQs6FjPjN.A.0nB.bxe1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575171
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 19:41:15 +0000 (UTC)
+
+hi all,
+
+I am setting up a file server for a small company. The people who will 
+be using it want to be able to control who accesses particular 
+directories on a user/group basis. I originally thought that it would be 
+enough to set up a standard samba system with unix home directories, 
+plus shares for each group of users (admin / tech etc.), but they are 
+keen to have a system which allows them to make some parts of the 
+filesystem available to more than one group, which as far as I know 
+isn't supported by this kind of setup. (Unless I were to have shares for 
+each possible combination of groups...)
+
+I think that to achieve this I will need to set up samba with unix ACLs, 
+but I'm not sure what's the best way of doing this - the two options 
+seem to be using a patched kernel with an ext3 filesystem, or else using 
+the XFS filesystem which has built in ACL support. Which of these would 
+you recommend?
+
+The XFS option seems a lot simpler to maintain (no need to patch the 
+kernel every time an update is released), but I'm worried that because 
+this filesystem is not used so much, it may not be as reliable as ext3.
+
+Thanks for any help with this,
+
+andy baxter, lancaster UK.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD5E2E3.7010207@earthsong.free-online.co.uk
+
+

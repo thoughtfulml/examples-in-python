@@ -1,0 +1,122 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d2b98e4e8c27f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs183855wfa;
+        Tue, 6 Apr 2010 03:45:28 -0700 (PDT)
+Received: by 10.115.36.31 with SMTP id o31mr5884623waj.79.1270550728332;
+        Tue, 06 Apr 2010 03:45:28 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 34si17578146iwn.89.2010.04.06.03.45.27;
+        Tue, 06 Apr 2010 03:45:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 2BCF81BCE4801
+	for <mlsubscriber.tech@csmining.org>; Tue,  6 Apr 2010 03:45:27 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 2525B268A834D
+	for <mlsubscriber.tech@csmining.org>; Tue,  6 Apr 2010 03:45:27 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 2F076268A7CF1
+	for <java-dev@lists.apple.com>; Tue,  6 Apr 2010 03:44:27 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 0D866C839A89
+	for <java-dev@lists.apple.com>; Tue,  6 Apr 2010 03:44:27 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bffae00000768e-f8-4bbb0d95d706
+Received: from ey-out-1920.google.com (ey-out-1920.google.com [74.125.78.144])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	E4.31.30350.59D0BBB4; Tue,  6 Apr 2010 03:31:50 -0700 (PDT)
+Received: by ey-out-1920.google.com with SMTP id 26so264442eyw.4
+	for <java-dev@lists.apple.com>; Tue, 06 Apr 2010 03:31:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:subject:mime-version
+	:content-type:from:in-reply-to:date:cc:content-transfer-encoding
+	:message-id:references:to:x-mailer;
+	bh=EgdX9oi4qKeOsPH7Ce1v1vZcvtI7LUi/OL46esORF6o=;
+	b=X5IElJL7UJKn9cM9Dbpfi3gIQwAn3UcKyAXnu3zXP/qrLVL/tWGs5aQ8PDHG4DZk2O
+	ovXpAhqy6eOkKz70+eNYiNtHeu9GRjsqIUs9RjBOkmBny8OY701HDtYxq0yXTw6/fi+u
+	imbrwqkYoPIgawec0ssZT6U32fH1nIqwlzN2k=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=subject:mime-version:content-type:from:in-reply-to:date:cc
+	:content-transfer-encoding:message-id:references:to:x-mailer;
+	b=lU8Lqjk01VsdyZ/I6UN/M2o0cWT+O9dicy50V5AvdfxbEqVDljJeBhAk9iFek2TE/g
+	nmCGedUuVbqR7J9t/D2DmUaPswjjtmkPO90jZDEHpkWBTZFsXauB0kT7cRPA5Nk7QgfC
+	u9dRgLFiEKCKASe9fZEtU6xnii68jYjCvEIRk=
+Received: by 10.213.43.83 with SMTP id v19mr3818704ebe.1.1270549908606;
+	Tue, 06 Apr 2010 03:31:48 -0700 (PDT)
+Received: from [10.247.105.120] (aggw006.cappelendamm.no [93.124.242.6])
+	by mx.google.com with ESMTPS id 13sm6984318ewy.5.2010.04.06.03.31.44
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Tue, 06 Apr 2010 03:31:45 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Harald Kuhr <harald.kuhr@csmining.org>
+In-Reply-To: <2428E383-E342-4670-8B46-8438B5C60E4E@elluminate.com>
+Date: Tue, 6 Apr 2010 12:31:43 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <C01E155E-868F-4877-AB86-6481F9B7EA7C@csmining.org>
+References: <20100401190532.51513266FB27B@lists.apple.com>
+	<35202D37-64E6-49FE-A272-6224F61C3578@elluminate.com>
+	<4BB5A022.9010406@fastmail.fm>
+	<2428E383-E342-4670-8B46-8438B5C60E4E@elluminate.com>
+To: Doug Zwick <dougzwick@elluminate.com>, paul_t100@fastmail.fm
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAhOG1kATh8KS
+Cc: "java-dev@lists.apple.com list" <java-dev@lists.apple.com>
+Subject: Re: Dragging image from Google Chrome crashes onto Java application
+	crashes it
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On 5. apr. 2010, at 19.34, Doug Zwick wrote:
+
+> I put an additional try/catch around the code interpreting the =
+x-java-image flavour. If that attempt fails, I fall back to one of the =
+file path or URL string flavours. It's ugly, and only really practical =
+because the code has to be able to handle drag sources that only put an =
+URL or file path in the Transferable.=20
+
+That does of course work, but you might run into issues with protected =
+resources, as you won't be able to share credentials/sessions/etc with =
+the browser (unless you get a path to the browsers locally cached =
+version of the resource).=20
+
+I did some extra testing on this topic, and found there are more things =
+going wrong: The "image/x-pict" flavor, which should contain a TIFF =
+encoded version of the image, instead contains only a null-terminated =
+string "Unsupported type". It's probably caused by the same underlying =
+problem that leads to the Error in the "image/x-java-image" case though, =
+but might help locating the bug.=20
+
+
+Best regards,
+
+--=20
+Harald K
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

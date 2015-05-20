@@ -1,0 +1,146 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ec004355de6d5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs105873wfo;
+        Sun, 11 Apr 2010 01:33:13 -0700 (PDT)
+Received: by 10.87.50.37 with SMTP id c37mr2831262fgk.68.1270974792576;
+        Sun, 11 Apr 2010 01:33:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 9si6249810fks.56.2010.04.11.01.33.12;
+        Sun, 11 Apr 2010 01:33:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6A88213A42C7; Sun, 11 Apr 2010 08:33:07 +0000 (UTC)
+Old-Return-Path: <florian.kulzer+debian@icfo.es>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.9 required=4.0 tests=FOURLA,RCVD_IN_DNSWL_MED
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2527013A59EF
+	for <lists-debian-user@liszt.debian.org>; Sun, 11 Apr 2010 08:16:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, RCVD_IN_DNSWL_MED=-4] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id XrHe4UXSNOfz for <lists-debian-user@liszt.debian.org>;
+	Sun, 11 Apr 2010 08:16:34 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from esrv1.icfo.es (esrv1.icfo.es [84.88.69.10])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "smtp.icfo.es", Issuer "TERENA SSL CA" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id DAAD013A5992
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 08:16:27 +0000 (UTC)
+Received: from isar.localhost (ALyon-153-1-83-188.w86-206.abo.wanadoo.fr [86.206.98.188])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by esrv1.icfo.es (Postfix) with ESMTP id 89C2AD146D2
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 10:16:24 +0200 (CEST)
+Date: Sun, 11 Apr 2010 10:16:22 +0200
+From: Florian Kulzer <florian.kulzer+debian@icfo.es>
+To: debian-user@lists.debian.org
+Subject: Re: What prevents mounting of USB devices?
+Message-ID: <20100411081621.GA4866@isar.localhost>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <4BC0B36A.6010105@web.de>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BC0B36A.6010105@web.de>
+X-Operating-System: Debian GNU/Linux Sid
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <DsnY7TptEqH.A.tPG.DlYwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573844
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 08:33:07 +0000 (UTC)
+
+On Sat, Apr 10, 2010 at 19:20:42 +0200, Clive McBarton wrote:
+> 
+> I run KDE and normally mount usb devices with the "Storage Media" applet
+> in the task bar. Recently I have been getting strange errors and
+> mounting failed:
+
+Which version of KDE, 3.x or 4.x? (I don't remember a task bar applet
+for mounting removable media from my KDE 3.x days - I always triggered
+mounting via the icons that appeared on the desktop for removable media
+- but I might simply not know about alternatives.)
+
+> Rejected send message, 3 matched rules; type="method_call",
+> sender=":1.21" (uid=101 pid=13921 comm="kded [kdeinit] --new-startup ")
+> interface="org.freedesktop.Hal.Device.Volume" member="Mount" error
+> name="(unset)" requested_reply=0 destination="org.freedesktop.Hal"
+> (uid=0 pid=11879 comm="/usr/sbin/hald "))	
+
+Mounting worked for you earlier, so I assume that your users are all
+members of the "plugdev" group already. I would like to see the output
+of:
+
+  awk '/<policy group="plugdev">/,/<\/policy>/' /etc/dbus-1/system.d/hal.conf
+
+> Mounting as root on the commandline still works, but it's a hassle for
+> the user who wants to simple use their usb stick.
+
+It would be interesting to know if regular users can mount USB sticks
+using pmount or pmount-hal on the command line. 
+
+> And the UUID of the usb stick is even listed in /etc/fstab so that it is
+> supposed to mount automatically when plugged in (though that does not
+> seem to work). But that may be an unrelated issue.
+
+AFAIK, you should not have any entries in fstab for removable devices
+that you want to be handled by KDE/Gnome/whatever_other_DE via the
+dbus/hal mechanism. In any case, I would avoid trying to mix different
+approaches.
+
+> Another (possibly also unrelated) issue is that when several X are
+> running (different users, all with KDE) then it seems that only one of
+> them can mount and unmount, usually the wrong user.
+
+I have seen that complaint before, also for systems on which mounting
+worked perfectly for single-user sessions, and I am not sure if a
+satisfactory solution exists. (I have no need for running multiple KDE
+sessions on the same machine, therefore I do not know much about this
+issue.)
+ 
+> Is it worth digging into hal to correct this? Given that hal won't be in
+> Debian much longer.
+
+Well, it is a problem for you right now, so why not try to solve it?
+Besides, udisks has the same main developer as hal, so I doubt that it
+will be so radically different that hal know-how will become useless. I
+have played around a bit with udisks yesterday, it seems to follow the
+same basic concepts as hal. AFAICT, udisks-daemon is simply an upgraded
+version of hald that is specialized on block devices, as one part of a
+more modular approach to hardware abstraction.
+
+-- 
+Regards,            |
+          Florian   |
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100411081621.GA4866@isar.localhost
+
+

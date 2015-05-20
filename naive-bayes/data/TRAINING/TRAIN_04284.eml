@@ -1,0 +1,90 @@
+X-Account-Key: account4
+X-UIDL: GmailId1283618e05d697fc
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: hibody@csmining.org
+Received: by 10.231.39.131 with SMTP id g3cs49519ibe;
+        Sun, 25 Apr 2010 10:52:01 -0700 (PDT)
+Received: by 10.115.39.8 with SMTP id r8mr2883928waj.228.1272217920918;
+        Sun, 25 Apr 2010 10:52:00 -0700 (PDT)
+Return-Path: <5-1007764-csmining.org?hibody@lnx6.mercedesline.net>
+Received: from lnx6.mercedesline.net (lnx6.mercedesline.net [67.50.37.94])
+        by mx.google.com with SMTP id 14si3775643iwn.11.2010.04.25.10.51.59;
+        Sun, 25 Apr 2010 10:51:59 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of 5-1007764-csmining.org?hibody@lnx6.mercedesline.net designates 67.50.37.94 as permitted sender) client-ip=67.50.37.94;
+Authentication-Results: mx.google.com; spf=pass (google.com: best guess record for domain of 5-1007764-csmining.org?hibody@lnx6.mercedesline.net designates 67.50.37.94 as permitted sender) smtp.mail=5-1007764-csmining.org?hibody@lnx6.mercedesline.net; dkim=pass header.i=@mercedesline.net
+DKIM-Signature: a=rsa-sha1; c=relaxed/relaxed;
+	d=mercedesline.net; s=s512; l=1853; x=1272822538; h=From:To:
+	Subject:Content-Type:Date:Message-ID; b=i0Yc9iDeos5WmtSvkXtWHna9
+	SkT4/dbR5ZTcs92wVrl+aHPCYhd6uBvtAzX0Q+ZYj2MTyLWYlaCZwhcortCHzQ==
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mercedesline.net; s=s512; l=1853; x=1272822538; h=From:To:
+	Subject:Content-Type:Date:Message-ID; bh=hdmPpJ4eJg43qpda+vkvVB2
+	AusI=; b=V3McQ31qnz6ioH3lr1NPS4zIYAtkcjrFAxPVXZbE1fIikcLHnhgZs0g
+	wObFwXb4w5JZMxgT/gaLs66i/xtDd4g==
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=s512; d=mercedesline.net;
+  b=n/yFFA36e4/47uBU6V2/BMFj4vVD9HyqIMWwQ5dXN5jjv1DOsNp/QSigiDuDKzC4TXP3QsUP7tq1moXJzy/cGg==;
+Received: from lnx6.mercedesline.net [67.50.37.94] by mercedesline.net [67.50.37.94];
+  Sun, 25 Apr 2010 13:30:33 GMT
+MIME-Version: 1.0
+From: Celular de pulso <celpulso@mercedesline.net>
+To: hibody@csmining.org
+Subject: O melhor celular de pulso do mundo
+Content-Type: multipart/alternative; 
+  boundary="-=8eee4c22cae7f1e39c5ec1c7c397542f";
+Date: Sun, 25 Apr 2010 13:30:33 GMT
+Message-ID: <5-1007764-8eLDsLt94SLhO78tS@lnx6.mercedesline.net>
+X-Mailer: 4.1.6-62 [Feb 27 2010, 11:27:07]
+
+
+---=8eee4c22cae7f1e39c5ec1c7c397542f
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+
+   Se você não está visualizando a imagem abaixo acesse aqui
+pulso4            
+   
+
+   
+
+Clica http://mercedesline.net/unsub.php?e=hibody@csmining.org&m=1007764 para
+cancelar.
+
+<5;2q51.5YRBj5vJ8TYj;1007764>
+---=8eee4c22cae7f1e39c5ec1c7c397542f
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body style="margin:0"><BR>
+<table 
+cellpadding=0 cellspacing=0 align=center width="100%" height="100%">
+<tr><td align=center>
+<table 
+cellpadding=0 cellspacing=0 align=center>
+<tr><td align=center><font style="
+font-family:tahoma,arial;
+font-size:12px;color:#000000">Se voc&ecirc; n&atilde;o est&aacute; visualizando a imagem abaixo <a 
+href="http://mercedesline.net/pulso4" target="_blank" style="color:#0000FF">acesse aqui</a></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td><a 
+href="http://mercedesline.net/pulso"><img 
+src="http://mercedesline.net/pulso1" width="581" height="199" border="0" alt=""></a></td></tr>
+<tr><td><a 
+href="http://mercedesline.net/pulso"><img 
+src="http://mercedesline.net/pulso2" width="581" height="288" border="0" alt=""></a></td></tr>
+<tr><td><a 
+href="http://mercedesline.net/pulso"><img 
+src="http://mercedesline.net/pulso3" width="581" height="236" border="0" alt=""></a></td></tr>
+</table><BR><BR>
+</td></tr>
+</table>
+
+<br><br>Clica <a href="http://mercedesline.net/unsub.php?e=hibody@csmining.org&m=1007764">aqui</a> para cancelar.
+<br><br><font color='#ffffff' face='arial,helvetica' size='1'><5;1KL6bLrJVuLDY4Zru;1007764></font>
+<img src="http://mercedesline.net/clickopen?msgid=1007764&email=5nrKwrzNOCr3G9UzC" width="1" height="1"></body></html>
+---=8eee4c22cae7f1e39c5ec1c7c397542f--
+
+

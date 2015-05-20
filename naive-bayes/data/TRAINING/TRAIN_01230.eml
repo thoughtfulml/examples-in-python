@@ -1,0 +1,160 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282c421ba34f0dd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs75190wfj;
+        Fri, 23 Apr 2010 13:00:51 -0700 (PDT)
+Received: by 10.86.239.8 with SMTP id m8mr1046447fgh.62.1272052849410;
+        Fri, 23 Apr 2010 13:00:49 -0700 (PDT)
+Return-Path: <bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si2776535fkt.7.2010.04.23.13.00.48;
+        Fri, 23 Apr 2010 13:00:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 650122D8C84; Fri, 23 Apr 2010 20:00:13 +0000 (UTC)
+Old-Return-Path: <thijs@loeki.tv>
+X-Original-To: lists-debian-security-announce@liszt.debian.org
+Delivered-To: lists-debian-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DA2EF2D8C70
+	for <lists-debian-security-announce@liszt.debian.org>; Fri, 23 Apr 2010 20:00:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -10.58
+XLevel: 
+XStatus: No, score=-10.58 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MURPHY_SEX_L4=0.1, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id bN3LFUdEuxTw
+	for <lists-debian-security-announce@liszt.debian.org>;
+	Fri, 23 Apr 2010 20:00:05 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from aphrodite.kinkhorst.nl (aphrodite.kinkhorst.nl [82.94.246.244])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 6181D2D0C94
+	for <debian-security-announce@lists.debian.org>; Fri, 23 Apr 2010 20:00:04 +0000 (UTC)
+Received: from morgana.loeki.tv (184-50-223.ftth.xms.internl.net [85.223.50.184])
+	by aphrodite.kinkhorst.nl (Postfix) with ESMTPSA id A84F4176289
+	for <debian-security-announce@lists.debian.org>; Fri, 23 Apr 2010 22:00:02 +0200 (CEST)
+Received: by morgana.loeki.tv (Postfix, from userid 1000)
+	id 6FE7A32678C; Fri, 23 Apr 2010 22:00:02 +0200 (CEST)
+From: Thijs Kinkhorst <thijs@debian.org>
+To: debian-security-announce@lists.debian.org
+Message-Id: <20100423200002.6FE7A32678C@morgana.loeki.tv>
+Date: Fri, 23 Apr 2010 22:00:02 +0200 (CEST)
+X-Debian: PGP check passed for security officers
+Subject: [SECURITY] [DSA 2039-1] New cacti packages fix missing input sanitising
+Priority: urgent
+Reply-To: debian-security@lists.debian.org
+Resent-Message-ID: <XHblNQkcm8H.A.j9C.Nxf0LB@liszt>
+Resent-From: debian-security-announce@lists.debian.org
+X-Mailing-List: <debian-security-announce@lists.debian.org> archive/latest/750
+X-Loop: debian-security-announce@lists.debian.org
+List-Id: <debian-security-announce.lists.debian.org>
+List-Post: <mailto:debian-security-announce@lists.debian.org>
+List-Help: <mailto:debian-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-announce-request@lists.debian.org
+Resent-Date: Fri, 23 Apr 2010 20:00:13 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ------------------------------------------------------------------------
+Debian Security Advisory DSA-2039-1                  security@debian.org
+http://www.debian.org/security/                          Thijs Kinkhorst
+April 23, 2010                        http://www.debian.org/security/faq
+- ------------------------------------------------------------------------
+
+Package        : cacti
+Vulnerability  : missing input sanitising
+Problem type   : remote
+Debian-specific: no
+Debian Bug     : 578909
+
+It was discovered that Cacti, a frontend to rrdtool for monitoring
+systems and services missed input sanitising, making an SQL injection
+attack possible.
+
+For the stable distribution (lenny), this problem has been fixed in
+version 0.8.7b-2.1+lenny2.
+
+For the unstable distribution (sid), this problem will be fixed soon.
+
+We recommend that you upgrade your cacti package.
+
+Upgrade instructions
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will install the referenced file.
+
+If you are using the apt-get package manager, use the line for
+sources.list as given below:
+
+apt-get update
+        will update the internal database
+apt-get upgrade
+        will install corrected packages
+
+You may use an automated update by adding the resources from the
+footer to the proper configuration.
+
+Debian GNU/Linux 5.0 alias lenny
+- --------------------------------
+
+Source archives:
+
+  http://security.debian.org/pool/updates/main/c/cacti/cacti_0.8.7b-2.1+lenny2.diff.gz
+    Size/MD5 checksum:    37338 16b43e80a447a185f5372372836104ed
+  http://security.debian.org/pool/updates/main/c/cacti/cacti_0.8.7b.orig.tar.gz
+    Size/MD5 checksum:  1972444 aa8a740a6ab88e3634b546c3e1bc502f
+  http://security.debian.org/pool/updates/main/c/cacti/cacti_0.8.7b-2.1+lenny2.dsc
+    Size/MD5 checksum:     1408 468d418ebedfd326081cbb159c159b55
+
+Architecture independent packages:
+
+  http://security.debian.org/pool/updates/main/c/cacti/cacti_0.8.7b-2.1+lenny2_all.deb
+    Size/MD5 checksum:  1826020 b88356b2559091ae8444b93b5234e881
+
+
+  These files will probably be moved into the stable distribution on
+  its next update.
+
+- ---------------------------------------------------------------------------------
+For apt-get: deb http://security.debian.org/ stable/updates main
+For dpkg-ftp: ftp://security.debian.org/debian-security dists/stable/updates/main
+Mailing list: debian-security-announce@lists.debian.org
+Package info: `apt-cache show <pkg>' and http://packages.debian.org/<pkg>
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJL0fvtAAoJECIIoQCMVaAceK0H/jud0EGRDRnk4Lwd2Io8JyTr
+mJmuYrVrSKa4DnDd4y62xShPqKUvc9Fs4mbQb4an8aNinyTR9m6CSqF5qs1T6oAt
+zcvSNdDetj3H/wqJ24T3oUpCadNu7FNUBPj0VLjqZL4G7NuHqxoyvPEkDyYBjIUB
+abqgJWsG7RXiuGbNPsCRzcp2AASaTH4iQ2GELCsZ50TQxW+1v+GHneqjAwSHYI4n
+cPO+SumkZ5k6oPEwzKpQm9ja3e3rz/kb7SogDVexCeH7sBZG2N2fo6OCv8T8PvpW
+zYy2pGmZXvtSAu/zeBBXvdox7byfAchKQFRRbZRYhUVODYn5/iFAV8FoGmqXbkE=
+=0ixH
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100423200002.6FE7A32678C@morgana.loeki.tv
+
+

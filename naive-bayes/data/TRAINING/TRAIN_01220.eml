@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286f82ee43d0dd0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs418420wfb;
+        Thu, 6 May 2010 14:26:12 -0700 (PDT)
+Received: by 10.223.5.89 with SMTP id 25mr7278822fau.87.1273181171216;
+        Thu, 06 May 2010 14:26:11 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si804965fah.47.2010.05.06.14.26.10;
+        Thu, 06 May 2010 14:26:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 58B3C13A5863; Thu,  6 May 2010 21:26:07 +0000 (UTC)
+Old-Return-Path: <budinero@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 644AF13A5857
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 21:26:01 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=unavailable
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id CRCq054nxa2q for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 21:25:54 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-iw0-f199.google.com (mail-iw0-f199.google.com [209.85.223.199])
+	by liszt.debian.org (Postfix) with ESMTP id D540413A5854;
+	Thu,  6 May 2010 21:25:53 +0000 (UTC)
+Received: by iwn37 with SMTP id 37so72563iwn.30
+        for <multiple recipients>; Thu, 06 May 2010 14:25:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=MryZ7sjDiizhNt908qw3KA5ayPauMZ8GGHbFvPyu+zA=;
+        b=X7ytBvgCbLXHzr9I4dbCdO2Ga3Eu7rsPA3ObGft+6cKdk6ueFLze8jv/+sloMKlIjH
+         rED79Pngg0s7HjyknFx5cxhC53Y+Gw3tAmbNVUkud7gVxQdbLIzbXc+C9AB/Bpne4Bcq
+         5CXp2kC65FjcRn4WVrRGu+z7N+3sG2px9ka3U=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+         :content-type:content-transfer-encoding:message-id;
+        b=dhACDDgo9Y4MKcg/lRF9FB9sx8wwYINd0hRdD/K4V3nVBqBONqX9qxF1r40Ew8JjMC
+         uVtays54PwyZcbyh0+AMWvRavaJVoQQNwb2uO3cTqZy/TvLUaVNaOAh0HPo1gERc38X3
+         AZTrh9qmRQrXJxDTNDsh8VaT7LlIhLOJKccfQ=
+Received: by 10.231.172.210 with SMTP id m18mr2522324ibz.21.1273181146029;
+        Thu, 06 May 2010 14:25:46 -0700 (PDT)
+Received: from budibook.localnet (gea.ing.unrc.edu.ar [170.210.133.54])
+        by mx.google.com with ESMTPS id cm22sm499762ibb.11.2010.05.06.14.25.43
+        (version=SSLv3 cipher=RC4-MD5);
+        Thu, 06 May 2010 14:25:45 -0700 (PDT)
+From: Facundo Aguilera <budinero@csmining.org>
+To: debian-kde@lists.debian.org,
+ debian-user@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Date: Thu, 6 May 2010 18:26:31 -0300
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-amd64; KDE/4.4.3; x86_64; ; )
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org> <201005061145.02317.budinero@csmining.org> <20100506210142.GA27890@n0nb.us>
+In-Reply-To: <20100506210142.GA27890@n0nb.us>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <201005061826.32061.budinero@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-qlfvSuazGF.A.jf.vPz4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32193
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 21:26:07 +0000 (UTC)
+
+El Jueves 06 Mayo 2010 18:01:42 Nate Bargmann <n0nb@n0nb.us> escribi=F3:
+> * On 2010 06 May 09:45 -0500, Facundo Aguilera wrote:
+> > El Jueves 06 Mayo 2010 10:22:09 Nate Bargmann <n0nb@n0nb.us> escribi?:
+> > > I'm tired of typing this time and again:
+> > >=20
+> > > No speaker beep in Konsole--dev says, "Too bad."
+> >=20
+> > Konsole -> settings -> notifications -> bell in current session -> run
+> > "beep"
+> >=20
+> > (aptitude install beep)
+> >=20
+> > Is this what you want?
+>=20
+> I have been doing that as a work-around which is not ideal as it is much
+> slower than the PC speaker beep, especially for tab completion.  It
+> seems to take some time to load between successive tab key presses.
+>=20
+> - Nate >>
+
+If beep doesn't beep in your PC speaker, maybe the problem is your system=20
+configuration.
+
+=46acundo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061826.32061.budinero@csmining.org
+
+

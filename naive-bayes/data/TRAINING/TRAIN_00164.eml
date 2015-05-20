@@ -1,0 +1,134 @@
+X-Account-Key: account5
+X-UIDL: GmailId12882dfe17a9d9d7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs18447wfb;
+        Mon, 10 May 2010 08:40:30 -0700 (PDT)
+Received: by 10.223.30.130 with SMTP id u2mr4553096fac.70.1273506029717;
+        Mon, 10 May 2010 08:40:29 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z20si8822218fah.8.2010.05.10.08.40.29;
+        Mon, 10 May 2010 08:40:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2625113A580D; Mon, 10 May 2010 15:40:25 +0000 (UTC)
+Old-Return-Path: <thevalik@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9E69113A53B2
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 15:40:19 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 3l6R2Cj9C2NX for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 15:40:12 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yx0-f204.google.com (mail-yx0-f204.google.com [209.85.210.204])
+	by liszt.debian.org (Postfix) with ESMTP id 8179B13A5372
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 15:40:06 +0000 (UTC)
+Received: by yxe42 with SMTP id 42so2231750yxe.24
+        for <debian-kde@lists.debian.org>; Mon, 10 May 2010 08:39:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=IcmVvK+jEpw9i8dpyuYO/gmgadNClkoApyLMvTN3tDo=;
+        b=lc4KClSTjNDY1Wiiz1qP2r3BlWzqNlwZ63zdWd1VuXB2IPQ4lsXQVdqrRLghxBX54m
+         lQ3ULqXozsVn6ubYyeBoVbHuPOJlzPP6YUutpDyZyPQFrRY+lEM3vdzgHqNLIORVptJy
+         nn97qT004xmJcPEI6VaVlBJeJ0VKH5n496gcE=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=E4B3fIE0P4dstYbzXCMF0rbItKrw9R2wp5lLI+xxEGz/YqGuvWG1eiYZTlpcpE7ZRv
+         P59CKHT8b7ZYkVByXcwexv8TuQiFVo8IaCv592QRsEdH7V5NORybMlCkBrdhj5NM+VXm
+         IFtDNcgQO0pHIjKjXlMLTiyd2rkOI1C6dlWgE=
+MIME-Version: 1.0
+Received: by 10.100.245.27 with SMTP id s27mr193212anh.53.1273505993471; Mon, 
+	10 May 2010 08:39:53 -0700 (PDT)
+Received: by 10.100.172.11 with HTTP; Mon, 10 May 2010 08:39:53 -0700 (PDT)
+In-Reply-To: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+Date: Mon, 10 May 2010 18:39:53 +0300
+Message-ID: <AANLkTilmJH5xC584VbDBnqGdNjRxpZxY-gJZkOBTjtc0@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Valentin Pavlyuchenko <thevalik@csmining.org>
+To: debian-kde <debian-kde@lists.debian.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Y9ByCXAN44N.A.rwC.pjC6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32312
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 15:40:25 +0000 (UTC)
+
+Well, I have an issue that remained on my Debian system from KDE 4.3
+or even 4.2 (And I have it now in 4.4).
+It's a krunner freeze when typing (usually I got it when I mistype something).
+If I'm not alone, then it's definitely the bug that must be solved.
+
+--
+Best regards,
+Valentin Pavlyuchenko
+
+
+
+2010/5/10 Dotan Cohen <dotancohen@csmining.org>:
+> Please tell us what problems, bugs, or issues KDE 4 that make it
+> difficult to use. Please be very specific so that bugs can be filed
+> and the software can be fixed. General statements such as "KDE4 sux"
+> are not welcome, as they do not give any indication as to what can be
+> fixed.
+>
+> Comparisons to KDE 3 are welcome, but please do not simply state
+> "should be like KDE 3". Rather, please state how KDE 4 behaves, and
+> how you would prefer it to behave (even if that means describing in
+> detail KDE 3 behaviour).
+>
+> My intention is to file issues and get bugs fixed, not to fight.
+> Nobody is ordered to participate in this thread, but all are welcome.
+>
+>
+> --
+> Dotan Cohen
+>
+> http://bido.com
+> http://what-is-what.com
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilmJH5xC584VbDBnqGdNjRxpZxY-gJZkOBTjtc0@mail.csmining.org
+
+

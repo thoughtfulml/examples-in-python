@@ -1,0 +1,337 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285479960f7e32f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs151040wfj;
+        Sat, 1 May 2010 08:26:15 -0700 (PDT)
+Received: by 10.87.53.28 with SMTP id f28mr6368120fgk.70.1272727574024;
+        Sat, 01 May 2010 08:26:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si5183461fkq.17.2010.05.01.08.26.13;
+        Sat, 01 May 2010 08:26:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 496D413A48C5; Sat,  1 May 2010 15:26:06 +0000 (UTC)
+Old-Return-Path: <Alois.Mahdal@zxcvb.cz>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-2.5 required=4.0 tests=FOURLA,FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_1,IMPRONONCABLE_2,LDOSUBSCRIBER,MURPHY_SEX_L4,
+	MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,OPERAMAIL autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5D76A13A45FA
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 15:26:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=1.52 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_1=1, IMPRONONCABLE_2=1, MURPHY_SEX_L4=0.1,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2, OPERAMAIL=1]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id uy9jef8julQq for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 15:25:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 302 seconds by postgrey-1.31 at liszt; Sat, 01 May 2010 15:25:51 UTC
+Received: from mail.profitux.cz (mail.profitux.cz [82.208.21.20])
+	(using SSLv3 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "mail.profitux.cz", Issuer "CA Cert Signing Authority" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id C4F0213A4692
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 15:25:51 +0000 (UTC)
+Received: from hugo.lennycz-depot ([::ffff:89.103.89.227])
+  (AUTH: LOGIN alois.mahdal@zxcvb.cz, SSL: TLSv1/SSLv3,256bits,AES256-SHA)
+  by mail with esmtp; Sat, 01 May 2010 17:20:51 +0200
+  id 0000000000035CC5.000000004BDC46D3.00004168
+Content-Type: text/plain; charset=utf-8; format=flowed; delsp=yes
+To: debian-user@lists.debian.org
+Date: Sat, 01 May 2010 17:20:56 +0200
+Subject: Broken dependencies
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+From: "Alois Mahdal" <Alois.Mahdal@zxcvb.cz>
+Message-ID: <op.vb08w6ej53tp3f@hugo.lennycz-depot>
+User-Agent: Opera Mail/10.10 (Linux)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <RZ7hHoxXlFP.A.eZH.OgE3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575627
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 15:26:06 +0000 (UTC)
+
+Hello,
+
+because a stupid mistake, I have interrupted apt-get during early stage of  
+dist-upgrade from Lenny to Squeeze.
+
+Now I cannot get apt-get working and I don't know how to fix it.
+
+Could anyone of you please help me? I'll be also happy with advice on how  
+to get proper debug info for you, of course.
+
+$ apt-get -fyo Debug::pkgProblemResolver=yes upgrade
+
+...returns:
+
+---------------------------------------------------
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages have been kept back:
+   abiword abiword-plugin-grammar abiword-plugin-mathview alacarte  
+alsa-utils
+   amule amule-common amule-utils apt apt-utils aptitude at at-spi  
+avahi-daemon
+   bash bind9-host bluetooth bogofilter-bdb brasero bsh bsh-gcj  
+capplets-data
+   cheese cmake cpp cpp-4.3 cron cups cups-bsd cups-client
+   cups-driver-gutenprint cupsddk dasher dasher-data dbus dbus-x11
+   debian-keyring debianutils default-jre default-jre-headless  
+deskbar-applet
+   devscripts diff djvulibre-desktop dnsutils dpkg-dev einstein ekiga  
+empathy
+   eog epiphany-browser epiphany-browser-data epiphany-extensions
+   epiphany-gecko evince evolution evolution-common evolution-data-server
+   evolution-data-server-common evolution-exchange evolution-plugins
+   evolution-webcal exim4 exim4-base exim4-config exim4-daemon-light  
+exo-utils
+   fast-user-switch-applet file-roller filezilla filezilla-common foo2zjs  
+ftp
+   g++ g++-4.3 gcalctool gcc gcc-4.3 gcc-4.3-base gconf-editor gconf2
+   gconf2-common gdebi gdebi-core gdm geany gedit gedit-common ghostscript  
+gimp
+   gimp-data gksu gnome gnome-accessibility gnome-accessibility-themes
+   gnome-applets gnome-applets-data gnome-bluetooth gnome-cards-data
+   gnome-control-center gnome-core gnome-desktop-environment gnome-games
+   gnome-games-data gnome-icon-theme gnome-keyring gnome-mag gnome-media
+   gnome-media-common gnome-mount gnome-netstatus-applet gnome-nettool
+   gnome-office gnome-orca gnome-panel gnome-panel-data gnome-power-manager
+   gnome-screensaver gnome-session gnome-settings-daemon  
+gnome-system-monitor
+   gnome-system-tools gnome-terminal gnome-terminal-data gnome-themes
+   gnome-utils gnome-volume-manager gnuchess gnumeric gnumeric-common gnupg  
+gok
+   gparted gpgv grub gstreamer0.10-alsa gstreamer0.10-ffmpeg
+   gstreamer0.10-gnomevfs gstreamer0.10-plugins-bad  
+gstreamer0.10-plugins-base
+   gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-tools
+   gstreamer0.10-x gthumb gthumb-data gtk2-engines gtk2-engines-pixbuf
+   gtk2-engines-xfce gucharmap guile-1.8-libs gvfs gvfs-backends hal hpijs
+   hplip hplip-data ia32-libs ia32-libs-gtk icedove iceweasel  
+iceweasel-l10n-cs
+   imagemagick info inkscape iproute kdelibs4c2a kdiff3 kerneloops
+   latex-xft-fonts lib32asound2 lib32gcc1 lib32ncurses5 lib32nss-mdns
+   lib32stdc++6 lib32z1 libafterimage0 liballegro4.2  
+liballegro4.2-plugin-jack
+   libaprutil1 libapt-pkg-perl libarchive1 libart2.0-cil libarts1c2a  
+libasound2
+   libasound2-dev libatspi1.0-0 libavc1394-0 libavformat52 libbonobo2-0
+   libbonobo2-common libbonobo2-dev libbonoboui2-0 libbonoboui2-common
+   libbonoboui2-dev libboost-date-time-dev libboost-dev libboost-doc
+   libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev
+   libboost-program-options-dev libboost-python-dev libboost-regex-dev
+   libboost-serialization-dev libboost-signals-dev libboost-test-dev
+   libboost-thread-dev libboost-wave-dev libc6 libc6-dev libc6-i386  
+libcairo2
+   libcairo2-dev libcairomm-1.0-1 libcdio-cdda0 libcdio-paranoia0
+   libclass-accessor-perl libcompress-raw-zlib-perl libcompress-zlib-perl
+   libcrypt-ssleay-perl libcups2 libcupsimage2 libcurl3 libcurl3-gnutls
+   libdbus-glib-1-2 libdc1394-22 libdigest-sha1-perl libdirac-encoder0
+   libdirectfb-dev libdirectfb-extra libdjvulibre21 libdvdnav4 libebook1.2-9
+   libecal1.2-7 libedata-book1.2-2 libedata-cal1.2-6 libedataserverui1.2-8
+   libedit2 libegroupwise1.2-13 libempathy-common libempathy-gtk-common
+   libenchant1c2a libept0 libesd0 libesd0-dev libexchange-storage1.2-3
+   libexo-0.3-0 libfcgi-perl libfluidsynth1 libfreebob0 libgail-common
+   libgail-dev libgail-gnome-module libgail18 libgcc1 libgcj-bc libgconf2-4
+   libgconf2-dev libgconf2.0-cil libgdl-1-common libgfortran3 libgimp2.0
+   libgksu2-0 libgl1-mesa-dev libgl1-mesa-dri libgl1-mesa-glx libglade2-0
+   libglade2-dev libglade2.0-cil libglib-perl libglib2.0-0 libglib2.0-cil
+   libglib2.0-dev libglibmm-2.4-1c2a libgnome-keyring-dev libgnome-keyring0
+   libgnome-media0 libgnome-vfs2.0-cil libgnome-window-settings1 libgnome2-0
+   libgnome2-common libgnome2-dev libgnome2-perl libgnome2-vfs-perl
+   libgnomecanvas2-0 libgnomecanvas2-common libgnomecanvas2-dev
+   libgnomecups1.0-1 libgnomekbd-common libgnomeprint2.2-0
+   libgnomeprint2.2-data libgnomeprintui2.2-0 libgnomeprintui2.2-common
+   libgnomeui-0 libgnomeui-common libgnomeui-dev libgnomevfs2-0
+   libgnomevfs2-common libgnomevfs2-dev libgnomevfs2-extra libgomp1
+   libgphoto2-2 libgphoto2-port0 libgpod-common libgs8 libgsf-1-114
+   libgsf-gnome-1-114 libgstreamer-plugins-base0.10-0 libgstreamer0.10-0
+   libgtk2-perl libgtk2.0-0 libgtk2.0-bin libgtk2.0-cil libgtk2.0-dev
+   libgtkhtml3.14-19 libgtkmathview0c2a libgtkmm-2.4-1c2a  
+libgtksourceview2.0-0
+   libgtksourceview2.0-common libgtop2-7 libgweather1 libhsqldb-java-gcj
+   libhtml-parser-perl libicu-dev libiec61883-0 libio-compress-base-perl
+   libio-compress-zlib-perl libjack0 libjaxp1.3-java-gcj  
+liblist-moreutils-perl
+   liblocale-gettext-perl liblua5.1-0 liblua5.1-0-dev libluabind-dev
+   libmail-box-perl libmono-addins-gui0.2-cil libmono-addins0.2-cil
+   libmono-cairo1.0-cil libmono-corlib1.0-cil libmono-corlib2.0-cil
+   libmono-data-tds2.0-cil libmono-i18n1.0-cil libmono-i18n2.0-cil
+   libmono-security2.0-cil libmono-sharpzip2.84-cil libmono-sqlite2.0-cil
+   libmono-system-data2.0-cil libmono-system-web1.0-cil
+   libmono-system-web2.0-cil libmono-system1.0-cil libmono-system2.0-cil
+   libmono1.0-cil libmono2.0-cil libnautilus-extension1
+   libndesk-dbus-glib1.0-cil libndesk-dbus1.0-cil libneon27 libneon27-gnutls
+   libnet-libidn-perl libnet-ssleay-perl libnotify1 liboobs-1-4 liborbit2
+   liborbit2-dev libossp-uuid-perl libpam-gnome-keyring libpam-modules
+   libpam-runtime libpanel-applet2-0 libpanel-applet2-dev libpango1.0-0
+   libpango1.0-dev libperl5.10 libpisock9 libportaudio2 libpq5  
+libpstoedit0c2a
+   libpt-1.10.10-plugins-alsa libpurple0 libqca2 libqca2-plugin-ossl
+   libqt4-assistant libqt4-core libqt4-dbus libqt4-designer libqt4-dev
+   libqt4-gui libqt4-help libqt4-network libqt4-opengl libqt4-opengl-dev
+   libqt4-qt3support libqt4-script libqt4-sql libqt4-sql-mysql libqt4-svg
+   libqt4-test libqt4-webkit libqt4-xml libqt4-xmlpatterns libqtcore4  
+libqtgui4
+   librsvg2-2 librsvg2-common libsane libsasl2-2 libsasl2-modules
+   libschroedinger-1.0-0 libsdl1.2-dev libsdl1.2debian libsdl1.2debian-alsa
+   libsmbclient libsnmp15 libsoap-lite-perl libsoup2.4-1 libsox-fmt-alsa
+   libsox-fmt-base libsplashy1 libstartup-notification0 libstdc++6
+   libstdc++6-4.3-dev libsvn1 libtag1c2a libtagc0 libtelepathy-glib0
+   libtest-pod-perl libthai-data libthai0 libthunar-vfs-1-2 libts-0.0-0
+   libvcdinfo0 libvoikko1 libvte9 libwbclient0 libwine libwine-alsa  
+libwine-cms
+   libwine-gl libwine-gphoto2 libwine-ldap libwine-print libwine-sane  
+libwnck22
+   libwxbase2.6-0 libwxbase2.8-0 libwxgtk2.6-0 libwxgtk2.8-0 libx11-6
+   libx11-dev libxalan2-java-gcj libxapian15 libxcb1 libxcb1-dev
+   libxerces2-java-gcj libxfce4util4 libxfcegui4-4 libxi-dev libxi6 libxine1
+   libxine1-bin libxine1-console libxine1-ffmpeg libxine1-misc-plugins
+   libxine1-plugins libxine1-x libxml2-utils liferea lintian
+   linux-image-2.6-amd64 lmodern locales lp-solve lynx lynx-cur menu
+   mesa-common-dev metacity metacity-common moc mono-gac mono-runtime  
+mousepad
+   mousetweaks mutt nautilus nautilus-data netatalk network-manager
+   network-manager-gnome network-manager-openvpn  
+network-manager-openvpn-gnome
+   network-manager-vpnc network-manager-vpnc-gnome nfs-common  
+nfs-kernel-server
+   notification-daemon ntfs-3g ntp obex-data-server odbcinst1debian1
+   openoffice.org openoffice.org-base openoffice.org-base-core
+   openoffice.org-calc openoffice.org-common openoffice.org-core
+   openoffice.org-draw openoffice.org-gcj openoffice.org-gtk
+   openoffice.org-help-cs openoffice.org-help-en-us openoffice.org-impress
+   openoffice.org-java-common openoffice.org-l10n-cs openoffice.org-math
+   openoffice.org-officebean openoffice.org-report-builder-bin
+   openoffice.org-style-andromeda openoffice.org-style-tango
+   openoffice.org-writer openoffice.org-writer2latex openssh-client
+   openssh-server orage perl perl-base perl-doc perl-modules perlmagick  
+picard
+   pidgin pidgin-blinklight pidgin-data planner poppler-utils postgresql
+   postgresql-client postgresql-contrib postgresql-doc proftpd-basic
+   proftpd-mod-ldap proftpd-mod-mysql proftpd-mod-pgsql psi pstoedit python
+   python-apt python-cairo python-cups python-dbus python-dev
+   python-eggtrayicon python-glade2 python-gnome2 python-gobject  
+python-gst0.10
+   python-gtk2 python-gtkhtml2 python-gtkmozembed python-gtksourceview2
+   python-libxml2 python-minimal python-notify python-pyatspi python-pygame
+   python-pyorbit python-qt4 python-sip4 python-svn python-tk python-twisted
+   python-twisted-conch python-twisted-core python-twisted-lore
+   python-twisted-mail python-twisted-names python-twisted-news
+   python-twisted-runner python-twisted-web python-twisted-words python-vte
+   python2.5 python2.5-dev python2.5-minimal qt4-qmake qt4-qtconfig  
+radeontool
+   rdesktop reportbug rhythmbox ristretto rpm rss-glx rtorrent rxvt-unicode
+   samba samba-common scrollkeeper scummvm seahorse sg3-utils  
+shared-mime-info
+   smartmontools smbclient smbfs sound-juicer sox subversion svn-workbench  
+swat
+   synaptic system-tools-backends sysv-rc telepathy-gabble telepathy-salut
+   tex-common texlive-base texlive-common texlive-doc-base
+   texlive-fonts-recommended texlive-fonts-recommended-doc  
+texlive-latex-base
+   texlive-latex-base-doc thunar thunar-data thunar-media-tags-plugin tipa
+   tomboy totem totem-common totem-gstreamer totem-mozilla totem-plugins
+   transmission-common transmission-gtk tsclient uae udev  
+unattended-upgrades
+   unixodbc update-inetd update-manager-core update-notifier usermode  
+vinagre
+   vino vlc vlc-nox wesnoth wesnoth-data wesnoth-httt wesnoth-tsg  
+wesnoth-ttb
+   winbind wine wine-bin wine-utils wireless-tools wpagui wpasupplicant
+   x11-common x11proto-input-dev xfce4 xfce4-appfinder xfce4-battery-plugin
+   xfce4-clipman-plugin xfce4-cpugraph-plugin xfce4-datetime-plugin
+   xfce4-diskperf-plugin xfce4-fsguard-plugin xfce4-goodies
+   xfce4-mailwatch-plugin xfce4-messenger-plugin xfce4-mixer
+   xfce4-netload-plugin xfce4-notes-plugin xfce4-panel
+   xfce4-quicklauncher-plugin xfce4-screenshooter-plugin  
+xfce4-sensors-plugin
+   xfce4-session xfce4-smartbookmark-plugin xfce4-systemload-plugin
+   xfce4-taskmanager xfce4-terminal xfce4-timer-plugin xfce4-utils
+   xfce4-verve-plugin xfce4-wavelan-plugin xfce4-weather-plugin
+   xfce4-xkb-plugin xfdesktop4 xfdesktop4-data xfmedia xfprint4 xfwm4 xinput
+   xorg xsane xsane-common xserver-xorg xserver-xorg-core
+   xserver-xorg-input-evdev xserver-xorg-input-kbd xserver-xorg-input-mouse
+   xserver-xorg-input-synaptics xserver-xorg-input-wacom  
+xserver-xorg-video-apm
+   xserver-xorg-video-ark xserver-xorg-video-ati xserver-xorg-video-chips
+   xserver-xorg-video-cirrus xserver-xorg-video-dummy  
+xserver-xorg-video-fbdev
+   xserver-xorg-video-glint xserver-xorg-video-i128 xserver-xorg-video-intel
+   xserver-xorg-video-mach64 xserver-xorg-video-mga  
+xserver-xorg-video-neomagic
+   xserver-xorg-video-nv xserver-xorg-video-openchrome  
+xserver-xorg-video-r128
+   xserver-xorg-video-radeon xserver-xorg-video-radeonhd
+   xserver-xorg-video-rendition xserver-xorg-video-s3
+   xserver-xorg-video-s3virge xserver-xorg-video-savage
+   xserver-xorg-video-siliconmotion xserver-xorg-video-sis
+   xserver-xorg-video-sisusb xserver-xorg-video-tdfx xserver-xorg-video-tga
+   xserver-xorg-video-trident xserver-xorg-video-tseng  
+xserver-xorg-video-v4l
+   xserver-xorg-video-vesa xserver-xorg-video-vmware  
+xserver-xorg-video-voodoo
+   xterm yelp zenity
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+     are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Can't exec "locale": No such file or directory at  
+/usr/share/perl5/Debconf/Encoding.pm line 16.
+Use of uninitialized value $Debconf::Encoding::charmap in scalar chomp at  
+/usr/share/perl5/Debconf/Encoding.pm line 17.
+0 upgraded, 0 newly installed, 0 to remove and 744 not upgraded.
+2 not fully installed or removed.
+After this operation, 0B of additional disk space will be used.
+dpkg: warning: 'ldconfig' not found on PATH.
+dpkg: 1 expected program(s) not found on PATH.
+NB: root's PATH should usually contain /usr/local/sbin, /usr/sbin and  
+/sbin.
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+---------------------------------------------------------------
+
+
+Thanks a lot!!!
+Al.
+
+
+
+
+
+-- 
+Using Opera's revolutionary e-mail client: http://www.opera.com/mail/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/op.vb08w6ej53tp3f@hugo.lennycz-depot
+
+

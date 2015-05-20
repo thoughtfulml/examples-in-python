@@ -1,0 +1,152 @@
+X-Account-Key: account5
+X-UIDL: GmailId12892ac8d4ad8a7a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs8568wfo;
+        Thu, 13 May 2010 10:18:22 -0700 (PDT)
+Received: by 10.223.92.144 with SMTP id r16mr175188fam.62.1273771101587;
+        Thu, 13 May 2010 10:18:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z14si3770592fah.69.2010.05.13.10.18.20;
+        Thu, 13 May 2010 10:18:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2490113A5431; Thu, 13 May 2010 17:18:13 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7487E13A535E
+	for <lists-debian-user@liszt.debian.org>; Thu, 13 May 2010 17:18:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id pHJgvTKKt0yf for <lists-debian-user@liszt.debian.org>;
+	Thu, 13 May 2010 17:18:00 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 0655113A520A
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 17:18:00 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1OCc2m-0008Fk-IX
+	for debian-user@lists.debian.org; Thu, 13 May 2010 17:17:57 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: just fetch .debs without installing
+Date: Thu, 13 May 2010 12:20:15 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-bpo.3-amd64; KDE/4.4.3; x86_64; ; )
+References: <20100513111014.03805640@pbmiha.malagasy.com> <20100513092400.GA24069@kinakuta.local> <20100513200734.64f413c9@pbmiha.malagasy.com>
+In-Reply-To: <20100513200734.64f413c9@pbmiha.malagasy.com>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?iso-8859-1?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSK?=
+ =?iso-8859-1?q?VkSKVkSKVkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrX?=
+ =?iso-8859-1?q?bgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAAI0SURB?=
+ =?iso-8859-1?q?VDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOl?=
+ =?iso-8859-1?q?yn8DhAHZj=0A=093iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkb?=
+ =?iso-8859-1?q?IsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs=0A=09pY2lNMMz2FMIOurZpRE?=
+ =?iso-8859-1?q?z4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKrvHC+eDauR7oWn2?=
+ =?iso-8859-1?q?=0A=099cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X1KJxybF0zhLwsns?=
+ =?iso-8859-1?q?yJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096GudSNWT0NXblkVuwjBlkWVJr?=
+ =?iso-8859-1?q?maAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VIIiKVYmUnJiyr?=
+ =?iso-8859-1?q?=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERfOpfZ?=
+ =?iso-8859-1?q?iTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNrHHeCJMyuaujMNd?=
+ =?iso-8859-1?q?ktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG=0A=090?=
+ =?iso-8859-1?q?1oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJf?=
+ =?iso-8859-1?q?PTbS5oo9tOUMHbdKE23oTci=0A=093cBil8dtoGZk0BF2Yq35wSeWvYeT2E?=
+ =?iso-8859-1?q?E/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G=0A=098GbPE?=
+ =?iso-8859-1?q?j2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAA?=
+ =?iso-8859-1?q?SUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2364484.1yS3SAApSD";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005131220.15525.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <k7N-7Lh5PKD.A.jHD.VRD7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576699
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 17:18:13 +0000 (UTC)
+
+--nextPart2364484.1yS3SAApSD
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 13 May 2010 12:07:34 Mihamina Rakotomandimby wrote:
+> > Wolodja Wentland <wentland@cl.uni-heidelberg.de> :
+> >> What is the optoin to pass to apt-get in order to make it just fetch
+> >> the .debs without installing them?
+> >
+> >It has already been pointed out that -d/--download-only is the correct
+> >option to pass to apt-get in order to keep apt-get from installing
+> >retrieved Debian packages.
+>=20
+> I have more bandwidth (1Mbps) at nitgh than during the day (256kbps).
+> I would like to launch a dist-upgrade, but I want it to happen face to
+> me. I'd rather pre-download the .debs and launch real dist-upgrade face
+> to face.
+
+/etc/cron.daily/apt can do a (apt-get update) and (apt-get -d dist-upgrade)=
+=20
+daily for you if you'll set "APT::Periodic::Update-Package-Lists" and=20
+"APT::Periodic::Download-Upgradeable-Packages" in your /etc/apt/apt.conf(.d=
+).
+
+You can set when /etc/cron.daily is processed in /etc/crontab.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart2364484.1yS3SAApSD
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvsNM8ACgkQdNbfk+86fC2SAACfb+LolVLctGo3Nh/YUpIuIT14
+o2sAniWC3GoUcw3Dk5jKHVsZ5ploc7ap
+=Zg5J
+-----END PGP SIGNATURE-----
+
+--nextPart2364484.1yS3SAApSD--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005131220.15525.bss@iguanasuicide.net
+
+

@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289bd03f028b87d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs77089wfo;
+        Sat, 15 May 2010 04:53:57 -0700 (PDT)
+Received: by 10.223.143.20 with SMTP id s20mr3099316fau.38.1273924435858;
+        Sat, 15 May 2010 04:53:55 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w14si7899675faj.90.2010.05.15.04.53.55;
+        Sat, 15 May 2010 04:53:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C513513A5AC1; Sat, 15 May 2010 11:53:50 +0000 (UTC)
+Old-Return-Path: <ojsbug@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DB74413A5ABD
+	for <lists-debian-user@liszt.debian.org>; Sat, 15 May 2010 11:53:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id fFEITkHjzl2z for <lists-debian-user@liszt.debian.org>;
+	Sat, 15 May 2010 11:53:37 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 9ABAD13A5AB8
+	for <debian-user@lists.debian.org>; Sat, 15 May 2010 11:53:31 +0000 (UTC)
+Received: by wwb39 with SMTP id 39so605627wwb.6
+        for <debian-user@lists.debian.org>; Sat, 15 May 2010 04:53:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :content-transfer-encoding:in-reply-to:user-agent;
+        bh=47T++YSjQ8s/f3suD7Hb9PTsHSXguiXyRPvP6oneNH4=;
+        b=RXN2DdfFSD3+OFUTvrk/aveRLXC7hLTPlg9+0SJ/kfjXO9byPmbqSrMQarzireFeMx
+         35uPsLggMX4WhATOfcmt4B78u3u08TbD7TXnTM14s160UJq5fPxmzapENqjAriVl0+O+
+         tEWbcEUkxVEFiEa4Q0FOCY/gC/dZYv/EjI9PE=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:content-transfer-encoding
+         :in-reply-to:user-agent;
+        b=R4wWlp823VfDm+kVJxs+WKU3Dp2MGavZDpVU3A2Oj2EZmDVuO5nWM5Ofh1LEPF6LFG
+         0TArjiJY2L9nyOweAPjoTFDTwnSIvut6XlR+9oqL9C4coEKHQCLTUXaX5vAcpWhaBaV3
+         mwjmVfJzcFjSZBN1Ejr6QRYoNAR+2FHlGZvLE=
+Received: by 10.227.156.7 with SMTP id u7mr2379438wbw.143.1273924406910;
+        Sat, 15 May 2010 04:53:26 -0700 (PDT)
+Received: from heima.gjk.dk (157-157-15-231.dsl.dynamic.simnet.is [157.157.15.231])
+        by mx.google.com with ESMTPS id p29sm10725803wbe.22.2010.05.15.04.53.24
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 15 May 2010 04:53:25 -0700 (PDT)
+Received: from ojs by heima.gjk.dk with local (Exim 4.71)
+	(envelope-from <ojs@heima.gjk.dk>)
+	id 1ODFvn-0006Lt-5d
+	for debian-user@lists.debian.org; Sat, 15 May 2010 11:53:23 +0000
+Date: Sat, 15 May 2010 11:53:23 +0000
+From: "=?iso-8859-1?Q?=D3lafur_Jens_Sigur=F0sson?=" <ojsbug@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: X starting but nothing shows on the screen
+Message-ID: <20100515115323.GA24329@heima.gjk.dk>
+References: <20100508104207.GA2878@heima.gjk.dk>
+ <87eihjr1bk.fsf@turtle.gmx.de>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <87eihjr1bk.fsf@turtle.gmx.de>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <c_WRTwHMDcB.A.-vD.Oto7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576910
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 15 May 2010 11:53:50 +0000 (UTC)
+
+On Mon, May 10, 2010 at 09:42:07PM +0200, Sven Joachim wrote:
+> On 2010-05-08 12:42 +0200, Ólafur Jens Sigurðsson wrote:
+> 
+> > Hello, I have a strange problem.
+> >
+> > If X is started from gdm at bootup or with /etc/init.d/gdm start then
+> > it starts (I know this since it beeps when it is up and running) but
+> > nothing shows on the screen. The same thing happens when I use startx
+> > and I have icewm in my .xinitrc. But if I have no .xinitrc file and I
+> > use startx then Gnome comes up fine.
+> 
+> This is indeed very strange.
+> 
+> > I am using sid and have just made an upgrade to my system (I hadn't
+> > done a upgrade in quite a while and did an upgrade a few days ago then
+> > my problems started) so it is up to date.
+> >
+> > Any ideas on what could be wrong here?
+
+Just did a aptitude safe-upgrade that pulled in a new version of the
+intel driver, no change in behaviour.
+
+Óli
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100515115323.GA24329@heima.gjk.dk
+
+

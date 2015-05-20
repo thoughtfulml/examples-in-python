@@ -1,0 +1,218 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282b0fa05a5b840
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs64428wfj;
+        Fri, 23 Apr 2010 07:26:05 -0700 (PDT)
+Received: by 10.114.23.20 with SMTP id 20mr116800waw.147.1272032764160;
+        Fri, 23 Apr 2010 07:26:04 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 15si1673868pzk.19.2010.04.23.07.26.03;
+        Fri, 23 Apr 2010 07:26:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id BBF9B1BC0510D
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 07:26:03 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id B2D29270CF566
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 07:26:03 -0700 (PDT)
+X-Original-To: Java-dev@lists.apple.com
+Delivered-To: Java-dev@lists.apple.com
+Received: from relay14.apple.com (relay14.apple.com [17.128.113.52])
+	by lists.apple.com (Postfix) with ESMTP id AF3C7270CEEDF
+	for <Java-dev@lists.apple.com>; Fri, 23 Apr 2010 07:25:07 -0700 (PDT)
+X-AuditID: 11807134-b7b22ae000005450-f6-4bd1adc36586
+Received: from [17.151.78.102] (Unknown_Domain [17.151.78.102])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay14.apple.com (Apple SCV relay) with SMTP id
+	FA.85.21584.3CDA1DB4; Fri, 23 Apr 2010 07:25:07 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <4CEFB57C-484A-4694-A058-1837F4F31F7B@minnigerode.org>
+Date: Fri, 23 Apr 2010 07:25:07 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <6EC60084-0C12-4436-A65C-443E9C0D05A0@apple.com>
+References: <001636284400a8054d0484e7bc41@google.com>
+	<4CEFB57C-484A-4694-A058-1837F4F31F7B@minnigerode.org>
+To: Dave Minnigerode <dave@minnigerode.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: "Java-dev@lists.apple.com" <Java-dev@lists.apple.com>
+Subject: Re: Snow Leopard, Java 6 and Netbeans
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Has anyone tried it with the 10M3050 or 9M3150 developer preview? I'm =
+somewhat concerned that this is a demonstrable regression between Java 5 =
+and Java 6 - however there are several other factors that can impact =
+memory use:
+
+- 32 vs. 64-bit (biggest culprit)
+- 1.5/client/32-bit tuned garbage collection options running on =
+1.6/server/64-bit
+- client vs. server HotSpot itself (more aggressive compilation and =
+storage of compiled code)
+
+Anecdotally, I've talked to several people who have large long running =
+64-bit processes on Snow Leopard with 2GB-of-RAM machines who were =
+having a miserable time. While reverting to 32-bit may be a quick fix =
+for some, others who tuned the GC parameters or turned on =
+-XX:+UseCompressedOops (which compresses Java references to 32-bit =
+values in the heap) found that they could reclaim or even exceed their =
+original 32-bit performance (since they were still using the server =
+JVM).
+
+Since someone mentioned that NetBeans 6.9 Beta was working well, I'd =
+suggest taking a look at it's JVM options and see if there wasn't some =
+tweaking done to optimize it for a 64-bit by default world.
+
+Best of luck,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+On Apr 23, 2010, at 7:06 AM, Dave Minnigerode wrote:
+
+> I too have been using netbeans 6.8 on 10.5 and 10.6 with the default =
+jvm doing java 6 work... It's just stable enough for daily use.  I do =
+restart NB every few hrs when the memory use gets out of hand =
+(apparently some object leaks with the apple jvm/nb combo).... can't =
+switch it back to java 5, so kinda stuck with it. So I'm probably just =
+going to switch to IntilliJ, I've found it's performance to be a lot =
+better than NB overall.   File tree nav is painless for example.
+>=20
+> I'm kinda sad about it, but got work to get done...
+>=20
+> On Apr 23, 2010, at 8:52 AM, eisenstein@csmining.org wrote:
+>=20
+>> Hmm. I'm using the late 2006 Macbook Pro (2.33 GHz upgraded to 4 GB =
+[3.5 GB] RAM). I'm using the latest Java through Software Update, and my =
+app is Swing-based (using Matisse) and using the Swing Application =
+Framework with an embedded Derby database, though I will note that I =
+have issues even before any files are open. Just expanding the tree to =
+get to a file for opening tended to take about 10 seconds, and that's =
+assuming I didn't switch to another window in the meantime.
+>>=20
+>> I just did a full wipe/reinstall of Netbeans to see if my settings =
+were a problem, but I had no change until I loaded in Java 5 and saw a =
+significant difference. I'll be trying out the suggestions people made =
+about using a different target platform than the one Netbeans is running =
+on, but I'm starting to wonder if there is an issue with my system.
+>>=20
+>> On Apr 23, 2010 9:22am, David Loeffler <loeffler@me.com> wrote:
+>>> I use NetBeans 6.9 Beta (I was using 6.8 but want the metadata =
+support for entity beans) and I have no problems.  I have a late 2007 =
+MBP 17" and am using java version "1.6.0_17" .  I am developing a Java 6 =
+running on GlassFish using Postgres as the database.  This is a port of =
+he Java EE 5 app I architected in 2005 and deployed in 2006 on JBoss =
+using eclipse / JBoss Dev Studio as the IDE.  It is a lot more than a =
+port since there a number of enhancements.
+>>>=20
+>>>=20
+>>>=20
+>>> I have made no changes to the Java or preferences for NetBeans.  Of =
+course the Java for my app is 1.6 and NetBeans runs on 1.6 as well.
+>>>=20
+>>>=20
+>>>=20
+>>> I do see an increase in activity when there is an open dialog box so =
+I keep an eye out for them.  I watch CPU activity since I had an issue =
+with Kernel panics a month ago.  Turned out to be a combination of a =
+failing disk drive and a memory stick. Replaced the 160G drive with 500G =
+and the 2G stick with 4G (to make total of 6G).   Apple store guys could =
+not see the problems but through some handy tools and taking to external =
+service personnel we were able to zero in on the problem and fix it.
+>>>=20
+>>>=20
+>>>=20
+>>> Side note: I have shutdown plugins in Safari mainly to keep Flash =
+from running.  Some sites caused Flash plugin to push usage up to 20% or =
+more.  I have been using iStat menu (I recommend) and also launch =
+activity monitor at login just to keep an eye on things.
+>>>=20
+>>>=20
+>>>=20
+>>> On Apr 23, 2010, at 1:06 AM, Jon Eisenstein wrote:
+>>>=20
+>>>=20
+>>>=20
+>>>> I imagine this topic comes up every so often but I haven't been =
+able to find it in the archives. =46rom what I understand, there's some =
+issue with Snow Leopard and Java 6 that makes Netbeans 6.8 near =
+unusable. (I've had to do my development on a lesser-powered PC because =
+there, things will actually open without pegging the CPU at 100% and =
+becoming unresponsive.) Following a tip, I used Pacifist to reinstall =
+Leopard's Java 5 back onto the system, set it as the default, and tried =
+to launch Netbeans. Lo and behold, it was fast, responsive and showed =
+none of the problems I'd been used to. Unfortunately, it made it so that =
+I couldn't work on my Java 6-based app!
+>>>=20
+>>>>=20
+>>>=20
+>>>> So, what is the actual situation here? Is this a known issue with =
+the Apple JVM that's (hopefully) going to get fixed? Is this a bug in =
+Netbeans? Am I the only one seeing issues this bad, and so it could be a =
+problem with my setup? Is there a workaround? Any help would be vastly =
+appreciated -- the Windows box is having disk issues, and I'd love to =
+move my primary development to the Macbook Pro as soon as possible. And =
+if push comes to shove, I may have to just rearchitect the project into =
+Java 5 (which would not be a simple task.)
+>>>=20
+>>>> _______________________________________________
+>>>=20
+>>>> Do not post admin requests to the list. They will be ignored.
+>>>=20
+>>>> Java-dev mailing list      (Java-dev@lists.apple.com)
+>>>=20
+>>>> Help/Unsubscribe/Update your Subscription:
+>>>=20
+>>>> =
+http://lists.apple.com/mailman/options/java-dev/ddl.newsletters%40mac.com
+>>>=20
+>>>>=20
+>>>=20
+>>>> This email sent to ddl.newsletters@mac.com
+>>>=20
+>>>=20
+>>>=20
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> Java-dev mailing list      (Java-dev@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> =
+http://lists.apple.com/mailman/options/java-dev/dave%40minnigerode.org
+>>=20
+>> This email sent to dave@minnigerode.org
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/swingler%40apple.com
+>=20
+> This email sent to swingler@apple.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

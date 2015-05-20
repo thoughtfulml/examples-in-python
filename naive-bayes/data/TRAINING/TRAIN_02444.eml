@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e5125e1ca7514
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs61491wfi;
+        Fri, 9 Apr 2010 17:15:39 -0700 (PDT)
+Received: by 10.223.58.83 with SMTP id f19mr698194fah.88.1270858538786;
+        Fri, 09 Apr 2010 17:15:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 27si4433936fxm.34.2010.04.09.17.15.38;
+        Fri, 09 Apr 2010 17:15:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B8FDB2D0DB1; Sat, 10 Apr 2010 00:15:31 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 203E813A5FAA
+	for <lists-debian-user@liszt.debian.org>; Sat, 10 Apr 2010 00:15:26 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id eSkSo0ZTqm4e for <lists-debian-user@liszt.debian.org>;
+	Sat, 10 Apr 2010 00:15:18 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id 6730A13A5FA7
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 00:15:09 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=EnAg6b0JcI4A:10 a=FKkrIqjQGGEA:10 a=IkcTkHD0fZMA:10 a=hKf6t1fYAAAA:8 a=QP5IY3kgAAAA:8 a=Lm9nAKPqgciqlZYMUggA:9 a=snMi2VkwYT3nLKVOTuYA:7 a=FRoBnqkaUyXNGdG6aV19_xXlle8A:4 a=QEXdDO2ut3YA:10 a=AZM6eILeP5UA:10 a=zEoJXyrrGmEA:10 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:49748] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 72/31-21309-A03CFBB4; Fri, 09 Apr 2010 20:15:06 -0400
+Date: Fri, 9 Apr 2010 20:15:06 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <8691664.2246941270858506206.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <87tyrkcmrz.fsf@thumper.dhh.gt.org>
+Subject: Re: non-ASCII environment
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [75.118.95.22]
+X-Mailer: Zimbra 5.0.11_GA_2696.RHEL4 (zclient/5.0.11_GA_2696.RHEL4)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <XCRYkNaBtIF.A.HYF.jM8vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573760
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 00:15:31 +0000 (UTC)
+
+On Fri, 9 Apr 2010 17:57:04 -0400 (EDT), John Hasler wrote:
+> Stephen Powell writes:
+>> Yes, Hercules is an IBM mainframe emulator.  But the problem is
+>> licensing.  There are some *very old* releases of IBM operating
+>> systems that have passed into the public domain that you can run on
+>> the Hercules emulator.
+>> These are circa 1975 or so, which is about 35 years ago.  An example
+>> is VM/SP Release 6.
+
+Oops! I meant to say VM/370 Release 6, not VM/SP Release 6.  VM/SP
+Release 6 is still proprietary.
+
+-----
+
+These are some of the issues that someone writing portable code
+for ASCII vs. EBCDIC implementations needs to worry about.
+
+(1) Collating sequence.  In ASCII, the collating sequence is numbers
+(0-9), followed by uppercase letters (A-Z), followed by lowercase
+letters (a-z).  Special characters are mixed throughout.  In EBCDIC,
+the collating sequence is lowercase letters (a-z), followed by
+uppercase letters (A-Z), followed by numbers (0-9).  So records
+sorted alphabetically sort in a different order.
+
+(2) Assumptions of continuity.  In ASCII, the codes a-z and A-Z
+are contiguous, with no codes in between.  In EBCDIC, there are
+six non-contiguous ranges, a-i, j-r, s-z, A-I, J-R, S-Z.  Most
+of the codes in between are non-printable characters, but not
+all.  For example, ~ sorts above r and below s, } sorts above I
+and below J, and \ sorts above R and below S.
+
+(3) Hidden assumptions about control codes.  A program may, for
+example, assume that X'0A' is a line feed and hard code it
+somewhere.  In ASCII, that is true.  But in EBCDIC, a line feed
+is X'25'.
+
+(4) 7-bit assumptions.  In U.S. standard ASCII, all the printable
+characters are between the hex values of X'00'-X'7F'.  Codes
+above X'7F' are not standard codes.  Historically, these indicate
+the combination of the "Meta" key with a regular code.  In
+EBCDIC, the codes are sprinkled throughout the entire range of
+X'00' through X'FF', with the numeric symbol 9 having the highest
+code of any normal printable character (X'F9').
+
+This is not an exhaustive list, but it gives you an idea
+of what to watch for.  Although the
+following table has a few mistakes, this link will give you
+an idea of ASCII vs. EBCDIC codes.
+
+   http://www.natural-innovations.com/computing/asciiebcdic.html
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8691664.2246941270858506206.JavaMail.root@md01.wow.synacor.com
+
+

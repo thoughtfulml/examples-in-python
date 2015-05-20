@@ -1,0 +1,204 @@
+X-Account-Key: account5
+X-UIDL: GmailId128888256deeb0ea
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs83341wfb;
+        Tue, 11 May 2010 10:56:05 -0700 (PDT)
+Received: by 10.223.132.210 with SMTP id c18mr6709642fat.48.1273600564478;
+        Tue, 11 May 2010 10:56:04 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si11916502fah.89.2010.05.11.10.56.02;
+        Tue, 11 May 2010 10:56:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D1EB813A559C; Tue, 11 May 2010 17:55:50 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 97F8813A556D
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 17:55:45 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2Tmo1NrDLeqp for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 17:55:38 +0000 (UTC)
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id F21C913A5502
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 17:55:37 +0000 (UTC)
+Received: by gya1 with SMTP id 1so2633076gya.6
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 10:55:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=BCUI9TUSt6EnkvRWTbem3fDep/Wb2gmbD6thqrfwa54=;
+        b=Bhbq+tpwvgWNAuX5HtB6gPSIEBvCcmo4MJJI2Z1BN49433IZRLDTjWeenkg9VvyosE
+         D2Gnb2oGmGSHqFUV2ZQff85wjuksXR0wKHsxRStMQ5hMPM9wkShz8/Jy9bSXvGd5+opJ
+         mMF2BHU7l9A+pXid1Q3Iy1SeFqqH6USs7Q7nQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=bg1HwNtFWOjIKaqYiCDW/y9wWsjoul9yUvJMaalxfM/sz7JH4VOUEO2E4nYVYzbYkZ
+         6+MkkkH+0fDcguoHaIE8bMJJ6vjOgHinhnl2gOOht4hJzP4mdgHwfUD5SHqKiuhIDv3K
+         KheDcoGj/ptl86R6vLeZ6Tr32gPTP5mWtrtkI=
+MIME-Version: 1.0
+Received: by 10.229.190.83 with SMTP id dh19mr263680qcb.155.1273600529560; 
+	Tue, 11 May 2010 10:55:29 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Tue, 11 May 2010 10:55:29 -0700 (PDT)
+In-Reply-To: <hsbcpr$k5v$1@dough.gmane.org>
+References: <201005071123.48345.lisi.reisz@csmining.org>
+	 <4BE3F943.4010701@lorentz.leidenuniv.nl>
+	 <4BE4ED6F.4050708@dobosevic.com>
+	 <g2icdeec9051005080532z810046edveb2a8ea4c51fa0d9@mail.csmining.org>
+	 <q2t880dece01005080831zae8e27a7z35e6c132e9f0c273@mail.csmining.org>
+	 <hsbc1b$hor$1@dough.gmane.org> <hsbcpr$k5v$1@dough.gmane.org>
+Date: Tue, 11 May 2010 20:55:29 +0300
+Message-ID: <AANLkTinoxMbiE3v2HTcNli-955BwCfwkHXlpg7PRcBAW@mail.csmining.org>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: deloptes@yahoo.com
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BJnzGogkdKO.A.h7F.moZ6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576540
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 17:55:50 +0000 (UTC)
+
+On 11 May 2010 13:50, deloptes <deloptes@yahoo.com> wrote:
+> deloptes wrote:
+>
+> screenshot - I need at least those app/lets working to even start thinking
+> of using kde
+>
+> - teatime
+
+p   kteatime                                                       -
+KDE 4 utility for making a fine cup of tea
+
+> - weather
+
+http://kde-look.org/content/show.php/yaWP+%28Yet+Another+Weather+Plasmoid%29?content=94106
+
+
+> - moon
+
+Check!
+
+
+> - clock/calendar
+
+Check!
+
+
+> - wireless manager
+
+Knetworkmanager works, but I prefer wicd, which has integration in
+KDE's System Settings. It's in the system tray, not on the panel. You
+can configure it to always show, though.
+
+
+> - skype
+
+Integrated into Kopete!
+
+
+> - korganizer
+
+Check!
+
+
+> - kwallet
+
+Check!
+
+
+> - cpu monitor
+
+Check, but you might want to comment here:
+https://bugs.kde.org/show_bug.cgi?id=172312
+https://bugs.kde.org/show_bug.cgi?id=191341
+https://bugs.kde.org/show_bug.cgi?id=191342
+
+
+> - infrared control
+
+How did you do this in KDE 3?
+
+
+> - powermanagement
+
+Check!
+
+
+> - keyboard
+
+i   plasma-widget-kbstate                                          - A
+plasma widget that shows the state of the modifier keys
+
+
+> - screen management (xrandr interface)
+
+Yes, built into System Settings.
+
+
+> - krypt
+>
+
+http://kde-apps.org/content/show.php/Krypt?content=80641
+
+
+> I forgot to mention that the keyboard froze after pressing ALT+F2 and
+> switching language settings
+>
+
+Please, please comment on this bug:
+https://bugs.kde.org/show_bug.cgi?id=205369
+
+
+> A HUGE trouble I see is with the keyboard layout for my mother
+> language "bulgarian"
+> Who the hell have change the default keyboard layout for the phonetic setup?
+> I've been using this for years now hen I press "W" I get seomthing
+> different ..
+> _THIS_ _IS_ _REALLY_ _ODD_ - _STUPID_ _MONKEYS_!
+>
+
+I don't speak Bulgarian, so I cannot reproduce. Please file a bug!
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinoxMbiE3v2HTcNli-955BwCfwkHXlpg7PRcBAW@mail.csmining.org
+
+

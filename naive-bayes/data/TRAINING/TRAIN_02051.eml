@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId128319efd42b57fc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs26647wfj;
+        Sat, 24 Apr 2010 14:00:23 -0700 (PDT)
+Received: by 10.87.48.34 with SMTP id a34mr3321365fgk.2.1272142822582;
+        Sat, 24 Apr 2010 14:00:22 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si2586290fkq.47.2010.04.24.14.00.21;
+        Sat, 24 Apr 2010 14:00:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 49F0613A5163; Sat, 24 Apr 2010 21:00:16 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.3 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FVGT_m_MULTI_ODD,MURPHY_WRONG_WORD2,PGPSIGNATURE
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 441D513A5065
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 21:00:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-8.58 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FVGT_m_MULTI_ODD=0.02,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id aKVuSmoRWV9r for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 21:00:05 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id E39A613A4FAC
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 21:00:04 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id AB4FC3A606E
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 23:00:02 +0200 (CEST)
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Subject: Re: Kernel (de)bug information sent, even if there is no connection
+Date: Sat, 24 Apr 2010 22:57:27 +0200
+Message-ID: <87r5m4d0w8.fsf@merciadriluca-eee.WORKGROUP>
+References: <4BD2A16E.9000605@student.ulg.ac.be>
+To: debian-user@lists.debian.org
+Organization: ULg
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+Cancel-Lock: sha1:XF+cKc1coPXkeXngbrCQr2j4VcY=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 62.197.101.67
+X-Trace: news.sunsite.dk DXC=SIT>LGfJoAAk`8jVVeUFdJYSB=nbEKnkKeNY?2Q_`=\KB`G2cTG;MnALGVLjEY^2YH[=LHD=0P^YD9g\V1BeNHOI5Z@8`56Df9@:YDTe@@o`8K9H\:PBb_<kB
+X-Complaints-To: staff@sunsite.dk
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eCIhH-6UE-7@gated-at.bofh.it>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <9ac6Y6uSjVC.A.kyE.gv10LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574956
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 21:00:16 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This looks like kerneloops sends the oopses through a simple
+URL. Strange. It seems not to even ping a reference IP to see if the
+connexion is still alive. Weird.
+
+submit-url = http://submit.kerneloops.org/submitoops.php is appended
+at the end of my kerneloops.conf.
+
+
+
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Life is like a box of chocolate, you never know what you're gonna
+  get.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 <http://mailcrypt.sourceforge.net/>
+
+iEYEARECAAYFAkvTWzcACgkQM0LLzLt8MhxAoACZASVLasaNe6DqtRtgOoJdFitI
+STkAnjwRxYotNvUF6ZXSON6Y1fKWy3E7
+=UuAd
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87r5m4d0w8.fsf@merciadriluca-eee.WORKGROUP
+
+

@@ -1,0 +1,127 @@
+X-Account-Key: account5
+X-UIDL: GmailId128826923b75d357
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs11596wfb;
+        Mon, 10 May 2010 06:30:48 -0700 (PDT)
+Received: by 10.141.53.11 with SMTP id f11mr2654221rvk.84.1273498247803;
+        Mon, 10 May 2010 06:30:47 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 29si9595205yxe.106.2010.05.10.06.30.47;
+        Mon, 10 May 2010 06:30:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 331B31C6B5FAB
+	for <mlsubscriber.tech@csmining.org>; Mon, 10 May 2010 06:30:47 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 2E5CB2788379E
+	for <mlsubscriber.tech@csmining.org>; Mon, 10 May 2010 06:30:47 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 7CCAF278836EE
+	for <Augd@lists.apple.com>; Mon, 10 May 2010 06:30:40 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 6CC6DD879B8E
+	for <Augd@lists.apple.com>; Mon, 10 May 2010 06:30:40 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-2f-4be80a7f6ba9
+Received: from oakford.webserversystems.com (oakford.webserversystems.com
+	[74.54.107.139])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	54.0F.05834.08A08EB4; Mon, 10 May 2010 06:30:40 -0700 (PDT)
+Received: from 124-171-8-190.dyn.iinet.net.au ([124.171.8.190] helo=[10.1.1.7])
+	by oakford.webserversystems.com with esmtpa (Exim 4.69)
+	(envelope-from <lists@nicholaspyers.com>) id 1OBT4A-0003pZ-CZ
+	for Augd@lists.apple.com; Mon, 10 May 2010 08:30:39 -0500
+Message-Id: <ADB12686-1884-4EAB-AC3A-CA2B2D6314F3@nicholaspyers.com>
+From: Nicholas Pyers <lists@nicholaspyers.com>
+To: Augd@lists.apple.com
+Content-Type: text/plain; charset=WINDOWS-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Mon, 10 May 2010 23:30:30 +1000
+X-Mailer: Apple Mail (2.936)
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - oakford.webserversystems.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - nicholaspyers.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+Subject: AUGD: Seeking Australian Apple User Groups
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Over at AppleUsers.org, we have been updating our list of active Apple =20=
+
+User Groups in Australia as we=92ve recently seen one group fold, =20
+another start up and a few whose details had changed and we thought =20
+this would be an opportune time to seek any other active Apple User =20
+Groups that may wish to be included in our listings.
+
+In particular, we are looking for any groups in Tasmania (after all, =20
+the Apple Isle should have Apple User Groups :) ) and in the Northern =20=
+
+Territory as we have no active groups recorded for those regions at =20
+present.
+
+We are also interested in hearing from =91PC-based=92 groups that also =20=
+
+have Special Interest Groups for Mac, iPod, iPhone or iPad users.
+Or maybe you are a U3A or Seniors Computer Club that has a dedicated =20
+session for the users of Apple products? If so, we are happy to =20
+include you in our listing.
+
+To see if your group is listed with us, visit the AppleUsers.org User =20=
+
+Group Listing page and if your group isn=92t listed, we don=92t know =
+about =20
+you :( So fill in the form at the bottom of the page and we=92ll add =
+you.
+
+If your group is listed, you might as well take the opportunity to =20
+confirm that we have your web address correctly listed. If we don=92t, =20=
+
+then just fill out the form again.
+
+http://www.appleusers.org/mug-listings/
+
+--
+Nicholas Pyers (nicholas@appleusers.org)
+Founder & Publisher, AppleUsers.org
+
+http://www.appleusers.org/
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

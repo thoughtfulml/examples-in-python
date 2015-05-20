@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId12829cf5dd789d7f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs53556wfj;
+        Fri, 23 Apr 2010 01:36:15 -0700 (PDT)
+Received: by 10.115.65.14 with SMTP id s14mr4925363wak.209.1272011775360;
+        Fri, 23 Apr 2010 01:36:15 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 8si1355939pzk.48.2010.04.23.01.36.15;
+        Fri, 23 Apr 2010 01:36:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@messagingengine.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 19DF61BBF765B
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 01:36:15 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 1244F270B0654
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 01:36:15 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 30050270AFF76
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 01:35:18 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 1D9E3D16CA77
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 01:35:18 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-70-4bd15bc5d1f5
+Received: from out1.smtp.messagingengine.com (out1.smtp.messagingengine.com
+	[66.111.4.25])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	82.9E.17067.5CB51DB4; Fri, 23 Apr 2010 01:35:18 -0700 (PDT)
+Received: from compute2.internal (compute2.internal [10.202.2.42])
+	by gateway1.messagingengine.com (Postfix) with ESMTP id 0C539EBC8C
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 04:35:17 -0400 (EDT)
+Received: from heartbeat2.messagingengine.com ([10.202.2.161])
+	by compute2.internal (MEProxy); Fri, 23 Apr 2010 04:35:17 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=messagingengine.com;
+	h=content-type:mime-version:subject:from:in-reply-to:date:content-transfer-encoding:message-id:references:to;
+	s=smtpout; bh=5YtHQzzgKG7uZJ8xPj8Xn8cD05Y=;
+	b=XjKiN0lDs7cYjmGHfsOtfnag7kLy+6se+YCwRXvoPVtl3CoGddubHv/Yc80xtPrYCmPAV/OJc2JKTtSU0fP7BKZ1W62Q4bsjnC5RJSNqKNJ0kJBu8Whj3U0GS5wsurKmRT9+WCFvkoL9xI+AMXP3ax4NqAeOLK8GXVquKtvvKU0=
+X-Sasl-enc: E3EmTsNs0m6PkqNZGDxc26ZXobkjO7lfEHDCTBPKiSWA 1272011716
+Received: from [192.168.15.2] (c-24-6-48-165.hsd1.ca.comcast.net [24.6.48.165])
+	by mail.messagingengine.com (Postfix) with ESMTPSA id 9F9EE11874
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 04:35:16 -0400 (EDT)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Rick Mann <rmann@latencyzero.com>
+In-Reply-To: <9C770140-D855-41BF-9A0D-C15085A53D55@latencyzero.com>
+Date: Fri, 23 Apr 2010 01:35:15 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <244B5106-FE20-4CC6-B65A-BB558954C536@latencyzero.com>
+References: <9C770140-D855-41BF-9A0D-C15085A53D55@latencyzero.com>
+To: list Java-dev <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAhPY2nYT2bgf
+Subject: Re: Installing intermediate certs
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+And now I see that's supposed to be lower-case "security."
+
+On Apr 23, 2010, at 01:33:12, Rick Mann wrote:
+
+> There has been an ongoing problem with Apple's production push =
+notification feedback servers, in that they require us to install =
+Entrust root certs. For some reason, Apple chose to sign certs for the =
+production push, sand box push, and sandbox feedback servers with =
+well-known root certs, but the production feedback server cert is signed =
+with unknown root certs.
+>=20
+> Someone suggested I install these intermediate certs on the system, =
+but I don't know where to install them. He pointed to =
+$JAVA_HOME/lib/Security/cacerts, but I see no such directory under 1.6.
+>=20
+> Where do these go? Where do they go in more traditional Java (Open =
+Solaris Java)?
+>=20
+> TIA,
+> Rick
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/java-dev/rmann%40latencyzero.com
+>=20
+> This email sent to rmann@latencyzero.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

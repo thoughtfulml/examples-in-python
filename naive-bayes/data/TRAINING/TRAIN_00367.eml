@@ -1,0 +1,163 @@
+X-Account-Key: account5
+X-UIDL: GmailId12815673f8a27126
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs17670wfj;
+        Mon, 19 Apr 2010 02:30:09 -0700 (PDT)
+Received: by 10.223.29.199 with SMTP id r7mr2553188fac.73.1271669407367;
+        Mon, 19 Apr 2010 02:30:07 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f31si10051050fkf.48.2010.04.19.02.30.06;
+        Mon, 19 Apr 2010 02:30:07 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A520F13A4779; Mon, 19 Apr 2010 09:30:01 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AC40013A4708
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 09:29:55 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id bVtfiInJvq2I for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 09:29:47 +0000 (UTC)
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id E4DB613A4618
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 09:29:47 +0000 (UTC)
+Received: by wye20 with SMTP id 20so531384wye.6
+        for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 02:29:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=3G3vzgPhIL26azhSJB+djBIfZQepFfZuACyIlR4WgQk=;
+        b=h3bG2/UvDoSL0THZsYjvNV/oqP/+DNUE4QzhlaAHFrrRRk96OKrRLiqlpOBEGiyBXJ
+         9L+RXjFcUlrXO/wnIB5gI/kqaeLRtVIPy7qVXGHjnegy+6KB4GojEflptgmG22cp/346
+         r8Qs7LBDoC3kLYJUGA8FneO+TApQG6jTQ2w6M=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=Jm5D2Aw9zAhEWraWLgct94ybDont0L+6MxXR473AoB6pECvh38rkNfeEhykd+VjNW4
+         e7J1+pMV/gowsWHC2SeqZiqEkrKix0l0SXQzCDz0CM/RiU3wthkch4tUGNtIapG22Lca
+         wa7I6/8ZbT/k9uWjYi3jEviNhT6EiszbwJWEQ=
+MIME-Version: 1.0
+Received: by 10.216.70.207 with HTTP; Mon, 19 Apr 2010 02:29:40 -0700 (PDT)
+In-Reply-To: <4BCC1F3C.3010001@cox.net>
+References: <q2w880dece01004180920m4f3f9906u46872de28d1d722f@mail.csmining.org>
+	 <4BCB5120.1000205@cox.net>
+	 <o2k880dece01004181208n18944251w8c7596003cb3d788@mail.csmining.org>
+	 <4BCB5B0A.1050201@cox.net>
+	 <p2z880dece01004190054mb5ed9e82kf91391fbed7fdeec@mail.csmining.org>
+	 <4BCC1F3C.3010001@cox.net>
+Date: Mon, 19 Apr 2010 12:29:40 +0300
+Received: by 10.216.172.71 with SMTP id s49mr1502320wel.195.1271669380630; 
+	Mon, 19 Apr 2010 02:29:40 -0700 (PDT)
+Message-ID: <s2m880dece01004190229s60eace67o91963d5b4d4652e@mail.csmining.org>
+Subject: Re: USB device attached via RS232 adaptor
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Ron Johnson <ron.l.johnson@cox.net>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <TzN8z_F-Q2B.A.BXF.ZKCzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574421
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 09:30:01 +0000 (UTC)
+
+On 19 April 2010 12:15, Ron Johnson <ron.l.johnson@cox.net> wrote:
+> On 2010-04-19 02:54, Dotan Cohen wrote:
+>>>
+>>> So, is does this SC reader (a) serial-over-USB or (b) USB-over-serial?
+>>>
+>>
+>> I should imagine (b), but I have not gotten there yet to see.
+>>
+>
+> Then he probably is clueless.
+>
+
+Well, he is turning to _me_ for advice, so that is a reasonable assumption!
+
+
+>>> (a) is common, (b) is what you described, but I've never heard of (b).
+>>> =C2=A0Are
+>>> you sure you wrote what you really mean?
+>>>
+>>
+>> No, I have not gotten there yet to look at the machine. But I want to
+>> get there prepared, which is why I ask here.
+>>
+>
+> Querying the list without the slightest bit of *fact* is a great way to p=
+iss
+> people off.
+>
+
+I am sorry if I upset people. I was faced with a situation that I did
+not understand and thought that I would query those with far more
+experience after searching the web yielded nothing useful. Would you
+suggest that it is preferable for me to go to this guy's place not
+knowing a thing about what I'm getting into, especially when the goal
+"read from / write to the card reader" is so straightforward?.
+
+
+>>> This is the important quote, I think: "Infinity USB Smart is based on t=
+he
+>>> HID standard, no custom drivers are needed".
+>>>
+>>
+>> HID is for keyboards and mice, not card readers. It does not handle
+>> files from what I understand. This is turning into a big pile of WTF.
+>>
+>
+> Smart cards don't pass much info, and KB emulation works well in such
+> environments (also like with bar code scanners).
+>
+
+I have seen barcode and magnetic scanners that simply pass string.
+Maybe you are right, maybe that is how this works. We'll see.
+
+Thanks.
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+Please CC me if you want to be sure that I read your message. I do not
+read all list mail.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/s2m880dece01004190229s60eace67o91963d5b4d4652e@mail.csmining.org
+
+

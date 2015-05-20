@@ -1,0 +1,162 @@
+X-Account-Key: account5
+X-UIDL: GmailId12824794213fadb7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs7978wfj;
+        Thu, 22 Apr 2010 00:44:47 -0700 (PDT)
+Received: by 10.223.15.65 with SMTP id j1mr245844faa.0.1271922246461;
+        Thu, 22 Apr 2010 00:44:06 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si6163501fkt.49.2010.04.22.00.44.05;
+        Thu, 22 Apr 2010 00:44:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B802713A4E40; Thu, 22 Apr 2010 07:43:59 +0000 (UTC)
+Old-Return-Path: <franxg@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BE5E913A4ACD
+	for <lists-debian-user@liszt.debian.org>; Thu, 22 Apr 2010 07:43:53 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kZRn3cxkjHTn for <lists-debian-user@liszt.debian.org>;
+	Thu, 22 Apr 2010 07:43:46 +0000 (UTC)
+Received: from mail-pw0-f47.google.com (mail-pw0-f47.google.com [209.85.160.47])
+	by liszt.debian.org (Postfix) with ESMTP id 250F513A4D8A
+	for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 07:43:45 +0000 (UTC)
+Received: by pwj5 with SMTP id 5so5203809pwj.6
+        for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 00:43:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:subject:from:to:content-type
+         :date:message-id:mime-version:x-mailer:content-transfer-encoding;
+        bh=/tOa0ySFZX0VIYQpxUzW2qRC7iAR4V+JEjMdyM6wX7s=;
+        b=O7WSiTQW9aGU2tTRAAte6ZsW7tp6ecXL+1YcMzWam5wxFeeElO4K+I9yXM6a1PIwuz
+         n308nQcvRS//2yD0GjOWNcall/3YF0hhW5VWBdRQ8u8UFkG6Lwj7027ui/BmgMZ370R3
+         G0TnPG0SR/E3iZQtF1NnwQh302Y0CfRDsCxno=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=subject:from:to:content-type:date:message-id:mime-version:x-mailer
+         :content-transfer-encoding;
+        b=HYsTk8uu+/fi/I9fMk/prR987//bTyA4YMZD86Dq2w2ugfoRUy3/58fkqIeErZf5YP
+         C0ARpqDrAd2FOgILNrjkqdP/PTzhKRrUGCZVIqsfyhk0fMoH3lqM44Pm2j11t8E0t9Gy
+         CRxy6o1GH83YCZqhrFoRYJhBQrtISPzIs1/sM=
+Received: by 10.141.188.26 with SMTP id q26mr4912068rvp.150.1271922218213;
+        Thu, 22 Apr 2010 00:43:38 -0700 (PDT)
+Received: from [10.0.0.2] (CPE-121-214-190-103.lnse3.lon.bigpond.net.au [121.214.190.103])
+        by mx.google.com with ESMTPS id g14sm10522379rvb.13.2010.04.22.00.43.36
+        (version=SSLv3 cipher=RC4-MD5);
+        Thu, 22 Apr 2010 00:43:37 -0700 (PDT)
+Subject: Will AMD64 Install on my PC???
+From: Frank Charles Gallacher <franxg@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain
+Date: Thu, 22 Apr 2010 17:43:37 +1000
+Message-Id: <1271922217.3108.7.camel@Ni.BigPond>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1 
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <1f6kgAi4O0M.A.1lE._4_zLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574742
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 22 Apr 2010 07:43:59 +0000 (UTC)
+
+1. Here is my cpuinfo:
+
+root@Ni:/home/franx# cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Core(TM)2 Duo CPU     E6550  @ 2.33GHz
+stepping	: 11
+cpu MHz		: 1998.000
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov
+pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm
+constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx smx est tm2
+ssse3 cx16 xtpr lahf_lm
+bogomips	: 4664.29
+clflush size	: 64
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Core(TM)2 Duo CPU     E6550  @ 2.33GHz
+stepping	: 11
+cpu MHz		: 1998.000
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov
+pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm
+constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx smx est tm2
+ssse3 cx16 xtpr lahf_lm
+bogomips	: 4660.87
+clflush size	: 64
+power management:
+
+2. It looks like AMD64 will run; if I burn an AMD64 Install CD-ROM
+and try to boot it on a 32-bit processor, do I get a
+"Don't be a smartarse" type error message, or does it crash???
+
+TIA, fcG.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271922217.3108.7.camel@Ni.BigPond
+
+

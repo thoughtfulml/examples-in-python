@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d07b37c0a8837
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs140181wfo;
+        Tue, 25 May 2010 10:20:55 -0700 (PDT)
+Received: by 10.142.247.16 with SMTP id u16mr4925284wfh.217.1274808055550;
+        Tue, 25 May 2010 10:20:55 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id w26si747098wfh.19.2010.05.25.10.20.55;
+        Tue, 25 May 2010 10:20:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 21A171C3A3E11
+	for <mlsubscriber.tech@csmining.org>; Tue, 25 May 2010 10:20:55 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 1C48227E7BA78
+	for <mlsubscriber.tech@csmining.org>; Tue, 25 May 2010 10:20:55 -0700 (PDT)
+X-Original-To: Java-dev@lists.apple.com
+Delivered-To: Java-dev@lists.apple.com
+Received: from relay14.apple.com (relay14.apple.com [17.128.113.52])
+	by lists.apple.com (Postfix) with ESMTP id 3D18927E79658
+	for <Java-dev@lists.apple.com>; Tue, 25 May 2010 10:15:25 -0700 (PDT)
+X-AuditID: 11807134-b7b33ae000001768-f0-4bfc05ac4dd9
+Received: from [17.151.87.84] (Unknown_Domain [17.151.87.84])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay14.apple.com (Apple SCV relay) with SMTP id
+	4E.07.05992.DA50CFB4; Tue, 25 May 2010 10:15:25 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Bino George <bino@apple.com>
+In-Reply-To: <AANLkTimJ6-TsXhlzb5uhJ_2gPOOH2uodtlqvO0Zgdfjy@mail.csmining.org>
+Date: Tue, 25 May 2010 10:15:24 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <A738F055-5B2C-44BD-92B8-2E459F39358B@apple.com>
+References: <FD7E2B3E-F1FD-4100-9B37-BA18E0C2B8D5@smershnet.com>
+	<C9AB2888-90E9-4DB0-B3BB-2584D1C8FBE9@apple.com>
+	<F703592C-F97E-4C4C-A059-0A7828AF64BE@smershnet.com>
+	<AANLkTimJ6-TsXhlzb5uhJ_2gPOOH2uodtlqvO0Zgdfjy@mail.csmining.org>
+To: Guy Gascoigne-Piggford <guy@wyrdrune.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: Java-dev@lists.apple.com
+Subject: Re: 10.6 Update 2 crashing IDEA on pasting code
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi Guy,
+                The problem is caused by an NPE in the Swing =
+accessibility code when a JList subclass overrides the =
+getAccessibleContext() method and returns null. You can hit this crash =
+when using a tool that scans the IntelliJ UI using the Accessibility =
+API. We believe we have a fix for it, but as a workaround if you avoid =
+using tools that use Accessibility with IntelliJ, you can avoid the =
+crash.
+
+Thanks,
+Bino George,
+Java Runtime Engineer,
+Apple Inc.
+
+
+
+On May 25, 2010, at 8:29 AM, Guy Gascoigne-Piggford wrote:
+
+> Is there any update on this?  I use Idea all day and every day so this
+> is a complete blocker to me upgrading.
+>=20
+> Is there any way for anyone other than the bug reporter to see the
+> status of a specific bug?  Apple's bug parade doesn't appear to be as
+> open as say Sun's was.
+>=20
+> Guy
+>=20
+> On Wed, May 19, 2010 at 11:06 PM, Phillip Ashworth =
+<phill@smershnet.com> wrote:
+>> Thanks - I've filed bug report ID: 8002471
+>> I've discovered that the crash occurs when the pasted code includes =
+class name that are not already imported in the current document, IDEA =
+then pops-up a window to select the class to import and crashes =
+instantly and every time.
+>> I've not got any screen reader or accessibility software running but =
+I do have LaunchBar and TextExpander.. not sure if these count.
+>> -Phill
+>>=20
+>>=20
+>> On 20/mag/2010, at 07.07, Bino George wrote:
+>>=20
+>>> Hi Phillip,
+>>>                    Can you please file a bug at =
+http://bugreporter.apple.com with the crash log attached to it ? I tried =
+to reproduce this myself but could not, can you also include the exact =
+steps to reproduce. Please mention any screen readers or other =
+Accessibility tools you may have running.
+>>>=20
+>>> Thanks,
+>>> Bino George,
+>>> Java Runtime Engineer,
+>>> Apple Inc.
+>>>=20
+>>> On May 19, 2010, at 9:15 PM, Phillip Ashworth wrote:
+>>>=20
+>>>> Since updating to 10.6 Update 2 Intellij IDEA crashes when I paste =
+code from one class into another in the main editor - see exception =
+below.
+>>>> JetBrains support say this is an Apple problem, anything I can do =
+about it or is it a bug in this java version?
+>>>>=20
+>>>> Regards
+>>>> Phill
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

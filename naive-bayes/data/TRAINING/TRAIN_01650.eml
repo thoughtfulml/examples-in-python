@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288293cfb674c37
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs14060wfb;
+        Mon, 10 May 2010 07:17:25 -0700 (PDT)
+Received: by 10.223.10.11 with SMTP id n11mr4548140fan.3.1273501044248;
+        Mon, 10 May 2010 07:17:24 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f1si8618684fai.27.2010.05.10.07.17.23;
+        Mon, 10 May 2010 07:17:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 68BDF13A56E4; Mon, 10 May 2010 14:17:20 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DEC9313A5627
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 14:17:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id U1xI9+ReifUg for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 14:17:04 +0000 (UTC)
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 89C9613A55CC
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 14:17:04 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so6335185qyk.3
+        for <debian-kde@lists.debian.org>; Mon, 10 May 2010 07:16:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type;
+        bh=+oxWDyq5I1MB4u5sdaXYil2UwFICdH2GvUFRdntQjoc=;
+        b=s9lTy3ngzBJn7NoYVfkwtL1dpML/cZBdxe88oVFsoRdnNTthHsM7/Vr1gUka6/BU3v
+         SC6I46DQPUq9Z+iwHUb5M8kOTeAL1pxhg1YWE6HDxWWQNnsiJmDi02g0vpDYZ9wjsAol
+         bCoSc2Hv+Av5Lp4ao9i5HwDCirvCFIJGgifHk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=jHqUBUwV1uC2kr+xFKrXQRPq0awFrQAlVfS5zxNPWcHnW6M/LLbyL60YXs053oHOBL
+         6YFgBLtx6Wcgl/2H2icYrlI6kKYLxR98hexnE5+NqREqbmmbc4ontOoAYB12szSdPE7w
+         8LYYD1EpIsSUq17LmTHeVEdLfNFfjKF6Pn9TE=
+MIME-Version: 1.0
+Received: by 10.224.115.34 with SMTP id g34mr2683959qaq.135.1273500520644; 
+	Mon, 10 May 2010 07:08:40 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Mon, 10 May 2010 07:08:40 -0700 (PDT)
+Date: Mon, 10 May 2010 17:08:40 +0300
+Message-ID: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+Subject: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-kde <debian-kde@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <eiE5Cf_ugNL.A.tfG.wVB6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32308
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 14:17:20 +0000 (UTC)
+
+Please tell us what problems, bugs, or issues KDE 4 that make it
+difficult to use. Please be very specific so that bugs can be filed
+and the software can be fixed. General statements such as "KDE4 sux"
+are not welcome, as they do not give any indication as to what can be
+fixed.
+
+Comparisons to KDE 3 are welcome, but please do not simply state
+"should be like KDE 3". Rather, please state how KDE 4 behaves, and
+how you would prefer it to behave (even if that means describing in
+detail KDE 3 behaviour).
+
+My intention is to file issues and get bugs fixed, not to fight.
+Nobody is ordered to participate in this thread, but all are welcome.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org
+
+

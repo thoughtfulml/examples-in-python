@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f42bef8e14ce4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs326wfa;
+        Mon, 12 Apr 2010 15:37:53 -0700 (PDT)
+Received: by 10.223.46.135 with SMTP id j7mr1072359faf.105.1271111872333;
+        Mon, 12 Apr 2010 15:37:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si9517830fks.23.2010.04.12.15.37.51;
+        Mon, 12 Apr 2010 15:37:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4DFDA13A5821; Mon, 12 Apr 2010 22:37:47 +0000 (UTC)
+Old-Return-Path: <pecondon@mesanetworks.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9264613A577B
+	for <lists-debian-user@liszt.debian.org>; Mon, 12 Apr 2010 22:37:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id cArPGrttYDYs for <lists-debian-user@liszt.debian.org>;
+	Mon, 12 Apr 2010 22:37:34 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from omta0109.mta.everyone.net (imta-38.everyone.net [216.200.145.38])
+	by liszt.debian.org (Postfix) with ESMTP id D1C2A13A57A2
+	for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 22:37:33 +0000 (UTC)
+Received: from dm0207.mta.everyone.net (sj1-slb03-gw2 [172.16.1.96])
+	by omta0109.mta.everyone.net (Postfix) with ESMTP id 45AD8298558
+	for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 15:36:27 -0700 (PDT)
+X-Eon-Dm: dm0207
+Received: by dm0207.mta.everyone.net (EON-AUTHRELAY2 - 4813b144) id dm0207.4bbbd55d.e47895
+	for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 15:36:26 -0700
+X-Eon-Sig: AQMnnbRLw6BqWuel4AIAAAAB,48386dccc64a1f68534edb4704383c55
+Received: from pec by big.lan.gnu with local (Exim 4.71)
+	(envelope-from <pecondon@mesanetworks.net>)
+	id 1O1SEh-0004yu-3u
+	for debian-user@lists.debian.org; Mon, 12 Apr 2010 16:36:07 -0600
+Date: Mon, 12 Apr 2010 16:36:07 -0600
+From: Paul E Condon <pecondon@mesanetworks.net>
+To: debian-user@lists.debian.org
+Subject: Re: About USB hard drives and errors
+Message-ID: <20100412223607.GL10774@big.lan.gnu>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100409004433.GA2823@big.lan.gnu>
+ <4BC026CC.8000704@web.de>
+ <20100410222445.GC5664@big.lan.gnu>
+ <20100411040606.GC10774@big.lan.gnu>
+ <20100411002510.020a145a.celejar@csmining.org>
+ <hpvvd4$4pp$1@dough.gmane.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <hpvvd4$4pp$1@dough.gmane.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gAa8yzqwELI.A.IWH.7C6wLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573954
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 12 Apr 2010 22:37:47 +0000 (UTC)
+
+On 20100412_152156, Hugo Vanwoerkom wrote:
+> Celejar wrote:
+> >On Sat, 10 Apr 2010 22:06:06 -0600
+> >Paul E Condon <pecondon@mesanetworks.net> wrote:
+> >
+> >...
+> >
+> >>I got a little less timid and tried running smartctl even though I was
+> >>quite unsure of what to expect. It ran. Each of the three USB HD gave
+> >>somewhat different output, but none gave output that claimed there was
+> >>a working SMART on the drive. These drives are Western Digital (WD).
+> >>The WD web site mentions SMART and also uses the words Smart
+> >>Drive to mean something else that is a proprietary marketing
+> >>thing, AFAICT. I
+> >>was unable to find a list of part #s for drives that support S.M.A.R.T.
+> >>
+> >>I think I should be in the market for a better class of drives, but not
+> >>this weekend. Thanks for the help.
+> >
+> >My understanding is that S.M.A.R.T. doesn't generally work over USB.
+> >As Wikipedia puts it:
+> >
+> >For example, few external drives connected via USB and Firewire
+> >correctly send S.M.A.R.T. data over those interfaces.
+> >
+> >http://en.wikipedia.org/wiki/S.M.A.R.T.#Standards_and_implementation
+> >
+> 
+> I can use smart on my USB drive enclosure with an ATA drive but not
+> with my USB drive enclosure with a SATA drive.
+> 
+> Hugo
+
+Very interesting --- but
+
+My quick googling reveals many USB drive enclosures for both ATA and SATA
+but the marketers don't make mention of S.M.A.R.T . What is the brand of
+your enclosure. I want to look for it, in particular, and see if it claims
+the feature that you have discovered. Actually, on looking a little more
+closely, I'm not seeing any case of a single enclosure that can be used
+with both ATA and SATA. Do I read your post correctly - your enclosure can
+contain either a SATA or an ATA, and work over USB? But SMART only works
+when it is enclosing an ATA? 
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412223607.GL10774@big.lan.gnu
+
+

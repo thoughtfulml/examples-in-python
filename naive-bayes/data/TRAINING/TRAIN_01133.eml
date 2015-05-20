@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d2a1a54741ae1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs182747wfa;
+        Tue, 6 Apr 2010 03:19:22 -0700 (PDT)
+Received: by 10.223.47.130 with SMTP id n2mr2893236faf.55.1270549161143;
+        Tue, 06 Apr 2010 03:19:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 23si17709239fxm.61.2010.04.06.03.19.20;
+        Tue, 06 Apr 2010 03:19:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BD85C13A5E8D; Tue,  6 Apr 2010 10:19:10 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST,MDO_CABLE_TV3,MONEY autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F2EF313A5915
+	for <lists-debian-user@liszt.debian.org>; Tue,  6 Apr 2010 10:19:04 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MDO_CABLE_TV3=0.5, MONEY=0.5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id UVwgSEKRXTW4 for <lists-debian-user@liszt.debian.org>;
+	Tue,  6 Apr 2010 10:18:54 +0000 (UTC)
+Received: from eastrmmtao106.cox.net (eastrmmtao106.cox.net [68.230.240.48])
+	by liszt.debian.org (Postfix) with ESMTP id 8941B13A5E64
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 10:18:54 +0000 (UTC)
+Received: from eastrmimpo03.cox.net ([68.1.16.126])
+          by eastrmmtao106.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100406101851.TVIQ26523.eastrmmtao106.cox.net@eastrmimpo03.cox.net>
+          for <debian-user@lists.debian.org>;
+          Tue, 6 Apr 2010 06:18:51 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo03.cox.net with bizsmtp
+	id 2AJq1e0084dcMZy02AJrBs; Tue, 06 Apr 2010 06:18:51 -0400
+X-VR-Score: -130.00
+X-Authority-Analysis: v=1.1 cv=garkv6WxUlWCZxlYffz6yNGlDVHTZyAXTUdcTJEJ4sc=
+ c=1 sm=1 a=3qpWe13e5nMA:10 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=vTRB5t_DwRHbErWnyOgA:9 a=ggtDeR7NjViIQZ6i1e8PDxPpJ34A:4 a=wPNLvfGTeEIA:10
+ a=dqP5HnGwlfVEaoS_:21 a=UeGTqFO-XeWbrUuD:21 a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BBB0A8A.9010407@cox.net>
+Date: Tue, 06 Apr 2010 05:18:50 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.22) Gecko/20091109 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Debian And Advanced Layer3 9924T
+References: <1270236442.4bb6451ae7f31@webmail.sld.cu> <4BB7341F.5040805@worldwideweber.ch> <4BB7D27C.2080609@hardwarefreak.com> <4BBADDFA.4080704@worldwideweber.ch>
+In-Reply-To: <4BBADDFA.4080704@worldwideweber.ch>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <NFFMxsMnmiD.A.r4B.eqwuLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573420
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 10:19:10 +0000 (UTC)
+
+On 2010-04-06 02:08, Andreas Weber wrote:
+> On 2010-04-04 01:42, Stan Hoeppner wrote:
+>> Telling the OP to throw out a multi thousand dollar 24 port managed GigE
+>> switch due to a minor issue with one PC or server is not very sage advice.
+> 
+> I said "try changing", not "throw out" (reading and quoting is a basic
+> skill). Having sold many _multi-thousand-Euro-switches_ let me tell you
+> that they can be broken right from the start. DOA should ring a bell. A
+> simple temporary change of the switch (often the replacement is provided
+> by the vendor) would immediately show if this could be the problem.
+> 
+> It's a bit of a general problem on lists like this one (very technical
+> ones) that some very smart people dislike simple straight forward
+> solutions to be checked first, although it happens all the time that
+> smart people stumble over simple problems. Instead they like to tell
+> other people they're not sage enough.
+> 
+> So sorry for my "Is the cable ok?" approach as a first aid, I will keep
+> my mouth shut now, knowing that there's a savvy elite around.
+> 
+
+Stan definitely did not exercise sufficient reading comprehension.
+
+Adding the word "temporarily" would have reduced all ambiguity, though.
+
+-- 
+"History does not long entrust the care of freedom to the weak
+or the timid."  Dwight Eisenhower
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBB0A8A.9010407@cox.net
+
+

@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282088ffb54e761
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs112446wfj;
+        Wed, 21 Apr 2010 06:25:09 -0700 (PDT)
+Received: by 10.223.9.90 with SMTP id k26mr695783fak.70.1271856168935;
+        Wed, 21 Apr 2010 06:22:48 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si1347489fka.13.2010.04.21.06.22.48;
+        Wed, 21 Apr 2010 06:22:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B541413A5013; Wed, 21 Apr 2010 13:22:42 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 19CA113A500F
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 13:22:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id HJDVJRa6mLNq for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 13:22:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id 0065E13A5009
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 13:22:28 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=qhkFTjdWoSEA:10 a=FKkrIqjQGGEA:10 a=FsqgCs7Jf1oA:10 a=IkcTkHD0fZMA:10 a=aR16PxjQAAAA:8 a=K7gzU-XHOBEYThHc9AgA:9 a=vYtZClQnewaO9IwH1EUA:7 a=SPv-p3yY8CLKi6mDgTKJLFqBL3EA:4 a=QEXdDO2ut3YA:10 a=CiSHi91Bn78A:10 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:44562] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 46/21-21309-11CFECB4; Wed, 21 Apr 2010 09:22:25 -0400
+Date: Wed, 21 Apr 2010 09:22:25 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <1905300792.199120.1271856145572.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <h2mae6dd7d31004201651q86f93ceq3b03d972803e6583@mail.csmining.org>
+Subject: Re: Epiphany browser continues to get worse and worse
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [66.145.136.6]
+X-Mailer: Zimbra 6.0.5_GA_2213.RHEL4_64 (zclient/6.0.5_GA_2213.RHEL4_64)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <yerSlVi54bO.A.AdG.iwvzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574670
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 13:22:42 +0000 (UTC)
+
+On Tue, 20 Apr 2010 19:51:47 -0400 (EDT), Andrew Malcolmson wrote:
+> On Mon, Apr 19, 2010 at 10:00 PM, Stephen Powell wrote:
+>> On Mon, 19 Apr 2010 21:01:41 -0400 (EDT), Andrew Malcolmson wrote:
+>>> Couldn't say why they switched, but I find pages in Epiphany 2.29 in
+>>> Squeeze look vivid compared with the Gecko version.
+>>
+>> I have switched back and forth between epiphany and iceweasel several
+>> times, on the same computer and monitor, and I have not noticed any
+>> difference in image quality between iceweasel, which is based on
+>> gecko (xulrunner-1.9.1) and epiphany-browser, which is based on webkit
+>> (libwebkit-1.0-2).
+>>
+> 
+> Well, I could be hallucinating, but FYI I tested this by comparing the
+> two Epiphany versions side by side.  Version 2.29 was running in a Sid
+> chroot (schroot -p).  The new version looked brighter and a wee bit
+> clearer. I first noticed this improvement on another computer I'd just
+> upgraded to Squeeze.  However, maybe the difference is something to do
+> with X.org?
+
+Even if there is a measurable difference in image brightness or sharpness,
+it's a moot point for me.  If I can't download files or reply to e-mails,
+the Squeeze version is useless to me.  I'll check things out again once
+the Sid version migrates to Squeeze.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1905300792.199120.1271856145572.JavaMail.root@md01.wow.synacor.com
+
+

@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286e261703a58f9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs398981wfb;
+        Thu, 6 May 2010 08:05:10 -0700 (PDT)
+Received: by 10.223.20.218 with SMTP id g26mr6784833fab.18.1273158309831;
+        Thu, 06 May 2010 08:05:09 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si2237462fka.16.2010.05.06.08.05.09;
+        Thu, 06 May 2010 08:05:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7D7DF6C8406; Thu,  6 May 2010 15:05:00 +0000 (UTC)
+Old-Return-Path: <eual.jp@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0FA9D6C8421
+	for <lists-debian-user@liszt.debian.org>; Thu,  6 May 2010 15:04:54 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id q-WH8g2dQpBC for <lists-debian-user@liszt.debian.org>;
+	Thu,  6 May 2010 15:04:46 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 70BA76C8413
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 15:04:46 +0000 (UTC)
+Received: by wwi14 with SMTP id 14so43930wwi.6
+        for <debian-user@lists.debian.org>; Thu, 06 May 2010 08:04:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=s5nMgVi0Bb6PE9jrUJyXw0+V8pDVilLiiboNdQZUMQ4=;
+        b=bwPa/kl2Z/eegzNP20dx3YxT2lGeuEwEATDxZcDD4nc0OlCujf5VJN+xWnG5ybVTP+
+         E8PQKq6kYjbd9NAeMbNCFHy8vWnqt+8z0DmgUqMw/GejJkGZhmCuCgXowZfAnZmyVtY2
+         HeEMoYK1NUK9dsv0v/bfqUCJ5j2DLrQXQRI1U=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=Hn/qXbmjSiflTXbTs6wPWeBHasY1bR7B6MxGVbp+LYfDY0hC7qdaGgtNTalf39WNBg
+         rAenETclxLzU0P7krwv8fTpP8QXgWdBmA7rV6k4w7AP5Z1O2Az+fli9Np7y/ZKdHH049
+         E7ze85QqWoiTpklAO1TuW+BgF65llxMDuHG6g=
+MIME-Version: 1.0
+Received: by 10.216.186.138 with SMTP id w10mr8373798wem.206.1273158281198; 
+	Thu, 06 May 2010 08:04:41 -0700 (PDT)
+Received: by 10.216.37.76 with HTTP; Thu, 6 May 2010 08:04:41 -0700 (PDT)
+In-Reply-To: <20100506142143.GA11722@stt008.linux.site>
+References: <p2u28c1d5ea1005060246p3434d45dy6b9ca5b6d34a08de@mail.csmining.org>
+	 <pan.2010.05.06.13.17.15@csmining.org>
+	 <o2l28c1d5ea1005060636v9349f817jf2f4db5241536a22@mail.csmining.org>
+	 <20100506142143.GA11722@stt008.linux.site>
+Date: Thu, 6 May 2010 18:04:41 +0300
+Message-ID: <t2k28c1d5ea1005060804l6bb90152s5ff573e00b58b6ec@mail.csmining.org>
+Subject: Re: How to flush cache of certain disk?
+From: Alexander Batischev <eual.jp@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Lh6f3Dz5VrG.A.9WC.cqt4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576012
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 15:05:00 +0000 (UTC)
+
+>> When I unplug stick, udev unmounts it from mountpoint. Pay attention
+>> to moment of unmount - it happens *after* unplugging, so no cache can
+>> be flushed as far as device is already disconnected.
+>>
+>> I though about running umount /mnt/sd[a-z] before unplugging, but then
+>> decided to ask for a better way. If I won't find it, umount will be
+>> the solution. So, any other options?
+>
+> I never do that way. I always first "umount" the device and then, I
+> remove the stick, but not the reverse. Removable media has to be done
+> that way, to prevent data loss or flash drive damage, or that is what
+> manufacturers say :-?
+
+Of course, "umount, then remove" is the normal way to remove USB stick
+(and any other storage). But as far as main idea of automounting is
+"easy (un)plug" (in my opinion at least), we have little weird but
+working principle "sync, then unplug, and udev will carry out
+everything else". As I already said, it's really weirds, but it works.
+
+But all you said made me hard thinking about the way I mount and
+unmount my removable media. Maybe I should forget about sync and use
+'umount /mnt/sd[a-z]' instead, or even write little script which will
+ask me which device I want to unmount=E2=80=A6 Dunno. But thanks for sharin=
+g
+your thoughts with me!
+
+P.S. Camale=C3=B3n, please forgive me for sending previous mail directly to
+you, not to the list. I think it's time to drop GMail web interface
+and switch back to local email client=E2=80=A6
+
+With best regards,
+Alexander Batischev
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2k28c1d5ea1005060804l6bb90152s5ff573e00b58b6ec@mail.csmining.org
+
+

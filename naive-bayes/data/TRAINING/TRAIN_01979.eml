@@ -1,0 +1,221 @@
+X-Account-Key: account5
+X-UIDL: GmailId128181933863ffb0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs43295wfj;
+        Mon, 19 Apr 2010 15:05:34 -0700 (PDT)
+Received: by 10.223.17.155 with SMTP id s27mr470391faa.13.1271714624502;
+        Mon, 19 Apr 2010 15:03:44 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k29si1307221fkk.15.2010.04.19.15.03.43;
+        Mon, 19 Apr 2010 15:03:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 669E813A4E3D; Mon, 19 Apr 2010 22:03:34 +0000 (UTC)
+Old-Return-Path: <joe@emenaker.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9187313A4D5F
+	for <lists-debian-laptop@liszt.debian.org>; Mon, 19 Apr 2010 22:03:28 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Ad9FfMQMAhgE for <lists-debian-laptop@liszt.debian.org>;
+	Mon, 19 Apr 2010 22:03:21 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -3.66
+Received: from scully.cob.calpoly.edu (videoserver8.cob.calpoly.edu [129.65.185.9])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id DAFF213A4DB3
+	for <debian-laptop@lists.debian.org>; Mon, 19 Apr 2010 22:03:20 +0000 (UTC)
+Received: from damien.cob.calpoly.edu ([129.65.91.128] helo=[127.0.0.1])
+	by scully.cob.calpoly.edu with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <joe@emenaker.com>)
+	id 1O3z3l-00030T-Es
+	for debian-laptop@lists.debian.org; Mon, 19 Apr 2010 15:03:17 -0700
+Message-ID: <4BCCD31F.507@emenaker.com>
+Date: Mon, 19 Apr 2010 15:03:11 -0700
+From: Joe Emenaker <joe@emenaker.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.9) Gecko/20100317 Lightning/1.0b1 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-laptop@lists.debian.org
+Subject: Re: Battery monitor tools?
+References: <4BCCBC32.8090706@emenaker.com> <20100419212930.GA5574@dementia.proulx.com>
+In-Reply-To: <20100419212930.GA5574@dementia.proulx.com>
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha1; boundary="------------ms090808050700030703080806"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8veJ8RF8KNB.A.S-.2MNzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34112
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 22:03:34 +0000 (UTC)
+
+This is a cryptographically signed message in MIME format.
+
+--------------ms090808050700030703080806
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+On 4/19/2010 2:29 PM, Bob Proulx wrote:
+> Joe Emenaker wrote:
+>   =20
+>> I'm looking for a good battery charge/discharge profiler tool for my
+>> Ubuntu laptop.
+>>     =20
+> Of course I am sure that you know you are posting about Ubuntu to the
+> Debian laptop mailing list?  The least you could do is to lie to us
+> and say you are running Debian when posting to a Debian list.  :-)
+>   =20
+
+Well, I maintain about 4 Debian servers... and I've been using Debian=20
+almost exclusively ever since the .deb packaging system got rolled out=20
+(yeah... waaaayyy back). Because Ubuntu is a derivative of Debian (in=20
+the sense that just about anything available for Debian is either also=20
+packaged for, or the Debian package is installable on, Ubuntu), and also =
+
+because we in the Debian crowd have better kung-fu than those lame=20
+GUI-installer Ubuntu-ites...... *and* because I've already been=20
+subscribed on this list for several years....   I figured I'd ask here.
+
+> There are some useful tools available though.  You might look at 'ibam'=
+=2E
+>   =20
+
+Yeah, I saw IBAM, but it looked like it just generated plain ol' .png=20
+files or something. I was hoping for something a little more snazzy.
+
+- Joe
+
+
+--------------ms090808050700030703080806
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Description: S/MIME Cryptographic Signature
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIO5DCC
+BEYwggOvoAMCAQICEGb9R+PCGeToms2Z3fU6yyQwDQYJKoZIhvcNAQEFBQAwXzELMAkGA1UE
+BhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMTcwNQYDVQQLEy5DbGFzcyAxIFB1Ymxp
+YyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTA1MTAyODAwMDAwMFoXDTE1
+MTAyNzIzNTk1OVowgd0xCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEf
+MB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazE7MDkGA1UECxMyVGVybXMgb2YgdXNl
+IGF0IGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9ycGEgKGMpMDUxHjAcBgNVBAsTFVBlcnNv
+bmEgTm90IFZhbGlkYXRlZDE3MDUGA1UEAxMuVmVyaVNpZ24gQ2xhc3MgMSBJbmRpdmlkdWFs
+IFN1YnNjcmliZXIgQ0EgLSBHMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMnf
+rOfq+PgDFMQAktXBfjbCPO98chXLwKuMPRyVzm8eECw/AO2XJua2x+atQx0/pIdHR0w+VPhs
++Mf8sZ69MHC8l7EDBeqV8a1AxUR6SwWi8mD81zplYu//EHuiVrvFTnAt1qIfPO2wQuhejVch
+rKaZ2RHp0hoHwHRHQgv8xTTq/ea6JNEdCBU3otdzzwFBL2OyOj++pRpu9MlKWz2VphW7NQIZ
++dTvvI8OcXZZu0u2Ptb8Whb01g6J8kn+bAztFenZiHWcec5gJ925rXXOL3OVekA6hXVJsLjf
+aLyrzROChRFQo+A8C67AClPN1zBvhTJGG+RJEMJs4q8fef/btLUCAwEAAaOB/zCB/DASBgNV
+HRMBAf8ECDAGAQH/AgEAMEQGA1UdIAQ9MDswOQYLYIZIAYb4RQEHFwEwKjAoBggrBgEFBQcC
+ARYcaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYTALBgNVHQ8EBAMCAQYwEQYJYIZIAYb4
+QgEBBAQDAgEGMC4GA1UdEQQnMCWkIzAhMR8wHQYDVQQDExZQcml2YXRlTGFiZWwzLTIwNDgt
+MTU1MB0GA1UdDgQWBBQRfV4ZfTwE32ps1qKKGj8x2DuUUjAxBgNVHR8EKjAoMCagJKAihiBo
+dHRwOi8vY3JsLnZlcmlzaWduLmNvbS9wY2ExLmNybDANBgkqhkiG9w0BAQUFAAOBgQA8o9oC
+YzrEk6qrctPcrVA4HgyeFkqIt+7r2f8PjZWg1rv6aguuYYTYaEeJ70+ssh9JQZtJM3aTi55u
+uUMcYL3C3Ioth8FFwBFyBBprJCpsb+f8BxMp0Hc6I+f1wYVoGb/GAVQgGa41gsxiPGEJxvTV
+67APpp8zhZrTcY5Qj5ndYjCCBUkwggQxoAMCAQICEEgTlfTkCEE6iKvXTkEr69IwDQYJKoZI
+hvcNAQEFBQAwgd0xCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0G
+A1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazE7MDkGA1UECxMyVGVybXMgb2YgdXNlIGF0
+IGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9ycGEgKGMpMDUxHjAcBgNVBAsTFVBlcnNvbmEg
+Tm90IFZhbGlkYXRlZDE3MDUGA1UEAxMuVmVyaVNpZ24gQ2xhc3MgMSBJbmRpdmlkdWFsIFN1
+YnNjcmliZXIgQ0EgLSBHMjAeFw0xMDAxMjEwMDAwMDBaFw0xMTAxMjEyMzU5NTlaMIIBEjEX
+MBUGA1UEChMOVmVyaVNpZ24sIEluYy4xHzAdBgNVBAsTFlZlcmlTaWduIFRydXN0IE5ldHdv
+cmsxRjBEBgNVBAsTPXd3dy52ZXJpc2lnbi5jb20vcmVwb3NpdG9yeS9SUEEgSW5jb3JwLiBi
+eSBSZWYuLExJQUIuTFREKGMpOTgxHjAcBgNVBAsTFVBlcnNvbmEgTm90IFZhbGlkYXRlZDEz
+MDEGA1UECxMqRGlnaXRhbCBJRCBDbGFzcyAxIC0gTmV0c2NhcGUgRnVsbCBTZXJ2aWNlMRgw
+FgYDVQQDFA9Kb3NlcGggRW1lbmFrZXIxHzAdBgkqhkiG9w0BCQEWEGpvZUBlbWVuYWtlci5j
+b20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCXKMSWuWpcuKn69/GTa2PmMcf2
+0kJxj6BRS9/F4cFAzapQcFVNFMET69Y1y/awSGRw6C0cYOnGUosOTSTHB1lD547VoomZsOhw
+WZhzMyVolyJPEkOoJF9eqE3Ynpzd0ick9AzpBrojKvaR1Bvcujx1Z71JzYldrpi61S+ZhYLo
+q17DqncOQE9Z1Clt3TVIaiYiBhLSFh+c7ZJNE/4VnNiTyr8+YVVDFs8bCzv2V9+yr2Er5dKw
+0bJvj3a7BpndjfALcuS9zILVbqHxjVa2f8KT1LwSd4DjKlOpeJobABJlineUCvuH5ZPneJWd
+pC9CVK3VHKtBjw8pq6k9YGh4iIK/AgMBAAGjgcwwgckwCQYDVR0TBAIwADBEBgNVHSAEPTA7
+MDkGC2CGSAGG+EUBBxcBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LnZlcmlzaWduLmNv
+bS9ycGEwCwYDVR0PBAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjBKBgNV
+HR8EQzBBMD+gPaA7hjlodHRwOi8vSW5kQzFEaWdpdGFsSUQtY3JsLnZlcmlzaWduLmNvbS9J
+bmRDMURpZ2l0YWxJRC5jcmwwDQYJKoZIhvcNAQEFBQADggEBAJq7J+S3fCnlQR5o5hqYOjsF
+YNfwuoN6QuTK58Ji43kF/36UJFNR4DcSU5PueWiEYr/5316Gorcc0r3Xtf1LJJJMYdUFA4zD
+J1IV1Onf4vXpQU7Jb4yNixJzbRbmebWzcKjo5gruQjW0ivSjBXcB4UJLRumL6wk8uS5y2t1l
+d+XMOaCmO5BUFXWymSa5BNNMeXQ3YMwxqQobqAv/H5cncOfD4M+lZ4JpVrjQMduKYS8L2wII
+99QjmHMyl2cswq4NppTX0+vyaf75VQosuNptQwReyhmyfbC4sZTvGcRReDLsZKV6etA8gQ+g
+vOCQjyvkW360fNgdDXsCP7UaUbnaTtkwggVJMIIEMaADAgECAhBIE5X05AhBOoir105BK+vS
+MA0GCSqGSIb3DQEBBQUAMIHdMQswCQYDVQQGEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIElu
+Yy4xHzAdBgNVBAsTFlZlcmlTaWduIFRydXN0IE5ldHdvcmsxOzA5BgNVBAsTMlRlcm1zIG9m
+IHVzZSBhdCBodHRwczovL3d3dy52ZXJpc2lnbi5jb20vcnBhIChjKTA1MR4wHAYDVQQLExVQ
+ZXJzb25hIE5vdCBWYWxpZGF0ZWQxNzA1BgNVBAMTLlZlcmlTaWduIENsYXNzIDEgSW5kaXZp
+ZHVhbCBTdWJzY3JpYmVyIENBIC0gRzIwHhcNMTAwMTIxMDAwMDAwWhcNMTEwMTIxMjM1OTU5
+WjCCARIxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVz
+dCBOZXR3b3JrMUYwRAYDVQQLEz13d3cudmVyaXNpZ24uY29tL3JlcG9zaXRvcnkvUlBBIElu
+Y29ycC4gYnkgUmVmLixMSUFCLkxURChjKTk4MR4wHAYDVQQLExVQZXJzb25hIE5vdCBWYWxp
+ZGF0ZWQxMzAxBgNVBAsTKkRpZ2l0YWwgSUQgQ2xhc3MgMSAtIE5ldHNjYXBlIEZ1bGwgU2Vy
+dmljZTEYMBYGA1UEAxQPSm9zZXBoIEVtZW5ha2VyMR8wHQYJKoZIhvcNAQkBFhBqb2VAZW1l
+bmFrZXIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlyjElrlqXLip+vfx
+k2tj5jHH9tJCcY+gUUvfxeHBQM2qUHBVTRTBE+vWNcv2sEhkcOgtHGDpxlKLDk0kxwdZQ+eO
+1aKJmbDocFmYczMlaJciTxJDqCRfXqhN2J6c3dInJPQM6Qa6Iyr2kdQb3Lo8dWe9Sc2JXa6Y
+utUvmYWC6Ktew6p3DkBPWdQpbd01SGomIgYS0hYfnO2STRP+FZzYk8q/PmFVQxbPGws79lff
+sq9hK+XSsNGyb492uwaZ3Y3wC3LkvcyC1W6h8Y1Wtn/Ck9S8EneA4ypTqXiaGwASZYp3lAr7
+h+WT53iVnaQvQlSt1RyrQY8PKaupPWBoeIiCvwIDAQABo4HMMIHJMAkGA1UdEwQCMAAwRAYD
+VR0gBD0wOzA5BgtghkgBhvhFAQcXATAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy52ZXJp
+c2lnbi5jb20vcnBhMAsGA1UdDwQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDBAYIKwYBBQUH
+AwIwSgYDVR0fBEMwQTA/oD2gO4Y5aHR0cDovL0luZEMxRGlnaXRhbElELWNybC52ZXJpc2ln
+bi5jb20vSW5kQzFEaWdpdGFsSUQuY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQCauyfkt3wp5UEe
+aOYamDo7BWDX8LqDekLkyufCYuN5Bf9+lCRTUeA3ElOT7nlohGK/+d9ehqK3HNK917X9SySS
+TGHVBQOMwydSFdTp3+L16UFOyW+MjYsSc20W5nm1s3Co6OYK7kI1tIr0owV3AeFCS0bpi+sJ
+PLkuctrdZXflzDmgpjuQVBV1spkmuQTTTHl0N2DMMakKG6gL/x+XJ3Dnw+DPpWeCaVa40DHb
+imEvC9sCCPfUI5hzMpdnLMKuDaaU19Pr8mn++VUKLLjabUMEXsoZsn2wuLGU7xnEUXgy7GSl
+enrQPIEPoLzgkI8r5Ft+tHzYHQ17Aj+1GlG52k7ZMYIE7DCCBOgCAQEwgfIwgd0xCzAJBgNV
+BAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1
+c3QgTmV0d29yazE7MDkGA1UECxMyVGVybXMgb2YgdXNlIGF0IGh0dHBzOi8vd3d3LnZlcmlz
+aWduLmNvbS9ycGEgKGMpMDUxHjAcBgNVBAsTFVBlcnNvbmEgTm90IFZhbGlkYXRlZDE3MDUG
+A1UEAxMuVmVyaVNpZ24gQ2xhc3MgMSBJbmRpdmlkdWFsIFN1YnNjcmliZXIgQ0EgLSBHMgIQ
+SBOV9OQIQTqIq9dOQSvr0jAJBgUrDgMCGgUAoIICzjAYBgkqhkiG9w0BCQMxCwYJKoZIhvcN
+AQcBMBwGCSqGSIb3DQEJBTEPFw0xMDA0MTkyMjAzMTFaMCMGCSqGSIb3DQEJBDEWBBSs5qSs
+J3BRqPiOd8J2JFLHzcEwezBfBgkqhkiG9w0BCQ8xUjBQMAsGCWCGSAFlAwQBAjAKBggqhkiG
+9w0DBzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYIKoZIhvcN
+AwICASgwggEDBgkrBgEEAYI3EAQxgfUwgfIwgd0xCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5W
+ZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazE7MDkGA1UE
+CxMyVGVybXMgb2YgdXNlIGF0IGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9ycGEgKGMpMDUx
+HjAcBgNVBAsTFVBlcnNvbmEgTm90IFZhbGlkYXRlZDE3MDUGA1UEAxMuVmVyaVNpZ24gQ2xh
+c3MgMSBJbmRpdmlkdWFsIFN1YnNjcmliZXIgQ0EgLSBHMgIQSBOV9OQIQTqIq9dOQSvr0jCC
+AQUGCyqGSIb3DQEJEAILMYH1oIHyMIHdMQswCQYDVQQGEwJVUzEXMBUGA1UEChMOVmVyaVNp
+Z24sIEluYy4xHzAdBgNVBAsTFlZlcmlTaWduIFRydXN0IE5ldHdvcmsxOzA5BgNVBAsTMlRl
+cm1zIG9mIHVzZSBhdCBodHRwczovL3d3dy52ZXJpc2lnbi5jb20vcnBhIChjKTA1MR4wHAYD
+VQQLExVQZXJzb25hIE5vdCBWYWxpZGF0ZWQxNzA1BgNVBAMTLlZlcmlTaWduIENsYXNzIDEg
+SW5kaXZpZHVhbCBTdWJzY3JpYmVyIENBIC0gRzICEEgTlfTkCEE6iKvXTkEr69IwDQYJKoZI
+hvcNAQEBBQAEggEASpcHKFjqQHqQ091Ztlwg9PzvGBL1Wv7zI2LyrdsitsamWTAk9JGQDGEc
+XcCmhYlzp5RP8yNBEgpGNA55Wj2YB6OvBOOyQbFHuio+v9JR2NWv0fDaCUkrOkTvMRnvW9u8
+W/38H0Yfsoc8JqyQbSiOxUFXIIFFiDvQCIdWAlhN5amrQH8OysBab7QQDuv8Hjp68U74pd6y
+gGdQmTgeob1x1MXLUpHAclr+0K8GWgdPyC4iiR5NowzIzs9KTNpwR3gnY9Q1Si9R+arC/KFJ
+1428bFBqWld8ELa84vVywAvSicnQNHzNBnyKojUvjZLoGj1jvh0EaOrtWqKKip4ZhZLiwQAA
+AAAAAA==
+--------------ms090808050700030703080806--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCD31F.507@emenaker.com
+
+

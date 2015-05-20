@@ -1,0 +1,99 @@
+X-Account-Key: account5
+X-UIDL: GmailId128217aa9e2a33c3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs123895wfj;
+        Wed, 21 Apr 2010 10:49:52 -0700 (PDT)
+Received: by 10.223.127.212 with SMTP id h20mr949092fas.89.1271872006338;
+        Wed, 21 Apr 2010 10:46:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 13si6085322fks.0.2010.04.21.10.46.45;
+        Wed, 21 Apr 2010 10:46:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B6D2D13A4A03; Wed, 21 Apr 2010 17:46:40 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D2E0D13A4915
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 17:46:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5UPgmDUrchUk for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 17:46:27 +0000 (UTC)
+Received: from eastrmmtao104.cox.net (eastrmmtao104.cox.net [68.230.240.46])
+	by liszt.debian.org (Postfix) with ESMTP id 0EC9613A4626
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 17:46:26 +0000 (UTC)
+Received: from eastrmimpo03.cox.net ([68.1.16.126])
+          by eastrmmtao104.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100421174625.ZSRB18026.eastrmmtao104.cox.net@eastrmimpo03.cox.net>
+          for <debian-user@lists.debian.org>;
+          Wed, 21 Apr 2010 13:46:25 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo03.cox.net with bizsmtp
+	id 8HmP1e00G4dcMZy02HmPJv; Wed, 21 Apr 2010 13:46:24 -0400
+X-VR-Score: -110.00
+X-Authority-Analysis: v=1.1 cv=garkv6WxUlWCZxlYffz6yNGlDVHTZyAXTUdcTJEJ4sc=
+ c=1 sm=1 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=a_19pDNHvw4jiKpKAa4A:9 a=uUpJvA8WX2cd79zvbIYnBdPa4gsA:4 a=wPNLvfGTeEIA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BCF39EF.6070503@cox.net>
+Date: Wed, 21 Apr 2010 12:46:23 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: backup apt tree?
+References: <k2z68b1e2611004201149o7450ce70k995ff71346679026@mail.csmining.org>	 <y2r258ced3f1004201327n175b09dfy59d200e500dcdf85@mail.csmining.org>	 <4BCE3031.50404@cox.net> <n2o258ced3f1004210458y3471554cm1076bc407d04a261@mail.csmining.org>
+In-Reply-To: <n2o258ced3f1004210458y3471554cm1076bc407d04a261@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8gEJJTzDZiH.A.E0C.AozzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574699
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 17:46:40 +0000 (UTC)
+
+On 2010-04-21 06:58, B. Alexander wrote:
+[snip]
+> 
+> I leave /var in a separate partition, only because I cut my teeth on 
+> Unix/Linux back in the days when filling / or /var would cause a system 
+> crash.
+
+It still can.  But disks aren't 300MB anymore.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF39EF.6070503@cox.net
+
+

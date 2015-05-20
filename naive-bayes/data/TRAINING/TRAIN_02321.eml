@@ -1,0 +1,77 @@
+X-Account-Key: account5
+X-UIDL: GmailId12868be76d49b460
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs330789wfb;
+        Wed, 5 May 2010 06:53:52 -0700 (PDT)
+Received: by 10.143.153.34 with SMTP id f34mr3922762wfo.2.1273067632305;
+        Wed, 05 May 2010 06:53:52 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 30si10814853pzk.69.2010.05.05.06.53.52;
+        Wed, 05 May 2010 06:53:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 2A8E71C55DA1B
+	for <mlsubscriber.tech@csmining.org>; Wed,  5 May 2010 06:53:52 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 26B34276671B3
+	for <mlsubscriber.tech@csmining.org>; Wed,  5 May 2010 06:53:52 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id CA63D27666FBF
+	for <X11-users@lists.apple.com>; Wed,  5 May 2010 06:53:33 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id BA30CD140362
+	for <X11-users@lists.apple.com>; Wed,  5 May 2010 06:53:33 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-6c-4be1785dba11
+Received: from hcdfire.humancapitaldev.com (hcdfire.humancapitaldev.com
+	[198.199.189.5])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	35.B5.07800.D5871EB4; Wed,  5 May 2010 06:53:33 -0700 (PDT)
+Received: from shirayukihime.humancapitaldev.com (gw.umtec.com [198.199.189.1])
+	by hcdfire.humancapitaldev.com (Postfix) with ESMTPA id 550971E016C
+	for <X11-users@lists.apple.com>; Wed,  5 May 2010 08:53:32 -0500 (CDT)
+From: Daniel Seagraves <dseagrav@humancapitaldev.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 5 May 2010 08:53:31 -0500
+Message-Id: <C7BCA30D-120C-439F-A753-4C96BBC53ECA@humancapitaldev.com>
+To: X11-users@lists.apple.com
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+Subject: Xterm crashes when UTF-8 is enabled
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Shortly after I turn UTF-8 on xterm will crash for no apparent reason. =
+It doesn't have to be UTF-8 characters. Simply turn on UTF-8 and do =
+"find /" and there it goes. I can reproduce this 100% of the time.
+
+(If this is not the right list for this, a pointer to the right list =
+would be appreciated.)
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

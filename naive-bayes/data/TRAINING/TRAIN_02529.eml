@@ -1,0 +1,85 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288ce41aa95b673
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs57535wfb;
+        Wed, 12 May 2010 07:21:19 -0700 (PDT)
+Received: by 10.142.120.3 with SMTP id s3mr5136397wfc.349.1273674078762;
+        Wed, 12 May 2010 07:21:18 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id u30si393571wfh.88.2010.05.12.07.21.18;
+        Wed, 12 May 2010 07:21:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 9C7DF1C0A08C9
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 07:21:18 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 96DE92797CCD3
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 07:21:18 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 696DC2797C65B
+	for <java-dev@lists.apple.com>; Wed, 12 May 2010 07:20:28 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 55EA5D29BAC3
+	for <java-dev@lists.apple.com>; Wed, 12 May 2010 07:20:28 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-7a-4beab92b4b78
+Received: from aa011msr.fastwebnet.it (aa011msr.fastwebnet.it [85.18.95.71])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	56.B6.15139.B29BAEB4; Wed, 12 May 2010 07:20:28 -0700 (PDT)
+Received: from imac-di-livio-isaia.local (28.0.223.97) by
+	aa011msr.fastwebnet.it (8.5.016.6)
+	id 4B829BA80ADFD497 for java-dev@lists.apple.com;
+	Wed, 12 May 2010 16:20:26 +0200
+Message-ID: <4BEAB928.3070002@tiscalinet.it>
+Date: Wed, 12 May 2010 16:20:24 +0200
+From: Livio Isaia <lisaia@tiscalinet.it>
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; it;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: java-dev@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAA==
+Subject: compile multiple java tools
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I'm not sure this is the right list to write to... sorry in any case...
+
+I have three different tools (e.g. A, B, C) that use the same package (a 
+package I created).
+Is there a way to put it all in a singe XCode project that creates the 
+package, then A.jar, B.jar and finally C.jar?
+I tried with multiple targets, but it didn't work (may be I forgot to 
+set some options?).
+
+Any idea?
+
+Many thanks in advance,
+best regards,
+livio.
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

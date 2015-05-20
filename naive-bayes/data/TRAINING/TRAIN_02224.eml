@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId12890fe5dfc5a511
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs51134wfo;
+        Thu, 13 May 2010 02:28:29 -0700 (PDT)
+Received: by 10.227.153.211 with SMTP id l19mr8044605wbw.228.1273742908909;
+        Thu, 13 May 2010 02:28:28 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f17si3086436wbe.69.2010.05.13.02.28.28;
+        Thu, 13 May 2010 02:28:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 76A4F13A53DA; Thu, 13 May 2010 09:28:24 +0000 (UTC)
+Old-Return-Path: <kevin.krammer@gmx.at>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 82FA713A53A1
+	for <lists-debian-kde@liszt.debian.org>; Thu, 13 May 2010 09:28:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id O-bTKq34qYH8 for <lists-debian-kde@liszt.debian.org>;
+	Thu, 13 May 2010 09:28:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by liszt.debian.org (Postfix) with SMTP id 537A513A5020
+	for <debian-kde@lists.debian.org>; Thu, 13 May 2010 09:28:11 +0000 (UTC)
+Received: (qmail invoked by alias); 13 May 2010 09:28:07 -0000
+Received: from dialbs-092-079-186-076.static.arcor-ip.net (EHLO artemis.localnet) [92.79.186.76]
+  by mail.gmx.net (mp022) with SMTP; 13 May 2010 11:28:07 +0200
+X-Authenticated: #3816551
+X-Provags-ID: V01U2FsdGVkX19Gx90ucuVGu5peIjWer0Ob3uqaAGgVsbnF2IqzAU
+	+WQa0YkvvmTZnk
+From: Kevin Krammer <kevin.krammer@gmx.at>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 upgrade eats 141 MB of /home
+Date: Thu, 13 May 2010 11:28:01 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.28-grml; KDE/4.4.3; i686; ; )
+References: <20100512005320.GA16379@club.cc.cmu.edu> <AANLkTim5DSUzpyUrf5PqgBiXmYCLX_f0Mw0_wfVYSgeg@mail.csmining.org> <20100512174253.GA17540@club.cc.cmu.edu>
+In-Reply-To: <20100512174253.GA17540@club.cc.cmu.edu>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart60684260.2oGyJJKhTP";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005131128.01427.kevin.krammer@gmx.at>
+X-Y-GMX-Trusted: 0
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <zEpWb-tm7LD.A.DRE.4Y86LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32437
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 09:28:24 +0000 (UTC)
+
+--nextPart60684260.2oGyJJKhTP
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday, 2010-05-12, Mike Kasick wrote:
+> On Wed, May 12, 2010 at 10:48:43AM +0200, Richard Hartmann wrote:
+> > > - Disable "kres-migrator".  Or at least add a debconf option to
+> > >  kdepim-runtime presenting the option of running kres-migrator by
+> > > default or disabling it.
+> >=20
+> > Did you do any research as to what the longer-term implications
+> > of foregoing this might be? I am not saying there are any, I
+> > honestly don't know.
+>=20
+> There shouldn't be any long-term implications as long as the old KResource
+> code still exists.  I'm assuming it's being deprecated as of KDE 4.4, but
+> I'd be surprised if it's removed in KDE 4.5, especially since delaying
+> migration is an official recommendation.
+
+The KResource API is public API of KDE4, it can at best removed at the firs=
+t=20
+KDE5 version (which is probably still several years away).
+Some of its plugins are public API as well (those from kdepimlibs) so they=
+=20
+stay too.
+Problematic are plugins from kdepim, they can be replaced by respective=20
+Akonadi base resource implementations.
+
+> Once the DB mess is sorted out (KDE 4.5?), one can manually migrate the
+> data by running "kres-migrator".  I actually did this accidentally.  The
+> migrator _might_ also run if we remove the configuration bit, but I've not
+> tried.
+
+Right, I think it will run if it does not find its configuration, thus not=
+=20
+knowing whether it has already run.
+Could lead to duplicated resources on Akonadi side though (if it has been r=
+un=20
+before).
+
+Cheers,
+Kevin
+
+--nextPart60684260.2oGyJJKhTP
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iD8DBQBL68YhnKMhG6pzZJIRAqbgAJ9VXrn3HvAzWo99JMp0X14ymKkJawCdEVKi
+fUEH4bs2+ehka9XQM68jkso=
+=jNrC
+-----END PGP SIGNATURE-----
+
+--nextPart60684260.2oGyJJKhTP--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005131128.01427.kevin.krammer@gmx.at
+
+

@@ -1,0 +1,136 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288c69705a8295e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs50961wfb;
+        Wed, 12 May 2010 05:07:21 -0700 (PDT)
+Received: by 10.223.45.22 with SMTP id c22mr8021700faf.107.1273666040082;
+        Wed, 12 May 2010 05:07:20 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si238994fah.89.2010.05.12.05.07.19;
+        Wed, 12 May 2010 05:07:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 070C913A4A53; Wed, 12 May 2010 12:07:15 +0000 (UTC)
+Old-Return-Path: <avbidder@fortytwo.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-20.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6C3F113A42B5
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 12:07:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id g07iGc+MnHEW for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 12:06:56 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from zbasel.fortytwo.ch (zbasel.fortytwo.ch [193.138.215.60])
+	by liszt.debian.org (Postfix) with ESMTP id B215613A4800
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 12:06:56 +0000 (UTC)
+Received: from laeggerli.fortytwo.ch (62-2-219-110.static.cablecom.ch [62.2.219.110])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by zbasel.fortytwo.ch (Postfix) with ESMTP id 71A9F131A
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 14:06:54 +0200 (CEST)
+From: Adrian von Bidder <avbidder@fortytwo.ch>
+To: debian-kde@lists.debian.org
+Subject: Re: What needs to improve in KDE 4?
+Date: Wed, 12 May 2010 14:06:40 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-686; KDE/4.4.3; i686; ; )
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org> <201005110815.00823@fortytwo.ch> <AANLkTindJyX3GKOI6qbBYrPgX2B_6XbImPPYv_yZPg5P@mail.csmining.org>
+In-Reply-To: <AANLkTindJyX3GKOI6qbBYrPgX2B_6XbImPPYv_yZPg5P@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2388504.bjk3R7o7zd";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005121406.49678@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <DBC_pl7g3LM.A.2cF.znp6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32415
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 12:07:15 +0000 (UTC)
+
+--nextPart2388504.bjk3R7o7zd
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 11 May 2010 21.10:18 Dotan Cohen wrote:
+> On 11 May 2010 09:15, Adrian von Bidder <avbidder@fortytwo.ch> wrote:
+> > On Monday 10 May 2010 16.08:40 Dotan Cohen wrote:
+> >> Please tell us what problems, bugs, or issues KDE 4 that make it
+> >> difficult to use.
+> >=20
+> > Nepomuk / Strigi need to improve a *lot*.
+> >=20
+> > * Strigi sucks up all disk bandwidth and, given enough time, all memory
+> > to the point where the oom kill kills my session.
+> > * Strigi index uses all my disk.  Removing folders that were indexed
+> > (either removing these files, or removing them from the strigi
+> > configuration so they're not indexed anymore) didn't seem to have any
+> > effect on index size.
+
+I'll retry, but I think I was already on early 4.4 packages already.  Not=20
+sure though.
+
+> > * Likewise when I completely disable file
+> > indexing: the database doesn't shrink / isn't removed.
+
+This one certainly is not fixed in 4.4.  On a big database inherited from=20
+earlier strigi, enabling strigi and then disabling strigi and nepomuk=20
+alltogether, the database is still there.  (To be precise: the database=20
+*was* still there.  rm -rf is your friend.)
+
+cheers
+=2D- vbi
+
+=2D-=20
+featured product: vim - http://vim.org
+
+--nextPart2388504.bjk3R7o7zd
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: get my key from http://fortytwo.ch/gpg/92082481
+
+iKcEABECAGcFAkvqmdFgGmh0dHA6Ly9mb3J0eXR3by5jaC9sZWdhbC9ncGcvZW1h
+aWwuMjAwMjA4MjI/dmVyc2lvbj0xLjUmbWQ1c3VtPTVkZmY4NjhkMTE4NDMyNzYw
+NzFiMjVlYjcwMDZkYTNlAAoJECqqZti935l6xmUAoL8sNg6qVL8ufuGbkoXzkOwh
+gR2xAJ4pK5H2jSZmiYG5MhTt1V5kAxlXwQ==
+=zFgN
+-----END PGP SIGNATURE-----
+
+--nextPart2388504.bjk3R7o7zd--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005121406.49678@fortytwo.ch
+
+

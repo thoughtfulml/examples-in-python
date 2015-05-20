@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId12873b98b6c77015
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs461894wfb;
+        Fri, 7 May 2010 10:04:20 -0700 (PDT)
+Received: by 10.223.18.67 with SMTP id v3mr290414faa.93.1273251859064;
+        Fri, 07 May 2010 10:04:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g11si2557762fai.62.2010.05.07.10.04.18;
+        Fri, 07 May 2010 10:04:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BBE4B348C5B; Fri,  7 May 2010 17:04:08 +0000 (UTC)
+Old-Return-Path: <reidac@bellatlantic.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C06AA348C58
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 17:04:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 9-2aVU5g1wUG for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 17:03:55 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .bellatlantic. - helo: .vms173019pub.verizon. - helo-domain: .verizon.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1 IN_ABUSE_RFCI=0.1; rate: -6.8
+Received: from vms173019pub.verizon.net (vms173019pub.verizon.net [206.46.173.19])
+	by liszt.debian.org (Postfix) with ESMTP id 43C3A13A5211
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 17:03:48 +0000 (UTC)
+Received: from nightingale.gblocal ([unknown] [71.191.8.151])
+ by vms173019.mailsrvcs.net
+ (Sun Java(tm) System Messaging Server 7u2-7.02 32bit (built Apr 16 2009))
+ with ESMTPA id <0L22001PX7DL6A21@vms173019.mailsrvcs.net> for
+ debian-user@lists.debian.org; Fri, 07 May 2010 12:03:21 -0500 (CDT)
+From: Andrew Reid <reidac@bellatlantic.net>
+To: debian-user@lists.debian.org
+Subject: Re: usb raid1 pendrive boot
+Date: Fri, 07 May 2010 13:03:20 -0400
+User-Agent: KMail/1.9.9
+References: <1273231268.5627.27.camel@localhost> <hs10l8$t06$3@dough.gmane.org>
+In-reply-to: <hs10l8$t06$3@dough.gmane.org>
+MIME-version: 1.0
+Content-type: text/plain; charset=iso-8859-1
+Content-transfer-encoding: 8bit
+Content-disposition: inline
+Message-id: <201005071303.20994.reidac@bellatlantic.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <FKxNOfkIv9F.A.aIG.IgE5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576165
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 17:04:08 +0000 (UTC)
+
+On Friday 07 May 2010 08:22:00 deloptes wrote:
+> Jozsi Vadkan wrote:
+> > Did anyone managed to boot from RAID1?
+> >
+> > Lenny gives this error message:
+> >
+> > "mdadm: no devices found for /dev/md0"
+> >
+
+> You'll need a small i.e. 20-30MB partition out of raid to boot from with
+> i.e. initrd which loads the md driver and your raid device becomes visible.
+
+  Just for the record, it actually *is* possible to boot off a partition
+that's in RAID1, but you might have to use grub.  The reason it works
+is because grub can read past the md-raid1 metadata without getting
+confused -- since the raid is not running when grub is looking at the
+disks, it only sees one of the two, but since they're mirrored, and
+since grub doesn't *write* to the partition, everything works.
+
+  I have several production systems that do this.
+
+  It's a bit complicated to set up, but generally, it goes
+something like:
+
+  - Install a basic system onto one drive, with the correct
+      size of partition (call this /dev/sda1).
+  - Set up an "incomplete" RAID1 array, with one device and
+      one missing, with the second drive -- this is /dev/md0,
+      consisting of /dev/sdb1 and an empty slot.
+  - Configure /etc/mdadm/mdadm.conf, and re-build your initramfs
+      so that it has the md modules and knows about the array.
+  - Mount /dev/md0 somewhere and copy all the data off /dev/sda1 to it.
+      It's very important to get the *new* initramfs onto the array.
+  - Install grub in the bootloader of the 2nd drive. (The installer
+      already did this for the first one). This actually isn't
+      essential, but you may need it if/when /dev/sda fails.
+  - Boot on to the incomplete RAID array -- root=/dev/md0.
+  - Add /dev/sda1 to the array, and sync.
+
+  Now you have a bootable software raid-1 system.
+
+  I'm not saying this solves the OP's problem, necessarily,
+but it's perfectly possible.  I've never tried it with LILO
+or grub2, but I would think it would work.
+
+                                -- A.
+-- 
+Andrew Reid / reidac@bellatlantic.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071303.20994.reidac@bellatlantic.net
+
+

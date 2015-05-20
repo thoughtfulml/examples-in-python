@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288384e0cb70633
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs26120wfb;
+        Mon, 10 May 2010 11:40:44 -0700 (PDT)
+Received: by 10.223.31.136 with SMTP id y8mr4903728fac.19.1273516843094;
+        Mon, 10 May 2010 11:40:43 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si9239304fat.58.2010.05.10.11.40.42;
+        Mon, 10 May 2010 11:40:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 655F52D0C6F; Mon, 10 May 2010 18:40:30 +0000 (UTC)
+Old-Return-Path: <mgb-debian@yosemite.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 84C5B2D0C78
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 18:40:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Uf64p-3PweJe for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 18:40:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.2
+Received: from mpa-se.yosemite.net (mpa-se-e0-core.yosemite.net [12.234.40.9])
+	by liszt.debian.org (Postfix) with ESMTP id E5B5013A50FA
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 18:40:16 +0000 (UTC)
+Received: from mpa-se.yosemite.net (localhost.localdomain [127.0.0.1])
+	by mpa-se.yosemite.net (Postfix) with ESMTP id 3657A20406
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 11:40:14 -0700 (PDT)
+Received: from bul-lb-t0-mpa.core.ims (bul-lb.yosemite.net [12.234.40.209])
+	(Authenticated sender: mgb@yosemite.net)
+	by mpa-se.yosemite.net (Postfix) with ESMTPA id E34CB203BB
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 11:40:13 -0700 (PDT)
+From: Mike Bird <mgb-debian@yosemite.net>
+Organization: Iron Mtn Systems
+To: debian-kde@lists.debian.org
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Date: Mon, 10 May 2010 11:40:11 -0700
+User-Agent: KMail/1.9.9
+References: <201005071123.48345.lisi.reisz@csmining.org> <201005100357.19021.mgb-debian@yosemite.net> <isapiwc.9c0acd06.54b1.4be7f664.4618a.63@mailin.ph.tum.de>
+In-Reply-To: <isapiwc.9c0acd06.54b1.4be7f664.4618a.63@mailin.ph.tum.de>
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Message-Id: <201005101140.11764.mgb-debian@yosemite.net>
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <KuRRaMGgEYJ.A.XsH.eMF6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32328
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 18:40:30 +0000 (UTC)
+
+On Mon May 10 2010 05:04:52 Michael Thaler wrote:
+> In 2009 KDE was around 4.7 Million lines of code [1] and had about 450
+> contributors [2]. KDE 3.5 had less lines of code and less developers, but
+> the numbers are the same order of magnitude. Even if you find some people
+> that are willing to maintain and improve KDE 3.5, how do you want to
+> maintain and improve some of million lines of code which were developed by
+> hundreds of people? And you have to maintain Qt3 as well. That is just
+> totally unrealistic.
+
+It may well take 450 people to turn KDE 3.5 into KDE 4.  It takes
+far fewer to maintain a pre-existing, excellent, stable code base.
+
+> I don't think it is appropriate to spam the list with your request about
+> keeping KDE 3.5 in Debian Squeeze, even though the Debian KDE team decided
+> to not do that. There are lots of people who like KDE 4 and are happy that
+> the Debian KDE team does a really good job providing KDE 4 for Debian. I
+> understand thst you do not like KDE 4. People told you what your options
+> are and keeping KDE 3.5 is, for several reasons already stated, not one of
+> them. So please do accept that stop spamming the list with your "Rescue KDE
+> 3.5" requests.
+
+Please don't interfere with discussions about rescuing KDE 3.5.
+We're not trying to stop you from running KDE 4.  Please don't
+interfere with our work.
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005101140.11764.mgb-debian@yosemite.net
+
+

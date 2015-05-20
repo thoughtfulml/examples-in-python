@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d907b07ad1699
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs31307wfi;
+        Wed, 7 Apr 2010 09:08:36 -0700 (PDT)
+Received: by 10.115.149.1 with SMTP id b1mr5622186wao.177.1270656512887;
+        Wed, 07 Apr 2010 09:08:32 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 33si21207405iwn.56.2010.04.07.09.08.31;
+        Wed, 07 Apr 2010 09:08:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 756311BD4F558
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 09:08:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6F6382695409B
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 09:08:31 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay15.apple.com (relay15.apple.com [17.128.113.54])
+	by lists.apple.com (Postfix) with ESMTP id 1C94D26953A2E
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 09:07:38 -0700 (PDT)
+X-AuditID: 11807136-b7c8dae000004b66-e8-4bbcadc95952
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay15.apple.com (Apple SCV relay) with SMTP id
+	DC.46.19302.9CDACBB4; Wed,  7 Apr 2010 09:07:38 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <k2n1f5d398f1004061040t82b62056s7b582b73b234f060@mail.csmining.org>
+Date: Wed, 7 Apr 2010 09:07:37 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <BD21D4F5-C812-4E19-BAF9-CE9E15B3DC5C@apple.com>
+References: <k2n1f5d398f1004061040t82b62056s7b582b73b234f060@mail.csmining.org>
+To: Gabriele Kahlout <gabriele@mysimpatico.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: java-dev@lists.apple.com
+Subject: Re: how to uninstall java preview?
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 6, 2010, at 10:40 AM, Gabriele Kahlout wrote:
+
+> Hello,
+>=20
+> Today presenting my application to a macbook user with the latest java
+> releasion (1.6.17)
+> my application failed to install properly (see the java console) and
+> error JOptionPane .
+>=20
+> On my machine the same works flawlessly. However I've this preview
+> installed (1.6.19) and so I'm failing to re-produce the same testing
+> environment. So I'd like to go back to the version my users have to be
+> able to better assist them, unless you have better suggestions.
+>=20
+> I'd be very thankful if you could also report to me if others have
+> problems, just launching this (you need to choose an installation
+> directory, and after doing so the error should appear):
+> https://sourceforge.net/projects/memorizeasy/
+
+WARNING: THIS IS A VERY BAD THING TO DO, AND WILL PUT YOUR MACHINE INTO =
+AN UNSUPPORTABLE CONFIGURATION!
+
+There is no official way to roll back to the GM version, however the =
+installer for 10.6 Update 1 is at <http://support.apple.com/kb/dl972>, =
+and the 10.5 Update 6 is at <http://support.apple.com/kb/dl971>.
+
+If you manually modify the bundle version in the =
+/System/Library/Frameworks/JavaVM.framework/Resources/Info.plist, the =
+installer should install on top of the developer preview, however it =
+will not be aware of some of the new content in the DP. This causes some =
+tools like Java VisualVM to fail, because it's bundle will contain a =
+hodgepodge of GM and DP bits, and the GM installer doesn't know to =
+remove the DP bits (because when it was created, the DP bits we not =
+invented yet).
+
+This should be enough to test the 1.6.0_17 JVM, but this is hardly a =
+"valid" configuration. Installing the 10M3044/9M3144 DP again on top of =
+this mixed mess _should_ clean up the GM bits and put you into a valid =
+DP configuration. Probably. Most likely.
+
+If things get too out of control, you should always be able to move =
+aside the /System/Library/Frameworks/JavaVM.framework/Versions =
+directory, and re-run either the GM or DP installer, and you should get =
+a fully coherent Java installation (modulo the tools in /usr/share/java =
+and a other few exceptions in /System/Library which don't really change =
+between versions).
+
+Best of luck,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

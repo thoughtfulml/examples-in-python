@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId12832259a020a111
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs30035wfj;
+        Sat, 24 Apr 2010 16:27:25 -0700 (PDT)
+Received: by 10.86.6.37 with SMTP id 37mr3437734fgf.7.1272151645090;
+        Sat, 24 Apr 2010 16:27:25 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si5133119fks.5.2010.04.24.16.27.24;
+        Sat, 24 Apr 2010 16:27:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6552C2E8AE5; Sat, 24 Apr 2010 23:27:19 +0000 (UTC)
+Old-Return-Path: <jpwallen@comcast.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: **
+XStatus: No, score=2.5 required=4.0 tests=FOURLA,RATWARE_GECKO_BUILD,
+	RERE autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E788C13A4F98
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 23:11:45 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, RERE=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id z63durouQUlO for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 23:11:38 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .comcast. - helo: .qmta01.westchester.pa.mail.comcast. - helo-domain: .comcast.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from qmta01.westchester.pa.mail.comcast.net (qmta01.westchester.pa.mail.comcast.net [76.96.62.16])
+	by liszt.debian.org (Postfix) with ESMTP id 74AB213A4F48
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 23:11:32 +0000 (UTC)
+Received: from omta03.westchester.pa.mail.comcast.net ([76.96.62.27])
+	by qmta01.westchester.pa.mail.comcast.net with comcast
+	id 9aiN1e0020bG4ec51bBWl2; Sat, 24 Apr 2010 23:11:30 +0000
+Received: from [192.168.1.100] ([98.235.209.250])
+	by omta03.westchester.pa.mail.comcast.net with comcast
+	id 9bBV1e0015Qhlui3PbBVvB; Sat, 24 Apr 2010 23:11:30 +0000
+Message-ID: <4BD37AA0.2040002@comcast.net>
+Date: Sat, 24 Apr 2010 19:11:28 -0400
+From: "James P. Wallen" <jpwallen@comcast.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Re: The future of "nv" driver (was: Linux compatible mainboards
+ -another thought)
+References: <4BD34603.1050901@cox.net>
+In-Reply-To: <4BD34603.1050901@cox.net>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <NorE3CJ-YhN.A.qcH.X530LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574968
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 23:27:19 +0000 (UTC)
+
+
+
+On 01/-10/-28163 02:59 PM, Ron Johnson wrote:
+ > That's one difference between us: I don't use Compiz.
+
+That's not a difference. I don't use it, either. My use of Compiz was 
+just a part of exploration of the Gnome DE. I don't even use Gnome now.
+
+ > ... because I don't need glitzy special effects.
+
+Neither do I. That's why I use Xfce.
+
+ > Are there any non-glitzy benefits to compositors?
+
+I occasionally turn on Xfce's compositing for specific tasks in which it 
+actually makes my work easier. But most if the time, it's off.
+
+ > Which driver version do you use?
+
+nv - Debian Squeeze
+
+Gave up finally in December last year trying to get the blobs to work 
+reliably. They're simply not worth the effort for someone with my 
+particular needs.
+
+I'm reasonably happy with the systems with the nvidia workstation cards. 
+But the cheaper systems with Intel and ATI graphics are faster and 
+handle any special effects I might want (like occasional use of desktop 
+compositing) better, and I'm happier with them. Nvidia is simply not on 
+my radar for any future systems because I consider their approach to 
+Linux to be inimical to FOSS.
+
+PS: My apologies. Recent update to my mail client coupled with lack of 
+sleep. I accidentally sent Ron a direct e-mail reply. Mea culpa.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD37AA0.2040002@comcast.net
+
+

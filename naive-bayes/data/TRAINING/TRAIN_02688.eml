@@ -1,0 +1,194 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285ca1ed1311acf
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs206513wfj;
+        Sun, 2 May 2010 22:27:15 -0700 (PDT)
+Received: by 10.143.85.8 with SMTP id n8mr8993561wfl.282.1272864435604;
+        Sun, 02 May 2010 22:27:15 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 42si78835pzk.110.2010.05.02.22.27.15;
+        Sun, 02 May 2010 22:27:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 58B171C173112
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 22:27:15 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 539A627551CAF
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 22:27:15 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 2D35827551BFF
+	for <Augd@lists.apple.com>; Sun,  2 May 2010 22:27:08 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 1D828D3393C8
+	for <Augd@lists.apple.com>; Sun,  2 May 2010 22:27:08 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-48-4bde5eab95fe
+Received: from mail-px0-f179.google.com (mail-px0-f179.google.com
+	[209.85.212.179])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	B0.AC.05834.BAE5EDB4; Sun,  2 May 2010 22:27:07 -0700 (PDT)
+Received: by pxi13 with SMTP id 13so1500948pxi.24
+	for <Augd@lists.apple.com>; Sun, 02 May 2010 22:27:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	bh=nwDnPoqeIdqPPp94TLmFRc8M/lA6WFhKXY8V5QNIjDY=;
+	b=rWVpVmYjFYxtRDbtftwIt5KiuZhgurrU02GnirA4++OUHmWXacQ02TsXMUkNZXFJmo
+	+2pP5RyPqL3NuvVj4fcpz6e982LLa0R2dZqyQ6qRG7zcOCE1Acy3HcrzDSwnmy1e0qbD
+	iWVMJRWZHJlvTgDcWg8PXqhgGs0cq7qtcJhD8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type:content-transfer-encoding;
+	b=gf/Hp/JO5/AvHdYp15cAK7Rk6tbpoB4h4N8DYbao73auR3hQPk8lGGN2iTLfYGLgy8
+	9pXt+EvkHRkVTIcYqa1h9Lw7U9lzOuBWu3TGAqmaJnYzaBV3MQaciw4f4atjyhzMv0+r
+	F+lX1F2wt9LsoM4OpaeH11o7BLurcw3ysoYZ8=
+MIME-Version: 1.0
+Received: by 10.142.60.5 with SMTP id i5mr1580848wfa.244.1272864426914; Sun, 
+	02 May 2010 22:27:06 -0700 (PDT)
+Received: by 10.142.14.20 with HTTP; Sun, 2 May 2010 22:27:06 -0700 (PDT)
+In-Reply-To: <4B24D9F1-5C33-494A-88DC-5CD365B20FAE@nicholaspyers.com>
+References: <C7FF39E3.51ABA%augd@chrishart.net>
+	<94A402DF-9874-4154-8222-0BD5F594404C@mus.ch>
+	<20100430162512.1658598795@sendmail.Joiner.net>
+	<z2saae88f271004301657m1cbc6552nf528f7446c7572eb@mail.csmining.org>
+	<20100501145718.476178133@mail.mugcenter.com>
+	<y2taae88f271005011513y9872f3f6jc1bbef2a0dd63515@mail.csmining.org>
+	<4B24D9F1-5C33-494A-88DC-5CD365B20FAE@nicholaspyers.com>
+Date: Mon, 3 May 2010 00:27:06 -0500
+Message-ID: <z2raae88f271005022227w76e1d18fv22d1541d14047f2c@mail.csmining.org>
+Subject: Re: Re(4): AUGD: Free Ride for Board Members?
+From: Dave G <dgreenbaum@csmining.org>
+To: Apple Discussion List <Augd@lists.apple.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAABBPvoAQT76DCE/BCuxPwcVk=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+>
+> Apple has saved itself... and as much as I believe User Groups did a far
+> better job of keeping the Apple Flag visible back in the '90's then Apple
+> itself did, that is no longer the case in the 21st Century
+>
+>> A User Group is neither a for profit enterprise or a cause. =A0It's a
+>> non-profit group of people with a similar shared interest: a fan club.
+>
+> I agree that User Groups are now basically fan clubs... or social groups
+> that are bought together through a common interest of the devices and
+> software that one company produces.
+>
+> But I disagree that a User Group can't be a "for profit" enterprize... as
+> there are groups out there that are exactly that - look at some of the Fi=
+nal
+> Cut Pro groups as a perfect example that works extremely well under a "fo=
+r
+> profit" arrangement.
+>
+I respectfully disagree that a User Group can be truly "for profit".
+As I stated, a for profit organization is out there to make money.
+That's it's goal.  User Groups are designed to bring people together.
+When looking at "what's good for the members" and "what makes money",
+a for profit venture would decide on money.  While I'm sure it
+wouldn't do something "bad" to it's members, ultimately by it's
+definition it has to make a profit.  Nothing wrong with for profit
+ventures, but to have someone volunteer in a for profit venture isn't
+really volunteering.  It's giving of your time to make someone else
+money.
+
+I think the FCP groups are great, but are in a different league on
+every level than Apple User Groups.  They have more in common with
+Macworld and WWDC , IMHO
+
+
+>
+> Every group that I have seen take that attitude isn't around anymore, or =
+are
+> quite visibly killing themselves right now
+>
+>> Problem of course is, when you do what the members want, then you
+>> aren't leading. =A0Don't expect anything to change if you do what the
+>> existing members want. =A0You won't attract new members. =A0Eventually,
+>> though attrition, your group dies out. =A0You'll be paralyzed by the
+>> status quo
+>
+> Whilst I strongly advise all User Groups that they need to EVOLVE, they
+> don't need to be reactionary with changes. Evolution is a gradual change.
+
+I think, respectfully that's an excuse.  When groups still debate
+whether to support classic users, then it's gone from gradual change
+to extinction.
+
+
+>
+>> Are printed newsletters and disks of the month emulating Apple's
+>> behavior? =A0Or is it acting like Microsoft that STILL allows you to run
+>> WordPerfect 5.1 for DOS on the newest and latest computers?
+>
+> There are still places for newsletters and Discs of the Month, even in th=
+e
+> 21st century... but again they need to be thought about differently... an=
+d
+> form part of an overall strategy of attracting the same sort of customers
+> that Apple themselves now target.
+>
+
+Enlighten me.  I simply can't imagine a scenario where the ancient
+discs of the month and printed newsletters make sense.  I know the
+argument:  "Our members wanted printed newsletters",  "They are on
+dialup and need these discs".  Is that leading?  Apple isn't targeting
+people that don't have broadband internet connections.  They don't
+even make phone modems anymore.  Those were discontinued.  These
+aren't customers Apple wants to support or attract.  They want these
+customers to enter the 21st century.
+
+> Then again, Apple itself isn't exactly democratic in the way it appoints
+> its' own board. The Board itself effectively nominates itself and then
+> shareholders ratify those nominations.... usually for the Board as a bloc=
+k
+> and not for individual nominees.
+>
+> And shareholders certainly don't get a say in the day to day management o=
+f
+> the company nor the projects that Apple work on and eventually bring to
+> market or even kill off before they get to market!
+
+Oh yes they do.  I'm a shareholder and get to vote on nominees.  I
+always vote to remove Bill Campbell.  Intuit treats the Mac like a
+second class citizen.  Topic for a different day.  As a shareholder I
+also get to go to the annual meeting, start shareholder initiatives
+etc.  It's much more democratic than the way User Groups are run.
+
+>
+>> I hope this leads to an interesting and much needed discussion that is
+>> long overdue.
+>
+> hear, hear :)
+
+Alas, it would be nice if other voices join in.
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

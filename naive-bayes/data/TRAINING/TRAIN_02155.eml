@@ -1,0 +1,87 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283e3afe9377118
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs122054wfj;
+        Tue, 27 Apr 2010 00:46:14 -0700 (PDT)
+Received: by 10.87.35.9 with SMTP id n9mr1688675fgj.45.1272354373352;
+        Tue, 27 Apr 2010 00:46:13 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y15si9625270fkd.38.2010.04.27.00.46.12;
+        Tue, 27 Apr 2010 00:46:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@yahoo.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3E5C813A57F0; Tue, 27 Apr 2010 07:46:06 +0000 (UTC)
+Old-Return-Path: <tompomber@yahoo.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5076E13A5268
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 07:46:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.01 tagged_above=-10000 required=5.3
+	tests=[BAYES_40=-0.01, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id uBR230CupdWl for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 07:45:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.8
+Received: from web36505.mail.mud.yahoo.com (web36505.mail.mud.yahoo.com [209.191.85.5])
+	by liszt.debian.org (Postfix) with SMTP id 1BD6613A5738
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 07:45:45 +0000 (UTC)
+Received: (qmail 72766 invoked by uid 60001); 27 Apr 2010 07:45:29 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1272354329; bh=nFBdHFJkmChdkPAFc8+mECA9iXbYrIV2WVcGRgFNu6s=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type; b=QXA7zhCT0DW2lFklc0NB9VqEO5Bt/f39j7V4PagBS4iSR71nFH8LnBBSVeTXdEY6tKlAbYbNemKOQ6VaV7YcRB4X2XcGlrnUX61DNMt53iWUqPIJrCUUABqeOEawchsc/PMU+WLFHGdfKWuZ4rNF90yRCtzlQkKpLvktrEXFnpA=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type;
+  b=1EvqM0DBoI9TwyZZbHq6yqRPDvaLsDyF2lWuI/xmxuZNP28F4LeHHntRtuT6uxXvvUuYgtbcW2vDLt0fMvKlJzzkmxUFSeIv8ZWB5aPNDUR1YU9ccqbKiCzxAwMlUpzGX/b28E179zuqwrtm/WQ10BlaIdQYLyJlbHTdZRrOsB8=;
+Message-ID: <359178.70379.qm@web36505.mail.mud.yahoo.com>
+X-YMail-OSG: BqEpxOoVM1mo.D9IiRvESNmsmkmPHwRZp9m6Q3w8_eIEz6q
+ UbypdCvtUbqgdYuSojQ2k80oM76ldmi4w7FVjev0cY59B1bvzTWWk9vwrXm2
+ I6v.i1rbUfTppFxgBsqmhtE6MFqgmAgh1lPiQIoBwUTJi.OjHtkcreXTrmVA
+ cgszaNEZ4gTXk94AM0MGBLCfU80CJ1n6F_SbPvVDAwrN.t3zi1yD7Jt0VuDL
+ XQ0tmsYllXG9UrIUTCXqGVAGt9whDjRD3OHzfVNrgKCmyo3NXasSxJdYw1f3
+ YmBf4TXFexozu0l9X76rWt_2CvTF2hCeY5aFxXdW3_q_ygUlhNbiDLbO0uai
+ 3
+Received: from [96.51.30.151] by web36505.mail.mud.yahoo.com via HTTP; Tue, 27 Apr 2010 00:45:29 PDT
+X-Mailer: YahooMailClassic/10.1.9 YahooMailWebService/0.8.102.267879
+Date: Tue, 27 Apr 2010 00:45:29 -0700 (PDT)
+From: Thomas Pomber <tompomber@yahoo.com>
+Subject: What kind of music do you like?
+To: debian-user@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <m65hVz3IBfB.A.fgE.-Yp1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575214
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 07:46:06 +0000 (UTC)
+
+Classical, folk, country, metal... what is it?
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/359178.70379.qm@web36505.mail.mud.yahoo.com
+
+

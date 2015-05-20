@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280014c6cca5b2f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs45208wfa;
+        Wed, 14 Apr 2010 23:08:02 -0700 (PDT)
+Received: by 10.103.81.12 with SMTP id i12mr4845530mul.89.1271311681172;
+        Wed, 14 Apr 2010 23:08:01 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id j9si5981413mue.47.2010.04.14.23.08.00;
+        Wed, 14 Apr 2010 23:08:01 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AB6F82D0D24; Thu, 15 Apr 2010 06:07:57 +0000 (UTC)
+Old-Return-Path: <Glen.Reesor@telus.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.0 required=4.0 tests=LDOSUBSCRIBER
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6E1C52D0D0C
+	for <lists-debian-kde@liszt.debian.org>; Thu, 15 Apr 2010 06:07:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id tjz9mwcu3rIV for <lists-debian-kde@liszt.debian.org>;
+	Thu, 15 Apr 2010 06:07:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+X-Greylist: delayed 1249 seconds by postgrey-1.31 at liszt; Thu, 15 Apr 2010 06:07:43 UTC
+Received: from defout.telus.net (defout.telus.net [204.209.205.55])
+	by liszt.debian.org (Postfix) with ESMTP id 965FF2D0C03
+	for <debian-kde@lists.debian.org>; Thu, 15 Apr 2010 06:07:39 +0000 (UTC)
+Received: from edtnaa01.telusplanet.net ([204.191.128.51])
+          by priv-edtnes27.telusplanet.net
+          (InterMail vM.7.08.04.00 201-2186-134-20080326) with ESMTP
+          id <20100415053206.NTWI509.priv-edtnes27.telusplanet.net@edtnaa01.telusplanet.net>
+          for <debian-kde@lists.debian.org>;
+          Wed, 14 Apr 2010 23:32:06 -0600
+Received: from [192.168.0.101] (d204-191-128-51.abhsia.telus.net [204.191.128.51])
+	by edtnaa01.telusplanet.net (BorderWare Security Platform) with ESMTP id BD4980C2EBB89A1C
+	for <debian-kde@lists.debian.org>; Wed, 14 Apr 2010 23:30:38 -0600 (MDT)
+Message-ID: <4BC6A452.4070207@telus.net>
+Date: Wed, 14 Apr 2010 23:29:54 -0600
+From: Glen Reesor <Glen.Reesor@telus.net>
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: debian-kde@lists.debian.org
+Subject: Dragon Player bad AVI audio
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PhMOAHkt9cO.A.7mB.90qxLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32035
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 06:07:57 +0000 (UTC)
+
+I'm running Debian Testing on two computers, and Dragon Player has 
+terrible audio when I play AVI files, but only on *one* of the 
+computers.  It has a lot of noise / hiss over top of the regular audio.
+
+Both computers have the same packages installed, thus it must be a 
+hardware difference.  The computer with normal audio is a laptop running 
+the built-in speakers.  The computer with the bad audio is a tower 
+playing the audio through USB speakers (built into my monitor).
+
+Interestingly, mplayer gives ok audio on both computers, and codeine 
+(which I understand is the KDE3 version of Dragon Player) also gives ok 
+audio on both computers.
+
+All other audio applications work fine on both computers (youtube, 
+Skype, system notifications).
+
+Has anyone else encountered this problem?
+
+Glen Reesor
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC6A452.4070207@telus.net
+
+

@@ -1,0 +1,144 @@
+X-Account-Key: account5
+X-UIDL: GmailId12800ad926e9f9fb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs51131wfa;
+        Thu, 15 Apr 2010 01:54:56 -0700 (PDT)
+Received: by 10.100.233.2 with SMTP id f2mr15714980anh.43.1271321695249;
+        Thu, 15 Apr 2010 01:54:55 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 32si2615233iwn.17.2010.04.15.01.54.54;
+        Thu, 15 Apr 2010 01:54:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 99B541B9FCDC6
+	for <mlsubscriber.tech@csmining.org>; Thu, 15 Apr 2010 01:54:54 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 92F7226CFCC67
+	for <mlsubscriber.tech@csmining.org>; Thu, 15 Apr 2010 01:54:54 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id EA03A26CFC5F3
+	for <java-dev@lists.apple.com>; Thu, 15 Apr 2010 01:53:55 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id D11A9CEEA024
+	for <java-dev@lists.apple.com>; Thu, 15 Apr 2010 01:53:55 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-16-4bc6d4226c5a
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.153])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	F6.F6.17067.324D6CB4; Thu, 15 Apr 2010 01:53:55 -0700 (PDT)
+Received: by fg-out-1718.google.com with SMTP id 19so453852fgg.6
+	for <java-dev@lists.apple.com>; Thu, 15 Apr 2010 01:53:54 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.239.170.146 with HTTP; Thu, 15 Apr 2010 01:53:53 -0700 (PDT)
+X-Originating-IP: [193.206.186.101]
+In-Reply-To: <FE734AA0-F081-44EB-AD86-A8676E5CDD8A@apple.com>
+References: <1f5d398f1003130032h624e1ebcmc150a004fb84c3@mail.csmining.org>
+	<1f5d398f1003191110s3c3eb0b2p70fc66b9adc08af@mail.csmining.org>
+	<C3FE8747-842F-4DA5-B63C-BF6D57659CDC@apple.com>
+	<FE734AA0-F081-44EB-AD86-A8676E5CDD8A@apple.com>
+Date: Thu, 15 Apr 2010 10:53:53 +0200
+Received: by 10.239.165.9 with SMTP id v9mr490555hbd.152.1271321633845; Thu, 
+	15 Apr 2010 01:53:53 -0700 (PDT)
+Message-ID: <i2n1f5d398f1004150153idd74db16ib52aa57dbbbbed7e@mail.csmining.org>
+From: Gabriele Kahlout <gabriele@mysimpatico.com>
+To: Mike Swingler <swingler@apple.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAxO1WC4TtlhJE7aCgg==
+Cc: list Java-dev <java-dev@lists.apple.com>
+Subject: Re: Java for Mac OS X Developer Preview (10M3050+9M3150)
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+should one restart the computer after it?
+I run java -version and it seems the update is immediate, yet clicking
+'show cache files' in Java preferences still doesn't do anything.
+
+2010/4/15, Mike Swingler <swingler@apple.com>:
+> Java Developers,
+>
+> Please download and install the new developer preview of Java for Mac OS =
+X
+> (10M3050+9M3150) at
+> <https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftwa=
+re?bundleID=3D20598>.
+> This preview is for both Mac OS X 10.6 and 10.5, so be sure to download t=
+he
+> correct disk images for your system.
+>
+> Even if you don't install the build, please read the HTML release notes.
+> We've fixed several regressions and made many interesting enhancements we
+> think you will want to know about before "Java for Mac OS X 10.6 Update 2=
+"
+> and "Java for Mac OS X 10.5 Update 7" goes live to customers.
+>
+> Please report any issues you find at <http://bugreporter.apple.com> with =
+a
+> reproducible test case attached, if possible.
+>
+> As a reminder, please do not discuss the contents of this preview on this=
+ or
+> any other public forum.
+>
+> Thank you,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/gabriele%40mysimpatico.co=
+m
+>
+> This email sent to gabriele@mysimpatico.com
+>
+
+
+--=20
+Regards,
+K. Gabriele
+
+--- unchanged since 25/1/10 ---
+P.S. Unless a notification (LON), please reply either with an answer
+OR with " ACK" appended to this subject within 48 hours. Otherwise, I
+might resend.
+In(LON, this) =E2=88=A8 In(48h, TimeNow) =E2=88=A8 =E2=88=83x. In(x, MyInbo=
+x) =E2=88=A7 IsAnswerTo(x,
+this) =E2=88=A8 (In(subject(this), subject(x)) =E2=88=A7 In(ACK, subject(x)=
+) =E2=88=A7
+=C2=ACIsAnswerTo(x,this)) =E2=87=92 =C2=ACIResend(this).
+
+Also note that correspondence may be received only from specified a
+priori senders, or if the subject of this email ends with a code, eg.
+-LICHT01X, then also from senders whose reply contains it.
+=E2=88=80x. In(x, MyInbox) =E2=87=92 In(senderAddress(x), MySafeSenderList)=
+ =E2=88=A8 (=E2=88=83y.
+In(y, subject(this) ) =E2=88=A7 In(y,x) =E2=88=A7 isCodeLike(y, -LICHT01X) =
+).
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,238 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285917f04abdd22
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs180841wfj;
+        Sun, 2 May 2010 05:57:41 -0700 (PDT)
+Received: by 10.223.24.133 with SMTP id v5mr2677707fab.46.1272805060755;
+        Sun, 02 May 2010 05:57:40 -0700 (PDT)
+Return-Path: <bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si6649135fkq.34.2010.05.02.05.57.40;
+        Sun, 02 May 2010 05:57:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2DA8013A4F36; Sun,  2 May 2010 12:57:11 +0000 (UTC)
+Old-Return-Path: <jmm@inutil.org>
+X-Original-To: lists-debian-security-announce@liszt.debian.org
+Delivered-To: lists-debian-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B403013A4E73
+	for <lists-debian-security-announce@liszt.debian.org>; Sun,  2 May 2010 12:57:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -10.58
+XLevel: 
+XStatus: No, score=-10.58 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Ka8A2M-Y6mfg
+	for <lists-debian-security-announce@liszt.debian.org>;
+	Sun,  2 May 2010 12:57:02 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from inutil.org (inutil.org [83.151.30.8])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id CFFFD13A44D5
+	for <debian-security-announce@lists.debian.org>; Sun,  2 May 2010 12:57:02 +0000 (UTC)
+Received: from dslc-082-083-178-234.pools.arcor-ip.net ([82.83.178.234] helo=localhost.localdomain)
+	by inutil.org with esmtpsa (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <jmm@inutil.org>)
+	id 1O8YjC-0006q2-Ow
+	for debian-security-announce@lists.debian.org; Sun, 02 May 2010 14:57:00 +0200
+Received: from jmm by localhost.localdomain with local (Exim 4.71)
+	(envelope-from <jmm@inutil.org>)
+	id 1O8Yj6-0000vG-E6
+	for debian-security-announce@lists.debian.org; Sun, 02 May 2010 14:56:52 +0200
+Date: Sun, 2 May 2010 14:56:52 +0200
+From: Sebastien Delafond <seb@debian.org>
+Sender: Moritz Muehlenhoff <jmm@debian.org>
+To: debian-security-announce@lists.debian.org
+Message-ID: <20100502125652.GA3528@galadriel.inutil.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-SA-Exim-Connect-IP: 82.83.178.234
+X-SA-Exim-Mail-From: jmm@inutil.org
+X-SA-Exim-Scanned: No (on inutil.org); SAEximRunCond expanded to false
+X-Debian: PGP check passed for security officers
+Subject: [SECURITY] [DSA 2040-1] New squidguard packages fix several vulnerabilities
+Priority: urgent
+Reply-To: debian-security@lists.debian.org
+Resent-Message-ID: <CQdxiF5ca5F.A.-FC.naX3LB@liszt>
+Resent-From: debian-security-announce@lists.debian.org
+X-Mailing-List: <debian-security-announce@lists.debian.org> archive/latest/752
+X-Loop: debian-security-announce@lists.debian.org
+List-Id: <debian-security-announce.lists.debian.org>
+List-Post: <mailto:debian-security-announce@lists.debian.org>
+List-Help: <mailto:debian-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-announce-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 12:57:11 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ------------------------------------------------------------------------
+Debian Security Advisory DSA-2040-1                  security@debian.org
+http://www.debian.org/security/                       Sébastien Delafond
+May 02, 2010                          http://www.debian.org/security/faq
+- ------------------------------------------------------------------------
+
+Package        : squidguard
+Vulnerability  : buffer overflow
+Problem type   : remote
+Debian-specific: no
+CVE Ids        : CVE-2009-3700, CVE-2009-3826
+Debian Bug     : 553319
+
+It was discovered that in squidguard, a URL redirector/filter/ACL plugin
+for squid, several problems in src/sgLog.c and src/sgDiv.c allow remote
+users to either:
+
+  * cause a denial of service, by requesting long URLs containing many
+    slashes; this forces the daemon into emergency mode, where it does
+    not process requests anymore.
+
+  * bypass rules by requesting URLs whose length is close to predefined
+    buffer limits, in this case 2048 for squidguard and 4096 or 8192 for
+    squid (depending on its version).
+
+For the stable distribution (lenny), this problem has been fixed in
+version 1.2.0-8.4+lenny1.
+
+For the unstable distribution (sid), this problem has been fixed in
+version 1.2.0-9.
+
+We recommend that you upgrade your squidguard package.
+
+Upgrade instructions
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will install the referenced file.
+
+If you are using the apt-get package manager, use the line for
+sources.list as given below:
+
+apt-get update
+        will update the internal database
+apt-get upgrade
+        will install corrected packages
+
+You may use an automated update by adding the resources from the
+footer to the proper configuration.
+
+
+Debian GNU/Linux 5.0 alias lenny
+- --------------------------------
+
+Stable updates are available for alpha, amd64, arm, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390 and sparc.
+
+Source archives:
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1.diff.gz
+    Size/MD5 checksum:    96388 07777686b02bc2cee2af916b5bbcb6cf
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0.orig.tar.gz
+    Size/MD5 checksum:  1852659 f7044a2151827a2070e4c2be82b944b0
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1.dsc
+    Size/MD5 checksum:     1064 72e5eea602be70def18b97ce364ee3bb
+
+alpha architecture (DEC Alpha)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_alpha.deb
+    Size/MD5 checksum:   144380 fad02a30f87a187d7ff4d155d12544c4
+
+amd64 architecture (AMD x86_64 (AMD64))
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_amd64.deb
+    Size/MD5 checksum:   140890 b38e94f8a1b380d4ae40255896cd5332
+
+arm architecture (ARM)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_arm.deb
+    Size/MD5 checksum:   138620 77992d03a14fe075bf1c8e739498497d
+
+armel architecture (ARM EABI)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_armel.deb
+    Size/MD5 checksum:   137416 9b2568cc9566ba6b50592e21306f1d88
+
+hppa architecture (HP PA RISC)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_hppa.deb
+    Size/MD5 checksum:   141646 eb2dcf7aaf9336236a9c3d3275600bfb
+
+i386 architecture (Intel ia32)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_i386.deb
+    Size/MD5 checksum:   136670 50b26027612e70912d15cbae5123b5c8
+
+ia64 architecture (Intel ia64)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_ia64.deb
+    Size/MD5 checksum:   152770 3e3b4404993efb1c5167119d2edf1fa9
+
+mips architecture (MIPS (Big Endian))
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_mips.deb
+    Size/MD5 checksum:   142754 3baf8a5cccba3817a5a0214362ea988c
+
+mipsel architecture (MIPS (Little Endian))
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_mipsel.deb
+    Size/MD5 checksum:   141380 e2ed223a4d502ae0b9145cc6b5e680ed
+
+powerpc architecture (PowerPC)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_powerpc.deb
+    Size/MD5 checksum:   141494 e887ab8682e8ba9abf3c0cb09b9cb8ee
+
+s390 architecture (IBM S/390)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_s390.deb
+    Size/MD5 checksum:   140986 feb748e58cb638dd8a8212d7fd17ee93
+
+sparc architecture (Sun SPARC/UltraSPARC)
+
+  http://security.debian.org/pool/updates/main/s/squidguard/squidguard_1.2.0-8.4+lenny1_sparc.deb
+    Size/MD5 checksum:   138004 3ff93f8b43a07864692086ceb2af077d
+
+
+  These files will probably be moved into the stable distribution on
+  its next update.
+
+- ---------------------------------------------------------------------------------
+For apt-get: deb http://security.debian.org/ stable/updates main
+For dpkg-ftp: ftp://security.debian.org/debian-security dists/stable/updates/main
+Mailing list: debian-security-announce@lists.debian.org
+Package info: `apt-cache show <pkg>' and http://packages.debian.org/<pkg>
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvddjMACgkQXm3vHE4uylpAzACgu1Q15UB5DRw5iXiwAOwPGoLg
+w9wAoMLgUjnFXBJbgBwyJKkbOgFV870f
+=gAAK
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100502125652.GA3528@galadriel.inutil.org
+
+

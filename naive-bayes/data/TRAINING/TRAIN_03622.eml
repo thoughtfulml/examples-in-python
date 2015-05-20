@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283989d64a9640b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs78590wfj;
+        Mon, 26 Apr 2010 02:54:15 -0700 (PDT)
+Received: by 10.87.13.6 with SMTP id q6mr1600819fgi.19.1272275654272;
+        Mon, 26 Apr 2010 02:54:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si3444306fks.42.2010.04.26.02.54.13;
+        Mon, 26 Apr 2010 02:54:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4C80913A55A9; Mon, 26 Apr 2010 09:54:03 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.5 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD,RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 810A413A5581
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 09:53:57 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id i8xb1coniNZ0 for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 09:53:50 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id 03D2113A4588
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 09:53:49 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id DB8786C243
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 04:53:43 -0500 (CDT)
+Message-ID: <4BD562A7.3050907@hardwarefreak.com>
+Date: Mon, 26 Apr 2010 04:53:43 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org> <4BD3425F.6080301@cox.net> <4BD3DEEF.7050305@allums.com> <4BD53D53.9050205@hardwarefreak.com> <4BD54D42.3030701@allums.com>
+In-Reply-To: <4BD54D42.3030701@allums.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <F9wNAZWgl1G.A.n_E.7KW1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575097
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 09:54:03 +0000 (UTC)
+
+Mark Allums put forth on 4/26/2010 3:22 AM:
+> On 4/26/2010 2:14 AM, Stan Hoeppner wrote:
+>> Mark Allums put forth on 4/25/2010 1:19 AM:
+> 
+> Sorry Stan,  Your defense of XFS has put me into troll mode.  It's a
+> reflex.  I don't buy it, but I shouldn't troll.
+> 
+> I think you are confusing what is with what should be.
+
+A'ight, you forced me to pull out the big gun.  Choke on it.  The master
+penguin himself, kernel.org, has run on XFS since 2008.  Sorry for the body
+slam.  Is your back ok Mark? ;)  Pretty sure I just "won" this discussion.
+Err, actually, XFS wins. ;)  BTW, the main Debian mirror in the U.S. is
+actually housed in kernel.org last I checked.  Thus, the files on your
+system were very likely originally served from XFS.
+
+ The Linux Kernel Archives
+
+"A bit more than a year ago (as of October 2008) kernel.org, in an ever
+increasing need to squeeze more performance out of it's machines, made the
+leap of migrating the primary mirror machines (mirrors.kernel.org) to XFS.
+We site a number of reasons including fscking 5.5T of disk is long and
+painful, we were hitting various cache issues, and we were seeking better
+performance out of our file system."
+
+"After initial tests looked positive we made the jump, and have been quite
+happy with the results. With an instant increase in performance and
+throughput, as well as the worst xfs_check we've ever seen taking 10
+minutes, we were quite happy. Subsequently we've moved all primary mirroring
+file-systems to XFS, including www.kernel.org , and mirrors.kernel.org. With
+an average constant movement of about 400mbps around the world, and with
+peaks into the 3.1gbps range serving thousands of users simultaneously it's
+been a file system that has taken the brunt we can throw at it and held up
+spectacularly."
+
+http://www.xfs.org/index.php/XFS_Companies#The_Linux_Kernel_Archives
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD562A7.3050907@hardwarefreak.com
+
+

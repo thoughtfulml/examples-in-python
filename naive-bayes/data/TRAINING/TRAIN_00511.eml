@@ -1,0 +1,132 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288c598330b9ae2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs50245wfb;
+        Wed, 12 May 2010 04:49:57 -0700 (PDT)
+Received: by 10.223.68.131 with SMTP id v3mr7972553fai.82.1273664996103;
+        Wed, 12 May 2010 04:49:56 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y11si228973fak.15.2010.05.12.04.49.55;
+        Wed, 12 May 2010 04:49:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9B1ED13A546E; Wed, 12 May 2010 11:49:49 +0000 (UTC)
+Old-Return-Path: <snood@comcast.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1393F2D0C77
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 11:49:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id SL87+F2JeuF5 for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 11:49:36 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .comcast. - helo: .qmta05.emeryville.ca.mail.comcast. - helo-domain: .comcast.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from qmta05.emeryville.ca.mail.comcast.net (qmta05.emeryville.ca.mail.comcast.net [76.96.30.48])
+	by liszt.debian.org (Postfix) with ESMTP id C55CD13A4FEA
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 11:49:35 +0000 (UTC)
+Received: from omta09.emeryville.ca.mail.comcast.net ([76.96.30.20])
+	by qmta05.emeryville.ca.mail.comcast.net with comcast
+	id Gbew1e0010S2fkCA5bpZdM; Wed, 12 May 2010 11:49:33 +0000
+Received: from [192.168.9.22] ([65.167.125.1])
+	by omta09.emeryville.ca.mail.comcast.net with comcast
+	id GbpB1e00701vnnD8VbpHgK; Wed, 12 May 2010 11:49:27 +0000
+Message-ID: <4BEA95B5.2080107@comcast.net>
+Date: Wed, 12 May 2010 07:49:09 -0400
+From: Snood <snood@comcast.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Switching from NV to Nouveau in Squeeze
+References: <4BE97290.7010109@comcast.net> <20100511214328.4ac28463@Mondo>
+In-Reply-To: <20100511214328.4ac28463@Mondo>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <f4r967ykEXC.A.sIG.dXp6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576603
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 11:49:49 +0000 (UTC)
+
+On 05/11/2010 09:43 PM, Charles Kroeger wrote:
+>> Saw that xserver-xorg-video-nouveau package is now in the main
+>> repository.
+>
+> It does not appear to be in Sid or Squeeze as of this afternoon. (EST USA)
+> yes. However, I notice that 'nv' is still in Squeeze-main contrib non-free:
+>
+> xserver-xorg-video-nv  1:2.1.17-2
+
+Sorry. I'm not thinking or communicating well. I'm using the vesa driver 
+on the system, not nv. My brain was tracking back to an earlier 
+experiment in which I was using other repositories. I use only main and 
+security for Squeeze.
+
+However, I have been showing xserver-xorg-video-nouveau in Squeeze main 
+for a couple of days.
+
+> but nv appears to be 'broken' if used in the /etc/X11/xorg.conf file, on my
+> version of things. Perhaps this is the result of some Debian religious
+> fanatics, but I think it's time to bid adeau to nv, alas it served me well.
+>
+> I installed nouveau:
+>
+> xserver-xorg-video-nouveau      1:0.0.15+git20100329+7858345-3 X.Org X
+> server -- Nouveau display driver (experimental)
+>
+> and placed it, instead, into the /etc/X11/xorg.conf file and lo it brought
+> forth an X session and looked just like nv. But, nv and nouveau are,
+> no pun intended, a bit two dimensional when one still has available the
+> nvidia-glx Xorg driver one should simply use it if one's hardware will comply.
+
+Too rich for my blood. By that I mean that nvidia-glx with this Quadro 
+card has caused all sorts of odd breakages and unreliability issues in 
+the DE. I have done enough experimenting with identical configurations 
+of Xfce and Gnome on this system, with the only difference being use of 
+different video drivers (vesa, nv, glx/restricted) under both Ubuntu and 
+Debian to know that it's not my imagination. I'd rather have a reliable 
+system than 3D, so glx is a no go for me. The vesa driver has been 
+absolutely flawless, but quite slow, of course. The slowness has been 
+worth it because absolutely nothing in the user interface has ever been 
+broken since I went to vesa. I don't game, and I've just learned to be 
+patient when switching workspaces.
+
+;)
+
+I'm looking forward to seeing if nouveau will be an improvement, 
+performance-wise, without causing reliability issues.
+
+I am, however, going to wait and install nouveau the easy way, once the 
+upgrade to xserver-xorg-core becomes available in the repository. If 
+this weren't my main system I might be tempted to experiment, but I just 
+need this thing to keep working.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEA95B5.2080107@comcast.net
+
+

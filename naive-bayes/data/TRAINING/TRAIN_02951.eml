@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId12881bdc468fa86b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs2209wfb;
+        Mon, 10 May 2010 03:23:39 -0700 (PDT)
+Received: by 10.223.23.67 with SMTP id q3mr4090694fab.59.1273487018367;
+        Mon, 10 May 2010 03:23:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u3si8083049fan.28.2010.05.10.03.23.36;
+        Mon, 10 May 2010 03:23:37 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+DomainKey-Status: bad (test mode)
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; domainkeys=hardfail (test mode) header.From=adsrtg-mlist@yahoo.com.au
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5B6A813A56D4; Mon, 10 May 2010 10:23:22 +0000 (UTC)
+Old-Return-Path: <adsrtg-mlist@yahoo.com.au>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7E3F32D0D96
+	for <lists-debian-user@liszt.debian.org>; Mon, 10 May 2010 10:07:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.01 tagged_above=-10000 required=5.3
+	tests=[BAYES_40=-0.01] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id O-eX-rowUStL for <lists-debian-user@liszt.debian.org>;
+	Mon, 10 May 2010 10:07:29 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .yahoo. - helo: .n23.bullet.mail.mud.yahoo. - helo-domain: .yahoo.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_ABUSE_RFCI=0.1; rate: -6.9
+Received: from n23.bullet.mail.mud.yahoo.com (n23.bullet.mail.mud.yahoo.com [68.142.206.162])
+	by liszt.debian.org (Postfix) with SMTP id E7A6A2D0D79
+	for <debian-user@lists.debian.org>; Mon, 10 May 2010 10:07:22 +0000 (UTC)
+Received: from [68.142.200.225] by n23.bullet.mail.mud.yahoo.com with NNFMP; 10 May 2010 10:07:20 -0000
+Received: from [68.142.201.248] by t6.bullet.mud.yahoo.com with NNFMP; 10 May 2010 10:07:20 -0000
+Received: from [127.0.0.1] by omp409.mail.mud.yahoo.com with NNFMP; 10 May 2010 10:07:19 -0000
+X-Yahoo-Newman-Id: 996433.83765.bm@omp409.mail.mud.yahoo.com
+Received: (qmail 20706 invoked from network); 10 May 2010 10:07:19 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com.au;
+  h=Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Received:Date:From:To:Subject:Message-ID:Mail-Followup-To:MIME-Version:Content-Type:Content-Disposition:User-Agent;
+  b=xkaXFFauuj3qgMDdck+NpMGC2kvMVI4qy72OITI3L3EOke0ZCROJZJJXtG8DWeVjftfqMd98Do5FUOCYSUjWyR7FdbYpjH+QVypVbxm21Mmsh+riB9znMsgtvH7DKyRjlipGufDxGXi0cDivqaYkjroJajfzeGbh4ift11EYvug=  ;
+Received: from  (adsrtg-mlist@80.74.170.250 with login)
+        by smtp145.mail.mud.yahoo.com with SMTP; 10 May 2010 03:07:18 -0700 PDT
+X-Yahoo-SMTP: ZYKvYWWswBCTLjPLrFFdYba8wICvaQ--
+X-YMail-OSG: G8vUwNYVM1lskSQuylCnv5FXVWpJU_mJtrGjqEzgPugsq4fvTSKf993nSIdlerCok0mFX35pCl0BGxVzoAxuvj_Vus7QMmgcvS5Yfg4Nvm7.MD5dspwpqG4RGC717fCwKq5KhpfT1zxqYtgyEaBr20M3liLfU0k_GlLUwRq7cYPjg9iyzfMEABJnvTDt.fPS2fcV2Zbts77XvN.AbUXlfM38TKNt11Lgub2eBQ--
+X-Yahoo-Newman-Property: ymail-3
+Received: by alfa (Postfix, from userid 1000)
+	id AEA0287F3C; Mon, 10 May 2010 11:50:14 +0200 (CEST)
+Date: Mon, 10 May 2010 11:50:14 +0200
+From: Martin <adsrtg-mlist@yahoo.com.au>
+To: Debian User Group <debian-user@lists.debian.org>
+Subject: is there private MAC address space?
+Message-ID: <20100510095014.GC2640@alfa>
+Mail-Followup-To: Debian User Group <debian-user@lists.debian.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <v6I782wJYDB.A.5S.a695LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576381
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 10:23:22 +0000 (UTC)
+
+For IP addresses there are 10.x.x.x , 192.168.x.x IP address that can
+be used for private networks. Is there something similar for MAC
+address of network cards that can be safely used with virtual
+emulators and to be sure not to collide with any real network card
+(current or future)?
+
+Currently I am using MAC address
+52:54:00:12:34:x
+I guess I got it form some example for qemu usage or similar.
+
+Martin
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100510095014.GC2640@alfa
+
+

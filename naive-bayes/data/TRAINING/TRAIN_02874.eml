@@ -1,0 +1,198 @@
+X-Account-Key: account5
+X-UIDL: GmailId128517172a0a8000
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs127018wfj;
+        Fri, 30 Apr 2010 18:18:29 -0700 (PDT)
+Received: by 10.143.153.42 with SMTP id f42mr6860559wfo.299.1272676709194;
+        Fri, 30 Apr 2010 18:18:29 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 29si3596513pzk.55.2010.04.30.18.18.29;
+        Fri, 30 Apr 2010 18:18:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id E230B1C112A27
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 18:18:28 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id DDA01274A748D
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 18:18:28 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 28F75274A72AC
+	for <quicktime-api@lists.apple.com>;
+	Fri, 30 Apr 2010 18:18:11 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 098FED781449
+	for <quicktime-api@lists.apple.com>;
+	Fri, 30 Apr 2010 18:18:11 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-ae-4bdb81520458
+Received: from mail-gy0-f179.google.com (mail-gy0-f179.google.com
+	[209.85.160.179])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	18.F0.15139.2518BDB4; Fri, 30 Apr 2010 18:18:10 -0700 (PDT)
+Received: by gyd10 with SMTP id 10so467711gyd.24
+	for <quicktime-api@lists.apple.com>;
+	Fri, 30 Apr 2010 18:18:10 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.150.165.20 with SMTP id n20mr4176871ybe.316.1272676689897; 
+	Fri, 30 Apr 2010 18:18:09 -0700 (PDT)
+Received: by 10.100.14.13 with HTTP; Fri, 30 Apr 2010 18:18:09 -0700 (PDT)
+X-Originating-IP: [99.74.115.162]
+Date: Fri, 30 Apr 2010 18:18:09 -0700
+Message-ID: <v2g384845551004301818lf43303f5nc47fefb8c84ed107@mail.csmining.org>
+From: Bo Peng <bpeng@capellasystems.net>
+To: quicktime-api@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAxPvoMIT77IhE/BxWQ==
+Subject: ICMDecompressionSessionDecodeFrame() is not working
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi All,
+
+I am stuck in the quicktime API ICMDecompressionSessionDecodeFrame()
+for a while, and I could not find any other resources or any other
+sample code. Could any body help me out, and any suggestions
+appreciated.
+
+I want to import a movie file from local drive, get the compressed
+video frames, decode them, and encapsulate them into our own
+UncVideoUnit format.
+Right now we have already got the compressed video frames, but when we
+are trying to decode them, we have got some problem. Here is our
+source code, could any body tell me if there is something wrong in our
+code.
+
+
+			// initialize callback structure
+			ICMDecompressionTrackingCallbackRecord callRecord;
+			callRecord.decompressionTrackingCallback = WriteFrameToBitmap;
+			callRecord.decompressionTrackingRefCon = NULL;
+
+
+			// add attributes for pixel buffer that comes out
+			CFMutableDictionaryRef pixelBufferAttributes = NULL;
+			pixelBufferAttributes = CFDictionaryCreateMutable( NULL, 0,
+&kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks );
+
+			OSType format = k24RGBPixelFormat;
+			CFNumberRef pFormat = CFNumberCreate( NULL, kCFNumberSInt32Type, &format );
+			CFDictionaryAddValue( pixelBufferAttributes,
+kCVPixelBufferPixelFormatTypeKey, pFormat );
+			CFRelease( pFormat );
+
+			int width = 1280;
+			CFNumberRef pWidth = CFNumberCreate( NULL, kCFNumberIntType, &width );
+			CFDictionaryAddValue( pixelBufferAttributes,
+kCVPixelBufferWidthKey, pWidth );
+			CFRelease( pWidth );
+
+			int height = 720;
+			CFNumberRef pHeight = CFNumberCreate( NULL, kCFNumberIntType, &height );
+			CFDictionaryAddValue( pixelBufferAttributes,
+kCVPixelBufferHeightKey, pHeight );
+			CFRelease( pHeight );
+
+			
+			//  set up decompression session
+			ICMDecompressionSessionRef decompressionSession;
+			ImageDescriptionHandle description =
+(ImageDescriptionHandle)NewHandleClear(sizeof(ImageDescription));
+			OSStatus nStatus = ICMDecompressionSessionCreate ( NULL,
+description, NULL, pixelBufferAttributes, &callRecord,
+&decompressionSession);
+			CFRelease( pixelBufferAttributes );
+
+
+			// get video frames from movie files and decode each frame
+			TimeValue64 startTime =
+GetMediaAdvanceDecodeTime(GetTrackMedia(track));						// for starting
+time of each frame
+			TimeValue64 DurationPerSample = 0;				// fro duration of each frame
+			int count = 0;
+			while(true)
+			{
+				ByteCount size = 0;
+				UInt8 *aData = new unsigned char[maxDataSize];
+				nErr = GetMediaSample2(videoMedia, aData, maxDataSize, &size,
+startTime, nil, &DurationPerSample, nil, nil, nil, 1, nil, nil);
+
+
+				OSStatus nStatus = ICMDecompressionSessionDecodeFrame(
+decompressionSession, (const UInt8*)aData, size, NULL, NULL, (void
+*)&count );
+
+
+				count++;
+				startTime += DurationPerSample;
+
+				if(nErr != noErr)
+					break;
+
+				delete [] aData;
+			}
+
+
+
+Here is the definition for the callback funtion:
+
+
+static void WriteFrameToBitmap(
+			void *decompressionTrackingRefCon,
+			OSStatus result,
+			ICMDecompressionTrackingFlags decompressionTrackingFlags,
+			CVPixelBufferRef pixelBuffer,
+			TimeValue64 displayTime,
+			TimeValue64 displayDuration,
+			ICMValidTimeFlags validTimeFlags,
+			void *reserved,
+			void *sourceFrameRefCon )
+{
+	// when we get decoded frame, print it out to bitmap
+	if ( (result == noErr) && (decompressionTrackingFlags &
+kICMDecompressionTracking_EmittingFrame) && pixelBuffer )
+	{
+		char num[16];
+		sprintf_s(num, 16, "%d", *((int *)sourceFrameRefCon));
+		std::string strFilePath = std::string("Bitmap0") + std::string(num);
+
+		boost::shared_ptr<StillImage> pMyImage = StillImage::CreateInstance();
+		size_t size = CVPixelBufferGetDataSize(pixelBuffer);
+		BYTE *mem_buffer = (BYTE*)malloc(size * sizeof(BYTE));
+		strcpy((char*)mem_buffer, (char *)CVPixelBufferGetBaseAddress(pixelBuffer));
+		pMyImage->LoadImage(mem_buffer, size);
+		pMyImage->SaveImage(strFilePath.c_str(), BMP);
+	}
+
+
+}
+
+
+Thanks very much.
+
+Bo Peng
+Software Engineer
+Capella Systems, LLC
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

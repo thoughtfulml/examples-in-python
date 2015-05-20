@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284c5fbe1032dda
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs59185wfj;
+        Thu, 29 Apr 2010 18:41:04 -0700 (PDT)
+Received: by 10.223.53.91 with SMTP id l27mr1061180fag.0.1272591662737;
+        Thu, 29 Apr 2010 18:41:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si2037764fks.23.2010.04.29.18.41.02;
+        Thu, 29 Apr 2010 18:41:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 963FD13A4BC9; Fri, 30 Apr 2010 01:40:50 +0000 (UTC)
+Old-Return-Path: <field.engineer@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2BAB813A4AE2
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 01:40:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5BrxZVJK9Xmh for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 01:40:37 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmail. - helo: .smtp103.sbc.mail.mud.yahoo. - helo-domain: .yahoo.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0 IN_PM_RFCI=3.2; rate: -1.8
+Received: from smtp103.sbc.mail.mud.yahoo.com (smtp103.sbc.mail.mud.yahoo.com [68.142.198.202])
+	by liszt.debian.org (Postfix) with SMTP id 6B16C13A4A3E
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 01:40:35 +0000 (UTC)
+Received: (qmail 86846 invoked from network); 30 Apr 2010 01:40:23 -0000
+Received: from [10.0.0.3] (field.engineer@76.244.171.208 with plain)
+        by smtp103.sbc.mail.mud.yahoo.com with SMTP; 29 Apr 2010 18:40:23 -0700 PDT
+X-Yahoo-SMTP: RZ3gxciswBBgk2GT.bh.53dvHFPBUq3_nlS3fqI-
+X-YMail-OSG: .YqQUp0VM1kRyPmutqt7RRM8of7A026vRleYwor3i0sTJPSx4kRPwnMxjm9rjzlpXL4FH0qG7R38yIeiTbe48GVAznc2BxnZ1dBodAl9galpYaR1RwaB1LaEKdRTlHLyStWfUK.s8rGt4k83rfDaTpvwIy9710W1HGVZzPWs9UFmxhFfzOGG1S7kZf2ulbpPoM1yX8B70kQ5jayRBN.Y77PbUzw8u66QqBbI4Yd8V1YhxoBGuHEbAnQ2SFnWoFSCkA--
+X-Yahoo-Newman-Property: ymail-3
+Message-ID: <4BDA3506.8010303@csmining.org>
+Date: Thu, 29 Apr 2010 18:40:22 -0700
+From: Jimmy Johnson <field.engineer@csmining.org>
+Organization: PC Repair
+User-Agent: PC Repair and Better Built Computers
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: installing Lenny packages in Squeeze
+References: <20100429013529.GC8530@aurora.owens.net> <201004290942.21755.bss@iguanasuicide.net>
+In-Reply-To: <201004290942.21755.bss@iguanasuicide.net>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <l3ODEMRtZRF.A.GnC.iUj2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575517
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 01:40:50 +0000 (UTC)
+
+Boyd Stephen Smith Jr. wrote:
+> On Wednesday 28 April 2010 20:35:29 Rob Owens wrote:
+>> If I were to install a bare-bones Squeeze system, then add Lenny
+>> repositories and declare Lenny to be the Default-Release in apt.conf,
+>> can I expect to have many problems installing a full desktop environment
+>> from the Lenny repos?  (Gnome, LXDE, or Fluxbox, most likely).
+
+
+> This type of setup is neither tested nor supported.  Since a number of library 
+> transitions have already gone into Squeeze, I would expect issues, though I 
+> don't know what.
+
+
+I'm using the Squeeze+KDE4 version of Debian Live installed and it seems
+to be Lenny upgraded to Squeeze, it's definitely broken because the
+weather widgets will not config, I've seen the problem before on every
+Lenny upgrade and it's the only problem I can find, on that system I've
+been able to upgrade the kernel with no problem.
+
+I would not recommend Debian Live to anyone looking for a usable system.
+-- 
+Jimmy Johnson
+
+SimplyMEPIS 8.5 at sda9
+Registered Linux User #380263
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDA3506.8010303@csmining.org
+
+

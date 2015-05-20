@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fe9c5dc9c0e8c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs35812wfa;
+        Wed, 14 Apr 2010 16:16:53 -0700 (PDT)
+Received: by 10.87.2.15 with SMTP id e15mr6545839fgi.23.1271287012811;
+        Wed, 14 Apr 2010 16:16:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si1729607fks.42.2010.04.14.16.16.52;
+        Wed, 14 Apr 2010 16:16:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 29A932D0C6E; Wed, 14 Apr 2010 23:16:47 +0000 (UTC)
+Old-Return-Path: <ac@acampbell.org.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B1AC113A5675
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 23:16:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kWPIFQvbZt5e for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 23:16:34 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from mail.ukfsn.org (mail.ukfsn.org [77.75.108.10])
+	by liszt.debian.org (Postfix) with ESMTP id 1E9FB13A5656
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 23:16:22 +0000 (UTC)
+Received: from localhost (smtp-filter.ukfsn.org [192.168.54.205])
+	by mail.ukfsn.org (Postfix) with ESMTP id 0B876DEB7E
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 00:16:20 +0100 (BST)
+Received: from mail.ukfsn.org ([192.168.54.25])
+	by localhost (smtp-filter.ukfsn.org [192.168.54.205]) (amavisd-new, port 10024)
+	with ESMTP id XCEmh2bDKLGI for <debian-user@lists.debian.org>;
+	Thu, 15 Apr 2010 00:16:19 +0100 (BST)
+Received: from arcadia.acampbell.org.uk (unknown [94.30.27.224])
+	by mail.ukfsn.org (Postfix) with ESMTP id C1D23DEB72
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 00:16:19 +0100 (BST)
+Received: from ac by arcadia.acampbell.org.uk with local (Exim 4.71)
+	(envelope-from <ac@acampbell.org.uk>)
+	id 1O2Boh-0004uz-Gh
+	for debian-user@lists.debian.org; Thu, 15 Apr 2010 00:16:19 +0100
+Date: Thu, 15 Apr 2010 00:16:19 +0100
+From: Anthony Campbell <ac@acampbell.org.uk>
+To: debian-user@lists.debian.org
+Subject: Re: Connecting to vpn server
+Message-ID: <20100414231619.GB18626@acampbell.org.uk>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100414165940.GB7866@acampbell.org.uk>
+ <4BC5F575.2070504@csmining.org>
+ <20100414173940.GA17726@acampbell.org.uk>
+ <4BC5FFFD.6010003@csmining.org>
+ <20100414184818.GA18000@acampbell.org.uk>
+ <4BC61063.2060404@lorentz.leidenuniv.nl>
+ <20100414195353.GB18106@acampbell.org.uk>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20100414195353.GB18106@acampbell.org.uk>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <e9hzXqlrHyI.A.QtD.fzkxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574105
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 23:16:47 +0000 (UTC)
+
+On 14 Apr 2010, Anthony Campbell wrote:
+
+Well, I tried to connect but got:
+
+EAP: unknown authentication type 13; Naking
+
+Anyone know what this indicates? Googling doesn't produce much
+illumination - nothing that applies to my situation.
+
+Anthony
+
+-- 
+Anthony Campbell - ac@acampbell.org.uk 
+Microsoft-free zone - Using Debian GNU/Linux 
+http://www.acampbell.org.uk - sample my ebooks at
+http://www.smashwords.com/profile/view/acampbell
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414231619.GB18626@acampbell.org.uk
+
+

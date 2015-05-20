@@ -1,0 +1,96 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280ea806675818a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs32466wfj;
+        Sat, 17 Apr 2010 19:03:33 -0700 (PDT)
+Received: by 10.151.60.7 with SMTP id n7mr1760632ybk.308.1271556212515;
+        Sat, 17 Apr 2010 19:03:32 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 42si5737815iwn.5.2010.04.17.19.03.32;
+        Sat, 17 Apr 2010 19:03:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id DEE211C06D172
+	for <mlsubscriber.tech@csmining.org>; Sat, 17 Apr 2010 19:03:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id DA4AE26E6C6F6
+	for <mlsubscriber.tech@csmining.org>; Sat, 17 Apr 2010 19:03:31 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 64AC526E6C4FA
+	for <X11-users@lists.apple.com>; Sat, 17 Apr 2010 19:03:13 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 43283CFBF2AA
+	for <X11-users@lists.apple.com>; Sat, 17 Apr 2010 19:03:13 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-6b-4bca685f6c2e
+Received: from anne.math.ntnu.no (anne.math.ntnu.no [129.241.15.150])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	99.91.17067.0686ACB4; Sat, 17 Apr 2010 19:03:13 -0700 (PDT)
+Received: (qmail 27045 invoked from network); 18 Apr 2010 02:03:10 -0000
+Received: from gauss.math.ntnu.no (HELO localhost) (hanche@129.241.15.102)
+	by anne.math.ntnu.no with ESMTPA; 18 Apr 2010 02:03:10 -0000
+Date: Sat, 17 Apr 2010 22:03:07 -0400 (EDT)
+Message-Id: <20100417.220307.82490045.hanche@math.ntnu.no>
+To: jeremyhu@apple.com
+From: Harald Hanche-Olsen <hanche@math.ntnu.no>
+In-Reply-To: <B941E3A2-60B0-4E72-9CF4-1496F7954F9B@apple.com>
+References: <20100417.114055.362175913.hanche@math.ntnu.no>
+	<470592.99987.qm@web55602.mail.re4.yahoo.com>
+	<B941E3A2-60B0-4E72-9CF4-1496F7954F9B@apple.com>
+X-URL: http://www.math.ntnu.no/~hanche/
+X-Mailer: Mew version 6.3.50 on Emacs 24.0.50 / Mule 6.0 (HANACHIRUSATO)
+Mime-Version: 1.0
+Content-Type: Text/Plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11-users@lists.apple.com
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
++ Jeremy Huddleston <jeremyhu@apple.com>:
+
+> 
+> On Apr 17, 2010, at 12:20, Pierre Baguis wrote:
+> 
+> > The middle click caused the terminal to come forth.
+> 
+> You need to middle click inside the white box that was brought up.
+
+I assumed he had done that (it's what I asked him to do), in which
+case the reported behaviour indicates something odd going on. Of
+course, the xev output he posted came from the mouse leaving the xev
+window, so maybe you're right and he misunderstood the instructions.
+
+So, to make it even clearer: Move the xev window if necessary so it
+doesn't cover the terminal window. Middle click in it, preferably
+without moving the mouse, even a little. You should now see the mouse
+click event in the terminal window. The moment you move the mouse,
+tons of movement events will roll in and scroll the click events right
+out of the terminal window.
+
+- Harald
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

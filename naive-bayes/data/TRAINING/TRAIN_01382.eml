@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284122bacb475a6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs152980wfj;
+        Tue, 27 Apr 2010 14:18:36 -0700 (PDT)
+Received: by 10.87.69.29 with SMTP id w29mr2662886fgk.35.1272403114883;
+        Tue, 27 Apr 2010 14:18:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si11756412fkq.34.2010.04.27.14.18.34;
+        Tue, 27 Apr 2010 14:18:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8A59F13A4FCA; Tue, 27 Apr 2010 21:18:28 +0000 (UTC)
+Old-Return-Path: <celejar@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 532D313A4F6D
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 21:18:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id o0mDd2OkOwKq for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 21:18:14 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-pw0-f47.google.com (mail-pw0-f47.google.com [209.85.160.47])
+	by liszt.debian.org (Postfix) with ESMTP id 6A2C013A4E8F
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 21:18:08 +0000 (UTC)
+Received: by pwj5 with SMTP id 5so8839071pwj.6
+        for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 14:18:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:in-reply-to:references:x-mailer:mime-version
+         :content-type:content-transfer-encoding;
+        bh=ETh1Q4hqVh2cEIh4kNexuhLo5ySaadtJobbCPyHqnT8=;
+        b=XFgGOQa013WcWTGVjtL7/+jbSPluAQDmNCK9Lj3Jl60xobUuT43pMoKDcOxKWkzHap
+         MG97dAlPX95z07OaJxPsh+Ye8G/GbQQPXBEq44hQncBU7kG+ChRGQ/pPIfomBYRKgy5v
+         06AQ2J2zn1fNdtw8ijYG/wHeML5EOpSm6HMWI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:in-reply-to:references:x-mailer
+         :mime-version:content-type:content-transfer-encoding;
+        b=gUG6NXgP7cKEOsmNPsSvUexmm7ysK+djnlJgoBf6IQjFC8FdZWV+QRqjlHAmSg0tP7
+         z6//K9ItwtxGRVTiNKD+MTK9+iuHy6iYzn0bR2U0FSDd0KscVSosOaaZP8BHKWZzY5d2
+         y51df7I5kaZ89dDXhgq+p8uppCN8Rz1+m0pSI=
+Received: by 10.141.2.21 with SMTP id e21mr28714rvi.193.1272403083731;
+        Tue, 27 Apr 2010 14:18:03 -0700 (PDT)
+Received: from localhost.localdomain (ool-43524048.dyn.optonline.net [67.82.64.72])
+        by mx.google.com with ESMTPS id 22sm3202867qyk.10.2010.04.27.14.18.02
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Tue, 27 Apr 2010 14:18:02 -0700 (PDT)
+Date: Tue, 27 Apr 2010 17:18:01 -0400
+From: Celejar <celejar@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: tool tips remaining after window switching
+Message-Id: <20100427171801.53fff689.celejar@csmining.org>
+In-Reply-To: <201004271040.58322.bss@iguanasuicide.net>
+References: <20100426220906.6b27cd68.celejar@csmining.org>
+	<201004271040.58322.bss@iguanasuicide.net>
+X-Mailer: Sylpheed 3.0.2 (GTK+ 2.20.0; i486-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <c1GmxNyHOwF.A.vhD.kS11LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575320
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 21:18:28 +0000 (UTC)
+
+On Tue, 27 Apr 2010 10:40:58 -0500
+"Boyd Stephen Smith Jr." <bss@iguanasuicide.net> wrote:
+
+> On Monday 26 April 2010 21:09:06 Celejar wrote:
+> > I use a
+> > number of applications that implement tool tips, those little boxes
+> > that come up explaining some on screen widget.  Very often, when one
+> > comes up and I then switch to a different window,
+> > the tool tip remains, superimposed over the new
+> > application, and won't go away until I switch back to the first app,
+> > move the cursor somewhere else to get it to go away, and then switch
+> > back to the other application.
+> > 
+> > Should I file a bug,
+> 
+> Sounds like a bug to me.  Not exactly high-priority, but a bug nonetheless.
+> 
+> > and against
+> > what?
+> 
+> Well, does this only happen with tooltips from a single application?  Multiple 
+> related applications (e.g. multiple Qt-4 applications)?  Every application?
+> 
+> Single -> that app.
+> Multiple -> that library / related "thing".  Or any one of the applications, 
+> but include information about which other applications are affected.
+> Every -> Probably your window manager, maybe X.
+
+The main offender is oowriter.  I think that I've seen a similar
+problem with other applications, but I can't reproduce such right now.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100427171801.53fff689.celejar@csmining.org
+
+

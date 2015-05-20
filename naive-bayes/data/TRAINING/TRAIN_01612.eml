@@ -1,0 +1,223 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d71b490797564
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs8828wfi;
+        Wed, 7 Apr 2010 00:10:43 -0700 (PDT)
+Received: by 10.229.227.83 with SMTP id iz19mr13620041qcb.44.1270624242133;
+        Wed, 07 Apr 2010 00:10:42 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 38si23344960iwn.75.2010.04.07.00.10.41;
+        Wed, 07 Apr 2010 00:10:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 8E4F61BB23AC8
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 00:10:41 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 898072692BD00
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 00:10:41 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay14.apple.com (relay14.apple.com [17.128.113.52])
+	by lists.apple.com (Postfix) with ESMTP id 88D722692BB07
+	for <x11-users@lists.apple.com>; Wed,  7 Apr 2010 00:10:22 -0700 (PDT)
+X-AuditID: 11807134-b7bcaae000006bd8-1e-4bbc2fde1b16
+Received: from et.apple.com (et.apple.com [17.151.62.12])
+	by relay14.apple.com (Apple SCV relay) with SMTP id
+	17.8A.27608.EDF2CBB4; Wed,  7 Apr 2010 00:10:22 -0700 (PDT)
+Received: from [10.0.1.109]
+	(99-51-79-55.lightspeed.snjsca.sbcglobal.net [99.51.79.55])
+	by et.apple.com (Sun Java(tm) System Messaging Server 6.3-7.04 (built
+	Sep 26
+	2008; 32bit)) with ESMTPSA id <0L0H00B2CVX9K170@et.apple.com> for
+	x11-users@lists.apple.com; Wed, 07 Apr 2010 00:10:21 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <Pine.LNX.4.64.1004062134530.6926@ilovebacon.org>
+Date: Wed, 07 Apr 2010 00:10:21 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <0E2C6EFD-2B3A-4EEA-80FC-19F6AB41BF47@apple.com>
+References: <Pine.LNX.4.64.1004062134530.6926@ilovebacon.org>
+To: adik@ilovebacon.org
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: x11-users@lists.apple.com
+Subject: Re: 2.5.0 weirdness
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+If there is something new to 2.5.0, then it is a different issue.  The =
+issue as described in bug #58 is known, and the problem certainly lies =
+outside of X11.  I am suspicious of claims that something "new" in this =
+regard has cropped up in 2.5.0 since the code in question has remained =
+pretty much unchanged for well over a year now.
+
+
+On Apr 6, 2010, at 21:35, Adam D. I. Kramer wrote:
+
+> OK. I have since verified that sometimes I lose focus and sometimes =
+X11 pops
+> to the front even when another application is runing. For example, I'm =
+using
+> powerpoint, and then...gee, all my xterms. Hello, xterms. But =
+Powerpoint
+> still has "focus" in the sense that my keypresses go to powerpoint, =
+which is
+> hidden behind my xterms.
+>=20
+> But here's the thing--this all started with 2.5.0. This bug is not =
+present
+> in the Snow Leopard standard install. So perhaps there *is* something
+> XQuartz.app can do about it?
+>=20
+> --Adam
+>=20
+> On Sun, 4 Apr 2010, Jeremy Huddleston wrote:
+>=20
+>> You guys might want to CC yourself to this ticket:
+>> http://xquartz.macosforge.org/trac/ticket/58
+>> The issue can't really be fixed by XQuartz.app itself.  If this is an
+>> annoyance, I suggest you file a bug report with Apple
+>> (http://bugreport.apple.com) and indicate that it is likely a =
+duplicate of
+>> 7150340
+>> Thanks,
+>> Jeremy
+>> On Apr 4, 2010, at 12:35, Adam D. I. Kramer wrote:
+>>> The problem you describe, Doug, is a problem I have had before--but =
+not
+>>> since upgrading to Snow Leopard.
+>>> Only minorly relatedly, I would say that "loss of focus" is the =
+single most
+>>> annoying thing that occurs in my use of OSX broadly speaking. =
+Whether it's a
+>>> dialog box or a new window or anything, if I didn't click on it or =
+somehow
+>>> intentionally direct myself to it, I really don't want to be typing =
+in there
+>>> instead of where I chose to be.
+>>> Is there any software anyone has heard of that can turn off the =
+ability of
+>>> any program to steal focus?
+>>> --Adam
+>>> On Sun, 4 Apr 2010, Doug Carter wrote:
+>>>> For what it's worth, I've seen this (and a related problem) since
+>>>> 2.3.2. I've always suspected that it's a conflict between a OS =
+window
+>>>> manager event and the X server. The related problem is sometimes a
+>>>> currently in-use xterm will lose focus for 1-3 seconds. Sometimes =
+the
+>>>> focus returns, other times I need to click in the xterm to get the
+>>>> focus back.
+>>>> I've always assumed these problems were at a deeper event level, =
+and
+>>>> because they are so random and impossible to reproduce, I've just =
+lived
+>>>> with them. Like the ticket referenced below, I'd say it's a good =
+bet that
+>>>> there is some other process that is messing with focus.
+>>>> Doug
+>>>> On Sun, Apr 04, 2010 at 12:00:24AM -0700, Jeremy Huddleston wrote:
+>>>>> I have no idea what might be causing this, and I can't think of =
+any change between 2.3.4 and 2.5.0 that would have this type of effect.
+>>>>> Please do try to narrow it down.  I wonder if it is related to =
+http://xquartz.macosforge.org/trac/ticket/58
+>>>>> --Jeremy
+>>>>> On Apr 3, 2010, at 23:51, Adam D. I. Kramer wrote:
+>>>>>> Hi,
+>>>>>>=20
+>>>>>> 	Every so often, now that I have upgraded to 2.5.0, when I'm =
+typing
+>>>>>> in an xterm, for some reason all of the windows open in =
+Xquartz.app will
+>>>>>> come forward. For example, if this window is the only one "above" =
+firefox in
+>>>>>> the background, for some reason and in a manner I cannot yet =
+predict or
+>>>>>> cause, all of the other windows will come forward as if I had =
+clicked the
+>>>>>> XQuartz icon in the dock.
+>>>>>>=20
+>>>>>> 	The windows' order is not being rearranged...this window stays =
+on
+>>>>>> top.  I'm not losing any keystrokes.  It's annoying when I'm =
+typing here and
+>>>>>> reading a webpage.
+>>>>>>=20
+>>>>>> 	This was not an issue under Apple's X11 for 10.6. It only =
+happens
+>>>>>> once every few hours, so I don't know if it happened during the =
+short period
+>>>>>> of time during which I used rc1 or rc2.
+>>>>>>=20
+>>>>>> 	I'll certainly write back if I have any way to reproduce it, but =
+for
+>>>>>> the mean time, Any idea what might be causing this?
+>>>>>> --Adam
+>>>>>> _______________________________________________
+>>>>>> Do not post admin requests to the list. They will be ignored.
+>>>>>> X11-users mailing list      (X11-users@lists.apple.com)
+>>>>>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>>>>>> This email sent to jeremyhu@freedesktop.org
+>>>>> _______________________________________________
+>>>>> Do not post admin requests to the list. They will be ignored.
+>>>>> X11-users mailing list      (X11-users@lists.apple.com)
+>>>>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/dcarter%40mercycorps.org
+>>>>> This email sent to dcarter@mercycorps.org
+>>>> _______________________________________________
+>>>> Do not post admin requests to the list. They will be ignored.
+>>>> X11-users mailing list      (X11-users@lists.apple.com)
+>>>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/adik-applex11%40ilovebaco=
+n.org
+>>>> This email sent to adik-applex11@ilovebacon.org
+>>> _______________________________________________
+>>> Do not post admin requests to the list. They will be ignored.
+>>> X11-users mailing list      (X11-users@lists.apple.com)
+>>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>>> This email sent to jeremyhu@freedesktop.org
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> X11-users mailing list      (X11-users@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/adik-applex11%40ilovebaco=
+n.org
+>> This email sent to adik-applex11@ilovebacon.org
+>>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

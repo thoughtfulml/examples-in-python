@@ -1,0 +1,144 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f27d5e522a4ed
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs150878wfo;
+        Mon, 12 Apr 2010 07:47:36 -0700 (PDT)
+Received: by 10.223.143.20 with SMTP id s20mr2723555fau.38.1271083655091;
+        Mon, 12 Apr 2010 07:47:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si8581203fks.24.2010.04.12.07.47.34;
+        Mon, 12 Apr 2010 07:47:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D248D13A60FB; Mon, 12 Apr 2010 14:47:28 +0000 (UTC)
+Old-Return-Path: <jerjoz.forums@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45,WEBMAIL autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 68B9A13A60F4
+	for <lists-debian-user@liszt.debian.org>; Mon, 12 Apr 2010 14:47:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2.507 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BODY_8BITS=1.5, FOURLA=0.1, GMAIL=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893, WEBMAIL=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nwXZpI+mJExe for <lists-debian-user@liszt.debian.org>;
+	Mon, 12 Apr 2010 14:47:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 4EE6713A60E3
+	for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 14:47:15 +0000 (UTC)
+Received: by wwb13 with SMTP id 13so2153241wwb.6
+        for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 07:47:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=Yb7TPDjyiW4isZ4qaqK0e/CZCzjBdY5uUPcEQJ4Xstc=;
+        b=RQvaGzngwbRcFY61D10WSHA7ILZ9FMGeIHKup3vQB36Ea6fF141L2B4tU4z5d98y57
+         n7g+NYRfc7Wqmhda6eR6ctPlJm78EsLECYMAxk2uF+14U+GaZGoqSYqlrDYK3UsAzOeG
+         y800pFXJNQBAZvK1+Rp2DfTSGSZgKgJGgQIFI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=dNIHAUiEhMyE9OD5w8k5o+V0LtnFMdfUariU84tyfcoPU/n1zuFAPDsPz/2IeoFAXP
+         sI80KqeGA71q1BSsJn1LDLV6JeQ1USwOKmOY0rrUgBvDBrj23brtGnFxBa0EwEI3OYsx
+         oMcgqtLXwtKcMcjsBj4gq3L6aBZvJjGQaiAuQ=
+MIME-Version: 1.0
+Received: by 10.216.177.16 with HTTP; Mon, 12 Apr 2010 07:47:07 -0700 (PDT)
+In-Reply-To: <201004121536.52648.tchatelet@free.fr>
+References: <y2yf8d5d4f31004111943je990e9a0h6ca9fedd1ffb1fa9@mail.csmining.org>
+	 <20100412090559.7d661073.celejar@csmining.org>
+	 <pan.2010.04.12.13.23.45@csmining.org>
+	 <201004121536.52648.tchatelet@free.fr>
+Date: Mon, 12 Apr 2010 07:47:07 -0700
+Received: by 10.216.157.142 with SMTP id o14mr2124743wek.183.1271083627719; 
+	Mon, 12 Apr 2010 07:47:07 -0700 (PDT)
+Message-ID: <v2lf8d5d4f31004120747qc329843bl69e8791c6d3de72b@mail.csmining.org>
+Subject: Re: cannot type power of 1 or 2, 4-9 are typeable.
+From: jeremy jozwik <jerjoz.forums@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dVmlVgWMf5H.A.UxC.AKzwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573931
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 12 Apr 2010 14:47:28 +0000 (UTC)
+
+christ! lots of replies here!
+
+$ echo -e "\xc2\xb9\xc2\xb2\xc2\xb3\xe2\x81\xb4\xe2\x81\xb5"
+=C2=B9=C2=B2=C2=B3=E2=81=B4=E2=81=B5
+
+so, that is copy>pasteable.
+
+
+On Mon, Apr 12, 2010 at 12:05 AM, Camale=C3=B3n <noelamac@csmining.org> wrote:
+> - Press Control-R and then press Shift-R (keep those pressed at the same
+> time)
+> - Now press "u" and release the three keys (it will appear an underline
+> "u" in the screen)
+> - Then type "00b2" and press Enter
+
+dont do that in webmail, youll reload your page and loose your
+carefully crafted email...
+
+On Sun, Apr 11, 2010 at 11:41 PM, Florian Kulzer
+<florian.kulzer+debian@icfo.es> wrote:
+> It could also be due to the browser not copying certain characters
+> correctly to the clipboard.
+
+the GNOME character map cannot show these characters properly. i dont
+know the actual key codes and the character map is where i get most
+odd characters from.
+specifically character map says "U+2072 <not assigned>
+
+> Let's start at the beginning, which output do you get from this command:
+>  locale
+
+$ locale
+LANG=3Den_US.UTF-8
+LC_CTYPE=3D"en_US.UTF-8"
+LC_NUMERIC=3D"en_US.UTF-8"
+LC_TIME=3D"en_US.UTF-8"
+LC_COLLATE=3D"en_US.UTF-8"
+LC_MONETARY=3D"en_US.UTF-8"
+LC_MESSAGES=3D"en_US.UTF-8"
+LC_PAPER=3D"en_US.UTF-8"
+LC_NAME=3D"en_US.UTF-8"
+LC_ADDRESS=3D"en_US.UTF-8"
+LC_TELEPHONE=3D"en_US.UTF-8"
+LC_MEASUREMENT=3D"en_US.UTF-8"
+LC_IDENTIFICATION=3D"en_US.UTF-8"
+LC_ALL=3D
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2lf8d5d4f31004120747qc329843bl69e8791c6d3de72b@mail.csmining.org
+
+

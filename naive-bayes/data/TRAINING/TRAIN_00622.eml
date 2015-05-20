@@ -1,0 +1,189 @@
+X-Account-Key: account5
+X-UIDL: GmailId127deb6f156dc081
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs92634wfi;
+        Thu, 8 Apr 2010 11:38:03 -0700 (PDT)
+Received: by 10.142.2.17 with SMTP id 17mr403682wfb.76.1270751883747;
+        Thu, 08 Apr 2010 11:38:03 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 5si3635996pzk.16.2010.04.08.11.38.03;
+        Thu, 08 Apr 2010 11:38:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 68A0F1B87BAA1
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 11:38:03 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 63F3426A211B8
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 11:38:03 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 2EA0526A20FC9
+	for <x11-users@lists.apple.com>; Thu,  8 Apr 2010 11:37:45 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 1E33CCD70BE0
+	for <x11-users@lists.apple.com>; Thu,  8 Apr 2010 11:37:45 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7c81ae0000050dc-70-4bbe2278a0d9
+Received: from mail-bw0-f225.google.com (mail-bw0-f225.google.com
+	[209.85.218.225])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	58.CF.20700.8722EBB4; Thu,  8 Apr 2010 11:37:44 -0700 (PDT)
+Received: by bwz25 with SMTP id 25so2151546bwz.8
+	for <x11-users@lists.apple.com>; Thu, 08 Apr 2010 11:37:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:content-type:mime-version
+	:subject:from:in-reply-to:date:content-transfer-encoding:message-id
+	:references:to:x-mailer;
+	bh=6dbluN1o3GkZp8cU8ZCAtJ1zXjQKwCYDU4s+GL+wCS4=;
+	b=SEx5/0s6qMIh444o8bULopSzHbJCVyv9KtKcXyJ6bYYttWkUg50pRBC5nt0HdFyWxg
+	qV9Rcy1guXyFke6MZvvSDiSY88fpkeFFaf1yE+omFQoQQoGoSrG8h5lKZ065ZM2nO3Bx
+	CT8dNMVasQQGlI0dMV+/hV5e1QBASWtaH+Tko=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=content-type:mime-version:subject:from:in-reply-to:date
+	:content-transfer-encoding:message-id:references:to:x-mailer;
+	b=XpTqMsNuEdZRCORtTwsOppfHr1G/2bmuy5biOtwtk++tRXLhxsVlXoI2ofz96auZWX
+	k3lKCVFDr5DpherfOqkrBrvOcMmXsBDRjG6nyGKFJKLtOVoNGEfR+B0z+qQppECzfGHN
+	wmbNfud6ccUqOfox6XO6ju92H1eyXtjp6TXu8=
+Received: by 10.204.153.205 with SMTP id l13mr585411bkw.95.1270751863097;
+	Thu, 08 Apr 2010 11:37:43 -0700 (PDT)
+Received: from vale.dns (host-216-9-187-87.orbitelcom.com [216.9.187.87])
+	by mx.google.com with ESMTPS id 13sm195944bwz.15.2010.04.08.11.37.40
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Thu, 08 Apr 2010 11:37:42 -0700 (PDT)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: John Sutherland <garionphx@csmining.org>
+In-Reply-To: <935D949A-F152-42EF-A4B7-80C2896BA913@apple.com>
+Date: Thu, 8 Apr 2010 11:37:37 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <A7CDE36A-A93F-4D5E-9280-FFDD44C090F8@csmining.org>
+References: <9B434394-0920-4E1D-A251-0CDBCB792CD2@apple.com>
+	<4BBD3CBC.1090804@csiro.au>
+	<935D949A-F152-42EF-A4B7-80C2896BA913@apple.com>
+To: X11 List <x11-users@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAABBOdnMATnkgJE56A8BOep/A=
+Subject: Re: XQuartz 2.5.0_rc2
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I too have been having issues with gl stuff (work just added some 3d =
+stuff recently to our software). I just figured it was unsupported.=20
+
+I'm running (under VMWare) a Fedora 12 x86_64 VM (no VMWare tools =
+installed)... I use ssh -X from OSX to the VM.. I then tried the line =
+you suggested:=20
+
+[john@subvale ~]$ LIBGL_ALWAYS_INDIRECT=3D1 glxgears
+X Error of failed request:  BadAlloc (insufficient resources for =
+operation)
+  Major opcode of failed request:  147 (GLX)
+  Minor opcode of failed request:  3 (X_GLXCreateContext)
+  Serial number of failed request:  22
+  Current serial number in output stream:  24
+
+I see a window created then disappear, and that error in my ssh session.
+
+(I run other X stuff through that ssh session just fine.)
+
+--John
+
+
+On Apr 7, 2010, at 10:49 PM, Jeremy Huddleston wrote:
+
+> There is a bug in your remote mesa.
+> See https://bugs.freedesktop.org/show_bug.cgi?id=3D24226
+>=20
+>=20
+> You should be able to do it via:
+> LIBGL_ALWAYS_INDIRECT=3D1 glxgears
+>=20
+> That works for me.
+>=20
+>=20
+> On Apr 7, 2010, at 19:17, James Gunning wrote:
+>=20
+>> Dear Jeremy,
+>>                 thanks for all your great work on Xquartz. I'm =
+running the latest 2.5.0.
+>> I wonder if you can send to the list some clarification (or a URL) =
+about remote openGL.
+>>=20
+>> I find at present I can't get a glxgears from a remote linux box to =
+work
+>> with any combination of=20
+>> LIBGL_ALWAYS_SOFTWARE
+>> LIBGL_ALWAYS_INDIRECT
+>> LIBGL_ALWAYS_HARDWARE
+>>=20
+>> at present.=20
+>>=20
+>> With LIBGL_ALWAYS_INDIRECT unset
+>> glxinfo gives me
+>> name of display: localhost:10.0
+>> Error: couldn't find RGB GLX visual or fbconfig
+>>=20
+>> with LIBGL_ALWAYS_INDIRECT set, glxinfo seems OK:
+>> ...
+>> name of display: localhost:10.0
+>> display: localhost:10  screen: 0
+>> direct rendering: No (LIBGL_ALWAYS_INDIRECT set)
+>> server glx vendor string: SGI...
+>> ....
+>>=20
+>>=20
+>> But glxgears yields
+>> X Error of failed request:  BadAlloc (insufficient resources for =
+operation)
+>>  Major opcode of failed request:  147 (GLX)
+>>  Minor opcode of failed request:  3 (X_GLXCreateContext)
+>>  Serial number of failed request:  20
+>>  Current serial number in output stream:  22
+>>=20
+>> In previous versions, I got remote openGL to work OK via =
+LIBGL_ALWAYS_INDIRECT.
+>> I'm doubtless confused. Any clarifications welcome.
+>>=20
+>> Very best wishes,=20
+>>        James.
+>>=20
+>> <James_Gunning.vcf> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> X11-users mailing list      (X11-users@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>>=20
+>> This email sent to jeremyhu@freedesktop.org
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/garionphx%40csmining.org
+>=20
+> This email sent to garionphx@csmining.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

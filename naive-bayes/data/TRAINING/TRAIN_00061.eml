@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288d1dad00240b9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs62262wfb;
+        Wed, 12 May 2010 08:24:12 -0700 (PDT)
+Received: by 10.114.7.40 with SMTP id 40mr6013156wag.83.1273677852016;
+        Wed, 12 May 2010 08:24:12 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 10si399331pzk.51.2010.05.12.08.24.11;
+        Wed, 12 May 2010 08:24:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id AD4721C75C529
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 08:24:11 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A7D922797F307
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 08:24:11 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay16.apple.com (relay16.apple.com [17.128.113.55])
+	by lists.apple.com (Postfix) with ESMTP id 1EB442797F10C
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 08:23:52 -0700 (PDT)
+X-AuditID: 11807137-b7c23ae000001561-a7-4beac808f7dd
+Received: from elliott.apple.com (elliott.apple.com [17.151.62.13])
+	by relay16.apple.com (Apple SCV relay) with SMTP id
+	8E.38.05473.808CAEB4; Wed, 12 May 2010 08:23:52 -0700 (PDT)
+Received: from [10.0.10.103] (c-24-7-81-91.hsd1.ca.comcast.net [24.7.81.91])
+	by elliott.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L2B002JAC3SC550@elliott.apple.com> for
+	x11-users@lists.apple.com; Wed, 12 May 2010 08:23:52 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <4BEAA60F.1000202@inf.tu-dresden.de>
+Date: Wed, 12 May 2010 08:23:52 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <7E0F2F68-B940-4E68-B28C-F85D0594BB1E@apple.com>
+References: <20100507224523.555E6277CEEBA@lists.apple.com>
+	<4BEAA60F.1000202@inf.tu-dresden.de>
+To: Eeri Kask <Eeri.Kask@inf.tu-dresden.de>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: x11-users@lists.apple.com
+Subject: Re: Leopard or Snow L?
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On May 12, 2010, at 05:58, Eeri Kask wrote:
+
+> Am 05/08/2010 12:45 AM, fred <x11apple@pgc.com> schrieb:
+>> Folks --
+>>=20
+>> I finally am forced to upgrade from Tiger, intending to go directly
+>> to Snow Leopard unless there is some reason not to. I live in X11
+>> (emacs, vmacs) so stability is all.
+>=20
+>=20
+> Hello,
+>=20
+> may I followup this thread, despite being off-topic, in the hope to
+> find technically savvy people giving good advice...  :-)
+>=20
+>=20
+> (1)  Does it make sense to upgrade Tiger to Leopard running on a
+> G4-PowerBook-12" laptop?
+
+1) Well, if it ain't broke, don't fix it.
+
+2) It is no longer receiving Security Updates, so that may urge you to =
+upgrade.
+
+> Otherwise I would probably upgrade, mostly because of QTKit which in
+> Leopard includes
+>=20
+>    QTCaptureSession
+
+If that's useful, then you should upgrade.
+
+> (The downside means moving away from XFree-X11 which has proven
+> exceptionally solid too.)
+
+You can give the new version a try while on Tiger if you want to install =
+MacPorts.
+
+> (2)  I am considering to install a second CPU into a current 4-core
+> Xeon MacPro (as one processor socket is still empty).  Local Apple
+> guys say this is not supposed to be done (in particular because of
+> some heating problems which could arise then etc), but I cannot see
+> if this is simply a "salesman's talk" while trying selling a
+> completely new machine instead.  Though having 8 cores in total
+> makes more computational (... and financial) sense as to buy a
+> machine of today with, e.g. 6 cores.
+>=20
+> Is there anything of substance known in these supposed heating issues?
+
+That seems bizarre to me.  I'd do a little google investigation about =
+that rather than trust one salesman.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

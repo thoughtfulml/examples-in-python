@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280813210a83d1f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs37784wfj;
+        Fri, 16 Apr 2010 12:23:12 -0700 (PDT)
+Received: by 10.223.72.156 with SMTP id m28mr918668faj.26.1271445791232;
+        Fri, 16 Apr 2010 12:23:11 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si4586959fka.2.2010.04.16.12.23.10;
+        Fri, 16 Apr 2010 12:23:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C01DE2D0CA5; Fri, 16 Apr 2010 19:23:08 +0000 (UTC)
+Old-Return-Path: <pfeiffer@kde.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C7AB513A514C
+	for <lists-debian-kde@liszt.debian.org>; Fri, 16 Apr 2010 19:23:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id rLOWz4RKkLlG for <lists-debian-kde@liszt.debian.org>;
+	Fri, 16 Apr 2010 19:22:55 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 406 seconds by postgrey-1.31 at liszt; Fri, 16 Apr 2010 19:22:55 UTC
+Received: from mailbox.alumni.tu-berlin.de (mailbox.alumni.TU-Berlin.DE [130.149.4.218])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 7FEFB13A4E88
+	for <debian-kde@lists.debian.org>; Fri, 16 Apr 2010 19:22:49 +0000 (UTC)
+X-tubIT-Incoming-IP: 85.178.85.189
+Received: from e178085189.adsl.alicedsl.de ([85.178.85.189] helo=nb-carsten-xp.localnet)
+	  by mailbox.alumni.tu-berlin.de (exim-4.71) with esmtpsa [TLSv1:DHE-RSA-AES256-SHA:256] 
+	  for <debian-kde@lists.debian.org>
+	  id 1O2r18-0007dO-RD; Fri, 16 Apr 2010 21:15:54 +0200
+From: Carsten Pfeiffer <pfeiffer@kde.org>
+To: debian-kde@lists.debian.org
+Subject: Re: Issue between KDE 4.x
+Date: Fri, 16 Apr 2010 21:15:21 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.32-trunk-686-bigmem; KDE/4.4.2; i686; ; )
+References: <s2oaefba0691004100309l4153fb37p534f434fa44b2c19@mail.csmining.org>
+In-Reply-To: <s2oaefba0691004100309l4153fb37p534f434fa44b2c19@mail.csmining.org>
+Organization: KDE
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart4677164.9G0T8ZgsSL";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004162115.27988.pfeiffer@kde.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <wgpP805Yw2B.A.raD.ckLyLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32037
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 19:23:08 +0000 (UTC)
+
+--nextPart4677164.9G0T8ZgsSL
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Am Samstag, 10. April 2010 schrieb Christophe Prud'homme:
+
+> ** Very slow desktop
+>=20
+> With 4.3.x and 4.4.1 (and possibly earlier versions of Kde 4 I cannot
+> remember ) I
+> had also plasma or the desktop that would become incredibly slow to
+> the  point of being unusable then sometimes
+> after a little while it would be back.
+
+Just for the record, I am experiencing similar problems: X (or KDE) becomin=
+g=20
+almost unusably slow. FWIW, I have a Lenovo Z61m with a Radeon Mobility X14=
+00=20
+chipset.
+
+When I'm just working on the notebook display, everything is fine usually, =
+but=20
+when I connect a separate display, performance decreases a lot.
+
+Suspend works fine for me, though. With 4.4.2, I even get a nice notificati=
+on=20
+that the display settings have changed afer having plugged the notebook in =
+the=20
+docking station and waking up from suspend.
+
+> In my opinion, there is something wrong KDE/Plasma and its use of OpenGL.
+> Before this experience, I blamed nvidia and was looking
+> for changing my laptop and use ATI but now I definitely blame KDE/Plasma
+
+Have you tried not using desktop effects? Does that make a difference?
+=20
+Cheers,
+Carsten
+
+--nextPart4677164.9G0T8ZgsSL
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEVAwUAS8i3SaWgYMJuwmZtAQJuJAf+NGQ3vv0cEi/7GE6XU4ErmiiLNIyrjswL
+IqGDjXI2IqCqeAdvkzg0HvcTEcXRFD/sU4eiGPNpvdUhbUGmLlgjb8SzrL1gs/5k
+5DVpTNloLKicC0YNIW8lbZttXIiouJ1QOQ1AAhNzfYkN6BzwKhV2eY814/fWTTm1
+QLeQxQH/NRrknFobiL2MR8YXoFiH9rZlHFy4dIaahXomwzTWSrTsf1mK7CSvO5qN
+c8d2PtCzJ6JO+tDnyPVjqEr83qE05bXyyj1VnlKpRMghwRAWu5+jmxL28wqta4ab
+vX3EJ2DYFN61yWGjZnjkILj7nWNr2TqBBgdRVk55WQvL++PGyS6GGg==
+=9SRt
+-----END PGP SIGNATURE-----
+
+--nextPart4677164.9G0T8ZgsSL--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004162115.27988.pfeiffer@kde.org
+
+

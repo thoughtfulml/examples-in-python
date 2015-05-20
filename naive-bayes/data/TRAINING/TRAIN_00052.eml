@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fb7cfe816066c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs6539wfa;
+        Wed, 14 Apr 2010 01:43:46 -0700 (PDT)
+Received: by 10.103.4.28 with SMTP id g28mr3962935mui.29.1271234625554;
+        Wed, 14 Apr 2010 01:43:45 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w5si658369mue.24.2010.04.14.01.43.44;
+        Wed, 14 Apr 2010 01:43:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7AB9213A50B5; Wed, 14 Apr 2010 08:43:35 +0000 (UTC)
+Old-Return-Path: <bars0@op.pl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E915013A5051
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 08:43:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.01 tagged_above=-10000 required=5.3
+	tests=[BAYES_40=-0.01, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id xcpSIK4AHePs for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 08:43:22 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) IN_IX_MANITU=4.35 CL_IP_EQ_HELO_IP=-2 (check from: .op. - helo: .smtpout8.poczta.onet. - helo-domain: .onet.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -2.65
+Received: from smtpout8.poczta.onet.pl (smtpout8.poczta.onet.pl [213.180.147.168])
+	by liszt.debian.org (Postfix) with ESMTP id 9926413A4EDD
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 08:43:21 +0000 (UTC)
+Received: from igp18.internetdsl.tpnet.pl ([79.189.171.18]:1260 "EHLO
+	[127.0.0.1]" rhost-flags-OK-OK-OK-FAIL) by ps4.m5r2.onet with ESMTPSA
+	id S134218877Ab0DNImpt3P31 (ORCPT
+	<rfc822;debian-user@lists.debian.org>);
+	Wed, 14 Apr 2010 10:42:45 +0200
+Message-ID: <4BC5800D.1020207@op.pl>
+Date:	Wed, 14 Apr 2010 10:42:53 +0200
+From:	Krzysztof Walkiewicz <bars0@op.pl>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; pl; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To:	debian-user@lists.debian.org
+Subject: Installation on HP T5700 from USB; partitioning
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tKs1UPTLyAB.A.jL.3AYxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574019
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 08:43:35 +0000 (UTC)
+
+Hello everyone!
+
+According to this tutorial (http://d-i.pascal.at/) I was able to start 
+the installation process from USB stick on my:
+
+HP 5700 Thin Client Terminal
+1 GHz Processor
+512 RAM
+256 internal flash drive
+
+But I get stuck because there is not enough space even for minimal 
+installation (netinstall.iso).
+Now the question:
+
+I have also another 4GB USB stick. Can I Install the biggest parts of 
+the system on it?
+If yes, which parts of the filesystem do I need place on internal flash 
+memory (IDE ATA, faster), and
+which on the USB stick?
+
+The device will be used as a FTP, NAS etc.
+
+Thanks on advance
+Krzysztof
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5800D.1020207@op.pl
+
+

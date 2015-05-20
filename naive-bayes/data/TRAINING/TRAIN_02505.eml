@@ -1,0 +1,157 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b0b8cc075e034
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs52224wfo;
+        Wed, 19 May 2010 06:20:21 -0700 (PDT)
+Received: by 10.142.210.19 with SMTP id i19mr6399563wfg.301.1274275220852;
+        Wed, 19 May 2010 06:20:20 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 29si10200146pzk.21.2010.05.19.06.20.20;
+        Wed, 19 May 2010 06:20:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 945EC1C94085A
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 06:20:20 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8FBCA27C3EDBB
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 06:20:20 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 1F6CA27C3EBD9
+	for <quicktime-api@lists.apple.com>;
+	Wed, 19 May 2010 06:20:03 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 0EA49D9CA895
+	for <quicktime-api@lists.apple.com>;
+	Wed, 19 May 2010 06:20:03 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-33-4bf3e581a9b9
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	0F.80.05834.285E3FB4; Wed, 19 May 2010 06:20:02 -0700 (PDT)
+Received: (qmail invoked by alias); 19 May 2010 13:20:00 -0000
+Received: from g224058232.adsl.alicedsl.de (EHLO [192.168.1.51])
+	[92.224.58.232]
+	by mail.gmx.net (mp011) with SMTP; 19 May 2010 15:20:00 +0200
+X-Authenticated: #3660908
+X-Provags-ID: V01U2FsdGVkX19/0ld8X2t/hmokoVcCFdXoT0e93pkJbjAFz8JxGD
+	AKfRycNlQ7g/5K
+From: =?iso-8859-1?Q?Alexander_Car=F4t?= <alexander_carot@gmx.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 19 May 2010 15:20:00 +0200
+Message-Id: <511DAB32-5736-401B-AD3C-6CBD6A502300@gmx.net>
+To: quicktime-api list list <quicktime-api@lists.apple.com>
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Y-GMX-Trusted: 0
+X-Brightmail-Tracker: AAAAAgAAAUoUR9h5
+Subject: iSight - setFrameRate
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi all,
+
+with respect to my problem that the video callback is triggered more =
+often than I want to (see below) I had a guess that it is related to the =
+device frame rate. In that context I tried to set the frame rate of my =
+inbuilt iSight to 1 and SGGetFrameRate did confirm this:=20
+
+  err =3D SGSetFrameRate(videoData->sgchanVideo,IntToFixed(1));
+  Fixed *frameRate;
+  SGGetFrameRate(videoData->sgchanVideo,frameRate);
+  int rate =3D FixedToInt(*frameRate);
+  cout << "FrameRate: " << rate << endl;  //// PLOTS 1 WHEN EXECUTING
+
+However, when I execute the app the frame size is much higher (I guess =
+30 fps or more). I saw an older post from 2007, which dealt with the =
+same problem of not being able to set the inbuilt iChat frame rate but =
+nobody replied. Does anyone have a guess how to approach this problem ?
+
+Thanks in advance
+
+-- A l e x
+
+
+***********************************
+Hi all,
+
+I have a thread, which triggers the SGIdle call according to my desired =
+frame rate:
+
+void video::run(){
+ while (running){
+   sj->dFC->videoBlocker->lock();
+   sj->dFC->videoWaiter->wait(sj->dFC->videoBlocker);
+
+   err =3D SGIdle(videoData->seqGrab);
+   usleep(1000000/1);   //// FRAMERATE
+
+   sj->dFC->videoBlocker->unlock();
+ }
+}
+
+In this example the thread waits for 1 second before executing the next =
+time, which results in a frame rate of 1 fps. However, I discovered some =
+ strange system behavior, which forced me to verify if this is really =
+the case: I applied a time measurement between each data proc function =
+call and in fact it is executed 4 more times ins between in approx. 250 =
+microsecond intervals. In the following I have plotted the measured =
+interval times in ms:
+
+1000.38
+0.026
+0.023
+0.024
+0.027
+1002.55
+0.025
+0.026
+0.022
+0.021
+1002.61
+0.026
+0.021
+0.02
+0.024
+1002.54
+0.026
+0.023
+0.024
+0.02
+1000.18
+0.026
+0.137
+0.025
+0.024
+
+etc .... and so forth. This is actually not happening when I reside =
+above a framerate of 25 fps. Can anyone tell me why this is happening =
+and how I can prevent this to happen ?=20
+
+Thanks a lot in advance, best
+
+-- A l e x
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

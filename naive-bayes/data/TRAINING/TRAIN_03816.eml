@@ -1,0 +1,211 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286f9419e6d7846
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs419050wfb;
+        Thu, 6 May 2010 14:44:57 -0700 (PDT)
+Received: by 10.223.101.4 with SMTP id a4mr7320400fao.71.1273182296538;
+        Thu, 06 May 2010 14:44:56 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d4si827376fac.42.2010.05.06.14.44.56;
+        Thu, 06 May 2010 14:44:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D317613A5702; Thu,  6 May 2010 21:44:53 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,
+	MURPHY_DRUGS_REL8,PGPSIGNATURE,RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7061013A56E1
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 21:44:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.88 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02,
+	PGPSIGNATURE=-5, RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id tR76ri0Qx1bo for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 21:44:39 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id C4F5313A56D3
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 21:44:39 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1OA8s1-0003Kf-9J; Fri, 07 May 2010 00:44:37 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Fri, 7 May 2010 00:44:26 +0300
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-amd64; KDE/4.4.3; x86_64; ; )
+Cc: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+References: <20100505202449.GA26153@ana.debian.net> <201005062233.40618.modestas@vainius.eu> <201005061548.51279.bss@iguanasuicide.net>
+In-Reply-To: <201005061548.51279.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart5982093.ScdhNYUBvx";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005070044.36582.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <R67w5wkyHDK.A.OYD.Vhz4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32198
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 21:44:53 +0000 (UTC)
+
+--nextPart5982093.ScdhNYUBvx
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 23:48:43 Boyd Stephen Smith Jr. =
+wrote:
+> >  But whether
+> >  upstream software meets users' needs is out of Debian scope.
+>=20
+> There's a lot to consider, since Debian needs upstream's help in addressi=
+ng
+> bugs throughout the lifetime of stable, and that's easier to achieve with
+> the latest release.  But then again, stable needs to be usable on release
+> day. "Release early, release often" is great for development, it is not so
+> great for stability (both in "lack of bugs" and "lack of change"
+> meanings). Sometimes the most recent release from upstream is not best for
+> Debian stable.
+
+You missed my point completely. What is subjectively unusable for you, is=20
+perfectly usable for others and the other way round. Debian is not your=20
+personal distro, it strives to keep balance. And balance is towards 4.4 sid=
+e=20
+you like it or not due to many factors. When Squeeze is released, KDE 4.5 m=
+ay=20
+be in .3 or later patch release upstream so the point about the latest and=
+=20
+greatest here is completely out-of-place.
+
+Now if at particular time upstream software does not meet your personal nee=
+ds,=20
+you go and look for alternatives. You talk like kdepim 4.3 was flawless. Bu=
+t=20
+it wasn't! There is no place for "software does not do X, remove it from=20
+stable" discussions here.
+
+> >  Just find
+> >  another software/solution which does, develop it by yourself, pay
+> >  somebody to develop it for you or ask kindly and wait till somebody
+> >  else is motivated enough to do it.
+>=20
+> I will, but I see no reason not to air my grievances.
+
+Insisting that others do something (revert to kdepim 4.3) based solely on y=
+our=20
+personal grievances does not help productive communication.
+
+> > YOU run a dozen of DB servers,
+>=20
+> I'm not the only person that does.  Most users have a SQLite datatbase th=
+ey
+> don't even know about.  People that develop or test web applications
+> generally have to deal with a DB as well.  In small shops, the test
+> database often lives on the developers work system.
+>
+> > YOU don't want another one, YOU don't trust
+> > MySQL,
+>=20
+> I'm not the only one with these concerns.
+
+I've never said that you're the only one. I find myself in the odd position=
+=20
+that I mostly share opinion with you about excessive "explosion" of DB serv=
+er=20
+instances on the desktop but I still can't help myself to argue. You starte=
+d=20
+this off on a wrong foot by demanding to accommodate to your needs.
+
+> > YOU say KDE 4.4 is inappropriate for stable.
+>=20
+> That is my opinion.
+>=20
+> > Nothing objective and
+> >=20
+> >  YOU assume that your truth is an ultimate one.
+>=20
+> Not really.  I made objective statement about KMail based on observable
+> facts. I also voiced an opinion that I based on that statement.
+
+What facts? That kdepim/kmail needs akonadi? That's hardly news. Akonadi=20
+integration is not stable enough? There is still time to improve it. That's=
+=20
+what Ana's blog was about.
+
+> >  If YOU have so
+> >  many problems with particular piece of software, look for better optio=
+ns
+> >  or read the first part of this mail again.
+>=20
+> I have problems with a very narrow selection of selection of the software.
+> Specifically, I don't want to need MySQL installed in order to use KMail
+> effectively in Debian stable.
+
+It is not like every mail client on the market suddenly needs MySQL. Actual=
+ly,=20
+kmail is probably unique in this area.
+
+> There are a number of solutions to this.  Newer Akonadi should run on non-
+> MySQL data stores.  Older KMail doesn't talk to Akonadi.  Patches could be
+> applied to either.  Stable could include software from multiple KDE
+> releases, as has been done before.
+
+What I tried to say to you all this time, if Akonadi renders Kmail unusable=
+ to=20
+you, switch the client! Akonadi by itself is not a bug, it is not going awa=
+y!=20
+Take it or switch to something else, simple as that.
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart5982093.ScdhNYUBvx
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvjODsACgkQHO9JRnPq4hT7lQCgwuZWzOd+nnx3ooluJ+s9uwnf
+XNkAoNNOsKyv4IHxLM5gyOMebkbsqtDy
+=1CFv
+-----END PGP SIGNATURE-----
+
+--nextPart5982093.ScdhNYUBvx--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005070044.36582.modestas@vainius.eu
+
+

@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f8f0d5545f889
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs39080wfa;
+        Tue, 13 Apr 2010 13:51:25 -0700 (PDT)
+Received: by 10.142.56.15 with SMTP id e15mr3053294wfa.128.1271191885029;
+        Tue, 13 Apr 2010 13:51:25 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 7si12681132iwn.27.2010.04.13.13.51.24;
+        Tue, 13 Apr 2010 13:51:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 883A41B99DCBA
+	for <mlsubscriber.tech@csmining.org>; Tue, 13 Apr 2010 13:51:24 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8181A26C4C06C
+	for <mlsubscriber.tech@csmining.org>; Tue, 13 Apr 2010 13:51:24 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id BC3B026C4B9F1
+	for <java-dev@lists.apple.com>; Tue, 13 Apr 2010 13:50:33 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id AB6E8CEA8539
+	for <java-dev@lists.apple.com>; Tue, 13 Apr 2010 13:50:33 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7cccae000002a80-3e-4bc4d9195751
+Received: from alpha.xerox.com (alpha.Xerox.COM [13.1.64.93])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	F7.07.10880.919D4CB4; Tue, 13 Apr 2010 13:50:33 -0700 (PDT)
+Received: from parc.com ([13.1.100.121]) by alpha.xerox.com with SMTP id
+	<384684(2)>; Tue, 13 Apr 2010 13:49:13 PDT
+To: Stuart Wier <wier@unavco.org>
+In-reply-to: <4BC4D284.5080800@unavco.org>
+References: <4BC4D284.5080800@unavco.org>
+Comments: In-reply-to Stuart Wier <wier@unavco.org>
+	message dated "Tue, 13 Apr 2010 13:22:28 -0700."
+X-Mailer: MH-E 8.1; nmh 1.3; GNU Emacs 23.0.60
+Date: Tue, 13 Apr 2010 13:49:12 PDT
+Message-ID: <25665.1271191752@parc.com>
+From: Bill Janssen <janssen@parc.com>
+X-Brightmail-Tracker: AAAAAhOdprATnqfw
+Cc: java-dev@lists.apple.com
+Subject: Re: Java graphicsgeneration on Mac servers without graphics hardware
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Stuart Wier <wier@unavco.org> wrote:
+
+> It seems that Java on Mac OS X doesn't use X11 (or Xvfb) at all. Is it
+> attempting to interact with the quartz/Cocoa/Aqua window framework?
+
+Yes.  The X server is completely secondary, and I don't think Apple Java
+interacts with it at all.
+
+> It seems not particularly interested in whether or not an X server is
+> available or the DISPLAY variable is set or whether you've tunneled X
+> through SSH.
+
+Right.
+
+> Is there is a way to run Java graphics generation on the Mac 10.6
+> server without a graphics display?  I need to know so I can move
+> forward in some other way.  Rewriting the program is not an option.
+> "headless=true" is not a help since the program needs to run just as
+> if it had graphics.
+
+If you are using AWT, you need to give your program access to the
+console.  Apple uses a Mach-involved security model of namespaces to
+control access to various things; you can find more information on it at
+http://developer.apple.com/mac/library/technotes/tn2005/tn2083.html.
+Worth reading.  Several times.
+
+But the pertinent bit is ``A process can only use the global window
+server service if its EUID is 0 (it's running as root) or matches the
+UID of the console user. All other users are barred from using it.''
+
+I don't see an update of this document for 10.6, either.
+
+> How can I set up things so that graphics generation proceeds and makes
+> image files as if graphics hardware were available?   The program is
+> designed to do this using X, either with X11 with graphics hardware,
+> or with Xvfb.
+
+You could try installing another Java that includes a client Xlib
+implementation, and go from there.  Or, of course, run your program on
+Linux or FreeBSD or OpenSolaris instead.
+
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/janssen%40parc.com
+> 
+> This email sent to janssen@parc.com
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

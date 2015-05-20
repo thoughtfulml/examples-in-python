@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ad91576af22e5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs29630wfo;
+        Tue, 18 May 2010 15:38:24 -0700 (PDT)
+Received: by 10.223.6.152 with SMTP id 24mr1481345faz.25.1274222303030;
+        Tue, 18 May 2010 15:38:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t12si16773937fah.14.2010.05.18.15.38.22;
+        Tue, 18 May 2010 15:38:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 785A113A52DA; Tue, 18 May 2010 22:38:17 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_NUMERIC_HELO autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7120A13A529A
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 22:38:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.933 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_NUMERIC_HELO=2.067]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id C8993xUbdtQF for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 22:38:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 6F53E13A52D2
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 22:38:04 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OEVQD-00049O-0Q
+	for debian-user@lists.debian.org; Wed, 19 May 2010 00:37:57 +0200
+Received: from 200.57.201.65 ([200.57.201.65])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 19 May 2010 00:37:57 +0200
+Received: from hvw59601 by 200.57.201.65 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 19 May 2010 00:37:57 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Hugo Vanwoerkom <hvw59601@care2.com>
+Subject: Re: pinning + apt-get vs aptitude
+Date: Tue, 18 May 2010 17:37:49 -0500
+Lines: 23
+Message-ID: <hsv4rt$1s4$1@dough.gmane.org>
+References: <hsmeqm$lmp$1@dough.gmane.org> <20100515153807.GE3007@think.homelan>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 200.57.201.65
+User-Agent: Thunderbird 2.0.0.19 (X11/20081209)
+In-Reply-To: <20100515153807.GE3007@think.homelan>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8cBXgS8Ve7K.A.RtD.Zbx8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577152
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 22:38:17 +0000 (UTC)
+
+Andrei Popescu wrote:
+> On Sat,15.May.10, 10:32:36, Hugo Vanwoerkom wrote:
+>> Hi,
+>>
+>> (on Sid) I pinned grub-legacy, to avoid going to grub2.
+>  
+> [...]
+>  
+>> So why does aptitude pay no attention to my pin?
+> 
+> Please post the output of 'apt-cache policy grub'.
+> 
+hugo@debian:~$ apt-cache policy grub
+grub:
+   Installed: 0.97-47lenny2
+   Candidate: 0.97-61
+   Version table:
+      0.97-61 0
+         500 http://ftp.de.debian.org unstable/main Packages
+  *** 0.97-47lenny2 0
+         100 /var/lib/dpkg/status
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsv4rt$1s4$1@dough.gmane.org
+
+

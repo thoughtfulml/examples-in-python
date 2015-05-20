@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId127da2664fdb770c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs47491wfi;
+        Wed, 7 Apr 2010 14:21:42 -0700 (PDT)
+Received: by 10.114.32.34 with SMTP id f34mr812890waf.133.1270675301911;
+        Wed, 07 Apr 2010 14:21:41 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 6si7465804iwn.84.2010.04.07.14.21.41;
+        Wed, 07 Apr 2010 14:21:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 692C61BD74D25
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 14:21:41 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 63AC4269951DF
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 14:21:41 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 4429626994B7D
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 14:20:44 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 33B49CD444FB
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 14:20:44 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7b77ae000001b08-ff-4bbcf72bbbc6
+Received: from home.awe.cz (awe.cz [86.49.12.253])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	D4.66.06920.B27FCBB4; Wed,  7 Apr 2010 14:20:44 -0700 (PDT)
+Received: by home.awe.cz (Postfix, from userid 99)
+	id CD3F6E3480; Wed,  7 Apr 2010 23:20:41 +0200 (CEST)
+XChecker-Version: SpamAssassin 3.1.7 (2006-10-05) on awe.cz
+XLevel: 
+XStatus: No, score=-2.7 required=5.0 tests=ALL_TRUSTED,BAYES_00,
+	RATWARE_GECKO_BUILD autolearn=ham version=3.1.7
+Received: from [192.168.1.12] (awik [192.168.1.12])
+	by home.awe.cz (Postfix) with ESMTP
+	id 9E12EDB746; Wed,  7 Apr 2010 23:20:39 +0200 (CEST)
+Message-ID: <4BBCF7FF.3060409@nedbal.net>
+Date: Wed, 07 Apr 2010 23:24:15 +0200
+From: Martin Nedbal <martin@nedbal.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US;
+	rv:1.9.1.10pre) Gecko/20100405 Shredder/3.0.5pre
+MIME-Version: 1.0
+To: Mike Swingler <swingler@apple.com>
+References: <mailman.0.1269726951.26454.java-dev@lists.apple.com>
+	<4BAE82A9.3090403@nedbal.net>
+	<07F38C31-9419-4DA1-9600-8C0E396BDD91@apple.com>
+In-Reply-To: <07F38C31-9419-4DA1-9600-8C0E396BDD91@apple.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAROeqOY=
+Cc: java-dev@lists.apple.com
+Subject: Re: Events not being dispatched when having native Cocoa component
+ in modal JDialog
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 04/07/2010 06:48 PM, Mike Swingler wrote:
+> On Mar 27, 2010, at 3:11 PM, Martin Nedbal wrote:
+>
+>    
+>> Hi,
+>> I have a simple JNI-based code for embedding WebKit into Swing GUI (I
+>> can post sources if needed). It works fine while in regular Swing JFrame
+>> but it fails to work when added to modal JDialog - events are blocked
+>> apparently. WebKit view shows properly, but if I request a page to be
+>> loaded into it it's not loaded and FrameLoaderDelegate does not get
+>> didFinishLoadForFrame nor didFail* calls.
+>>
+>> I wasn't able to find much about this issue in Google/Apple mailing
+>> lists. The only thing I found was a thread from 2005 discussing nasty
+>> workaround based on having non-modal dialog with blocking loop after
+>> setVisible() call.
+>>
+>> It can be reproduced on Snow Leopard with latest Java6 installed but it
+>> does not really seems to be dependent on versions that much.
+>>
+>> Any ideas how to solve this problem in a clean way?
+>>      
+> I think the problem is that when an AWT-based dialog is up, the runloop is being run in a private Java-modality mode that doesn't let WebKit "events" occur the same way it lets key, mouse, and other events through. But that's just a guess.
+>
+> If you have reproducible test case, can you submit it to<http://bugreporter.apple.com>, and we can take a look and see if there isn't something we can do from within the AWT.
+>
+> Thanks,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>    
+Sure, no problem.
+
+I'll prepare simple example and file it to bugreporter.
+
+Best regards,
+   Martin
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

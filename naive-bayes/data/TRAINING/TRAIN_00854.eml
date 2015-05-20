@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f851f974dac40
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs31545wfa;
+        Tue, 13 Apr 2010 10:57:54 -0700 (PDT)
+Received: by 10.103.126.31 with SMTP id d31mr3331724mun.49.1271181473947;
+        Tue, 13 Apr 2010 10:57:53 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id i7si24850684mue.34.2010.04.13.10.57.53;
+        Tue, 13 Apr 2010 10:57:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5248413A5A7D; Tue, 13 Apr 2010 17:57:51 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.9 required=4.0 tests=CAPINIT,LDO_WHITELIST,
+	PGPSIGNATURE,RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 04E9913A5A39
+	for <lists-debian-kde@liszt.debian.org>; Tue, 13 Apr 2010 17:57:45 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-8.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id R1z33f1etpyk for <lists-debian-kde@liszt.debian.org>;
+	Tue, 13 Apr 2010 17:57:37 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 98F372D0E46
+	for <debian-kde@lists.debian.org>; Tue, 13 Apr 2010 17:57:37 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1O1kMf-0004Ix-Ju; Tue, 13 Apr 2010 20:57:33 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: Re: Amarok's Issues
+Date: Tue, 13 Apr 2010 20:57:19 +0300
+User-Agent: KMail/1.13.2 (Linux/2.6.33-2-amd64; KDE/4.4.2; x86_64; ; )
+Cc: Patrice Pillot <patrice.pillot@toulouse.archi.fr>
+References: <o2g2fc5f091004111716oe078137dse05f0b82f4e519cc@mail.csmining.org> <n2m2fc5f091004130426x84c82c1cs375f612af5ace784@mail.csmining.org> <4BC49623.40206@toulouse.archi.fr>
+In-Reply-To: <4BC49623.40206@toulouse.archi.fr>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1578066.CvHJqBA3mr";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004132057.32399.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dTgi7PoJHkM.A._jE.fCLxLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32033
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 17:57:51 +0000 (UTC)
+
+--nextPart1578066.CvHJqBA3mr
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On antradienis 13 Balandis 2010 19:04:51 Patrice Pillot wrote:
+> Hi,
+>=20
+> Edson Marquezani Filho a =C3=A9crit :
+> > I'm using SQLite as database backend
+>=20
+> You said you were using squeeze, didn't you ? May I ask you how you
+> tweaked amarok to use sqlite instead of mysqle ?
+
+amarok 2 does not support SQLite. That's not something you can "tweak" amar=
+ok=20
+for.
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart1578066.CvHJqBA3mr
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvEsIAACgkQHO9JRnPq4hSFUgCg0TxB5N38ZKXDCu+fEzuzwIrQ
+xDcAniC9h5YWvloEsND8UbbI20XKxr24
+=dnbC
+-----END PGP SIGNATURE-----
+
+--nextPart1578066.CvHJqBA3mr--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004132057.32399.modestas@vainius.eu
+
+

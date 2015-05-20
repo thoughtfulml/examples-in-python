@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288226b2e809055
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs7124wfb;
+        Mon, 10 May 2010 05:18:14 -0700 (PDT)
+Received: by 10.223.72.156 with SMTP id m28mr4310585faj.26.1273493893679;
+        Mon, 10 May 2010 05:18:13 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si8332931faa.77.2010.05.10.05.18.13;
+        Mon, 10 May 2010 05:18:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 711F72D0D56; Mon, 10 May 2010 12:18:05 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.9 required=4.0 tests=ALL_TRUSTED,DNS_FROM_RFC_WHOIS,
+	RATWARE_GECKO_BUILD autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A282E4C9DEE
+	for <lists-debian-user@liszt.debian.org>; Mon, 10 May 2010 12:00:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.8 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id G18G3Xke61VL for <lists-debian-user@liszt.debian.org>;
+	Mon, 10 May 2010 12:00:04 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id 9620D13A52FD
+	for <debian-user@lists.debian.org>; Mon, 10 May 2010 12:00:04 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id 9BC0A3A658A
+	for <debian-user@lists.debian.org>; Mon, 10 May 2010 14:00:02 +0200 (CEST)
+From: Lorenzo Beretta <lory.fulgi@infinito.it>
+Subject: Re: Vnc server
+Date: Mon, 10 May 2010 13:50:39 +0200
+Message-ID: <4be7f312$0$1126$4fafbaef@reader3.news.tin.it>
+References: <h2j1271d78a1005091221qd83e731by794dca110bc645fd@mail.csmining.org> <u2o1271d78a1005091221g875948bfld2d31407e448943a@mail.csmining.org> <q2x1271d78a1005091226tdfb00d7fn67bfbd7aafdab25c@mail.csmining.org>
+To: debian-user@lists.debian.org
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+In-Reply-To: <eIkFH-7wC-7@gated-at.bofh.it>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Organization: TIN.IT (http://www.tin.it)
+X-Comments: Please send technical notifications to newsmaster@tin.it
+NNTP-Posting-Host: 79.24.140.77
+X-Trace: 1273492243 reader3.news.tin.it 1126 79.24.140.77:5019
+X-Complaints-To: Please send abuse reports to abuse@retail.telecomitalia.it
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eIkFH-7wC-9@gated-at.bofh.it> <eIkFH-7wC-11@gated-at.bofh.it> <eIkFH-7wC-7@gated-at.bofh.it>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <aUIE8pvUY9C.A.IBD.9l_5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576390
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 12:18:05 +0000 (UTC)
+
+Il 09/05/2010 21:50, Andrew Lapham ha scritto:
+> Hello all.
+>
+> I'm new to debian (2 days) but have been using Linux for a while. Anyway my
+> problem is with Vnc4server.
+>
+> Yesterday I set up my /home/.Vnc/xstartup to include gnome session and I
+> commented terminal emulator. And I remoted in no problem (I forget if I used
+> vnvserver or Vnc4server)
+>
+> Today I turned on the pc and ran the server and all I get is a grey screen
+> and a mouse. I tried vncserver and Vnc4server. Any ideas?
+>
+> (Sorry for the case/spelling errors this was composed on my phone..)
+>
+I ran into a similar issue some time ago (and found the solution on a 
+vnc mailing list, in case you have further problems).
+If you closed your vnc session by *logging out*, what happens is that 
+your session (gnome) is no longer active, but vnc is not concerned.
+
+The workaround that was suggested to me is to *not* have vncstartup exec 
+the session, but rather launch a session and cleanup afterwards, ie
+
+# wrong
+#exec gnome-session
+
+# right
+gnome-session
+vncserver -kill $DISPLAY
+
+If you grok the shell you'll probably use the trap command to make sure 
+that cleanup is done no matter what, but that's just a detail
+
+good luck
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4be7f312$0$1126$4fafbaef@reader3.news.tin.it
+
+

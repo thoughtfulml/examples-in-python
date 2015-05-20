@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId128151cd1eeb1746
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs15297wfj;
+        Mon, 19 Apr 2010 01:08:53 -0700 (PDT)
+Received: by 10.223.101.81 with SMTP id b17mr2509493fao.17.1271664529569;
+        Mon, 19 Apr 2010 01:08:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si9927520fks.35.2010.04.19.01.08.48;
+        Mon, 19 Apr 2010 01:08:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6E71513A46B2; Mon, 19 Apr 2010 08:08:43 +0000 (UTC)
+Old-Return-Path: <igalvarez@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 12C4B13A4656
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 08:08:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id UmwZjL29rbHP for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 08:08:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id E790613A464B
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 08:08:29 +0000 (UTC)
+Received: by wye20 with SMTP id 20so493636wye.6
+        for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 01:08:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:date:received:message-id
+         :subject:from:to:content-type;
+        bh=+fNGYvG2k10k1e6FqaE4IFuzPddmHjVd9TZBTuy2TPw=;
+        b=pwOP5iOFAGdw7wj9lbnMKPK/qzT98PZZZIhhLWNzEjZUyBF7fOkuajaizZrxY0iK4O
+         Z3k+y1JRkGYJzU7VTClFwAmK1ddUSLIhvngcZSWyXKp1ImJU+ciUFjBr8gBChggCnQGm
+         7BEdykavOihzWd876S9BVYQcW86D/wXTpgwCY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=Sw465mijulWA8BVNMwyKwxjcqSlUX82gefo7fIUh/WJMl4Lmbz5WqDru/XYZ6R+Cau
+         qFfWMW4IVDHansHr9RRSJC4vpugOZGJGUzP1TpNv9ki1F/iQ9XhOSeJNbHMD52/AaoLx
+         t9tfzqoWh0MRCPolMaUiOBdzp6Fiq7r5aEulY=
+MIME-Version: 1.0
+Received: by 10.216.21.199 with HTTP; Mon, 19 Apr 2010 01:08:25 -0700 (PDT)
+Date: Mon, 19 Apr 2010 10:08:25 +0200
+Received: by 10.216.89.74 with SMTP id b52mr3448972wef.142.1271664505125; Mon, 
+	19 Apr 2010 01:08:25 -0700 (PDT)
+Message-ID: <g2i194a2c241004190108yaae7f132s9f1ff42666d8561c@mail.csmining.org>
+Subject: sharing NFS folder in multiples servers
+From: Israel Garcia <igalvarez@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <inZKzVGI2jO.A.WgB.L-AzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574411
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 08:08:43 +0000 (UTC)
+
+Hi again:
+
+I have a big NFS partition shared and mounted on 3 debian serves
+(mountpoint /snapshosts). NFS partition es ext3 and I have a backup
+script, on every server, which makes a tar from some   lvm snaphost .
+I mean, my 3 servers maek their tar backup at the same time on
+/snapshots NFS partition. This partition is only use to make this
+backups. My question is:
+
+Is recommendable to use  gfs or other filesystem insted of ext3 in
+/snapshots NFS partition?
+Any other recommendation?
+
+thanks in advance.
+
+-- 
+Regards;
+Israel Garcia
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/g2i194a2c241004190108yaae7f132s9f1ff42666d8561c@mail.csmining.org
+
+

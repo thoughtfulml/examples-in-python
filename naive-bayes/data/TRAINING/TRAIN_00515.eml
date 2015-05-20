@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285849834c0df39
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs175892wfj;
+        Sun, 2 May 2010 02:12:13 -0700 (PDT)
+Received: by 10.223.30.10 with SMTP id s10mr2562999fac.4.1272791532133;
+        Sun, 02 May 2010 02:12:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si6416542fks.35.2010.05.02.02.12.11;
+        Sun, 02 May 2010 02:12:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E66DB13A46EF; Sun,  2 May 2010 09:12:04 +0000 (UTC)
+Old-Return-Path: <motamedi24@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A226713A46DD
+	for <lists-debian-user@liszt.debian.org>; Sun,  2 May 2010 09:11:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DAK9izBvwqYw for <lists-debian-user@liszt.debian.org>;
+	Sun,  2 May 2010 09:11:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-pw0-f47.google.com (mail-pw0-f47.google.com [209.85.160.47])
+	by liszt.debian.org (Postfix) with ESMTP id 39EFA13A46D6
+	for <debian-user@lists.debian.org>; Sun,  2 May 2010 09:11:51 +0000 (UTC)
+Received: by pwj5 with SMTP id 5so739296pwj.6
+        for <debian-user@lists.debian.org>; Sun, 02 May 2010 02:11:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=EjRr4C1a+9bJVE4y250Ym5wk/IS45iTdg98U0k3LHOY=;
+        b=jGcuWuvYjvF0aLPU5GYHKXUFY2ph61pey/ekDom/i5IMz+3+2tDFsPQRYwUluirH9V
+         eXsS8zb0h/NDpxqLN1aHzZ4cMwH8/VhLdbqjkVHPcvRBtbCEEb2KOnAIE2D2zMY8JZE2
+         OiPLd7atPtbTf1tSc+QBwzApTjzgUVnb7mgo4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=Qu7xvUqxBvDpkMQA5/vBWQt/o4GbScqRbGTKqxpzqZUEYgi7+s3RWIj1szMW4a1jHA
+         cnJDiERVuwBH46V1/fIWl2warMqsNod+d5WCjJxWRyB7lwqqrfWzDZ20OCEZE31tXXDM
+         RwUJJOgi36v7unDLr8U2AuTsYmhJgWj3Q06ZI=
+MIME-Version: 1.0
+Received: by 10.142.201.19 with SMTP id y19mr8226670wff.297.1272791503285; 
+	Sun, 02 May 2010 02:11:43 -0700 (PDT)
+Received: by 10.142.255.2 with HTTP; Sun, 2 May 2010 02:11:43 -0700 (PDT)
+In-Reply-To: <p2m74aa57df1004282147of393249naa0b7b2f779aab24@mail.csmining.org>
+References: <p2m74aa57df1004282147of393249naa0b7b2f779aab24@mail.csmining.org>
+Date: Sun, 2 May 2010 10:11:43 +0100
+Message-ID: <h2r74aa57df1005020211oa5eac248r2c87741ddc851937@mail.csmining.org>
+Subject: How to schedule for a repeated task?
+From: hadi motamedi <motamedi24@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=000e0cd328746d2d30048598dde4
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <L0Axc0_eeRM.A.O8C.kHU3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575672
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 09:12:04 +0000 (UTC)
+
+--000e0cd328746d2d30048598dde4
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All
+I need to schedule for a repeated task on my Debian server, as the
+followings:
+-) Telnet to a remote node
+-) Issue a command
+-) Capture the output in a log
+-) Logout from Telnet
+-) Wait for a prescribed time interval
+-) Then redo , but append the subsequent output in just on file
+Can you please let me know which options do we have to write such a task?
+Thank you
+
+--000e0cd328746d2d30048598dde4
+Content-Type: text/html; charset=ISO-8859-1
+
+<div class="gmail_quote">Dear All<br>I need to schedule for a repeated task on my Debian server, as the followings:<br>-) Telnet to a remote node<br>-) Issue a command<br>-) Capture the output in a log<br>-) Logout from Telnet<br>
+-) Wait for a prescribed time interval<br>
+-) Then redo , but append the subsequent output in just on file<br>Can you please let me know which options do we have to write such a task?<br>Thank you<br></div>
+
+--000e0cd328746d2d30048598dde4--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/h2r74aa57df1005020211oa5eac248r2c87741ddc851937@mail.csmining.org
+
+

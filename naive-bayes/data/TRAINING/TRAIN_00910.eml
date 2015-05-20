@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284b63ce1d4bb21
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs50394wfj;
+        Thu, 29 Apr 2010 14:05:52 -0700 (PDT)
+Received: by 10.223.9.90 with SMTP id k26mr950394fak.70.1272575151724;
+        Thu, 29 Apr 2010 14:05:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si1699662fka.46.2010.04.29.14.05.51;
+        Thu, 29 Apr 2010 14:05:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7946D13A496B; Thu, 29 Apr 2010 21:05:41 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 83AF113A4704
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 21:05:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6vjUAd8Br4mL for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 21:05:28 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 49F7313A50AA
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 21:05:28 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O7avA-0004KI-QX
+	for debian-user@lists.debian.org; Thu, 29 Apr 2010 23:05:20 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 23:05:20 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 23:05:20 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: Making onscreen fonts read-able[was:New monitor, how to change 
+	screen resolution?]
+Date: Thu, 29 Apr 2010 21:05:11 +0000 (UTC)
+Lines: 23
+Message-ID: <pan.2010.04.29.21.05.08@csmining.org>
+References: <o2ib36d43c31004291227o21734bfenee035d037cec4a2e@mail.csmining.org>
+	<pan.2010.04.29.19.39.08@csmining.org>
+	<s2xb36d43c31004291240r6e8f452en64acf67fb04be95a@mail.csmining.org>
+	<pan.2010.04.29.19.45.06@csmining.org>
+	<g2zb36d43c31004291246lbf15fd0ama7e0505e4b4d5d1a@mail.csmining.org>
+	<pan.2010.04.29.20.03.03@csmining.org>
+	<h2mb36d43c31004291306gb845a4d5re17c730e273610d0@mail.csmining.org>
+	<pan.2010.04.29.20.15.51@csmining.org>
+	<u2pb36d43c31004291320ue7e1334dyb7e1343c78e830c8@mail.csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kEF57j0Ne3C.A.esC.lSf2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575502
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 21:05:41 +0000 (UTC)
+
+On Thu, 29 Apr 2010 22:20:36 +0200, James Stuckey wrote:
+
+> On Thu, Apr 29, 2010 at 10:15 PM, Camaleón wrote:
+
+>> Option   "DPI" "96 x 96"
+>>
+>> Under your /etc/X11/Xorg.conf "Monitor" section?
+>>
+>> (make a backup copy of the original file before making any change)
+>>
+>> I can't tell if that made a change or not. In either case, the fonts
+>> still
+> look like garbage/aren't easy to read. 
+> I should note, the fonts in what
+> I'm typing right now (gmail) aren't bad -- it's the fonts on the menu
+> bar in iceweasel/icedove/whatever program.
+
+Can you please upload a snapshot so we can see what you get?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.29.21.05.08@csmining.org
+
+

@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId128043e0aabe7423
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs5082wfj;
+        Thu, 15 Apr 2010 18:31:35 -0700 (PDT)
+Received: by 10.103.4.4 with SMTP id g4mr567659mui.80.1271381494582;
+        Thu, 15 Apr 2010 18:31:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y37si10812164mug.22.2010.04.15.18.31.33;
+        Thu, 15 Apr 2010 18:31:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id EEFA213A5761; Fri, 16 Apr 2010 01:31:27 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.4 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD,RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 92E9C13A5674
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 01:31:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, RDNS_DYNAMIC=0.1]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4tVDKACGtLwE for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 01:31:14 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id 151E613A564F
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 01:31:14 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id 355E06C3EA
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 20:31:11 -0500 (CDT)
+Message-ID: <4BC7BDDE.40503@hardwarefreak.com>
+Date: Thu, 15 Apr 2010 20:31:10 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Dual channel memory question
+References: <hq7rp5$tgc$1@dough.gmane.org> <4BC77410.6070309@csmining.org> <4BC79A44.1080408@hardwarefreak.com> <4BC7AA0C.90505@csmining.org>
+In-Reply-To: <4BC7AA0C.90505@csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <zVG8pPNQzPM.A.fm.v37xLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574231
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 01:31:27 +0000 (UTC)
+
+Aioanei Rares put forth on 4/15/2010 7:06 PM:
+
+>> Are you guys displaced Ubuntu users who landed on debian-user after a
+>> tornado came through Kansas?  ;)
+
+I guess you've never seen "The Wizard of Oz".
+
+> You made me dig my latest mobo's manual :) [Gigabyte GA-M56S-S3], which
+> says plainly : "The four DDR2 memory sockets are divided into two
+> channels and each channel has two memory sockets as following :
+> Channel 0 : DDRII_1, DDRII_3
+> Channel 2 : DDRII_1, DDRII_4"
+
+You typo'd that.  It should be:
+
+Channel 0 : DDRII_1, DDRII_3
+Channel 1 : DDRII_2, DDRII_4
+
+> Please refrain from making such "wise" comments as , even if you're
+> right, you're damaging Debian's image and yours.
+
+I'm not sure how you come to that, but, ok..
+
+Gigabyte has screwed up the DIMM slot color coding on the GA-M56S-S3, at
+least according to the manual.  I just looked at Intel, Asus, and other
+Gigabyte boards and they all follow the correct alternating color pattern.
+
+Aioanei, you've based your entire argument on your knowledge of a single
+main board.  This board was incorrectly manufactured, or the manual text is
+incorrect.  Yes, manufacturers do make mistakes.  Look at the ATA_HORKAGE
+blacklist sections in libata-core.c to see lists of hard drives the
+manufacturers screwed up.  All of the Goliaths are in there, Hitachi,
+Maxtor, Seagate, Western Digital.  They're all shipped drives that don't
+meet one spec or another.  If these Goliaths can screw up, I guarantee you a
+tiny company like Gigabyte can, and probably does so far more often.
+
+Now, go look at the DIMM socket colors and layout pattern on the Intel,
+Asus, and yes, other Gigabyte boards to see what the proper color coding for
+dual channel memory sockets is, and look at the text descriptions of the
+slot and channel numbers.  This GA board is an anomaly, and is flawed in
+this regard.
+
+Take a look at the RHS of my email address.  That's my personal domain.
+They call me TheHardwareFreak for a reason. ;)
+
+The odds against me making a factually incorrect statement here about
+hardware are so high you should place a standing bet with your local bookie. :P
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC7BDDE.40503@hardwarefreak.com
+
+

@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282ffff83c3fac4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs13835wfj;
+        Sat, 24 Apr 2010 06:27:04 -0700 (PDT)
+Received: by 10.142.247.7 with SMTP id u7mr733625wfh.95.1272115624434;
+        Sat, 24 Apr 2010 06:27:04 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 37si963965pzk.62.2010.04.24.06.27.04;
+        Sat, 24 Apr 2010 06:27:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 260961BC41850
+	for <mlsubscriber.tech@csmining.org>; Sat, 24 Apr 2010 06:27:04 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 21B942714D581
+	for <mlsubscriber.tech@csmining.org>; Sat, 24 Apr 2010 06:27:04 -0700 (PDT)
+X-Original-To: QuickTime-API@lists.apple.com
+Delivered-To: QuickTime-API@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 014EF2714D3A5
+	for <QuickTime-API@lists.apple.com>;
+	Sat, 24 Apr 2010 06:26:45 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id E46C8CE67E00
+	for <QuickTime-API@lists.apple.com>;
+	Sat, 24 Apr 2010 06:26:45 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-8c-4bd2f195dbdd
+Received: from mail.thesellers.net (thesellers.net [64.85.165.9])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	05.9E.17067.591F2DB4; Sat, 24 Apr 2010 06:26:45 -0700 (PDT)
+Received: from fruitbook.thesellers.net
+	(pool-71-166-51-134.bltmmd.fios.verizon.net [71.166.51.134])
+	by mail.thesellers.net (Postfix) with ESMTP id 692092D74D3
+	for <QuickTime-API@lists.apple.com>;
+	Sat, 24 Apr 2010 09:26:44 -0400 (EDT)
+Message-ID: <4BD2F193.2000308@usefulfruit.com>
+Date: Sat, 24 Apr 2010 09:26:43 -0400
+From: Chad Sellers <chad@usefulfruit.com>
+User-Agent: Postbox 1.1.4 (Macintosh/20100408)
+MIME-Version: 1.0
+To: QuickTime-API@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAQYR464=
+Cc: 
+Subject: How can I initialize a QTMovie object with certain attributes using
+ writable data?
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hello all,
+
+I'm trying to create an empty QTMovie object that I can add segments to, 
+and then play. This is easy to do with something like:
+
+movie = [[QTMovie alloc] initToWritableData:[NSMutableData 
+dataWithCapacity:1048576] error:&error];
+
+I can then use -insertSegmentOfMovie to insert segments from other 
+movies into this one so I can play it back. The problem is that I also 
+need to set a certain attribute when creating the QTMovie object. In 
+particular, I need to set the QTMovieRateChangesPreservePitchAttribute 
+attribute, so that I can alter playback speed during playback without 
+changing pitch. This attribute cannot be written after the movie is 
+initialized.
+
+So, I can create the QTMovie object like this:
+
+movie = [[QTMovie alloc] initWithAttributes:[NSDictionary 
+dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], 
+QTMovieRateChangesPreservePitchAttribute, nil] error:&error];
+
+Unfortunately, this is not editable. I've tried setting the 
+QTMovieEditableAttribute as well on creation, but it does not help. I 
+still get an exception when I try to insert anything into this movie. I 
+presume this is because there is no writable file or data reference 
+associated with the QTMovie.
+
+Any ideas on how to solve this?
+
+Thanks very much,
+Chad Sellers
+
+
+
+
+Chad Sellers
+Useful Fruit Software
+http://www.usefulfruit.com/
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

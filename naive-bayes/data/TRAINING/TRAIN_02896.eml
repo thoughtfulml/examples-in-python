@@ -1,0 +1,98 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280282a1ac80271
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs68911wfa;
+        Thu, 15 Apr 2010 10:27:15 -0700 (PDT)
+Received: by 10.103.7.28 with SMTP id k28mr299794mui.25.1271352434848;
+        Thu, 15 Apr 2010 10:27:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 7si9294789mup.3.2010.04.15.10.27.14;
+        Thu, 15 Apr 2010 10:27:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9176A13A5299; Thu, 15 Apr 2010 17:27:08 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=1.0 required=4.0 tests=DNS_FROM_RFC_WHOIS,RDNS_NONE
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CB98B13A5585
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 17:10:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, RDNS_NONE=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id u6c5+gWIjO20 for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 17:10:05 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id B87E113A54AE
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 17:10:05 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id 8CB9F3A6555
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 19:10:03 +0200 (CEST)
+From: Charles Kroeger <ckrogrr@frankensteinface.com>
+Subject: Re: Icedove always loads Epiphany when URL is clicked
+Date: Thu, 15 Apr 2010 13:06:30 -0400
+Message-ID: <20100415130630.23ae910e@Mondo>
+References: <4BC711CE.60606@student.ulg.ac.be> <4BC7144D.8090309@cox.net> <4BC714F6.6010807@student.ulg.ac.be>
+To: debian-user@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Orig-X-Trace: individual.net esOZK0YWD2BGjdt2O2UsPwT4JeJLDZT1SISAMcUhDAtJzyGiA=
+Cancel-Lock: sha1:rgJGiUxOscwuk1rFfHghzOn5dSQ=
+X-Newsreader: Claws Mail 3.7.5 (GTK+ 2.20.0; i486-pc-linux-gnu)
+X-Operating-System: Debian Invictus
+X-Originating-IP: 130.133.4.5
+Organization: linux.* mail to news gateway
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <ezx98-5bH-19@gated-at.bofh.it>
+	<ezxiO-5pH-21@gated-at.bofh.it>
+	<ezxsu-5Dk-13@gated-at.bofh.it>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6SGAaz6DPrM.A.81C.sx0xLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574189
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 17:27:08 +0000 (UTC)
+
+On my system, sid, this command wouldn't work:
+
+>$ update-alternatives --display x-www-browser
+
+this command will:
+
+$ update-alternatives --config x-www-browser
+
+why is that?
+
+-- 
+C
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415130630.23ae910e@Mondo
+
+

@@ -1,0 +1,156 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e67fc82b7dfed
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.163.11 with SMTP id q11cs6405wfo;
+        Fri, 9 Apr 2010 23:54:47 -0700 (PDT)
+Received: by 10.223.7.91 with SMTP id c27mr1031891fac.19.1270882486599;
+        Fri, 09 Apr 2010 23:54:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si4903664fxm.57.2010.04.09.23.54.46;
+        Fri, 09 Apr 2010 23:54:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id F33D12D0EAD; Sat, 10 Apr 2010 06:54:41 +0000 (UTC)
+Old-Return-Path: <wentland@cl.uni-heidelberg.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.0 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9EDA62D0E98
+	for <lists-debian-user@liszt.debian.org>; Sat, 10 Apr 2010 06:54:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mBA8brsU5zDA for <lists-debian-user@liszt.debian.org>;
+	Sat, 10 Apr 2010 06:54:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from relay.uni-heidelberg.de (relay.uni-heidelberg.de [129.206.100.212])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 47BCD13A62CE
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 06:54:29 +0000 (UTC)
+Received: from ix.urz.uni-heidelberg.de (cyrus-portal.urz.uni-heidelberg.de [129.206.100.176])
+	by relay.uni-heidelberg.de (8.14.1/8.14.1) with ESMTP id o3A6sJYF015850
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 08:54:19 +0200
+Received: from extmail.urz.uni-heidelberg.de (extmail.urz.uni-heidelberg.de [129.206.100.140])
+	by ix.urz.uni-heidelberg.de (8.13.8/8.13.8) with ESMTP id o3A6sQ2q018789
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 08:54:26 +0200
+Received: from kinakuta.local (mnhm-4d01264d.pool.mediaWays.net [77.1.38.77])
+	(authenticated bits=0)
+	by extmail.urz.uni-heidelberg.de (8.13.4/8.13.1) with ESMTP id o3A6sI2s001266
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=NO)
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 08:54:18 +0200
+Received: from babilen by kinakuta.local with local (Exim 4.71)
+	(envelope-from <wentland@cl.uni-heidelberg.de>)
+	id 1O0UaH-00019x-5s
+	for debian-user@lists.debian.org; Sat, 10 Apr 2010 08:54:25 +0200
+Date: Sat, 10 Apr 2010 08:54:25 +0200
+From: Wolodja Wentland <wentland@cl.uni-heidelberg.de>
+To: debian-user@lists.debian.org
+Subject: Re: Going wireless
+Message-ID: <20100410065425.GA2477@kinakuta.local>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <hpn9hp$5nv$1@dough.gmane.org>
+ <20100409141657.GA17543@kinakuta.local>
+ <hpnfir$gon$1@dough.gmane.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="wRRV7LY7NUeQGEoC"
+Content-Disposition: inline
+In-Reply-To: <hpnfir$gon$1@dough.gmane.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nmJrxnnGGHN.A.0SG.xCCwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573770
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 06:54:41 +0000 (UTC)
+
+
+--wRRV7LY7NUeQGEoC
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Apr 09, 2010 at 15:02 +0000, T o n g wrote:
+> 1st of all, thanks everyone that responded.=20
+>=20
+> On Fri, 09 Apr 2010 16:16:57 +0200, Wolodja Wentland wrote:
+>=20
+> > Check http://wiki.debian.org/WiFi/HowToUse
+> >=20
+> > I am particularly fond of wpa_supplicant in roaming mode [1] but you
+> > might want to take a look at wicd or network-mangler as well.
+>=20
+> I've read many good words about wicd, an am planning to go for it.=20
+
+Good choice. You have to install wicd from backports.org though as it is
+not available for stable.
+
+wicd -- lenny-backports: 1.6.2.2-1~bpo50+1; sid: 1.7.0+ds1-2;=20
+        squeeze: 1.7.0+ds1-2
+
+> Just to be 100% sure, with wpa_supplicant (from the wpasupplicant=20
+> package) in roaming mode, one doesn't necessarily need wicd, correct?
+
+Absolutely - That wouldn't even work together :)
+--=20
+  .''`.     Wolodja Wentland    <wentland@cl.uni-heidelberg.de>=20
+ : :'  :   =20
+ `. `'`     4096R/CAF14EFC=20
+   `-       081C B7CD FF04 2BA9 94EA  36B2 8B7F 7D30 CAF1 4EFC
+
+--wRRV7LY7NUeQGEoC
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQIcBAEBCAAGBQJLwCCgAAoJEIt/fTDK8U78uhUP/0PnF5nUGwBM2jO8PeAgsohi
+JmPIyl0pyfSSxsqZMBroZVmWmNyLzxOkYaoChhwof/LmREJGsg7bjE9btmjwEPSv
+qzdEX/7iplI7PtmE4MeEbc3Q0Rr+qEBxaV4zLVuLfYxhfYe72nTjDr6EoD57MCGu
+BuKYZl3g2BiqM/Ze36Kz19nKCRfMBKrCO5F+GRpKBm++GAuxrcLF6dIhL5Msclla
+fpE4pG8WAv4CgkpeVrTvJ3ZcoWk631iOa0XfX/CwE1p9feXa0fnq9IlJSu12LU14
+HdbJpCrPAJws5LDwuIp0U+96TmzbLTwIhTIi7ymBhJsyVmE6ShSMoIrnVPxU092U
+oL+z+hXCp7HwlR8HMt7gO16QixRQI3YAyNy+/tkoRT0TVfb1s54wCxo6FAwqsdU1
+e9y//d6GIVsXzHmfVwpjOxicgD9WtfcUFIpZTkJXZZBnH4KlfA1EN1ouSeCKh9Dx
+dZl8MOzzdtKdbWl6RzGDf50hZDSWt3WjCx1QIswuHv3NXXCbmOFBSTgp0+JFTG7I
+LniMLfj/FRB5rskP+oLqVqzIgdoebx+OVhK2EJpSCQJVhMRWY/XE4sMhS+/rpbTL
+Rv6KUNqF7zZgl9Deeg0FfETP28OnNfTwlYKRi5z1ifTIkpEPFzEZ3OXsECwhK+pV
+JLuHt7B6pePgKDAXal39
+=scm+
+-----END PGP SIGNATURE-----
+
+--wRRV7LY7NUeQGEoC--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100410065425.GA2477@kinakuta.local
+
+

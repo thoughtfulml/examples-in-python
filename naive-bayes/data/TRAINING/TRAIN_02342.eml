@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283ed93642e19f9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs127755wfj;
+        Tue, 27 Apr 2010 03:39:03 -0700 (PDT)
+Received: by 10.87.1.13 with SMTP id d13mr6359704fgi.29.1272364742650;
+        Tue, 27 Apr 2010 03:39:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 13si4154478fks.30.2010.04.27.03.39.02;
+        Tue, 27 Apr 2010 03:39:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AD1D413A5A74; Tue, 27 Apr 2010 10:38:50 +0000 (UTC)
+Old-Return-Path: <rudu@cegetel.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C1E4D13A5A28
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 10:38:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Nu5zLgRenJBa for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 10:38:37 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .cegetel. - helo: .smtp21.services.sfr. - helo-domain: .sfr.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1 IN_ABUSE_RFCI=0.1; rate: -6.8
+Received: from smtp21.services.sfr.fr (smtp21.services.sfr.fr [93.17.128.1])
+	by liszt.debian.org (Postfix) with ESMTP id 64CF32D0BF2
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 10:38:30 +0000 (UTC)
+Received: from filter.sfr.fr (localhost [127.0.0.1])
+	by msfrf2102.sfr.fr (SMTP Server) with ESMTP id 2CD3B7000095
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 12:38:28 +0200 (CEST)
+Received: from [192.168.1.22] (unknown [93.29.64.175])
+	by msfrf2102.sfr.fr (SMTP Server) with ESMTP id 04BC87000087
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 12:38:27 +0200 (CEST)
+X-SFR-UUID: 20100427103828195.04BC87000087@msfrf2102.sfr.fr
+Message-ID: <4BD6BEA3.3060705@cegetel.net>
+Date: Tue, 27 Apr 2010 12:38:27 +0200
+From: rudu <rudu@cegetel.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Ctrl+alt+Fn not showing consoles
+References: <4BD5CD44.4040807@cegetel.net> <hr4jcs$lid$2@dough.gmane.org> <4BD5DC01.3070308@cegetel.net> <hr4njr$7kq$1@dough.gmane.org> <4BD5E68E.5030702@cegetel.net> <hr5fps$l5b$1@dough.gmane.org>
+In-Reply-To: <hr5fps$l5b$1@dough.gmane.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <L8fhs8KU5-J.A.7EC.66r1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575246
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 10:38:50 +0000 (UTC)
+
+Le 27/04/2010 03:48, Hugo Vanwoerkom a écrit :
+>
+> rudu wrote:
+>> Le 26/04/2010 20:55, Hugo Vanwoerkom a écrit :
+>>>
+>>> So are you still running nv?
+>> Yes
+>>
+>>> and what was the driver that wouldn't compile?
+>>> I run x86-195.36.15 on the latest Sid kernel and it compiles just
+>>> fine, but I don't (yet) have a AMD64 system.
+>>
+>> Excerpt from /var/log/nvidia-installer.log :
+>>> Using: nvidia-installer ncurses user interface
+>>> WARNING: Skipping the runlevel check (the utility `runlevel` failed
+>>> to run).
+>>> -> License accepted.
+>>> -> Installing NVIDIA driver version 195.36.15.
+>>> -> Performing CC sanity check with CC="cc".
+>>> -> Performing CC version check with CC="cc".
+>>> -> The CC version check failed:
+>>>
+>>>    [...]
+>>
+>
+> Indeed. Forget this if it is beating a dead horse, but did you have
+> gcc-4.3 + gcc-4.4 both installed? I did and I set the symlink gcc to
+> gcc-4.3 and that got rid of the message.
+
+Thank you Hugo, I managed to compile the proprietary driver.
+Now every ctrl+alt+Fn leads to a complete black screen, with no prompt 
+or cursor or anything.
+Ctrl+alt+F7 works as expected.
+Could it be that my system stopped creating the consoles at boot time ?
+What should I check and where ?
+
+TIA,
+Jean-Marc
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD6BEA3.3060705@cegetel.net
+
+

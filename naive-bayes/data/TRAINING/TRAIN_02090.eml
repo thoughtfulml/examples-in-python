@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282093f951753bc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs112749wfj;
+        Wed, 21 Apr 2010 06:35:30 -0700 (PDT)
+Received: by 10.223.6.153 with SMTP id 25mr53916faz.81.1271856888243;
+        Wed, 21 Apr 2010 06:34:48 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si1371431fkt.7.2010.04.21.06.34.47;
+        Wed, 21 Apr 2010 06:34:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id F157F13A500A; Wed, 21 Apr 2010 13:34:38 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 59AA013A4D27
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 13:34:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id pZQtbJQSQ4bD for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 13:34:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id 9B5D913A4D22
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 13:34:25 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=/Vp6wQ46wMw7T80S5PH4CCw9HlDADkkXN/jgXPiqTG8= c=1 sm=0 a=qhkFTjdWoSEA:10 a=FKkrIqjQGGEA:10 a=SLXc39V8lQQA:10 a=IkcTkHD0fZMA:10 a=vggBfdFIAAAA:8 a=u-ph-vMhAAAA:8 a=gPFpYj8Ek6zuBIu5ElUA:9 a=Ai-w1BkjzzRDqdezxP_MJ1ERW6AA:4 a=QEXdDO2ut3YA:10 a=ZUdhixyheCsA:10 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:45617] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 14/D2-00786-FDEFECB4; Wed, 21 Apr 2010 09:34:23 -0400
+Date: Wed, 21 Apr 2010 09:34:22 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <2047298230.199548.1271856862719.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <4BCEBCFD.2000504@jretrading.com>
+Subject: Re: Why are there no latest books written for Debian systems?
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [66.145.136.6]
+X-Mailer: Zimbra 6.0.5_GA_2213.RHEL4_64 (zclient/6.0.5_GA_2213.RHEL4_64)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <p4JsPqDb97L.A.LDB.u7vzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574671
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 13:34:38 +0000 (UTC)
+
+On 21/04/10 06:15, surreal wrote:
+> I wanted to buy a book about Debian, I found that the last book written was
+> way back in 2005 by Martin F.
+> Krafft<http://www.amazon.com/Martin-F.-Krafft/e/B001K892PK/ref=sr_ntt_srch_lnk_1?_encoding=UTF8&qid=1271826559&sr=8-1>
+
+This is hardly a new book.  In fact, it was written in the days of Woody.
+(Woody -> Sarge -> Etch -> Lenny -> Squeeze)
+And parts of it are obsolete.  But the author focuses on the core stuff of
+Unix/Linux, and so most of it is still current.  It's an excellent guide
+for how to accomplish common computing tasks in Linux, usually with a
+command line tool, and the author has a clear bent toward Debian.
+
+   http://dsl.org/cookbook/cookbook_toc.html
+
+This is the original version of the book, and it is free.  There's an
+expanded 2nd Edition available in hard copy for a fee.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2047298230.199548.1271856862719.JavaMail.root@md01.wow.synacor.com
+
+

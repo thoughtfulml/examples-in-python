@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId12879df09ecb05fb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs524491wfb;
+        Sat, 8 May 2010 14:43:00 -0700 (PDT)
+Received: by 10.223.23.83 with SMTP id q19mr2098559fab.12.1273354979560;
+        Sat, 08 May 2010 14:42:59 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n24si5130316faa.34.2010.05.08.14.42.59;
+        Sat, 08 May 2010 14:42:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C597413A56BE; Sat,  8 May 2010 21:42:54 +0000 (UTC)
+Old-Return-Path: <jarif@iki.fi>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RATWARE_GECKO_BUILD,RCVD_IN_DNSWL_LOW autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 222A12D0C60
+	for <lists-debian-user@liszt.debian.org>; Sat,  8 May 2010 21:42:49 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-13 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_LOW=-1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wVHFRDTgcDTl for <lists-debian-user@liszt.debian.org>;
+	Sat,  8 May 2010 21:42:41 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 1259 seconds by postgrey-1.31 at liszt; Sat, 08 May 2010 21:42:41 UTC
+Received: from secure.localloop.fi (server1.localloop.fi [217.30.188.235])
+	by liszt.debian.org (Postfix) with ESMTP id 42EFE13A56A0
+	for <debian-user@lists.debian.org>; Sat,  8 May 2010 21:42:41 +0000 (UTC)
+Received: from mail.fredriksson.dy.fi (213-157-94-92.localloop.fi [213.157.94.92])
+	by secure.localloop.fi (Postfix) with ESMTP id 7CF8BA65666
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 00:21:33 +0300 (EEST)
+Received: from localhost (lancaster.fredriksson.dy.fi [10.123.29.113])
+	by jarif.iki.fi (Postfix) with ESMTP id 0F14D2AC20
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 00:21:33 +0300 (EEST)
+X-Virus-Scanned: Debian amavisd-new at lancaster.fredriksson.dy.fi
+Received: from mail.fredriksson.dy.fi ([127.0.0.1])
+	by localhost (lancaster.fredriksson.dy.fi [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id N9njs4y+Lgvh for <debian-user@lists.debian.org>;
+	Sun,  9 May 2010 00:21:32 +0300 (EEST)
+Received: from [10.0.0.101] (mosquito.fredriksson.dy.fi [10.0.0.101])
+	by mail.fredriksson.dy.fi (Postfix) with ESMTPS id 6B0322A387
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 00:21:32 +0300 (EEST)
+X-Hashcash: 1:25:100508:debian-user@lists.debian.org::t+QOKlvxAb3UuviH:cwH8
+Message-ID: <4BE5D5CB.7060503@iki.fi>
+Date: Sun, 09 May 2010 00:21:15 +0300
+From: Jari Fredriksson <jarif@iki.fi>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4 ThunderBrowse/3.2.8.1
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: help for a new user
+References: <AANLkTimuoJr6gujkP512snobh5gDm80djlrtAvWlcegF@mail.csmining.org> <alpine.DEB.2.00.1005081356460.30487@localhost> <20100508211304.GA22128@eternity.smila.com>
+In-Reply-To: <20100508211304.GA22128@eternity.smila.com>
+X-Enigmail-Version: 1.0.1
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enigF8ADB2A381C787011442B3E1"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <w8s83jLo-eG.A.xdG.erd5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576244
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 21:42:54 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enigF8ADB2A381C787011442B3E1
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 9.5.2010 0:13, Alexander Batischev wrote:
+> On Sat, May 08, 2010 at 02:02:01PM -0700, Robert Holtzman wrote:
+>> What is an internet key and did you mean to publish it for all the wor=
+ld =20
+>> to read?
+> Internet key is modern kind of modem. It uses mobile phone network to a=
+ccess.
+> Key looks just like usual USB pendrive, but it have place for SIM card =
+(which
+> is similar to your mobile phone's card). I think you can find more deta=
+iled
+> (and professional) explanation on the Internet.
+>=20
+
+Yes. You can even exchange Internet Keys with a special protocol
+designed for that: http://en.wikipedia.org/wiki/Internet_Key_Exchange
+
+--=20
+http://www.iki.fi/jarif/
+
+Q:	What do you call the money you pay to the government when
+	you ride into the country on the back of an elephant?
+A:	A howdah duty.
+
+
+--------------enigF8ADB2A381C787011442B3E1
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.12 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAkvl1c4ACgkQKL4IzOyjSrad5gCgnGGSRgZJ4uUwMCaYXCQ6r+LS
+FYMAn1dpIfq+/N0fvwH6bRi2Sjfq1tTc
+=uNNE
+-----END PGP SIGNATURE-----
+
+--------------enigF8ADB2A381C787011442B3E1--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE5D5CB.7060503@iki.fi
+
+

@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId128237bd172a5657
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs140948wfj;
+        Wed, 21 Apr 2010 20:07:17 -0700 (PDT)
+Received: by 10.223.17.216 with SMTP id t24mr533040faa.90.1271905636394;
+        Wed, 21 Apr 2010 20:07:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z15si2589797fkz.51.2010.04.21.20.07.15;
+        Wed, 21 Apr 2010 20:07:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0F08413A4D00; Thu, 22 Apr 2010 03:07:06 +0000 (UTC)
+Old-Return-Path: <dburrows@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1C31213A4984
+	for <lists-debian-user@liszt.debian.org>; Thu, 22 Apr 2010 03:07:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id fCxz4UgGX-DN for <lists-debian-user@liszt.debian.org>;
+	Thu, 22 Apr 2010 03:06:52 +0000 (UTC)
+Received: from algebraicthunk.net (algebraicthunk.net [67.207.130.13])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id A91DA13A47B0
+	for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 03:06:52 +0000 (UTC)
+Received: from c-76-104-234-217.hsd1.wa.comcast.net ([76.104.234.217] helo=emurlahn.burrows.local)
+	by algebraicthunk.net with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <dburrows@debian.org>)
+	id 1O4mkb-0004yq-I5
+	for debian-user@lists.debian.org; Wed, 21 Apr 2010 20:06:49 -0700
+Date: Wed, 21 Apr 2010 20:06:48 -0700
+From: Daniel Burrows <dburrows@debian.org>
+To: debian-user@lists.debian.org
+Subject: Re: How to trick my Debian in thinking that a package is not installed
+Message-ID: <20100422030648.GA18182@emurlahn.burrows.local>
+References: <hqkgqo$bip$1@dough.gmane.org>
+	<20100421053314.GA4695@emurlahn.burrows.local>
+	<hqn5h0$ipm$1@dough.gmane.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <hqn5h0$ipm$1@dough.gmane.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <t5Qr0VVRXSG.A.ykC.Z17zLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574734
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 22 Apr 2010 03:07:06 +0000 (UTC)
+
+On Wed, Apr 21, 2010 at 03:27:28PM +0000, T o n g <mlist4suntong@yahoo.com> was heard to say:
+> On Tue, 20 Apr 2010 22:33:14 -0700, Daniel Burrows wrote:
+> >   Can you provide any more information about this?  It shouldn't happen
+> > in any recent version of aptitude.
+> 
+> I can only give you partial information. 
+> 
+> This is what I've been doing
+> 
+>  aptitude --purge-unused purge durep
+>  dpkg -i /linux/linux_bin/deb-pkgs/durep_0.8.1-7.1_all.deb 
+>  aptitude install durep=
+> 
+> For how it happened, I need directions for where to look for such 
+> "more information". 
+
+  If you see "aptitude safe-upgrade" trying to upgrade durep, I'd like
+to see the output of these commands (after you type Control-C at the
+aptitude prompt, of course):
+
+aptitude show durep
+aptitude -sy --show-resolver-actions safe-upgrade
+
+> It is not the first time such thing happens, I agree with Monique's 
+> obervation, "when aptitude is making suggestions to resolve conflicts, it 
+> will un-hold packages."
+
+  That shouldn't be possible.  If it is happening, something is very
+wrong.  My own guess is that something is clearing your hold flags.  For
+instance, it was recently pointed out to me that "aptitude keep-all"
+clears hold flags (probably wrongly).
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100422030648.GA18182@emurlahn.burrows.local
+
+

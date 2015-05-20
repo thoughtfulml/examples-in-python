@@ -1,0 +1,161 @@
+X-Account-Key: account5
+X-UIDL: GmailId128926707dfa2191
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs4908wfo;
+        Thu, 13 May 2010 09:02:26 -0700 (PDT)
+Received: by 10.223.127.196 with SMTP id h4mr73917fas.56.1273766544972;
+        Thu, 13 May 2010 09:02:24 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n15si3604830fam.57.2010.05.13.09.02.24;
+        Thu, 13 May 2010 09:02:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7F2B913A5272; Thu, 13 May 2010 16:02:15 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EAC0413A560B
+	for <lists-debian-user@liszt.debian.org>; Thu, 13 May 2010 16:02:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QuswzPMxzQth for <lists-debian-user@liszt.debian.org>;
+	Thu, 13 May 2010 16:02:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 8A79613A55DA
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 16:02:02 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1OCarG-0007VE-0j
+	for debian-user@lists.debian.org; Thu, 13 May 2010 16:01:59 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: only output the nth line
+Date: Thu, 13 May 2010 11:04:08 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-bpo.3-amd64; KDE/4.4.3; x86_64; ; )
+References: <1273683537.12667.32.camel@localhost> <hseoac$iqd$1@dough.gmane.org> <1273765762.3998.1.camel@localhost>
+In-Reply-To: <1273765762.3998.1.camel@localhost>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@
+ =?iso-8859-1?q?q=3B2h=0A=096=265?=@)
+ =?iso-8859-1?q?xd86p=3BwyaJ=25f7=26z=5FBW=7DDkm=2EL=24-=23h=25DUdk7thS-HC?=
+ =?iso-8859-1?q?=5FA=5EJp=7C=23Tq4R/=5Eq/-=5DwRVU=5ET=3Fj=0A=09g?=@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?utf-8?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSKVkSKVkSK?=
+ =?utf-8?q?VkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrXbgSKVlvm9zseJ?=
+ =?utf-8?q?LgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAAI0SURBVDjLbZRNbhQxEIU?=
+ =?utf-8?q?9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOlyn8DhAHZj=0A=093iv3Z?=
+ =?utf-8?q?CSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkbIsoWs+HzdQgPb83yc7JzcOHPi?=
+ =?utf-8?q?xC+mCWbRVs=0A=09pY2lNMMz2FMIOurZpREz4LtPU6qOly/A6G9aW0krjLAJcSg?=
+ =?utf-8?q?cICycxRCoXWmurHcKrvHC+eDauR7oWn2=0A=099cQEwExrEXa7/tJlyn9gsC/DhB?=
+ =?utf-8?q?dWpreheun7X1KJxybF0zhLwsnsyJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096Gud?=
+ =?utf-8?q?SNWT0NXblkVuwjBlkWVJrmaAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VII?=
+ =?utf-8?q?iKVYmUnJiyr=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERf?=
+ =?utf-8?q?OpfZiTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNrHHeCJMyuaujMNdkt?=
+ =?utf-8?q?gkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG=0A=0901oI?=
+ =?utf-8?q?hvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJfPTbS5oo9tOU?=
+ =?utf-8?q?MHbdKE23oTci=0A=093cBil8dtoGZk0BF2Yq35wSeWvYeT2EE/KnhRzorfMMgDmH?=
+ =?utf-8?q?3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G=0A=098GbPEj2T+kfi/kPAP8D93f6v?=
+ =?utf-8?q?uL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAASUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart32670692.ht6bcf8tQM";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005131104.14917.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <sUK-2zuuwiM.A.a0H.HKC7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576688
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 16:02:15 +0000 (UTC)
+
+--nextPart32670692.ht6bcf8tQM
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 13 May 2010 10:49:22 Jozsi Vadkan wrote:
+> 2010. 05. 12, szerda keltez=C3=A9ssel 12.25-kor Hugo Vanwoerkom ezt =C3=
+=ADrta:
+> > Jozsi Vadkan wrote:
+> > > I have a file:
+> > > And i want to only output the first, second, and fourth line to anoth=
+er
+> > > file.
+> >
+> > hugo@debian:~$ sed -n '1,2p;4p' file.txt
+>=20
+> yes, that's the problem, it only outputs the first, second, and fourth
+> line!
+
+I think that perhaps there is some language barrier.
+
+Your original post indicates that you want lines 1, 2, 4 and no others outp=
+ut. =20
+"i want only output the first, second, and fourth line"
+
+Your most recent post says that is "the problem".  Which I infer means=20
+something you don't want.
+
+Could you maybe rephrase the question, or at least be a bit more verbose?
+
+=2E..
+
+If you want the output to go to a file try something like (sed -ne '1,2p;4p=
+'=20
+"$input" > "$output").
+
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart32670692.ht6bcf8tQM
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvsIvkACgkQdNbfk+86fC1LCQCgiG93SHSpegpi4WHSB5ax8p3s
+wI4An1QuV8gEIv85h0fnMx7hLhRfiDTo
+=vSY4
+-----END PGP SIGNATURE-----
+
+--nextPart32670692.ht6bcf8tQM--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005131104.14917.bss@iguanasuicide.net
+
+

@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d2a74ede5b55e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs155546wfo;
+        Tue, 25 May 2010 20:28:20 -0700 (PDT)
+Received: by 10.141.187.34 with SMTP id o34mr6115486rvp.24.1274844499497;
+        Tue, 25 May 2010 20:28:19 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id b12si9863597rvn.85.2010.05.25.20.28.19;
+        Tue, 25 May 2010 20:28:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 4B2E31C3C47D0
+	for <mlsubscriber.tech@csmining.org>; Tue, 25 May 2010 20:28:19 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 4672427EAA8D5
+	for <mlsubscriber.tech@csmining.org>; Tue, 25 May 2010 20:28:19 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay16.apple.com (relay16.apple.com [17.128.113.55])
+	by lists.apple.com (Postfix) with ESMTP id 7F63227EAA6E1
+	for <x11-users@lists.apple.com>; Tue, 25 May 2010 20:28:01 -0700 (PDT)
+X-AuditID: 11807137-b7c23ae000001561-55-4bfc95414806
+Received: from elliott.apple.com (elliott.apple.com [17.151.62.13])
+	by relay16.apple.com (Apple SCV relay) with SMTP id
+	2A.F8.05473.1459CFB4; Tue, 25 May 2010 20:28:01 -0700 (PDT)
+Received: from [192.168.1.30] (udp282960uds.hawaiiantel.net [72.234.119.179])
+	by elliott.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L30002OFCAN2330@elliott.apple.com> for
+	x11-users@lists.apple.com; Tue, 25 May 2010 20:28:01 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1080)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <6FEBF39F-8A54-45D5-AF48-7E75CDCE78C0@mac.com>
+Date: Tue, 25 May 2010 20:27:59 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <57AF073F-1B54-41B1-BABB-77055741A04A@apple.com>
+References: <s2m5b7a031b1004290746q9725ef6cx8f5df148178785d5@mail.csmining.org>
+	<5C6EA0D1-468F-45E4-A0FF-A3FFD7343BA2@apple.com>
+	<6FEBF39F-8A54-45D5-AF48-7E75CDCE78C0@mac.com>
+To: "William \"Chops\" Westfield" <westfw@mac.com>
+X-Mailer: Apple Mail (2.1080)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11 List Mailing <x11-users@lists.apple.com>
+Subject: Re: xterm color
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+You are hardcoding the :0 DISPLAY there... you are probably just getting =
+a different one... you should really look into ssh tunneling X11 =
+instead...
+
+--Jeremy
+
+On May 25, 2010, at 01:42, William Chops Westfield wrote:
+
+>=20
+> On Apr 29, 2010, at 9:27 AM, Jeremy Huddleston wrote:
+>=20
+>>> Also, this is another newbie question, but
+>>> if I use ssh to connect to my desktop,
+>>> I cannot forward any X11 applications into
+>>> my laptop. I tried xhost + and nothing happens.
+>>=20
+>> 'xhost +' enables connection without authentication from other =
+systems over TCP/IP and has nothing to do with ssh tunnels.  Make sure =
+you're sshing to the remote system using 'ssh -Y' and that the remote =
+system allows ssh tunneling in its /etc/sshd_config.
+>=20
+> I also recently got the latest System updates for 10.5.8 and had to =
+install X11-2.5.1_rc1 over that to get working again (not unexpected.)
+>=20
+> However, I no longer seem to be able to start xwindows remotely on my =
+desktop (NOT via ssh tunnels; just ssh to the host with no tunneling, =
+and do "xterm -display mymac:0")  It fails with 'cannot connect" issues, =
+in spite of either xhost +remotesystem or even just "xhost +"  I don't =
+see any related messages on the Mac-side console...
+>=20
+> Is this something in X, or something in the security update?  I CAN =
+still ssh to my mac, so the firewall hasn't cut everything out.  By the =
+firewall panel does look different than I remember it.
+>=20
+> Any ideas?
+> Thanks
+> Bill W
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

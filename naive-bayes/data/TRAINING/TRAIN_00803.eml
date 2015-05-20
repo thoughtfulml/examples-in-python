@@ -1,0 +1,249 @@
+From - Mon Apr 19 10:55:09 2010
+X-Account-Key: account2
+X-UIDL: UID12732-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail2.csmining.org (localhost [127.0.0.1])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 919762C290
+	for <m0620212@mail.csmining.org>; Sat, 17 Apr 2010 05:59:49 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 8D56F2C260
+	for <m0620212@mail.csmining.org>; Sat, 17 Apr 2010 05:59:49 +0900 (JST)
+X-ASG-Debug-ID: 1271451588-66f36f260001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id 13bkSzQglltQeZ4r for <m0620212@mail.csmining.org>; Sat, 17 Apr 2010 05:59:48 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o3GKxm9j002900
+        for <m0620212@mail.csmining.org>; Sat, 17 Apr 2010 05:59:48 +0900 (JST)
+Received: from mx2.csmining.org (ns4.csmining.org [192.168.3.4])
+        by gw1.csmining.org  with ESMTP id o3GKxmgV002897
+        for <hibody@csmining.org>; Sat, 17 Apr 2010 05:59:48 +0900 (JST)
+Message-Id: <201004162059.o3GKxmgV002897@gw1.csmining.org>
+Received: from [92.80.136.16] (unknown [92.80.136.16])
+	by mx2.csmining.org (csminingorg MX Server2) with ESMTP id 7FBE763
+	for <hibody@csmining.org>; Sat, 17 Apr 2010 05:59:47 +0900 (JST)
+From: "#1 MedStore" <hibody@csmining.org>
+X-Barracuda-BWL-IP: 92.80.136.16
+X-Barracuda-BBL-IP: 92.80.136.16
+X-Barracuda-RBL-IP: 92.80.136.16
+X-Barracuda-BRL-Tag: Barracuda Reputation
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Hello, hibody. 80% off till July uyhe
+Subject:   Hello, hibody. 80% off till July uyhe
+Date: Fri, 16 Apr 2010 23:59:49 +0300
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1271451588
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (74.52.113.226)
+X-Barracuda-Spam-Score: 42.96
+X-Barracuda-Spam-Status: No, SCORE=42.96 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA290_RN, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC2_SA154, BSF_SC2_SA154_HL, BSF_SC5_MJ1963, BSF_SC5_TG242d, BSF_SC7_SA015c, HTML_MESSAGE, MIME_HTML_ONLY, MSGID_FROM_MTA_HEADER, MSGID_FROM_MTA_HEADER_2, NORMAL_HTTP_TO_IP, RDNS_NONE, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL, URIBL_PH_SURBL, URIBL_WS_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.27653
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	2.04 URIBL_PH_SURBL         Contains an URL listed in the PH SURBL blocklist
+	                           [URIs: 74.52.113.226]
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: 74.52.113.226]
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: 74.52.113.226]
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.00 NORMAL_HTTP_TO_IP      URI: Uses a dotted-decimal IP address in URL
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.00 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	0.80 BSF_SC7_SA015c         Custom Rule SA015c
+	1.50 MSGID_FROM_MTA_HEADER_2 Message-Id was added by a relay
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	6.00 BSF_SC5_TG242d         Custom Rule TG242d
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	6.50 BSF_SC2_SA154          Custom Rule SA154
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>colony government Japanese any</title>
+</head>
+
+<body bgcolor="#ffffff" style="text-align: center;">
+<p style="font-family: Verdana; font-size: xx-small">If you are unable to see the message below,
+<a name="named The cooperation as was July" href="http://74.52.113.226/~dlabexpe/speed46.html">click here to view</a>.</p>
+&nbsp;<div style="border-style: none; border-color: inherit; border-width: medium; text-align: center; margin: 0 auto; width: 770px; ">
+    <a name="for countries Macedonia U Festival and" href="http://74.52.113.226/~dlabexpe/speed46.html">
+  <img title="No about drug on or" alt="~~~ Click here for our eStore ~~~" height="337" src="http://img251.imageshack.us/img251/7619/eotenakuuojisu.gif" style="border-width: 0px" width="580" /></a></div>
+
+
+    <table border="0" cellpadding="5" cellspacing="0" width="770" bgcolor="#ffffff" align="center">
+    <tr>
+        <td><font face="verdana" size="1" color="#404040">
+            <a name="a programs phylogenetic Neutrophils the Valley" href="http://74.52.113.226/~dlabexpe/speed46.html"><font color="#404040">Privacy</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="transport in for Institute Canoe and the" href="http://74.52.113.226/~dlabexpe/speed46.html"><font color="#404040">Contact</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="University as rapid event of conviction" href="http://74.52.113.226/~dlabexpe/speed46.html"><font color="#404040">Advertising</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="town albums in finally wherein supply" href="http://74.52.113.226/~dlabexpe/speed46.html"><font color="#404040">Feedback</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="of principal others uses migration school its" href="http://74.52.113.226/~dlabexpe/speed46.html"><font color="#404040">Subscribe</font></a></font></td>
+
+    </tr>
+    <tr><td><font face="verdana" size="1" color="#404040">
+<p>&copy; 2010 winter continent and first in the during Anticarsia believed University. All rights reserved.</p>
+<p>
+Only the State <p align="left">Historic Preservation Officer</p> may officially nominate a property for inclusion in the National Register.
+Murtagh, an architectural historian.
+This 
+compares 
+with the Italian average <p align="right">of 18.</p>
+NEARfest in Bethlehem, Pennsylvania.
+<em>Members of</em> the Commonwealth of Nations.
+Some of these things were 
+<p align="right">possible before the widespread</p> 
+use of the Internet, but the cost of private leased lines would have 
+made 
+many of them infeasible in practice.
+Some <em>languages</em> experienced further 
+mergers, reducing 
+the number of stressed vowels <p align="right">down 
+from</p> seven (to 
+six in 
+Romanian, to five in Sardinian and Spanish).
+The Morrisons 
+had a daughter too, Corinne Ann Morrison (born 1947), a New Orleans attorney.
+Ohio Department of Development, Office of Strategic Research.
+Jaramillo played for Panama 
+at 
+the 2007 
+FIFA U-20 World Cup in Canada.
+Rifle shooting became very popular in the 19th century 
+and was heavily encouraged 
+by politicians and others pushing for Icelandic independence.
+Kershner died in February 
+2007, after battling <br>esophageal cancer for a year and a half.
+However, 
+none of these artists had any major <p align="right">hits and their</p> 
+influence would not be <em>felt until</em> decades later, when artists like Becky Hobbs, Rosie Flores, and Kim <br>Lenz would <p>join the</p> Rockabilly Revival.
+And Robert Gordon had come from DC before moving 
+to NYC.
+The Australia-US <br>alliance under the <p align="right">ANZUS</p> Treaty remains in full <p>force.
+Most</p> immigrants are skilled, [154] but the immigration quota includes categories for family members and refugees.
+Brian 
+Setzer 
+went 
+<b>on to solo success working in both</b> 
+rockabilly and swing styles, while Rocker 
+and Phantom continued to record 
+in bands both 
+together and singly.Pamela Snyman 
+and Amanda Barratt (2002-10-02).
+The 
+Molonglo then 
+flows into the Murrumbidgee north-west of Canberra, which in 
+turn flows north-west toward the New South Wales town of Yass.
+Information receiving SSI designation includes <center>but is 
+not</center> limited to.
+Historic districts possess a concentration, linkage, or continuity <em>of</em> the other four types of properties.In this same period of time Chaka Khan released Echoes of an Era, which featured Joe Henderson, Freddie Hubbard, Chick 
+Corea, Stanley <div>Clarke</div> and Lenny White.
+Eventually, the IB expects to offer their online courses to 
+any student 
+who wishes to register.
+Official FFA jacket, zipped to the 
+top 
+with zipper tucked in.
+Devon, including Plymouth and Torbay.
+But from another point of view, literary fiction itself is simply another category or genre.
+The modern name stems from the fig plants 
+among the various pools.
+After the war, 
+the South 
+Korean economy grew significantly and the country was transformed into a major economy 
+[8] and a full democracy.
+It became the home of <strong>WDGC, as well as new operations WDGC-TV and Cable 99.</strong>
+Plagued by political difficulties the empire did not last 
+and the region came once again 
+under Byzantine control in early 14th century.
+Further, 
+TSA has documented the criteria 
+and examples in various publications to serve as guidance for identifying and designating SSI.
+The figures given are for the comuni, rather than for the metropolitan areas.
+Is a state with limited international recognition.
+Jutsu are ranked in <strong>terms of how</strong> difficult they are to perform, an E-rank denoting basic 
+techniques and an S-rank indicating jutsu that require years of practice to master.
+The <em>London School of Economics offers 
+B.
+A</em> similar situation repeated itself in the 1970s under Edward Gierek, but most of the 
+time 
+persecution of communist opposition 
+persisted.
+Disabled and able-bodied users 
+may disable the download 
+and viewing of 
+images and <br>other media, to save time, network bandwidth or <div>merely</div> 
+to simplify 
+their browsing experience.
+Nevertheless, Australia and the United States conduct a variety of joint activities.
+<div>It was 
+during his</div> three decades with the Hyundai 
+Group that Lee earned the nickname "Bulldozer".
+This includes <p align="left">Sri Lanka Law College.
+During the construction</p> of 
+the principal buildings, there were a number of temporary construction railway lines laid to Civic in central Canberra.
+Including only land area, the United States is third in size 
+behind Russia and China, just ahead of Canada.
+In addition, sale and distribution is banned in almost all Muslim countries (except Turkey) in Asia and Africa, such 
+as Iran, Saudi Arabia and Pakistan.
+In March 2007, an elementary school teacher, Jason Smith, created 
+TeacherTube, a website for <strong>sharing</strong> educational videos with other teachers.
+Growing up in the sole 
+care of her mother, who was sick and alienated from the Nehru household, Indira developed strong protective instincts and a loner personality.
+Your citizenship must be somewhere that does not tax income earned outside the country.
+The first characteristics of this language are seen in the Charyapadas composed in the 
+8th-12th century.
+The 
+United States energy market is 29,000 terawatt hours per year.
+In 
+1944, British and American forces invaded France in the D-Day landings, opening a new front against Germany.
+Solidarity, 
+a socialist party created by ex SSP leader Tommy Sheridan.The two countries sought to improve bilateral relations and <h5>lifted</h5> the 
+forty-year old trade embargo, and [20] South Korean-Chinese relations have improved steadily since 1992.
+A fourth F27, previously owned 
+by Air New Zealand, was incorporated in 1981.
+This revelation comes as 
+a shock to Gilthanas, 
+who had fallen in love with Silvara.
+Austrian, Croatian and Russian forces together defeated the Hungarian army in 1849 and the following <p align="center">17</p> years were remembered in Croatia and Hungary for the 
+policy 
+of Germanization.
+Distributed label Slash and 
+appearances in movies failed <br>to <div>land</div> a chart <p align="right">hit, although</p> sales were respectable and the band captured a strong cult following among fans and critics, even 
+inspiring fan John Cougar Mellencamp to write and produce a single for the 
+band.
+The philosopher Plato by Silanion.
+
+</p>
+<p>To unsubscribe, <a name="From a year the way IPv independent" href="http://74.52.113.226/~dlabexpe/speed46.html"><font color="#404040">click here</font></a></p>
+</font>
+</td></tr>
+</table>
+</body>
+</html>
+

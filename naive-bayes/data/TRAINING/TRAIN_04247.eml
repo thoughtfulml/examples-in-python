@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId128cbb19cd20957f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs101659wfo;
+        Mon, 24 May 2010 12:02:16 -0700 (PDT)
+Received: by 10.223.51.152 with SMTP id d24mr4985897fag.36.1274727734473;
+        Mon, 24 May 2010 12:02:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si5850017fak.96.2010.05.24.12.02.13;
+        Mon, 24 May 2010 12:02:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5095213A5317; Mon, 24 May 2010 19:02:02 +0000 (UTC)
+Old-Return-Path: <d.sastre.medina@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.3 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,NO_REAL_NAME,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2B5B913A52FE
+	for <lists-debian-user@liszt.debian.org>; Mon, 24 May 2010 19:01:55 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.87 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	UNWANTED_LANGUAGE_BODY=0.03] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id MUQ32HqEb5WH for <lists-debian-user@liszt.debian.org>;
+	Mon, 24 May 2010 19:01:48 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id E004113A52B5
+	for <debian-user@lists.debian.org>; Mon, 24 May 2010 19:01:47 +0000 (UTC)
+Received: by wwc33 with SMTP id 33so432711wwc.6
+        for <debian-user@lists.debian.org>; Mon, 24 May 2010 12:01:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=+Th69iqpholL9yT3YghELKvFTZMDEN/kwzSCMBwAWnM=;
+        b=phFC+SKUCIvCaXpaV8obvWo75R/vKd6YVgwomAfa2Srb97hee33qicGmwPZUyl4uhP
+         U3Qxux4qTkWT2NC1BRNtwm1sTxyaEdzDYjfbT0iwN85t8SQ8YT9Ox+PSq5varkd4IzX6
+         s3MH2ucdRflMqZ4xOBq591O7C6+I/f01AxdV4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=wOEDQrkPQYQGTLoUrxEwdeO108A584eVLYhxVXMqVitt1v7Z8FRcgpt3j/MTRG2Nhu
+         jHtkNxp6ZXv8qfEoPG1UL0qyJVQYQOjvwxxJ33Kf1yh/7Q/z+8QvG6KGgN7oQnUIVDVr
+         zFj5dhKzWR/wrLIe328VqBhxcqLv+UVn8DQvk=
+Received: by 10.227.143.149 with SMTP id v21mr5809546wbu.125.1274727700754;
+        Mon, 24 May 2010 12:01:40 -0700 (PDT)
+Received: from localhost (197.136.18.95.dynamic.jazztel.es [95.18.136.197])
+        by mx.google.com with ESMTPS id z33sm33433004wbd.13.2010.05.24.12.01.39
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Mon, 24 May 2010 12:01:40 -0700 (PDT)
+Date: Mon, 24 May 2010 21:01:33 +0200
+From: d.sastre.medina@csmining.org
+To: debian-user@lists.debian.org
+Subject: Re: Tengo problemas con instalar debian
+Message-ID: <20100524190133.GC5444@ghost.local.lan>
+References: <ed82281cdc1ad16e05f2fcdb96353d35@tallerdigitalvw.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="FsscpQKzF/jJk6ya"
+Content-Disposition: inline
+In-Reply-To: <ed82281cdc1ad16e05f2fcdb96353d35@tallerdigitalvw.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <lwGyZshIM3J.A.RGH.q0s-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577550
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 24 May 2010 19:02:02 +0000 (UTC)
+
+
+--FsscpQKzF/jJk6ya
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, May 24, 2010 at 12:17:06PM -0500, Servicio al Cliente wrote:
+> Estimados Amigos: agradesco mucho el esfuerzo que hacen todos los dias
+> para hacer de debian cada dia mejor.
+>=20
+> Quisiera saber si me pueden ayudar con un problema, estoy tratando de
+> instalar debian en un board intel DP55WB con un procesador Core i3,
+> lamentablemente en la instalacion me aparece que no reconoce ningun
+> dispositibo de CD-ROOM y bueno trate de dar una net install pero tampoco
+> reconoce la targeta de red, bueno dije tratare de pegar en el disco duro
+> pero tampoco reconoce el disco, creo mas bien que no me reconoce ningun
+> controlador, y en la pagina web de intel no hay controladores para linux
+> para este modelo y quisiera preguntarles si alguien ya a logrado
+> instalarlo
+> en uno de estos boards dado que no logro encontrar lus por el momento.
+
+Hola Juan Pablo,
+
+Yo puedo entenderte, pero debes saber que en esta lista se escribe en ingl=
+=E9s,=20
+debes enviar tus dudas a:
+
+debian-user-spanish@lists.debian.org
+
+
+Saludos.
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB
+
+--FsscpQKzF/jJk6ya
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkv6zQ0ACgkQYX05bESLMetkzQCdF43nDBeg+XBVOyvG3KPzNcLC
+vhQAn0CNyEs7wir65Q9Wg7bz2exAaOCc
+=VzNs
+-----END PGP SIGNATURE-----
+
+--FsscpQKzF/jJk6ya--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100524190133.GC5444@ghost.local.lan
+
+

@@ -1,0 +1,269 @@
+X-Account-Key: account5
+X-UIDL: GmailId128536aad6776040
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs141982wfj;
+        Sat, 1 May 2010 03:30:20 -0700 (PDT)
+Received: by 10.223.99.78 with SMTP id t14mr2000472fan.85.1272709819406;
+        Sat, 01 May 2010 03:30:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si4695881fks.50.2010.05.01.03.30.18;
+        Sat, 01 May 2010 03:30:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 852D213A4D02; Sat,  1 May 2010 10:30:06 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.9 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3FE222D0C15
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 10:30:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, HTML_MESSAGE=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 65NO8u01EjYS for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 10:29:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id DA50813A49A6
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 10:29:52 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so856316fxm.6
+        for <debian-user@lists.debian.org>; Sat, 01 May 2010 03:29:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=bLD/TMaUgwJJ6s7ijVSvQBmjAloKxrSiizdqs4HsXC8=;
+        b=iTgkRr4ii/rLoqLuxpQaMRrz/gPVk5xCLda4dr8w//VtYC3GzsIUOknTxYWUNcYu4T
+         rEHaIPCYYDcGiIY+0+L69oyTAPqZn3zTimjX8QqRcmhQqcrDJrkDiCFp96jnBbFvt4qA
+         kvcDsIUeyUB8C+xLlWT85/lsXPxJiGbGu8ehM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=mt1fVzETIia/ziK2252ElpdqonQzDVZ4KNKxH8T21p65eEiKUSqn8J/cbRx2gHxn/C
+         hAzXBjBK8UElEUQP0TEeIyQRcS/RGk3AFHMa3o8HbfQQ57qYZMyxO877N4Ppu3lI1493
+         ztjGhiFZeGHXQcK/QUSI5C5waNHCIVh6YhY18=
+MIME-Version: 1.0
+Received: by 10.223.117.164 with SMTP id r36mr1994108faq.28.1272709785157; 
+	Sat, 01 May 2010 03:29:45 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Sat, 1 May 2010 03:29:45 -0700 (PDT)
+In-Reply-To: <r2zd0bf7b0b1005010327ydaafe425jb1e12816c1644c17@mail.csmining.org>
+References: <v2mb36d43c31005010313gc968713chc61e587759958e7d@mail.csmining.org>
+	 <r2zd0bf7b0b1005010327ydaafe425jb1e12816c1644c17@mail.csmining.org>
+Date: Sat, 1 May 2010 12:29:45 +0200
+Message-ID: <j2lb36d43c31005010329l4dfae6faqf959a0f1c5fcd5a8@mail.csmining.org>
+Subject: Re: Can't play 24bit/96kHz flac files
+From: James Stuckey <jhstuckey@csmining.org>
+To: Anand Sivaram <aspnair@csmining.org>
+Cc: debian-user <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=00163662e5dfa57f9e048585d6dd
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <v059piaCw4L.A.KSB.uKA3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575611
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 10:30:06 +0000 (UTC)
+
+--00163662e5dfa57f9e048585d6dd
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sat, May 1, 2010 at 12:27 PM, Anand Sivaram <aspnair@csmining.org> wrote:
+
+> On Sat, May 1, 2010 at 15:43, James Stuckey <jhstuckey@csmining.org> wrote:
+> > If I try to play them in MOC I get: (0) Can't set audio parameters:
+> Invalid
+> > argument
+> >
+> > With mplayer I see:
+> >
+> > MPlayer SVN-r30656 (C) 2000-2010 MPlayer Team
+> > Can't open joystick device /dev/input/js0: No such file or directory
+> > Can't init input joystick
+> > mplayer: could not connect to socket
+> > mplayer: No such file or directory
+> > Failed to open LIRC support. You will not be able to use your remote
+> > control.
+> >
+> > Playing 02 Lohengrin - Prelude, Act 1.flac.
+> > Audio only file format detected.
+> >
+> ==========================================================================
+> > Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders
+> > AUDIO: 96000 Hz, 6 ch, s32le, 6195.6 kbit/33.61% (ratio: 774455->2304000)
+> > Selected audio codec: [ffflac] afm: ffmpeg (FFmpeg FLAC audio)
+> >
+> ==========================================================================
+> > [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open
+> /dev/snd/pcmC0D0p
+> > failed: Device or resource busy
+> > [AO_ALSA] Playback open error: Device or resource busy
+> > Failed to initialize audio driver 'alsa'
+> > [AO OSS] audio_setup: Can't open audio device /dev/dsp: Device or
+> resource
+> > busy
+> > [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open
+> /dev/snd/pcmC0D0p
+> > failed: Device or resource busy
+> > [AO_ALSA] Playback open error: Device or resource busy
+> > [AO ARTS] loading the aRts backend "/usr/lib/libartscbackend.la" failed
+> > [AO ESD] esd_open_sound failed: Connection timed out
+> > AO: [pulse] Init failed: Connection refused
+> > [JACK] cannot open server
+> > ao_nas: init(): Can't open nas audio server -> nosound
+> > [AO SDL] Samplerate: 96000Hz Channels: Stereo Format s32le
+> > [AO SDL] Unsupported audio format: 0x19.
+> > [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open
+> /dev/snd/pcmC0D0p
+> > failed: Device or resource busy
+> > [AO SDL] Unable to open audio: Couldn't open audio device: Device or
+> > resource busy
+> > DVB card number must be between 1 and 4
+> > AO: [null] 96000Hz 6ch s32le (4 bytes per sample)
+> > Video: no video
+> > Starting playback...
+> > A:   3.5 (03.5) of 570.0 (09:30.0)  1.4%
+> > Exiting... (Quit)
+> >
+> > Running file on the file gives:
+> > flac: FLAC audio bitstream data, 24 bit, 6 channels, 96 kHz, 54720000
+> > samples
+> >
+> > This only happens with this file. The file plays on other systems
+> (windows).
+> >
+>
+> Most of the cheap in built audio cards could only support 16bit
+> 44100Hz/48000Hz
+> So just see the specification of your audio card.
+> But audio players could down sample them to 16bit 44100Hz/48000Hz,
+> windows player may be doing that.  But of course, that reduces the
+> quality.
+>
+>
+Ah, okay. So the decoding is being done on the sound card? In what sense
+does the sound card need to support the file type?
+
+--00163662e5dfa57f9e048585d6dd
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Sat, May 1, 2010 at 12:27 PM, Anand S=
+ivaram <span dir=3D"ltr">&lt;<a href=3D"mailto:aspnair@csmining.org">aspnair@g=
+mail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; p=
+adding-left: 1ex;">
+<div><div></div><div class=3D"h5">On Sat, May 1, 2010 at 15:43, James Stuck=
+ey &lt;<a href=3D"mailto:jhstuckey@csmining.org">jhstuckey@csmining.org</a>&gt; w=
+rote:<br>
+&gt; If I try to play them in MOC I get: (0) Can&#39;t set audio parameters=
+: Invalid<br>
+&gt; argument<br>
+&gt;<br>
+&gt; With mplayer I see:<br>
+&gt;<br>
+&gt; MPlayer SVN-r30656 (C) 2000-2010 MPlayer Team<br>
+&gt; Can&#39;t open joystick device /dev/input/js0: No such file or directo=
+ry<br>
+&gt; Can&#39;t init input joystick<br>
+&gt; mplayer: could not connect to socket<br>
+&gt; mplayer: No such file or directory<br>
+&gt; Failed to open LIRC support. You will not be able to use your remote<b=
+r>
+&gt; control.<br>
+&gt;<br>
+&gt; Playing 02 Lohengrin - Prelude, Act 1.flac.<br>
+&gt; Audio only file format detected.<br>
+&gt; =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D<br>
+&gt; Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders<br>
+&gt; AUDIO: 96000 Hz, 6 ch, s32le, 6195.6 kbit/33.61% (ratio: 774455-&gt;23=
+04000)<br>
+&gt; Selected audio codec: [ffflac] afm: ffmpeg (FFmpeg FLAC audio)<br>
+&gt; =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D<br>
+&gt; [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open /dev/snd/pcmC=
+0D0p<br>
+&gt; failed: Device or resource busy<br>
+&gt; [AO_ALSA] Playback open error: Device or resource busy<br>
+&gt; Failed to initialize audio driver &#39;alsa&#39;<br>
+&gt; [AO OSS] audio_setup: Can&#39;t open audio device /dev/dsp: Device or =
+resource<br>
+&gt; busy<br>
+&gt; [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open /dev/snd/pcmC=
+0D0p<br>
+&gt; failed: Device or resource busy<br>
+&gt; [AO_ALSA] Playback open error: Device or resource busy<br>
+&gt; [AO ARTS] loading the aRts backend &quot;/usr/lib/<a href=3D"http://li=
+bartscbackend.la" target=3D"_blank">libartscbackend.la</a>&quot; failed<br>
+&gt; [AO ESD] esd_open_sound failed: Connection timed out<br>
+&gt; AO: [pulse] Init failed: Connection refused<br>
+&gt; [JACK] cannot open server<br>
+&gt; ao_nas: init(): Can&#39;t open nas audio server -&gt; nosound<br>
+&gt; [AO SDL] Samplerate: 96000Hz Channels: Stereo Format s32le<br>
+&gt; [AO SDL] Unsupported audio format: 0x19.<br>
+&gt; [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open /dev/snd/pcmC=
+0D0p<br>
+&gt; failed: Device or resource busy<br>
+&gt; [AO SDL] Unable to open audio: Couldn&#39;t open audio device: Device =
+or<br>
+&gt; resource busy<br>
+&gt; DVB card number must be between 1 and 4<br>
+&gt; AO: [null] 96000Hz 6ch s32le (4 bytes per sample)<br>
+&gt; Video: no video<br>
+&gt; Starting playback...<br>
+&gt; A:=A0=A0 3.5 (03.5) of 570.0 (09:30.0)=A0 1.4%<br>
+&gt; Exiting... (Quit)<br>
+&gt;<br>
+&gt; Running file on the file gives:<br>
+&gt; flac: FLAC audio bitstream data, 24 bit, 6 channels, 96 kHz, 54720000<=
+br>
+&gt; samples<br>
+&gt;<br>
+&gt; This only happens with this file. The file plays on other systems (win=
+dows).<br>
+&gt;<br>
+<br>
+</div></div>Most of the cheap in built audio cards could only support 16bit=
+ 44100Hz/48000Hz<br>
+So just see the specification of your audio card.<br>
+But audio players could down sample them to 16bit 44100Hz/48000Hz,<br>
+windows player may be doing that. =A0But of course, that reduces the<br>
+quality.<br>
+<font color=3D"#888888"></font><br></blockquote><div><font color=3D"#888888=
+"></font><br>Ah, okay. So the decoding is being done on the sound card? In =
+what sense does the sound card need to support the file type? </div></div>
+
+--00163662e5dfa57f9e048585d6dd--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2lb36d43c31005010329l4dfae6faqf959a0f1c5fcd5a8@mail.csmining.org
+
+

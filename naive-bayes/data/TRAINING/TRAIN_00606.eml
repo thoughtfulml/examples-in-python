@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283094c41ec4029
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs18275wfj;
+        Sat, 24 Apr 2010 09:09:36 -0700 (PDT)
+Received: by 10.87.67.8 with SMTP id u8mr2842067fgk.9.1272125375720;
+        Sat, 24 Apr 2010 09:09:35 -0700 (PDT)
+Return-Path: <bounce-debian-volatile-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si4377516fks.23.2010.04.24.09.09.35;
+        Sat, 24 Apr 2010 09:09:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BBAF413A5080; Sat, 24 Apr 2010 16:09:33 +0000 (UTC)
+Old-Return-Path: <pkern@kelgar.0x539.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-AmavisStatus: No, score=-10.0 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-volatile-announce@liszt.debian.org
+Delivered-To: lists-debian-volatile-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1]) by liszt.debian.org (Postfix) with ESMTP id 895C913A504C for <lists-debian-volatile-announce@liszt.debian.org>; Sat, 24 Apr 2010 16:07:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3 tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1]) by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525) with ESMTP id UxzPD6X+NEiF for <lists-debian-volatile-announce@liszt.debian.org>; Sat, 24 Apr 2010 16:07:51 +0000 (UTC)
+Received: from tanaris.0x539.de (cl-421.ham-01.de.sixxs.net [IPv6:2001:6f8:900:1a4::2]) (using TLSv1 with cipher AES256-SHA (256/256 bits)) (Client did not present a certificate) by liszt.debian.org (Postfix) with ESMTPS id 25A9613A5030 for <debian-volatile-announce@lists.debian.org>; Sat, 24 Apr 2010 16:07:51 +0000 (UTC)
+Received: from kelgar.0x539.de ([85.10.226.115]) by tanaris.0x539.de with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32) (Exim 4.69) (envelope-from <pkern@kelgar.0x539.de>) id 1O5htU-0001b5-I6 for debian-volatile-announce@lists.debian.org; Sat, 24 Apr 2010 18:07:48 +0200
+Received: from pkern by kelgar.0x539.de with local (Exim 4.71) (envelope-from <pkern@kelgar.0x539.de>) id 1O5htR-0001A4-HB for debian-volatile-announce@lists.debian.org; Sat, 24 Apr 2010 18:07:45 +0200
+Date: Sat, 24 Apr 2010 18:07:45 +0200
+From: Philipp Kern <pkern@debian.org>
+To: debian-volatile-announce@lists.debian.org
+Subject: [VUA 63-1] Updated python-clamav version
+Message-ID: <20100424160745.GA4438@kelgar.0x539.de>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1; protocol="application/pgp-signature"; boundary="5mCyUwZo2JvN/JJP"
+Content-Disposition: inline
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Spam: 2008-11-04_01 
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Yk944viwqZG.A.Yl.9ex0LB@liszt>
+Resent-From: debian-volatile-announce@lists.debian.org
+X-Mailing-List: <debian-volatile-announce@lists.debian.org> archive/latest/78
+X-Loop: debian-volatile-announce@lists.debian.org
+List-Id: <debian-volatile-announce.lists.debian.org>
+List-Post: <mailto:debian-volatile-announce@lists.debian.org>
+List-Help: <mailto:debian-volatile-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-announce-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 16:09:33 +0000 (UTC)
+
+
+--5mCyUwZo2JvN/JJP
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+---------------------------------------------------------------------------
+Debian Volatile Update Announcement VUA 63-1     http://volatile.debian.org
+debian-volatile@lists.debian.org                            Adam D. Barratt
+April 24th, 2010
+---------------------------------------------------------------------------
+
+Package              : python-clamav
+Version              : 0.4.1-1.1~volatile1 (Lenny)
+Importance           : medium
+
+python-clamav, which provides Python bindings to ClamAV, a virus scanning
+engine, needed a recompilation with the newer clamav 0.95.3.  If you use
+python-clamav directly or through nautilus-clamscan, we strongly recommend
+you to upgrade to this version, as the old version the package was linked
+against stopped working.
+
+
+Upgrade Instructions
+--------------------
+
+You can get the updated packages at
+
+http://volatile.debian.org/debian-volatile/pool/volatile/main/p/python-clamav
+
+and install them with dpkg, or add the volatile archive for Lenny
+to your /etc/apt/sources.list:
+
+ deb http://volatile.debian.org/debian-volatile lenny/volatile main
+ deb-src http://volatile.debian.org/debian-volatile lenny/volatile main
+
+You can also use any of our mirrors.  See
+http://www.debian.org/volatile/volatile-mirrors for the full list of
+mirrors.  The archive signing keys were included in Debian Lenny.
+
+For further information about debian-volatile, please refer to
+http://www.debian.org/volatile/.
+
+If there are any issues, please don't hesitate to get in touch with the
+debian-volatile team.
+
+--5mCyUwZo2JvN/JJP
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvTF1AACgkQ7Ro5M7LPzdgJQgCgv8PzolCyRT5di1dyiMJ6X0h3
+/IMAn3cHctBJi8SVHz8DQWylrJaGTBLC
+=LxlB
+-----END PGP SIGNATURE-----
+
+--5mCyUwZo2JvN/JJP--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-announce-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100424160745.GA4438@kelgar.0x539.de
+
+

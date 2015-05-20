@@ -1,0 +1,244 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283eec166eca1cf
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs128481wfj;
+        Tue, 27 Apr 2010 03:59:43 -0700 (PDT)
+Received: by 10.87.62.17 with SMTP id p17mr1584633fgk.30.1272365980116;
+        Tue, 27 Apr 2010 03:59:40 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si9061956fkt.11.2010.04.27.03.59.38;
+        Tue, 27 Apr 2010 03:59:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 11E5713A59D9; Tue, 27 Apr 2010 10:59:27 +0000 (UTC)
+Old-Return-Path: <aspnair@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9B2BD13A597C
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 10:59:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id lmN4XRAYwVnf for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 10:59:13 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id 33E6413A5735
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 10:59:13 +0000 (UTC)
+Received: by gya1 with SMTP id 1so6055239gya.6
+        for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 03:59:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=EhpeNgX3e3FnS4Aw54WJHFqSjJoPog+UMHsoTUI/RwE=;
+        b=D8cVNWIc8SH5B7qa3jXwnyc/gcYhQn92mW2glGN6w3fdvTvrMM9ca+Y0zhGGJcSgl1
+         50HYAoW+cGlZmBm1i7llzSfnZd1zLUFmOlwlNehZzy2L52ppKSyeDU09HXn2xAxcikGU
+         EWMIdtu0SnatHQaGPgLksoT81lnSeEDqrVp5I=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=N9l1f6PH7ZIOPI6Ngg7bLlA3d4nT6ert5Ig1Y8U6LuRtpryJ6FdCGvOkSvNwTHy5bH
+         F7PzGtGVMa8LmLBeo45SICWjX1snWd8tjXzvorDy5voajV9DO+6ftL/9l7dHvC84wKMV
+         lF9b6xmpBhpPlSQmf059Ng+f9YWkQymq+RZ4s=
+MIME-Version: 1.0
+Received: by 10.150.13.20 with SMTP id 20mr5617153ybm.170.1272365947784; Tue, 
+	27 Apr 2010 03:59:07 -0700 (PDT)
+Received: by 10.150.227.3 with HTTP; Tue, 27 Apr 2010 03:59:07 -0700 (PDT)
+In-Reply-To: <4BD6BEA3.3060705@cegetel.net>
+References: <4BD5CD44.4040807@cegetel.net> <hr4jcs$lid$2@dough.gmane.org>
+	 <4BD5DC01.3070308@cegetel.net> <hr4njr$7kq$1@dough.gmane.org>
+	 <4BD5E68E.5030702@cegetel.net> <hr5fps$l5b$1@dough.gmane.org>
+	 <4BD6BEA3.3060705@cegetel.net>
+Date: Tue, 27 Apr 2010 16:29:07 +0530
+Message-ID: <n2id0bf7b0b1004270359obaa5dd71o6c28249f44f658e3@mail.csmining.org>
+Subject: Re: Ctrl+alt+Fn not showing consoles
+From: Anand Sivaram <aspnair@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=000e0cd7616457903b048535c8d9
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <UmS7wI4PlGL.A.HAH.POs1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575247
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 10:59:27 +0000 (UTC)
+
+--000e0cd7616457903b048535c8d9
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+How about single user mode?  Are you able to get virtual console there.
+Also try to disable gdm/kdm, see whether virtual consoles are working.
+
+On Tue, Apr 27, 2010 at 16:08, rudu <rudu@cegetel.net> wrote:
+
+> Le 27/04/2010 03:48, Hugo Vanwoerkom a =E9crit :
+>
+>>
+>> rudu wrote:
+>>
+>>> Le 26/04/2010 20:55, Hugo Vanwoerkom a =E9crit :
+>>>
+>>>>
+>>>> So are you still running nv?
+>>>>
+>>> Yes
+>>>
+>>>  and what was the driver that wouldn't compile?
+>>>> I run x86-195.36.15 on the latest Sid kernel and it compiles just
+>>>> fine, but I don't (yet) have a AMD64 system.
+>>>>
+>>>
+>>> Excerpt from /var/log/nvidia-installer.log :
+>>>
+>>>> Using: nvidia-installer ncurses user interface
+>>>> WARNING: Skipping the runlevel check (the utility `runlevel` failed
+>>>> to run).
+>>>> -> License accepted.
+>>>> -> Installing NVIDIA driver version 195.36.15.
+>>>> -> Performing CC sanity check with CC=3D"cc".
+>>>> -> Performing CC version check with CC=3D"cc".
+>>>> -> The CC version check failed:
+>>>>
+>>>>   [...]
+>>>>
+>>>
+>>>
+>> Indeed. Forget this if it is beating a dead horse, but did you have
+>> gcc-4.3 + gcc-4.4 both installed? I did and I set the symlink gcc to
+>> gcc-4.3 and that got rid of the message.
+>>
+>
+> Thank you Hugo, I managed to compile the proprietary driver.
+> Now every ctrl+alt+Fn leads to a complete black screen, with no prompt or
+> cursor or anything.
+> Ctrl+alt+F7 works as expected.
+> Could it be that my system stopped creating the consoles at boot time ?
+> What should I check and where ?
+>
+> TIA,
+> Jean-Marc
+>
+>
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a
+> subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BD6BEA3.3060705@cegetel.net
+>
+>
+
+--000e0cd7616457903b048535c8d9
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+How about single user mode? =A0Are you able to get virtual console there.<d=
+iv>Also try to disable gdm/kdm, see whether virtual consoles are working.<b=
+r><br><div class=3D"gmail_quote">On Tue, Apr 27, 2010 at 16:08, rudu <span =
+dir=3D"ltr">&lt;<a href=3D"mailto:rudu@cegetel.net">rudu@cegetel.net</a>&gt=
+;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex;">Le 27/04/2010 03:48, Hugo Vanwoerkom a =E9c=
+rit :<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<br>
+rudu wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div class=3D"im">
+Le 26/04/2010 20:55, Hugo Vanwoerkom a =E9crit :<br>
+</div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex">
+<br><div class=3D"im">
+So are you still running nv?<br>
+</div></blockquote><div class=3D"im">
+Yes<br>
+<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+and what was the driver that wouldn&#39;t compile?<br>
+I run x86-195.36.15 on the latest Sid kernel and it compiles just<br>
+fine, but I don&#39;t (yet) have a AMD64 system.<br>
+</blockquote>
+<br>
+Excerpt from /var/log/nvidia-installer.log :<br>
+</div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex"><div class=3D"im">
+Using: nvidia-installer ncurses user interface<br>
+WARNING: Skipping the runlevel check (the utility `runlevel` failed<br>
+to run).<br>
+-&gt; License accepted.<br>
+-&gt; Installing NVIDIA driver version 195.36.15.<br>
+-&gt; Performing CC sanity check with CC=3D&quot;cc&quot;.<br>
+-&gt; Performing CC version check with CC=3D&quot;cc&quot;.<br>
+-&gt; The CC version check failed:<br>
+<br></div>
+ =A0 [...]<br>
+</blockquote>
+<br>
+</blockquote><div class=3D"im">
+<br>
+Indeed. Forget this if it is beating a dead horse, but did you have<br>
+gcc-4.3 + gcc-4.4 both installed? I did and I set the symlink gcc to<br>
+gcc-4.3 and that got rid of the message.<br>
+</div></blockquote>
+<br>
+Thank you Hugo, I managed to compile the proprietary driver.<br>
+Now every ctrl+alt+Fn leads to a complete black screen, with no prompt or c=
+ursor or anything.<br>
+Ctrl+alt+F7 works as expected.<br>
+Could it be that my system stopped creating the consoles at boot time ?<br>
+What should I check and where ?<br>
+<br>
+TIA,<br>
+Jean-Marc<div class=3D"im"><br>
+<br>
+<br>
+<br>
+<br>
+-- <br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-user-REQUEST@lists.debian=
+.org" target=3D"_blank">debian-user-REQUEST@lists.debian.org</a> with a sub=
+ject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mailto:listmas=
+ter@lists.debian.org" target=3D"_blank">listmaster@lists.debian.org</a><br>
+</div>
+Archive: <a href=3D"http://lists.debian.org/4BD6BEA3.3060705@cegetel.net" t=
+arget=3D"_blank">http://lists.debian.org/4BD6BEA3.3060705@cegetel.net</a><b=
+r>
+<br>
+</blockquote></div><br></div>
+
+--000e0cd7616457903b048535c8d9--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2id0bf7b0b1004270359obaa5dd71o6c28249f44f658e3@mail.csmining.org
+
+

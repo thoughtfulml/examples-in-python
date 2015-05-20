@@ -1,0 +1,125 @@
+X-Account-Key: account5
+X-UIDL: GmailId12882ffc4fbb609d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs20005wfb;
+        Mon, 10 May 2010 09:15:20 -0700 (PDT)
+Received: by 10.223.18.67 with SMTP id v3mr4533780faa.93.1273508119965;
+        Mon, 10 May 2010 09:15:19 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h18si8893769fai.72.2010.05.10.09.15.19;
+        Mon, 10 May 2010 09:15:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5FA6613A5530; Mon, 10 May 2010 16:15:17 +0000 (UTC)
+Old-Return-Path: <frodo@morgul.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-17.4 required=4.0 tests=ALL_TRUSTED,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5108613A54C9
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 16:15:13 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12.001 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, NO_RELAYS=-0.001,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id VCeKQsi741UB for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 16:15:06 +0000 (UTC)
+Received: from minas.morgul.net (minas.ipv6.morgul.net [IPv6:2002:801f:30::1])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id F363213A4FD1
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 16:15:05 +0000 (UTC)
+Received: from frodo by minas.morgul.net with local (Exim 4.69)
+	(envelope-from <frodo@morgul.net>)
+	id 1OBVdG-000625-Ld
+	for debian-kde@lists.debian.org; Mon, 10 May 2010 12:15:02 -0400
+Date: Mon, 10 May 2010 12:15:02 -0400
+From: Noah Meyerhans <noahm@debian.org>
+To: debian-kde@lists.debian.org
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Message-ID: <20100510161502.GJ11428@morgul.net>
+Mail-Followup-To: Noah Meyerhans <noahm@debian.org>,
+	debian-kde@lists.debian.org
+References: <201005071123.48345.lisi.reisz@csmining.org> <201005100538.59408.mgb-debian@yosemite.net> <201005101446.21969.schwarzerf@csmining.org> <201005100557.00725.mgb-debian@yosemite.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="djJN5oi3zFpblwUd"
+Content-Disposition: inline
+In-Reply-To: <201005100557.00725.mgb-debian@yosemite.net>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <uOl6flerjzM.A.xNB.VED6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32315
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 16:15:17 +0000 (UTC)
+
+
+--djJN5oi3zFpblwUd
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+On Mon, May 10, 2010 at 05:57:00AM -0700, Mike Bird wrote:
+> Nor are KDE 3.5 users saying that KDE 4 should not be
+> packaged.  The problem is KDE 4 true believers who are
+> trying to prevent people from using KDE 3.5.
+
+Actually, the problem is that nobody cares enough about KDE 3.5 to
+actually do anything about it.  Yes, fine, there's trinity, but as far
+as anybody can tell, that's just one guy.  I'm sure you could find one
+guy somewhere out there still hacking on Linux 2.2 or something equally
+dead.  Doesn't make it any less dead.
+
+YES, you can have KDE 3.5!  You can even have it as an official part of
+Debian!  Nobody will stop you!  However,  you will need to do some work.
+You will need to make sure that there is sufficient upstream developer
+committment to keep it usable and current, and you will need to make
+sure there is a sufficiently motivated packaging team to keep up with
+upstream work, triage bugs, and cooridinate package updates with
+upstream, the the release teams, the security team, etc etc.  Can you do
+that?
+
+noah
+
+
+--djJN5oi3zFpblwUd
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iD8DBQFL6DEGYrVLjBFATsMRAm+bAJ9kUteaL5SQU4iK2I5NqgwkxRqb0QCfQXPb
+xuJU2uejQSK7eqYFNVh0QRY=
+=mTHt
+-----END PGP SIGNATURE-----
+
+--djJN5oi3zFpblwUd--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100510161502.GJ11428@morgul.net
+
+

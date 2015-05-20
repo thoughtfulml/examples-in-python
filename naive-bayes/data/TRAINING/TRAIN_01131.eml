@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId12831915394cf207
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs26408wfj;
+        Sat, 24 Apr 2010 13:45:28 -0700 (PDT)
+Received: by 10.86.124.8 with SMTP id w8mr3218372fgc.8.1272141927401;
+        Sat, 24 Apr 2010 13:45:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 13si4885745fks.0.2010.04.24.13.45.26;
+        Sat, 24 Apr 2010 13:45:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A41F413A4E41; Sat, 24 Apr 2010 20:45:21 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=FOURLA,IMPRONONCABLE_1,
+	LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD2 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3BA5D13A4946
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 20:45:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, IMPRONONCABLE_1=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD2=0.2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id vytsLFqIjYcz for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 20:45:08 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id A0E1A13A4E29
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 20:45:08 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O5mDn-0000D4-CZ
+	for debian-user@lists.debian.org; Sat, 24 Apr 2010 22:45:03 +0200
+Received: from g225052227.adsl.alicedsl.de ([92.225.52.227])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 22:45:03 +0200
+Received: from nfs_2010 by g225052227.adsl.alicedsl.de with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 22:45:03 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Claudius Hubig <nfs_2010@chubig.net>
+Subject: Audible bell in Metacity
+Date: Sat, 24 Apr 2010 22:41:55 +0200
+Lines: 42
+Message-ID: <hqvl2k$soo$1@dough.gmane.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: g225052227.adsl.alicedsl.de
+X-Newsreader: Claws Mail 3.7.5 (GTK+ 2.20.0; i486-pc-linux-gnu)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jq-QnP-lLQJ.A.QoC.hh10LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574953
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 20:45:21 +0000 (UTC)
+
+Hello List,
+
+I like my audible bell very much. I really really like it =E2=80=93
+unfortunately, Metacity (from current Testing) blocks it in the
+following way:
+
+* "beep" works fine
+* "xkbbell -force" works, but it doesn't w/o the "-force"
+* Gnome-Terminal and all the other applications can only bell
+  "visible", i. e. I get a flash when enabling the visible bell in
+  Metacity's gconf-preferences but no audible bell if I disable it
+  (and leave "audible bell" enabled).
+* The module pcspkr is compiled into the kernel and works fine, as
+  proven above.
+* The volume of the "Bell"-output is at 50% in Alsamixer, and as
+  proven above, ok this way.
+
+I assume this is the same bug as described in
+https://bugs.launchpad.net/ubuntu/+source/metacity/+bug/486154/
+
+and comment 50 seems to provide a solution I didn't test yet =E2=80=93 my
+question is, wether or not there is a Debian-way to enable the bell
+in Metacity or if I have to switch window managers as Piotr Engelking
+did here: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D551590
+
+The hints he gave in this bug report unfortunately don't work for me
+=E2=80=93 I enabled the corresponding keys, but still can't hear a bell,
+probably because I don't use ESD (is there any reason why I should
+install this? ALSA works just fine for me=E2=80=A6)
+
+Best regards,
+
+Claudius
+
+ii  metacity 	1:2.28.0-3	lightweight GTK+ window manager
+ii  gnome-core	1:2.28+7	The GNOME Desktop Environment -- ess=E2=80=A6
+
+--=20
+Home on the Range was originally written in beef-flat.
+
+http://chubig.net/
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqvl2k$soo$1@dough.gmane.org
+
+

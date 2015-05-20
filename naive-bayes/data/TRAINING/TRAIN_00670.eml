@@ -1,0 +1,107 @@
+From - Mon May 18 16:30:25 2009
+X-Account-Key: account2
+X-UIDL: UID4743-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <arivalan.r@curtin.edu.my>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id A59251617A
+	for <m0620212@mail.csmining.org>; Mon, 18 May 2009 16:26:15 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id A1B2F16178
+	for <m0620212@mail.csmining.org>; Mon, 18 May 2009 16:26:15 +0900 (JST)
+X-ASG-Debug-ID: 1242631574-014300500000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1242631574
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251])
+	by spamgw.csmining.org Firewall) with SMTP id D658543865C
+	for <m0620212@mail.csmining.org>; Mon, 18 May 2009 16:26:14 +0900 (JST)
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id n4I7QElM014311
+        for <m0620212@mail.csmining.org>; Mon, 18 May 2009 16:26:14 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id n4I7QErG014308
+        for <hibody@csmining.org>; Mon, 18 May 2009 16:26:14 +0900 (JST)
+Received: from autumn.staff.curtin.edu.my (autumn.staff.curtin.edu.my [203.106.242.153])
+	by ns2.csmining.org  with ESMTP id n4I7Q6Zq008102
+	for <hibody@csmining.org>; Mon, 18 May 2009 16:26:07 +0900 (JST)
+Received: from localhost
+        by curtin.edu.my (Ultimate Mail Server v1.0) with SMTP id ZMW50014;
+        Mon, 18 May 2009 15:30:14 +0800
+Date: Mon, 18 May 2009 07:30:11 +0000
+From: barmumforddanso@aol.com
+Reply-To: barmumforddanso@aol.com
+X-ASG-Orig-Subj: REQUESTING YOUR HUMBLE ASSISTANCE
+Subject: [SPAM]  REQUESTING YOUR HUMBLE ASSISTANCE
+Message-ID: <161769db3fd8896ddd9612a824bdc82d@curtin.edu.my>
+X-Mailer: IceWarp Web Mail 
+X-Originating-IP: 115.132.42.17
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+X-Barracuda-Virus-Scanned: by NICT Anti-SPAM System at csmining.org
+X-ASG-Tag: BRL ([<http://www.barracuda.com/reputation?ip=203.106.242.153>])
+X-Barracuda-Spam-Score: 15.48
+X-Barracuda-Spam-Status: No, SCORE=15.48 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.84637
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.50 BARRACUDA_HEADER_FP20  RBL: Barracuda Reputation
+	                   [<http://www.barracuda.com/reputation?ip=203.106.242.153>]
+	0.55 NO_REAL_NAME           From: does not include a real name
+	0.01 X_MAILER_PRESENT       exists:X-Mailer
+	0.00 UNPARSEABLE_RELAY      Informational: message has unparseable relay lines
+	0.19 MISSING_HEADERS        Missing To: header
+	1.61 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+	1.67 SARE_FRAUD_X5          Matches 5+ phrases commonly used in fraud spam
+	0.01 ADVANCE_FEE_3          Appears to be advance fee fraud (Nigerian 419)
+	0.01 SARE_FRAUD_X4          Matches 4+ phrases commonly used in fraud spam
+	0.01 ADVANCE_FEE_2          Appears to be advance fee fraud (Nigerian 419)
+	0.13 TO_CC_NONE             No To: or Cc: header
+	0.00 ADVANCE_FEE_1          Appears to be advance fee fraud (Nigerian 419)
+	0.01 SARE_FRAUD_X3          Matches 3+ phrases commonly used in fraud spam
+	3.04 ADVANCE_FEE_4          Appears to be advance fee fraud (Nigerian 419)
+	1.67 SARE_FRAUD_X4_2        Matches 4+ phrases commonly used in fraud spam
+	1.67 SARE_FRAUD_X3_2        Matches 3+ phrases commonly used in fraud spam
+	1.76 ADVANCE_FEE_3_2        Appears to be advance fee fraud (Nigerian 419)
+	0.65 ADVANCE_FEE_2_2        Appears to be advance fee fraud (Nigerian 419)
+	2.50 BSF_SC3_TG020          Custom Rule TG020
+X-Barracuda-Spam-Flag: YES
+To: undisclosed-recipients:;
+X-BitDefenderWKS-SpamStamp: v1, build 2.8.21.67767, dwl listed, bayes
+ score: 0(0), pbayes score: 0(0), neunet score: 272(224), flags:
+ [NN_LEGIT_SQARE_BRACKETS_SUBJ; LONG_LINE; NN_UNDISC_RECIPS_NMD;
+ NN_SECURITY_COMPAN_IPX; PLEASURE; LARGISH_BIGGISH1;
+ LEGIT_SUMM_400_WORDS], total: 224(725)
+X-BitDefenderWKS-Spam: No - 224
+
+
+                   
+Dear sir/Madam
+ 
+Firstly, I must solicit your confidence in this transaction; this is by virtue of its nature as being utterly confidential and top secret. Though I know that a transaction of this magnitude will make any one apprehensive and worried, but I am assuring you that all will be well at the end of the day. I have decided to contact you due to the urgency of this transaction, as i have been reliably informed of its swiftness and confidentiality.Let me start by first introducing myself properly to you. My name is Barr.Mumford T Danso, I came to know of you in my private search for a reliable and reputable person to handle a very confidential transaction, which involves a huge sum of money deposited in a security film in Malaysia if this is truly of me, I remain my humble self " Barrister Mumford T. Danso by name.
+ 
+In receipt to your profile, is a pleasure and also necessary to relate   this issue before your hearing, my late Client (Mr Dominic Dim Deng) was returning with a military delegation to the regional capital, Juba, from a political conference in the town of Wau on Friday, 2 May 2008, he should had being in (Juba) for a political era, so their plan clash and my Late Client die. See the website for confirmation, 
+ 
+ (http://news.bbc.co.uk/1/hi/world/africa/7380412.stm). 
+ 
+My aim of writing you this email now, is that My late Client should have being in Malaysia for a project on 4th night of these incident a project that worth the sum of ($25,500.000.00), Twenty Five Millions Five Hundred Thousand Dollars, deposited with a Security company in Malaysia, and he was expected to be Malaysia as soon as he return from juba, eventually this incident occurred. I need your humble assistance to retrieve my late Client funds from the security company into your care as we come over for investment as I can not come out for this fund being his personal Lawyer. All the documents of this money and is whereabouts is in my position,if this proposal is OK by you and you do not wish to take advantage of the trust i hope to bestow on you, then kindly get to me immediately via my e-mail address furnishing me with the below:
+ 
+Your most confidential telephone
+Your most confidential fax
+Your most confidential e-mail address
+ 
+Send them to my email address:barmumforddanso@aol.com, so that I can forward to you the relevant details of this transaction.
+ 
+Thank you in advance for your anticipated co-operation.
+Regards,
+Barr. Mumford T. Danso
+E-Mail:barmumforddanso@aol.com
+DISCLAIMER: The information contained in this email and any attachments is confidential and may be legally privileged. If the recipient of this message is not the intended addressee, be advised that you have received this message in error and that legal professional privilege is not waived and you are requested to re-send to the sender and promptly delete this email and any attachments. If you are not the intended addressee, you are strictly prohibited from using, reproducing, disclosing or distributing the information contained in this email and any attached files. Curtin University of Technology, Sarawak Campus ("Curtin") advises that this email and any attached files should be scanned to detect viruses. Curtin does not represent or warrant that this email including any attachments is free from computer viruses or defects. Curtin shall not be responsible for any loss or damage incurred in use. 
+
+

@@ -1,0 +1,129 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a8127ad83d910
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs33615wfo;
+        Mon, 17 May 2010 14:01:43 -0700 (PDT)
+Received: by 10.143.27.37 with SMTP id e37mr4029879wfj.250.1274130103376;
+        Mon, 17 May 2010 14:01:43 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id f8si5290290wfg.68.2010.05.17.14.01.43;
+        Mon, 17 May 2010 14:01:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id ED4781C4CC71F
+	for <mlsubscriber.tech@csmining.org>; Mon, 17 May 2010 14:01:42 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E426727B4BEEE
+	for <mlsubscriber.tech@csmining.org>; Mon, 17 May 2010 14:01:42 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 7B2CD27B4B883
+	for <java-dev@lists.apple.com>; Mon, 17 May 2010 14:00:48 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 6A6D9D985A1B
+	for <java-dev@lists.apple.com>; Mon, 17 May 2010 14:00:48 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-f1-4bf1ae80bbab
+Received: from smtp112.sbc.mail.mud.yahoo.com (smtp112.sbc.mail.mud.yahoo.com
+	[68.142.198.107])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	B2.6D.07800.08EA1FB4; Mon, 17 May 2010 14:00:48 -0700 (PDT)
+Received: (qmail 12538 invoked from network); 17 May 2010 21:00:47 -0000
+Received: from [4.252.211.242] (hallmike@4.252.211.242 with plain)
+	by smtp112.sbc.mail.mud.yahoo.com with SMTP;
+	17 May 2010 14:00:45 -0700 PDT
+X-Yahoo-SMTP: mNKfHjCswBA95J3_nxaI0I77OQFH
+X-YMail-OSG: E6lJL_MVM1nt8cVgKBxTs8hBCrDctgGTx.yj8M_qmG98ZI9WNJ6fBKbjbNcF4x8lVznwdu7iV.VtDgpa5vu_t5qEN3gCVfH.zi4m9.MPc1A1tHoQIUTOVvGm8kbAOD163EKhrw3CcPgaxpqjI0d2GdpztFNHqRPiPOsyIx4nQmeUmaVpaQjhYzUlM4fR_QW12xgTkw6KPez38VFM.7V8jtfstyaQt5HLSOZiguUf7V2ucogZUiFDu.iHzypuBUQYi85oql3d5Qe9fGsj5zz6.eKk1WL9t5_cc2nCk.VVDhte53TeBnEve_mpBBxhYwlmiZ3JsWLnCiguYxJiLs5rgQ--
+X-Yahoo-Newman-Property: ymail-3
+Mime-Version: 1.0 (Apple Message framework v753.1)
+In-Reply-To: <ADA6BF57-AF13-47AC-B7D5-BD7AA31C52EA@snowtide.com>
+References: <ADA6BF57-AF13-47AC-B7D5-BD7AA31C52EA@snowtide.com>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <CDD98028-9CB1-4132-9F52-B72C6D375DDD@att.net>
+Content-Transfer-Encoding: 7bit
+From: Michael Hall <hallmike@att.net>
+Date: Mon, 17 May 2010 16:00:34 -0500
+To: Java Mac List <java-dev@lists.apple.com>
+X-Pgp-Agent: GPGMail 1.1.2 (Tiger)
+X-Mailer: Apple Mail (2.753.1)
+X-Brightmail-Tracker: AAAAARQpmbA=
+Subject: Re: Hard crashes in java.util.zip.ZipFile.getEntry (radar 7972090)
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+On May 17, 2010, at 9:15 AM, Chas Emerick wrote:
+
+> I see that a new Java update is in the wings, but I don't see  
+> anything in the release notes that might be related to the problem  
+> described in the noted radar report.
+>
+> I thought I'd post here and see if anyone in the know could comment  
+> on that report.  I'm about to start downgrading and attempting to  
+> get back to a stable environment (the crashes are getting too  
+> frequent to bear), but if there's any chance a fix can get into  
+> update 7, then I'd hold off.
+>
+Can't comment to that. As far as I know 'anyone in the know' would  
+have to be Apple or the originator to view that radar.
+You don't indicate the situation where you run into the bug. Have you  
+considered using anything besides Sun java.util.zip?
+This for one turned up quickly looking for (googling)
+java.util.zipfile compatible
+
+A pure java implementation of the java.util.zip library
+
+http://jazzlib.sourceforge.net/
+
+which in turns mentions jzlib which I think I looked at before.
+
+I support some of my own zip related code but not really compatible  
+to ZipFile. Not doing much with it. Plan to probably return to it  
+sometime after 1.7 provides the long awaited pluggable filesystems.
+
+
+
+Mike Hall        hallmike at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforge.net/projects/macnative
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.14 (Darwin)
+
+iJwEAQECAAYFAkvxrnoACgkQUvk/ZSaThTJfngQAoxT26sLpgycWm4GW9WeJcZjm
+qAioJBNGBP0+SQ+oVrEsBAuTTjYgXzcE9uZL0ety4BcEjVfTYY2MDF5qsEVfwqjD
+joLVzmjL9LSbICBE4vRA3dST32TFKgVGzFiTCXf6ryIoduclBjEAw2dbSH2mIWH6
+5Txgk5+GCS96VwaVFhM=
+=9UWL
+-----END PGP SIGNATURE-----
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

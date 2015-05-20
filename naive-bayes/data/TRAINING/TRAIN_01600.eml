@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId128739f44994a175
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs459762wfb;
+        Fri, 7 May 2010 09:35:37 -0700 (PDT)
+Received: by 10.223.72.156 with SMTP id m28mr364007faj.26.1273250137137;
+        Fri, 07 May 2010 09:35:37 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 6si2495159far.39.2010.05.07.09.35.36;
+        Fri, 07 May 2010 09:35:37 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D437A13A5AE0; Fri,  7 May 2010 16:35:27 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5A00E13A5516
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 16:35:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, PGPSIGNATURE=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4oZUoy+3md5V for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 16:35:15 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 3C05213A5734
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 16:35:15 +0000 (UTC)
+Received: (qmail 5250 invoked from network); 7 May 2010 18:35:12 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <noelamac@csmining.org>; 7 May 2010 18:35:12 +0200
+Message-ID: <4BE440FB.2000403@student.ulg.ac.be>
+Date: Fri, 07 May 2010 18:34:03 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: =?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>
+CC: debian-user@lists.debian.org
+Subject: Re: How can I find the port which my HP 50g is connected to? 
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig79F80E130C0B29F99812F29E"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0ZNJkSXniTM.A.fQH.PFE5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576160
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 16:35:27 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig79F80E130C0B29F99812F29E
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+My emacs seems to be buggy. Here is the answer with Thunderbird:
+
+=3D=3D
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Subject: Re: How can I find the port which my HP 50g is connected to?
+Newsgroups: linux.debian.user
+Date: Fri, 07 May 2010 18:30:39 +0200
+Organization: ULg
+
+[[PGP Signed Part:Undecided]]
+[1. text/plain]
+Camale=F3n <noelamac@csmining.org> writes:
+
+> Just type "dmesg" and look for any "ttyUSB*" messages.
+I had to make some grep stuff, because it is actually not shown
+directly (lot of garbage between the recognition and the assignment,
+apparently). Thanks, worked.
+
+[[End of PGP Signed Part]]
+=3D=3D
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+
+
+--------------enig79F80E130C0B29F99812F29E
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvkQPsACgkQM0LLzLt8MhyGlgCeNAfCWvj54VAC9vIqPycWHXj4
+uiwAoJ5+i4YcTHCQsmWiAw9ln1VnMIRP
+=R40p
+-----END PGP SIGNATURE-----
+
+--------------enig79F80E130C0B29F99812F29E--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE440FB.2000403@student.ulg.ac.be
+
+

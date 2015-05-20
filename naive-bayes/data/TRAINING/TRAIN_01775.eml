@@ -1,0 +1,92 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d8a667b6b4ba2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs26128wfi;
+        Wed, 7 Apr 2010 07:22:19 -0700 (PDT)
+Received: by 10.87.71.7 with SMTP id y7mr13929071fgk.63.1270650136690;
+        Wed, 07 Apr 2010 07:22:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si32482382fxm.2.2010.04.07.07.22.15;
+        Wed, 07 Apr 2010 07:22:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3A87113A6663; Wed,  7 Apr 2010 14:22:00 +0000 (UTC)
+Old-Return-Path: <ghe@slsware.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	ONEWORD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 11A8513A6659
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 14:21:54 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, ONEWORD=2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Fp1keT171GIC for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 14:21:46 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from server.slsware.com (a218.slsware.com [209.97.231.218])
+	by liszt.debian.org (Postfix) with ESMTP id 7288213A6650
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 14:21:20 +0000 (UTC)
+Received: from air.slsware.wif (a237.slsware.dmz [192.168.2.237])
+	(Authenticated sender: ghe)
+	by server.slsware.com (server.slsware.com) with ESMTPA id E90514001B0
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 08:21:16 -0600 (MDT)
+Subject: Re: Spam
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Glenn English <ghe@slsware.com>
+X-Mailer: MR/2 Internet Cruiser Edition for OS/2 v3.00.11.18 BETA/60
+In-Reply-To: <87pr2bfo11.fsf@thumper.dhh.gt.org>
+Date: Wed, 7 Apr 2010 08:21:16 -0600
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <CC1A8249-A515-46A9-AF4F-F448F429DD18@slsware.com>
+References: <20100407074237.GA8987@Europa.office> <87pr2bfo11.fsf@thumper.dhh.gt.org>
+To:  <debian-user@lists.debian.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <AqADlvbsJsB.A.1d.IUJvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573508
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 14:22:00 +0000 (UTC)
+
+
+On Apr 7, 2010, at 6:24 AM, John Hasler wrote:
+
+> The latter is mostly a matter of sheer bulk: almost every message that
+> hits the Debian servers is spam. =20
+
+The Debian listmoms might want to pass on their blocking techniques to =
+openBSD -- lotsa spam over there...
+
+--=20
+Glenn English
+ghe@slsware.com
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CC1A8249-A515-46A9-AF4F-F448F429DD18@slsware.com
+
+

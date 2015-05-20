@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c02385d81c2d3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs32725wfo;
+        Sat, 22 May 2010 06:11:12 -0700 (PDT)
+Received: by 10.141.107.15 with SMTP id j15mr2188579rvm.288.1274533872800;
+        Sat, 22 May 2010 06:11:12 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id q20si3718843rvl.138.2010.05.22.06.11.12;
+        Sat, 22 May 2010 06:11:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 909211C2FFE88
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 06:11:12 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8B10827D7F7F5
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 06:11:12 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id C375827D7F17F
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 06:10:08 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id AC594D63FBFB
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 06:10:08 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c82ae00000112c-c4-4bf7d7b0ad0d
+Received: from smtp107.sbc.mail.mud.yahoo.com (smtp107.sbc.mail.mud.yahoo.com
+	[68.142.198.105])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	22.49.04396.0B7D7FB4; Sat, 22 May 2010 06:10:08 -0700 (PDT)
+Received: (qmail 41112 invoked from network); 22 May 2010 13:10:07 -0000
+Received: from [4.252.210.171] (hallmike@4.252.210.171 with plain)
+	by smtp107.sbc.mail.mud.yahoo.com with SMTP;
+	22 May 2010 06:10:07 -0700 PDT
+X-Yahoo-SMTP: mNKfHjCswBA95J3_nxaI0I77OQFH
+X-YMail-OSG: qyCDaVkVM1m3Lxao84bGHoFd586wqPZy1hvRG_R2e2ed_strisbNSRmwXZvMc7jV3qhf3Yh5mDSQf3H7p.z5PUY.2zfiCYrcZUKYDwFpI6RRlarCQNsm2GoROBUIN6It0.vGF_E6dMgMEROfWY9D2vfqyHjW0heychZo6sIKvAHUsDAnZAH1ZbWIo71lNHw8ELN9M2bQh24.dhxYBfXNNUTcjvkWvb7NAEQ1pUZsc0UnoQWw76Y2E20ZInAWQNTM.5QGjoNFpLvRELsegTM1RuiErkQ63taTTxny0JgdO1N_vCN5ls4W9uBkVw--
+X-Yahoo-Newman-Property: ymail-3
+Mime-Version: 1.0 (Apple Message framework v753.1)
+In-Reply-To: <EE2A4220-9CB9-4914-9861-81C499437A8E@mac.com>
+References: <EE2A4220-9CB9-4914-9861-81C499437A8E@mac.com>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <6FF939D1-7778-494E-A811-573BEF1AED0B@att.net>
+Content-Transfer-Encoding: 7bit
+From: Michael Hall <hallmike@att.net>
+Date: Sat, 22 May 2010 08:09:52 -0500
+To: Java Mac List <java-dev@lists.apple.com>
+X-Pgp-Agent: GPGMail 1.1.2 (Tiger)
+X-Mailer: Apple Mail (2.753.1)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: Re: Setting -Xmx dynamically at launch time under 64bit
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+On May 21, 2010, at 9:49 AM, Willis Morse wrote:
+
+> 1) Create a native launcher that queries RAM status and launches  
+> the Java executable with an appropriate -Xmx parameter. There are  
+> several open-source launcher projects  (such as Launch4J) that will  
+> do this, but these only support Windows launchers and they will  
+> only run under Windows. Has anyone heard of a Mac equivalent?
+
+
+What about a java launcher stub. Use Runtime exec to launch a java  
+process. I think this is what the Apache common launcher project code  
+amounts to. It is based on the Tomcat or some such product launcher  
+code and uses a ant task approach but I think in the end just amounts  
+to Runtime exec'd java. Assuming you can decide at Runtime what  
+parameters you want to use.
+
+Mike Hall        hallmike at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforge.net/projects/macnative
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.14 (Darwin)
+
+iJwEAQECAAYFAkv316oACgkQUvk/ZSaThTIUYgQA1mPCmS7+PV50rbyd42CZOsNA
+lFzhnQ9/WVN2bZ4jGtslb/tRWL37M9Rur9+pFYT8ssFjL+V0t4TPO3JJ5Tu0GEAT
+CZUeMVVi1i3qOWYjEAd9E+k7Xv2jl7F5qPiBqNWKLSqS2IcHoAzLtU9oBaH8GmBR
+uL2U2OHgWq3FSj2JrDg=
+=tMkY
+-----END PGP SIGNATURE-----
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

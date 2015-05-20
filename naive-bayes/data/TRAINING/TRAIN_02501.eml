@@ -1,0 +1,153 @@
+X-Account-Key: account5
+X-UIDL: GmailId128cc451ca404cb0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs106212wfo;
+        Mon, 24 May 2010 14:43:21 -0700 (PDT)
+Received: by 10.141.1.1 with SMTP id d1mr4508275rvi.89.1274737401079;
+        Mon, 24 May 2010 14:43:21 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id i19si7078334rvn.62.2010.05.24.14.43.20;
+        Mon, 24 May 2010 14:43:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@kfu.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id A1DFC1C692E99
+	for <mlsubscriber.tech@csmining.org>; Mon, 24 May 2010 14:43:20 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9CFB827E4120B
+	for <mlsubscriber.tech@csmining.org>; Mon, 24 May 2010 14:43:20 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 010A227E40B44
+	for <java-dev@lists.apple.com>; Mon, 24 May 2010 14:42:24 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id D3491D6AAB5C
+	for <java-dev@lists.apple.com>; Mon, 24 May 2010 14:42:24 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c82ae00000112c-bb-4bfaf2bf52d4
+Authentication-Results: mail-in12.apple.com x-tls.subject="/CN=quack.kfu.com";
+	auth=fail (cipher=AES256-SHA)
+Received: from quack.kfu.com (quack.kfu.com [71.141.64.1])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client CN "quack.kfu.com", Issuer "CAcert Class 3 Root" (not verified))
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	68.81.04396.0C2FAFB4; Mon, 24 May 2010 14:42:24 -0700 (PDT)
+Received: from mercury.rwc.silverspringnet.com ([74.121.22.10])
+	(authenticated bits=0)
+	by quack.kfu.com (8.14.3/8.14.3) with ESMTP id o4OLgKNC004323
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO)
+	for <java-dev@lists.apple.com>; Mon, 24 May 2010 14:42:23 -0700 (PDT)
+	(envelope-from nsayer@kfu.com)
+X-DKIM: Sendmail DKIM Filter v2.8.3 quack.kfu.com o4OLgKNC004323
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=kfu.com; s=KFU;
+	t=1274737343; bh=7UMqC8CzxS7IB+2lzxGD2yCDdJgA9CSDFJd3NPtiDPY=;
+	h=Content-Type:Mime-Version:Subject:From:In-Reply-To:Date:
+	Content-Transfer-Encoding:Message-Id:References:To;
+	b=MAECkJJMemUAdpGUzTza/pdoda9ENjhIqAD5lh7SveIcJF+SRtx3Yfdd92tgsqJ3O
+	szO3jd9BfycKcHKth1Lms3rlH+sAycdlFvBYmFBUNnDpBTC6tmubAle6KZ7qCuKtjr
+	QzUF2WBXY0NBDaUMUcfR2zEIcZuGXfnbQ0986Ex8=
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Nick Sayer <nsayer@kfu.com>
+In-Reply-To: <9EB9B867-DE57-4D60-A308-D3F28A59971D@apple.com>
+Date: Mon, 24 May 2010 14:42:19 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <6C7725FF-3141-42E3-9562-70E761ADCE85@kfu.com>
+References: <9EB9B867-DE57-4D60-A308-D3F28A59971D@apple.com>
+To: list Java-dev <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Greylist: Sender succeeded SMTP AUTH, not delayed by milter-greylist-4.2.3
+	(quack.kfu.com [71.141.64.1]);
+	Mon, 24 May 2010 14:42:23 -0700 (PDT)
+X-Brightmail-Tracker: AAAAARRH2Ls=
+Subject: Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are live
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+This update appears to have broken the SunPKCS11 provider... sort of.
+
+Attempting to use an alternate PKCS11 provider while the one while
+
+security.provider.1=3Dsun.security.pkcs11.SunPKCS11 =
+${java.home}/lib/security/sunpkcs11-macosx.cfg
+
+is present in java.security results in things like this (an example from =
+jarsigner):
+
+jarsigner error: java.security.InvalidKeyException: Private keys must be =
+instance of RSAPrivate(Crt)Key or have PKCS#8 encoding
+
+Replacing security.provider.1 with an instance of BouncyCastle (or =
+removing it and renumbering all of the other entries) is a work-around.
+
+On May 18, 2010, at 1:35 PM, Mike Swingler wrote:
+
+> Java developers,
+>=20
+> The latest Java software updates for both Mac OS X 10.6 and 10.5 are =
+now live and available to all Mac OS X customers via Software Update. If =
+you installed any of the developer previews, running Software Update =
+will automatically bring you up to date with the final GM version.
+>=20
+> Manual download links:
+> Java for Mac OS X 10.6 Update 2: <http://support.apple.com/kb/DL971>
+> Java for Mac OS X 10.5 Update 7: <http://support.apple.com/kb/DL972>
+>=20
+>=20
+> Like the last pair of releases, all of the JavaDoc API jars, source =
+jars, native frameworks headers, and tools documentation is in a =
+separate docs package. Be sure to install this package to keep your IDE =
+in sync with the Java platform sources. We've made a number of additions =
+to the eAWT, so you may also want to check out the appledocs.jar if you =
+haven't looked at it in a while.
+>=20
+> Java for Mac OS X 10.6 Update 2 Developer Documentation:
+> =
+<https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftwar=
+e?bundleID=3D20620>
+>=20
+> Java for Mac OS X 10.5 Update 7 Developer Documentation:
+> =
+<https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftwar=
+e?bundleID=3D20621>
+>=20
+>=20
+> The team sends their thanks to everyone who installed the developer =
+previews and helped to make this a great release.
+>=20
+> Warm regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/nsayer%40kfu.com
+>=20
+> This email sent to nsayer@kfu.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

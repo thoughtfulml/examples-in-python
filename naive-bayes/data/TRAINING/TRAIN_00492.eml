@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId128acfd6f923d767
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs25966wfo;
+        Tue, 18 May 2010 12:56:49 -0700 (PDT)
+Received: by 10.141.88.7 with SMTP id q7mr5475510rvl.97.1274212609583;
+        Tue, 18 May 2010 12:56:49 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id q20si769289rvl.61.2010.05.18.12.56.49;
+        Tue, 18 May 2010 12:56:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 46A231C20CB93
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 12:56:49 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 41F1927BD8A2C
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 12:56:49 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 8A94427BD884A
+	for <quicktime-api@lists.apple.com>;
+	Tue, 18 May 2010 12:56:30 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 69336D592C6E
+	for <quicktime-api@lists.apple.com>;
+	Tue, 18 May 2010 12:56:30 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-3c-4bf2f0edbe17
+Received: from mail-px0-f179.google.com (mail-px0-f179.google.com
+	[209.85.212.179])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	5D.F8.05834.EE0F2FB4; Tue, 18 May 2010 12:56:30 -0700 (PDT)
+Received: by pxi13 with SMTP id 13so3329710pxi.24
+	for <quicktime-api@lists.apple.com>;
+	Tue, 18 May 2010 12:56:29 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.141.91.19 with SMTP id t19mr5418908rvl.104.1274212589554; Tue, 
+	18 May 2010 12:56:29 -0700 (PDT)
+Received: by 10.141.1.13 with HTTP; Tue, 18 May 2010 12:56:29 -0700 (PDT)
+In-Reply-To: <4BF2EFD5.2010909@frameforge3d.com>
+References: <AANLkTilscAZcxctg2VhXyF0_fXq12flP-6uXwKHPV9fk@mail.csmining.org>
+	<4BF2EFD5.2010909@frameforge3d.com>
+Date: Tue, 18 May 2010 12:56:29 -0700
+Message-ID: <AANLkTinH7AYZKFSFv1j2HVdTmevsZ0WsQhQUwDKcEVGp@mail.csmining.org>
+From: Bill Appleton <billappleton@dreamfactory.com>
+To: James Walker <jamesw@frameforge3d.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAABRQpH3AUKTIEFCm/QhQp7jgUKg8I
+Cc: quicktime-api@lists.apple.com
+Subject: Re: my movies don't idle
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi James et al,
+
+I am just using QTMovie because I need to draw the contents of the
+movie into a bitmap. So I am grabbing the NSImage of the current frame
+and using that.
+
+Is QTMovie dependant on QTMovieView for events in some fashion?
+
+
+
+thx
+
+bill appleton
+
+
+
+
+
+
+
+On Tue, May 18, 2010 at 12:51 PM, James Walker <jamesw@frameforge3d.com> wr=
+ote:
+> On 5/18/2010 11:55 AM, Bill Appleton wrote:
+>
+>> i am using cocoa and QTMovie to open and play valid movie files
+>
+> Are you using QTMovieView, or QTMovieLayer, or what?
+>
+> --
+> =A0James W. Walker, Innoventive Software LLC
+> =A0<http://www.frameforge3d.com/>
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list =A0 =A0 =A0(QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/billappleton%40dream=
+factory.com
+>
+> This email sent to billappleton@dreamfactory.com
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

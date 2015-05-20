@@ -1,0 +1,169 @@
+X-Account-Key: account5
+X-UIDL: GmailId12832e5411f56f92
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs33281wfj;
+        Sat, 24 Apr 2010 19:56:46 -0700 (PDT)
+Received: by 10.87.47.17 with SMTP id z17mr3713969fgj.39.1272164204673;
+        Sat, 24 Apr 2010 19:56:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si311234fkg.58.2010.04.24.19.56.44;
+        Sat, 24 Apr 2010 19:56:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D6B912E8AF7; Sun, 25 Apr 2010 02:56:38 +0000 (UTC)
+Old-Return-Path: <quail.linux@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.2 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MAILTO_TO_SPAM_ADDR,MDO_CABLE_TV3,SARE_MSGID_LONG45
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 915742E8AF5
+	for <lists-debian-user@liszt.debian.org>; Sun, 25 Apr 2010 02:56:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.607 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, MDO_CABLE_TV3=0.5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wie7zqk9ajtf for <lists-debian-user@liszt.debian.org>;
+	Sun, 25 Apr 2010 02:56:26 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmail. - helo: .mail-qy0-f175.google. - helo-domain: .google.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 2F6692E8AF4
+	for <debian-user@lists.debian.org>; Sun, 25 Apr 2010 02:56:26 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so913933qyk.3
+        for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 19:56:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=8gLrXq8n5o7TMuWYA1nAOSmnxpllIXzcviAKmPZgH4Y=;
+        b=JfG93HIANtyn+JBAbxud8o1EmTJNVjNAadaUD6zutS97PKmVWk4v0907smEFJaw85X
+         ipqGXok1US0aHFQFXX/MHSk502RqY5nYcm+h9CzVioaZzrnC4H7wYOiHEUS68JHtAs7G
+         2axBLAPCLxH7k6EiCxVtj84rxsfpQ7TZix2LY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=UYjWaAfbt4PnLP95o3C0d0Yo3NoKlN8ZUCQcUnfi3Za11T8glIZCoR02vL1UEo8IID
+         E92QG4wJTa/zCQ6IGN0Z9fhf1fPopU4bmNoKyAggEd+JXAD978zHdpZ17CIncRXLBWrT
+         fgo6gjW+32rud6hCACXc+RS5Mz0xgnxIO8z+k=
+MIME-Version: 1.0
+Received: by 10.229.217.14 with SMTP id hk14mr2532854qcb.89.1272164177821; 
+	Sat, 24 Apr 2010 19:56:17 -0700 (PDT)
+Received: by 10.229.224.148 with HTTP; Sat, 24 Apr 2010 19:56:17 -0700 (PDT)
+In-Reply-To: <20100424191139.GH2824@fever.havannah.local>
+References: <l2jc364d9921004230806uaa459490t6e9af463a9845786@mail.csmining.org>
+	 <t2l52d26d931004230811n9fb0a513zf98ad3432ede9f98@mail.csmining.org>
+	 <20100424191139.GH2824@fever.havannah.local>
+Date: Sun, 25 Apr 2010 12:26:17 +0930
+Message-ID: <x2g9b3004971004241956kdd1e6ab5j6bc962f52f9ddc6f@mail.csmining.org>
+Subject: Re: Problem with me Modem Huawei on Debian Lenny
+From: Dale <quail.linux@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6_avAF1XIXO.A.SyE.m960LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574974
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 25 Apr 2010 02:56:38 +0000 (UTC)
+
+On 25 April 2010 04:41, Danny <dannydebont@csmining.org> wrote:
+> Hi Christian,
+>
+> It looks like Vista and Windows 7 people are experiencing the same proble=
+m as
+> you are. If you go to the www.huawei.com forum you will find a bunch of n=
+on
+> linux people have more or less the same problem with communicating with t=
+his
+> modem.
+>
+> Just a stupid question, can Debian see this modem?
+> Do the following for a start just to see if Debian can see it :
+> dmesg | more | grep --color -A1 'dev'
+>
+> It is a simple command but at least you will see if it is recognised
+>
+> Danny
+>
+> On Apr 23 10, Umarzuki Mochlis :
+>> To: Christian Simo <csimo28@csmining.org>
+>> Date: Fri, 23 Apr 2010 23:11:41 +0800
+>> From: Umarzuki Mochlis <umarzuki@csmining.org>
+>> Subject: Re: Problem with me Modem Huawei on Debian Lenny
+>> X-Loop: debian-user@lists.debian.org
+>>
+>> i had done that once and documented it at=C2=A0http://umarzuki.org/blogk=
+u/?p=3D174
+>>
+>> P/S: use google translate to translate from Malay to English
+>>
+>> On Fri, Apr 23, 2010 at 11:06 PM, Christian Simo <csimo28@csmining.org> wro=
+te:
+>>
+>> =C2=A0 =C2=A0 Hi Dear Team
+>>
+>> =C2=A0 =C2=A0 Please, I am new on Debian, so I try to connect my Modem H=
+uawei E1752 on
+>> =C2=A0 =C2=A0 Debian Lenny.
+>> =C2=A0 =C2=A0 On Suse, I do it easy
+>>
+>> =C2=A0 =C2=A0 Thanks for your response.
+>>
+>> =C2=A0 =C2=A0 Christian
+>>
+
+Hi,
+
+I have the Huawei E1762 usb dongle running under Lenny and Squeeze
+using pppd as were I live I have no access to dsl or cable.
+
+With Lenny you need to install the the kernel 2.6.30 from Debian
+backports[1] first, as the 2.6.28 kernels onwards will flip flop the
+device for you. At the moment it maybe just being picked up as a mass
+storage device and not a modem if you still using the 2.6.26 kernel.
+And if you want to stay with the 2.6.26 kernel you will have to
+install usb-modeswitch[3].
+
+Setting up wvdial this might help you[2].
+
+
+Regards
+Dale
+
+[1] http://backports.org/dokuwiki/doku.php
+[2] http://quail.southernvaleslug.org/webblog/archives/136
+[3] http://www.draisberghof.de/usb_modeswitch/
+--=20
+[WWW] http://quail.southernvaleslug.org/
+"The significant problems we face cannot be solved at the same level
+of thinking we were at when we created them" - Albert Einstein
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2g9b3004971004241956kdd1e6ab5j6bc962f52f9ddc6f@mail.csmining.org
+
+

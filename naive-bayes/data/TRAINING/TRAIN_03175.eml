@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ef370cb3015e8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs125056wfo;
+        Sun, 11 Apr 2010 16:31:54 -0700 (PDT)
+Received: by 10.114.188.16 with SMTP id l16mr2544867waf.87.1271028714649;
+        Sun, 11 Apr 2010 16:31:54 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 30si10310912pzk.1.2010.04.11.16.31.54;
+        Sun, 11 Apr 2010 16:31:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 646D21BE90418
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 16:31:54 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 5F11426B5D15E
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 16:31:54 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 1571D26B5CF82
+	for <quicktime-api@lists.apple.com>;
+	Sun, 11 Apr 2010 16:31:37 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 052DFCFA3890
+	for <quicktime-api@lists.apple.com>;
+	Sun, 11 Apr 2010 16:31:37 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7cccae000002a80-e0-4bc25bd7ec15
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.157])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	D6.4A.10880.8DB52CB4; Sun, 11 Apr 2010 16:31:36 -0700 (PDT)
+Received: by fg-out-1718.google.com with SMTP id e12so956181fga.6
+	for <quicktime-api@lists.apple.com>;
+	Sun, 11 Apr 2010 16:31:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:received:message-id:subject:from:to:cc:content-type;
+	bh=i5HXkpuVik9oUvST/XulZKmSk1l3yRONXCv2bGg8Ku0=;
+	b=CS0vFoBToFSAv8fRefl0gp7DgPj6tWILLOsIuX3HZKnr4SFAxNgUtT89Z4Kntz5zkh
+	azGByf4NpeuvjT8ARZ1ZUYi+uBP9vllKqRk6VfoArYVvuiCbawFZIE5vAfwKUFAiVDaT
+	oEV1OvstP/iXDd/adS27DthQV1T6YCfYpg4zY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type;
+	b=W6EyOfCJa3bvUznP0/t6VI0Tpx61b1sWxelROKl2Ud4rWklVOJs6uZN8zB4oIdQoBH
+	l/OLL3oTmssbOJ6xVXbI51wemeehfxM/B3YbRpIlHjDRuani2KYmoBk18gfgYuHyu5J5
+	yn0bBFU0MD/EopTOSQbN097seKmUuitEYFL9I=
+MIME-Version: 1.0
+Received: by 10.223.103.75 with HTTP; Sun, 11 Apr 2010 16:24:08 -0700 (PDT)
+In-Reply-To: <4B46BAA9-3006-41CD-9725-51FE389001AF@jwwalker.com>
+References: <4BBE23D7.40901@frameforge3d.com>
+	<008801cad7e1$00327280$00975780$@com>
+	<4BBF743B.6040005@frameforge3d.com>
+	<96C80517-9A31-43A8-BE1B-1DE74217C166@csmining.org>
+	<048500BD-EE80-4DC0-AB93-EC052B136260@jwwalker.com>
+	<6E51C7BC-36A3-45C2-AD75-33B49394124A@csmining.org>
+	<4B46BAA9-3006-41CD-9725-51FE389001AF@jwwalker.com>
+Date: Mon, 12 Apr 2010 01:24:08 +0200
+Received: by 10.223.21.204 with SMTP id k12mr2273003fab.11.1271028248960; Sun, 
+	11 Apr 2010 16:24:08 -0700 (PDT)
+Message-ID: <m2z744df76b1004111624k5f3ac66cnea0f77cca27a46e8@mail.csmining.org>
+From: =?ISO-8859-1?Q?Rapha=EBl_Ding=E9?= <raphael.dinge@csmining.org>
+To: "James W. Walker" <osx@jwwalker.com>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAhOdpHETnoDt
+Cc: quicktime-api@lists.apple.com
+Subject: Re: Compositing two movies
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> OK... there are also some warnings:
+>
+> 'QTCaptureSession' may not respond to '-setDelegate:'
+> 'QTCaptureSession' may not respond to '-setEnabled:'
+>
+> 'QTCaptureVideoPreviewOutput' may not respond to '-connectedChannels'
+> 'QTCaptureVideoPreviewOutput' may not respond to '-setVisualContext:forChannel:'
+>
+> It does mix two movies now, it just doesn't see my computer's camera.
+
+Yes, sure, but my point was only about having two movies perfectly in sync,
+and this sample code is just a way to achieve it !
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

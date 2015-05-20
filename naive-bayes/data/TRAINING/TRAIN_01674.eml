@@ -1,0 +1,145 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283cc1f5da5619f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs110120wfj;
+        Mon, 26 Apr 2010 17:54:25 -0700 (PDT)
+Received: by 10.87.50.6 with SMTP id c6mr3682788fgk.41.1272329663913;
+        Mon, 26 Apr 2010 17:54:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si6814157fka.32.2010.04.26.17.54.23;
+        Mon, 26 Apr 2010 17:54:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5968C6C8421; Tue, 27 Apr 2010 00:54:18 +0000 (UTC)
+Old-Return-Path: <quail.linux@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.6 required=4.0 tests=FOURLA,GMAIL,GOOGLESEARCH,
+	LDOSUBSCRIBER,LDO_WHITELIST,MAILTO_TO_SPAM_ADDR,SARE_MSGID_LONG45
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7FF146C8431
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 00:54:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, GOOGLESEARCH=2,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LSFoIT+lwwCf for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 00:54:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 3549C6C8414
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 00:53:53 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so3942770qyk.3
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 17:53:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=2sZMea8FjgjzvkBOuWVmWJ78aESNCY9gt0nkzBF4PFs=;
+        b=Tmuq14ddY/CLyhcbUwdgt9IK409abN+u+/GzkT2AQaML8GFLejEIjNeL/iCjYF74r/
+         52HYt7ur1lyQPfSJwdRrKSUvj37zUaJno5LxHGgWTO8Fc5btFi3ezpbxUcX/Rt91qIfa
+         yPOBbeu0bELpR5/LQnhO9OALi4KJOuDEhpbjk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=M9ZtmyV8eA65XgVpXP1QODtU+DhDRzwbzgCuOlUecIodVrs7aqy17ClCusVs9c/mDr
+         gzzvbIr898SkE5t3t76Ndk8vUw4PMYwCO/e0bTn+HsF6LEOVfYJvRv0EEHBVJZs7CtyE
+         mit44MIqRY8dDmEtcaFUulUYG/42j+rY+opbs=
+MIME-Version: 1.0
+Received: by 10.229.192.10 with SMTP id do10mr6095561qcb.48.1272329624733; 
+	Mon, 26 Apr 2010 17:53:44 -0700 (PDT)
+Received: by 10.229.224.148 with HTTP; Mon, 26 Apr 2010 17:53:44 -0700 (PDT)
+In-Reply-To: <g2pc364d9921004260100pa2672f76vc4b7e23a2740053d@mail.csmining.org>
+References: <l2jc364d9921004230806uaa459490t6e9af463a9845786@mail.csmining.org>
+	 <t2l52d26d931004230811n9fb0a513zf98ad3432ede9f98@mail.csmining.org>
+	 <20100424191139.GH2824@fever.havannah.local>
+	 <x2g9b3004971004241956kdd1e6ab5j6bc962f52f9ddc6f@mail.csmining.org>
+	 <g2pc364d9921004260100pa2672f76vc4b7e23a2740053d@mail.csmining.org>
+Date: Tue, 27 Apr 2010 10:23:44 +0930
+Message-ID: <l2p9b3004971004261753j2711a79ap35e26c7ea402d421@mail.csmining.org>
+Subject: Re: Problem with me Modem Huawei on Debian Lenny
+From: Dale <quail.linux@csmining.org>
+To: Christian Simo <csimo28@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <oHXRTCHJqTD.A.RkB.6Wj1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575196
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 00:54:18 +0000 (UTC)
+
+On 26 April 2010 17:30, Christian Simo <csimo28@csmining.org> wrote:
+> Hi
+>
+> Thank you for your response.
+> before try all this solution.
+> Please found attach all following command shell:
+>
+> Script started on Sun 25 Apr 2010 23:25:36 SAST
+> gaelle:/media/TUX-FOR-KOM# lsusb
+> Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+> Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> Bus 002 Device 003: ID 1267:0103 Logic3 / SpectraVideo plc G-720 Keyboard
+> Bus 002 Device 002: ID 045e:001e Microsoft Corp. IntelliMouse Explorer
+> Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> Bus 001 Device 005: ID 12d1:1446 Huawei Technologies Co., Ltd. E1552
+> (HSPA modem)
+> Bus 001 Device 003: ID 058f:6387 Alcor Micro Corp. Transcend JetFlash
+> Flash Drive
+> Bus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> gaelle:/media/TUX-FOR-KOM# exit
+> exit
+>
+
+Hi,
+
+Your usbids look totally different to mine for E1762. maybe yours has
+different chipset?
+
+# lsusb
+....
+Bus 001 Device 042: ID 12d1:1003 Huawei Technologies Co., Ltd. E220
+HSDPA Modem / E270 HSDPA/HSUPA Modem
+....
+
+Also a quick google[1] of the usbids for your dongle resulted in some
+interesting howtos
+
+Regards
+Dale
+
+[1] http://www.google.com/search?q=12d1%3A1446&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:unofficial&client=iceweasel-a
+-- 
+[WWW] http://quail.southernvaleslug.org/
+"The significant problems we face cannot be solved at the same level
+of thinking we were at when we created them" - Albert Einstein
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/l2p9b3004971004261753j2711a79ap35e26c7ea402d421@mail.csmining.org
+
+

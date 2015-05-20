@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId12806e92f100695d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs25035wfj;
+        Fri, 16 Apr 2010 06:57:46 -0700 (PDT)
+Received: by 10.87.53.22 with SMTP id f22mr1415175fgk.41.1271426264688;
+        Fri, 16 Apr 2010 06:57:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si3842622fka.43.2010.04.16.06.57.44;
+        Fri, 16 Apr 2010 06:57:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 35A5513A5DB7; Fri, 16 Apr 2010 13:57:39 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 11BCD13A5DA5
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 13:57:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nchgQeY9FhgT for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 13:57:24 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id 43D4B13A5DAF
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 13:57:18 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=/Vp6wQ46wMw7T80S5PH4CCw9HlDADkkXN/jgXPiqTG8= c=1 sm=0 a=qhkFTjdWoSEA:10 a=FKkrIqjQGGEA:10 a=IkcTkHD0fZMA:10 a=ovFgSQt-8-wjkFi7fIUA:9 a=npeLkuWE5S_pEDbkbU4A:7 a=wYAUDGItxJj5olzWE17yiq9cHXwA:4 a=QEXdDO2ut3YA:10 a=gyiifEdC2zy2sGm8:21 a=nSV9w9iLkkMjcoCk:21 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:34468] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 92/D8-00786-BBC68CB4; Fri, 16 Apr 2010 09:57:15 -0400
+Date: Fri, 16 Apr 2010 09:57:14 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <1199837131.68150.1271426234785.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <65674052.56609.1271380183436.JavaMail.root@md01.wow.synacor.com>
+Subject: Re: C programming question
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [66.145.136.6]
+X-Mailer: Zimbra 6.0.5_GA_2213.RHEL4_64 (zclient/6.0.5_GA_2213.RHEL4_64)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PPI1fWcyG7N.A.Lk.TzGyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574256
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 13:57:39 +0000 (UTC)
+
+On Thu, 15 Apr 2010 21:09:43 -0400 (EDT), Stephen Powell wrote:
+> On Thu, 15 Apr 2010 20:43:21 -0400 (EDT), Ron Johnson wrote:
+>> On 2010-04-15 19:37, Stephen Powell wrote:
+>>> 
+>>> I'm going to be filing a bug report against parted for (a) miscalculating
+>>> the starting block of the implicit partition on an ldl (Linux Disk Layout)
+>>> formatted disk on the s390 architecture when the block size is other than
+>>> 4096, and (b) no support for CMS-formatted disks.
+>> 
+>> If practical, I hope you file 2 bugs.
+> 
+> I hear you.  I'll have to look at the code to see if that's easily separated
+> out.  I started with the purpose of adding an enhancement to support CMS
+> formatted disks.  I stumbled across the bug in the starting block calculation
+> for ldl formatted disks in the process.  CMS formatted disks are handled
+> *exactly* the same as ldl formatted disks if the disk is not reserved.  I
+> would have had to fix that bug anyway to add support for CMS disks, since
+> I wanted the CMS support to be correct.  The only wrinkle was correctly
+> handling reserved CMS disks.  To do that I had to access the reserved block
+> offset in the CMS label, which prompted this thread.
+> 
+> All of this is specific to the s390 architecture and has no bearing on i386,
+> amd64, ia64, etc.  I hope upstream (GNU, I believe) will accept the fix.
+> I have no reason to believe that they won't.
+
+It appears impractical to separate the enhancement from the fix, since the
+former is dependent on the latter.  I will open the bug report as a wishlist
+enhancement request and provide the patches.  If it is accepted, the LDL
+bug will get fixed too as a fringe benefit.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1199837131.68150.1271426234785.JavaMail.root@md01.wow.synacor.com
+
+

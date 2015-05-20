@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283c2f38128e363
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs106073wfj;
+        Mon, 26 Apr 2010 15:14:07 -0700 (PDT)
+Received: by 10.115.114.37 with SMTP id r37mr5389181wam.97.1272320047573;
+        Mon, 26 Apr 2010 15:14:07 -0700 (PDT)
+Return-Path: <bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 40si1370695pzk.23.2010.04.26.15.14.07;
+        Mon, 26 Apr 2010 15:14:07 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 5BF271C2D1C5E
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 15:14:07 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 56C602723A551
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 15:14:07 -0700 (PDT)
+X-Original-To: bluetooth-dev@lists.apple.com
+Delivered-To: bluetooth-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id DBDB32723A51C
+	for <bluetooth-dev@lists.apple.com>;
+	Mon, 26 Apr 2010 15:14:03 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id CC047D258B23
+	for <bluetooth-dev@lists.apple.com>;
+	Mon, 26 Apr 2010 15:14:03 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-aa-4bd6102bbfad
+Received: from mail-pv0-f179.google.com (mail-pv0-f179.google.com
+	[74.125.83.179])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	BC.6A.25880.B2016DB4; Mon, 26 Apr 2010 15:14:03 -0700 (PDT)
+Received: by pvb32 with SMTP id 32so897942pvb.24
+	for <bluetooth-dev@lists.apple.com>;
+	Mon, 26 Apr 2010 15:14:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:mime-version:received:in-reply-to
+	:references:from:date:message-id:subject:to:cc:content-type
+	:content-transfer-encoding;
+	bh=E90XZF4EQhLQgKIzPRbxO16d0kCcRV9u9Bw1D/neq7E=;
+	b=HEgnl3JeyvCsSkUdDpw3fR10okEcL42PaA8kHEj7u/DE7GqmrPvCCcYs8JNOWRSvp/
+	wKJL5FOLch9l7q8ZnUTqSZA+2s6hjZyGCBYFgkZEFNnSfUINfJnHNS6WIKeZtV6LZ7w3
+	o4RUJsS9xBe9eIKW0jelabYkHxFCJrlgPiY4M=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+	:cc:content-type:content-transfer-encoding;
+	b=lx4W7beGPOSGL8wkXnZ5KkEeY+UkQCEzObtCSn78vBKW9Nes1Wtcq0Fu/evbn/QGB+
+	fXbAQE4cs1rbOigUmfgwHJ4s8s1Yx7VVWVzNd59MfrYdj8eHey8iGP12lZGjuhw3Pmfx
+	UYI+MpsedCHLFww2rOGQaxO47381ZRjSTj17A=
+Received: by 10.114.33.8 with SMTP id g8mr5433391wag.225.1272320043306; Mon, 
+	26 Apr 2010 15:14:03 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.155.195 with HTTP; Mon, 26 Apr 2010 15:13:43 -0700 (PDT)
+In-Reply-To: <8FAB81E6-07B5-46FF-97C2-A362E056DEDD@mac.com>
+References: <8FAB81E6-07B5-46FF-97C2-A362E056DEDD@mac.com>
+From: Dave Keck <davekeck@csmining.org>
+Date: Mon, 26 Apr 2010 12:13:43 -1000
+Message-ID: <k2r360bd19f1004261513xbd185d2ci197466ff1f5f8094@mail.csmining.org>
+To: David Giovannini <dsjove@mac.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAhPZj8ET2ZbH
+Cc: bluetooth-dev@lists.apple.com
+Subject: Re: Bluetooth and runloops in a dedicated thread.
+X-BeenThere: bluetooth-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "Mailing list for Bluetooth developer discussion."
+	<bluetooth-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:bluetooth-dev@lists.apple.com>
+List-Help: <mailto:bluetooth-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=subscribe>
+Sender: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> I have an old project that I am restarting, and under Snow Leopard it is
+> broke. The problem didn't have a well documented solution in older OSes. =
+I
+> am hoping to get some guidance.=A0I would like to have a dedicated thread=
+ for
+> every=A0IOBluetoothDevice/IOBluetoothRFCOMMChannel pair.
+> The runloop below exits immediately.=A0IOBluetoothValidateHardware used t=
+o
+> perform enough side-effect magic to keep the runloop running. What
+> should=A0startBlueToothThread look like?
+
+To my knowledge, no part of the Bluetooth frameworks documentation
+says anything about thread safety, and for that reason you must assume
+that it is only safe to use from the main thread.
+
+Also, a thread's run loop will only run if it has either run loop
+sources or timers attached; the fact that NSRunLoop's -run ever
+returns means that it has neither. This is what I would expect based
+on your -startBlueToothThread: method, as it doesn't appear to create
+a source or timer. If you wanted to keep the thread alive, I would
+attach a dummy timer to the run loop that fires after some
+extraordinary amount of time. (Assuming you're not using the Bluetooth
+APIs on the thread...)
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

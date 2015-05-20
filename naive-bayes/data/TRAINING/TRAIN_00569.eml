@@ -1,0 +1,498 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283629e503d3012
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs55203wfj;
+        Sun, 25 Apr 2010 11:14:37 -0700 (PDT)
+Received: by 10.87.70.20 with SMTP id x20mr5224237fgk.33.1272219034801;
+        Sun, 25 Apr 2010 11:10:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si1122100fks.23.2010.04.25.11.10.34;
+        Sun, 25 Apr 2010 11:10:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D96D413A535D; Sun, 25 Apr 2010 18:10:27 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.2 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	IMPRONONCABLE_1,IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,
+	MAILTO_TO_SPAM_ADDR,MONOTONE_WORDS_2_15,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,
+	SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4F62613A5314
+	for <lists-debian-user@liszt.debian.org>; Sun, 25 Apr 2010 18:10:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=0.793 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BODY_8BITS=1.5, FOURLA=0.1, GMAIL=1,
+	HTML_MESSAGE=1, IMPRONONCABLE_1=1, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MONOTONE_WORDS_2_15=1, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id u1Ekk6mHz9kX for <lists-debian-user@liszt.debian.org>;
+	Sun, 25 Apr 2010 18:10:13 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmail. - helo: .fg-out-1718.google. - helo-domain: .google.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.157])
+	by liszt.debian.org (Postfix) with ESMTP id 4867913A5141
+	for <debian-user@lists.debian.org>; Sun, 25 Apr 2010 18:09:58 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id e21so1422961fga.12
+        for <debian-user@lists.debian.org>; Sun, 25 Apr 2010 11:09:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=kShE5PkLtVYdFIc+AKdTjg9d5j/Ba2foTLf9GJfzdSM=;
+        b=jktcWjr19iL6Ijkff9B8KK3yku2GTQF2qVumcwSu0pJHMWI69p8oSxlm+dogf6o6az
+         r9UHtgpZjN5rdI8xYtmLochxPOVMKFnfRhfkITSaV2Zg2NZpOuMZnKDsXF+HFGxqA76/
+         QHT5b2Qet8Aq5ek40QGNKS7DSHt/DEF+ghZx4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=HPpX4GbWNuZj7YCZZs6BRrv10LdhKkFb3jNX5MQ1uUgSohGmGRUvQtwEcP425FQoJw
+         aMuYuzntwenvFCwoJYEoOzqFkqLILsENWlO/YlhvNTER27/RPHYm9i/qWT1COv/rVK3s
+         HG5dcbC/Nuna9XwukGuPgzP+JW8GVba67947w=
+MIME-Version: 1.0
+Received: by 10.87.50.37 with SMTP id c37mr5142898fgk.68.1272218990339; Sun, 
+	25 Apr 2010 11:09:50 -0700 (PDT)
+Received: by 10.223.104.20 with HTTP; Sun, 25 Apr 2010 11:09:50 -0700 (PDT)
+In-Reply-To: <h2ob36d43c31004251108p538846e9o25dc11d340dd5898@mail.csmining.org>
+References: <l2zb36d43c31004222254l85ffd9c6hfdc312c167665381@mail.csmining.org>
+	 <o2xb61e184d1004230027q921e6e9ej23493df03c0ccf2f@mail.csmining.org>
+	 <r2gb36d43c31004230221wde115f8fq81c1a8889d93cd75@mail.csmining.org>
+	 <20100425085507.GA1206@galactic.demon.co.uk>
+	 <o2gb36d43c31004250311t5b903946q5a5a0fca0d7414cf@mail.csmining.org>
+	 <20100425170658.GA1695@galactic.demon.co.uk>
+	 <h2ob36d43c31004251108p538846e9o25dc11d340dd5898@mail.csmining.org>
+Date: Sun, 25 Apr 2010 20:09:50 +0200
+Message-ID: <g2yb36d43c31004251109udc2999f5id70ea5f63411c518@mail.csmining.org>
+Subject: RE: Can't read DVD
+From: James Stuckey <jhstuckey@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=001485f85b14fee85804851390ee
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <rZi6NzzoGjG.A.SHC.TWI1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575035
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 25 Apr 2010 18:10:27 +0000 (UTC)
+
+--001485f85b14fee85804851390ee
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+On Sun, Apr 25, 2010 at 7:06 PM, Andrew M.A. Cater <
+amacater@galactic.demon.co.uk> wrote:
+
+> On Sun, Apr 25, 2010 at 12:11:57PM +0200, James Stuckey wrote:
+> > stuckey@debian:~$ cat /etc/fstab
+> > # /etc/fstab: static file system information.
+> > #
+> > # Use 'vol_id --uuid' to print the universally unique identifier for a
+> > # device; this may be used with UUID=3D as a more robust way to name
+> devices
+> > # that works even if disks are added and removed. See fstab(5).
+> > #
+> > # <file system> <mount point>   <type>  <options>       <dump>  <pass>
+> > proc            /proc           proc    defaults        0       0
+> > # / was on /dev/sda1 during installation
+> > UUID=3Dcca7add1-981f-469f-9285-ae17722e24bd /               ext3
+> > errors=3Dremount-ro 0       1
+> > # swap was on /dev/sda5 during installation
+> > UUID=3D334c0de5-c6b2-4990-a49b-83f4dd0c0a0d none            swap
+> > sw              0       0
+> > /dev/scd0       /media/cdrom0   udf,iso9660 user,noauto     0       0
+> > /dev/fd0        /media/floppy0  auto    rw,user,noauto  0       0
+> >
+> > By the way, how do I reply to the list on gmail?
+> >
+> >
+> > On Sun, Apr 25, 2010 at 10:55 AM, Andrew M.A. Cater <
+> > amacater@galactic.demon.co.uk> wrote:
+> >
+> > > On Fri, Apr 23, 2010 at 11:21:33AM +0200, James Stuckey wrote:
+> > > > That worked, thanks!
+> > > >
+> > > > If one has to do this every time, why is it that these options aren=
+'t
+> > > listed
+> > > > in /etc/fstab?
+> > > >
+> > > > On Fri, Apr 23, 2010 at 9:27 AM, =E5=88=98=E5=AE=87=E8=BE=89 <lyh19=
+901223@csmining.org> wrote:
+> > > >
+> > > > >
+> > > > >
+> > > > > On 23 April 2010 13:54, James Stuckey <jhstuckey@csmining.org> wrote=
+:
+> > > > > >
+> > > > > > I'm not able to read DVDs in squeeze. I burned this disc on the
+> same
+> > > > > > drive in squeeze. Thereafter it worked fine until a week or so
+> ago
+> > > > > > (the disc is less than a month old). I tested the disc last wee=
+k
+> on a
+> > > > > > windoze and mac osx and it worked without a problem.
+> > > > > >
+> > > > > > When I try to mount the cd/dvd rom drive:
+> > > > > > stuckey@debian:~$ mount /dev/scd0
+> > > > > > mount: block device /dev/sr0 is write-protected, mounting
+> read-only
+> > > > > > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+> > > > >
+> > > > > try the whole options and arguments
+> > > > > mount -o loop -t iso9660 /dev/scd0 /mnt
+> > > > >
+> > > > >
+> > >
+> > > mount /cdrom usually works - what does your fstab say for /dev/sr0 ?
+> > >
+> > >
+> If you look at the /etc/fstab -
+>
+> You have something that will read CD (iso9660) and DVD (udf) format for
+> a device mounted at /media/cdrom0 in this case.
+>
+> Gnome automount daemon or equivalent would find it there and offer to
+> open it for you.
+>
+> In root ( /)
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>
+> In /, you may have a symlink which points cdrom -> /media/cdrom
+>
+> Further down in the filesystem, under /dev, udev or its equivalent
+> normally points an alias to the same physical device during the
+> installation process.
+>
+> In /dev
+> =3D=3D=3D=3D=3D=3D=3D=3D
+> In my case /dev/hda is the physical device, so in /dev, cdrom is linked
+> to hda as is cdrw - all pointing back ot /dev/hda
+>
+> ls -al cdrom gives
+>
+> cdrom -> hda
+>
+> Same for DVD. [dvd, dvdrw]
+>
+> If you want to mount something temporarily e.g. to copy something off an
+> .iso image (it's also worth looking at and learning how to loop mount an
+> .iso image), something like the following as root where /tmp/tempcd is a
+> temporary mountpoint you'll remove later.
+>
+> mkdir /tmp/tempcd
+>
+> mount -t iso9660 /dev/hda /tmp/tempcd
+>
+> cp /tmp/tempcd/* /home/<username/
+>
+> so the second line is the equivalent of the mount command you normally
+> have in your /etc/fstab
+>
+> Reply to list on gmail - add as a secondary addressee?
+> HTH,
+>
+> AndyC
+>
+>
+I'm not using a DE.
+
+root@debian:/home/stuckey# mount -t iso9660 /dev/scd0 /media/cdrom0/
+
+mount: block device /dev/sr0 is write-protected, mounting read-only
+mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+       missing codepage or helper program, or other error
+       In some cases useful info is found in syslog - try
+       dmesg | tail  or so
+
+root@debian:/home/stuckey#
+
+root@debian:/dev# ls -al cdrom
+lrwxrwxrwx 1 root root 3 2010-04-25 20:05 cdrom -> sr0
+
+I don't know but this might be relevant:
+[43045.166624] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK
+driverbyte=3DDRIVER_SENSE
+[43045.166629] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[43045.166633] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track
+[43045.166638] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 40
+00
+[43045.166646] end_request: I/O error, dev sr0, sector 0
+[43045.166649] Buffer I/O error on device sr0, logical block 0
+[43045.166653] Buffer I/O error on device sr0, logical block 1
+[43045.166656] Buffer I/O error on device sr0, logical block 2
+[43045.166659] Buffer I/O error on device sr0, logical block 3
+[43045.166661] Buffer I/O error on device sr0, logical block 4
+[43045.166664] Buffer I/O error on device sr0, logical block 5
+[43045.166666] Buffer I/O error on device sr0, logical block 6
+[43045.166669] Buffer I/O error on device sr0, logical block 7
+[43045.166671] Buffer I/O error on device sr0, logical block 8
+[43045.166674] Buffer I/O error on device sr0, logical block 9
+[43045.169471] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK
+driverbyte=3DDRIVER_SENSE
+[43045.169474] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[43045.169476] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track
+[43045.169479] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 02
+00
+[43045.169483] end_request: I/O error, dev sr0, sector 0
+[43045.237078] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK
+driverbyte=3DDRIVER_SENSE
+[43045.237082] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[43045.237085] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track
+[43045.237089] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 02
+00
+[43045.237096] end_request: I/O error, dev sr0, sector 0
+[43045.237943] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK
+driverbyte=3DDRIVER_SENSE
+[43045.237946] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[43045.237949] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track
+[43045.237953] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 02
+00
+[43045.237960] end_request: I/O error, dev sr0, sector 0
+[43094.764257] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK
+driverbyte=3DDRIVER_SENSE
+[43094.764262] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[43094.764266] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track
+[43094.764271] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 10 00 00 01
+00
+[43094.764279] end_request: I/O error, dev sr0, sector 64
+[43094.764353] isofs_fill_super: bread failed, dev=3Dsr0, iso_blknum=3D16,
+block=3D16
+
+I always see that in dmesg when I insert a CD/DVD.
+
+--001485f85b14fee85804851390ee
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><br><div class=3D"gmail_quote"><div><div></d=
+iv><div class=3D"h5">On Sun, Apr 25, 2010 at 7:06 PM, Andrew M.A. Cater <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:amacater@galactic.demon.co.uk" target=
+=3D"_blank">amacater@galactic.demon.co.uk</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+<div><div></div><div>On Sun, Apr 25, 2010 at 12:11:57PM +0200, James Stucke=
+y wrote:<br>
+&gt; stuckey@debian:~$ cat /etc/fstab<br>
+&gt; # /etc/fstab: static file system information.<br>
+&gt; #<br>
+&gt; # Use &#39;vol_id --uuid&#39; to print the universally unique identifi=
+er for a<br>
+&gt; # device; this may be used with UUID=3D as a more robust way to name d=
+evices<br>
+&gt; # that works even if disks are added and removed. See fstab(5).<br>
+&gt; #<br>
+&gt; # &lt;file system&gt; &lt;mount point&gt; =C2=A0 &lt;type&gt; =C2=A0&l=
+t;options&gt; =C2=A0 =C2=A0 =C2=A0 &lt;dump&gt; =C2=A0&lt;pass&gt;<br>
+&gt; proc =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0/proc =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 proc =C2=A0 =C2=A0defaults =C2=A0 =C2=A0 =C2=A0 =C2=A00 =
+=C2=A0 =C2=A0 =C2=A0 0<br>
+&gt; # / was on /dev/sda1 during installation<br>
+&gt; UUID=3Dcca7add1-981f-469f-9285-ae17722e24bd / =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 ext3<br>
+&gt; errors=3Dremount-ro 0 =C2=A0 =C2=A0 =C2=A0 1<br>
+&gt; # swap was on /dev/sda5 during installation<br>
+&gt; UUID=3D334c0de5-c6b2-4990-a49b-83f4dd0c0a0d none =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0swap<br>
+&gt; sw =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A00 =C2=A0 =C2=A0 =C2=
+=A0 0<br>
+&gt; /dev/scd0 =C2=A0 =C2=A0 =C2=A0 /media/cdrom0 =C2=A0 udf,iso9660 user,n=
+oauto =C2=A0 =C2=A0 0 =C2=A0 =C2=A0 =C2=A0 0<br>
+&gt; /dev/fd0 =C2=A0 =C2=A0 =C2=A0 =C2=A0/media/floppy0 =C2=A0auto =C2=A0 =
+=C2=A0rw,user,noauto =C2=A00 =C2=A0 =C2=A0 =C2=A0 0<br>
+&gt;<br>
+&gt; By the way, how do I reply to the list on gmail?<br>
+&gt;<br>
+&gt;<br>
+&gt; On Sun, Apr 25, 2010 at 10:55 AM, Andrew M.A. Cater &lt;<br>
+&gt; <a href=3D"mailto:amacater@galactic.demon.co.uk" target=3D"_blank">ama=
+cater@galactic.demon.co.uk</a>&gt; wrote:<br>
+&gt;<br>
+&gt; &gt; On Fri, Apr 23, 2010 at 11:21:33AM +0200, James Stuckey wrote:<br=
+>
+&gt; &gt; &gt; That worked, thanks!<br>
+&gt; &gt; &gt;<br>
+&gt; &gt; &gt; If one has to do this every time, why is it that these optio=
+ns aren&#39;t<br>
+&gt; &gt; listed<br>
+&gt; &gt; &gt; in /etc/fstab?<br>
+&gt; &gt; &gt;<br>
+&gt; &gt; &gt; On Fri, Apr 23, 2010 at 9:27 AM, =E5=88=98=E5=AE=87=E8=BE=89=
+ &lt;<a href=3D"mailto:lyh19901223@csmining.org" target=3D"_blank">lyh19901223=
+@csmining.org</a>&gt; wrote:<br>
+&gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt; On 23 April 2010 13:54, James Stuckey &lt;<a href=3D"ma=
+ilto:jhstuckey@csmining.org" target=3D"_blank">jhstuckey@csmining.org</a>&gt; wro=
+te:<br>
+&gt; &gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt; &gt; I&#39;m not able to read DVDs in squeeze. I burned=
+ this disc on the same<br>
+&gt; &gt; &gt; &gt; &gt; drive in squeeze. Thereafter it worked fine until =
+a week or so ago<br>
+&gt; &gt; &gt; &gt; &gt; (the disc is less than a month old). I tested the =
+disc last week on a<br>
+&gt; &gt; &gt; &gt; &gt; windoze and mac osx and it worked without a proble=
+m.<br>
+&gt; &gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt; &gt; When I try to mount the cd/dvd rom drive:<br>
+&gt; &gt; &gt; &gt; &gt; stuckey@debian:~$ mount /dev/scd0<br>
+&gt; &gt; &gt; &gt; &gt; mount: block device /dev/sr0 is write-protected, m=
+ounting read-only<br>
+&gt; &gt; &gt; &gt; &gt; mount: wrong fs type, bad option, bad superblock o=
+n /dev/sr0,<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt; try the whole options and arguments<br>
+&gt; &gt; &gt; &gt; mount -o loop -t iso9660 /dev/scd0 /mnt<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt; &gt; &gt;<br>
+&gt; &gt;<br>
+&gt; &gt; mount /cdrom usually works - what does your fstab say for /dev/sr=
+0 ?<br>
+&gt; &gt;<br>
+&gt; &gt;<br>
+</div></div>If you look at the /etc/fstab -<br>
+<br>
+You have something that will read CD (iso9660) and DVD (udf) format for<br>
+a device mounted at /media/cdrom0 in this case.<br>
+<br>
+Gnome automount daemon or equivalent would find it there and offer to<br>
+open it for you.<br>
+<br>
+In root ( /)<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
+<br>
+In /, you may have a symlink which points cdrom -&gt; /media/cdrom<br>
+<br>
+Further down in the filesystem, under /dev, udev or its equivalent<br>
+normally points an alias to the same physical device during the<br>
+installation process.<br>
+<br>
+In /dev<br>
+=3D=3D=3D=3D=3D=3D=3D=3D<br>
+In my case /dev/hda is the physical device, so in /dev, cdrom is linked<br>
+to hda as is cdrw - all pointing back ot /dev/hda<br>
+<br>
+ls -al cdrom gives<br>
+<br>
+cdrom -&gt; hda<br>
+<br>
+Same for DVD. [dvd, dvdrw]<br>
+<br>
+If you want to mount something temporarily e.g. to copy something off an<br=
+>
+.iso image (it&#39;s also worth looking at and learning how to loop mount a=
+n<br>
+.iso image), something like the following as root where /tmp/tempcd is a<br=
+>
+temporary mountpoint you&#39;ll remove later.<br>
+<br>
+mkdir /tmp/tempcd<br>
+<br>
+mount -t iso9660 /dev/hda /tmp/tempcd<br>
+<br>
+cp /tmp/tempcd/* /home/&lt;username/<br>
+<br>
+so the second line is the equivalent of the mount command you normally<br>
+have in your /etc/fstab<br>
+<br>
+Reply to list on gmail - add as a secondary addressee?<br>
+HTH,<br>
+<br>
+AndyC<br>
+<br></blockquote></div></div><div><br>I&#39;m not using a DE.=C2=A0 <br><br=
+></div></div>root@debian:/home/stuckey# mount -t iso9660 /dev/scd0 /media/c=
+drom0/<div class=3D"im"><br>mount: block device /dev/sr0 is write-protected=
+, mounting read-only<br>
+mount: wrong fs type, bad option, bad superblock on /dev/sr0,<br></div><div=
+ class=3D"im">
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 missing codepage or helper program, or=
+ other error<br></div><div class=3D"im">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0 In some cases useful info is found in syslog - try<br>=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0 dmesg | tail=C2=A0 or so<br><br></div>root@debian:/ho=
+me/stuckey# <br><br>root@debian:/dev# ls -al cdrom<br>
+
+lrwxrwxrwx 1 root root 3 2010-04-25 20:05 cdrom -&gt; sr0<br><br>I don&#39;=
+t know but this might be relevant: <br>[43045.166624] sr 2:0:0:0: [sr0] Res=
+ult: hostbyte=3DDID_OK driverbyte=3DDRIVER_SENSE<br>[43045.166629] sr 2:0:0=
+:0: [sr0] Sense Key : Illegal Request [current] <br>
+
+[43045.166633] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track<br=
+>[43045.166638] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 40=
+ 00<br>[43045.166646] end_request: I/O error, dev sr0, sector 0<br>[43045.1=
+66649] Buffer I/O error on device sr0, logical block 0<br>
+
+[43045.166653] Buffer I/O error on device sr0, logical block 1<br>[43045.16=
+6656] Buffer I/O error on device sr0, logical block 2<br>[43045.166659] Buf=
+fer I/O error on device sr0, logical block 3<br>[43045.166661] Buffer I/O e=
+rror on device sr0, logical block 4<br>
+
+[43045.166664] Buffer I/O error on device sr0, logical block 5<br>[43045.16=
+6666] Buffer I/O error on device sr0, logical block 6<br>[43045.166669] Buf=
+fer I/O error on device sr0, logical block 7<br>[43045.166671] Buffer I/O e=
+rror on device sr0, logical block 8<br>
+
+[43045.166674] Buffer I/O error on device sr0, logical block 9<br>[43045.16=
+9471] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK driverbyte=3DDRIVER_SENSE=
+<br>[43045.169474] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current] =
+<br>
+
+[43045.169476] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track<br=
+>[43045.169479] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 02=
+ 00<br>[43045.169483] end_request: I/O error, dev sr0, sector 0<br>[43045.2=
+37078] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK driverbyte=3DDRIVER_SENS=
+E<br>
+
+[43045.237082] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current] <br>=
+[43045.237085] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track<br=
+>[43045.237089] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 02=
+ 00<br>
+
+[43045.237096] end_request: I/O error, dev sr0, sector 0<br>[43045.237943] =
+sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK driverbyte=3DDRIVER_SENSE<br>[4=
+3045.237946] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current] <br>[4=
+3045.237949] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track<br>
+
+[43045.237953] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 02 =
+00<br>[43045.237960] end_request: I/O error, dev sr0, sector 0<br>[43094.76=
+4257] sr 2:0:0:0: [sr0] Result: hostbyte=3DDID_OK driverbyte=3DDRIVER_SENSE=
+<br>
+
+[43094.764262] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current] <br>=
+[43094.764266] sr 2:0:0:0: [sr0] Add. Sense: Illegal mode for this track<br=
+>[43094.764271] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 10 00 00 01=
+ 00<br>
+
+[43094.764279] end_request: I/O error, dev sr0, sector 64<br>[43094.764353]=
+ isofs_fill_super: bread failed, dev=3Dsr0, iso_blknum=3D16, block=3D16<br>=
+<br>I always see that in dmesg when I insert a CD/DVD. <br><br><br><br>
+</div><br>
+
+--001485f85b14fee85804851390ee--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/g2yb36d43c31004251109udc2999f5id70ea5f63411c518@mail.csmining.org
+
+

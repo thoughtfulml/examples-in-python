@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281cb7d1a156af0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs83836wfj;
+        Tue, 20 Apr 2010 12:40:35 -0700 (PDT)
+Received: by 10.223.21.23 with SMTP id h23mr249233fab.21.1271792128064;
+        Tue, 20 Apr 2010 12:35:28 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si3698669fkt.11.2010.04.20.12.35.27;
+        Tue, 20 Apr 2010 12:35:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A116013A47AB; Tue, 20 Apr 2010 19:35:17 +0000 (UTC)
+Old-Return-Path: <debian-laptop@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A729513A46DE
+	for <lists-debian-laptop@liszt.debian.org>; Tue, 20 Apr 2010 19:35:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id J6OBgaP0r72r for <lists-debian-laptop@liszt.debian.org>;
+	Tue, 20 Apr 2010 19:35:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 8290213A46F8
+	for <debian-laptop@lists.debian.org>; Tue, 20 Apr 2010 19:35:04 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <debian-laptop@m.gmane.org>)
+	id 1O4JDk-0008Sw-Rz
+	for debian-laptop@lists.debian.org; Tue, 20 Apr 2010 21:34:56 +0200
+Received: from p5088c4fe.dip.t-dialin.net ([80.136.196.254])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-laptop@lists.debian.org>; Tue, 20 Apr 2010 21:34:56 +0200
+Received: from jvpeetz by p5088c4fe.dip.t-dialin.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-laptop@lists.debian.org>; Tue, 20 Apr 2010 21:34:56 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-laptop@lists.debian.org
+connect(): No such file or directory
+From: =?UTF-8?B?SsO2cmctVm9sa2VyIFBlZXR6?= <jvpeetz@web.de>
+Subject: Re: Battery monitor tools?
+Date: Tue, 20 Apr 2010 21:35:09 +0200
+Lines: 14
+Message-ID: <hqkvko$d2e$1@dough.gmane.org>
+References: <4BCCBC32.8090706@emenaker.com>	 <20100419212930.GA5574@dementia.proulx.com> <o2l9e87a6011004191540qb6b851b7w214ea4c691f1e76@mail.csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: p5088c4fe.dip.t-dialin.net
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20091109)
+In-Reply-To: <o2l9e87a6011004191540qb6b851b7w214ea4c691f1e76@mail.csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <l4HG4W7YC1M.A.lcE.1HgzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34121
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 19:35:17 +0000 (UTC)
+
+Simon Chen wrote:
+> I may be a light debian user. 'Cause i simply use GNOME power manager as
+> battery tool, supposed to be the default power manager in GNOME. I think
+> it is kind of dull. I've found battery using up much more quickly under
+> debian than it under windows(yes, i'm using a dual-booting laptop).
+> 
+<snip>
+
+A good starting point to evaluate potentially battery waste is the tool
+powertop. Some X servers can help to save energy with dynamic clocks setting.
+
+-- 
+Regards,
+Jörg-Volker.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqkvko$d2e$1@dough.gmane.org
+
+

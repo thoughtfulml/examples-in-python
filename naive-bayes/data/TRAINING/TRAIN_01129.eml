@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d083c5516f5c9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs140551wfo;
+        Tue, 25 May 2010 10:30:17 -0700 (PDT)
+Received: by 10.223.5.13 with SMTP id 13mr6507834fat.68.1274808616182;
+        Tue, 25 May 2010 10:30:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y20si7780229fah.102.2010.05.25.10.30.15;
+        Tue, 25 May 2010 10:30:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D6CAD13A5C1E; Tue, 25 May 2010 17:30:06 +0000 (UTC)
+Old-Return-Path: <debianlist@videotron.ca>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.6 required=4.0 tests=FOURLA,FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,
+	MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EBE2413A5969
+	for <lists-debian-user@liszt.debian.org>; Tue, 25 May 2010 17:29:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.58 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Hj5MDzy8ehx4 for <lists-debian-user@liszt.debian.org>;
+	Tue, 25 May 2010 17:29:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from relais.videotron.ca (relais.videotron.ca [24.201.245.36])
+	by liszt.debian.org (Postfix) with ESMTP id 8228813A564F
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 17:29:45 +0000 (UTC)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=US-ASCII
+Received: from squeeze.dummy.org ([173.178.70.23])
+ by VL-MO-MR005.ip.videotron.ca
+ (Sun Java(tm) System Messaging Server 6.3-4.01 (built Aug  3 2007; 32bit))
+ with SMTP id <0L2Z001H5HTG0AC0@VL-MO-MR005.ip.videotron.ca> for
+ debian-user@lists.debian.org; Tue, 25 May 2010 12:29:40 -0400 (EDT)
+Date: Tue, 25 May 2010 12:29:40 -0400
+From: Frank McCormick <debianlist@videotron.ca>
+To: debian <debian-user@lists.debian.org>
+Subject: can't switch to dash as default shell
+Message-id: <20100525122940.80340113.debianlist@videotron.ca>
+X-Mailer: Sylpheed 3.0.2 (GTK+ 2.20.1; i486-pc-linux-gnu)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <eB6EZbLBMzH.A.bIG.ekA_LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577621
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 17:30:06 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+With this mornings upgrade to testing there was a new
+version of DASH.
+I've been using BASH..and tried to switch.
+
+
+frank@squeeze:~$ sudo dpkg-reconfigure dash
+dpkg-divert: mismatch on package
+  when removing `diversion of /bin/sh by dash'
+  found `diversion of /bin/sh to /bin/sh.distrib by bash'
+
+Is this a bug or am I mssing something?
+
+Thanks
+
+- -- 
+- -- Frank --
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJL+/r0AAoJEMEDyLTvrVhj8dQH/icfR7yCstjPxNun8J9sJDck
+FJdr3K5LsN1hByow02jm2lHQFyV32VmcKqhWLskGgYF2gbKFC9CDRmhpcwN1z2gR
+8HKEDft/9B7o+35Y0mH6oCeALAOxOPII4yh5/dSSmUmEGhguJPZU30uhcxDJgetp
+MqdjWKC1QdpW6gtkWYSVUPIXHo67VTKp/q1pZ6UFDAnvPj2lQYSMqrKFC6rT0xKH
+6W3XCnqGAHlDdP2gfqCgztl1RS79zgAZMtW7DPwWpDjOHr4pCQbCkzqtNkvhHsVz
+fnXDGGaqxOhsy86/cP9qxvBV4NaMuzPTs55IRSQsybgGPiQA6OYr5sqCpWoFKqw=
+=e9ES
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100525122940.80340113.debianlist@videotron.ca
+
+

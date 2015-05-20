@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288fcc548366080
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs37690wfo;
+        Wed, 12 May 2010 20:54:13 -0700 (PDT)
+Received: by 10.223.127.196 with SMTP id h4mr9349557fas.56.1273722852826;
+        Wed, 12 May 2010 20:54:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c11si1986192faa.30.2010.05.12.20.54.12;
+        Wed, 12 May 2010 20:54:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id F261F13A52B4; Thu, 13 May 2010 03:54:06 +0000 (UTC)
+Old-Return-Path: <debian1013219.dmthayer@recursor.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6141A13A50C2
+	for <lists-debian-user@liszt.debian.org>; Thu, 13 May 2010 03:37:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dLink0-JW7I7 for <lists-debian-user@liszt.debian.org>;
+	Thu, 13 May 2010 03:37:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 71 seconds by postgrey-1.31 at liszt; Thu, 13 May 2010 03:37:00 UTC
+Received: from qmta13.emeryville.ca.mail.comcast.net (qmta13.emeryville.ca.mail.comcast.net [76.96.27.243])
+	by liszt.debian.org (Postfix) with ESMTP id AC8052E8AF1
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 03:36:24 +0000 (UTC)
+Received: from omta04.emeryville.ca.mail.comcast.net ([76.96.30.35])
+	by qmta13.emeryville.ca.mail.comcast.net with comcast
+	id GrZY1e0030lTkoCADrbnHi; Thu, 13 May 2010 03:35:47 +0000
+Received: from hedorah.thayer-boyle.com ([71.237.25.191])
+	by omta04.emeryville.ca.mail.comcast.net with comcast
+	id Grbl1e00B47PGVz8QrbmZe; Thu, 13 May 2010 03:35:46 +0000
+Received: from dave by hedorah.thayer-boyle.com with local (Exim 4.71)
+	(envelope-from <debian1013219.dmthayer@recursor.net>)
+	id 1OCPD6-0004rb-BF
+	for debian-user@lists.debian.org; Wed, 12 May 2010 21:35:44 -0600
+Date: Wed, 12 May 2010 21:35:44 -0600
+From: Dave Thayer <debian1013219.dmthayer@recursor.net>
+To: debian-user@lists.debian.org
+Subject: Re: Automounting problems.
+Message-ID: <20100513033544.GA9530@thayer-boyle.com>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <861952.20797.qm@web55508.mail.re4.yahoo.com>
+ <170755.30838.qm@web55502.mail.re4.yahoo.com>
+ <20100512095518.GC18235@fischer>
+ <4BEB0FF0.5060604@symantec.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BEB0FF0.5060604@symantec.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ATTzGkYqBkM.A.YXC.ef36LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576652
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 03:54:06 +0000 (UTC)
+
+On Wed, May 12, 2010 at 01:30:40PM -0700, Bob McGowan wrote:
+> On 05/12/2010 02:55 AM, Chris Bannister wrote:
+> > On Tue, May 11, 2010 at 10:54:47PM -0700, Marc Shapiro wrote:
+> >> I am now slapping myself on the head for being so STUPID!  Automount is 
+> >> working just fine, and has been all along.  Automount does its thing as 
+> >> soon as a device is ACCESSED, not plugged in.  I was plugging the flash 
+> >> drives in and looking in /mnt to see if they were showing up.  The 
+> >> weren't.  The weren't supposed to, either.  As soon as I executed "ls 
+> >> /mnt/lexar" lo and behold, there was the listing and everything was 
+> >> working just fine.
+> >>
+> >> I think I'll slap myself on the head, again.
+> > 
+> > Not so fast! :) How are you supposed to access them if you don't know
+> > what they will be labelled as?
+> > 
+> > What does "ls /mnt/<TAB><TAB>" do?
+> > 
+> > Are you supposed to carry round a scrap of paper with the mount labels
+> > written down?
+> > 
+> 
+> No...
+> 
+> Generally, you set up an auto.xxx file to create a mount point in some
+> specific directory that is not /media.  For example, with xxx being 'usb':
+> 
+>  auto.usb: zodiac -fstype=vfat,rw,user,noauto,gid=backup,umask=002 \
+>            :/dev/disk/by-id/usb-ROCKCHIP_USB_MP3_USBV1.00
+> 
+> And auto.master:
+> 
+>  /var/autofs/usb /etc/auto.usb --timeout=###
+> 
+> This setup associates the auto.usb file with /var/autofs/usb and the
+> device identified by the id with the name zodiac.  The timeout should be
+> set to some convenient value.
+> 
+> So, automount will mount that device on /var/autofs/usb/zodiac, when it
+> is accessed.
+> 
+
+It should be noted that the  --ghost option of automount will create
+an appropriate "ghost" directory for the device's mount point. For the
+above auto.master stanza you could use:
+  /var/autofs/usb /etc/auto.usb --timeout=### --ghost
+
+This can lead to a cluttered /var/autofs/usb directory, however,
+unless you do some udev-based scripting to manage things on the fly.
+
+dt
+  
+
+
+-- 
+Dave Thayer           | Whenever you read a good book, it's like the 
+Denver, Colorado USA  | author is right there, in the room talking to 
+dave@thayer-boyle.com | you, which is why I don't like to read 
+                      | good books. - Jack Handey "Deep Thoughts"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100513033544.GA9530@thayer-boyle.com
+
+

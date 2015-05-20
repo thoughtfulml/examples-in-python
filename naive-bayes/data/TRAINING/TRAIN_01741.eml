@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId12856710fa6c3595
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs163077wfj;
+        Sat, 1 May 2010 17:36:10 -0700 (PDT)
+Received: by 10.223.22.145 with SMTP id n17mr2353400fab.23.1272760569672;
+        Sat, 01 May 2010 17:36:09 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si5901611fkt.19.2010.05.01.17.36.09;
+        Sat, 01 May 2010 17:36:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7CC9C13A4AF3; Sun,  2 May 2010 00:36:05 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-0.5 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FOURLA autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4F98C13A46A1
+	for <lists-debian-kde@liszt.debian.org>; Sun,  2 May 2010 00:20:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.7 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wff8-1JwbC71 for <lists-debian-kde@liszt.debian.org>;
+	Sun,  2 May 2010 00:20:03 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id B0E5413A471A
+	for <debian-kde@lists.debian.org>; Sun,  2 May 2010 00:20:03 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id A21693A64CC
+	for <debian-kde@lists.debian.org>; Sun,  2 May 2010 02:20:01 +0200 (CEST)
+From: lrhorer <lrhorer@satx.rr.com>
+Subject: Re: KDE Issues under "Squeeze"
+Date: Sat, 01 May 2010 19:16:44 -0500
+Message-ID: <R72dnSXSkbrxWUHWnZ2dnUVZ_qmdnZ2d@giganews.com>
+References: <aPKdnQH1541FJk7WnZ2dnUVZ_tWhnZ2d@giganews.com> <20100426001705.GE15960@rene-engelhard.de>
+Reply-To: lrhorer@satx.rr.com
+User-Agent: KNode/0.10.9
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7Bit
+X-Df-Seen-By: ms
+X-Usenet-Provider: http://www.giganews.com
+X-Trace: sv3-eWxNheyQCFxPWb5i1pX3D6lrpprmGSjOMAzEoVyGii8JLqBQD94C42WPDV/PiCPK/4V7yNCAXs3Mj3Y!6dj+Uz+QtAmuWWx2edhIt2cE3pDyHXFnGafkRBDB2wSQImaItrgHRcp8/vtb9cYqs898OEm9avJ2
+X-Complaints-To: abuse@giganews.com
+X-Dmca-Notifications: http://www.giganews.com/info/dmca.html
+X-Abuse-And-Dmca-Info: Please be sure to forward a copy of ALL headers
+X-Abuse-And-Dmca-Info: Otherwise we will be unable to process your complaint properly
+X-Postfilter: 1.3.40
+To: debian-kde@lists.debian.org
+Organization: linux.* mail to news gateway
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.maint.kde
+X-Original-References: <eD1km-5tC-7@gated-at.bofh.it> <eDkdj-3yJ-3@gated-at.bofh.it>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <EKUe6Pju19O.A.2m.1jM3LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32054
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 00:36:05 +0000 (UTC)
+
+Rene Engelhard wrote:
+
+> Hi,
+> 
+> On Sat, Apr 24, 2010 at 10:49:44PM -0500, lrhorer wrote:
+>>         Secondly, KPackage is badly broken.  It only shows a handful
+>>         of
+>> applications installed or available.  Synaptic or aptitude show
+>> thousands available and hundreds installed, of course.  What's more,
+>> I
+> 
+> Then use aptitude.. ;)
+
+        I've used it, of course.  Kpackage is much easier.  It's rare I say
+that about a GUI utility vs. a CLI one, but in this case it's true.
+
+>> no longer see how one can manage the sources in the new KDE4
+>> KPackage.
+> 
+> Feature. Just don't :-) (Personal opinion)
+
+        Neither of those comments are helpful.  Without KPackage, KDE isn't
+much use.
+
+>> In KDE3, one could not only easily manage the apt sources from inside
+>> the app, but also RPM repositories.  Now I don't see how to manage
+>> the apt sources (I can manually edit /etc/apt/sources.list, of
+>> course) or how to manage rpm sources, at all.
+> 
+> You must not install rpms on a Debian system if you need sanitiy.
+> Besides that installing rpms from a repos would not work because you
+> don't have the dependencies they require (because they're either not
+> there, have "wrong" package names, or simply are not recorded in the
+> rpm database)
+
+        That's just nonsense.  Many packages simply do not have Debian sources,
+and I have used KPackage to successfully install many alien packages. 
+In some cases, there may be a reasonable .deb subsitute, but many
+packages, most notably hardware drives, simply have no substitute.  Two
+of my RAID controllers, for example, only have RPM distros.  Surely you
+are not suggesting a PC - Debian or otherwise - can do without its hard
+drives?  They installed fine under KDE3.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/R72dnSXSkbrxWUHWnZ2dnUVZ_qmdnZ2d@giganews.com
+
+

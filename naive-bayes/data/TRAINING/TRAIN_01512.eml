@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ed0ea6d38df7d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs111321wfo;
+        Sun, 11 Apr 2010 06:28:33 -0700 (PDT)
+Received: by 10.223.35.12 with SMTP id n12mr1989702fad.35.1270992512650;
+        Sun, 11 Apr 2010 06:28:32 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si6611015fks.20.2010.04.11.06.28.32;
+        Sun, 11 Apr 2010 06:28:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3880D2D0E46; Sun, 11 Apr 2010 13:28:21 +0000 (UTC)
+Old-Return-Path: <clivemcbarton@web.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.8 required=4.0 tests=FVGT_m_MULTI_ODD,
+	LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5D5B913A61B7
+	for <lists-debian-user@liszt.debian.org>; Sun, 11 Apr 2010 13:28:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.78 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id E-IYfxqdJUvU for <lists-debian-user@liszt.debian.org>;
+	Sun, 11 Apr 2010 13:28:08 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from fmmailgate02.web.de (fmmailgate02.web.de [217.72.192.227])
+	by liszt.debian.org (Postfix) with ESMTP id 3838613A4F5B
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 13:28:08 +0000 (UTC)
+Received: from smtp08.web.de (fmsmtp08.dlan.cinetic.de [172.20.5.216])
+	by fmmailgate02.web.de (Postfix) with ESMTP id 0D1CC15D864E2
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 15:28:06 +0200 (CEST)
+Received: from [80.171.132.87] (helo=[192.168.178.29])
+	by smtp08.web.de with asmtp (TLSv1:AES256-SHA:256)
+	(WEB.DE 4.110 #4)
+	id 1O0xCn-0000i3-00
+	for debian-user@lists.debian.org; Sun, 11 Apr 2010 15:28:05 +0200
+Message-ID: <4BC1CEC7.7030909@web.de>
+Date: Sun, 11 Apr 2010 15:29:43 +0200
+From: Clive McBarton <clivemcbarton@web.de>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100329)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Migrate OS to smaller drive?
+References: <3cc33b52b344d44be33167a82fe301fe@192.168.0.66> <4BC0EBE5.8060807@lorentz.leidenuniv.nl> <4BC1CA69.4080601@web.de> <4BC1CA98.4070100@kalinowski.com.br>
+In-Reply-To: <4BC1CA98.4070100@kalinowski.com.br>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Sender: clivemcbarton@web.de
+X-Sender: clivemcbarton@web.de
+X-Provags-ID: V01U2FsdGVkX18raXhDfkyTu2+Y2sH6QDJULCBdk93xDWGSENtd
+	pardC9YiyVPWWbmfSwm9iXQ8z6RGwQ1fPXNfkGFt0q5QNdBu8C
+	dB5wmvVXCM/cxANNsloQ==
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YWPg8SdJgwI.A.-NH.15cwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573867
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 13:28:21 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Eduardo M KALINOWSKI wrote:
+>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>   rsync -ax / /media/newdevice.
+>>>      
+>> What exactly is the advantage of this approach over "cp -a" or "mv"?
+>>    
+> 
+> Over mv? That you keep the original files.
+
+Of course. But in this case the OP said "migrate".
+
+> Over cp? That you can resume from where you left off in case the
+> transfer is stopped for any reason.
+
+Useful point. With cp you'd have to start over.
+
+What are the disadvantages of rsync? E.g., doesn't it compress and
+decompress everything, hence hogging the CPU and possibly slowing transfers?
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvBzscACgkQ+VSRxYk4409N6QCg2H+F4XhpS/eRmSUaxiFAZG5v
+nNUAoL1+BijzOvhecWOzULmWvIBJ2Nyb
+=FU3d
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC1CEC7.7030909@web.de
+
+

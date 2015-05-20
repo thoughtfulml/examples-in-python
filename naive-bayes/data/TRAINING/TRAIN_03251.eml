@@ -1,0 +1,206 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283fd328da33355
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs137372wfj;
+        Tue, 27 Apr 2010 08:12:04 -0700 (PDT)
+Received: by 10.86.126.33 with SMTP id y33mr2935681fgc.51.1272381123002;
+        Tue, 27 Apr 2010 08:12:03 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si7229742fkr.29.2010.04.27.08.12.02;
+        Tue, 27 Apr 2010 08:12:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5EE2A13A56D7; Tue, 27 Apr 2010 15:11:43 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C51E313A56A3
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 15:11:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id d6B-tNTHu5-7 for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 15:11:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 0AD4513A56C4
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 15:11:23 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1O6mRU-00086p-CX
+	for debian-user@lists.debian.org; Tue, 27 Apr 2010 15:11:20 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: The future of "nv" driver (was: Linux compatible mainboards -another thought)
+Date: Tue, 27 Apr 2010 10:14:46 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.31.12-0.2-default; KDE/4.3.5; x86_64; ; )
+References: <20100425152941.47f9c918.celejar@csmining.org> <201004261703.11639.bss@iguanasuicide.net> <20100426212714.877e21f0.celejar@csmining.org>
+In-Reply-To: <20100426212714.877e21f0.celejar@csmining.org>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?iso-8859-1?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSK?=
+ =?iso-8859-1?q?VkSKVkSKVkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrX?=
+ =?iso-8859-1?q?bgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAAI0SURB?=
+ =?iso-8859-1?q?VDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOl?=
+ =?iso-8859-1?q?yn8DhAHZj=0A=093iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkb?=
+ =?iso-8859-1?q?IsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs=0A=09pY2lNMMz2FMIOurZpRE?=
+ =?iso-8859-1?q?z4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKrvHC+eDauR7oWn2?=
+ =?iso-8859-1?q?=0A=099cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X1KJxybF0zhLwsns?=
+ =?iso-8859-1?q?yJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096GudSNWT0NXblkVuwjBlkWVJr?=
+ =?iso-8859-1?q?maAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VIIiKVYmUnJiyr?=
+ =?iso-8859-1?q?=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERfOpfZ?=
+ =?iso-8859-1?q?iTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNrHHeCJMyuaujMNd?=
+ =?iso-8859-1?q?ktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG=0A=090?=
+ =?iso-8859-1?q?1oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJf?=
+ =?iso-8859-1?q?PTbS5oo9tOUMHbdKE23oTci=0A=093cBil8dtoGZk0BF2Yq35wSeWvYeT2E?=
+ =?iso-8859-1?q?E/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G=0A=098GbPE?=
+ =?iso-8859-1?q?j2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAA?=
+ =?iso-8859-1?q?SUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1416131.hP8OE23WuS";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004271014.53438.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <K3dLi9eC3aB.A.hoD.v6v1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575270
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 15:11:43 +0000 (UTC)
+
+--nextPart1416131.hP8OE23WuS
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 20:27:14 Celejar wrote:
+> On Mon, 26 Apr 2010 17:03:07 -0500
+> "Boyd Stephen Smith Jr." <bss@iguanasuicide.net> wrote:
+> > On Monday 26 April 2010 16:34:36 Celejar wrote:
+> > > On Mon, 26 Apr 2010 16:16:32 -0500
+> > > "Boyd Stephen Smith Jr." <bss@iguanasuicide.net> wrote:
+> > > > On Monday 26 April 2010 15:09:57 Celejar wrote:
+> > > > > What makes the non-free firmware question particularly interesting
+> > > > > is that the alternative is often to hardcode the functionality in=
+to
+> > > > > the hardware.  Now, if you had a board with completely closed HW,
+> > > > > but that presented an open, well documented interface for the
+> > > > > driver, most people would be very happy (although there are, of
+> > > > > course, the open hardware crusaders - more power to them!).  So,
+> > > > > now that they've simply implemented some of that functionality in
+> > > > > SW, in the form of firmware which the driver installs on the card,
+> > > > > but which has nothing to do with your host machine, are you really
+> > > > > any worse off?
+> > > >
+> > > > As a distributor you may very well be.  If you can't provide the
+> > > > source code, you can't satisfy the terms of the GPL (usually).
+> > >
+> > > ?  We're talking about firmware for things like wireless cards,
+> > > produced by the HW manufacturers, e.g., Broadcom.  Where does the GPL
+> > > enter into this?
+> >
+> > Some are included in the tarball provided by the Linux kernel team, whi=
+ch
+> > is distributed under the GPLv2.  In particular, I am thinking of the
+> > iwl3945 firmware that is required to run my wireless card.
+> >
+> > It doesn't matter what upstream wants to call source code.  The GPL(v2)
+> > defines it as the preferred form for making modifications.  (GPLv2,
+> > section 3.)  It is unlikely that the firmware was written in a hex edit=
+or
+> > (or equivalent).  Most likely it is C source for a freestanding
+> > (non-hosted) environment with some manufacturer-specific libraries, but
+> > it could also be in some manufacturer-specific assembly code.  Either
+> > form would be better for making modifications than a binary blob.
+>=20
+> This is all very well, but the context of this subthread is James's
+> statement that he avoids installing the non-free firmware that his HW
+> requires out of a commitment to FLOSS ideals, to which I responded that
+> I'm not sure if one is really worse off installing such firmware, or
+> using a card that just has that logic built in to its non-free HW.
+
+And I claim he would be better off using a card that doesn't use firmware[1=
+]=20
+or uses free firmware, since non-free firmware is an issue for distributors=
+=20
+and it's relatively easy to "accidentally" participate in distributing=20
+software in violation of its license.
+
+I wouldn't want to be stuck without non-free available, but I recommend mak=
+ing=20
+hardware purchases that allow you to avoid non-free as much as possible.  I=
+'m=20
+gradually moving that way myself.  (Desktop and laptop each need one driver=
+=20
+from non-free.)
+
+Once you've got the hardware, you might as well use it, even if it requires=
+=20
+non-free drivers.  The manufacturer has already got their cut of what you=20
+paid; you are hurting none but yourself by not using it.  You should try an=
+d=20
+avoid becoming dependent on that hardware, since that makes you dependent o=
+n=20
+non-free software.
+
+[1] "Firmware" here is specifically limited to executable data transmitted =
+to=20
+the device from a host operating system, and does not include executable da=
+ta=20
+loaded from an EEPROM (or similar) that is provided with the device.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart1416131.hP8OE23WuS
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.12 (GNU/Linux)
+
+iEYEABECAAYFAkvW/2wACgkQdNbfk+86fC1zFgCcC+meXs3YSPEA3vwI9tCepMBs
+xRMAnRQsvhqs8WMhxtaiVMkAgllWUfL/
+=kjis
+-----END PGP SIGNATURE-----
+
+--nextPart1416131.hP8OE23WuS--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004271014.53438.bss@iguanasuicide.net
+
+

@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId127df37eed304bde
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs98262wfi;
+        Thu, 8 Apr 2010 13:58:58 -0700 (PDT)
+Received: by 10.223.76.132 with SMTP id c4mr625610fak.106.1270760337076;
+        Thu, 08 Apr 2010 13:58:57 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si1261741fxm.62.2010.04.08.13.58.56;
+        Thu, 08 Apr 2010 13:58:57 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C813313A60D6; Thu,  8 Apr 2010 20:58:48 +0000 (UTC)
+Old-Return-Path: <afc@shibaya.lonestar.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.5 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MDO_CABLE_TV3 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6B41F13A60C2
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 20:58:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MDO_CABLE_TV3=0.5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 0UcAxvtDJLai for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 20:58:35 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from killer.cirr.com (uucp.cirr.com [192.67.63.5])
+	by liszt.debian.org (Postfix) with ESMTP id 09CB013A6079
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 20:58:35 +0000 (UTC)
+Received: by killer.cirr.com (Postfix, from userid 66)
+	id EE1B821C8F; Thu,  8 Apr 2010 15:58:31 -0500 (CDT)
+Received: from afc by tashi.lonestar.org with local (Exim 4.69)
+	(envelope-from <afc@shibaya.lonestar.org>)
+	id 1Nzymy-0001ly-TS
+	for debian-user@lists.debian.org; Thu, 08 Apr 2010 16:57:24 -0400
+Date: Thu, 8 Apr 2010 16:57:24 -0400
+From: "A. F. Cano" <afc@shibaya.lonestar.org>
+To: debian-user@lists.debian.org
+Subject: Re: Keyboard gets stuck when closing PPP
+Message-ID: <20100408205724.GA6520@shibaya.lonestar.org>
+References: <87r5n7jj0t.fsf@csmining.org> <87tyrn3wv1.fsf@csmining.org> <20100407210805.GA8355@shibaya.lonestar.org> <87fx36gsiw.fsf@csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <87fx36gsiw.fsf@csmining.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-SA-Exim-Connect-IP: <locally generated>
+X-SA-Exim-Mail-From: afc@shibaya.lonestar.org
+X-SA-Exim-Scanned: No (on tashi.lonestar.org); SAEximRunCond expanded to false
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <M2EFrJY5m2G.A.tXC.IOkvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573636
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 20:58:48 +0000 (UTC)
+
+On Thu, Apr 08, 2010 at 12:14:47PM +0200, Rodolfo Medina wrote:
+> ...
+> > phone (motorola e815) through a usb cable.  It's not 100% repeatable.
+> > I suspect something in the close routine is overwriting part of the
+> > keyboard driver, but only some times.  BTW, this is on a Dell 8600,
+> > with the nvidia-legacy driver.
+> 
+> 
+> Maybe installing a new version of the kernel would fix it?  Haven't you tried,
+> A.?
+
+Maybe.  But this is my primary machine and I want to keep it stable.  I
+also don't have that much of a need any more to use the usb phone/modem.
+If that changes, I might try a newer kernel.  In fact I might try a
+backported kernel on another machine.  I'll report back when I do.
+
+A.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100408205724.GA6520@shibaya.lonestar.org
+
+

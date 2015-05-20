@@ -1,0 +1,152 @@
+X-Account-Key: account5
+X-UIDL: GmailId12895ca729e159b0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs16063wfo;
+        Fri, 14 May 2010 00:49:53 -0700 (PDT)
+Received: by 10.223.68.131 with SMTP id v3mr1085107fai.82.1273823392596;
+        Fri, 14 May 2010 00:49:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si5085773faw.19.2010.05.14.00.49.52;
+        Fri, 14 May 2010 00:49:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C594013A550C; Fri, 14 May 2010 07:49:43 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E47ED13A549E
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 07:49:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wdesZP1NCjlN for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 07:49:30 +0000 (UTC)
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id A546113A5453
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 07:49:30 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so2041347fxm.6
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 00:49:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=6u408xlTuLQ3rvzcW1QijiIEdcLcbJEM0hsnJhrEmKI=;
+        b=ic61G5Y0N2ayOPgrzsf9ttaZPCCjwDtUw1W5k7kI8XhRm7zpB5K0S1wMf6pL1eDDXI
+         TKqcEKCuz0vcZCB17cqjntBiVDNGHU3cwQAJ2EnHyy7tL6ATYQWUmCwJAj76sbqJyOX9
+         0lMur7VAQon7Lj9F5wNSEtIPARFMA8xlyhi0o=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=To6l1zwTscIKGsxpEDWQ4mwh9QDKWqdvcP7EYzBYqxluv0Bg2CCXX/uhiJHMBL6mtK
+         5UEfsfpYozTlcdF0V/ikG9xUKCmmvH1tOJdd4xUvdu4vfMGCp1H92W+gyNhNNeNWeDdw
+         8cg+0LgyihJH/ZY3wZ4/qRBhnf02PAUQ/T80k=
+Received: by 10.223.60.3 with SMTP id n3mr1078721fah.83.1273823365668;
+        Fri, 14 May 2010 00:49:25 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id u12sm9722779fah.16.2010.05.14.00.49.24
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Fri, 14 May 2010 00:49:25 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id CDF581FD6; Fri, 14 May 2010 10:49:20 +0300 (EEST)
+Date: Fri, 14 May 2010 10:49:20 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: Disable server so it does not start on reboot (even after
+ upgrade)?
+Message-ID: <20100514074920.GD21153@think.homelan>
+References: <20100513151343.GA3493@lifeintegrity.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="5QAgd0e35j3NYeGe"
+Content-Disposition: inline
+In-Reply-To: <20100513151343.GA3493@lifeintegrity.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6ClJu8_UWBN.A.n2B.XCQ7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576738
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 07:49:43 +0000 (UTC)
+
+
+--5QAgd0e35j3NYeGe
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu,13.May.10, 11:13:43, Allan Wind wrote:
+> I use insserv to boot my laptop and used `update-rc.d apache2=20
+> remove` to indicate that I do not want apache2 to start on=20
+> reboot.  Indeed this works fine for while.  Either an apache2=20
+> (apache2.2-common upgrade) or some other package install/upgrade=20
+> then seems to revert my choice and apache is once again started=20
+> in reboot.
+>=20
+> Is there a better way to disable servers from starting?
+
+As far as I know, the proper way to disable a service is to change the=20
+Sxy link in Kxy for the respective runlevel (this can also be done with=20
+any of the available runlevel editors, like sysv-rc-conf).
+
+Removing all Sxy symlinks will result in them being recreated on the=20
+next upgrade (as you have experienced).
+
+You can also make changes to the init.d script, but I'm not sure which=20
+ones will be detected by dpkg. Textual changes will, but don't know=20
+about removing the execute bit or the like.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--5QAgd0e35j3NYeGe
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL7QCAAAoJEHNWs3jeoi3pV5sH+wfc9d44T7bPQvDE7WZiVACM
+d5ySkfuKKOKYMGhGyx8m34m4Rp73WvGgNIRa69Qo32xkrn8m8r3qFnIPmhS51BRH
+6KXU/vQBVRJuvkmRMDhtI1a1MENgMwZw6Wc3rgl4p7ADYXZCLHS9RmOCWge/aJeW
+GzqhYl6UT9UxyPDRuDCe7roiKl0z35pTjU7XzBeBEWe4hoUYedLdIwRO8+Xoeizh
+VTCNzPw1e8zZ5jBVxvk6wm+NDlxn+Q2AS5NlfNCi7Ti3yauf3ofFl8JqC1YHan3Y
+I59qcoVyhVtzcr0KqFkw3CT3i/VJxcUgPBsYIGER7bP5Lvzpwt5K8lHyfp8kBWY=
+=Ghtb
+-----END PGP SIGNATURE-----
+
+--5QAgd0e35j3NYeGe--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514074920.GD21153@think.homelan
+
+

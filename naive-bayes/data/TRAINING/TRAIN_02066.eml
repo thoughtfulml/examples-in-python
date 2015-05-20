@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId128091c2485d11dd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs348wfj;
+        Fri, 16 Apr 2010 17:12:39 -0700 (PDT)
+Received: by 10.223.64.194 with SMTP id f2mr1065224fai.2.1271463158917;
+        Fri, 16 Apr 2010 17:12:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si5083735fkr.29.2010.04.16.17.12.38;
+        Fri, 16 Apr 2010 17:12:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E368F13A4A23; Sat, 17 Apr 2010 00:12:28 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.4 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD,RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 895CB13A47E6
+	for <lists-debian-user@liszt.debian.org>; Sat, 17 Apr 2010 00:12:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, RDNS_DYNAMIC=0.1]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 67gsIcIrfIM2 for <lists-debian-user@liszt.debian.org>;
+	Sat, 17 Apr 2010 00:12:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id 2F8DF13A409F
+	for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 00:12:15 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id 8F5756C310
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 19:12:12 -0500 (CDT)
+Message-ID: <4BC8FCDC.2060007@hardwarefreak.com>
+Date: Fri, 16 Apr 2010 19:12:12 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: debian on a raid5 (4TB) issues
+References: <j2q194a2c241004160911nb2b1ad62xf899de7a0987f43c@mail.csmining.org>
+In-Reply-To: <j2q194a2c241004160911nb2b1ad62xf899de7a0987f43c@mail.csmining.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tr7CgUGtVYL.A.BjG.szPyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574279
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 17 Apr 2010 00:12:28 +0000 (UTC)
+
+Israel Garcia put forth on 4/16/2010 11:11 AM:
+> Hi, maybe OT but, I\m trying to install debian lenny on a raid5 with
+> 4TB. OS sees one big sda with 4TB, I can particion /boot, / and swap
+> but it only recognize 78GB instead the 4TB available. Is this because
+> the partition in booteable? Can I install debian OS  on this hdd with
+> these 3 partitions and use the rest for LVM? Thanks in advance,
+
+What PCIe RAID card are you using?
+
+-- 
+Stan
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC8FCDC.2060007@hardwarefreak.com
+
+

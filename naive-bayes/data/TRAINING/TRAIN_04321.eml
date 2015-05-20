@@ -1,0 +1,163 @@
+X-Account-Key: account5
+X-UIDL: GmailId12898fed3bd20b8d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs51880wfo;
+        Fri, 14 May 2010 15:45:57 -0700 (PDT)
+Received: by 10.223.31.136 with SMTP id y8mr2377325fac.19.1273877156497;
+        Fri, 14 May 2010 15:45:56 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g20si6909914fai.3.2010.05.14.15.45.55;
+        Fri, 14 May 2010 15:45:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3FFE52D0DFB; Fri, 14 May 2010 22:45:50 +0000 (UTC)
+Old-Return-Path: <linux4michelle@tamay-dogan.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EDBC313A5979
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 22:45:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dv6rlXqJRLVW for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 22:45:37 +0000 (UTC)
+Received: from mail.tamay-dogan.net (mail.tamay-dogan.net [88.168.69.36])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 1C50913A5820
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 22:45:37 +0000 (UTC)
+Received: from michelle1.private.tamay-dogan.net (router.private.tamay-dogan.net [::ffff:192.168.0.65])
+  by mail.tamay-dogan.net with esmtp; Sat, 15 May 2010 00:45:33 +0200
+  id 0002BD45.4BEDD28D.00004370
+Received: by michelle1.private.tamay-dogan.net (sSMTP sendmail emulation); Sat, 15 May 2010 00:45:33 +0200
+Date: Sat, 15 May 2010 00:45:33 +0200
+From: Michelle Konzack <linux4michelle@tamay-dogan.net>
+To: debian-user@lists.debian.org
+Subject: Re: PDF grief - was Re: Flash is open?
+Message-ID: <20100514224533.GA21756@tamay-dogan.net>
+References: <20100513193147.0466ac73.celejar@csmining.org>
+ <4BED34A1.8040203@cox.net>
+ <1273862435.16485.18.camel@localhost>
+ <201005141422.41622.bss@iguanasuicide.net>
+ <1273866189.16485.22.camel@localhost>
+Mime-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1; protocol="application/pgp-signature"; boundary="=_samba3-17264-1273877134-0001-2"
+Content-Disposition: inline
+In-Reply-To: <1273866189.16485.22.camel@localhost>
+X-Message-Flag: Improper configuration of Outlook is a breeding ground for
+ viruses. Please take care your Client is configured correctly. Greetings
+ Michelle.
+X-Disclaimer-DE: Eine weitere Verwendung oder die Veroeffentlichung dieser
+ Mail oder dieser Mailadresse ist nur mit der Einwilligung des Autors
+ gestattet.
+Organization: Tamay Dogan Network
+X-Operating-System: Linux michelle1 2.6.26-1-686
+X-Uptime: 00:40:23 up 37 days, 12:43, 16 users,  load average: 2.41, 2.05,
+ 1.99
+X-Homepage: http://www.debian.tamay-dogan.net/
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <i1F3TqdR10I.A.YuE.eKd7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576857
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 22:45:50 +0000 (UTC)
+
+This is a MIME-formatted message.  If you see this text it means that your
+E-mail software does not support MIME-formatted messages.
+
+--=_samba3-17264-1273877134-0001-2
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hello John A. Sullivan III,
+
+Am 2010-05-14 15:43:09, hacktest Du folgendes herunter:
+> Yes, exactly.  We are hoping that, as we build our business and become
+> cash positive, a part of our profits can be used to shore up those areas
+> where FOSS is still weak as a desktop solution.  We have just put out
+> and received a response to our first bounty for fixing Kontact in KDE
+> 3.5 so it is robust enough for Enterprise use and integration with
+> Zimbra.  A viable PDF editor is high on our list - John
+
+Hahaha...  Who want to use this KDE crap?
+
+On my test Workstation I had to install over 400 MByte of KDE crap  even
+if I do not use KDE...  KDE and GNOME are the  most  unreliable  Desktop
+Envirement ever coded.
+
+I can not even run some progams on my ARM  Workstation which is based on
+the "Marvel Armada 300" with 2 GHz and 1 GByte of memory du to a  memory
+problem with KDE.
+
+Thanks, Greetings and nice Day/Evening
+    Michelle Konzack
+    Systemadministrator
+
+--=20
+##################### Debian GNU/Linux Consultant ######################
+   Development of Intranet and Embedded Systems with Debian GNU/Linux
+
+itsystems@tdnet France EURL       itsystems@tdnet UG (limited liability)
+Owner Michelle Konzack            Owner Michelle Konzack
+
+Apt. 917 (homeoffice)
+50, rue de Soultz                 Kinzigstra=DFe 17
+67100 Strasbourg/France           77694 Kehl/Germany
+Tel: +33-6-61925193 mobil         Tel: +49-177-9351947 mobil
+Tel: +33-9-52705884 fix
+
+<http://www.itsystems.tamay-dogan.net/>  <http://www.flexray4linux.org/>
+<http://www.debian.tamay-dogan.net/>         <http://www.can4linux.org/>
+
+Jabber linux4michelle@jabber.ccc.de
+ICQ    #328449886
+
+Linux-User #280138 with the Linux Counter, http://counter.li.org/
+
+--=_samba3-17264-1273877134-0001-2
+Content-Type: application/pgp-signature; name="signature.pgp"
+Content-Transfer-Encoding: 7bit
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iD8DBQFL7dKNC0FPBMSS+BIRAjgnAKC/2+pTrKwQC2k93i7KDMkH8+VgqgCgvdwZ
+zOPrTTO84SKtf8YwTa56X2k=
+=/MiF
+-----END PGP SIGNATURE-----
+
+--=_samba3-17264-1273877134-0001-2--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514224533.GA21756@tamay-dogan.net
+
+

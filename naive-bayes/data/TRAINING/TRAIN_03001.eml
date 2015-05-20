@@ -1,0 +1,98 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e3c03f7e4a7f6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs42349wfi;
+        Fri, 9 Apr 2010 11:06:20 -0700 (PDT)
+Received: by 10.87.62.28 with SMTP id p28mr909172fgk.16.1270836379561;
+        Fri, 09 Apr 2010 11:06:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 9si3908694fxm.27.2010.04.09.11.06.18;
+        Fri, 09 Apr 2010 11:06:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 683D913A6515; Fri,  9 Apr 2010 18:06:10 +0000 (UTC)
+Old-Return-Path: <john@dhh.gt.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9C0A413A62F9
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 17:51:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gbTsCy1i+C-B for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 17:50:53 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from smtp.newsguy.com (smtp.newsguy.com [74.209.136.69])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "smtp.newsguy.com", Issuer "newsguy.com" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id 7AE9913A5F1C
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 17:50:47 +0000 (UTC)
+Received: from toncho.dhh.gt.org (174-124-11-65.dyn.centurytel.net [174.124.11.65])
+	by smtp.newsguy.com (8.14.3/8.14.2) with ESMTP id o39Hoh4J015982
+	for <debian-user@lists.debian.org>; Fri, 9 Apr 2010 10:50:43 -0700 (PDT)
+	(envelope-from john@dhh.gt.org)
+Received: from [192.168.1.7] (helo=thumper.dhh.gt.org)
+	by toncho.dhh.gt.org with esmtp (Exim 3.36 #1 (Debian))
+	id 1O0ILr-0004m8-00
+	for <debian-user@lists.debian.org>; Fri, 09 Apr 2010 12:50:43 -0500
+Received: from john by thumper.dhh.gt.org with local (Exim 4.71)
+	(envelope-from <john@thumper.dhh.gt.org>)
+	id 1O0ILr-0005sp-5j
+	for debian-user@lists.debian.org; Fri, 09 Apr 2010 12:50:43 -0500
+From: John Hasler <jhasler@debian.org>
+To: debian-user@lists.debian.org
+Subject: Re: non-ASCII environment
+Organization: Dancing Horse Hill
+References: <4BBF5256.40104@rezozer.net>
+Date: Fri, 09 Apr 2010 12:50:43 -0500
+In-Reply-To: <4BBF5256.40104@rezozer.net> (Jerome BENOIT's message of "Sat, 10
+	Apr 2010 00:14:14 +0800")
+Message-ID: <874ojkecr0.fsf@thumper.dhh.gt.org>
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.1 (gnu/linux)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YbY1NvNMfBI.A.WOG.Sy2vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573731
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 18:06:10 +0000 (UTC)
+
+Jerome BENOIT writes:
+> Nevertheless, something bothers me: where non-ASCII environment can be
+> found ?  Furthermore, can such an environment be created on a Debian
+> box ?  The aim is to check the portability of my code.
+
+Look at the Hercules System/370, ESA/390 and z/Architecture Emulator.  I
+believe that it can use EBCDIC.
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/874ojkecr0.fsf@thumper.dhh.gt.org
+
+

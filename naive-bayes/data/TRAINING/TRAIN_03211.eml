@@ -1,0 +1,122 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d9e95a461748a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs43598wfi;
+        Wed, 7 Apr 2010 13:15:01 -0700 (PDT)
+Received: by 10.115.84.32 with SMTP id m32mr9298322wal.103.1270671301463;
+        Wed, 07 Apr 2010 13:15:01 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 9si23201452iwn.103.2010.04.07.13.15.01;
+        Wed, 07 Apr 2010 13:15:01 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id EEA7B1BB53FDF
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 13:15:00 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E07702698B9F4
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 13:15:00 -0700 (PDT)
+X-Original-To: QuickTime-API@lists.apple.com
+Delivered-To: QuickTime-API@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 2A1662698B7FB
+	for <QuickTime-API@lists.apple.com>;
+	Wed,  7 Apr 2010 13:14:44 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 195E1CE9366A
+	for <QuickTime-API@lists.apple.com>;
+	Wed,  7 Apr 2010 13:14:44 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c7dae000001ba1-34-4bbce7b34318
+Received: from relay00.pair.com (relay00.pair.com [209.68.5.9])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	79.CC.07073.3B7ECBB4; Wed,  7 Apr 2010 13:14:43 -0700 (PDT)
+Received: (qmail 77063 invoked from network); 7 Apr 2010 20:14:41 -0000
+Received: from 208.57.85.201 (HELO James-Walkers-Mac-Pro.local) (208.57.85.201)
+	by relay00.pair.com with SMTP; 7 Apr 2010 20:14:41 -0000
+X-pair-Authenticated: 208.57.85.201
+Message-ID: <4BBCE7B0.1060006@frameforge3d.com>
+Date: Wed, 07 Apr 2010 13:14:40 -0700
+From: James Walker <jamesw@frameforge3d.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: QuickTime-API@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+Subject: RGB Balance video effect
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I'm trying to apply an RGB Balance effect 
+(kRGBColorBalanceImageFilterType) to a video track, and I just end up 
+with a movie that's solid black all the way through.  I have working 
+code that uses a cross-fade effect, and a lot of the code is the same. 
+I'm guessing that the most likely location of the problem is in 
+constructing the effect description.  Here's the code:
+
+	QTAtomContainer	atomCont;
+	OSStatus	err = QTNewAtomContainer( &atomCont );
+	ThrowIfOSStatus_( err );
+	
+	UInt32		myLong = EndianU32_NtoB( kRGBColorBalanceImageFilterType );
+	err = QTInsertChild( atomCont, kParentAtomIsContainer,
+		kParameterWhatName, kParameterWhatID, 0,
+		sizeof(myLong), &myLong, NULL );
+	ThrowIfOSStatus_( err );
+
+	myLong = EndianU32_NtoB( inSrcName );
+	err = QTInsertChild( atomCont, kParentAtomIsContainer,
+		kEffectSourceName, 1, 0, sizeof(myLong), &myLong, NULL );
+	ThrowIfOSStatus_( err );
+
+	Fixed		myFixed;
+	myFixed = EndianS32_NtoB( FloatToFixed( inRedFactor ) );
+	err = QTInsertChild( atomCont, kParentAtomIsContainer,
+		'rmul', 1, 0, sizeof(myFixed), &myFixed, NULL );
+	ThrowIfOSStatus_( err );
+	
+	myFixed = EndianS32_NtoB( FloatToFixed( inGreenFactor ) );
+	err = QTInsertChild( atomCont, kParentAtomIsContainer,
+		'gmul', 1, 0, sizeof(myFixed), &myFixed, NULL );
+	ThrowIfOSStatus_( err );
+	
+	myFixed = EndianS32_NtoB( FloatToFixed( inBlueFactor ) );
+	err = QTInsertChild( atomCont, kParentAtomIsContainer,
+		'bmul', 1, 0, sizeof(myFixed), &myFixed, NULL );
+	ThrowIfOSStatus_( err );
+	
+	return atomCont;
+
+The docs say that the 3 parameters can be tweens, so I thought, well, 
+maybe they must be tweens, but I had no better luck when I tried making 
+them tweens.
+
+Any idea what I could be doing wrong?  Or any suggestions on how to 
+debug it?
+-- 
+   James W. Walker, Innoventive Software LLC
+   <http://www.frameforge3d.com/>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

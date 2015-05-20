@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281fcf7322e3689
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs106909wfj;
+        Wed, 21 Apr 2010 03:01:43 -0700 (PDT)
+Received: by 10.223.18.154 with SMTP id w26mr11880faa.39.1271844008920;
+        Wed, 21 Apr 2010 03:00:08 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si922265fkq.47.2010.04.21.03.00.08;
+        Wed, 21 Apr 2010 03:00:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 22B8F13A477C; Wed, 21 Apr 2010 10:00:03 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1A04813A457C
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 09:59:57 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id huMjkVWXLcHg for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 09:59:49 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 944F513A44EF
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 09:59:49 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O4Wic-00058w-Am
+	for debian-user@lists.debian.org; Wed, 21 Apr 2010 11:59:42 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 11:59:42 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 11:59:42 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: how to activate canbery
+Date: Wed, 21 Apr 2010 09:59:34 +0000 (UTC)
+Lines: 30
+Message-ID: <pan.2010.04.21.09.59.34@csmining.org>
+References: <s2o46688cb91004210214pf4c2780co55821d0fcc0ca339@mail.csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bxBMmi2DxgI.A.6ZB.jyszLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574659
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 10:00:03 +0000 (UTC)
+
+On Wed, 21 Apr 2010 10:14:45 +0100, abdelkader belahcene wrote:
+
+> Hi,
+
+Please, keep quoting when replying e-mails to avoid messing the 
+content :-)
+
+> I suppose so,  since I hear  sounds and can play music ?  or  it is
+> another thing ?
+
+AFAIK, it's another thing as I have disabled my system sounds but still 
+can hear any other music :-)
+
+> otherwise  how to enable "system sounds" thanks for help
+> bela
+
+In Lenny, go to "menu / system / preferences / sound" and open "Sounds" 
+tab. There you can enable system sounds.
+
+If you are running squeeze, take a read into this thread:
+
+***
+No GNOME system sounds in Squeeze
+http://lists.debian.org/debian-user/2010/01/msg02369.html
+***
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.21.09.59.34@csmining.org
+
+

@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId128506159b3f2577
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs117862wfj;
+        Fri, 30 Apr 2010 13:21:18 -0700 (PDT)
+Received: by 10.87.62.17 with SMTP id p17mr3961564fgk.30.1272658876789;
+        Fri, 30 Apr 2010 13:21:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 26si3695730fks.22.2010.04.30.13.21.16;
+        Fri, 30 Apr 2010 13:21:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3C76213A48FA; Fri, 30 Apr 2010 20:21:05 +0000 (UTC)
+Old-Return-Path: <celejar@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.8 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MDO_DATING2,SARE_TOWRITE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4055C13A48D9
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 20:20:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.75 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5,
+	MDO_DATING2=0.1, SARE_TOWRITE=1.05] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JynFjSlY7R-t for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 20:20:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-vw0-f47.google.com (mail-vw0-f47.google.com [209.85.212.47])
+	by liszt.debian.org (Postfix) with ESMTP id D105013A48AB
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 20:20:51 +0000 (UTC)
+Received: by vws12 with SMTP id 12so197242vws.6
+        for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 13:20:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:in-reply-to:references:x-mailer:mime-version
+         :content-type:content-transfer-encoding;
+        bh=dWUB8/bkADNKcc8orpI/Pj5MuRnTl8D4xFe6aFJY70I=;
+        b=XjFT8+ei4Dt0AIKxk7T/SKmwbbkBlOVAJ8IBUpu3UsrZ9HsTTq9ACEDCB/sec/n4De
+         BWnUUbfECAtOIvkhe7SGxHHpIBChHGkrXQLEgRTrbRqxWrFWU2cFDppkSdDy2iXfBgsD
+         kMW1wd7SCddaBUfyRT3dI1rBatEP1IZHbDX/g=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:in-reply-to:references:x-mailer
+         :mime-version:content-type:content-transfer-encoding;
+        b=F0//8wJX7+faUb1Y/1alMyPmLbIV5+WdMzMwcVOwg2x4nKlTyZ1T9tQDYIs7+eAGSI
+         5XDlMBF0oRsk0QLFbilmNZvA9AsyO37bA7v9AyZnW6KLQcZm3PbBYywlAIJYvc2evOQP
+         Nap7N6qeK4dEMFXtOzIDE2YckqCPL1Winz0+M=
+Received: by 10.220.123.137 with SMTP id p9mr8081323vcr.216.1272658843961;
+        Fri, 30 Apr 2010 13:20:43 -0700 (PDT)
+Received: from localhost.localdomain (ool-43524048.dyn.optonline.net [67.82.64.72])
+        by mx.google.com with ESMTPS id i29sm10335772vcr.12.2010.04.30.13.20.41
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Fri, 30 Apr 2010 13:20:42 -0700 (PDT)
+Date: Fri, 30 Apr 2010 16:20:40 -0400
+From: Celejar <celejar@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Subject: Re: Lite SMTP server/daemon
+Message-Id: <20100430162040.f26361ba.celejar@csmining.org>
+In-Reply-To: <20100426151224.0414130c.celejar@csmining.org>
+References: <4BD1E3C5.23069.11D86AA@export.hope.cz>
+	<4BD2B938.8050402@hardwarefreak.com>
+	<20100425101712.cf2c9061.celejar@csmining.org>
+	<4BD56156.3715.912CDB@export.hope.cz>
+	<20100426151224.0414130c.celejar@csmining.org>
+X-Mailer: Sylpheed 3.0.2 (GTK+ 2.20.0; i486-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2B2JvYn1-MJ.A.VJE.xuz2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575581
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 20:21:05 +0000 (UTC)
+
+[Replying to my own message.]
+
+On Mon, 26 Apr 2010 15:12:24 -0400
+Celejar <celejar@csmining.org> wrote:
+
+...
+
+> Hm, I had thought that at least some of the small, relaying MTAs
+> accepted connections on port 25.  On closer perusal, it looks like they
+> don't.
+> 
+> One option would be to build your own version of one of the big ones,
+> with all unnecessary functionality excluded.  I don't know what the
+> resulting binary size would be.
+
+I was sufficiently intrigued by the (apparent) absence of a simple MTA
+that does the above, so I decided to write my own: Tmta.  It actually
+works, and is documented, although it's still pretty much in the
+proof-of-concept stage:
+
+https://sourceforge.net/projects/tmta/
+
+One important thing that it does *not* (yet?) do is fork; it's currently
+implemented as a basic, single-threaded daemon, so it can only accept
+one connection at a time.  It shouldn't be too difficult (famous last
+words ...) to convert into a multi-threaded model, although I have no
+experience with that sort of thing.
+
+It is still small, though - under 70 lines of actual Perl code,
+although it does, of course, require the basic Perl installation and
+about a half-dozen other modules.
+
+If anyone has any feedback, or suggestions for improvement, I'd love
+to hear them.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430162040.f26361ba.celejar@csmining.org
+
+

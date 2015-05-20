@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282216a734858f2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs128837wfj;
+        Wed, 21 Apr 2010 13:37:09 -0700 (PDT)
+Received: by 10.142.67.26 with SMTP id p26mr3985135wfa.67.1271882229739;
+        Wed, 21 Apr 2010 13:37:09 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 26si15144986pzk.10.2010.04.21.13.37.09;
+        Wed, 21 Apr 2010 13:37:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 7955C1C176F41
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 13:37:09 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 745D626FE9A94
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 13:37:09 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 8DAB126FE965C
+	for <quicktime-api@lists.apple.com>;
+	Wed, 21 Apr 2010 13:36:32 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 78CEDD3A43D8
+	for <quicktime-api@lists.apple.com>;
+	Wed, 21 Apr 2010 13:36:32 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-be-4bcf61d07270
+Received: from asmtpout028.mac.com (asmtpout028.mac.com [17.148.16.103])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	03.AB.25880.0D16FCB4; Wed, 21 Apr 2010 13:36:32 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [10.0.1.2] ([77.56.213.179])
+	by asmtp028.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPSA id <0L1800251UK5LU90@asmtp028.mac.com> for
+	quicktime-api@lists.apple.com; Wed, 21 Apr 2010 13:36:08 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004210212
+From: Christophe Ducommun <cducommun@mac.com>
+In-reply-to: <4BCF55F9.7050507@frameforge3d.com>
+Date: Wed, 21 Apr 2010 22:36:05 +0200
+Message-id: <8F70D330-46C5-4C4D-AC8F-116E9B4F1CA4@mac.com>
+References: <20100421141126.79F2F26FC0E15@lists.apple.com>
+	<725524d7d8601394183f59bd344bee82.squirrel@webmail.apple.com>
+	<F9DF1FF6-8430-48BB-BAFC-E4947ECD5F55@mac.com>
+	<3F2AD2A7-C027-4C96-B3E0-AC241A1E6ABF@mac.com>
+	<F08766CD-5E13-47BA-80D2-E6ACF9B4AFBD@mac.com>
+	<4826B313107B4944A567E4CB5C4A233E022EAC19@mlbe2k6.cs.myharris.net>
+	<46E6D93E-E63E-4922-A6AC-40C283A4F7E2@mac.com>
+	<4BCF55F9.7050507@frameforge3d.com>
+To: quicktime-api@lists.apple.com
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAARO2WE4=
+Subject: Re: Asynchronous load fail with i386 build in a cmd line tool
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> 
+>> If I try to create my QTMovie object on a secondary thread, I get the
+>> following exception :
+>> *2010-04-21 20:09:05.949 QTAsyncLoadCmdLine[5123:3303] An uncaught
+>> exception was raised*
+>> *2010-04-21 20:09:05.950 QTAsyncLoadCmdLine[5123:3303] QTMovie_QuickTime
+>> class must be initialized on the main thread.*
+>> *
+>> *
+>> So it's seem's to be impossible to make asynchronous loading on a
+>> secondary thread.
+> 
+> 
+> I would read that exception as saying that the QTMovie class cannot be initialized on a secondary thread, not that a QTMovie object cannot be initialized on a secondary thread.  Try calling [QTMovie class] on the main thread before creating a QTMovie instance on a thread.
+
+No way, the exception is not anymore raised but the movie doesn't load to full completion.
+
+I think I must try with QuickTime C API.
+
+Christophe
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

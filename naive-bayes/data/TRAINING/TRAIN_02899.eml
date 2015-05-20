@@ -1,0 +1,84 @@
+X-Account-Key: account5
+X-UIDL: GmailId12811dab4fad7d26
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs50009wfj;
+        Sun, 18 Apr 2010 09:57:46 -0700 (PDT)
+Received: by 10.224.64.227 with SMTP id f35mr1316892qai.310.1271609865751;
+        Sun, 18 Apr 2010 09:57:45 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 40si11592454iwn.94.2010.04.18.09.57.45;
+        Sun, 18 Apr 2010 09:57:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 6003F1BDEB0C9
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 09:57:45 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 3DDAD26E95C2E
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 09:57:45 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay16.apple.com (relay16.apple.com [17.128.113.55])
+	by lists.apple.com (Postfix) with ESMTP id 3530A26E95A39
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 09:57:26 -0700 (PDT)
+X-AuditID: 11807137-b7ce7ae0000056c8-09-4bcb39f52ad7
+Received: from et.apple.com (et.apple.com [17.151.62.12])
+	by relay16.apple.com (Apple SCV relay) with SMTP id
+	EE.E4.22216.5F93BCB4; Sun, 18 Apr 2010 09:57:26 -0700 (PDT)
+Received: from [17.151.76.121] by et.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L1300L7R0FPEV70@et.apple.com> for
+	X11-users@lists.apple.com; Sun, 18 Apr 2010 09:57:25 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <A6E290FA-B555-4377-9308-433E28FD24FC@mac.com>
+Date: Sun, 18 Apr 2010 09:57:24 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <A474C44F-EC10-4DB8-9A19-EB0236424C66@apple.com>
+References: <543587.87903.qm@web55604.mail.re4.yahoo.com>
+	<FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+	<460333.63537.qm@web55608.mail.re4.yahoo.com>
+	<20100418.095448.252095907.hanche@math.ntnu.no>
+	<944345.33232.qm@web55601.mail.re4.yahoo.com>
+	<A6E290FA-B555-4377-9308-433E28FD24FC@mac.com>
+To: Allen Bennett <allenbennett@mac.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11-users@lists.apple.com,
+	Harald Hanche-Olsen <hanche@math.ntnu.no>
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On Apr 18, 2010, at 09:38, Allen Bennett wrote:
+
+> I do believe you have to logout/login only, when you update X11.
+
+And that's not required.  It just updates the launchd DISPLAY socket, so =
+XQuartz.app is default rather than X11.app
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

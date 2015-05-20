@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285890e25aaf219
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs177453wfj;
+        Sun, 2 May 2010 03:30:10 -0700 (PDT)
+Received: by 10.223.23.83 with SMTP id q19mr2575345fab.12.1272796209970;
+        Sun, 02 May 2010 03:30:09 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si6507397fks.20.2010.05.02.03.30.09;
+        Sun, 02 May 2010 03:30:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 74DC613A48EE; Sun,  2 May 2010 10:30:07 +0000 (UTC)
+Old-Return-Path: <alerabagr@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=STATIC_RIMA_TDE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5828B13A4745
+	for <lists-debian-kde@liszt.debian.org>; Sun,  2 May 2010 10:12:49 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, STATIC_RIMA_TDE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 89IEHOv-kCQL for <lists-debian-kde@liszt.debian.org>;
+	Sun,  2 May 2010 10:12:42 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 1F2A913A46EC
+	for <debian-kde@lists.debian.org>; Sun,  2 May 2010 10:12:39 +0000 (UTC)
+Received: by wyf22 with SMTP id 22so1033246wyf.6
+        for <debian-kde@lists.debian.org>; Sun, 02 May 2010 03:12:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:cc:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=NK/hJe2zvB0msTCtwnS4ityefZgyj8bq9BJA1TRHCr4=;
+        b=B0FrgOBPDuQjK40OLkQfoEklbNeI9nUaXt9/3+v1VESqTC8uN+bSCC5qaRAk9XqeVY
+         Egml32FiCoZruKJk8BS2Zsx7UUmxYPcr+GOgE5po0DlxebiJY++t/jITCYIdS7BQAQ3K
+         QL05E5rSwpuvRFC9ogXjM38+q7ALh1h337sfs=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:cc
+         :mime-version:content-type:content-transfer-encoding:message-id;
+        b=DpagMGTJr0J65xqShwTNrlNPwfpH3SlYCbYRH0La51QFYM7EOrLKXeGut1NoLPg5JU
+         ++/uuaZcyP12aYnNxkopb7wQs+WD8gFl0nPiselI6IIZz5id55iG9VfsLliHV6iR5zZb
+         G3Q4jOABCxACFd8IjY5j09H0XgiJk6HVGcBbw=
+Received: by 10.216.154.139 with SMTP id h11mr5512310wek.170.1272795156779;
+        Sun, 02 May 2010 03:12:36 -0700 (PDT)
+Received: from enterprise.localnet (121.Red-80-59-248.staticIP.rima-tde.net [80.59.248.121])
+        by mx.google.com with ESMTPS id r29sm31904665wbv.9.2010.05.02.03.12.35
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 02 May 2010 03:12:35 -0700 (PDT)
+From: Alejandro =?iso-8859-1?q?Ram=F3n_Ballesta?= <alerabagr@csmining.org>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE Issues under "Squeeze"
+Date: Sun, 2 May 2010 12:12:28 +0200
+User-Agent: KMail/1.12.4 (Linux/2.6.32-4-amd64; KDE/4.3.4; x86_64; ; )
+References: <aPKdnQH1541FJk7WnZ2dnUVZ_tWhnZ2d@giganews.com> <slrnht7pkl.nfa.nospam@sshway.ssh.pusling.com> <R72dnSTSkbqWW0HWnZ2dnUVZ_qkAAAAA@giganews.com>
+In-Reply-To: <R72dnSTSkbqWW0HWnZ2dnUVZ_qkAAAAA@giganews.com>
+Cc: lrhorer@satx.rr.com
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <201005021212.28534.alerabagr@csmining.org>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ZXDr5C-4dZM.A.ofG.vQV3LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32057
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 10:30:07 +0000 (UTC)
+
+Hi,
+
+AFAIK, the next KDE package manager is adept, which you can already install=
+ in=20
+squeeze (though i recommend aptitude).
+
+kind regards,
+Alejandro.
+
+El Domingo 02 Mayo 2010 02:23:39 lrhorer escribi=F3:
+> >[...] KPackage is being removed very soon and is already gone in
+> > experimental.
+>=20
+>         That's really bad news.  Without KPackage, there really isn't much
+> reason to run KDE.
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005021212.28534.alerabagr@csmining.org
+
+

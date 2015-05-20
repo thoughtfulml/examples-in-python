@@ -1,0 +1,155 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288cba977a6f71b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs54948wfb;
+        Wed, 12 May 2010 06:35:59 -0700 (PDT)
+Received: by 10.227.147.133 with SMTP id l5mr6866554wbv.82.1273671358449;
+        Wed, 12 May 2010 06:35:58 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id j10si448992wbw.13.2010.05.12.06.35.57;
+        Wed, 12 May 2010 06:35:58 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CEA8413A42C2; Wed, 12 May 2010 13:35:50 +0000 (UTC)
+Old-Return-Path: <breton.linux@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id ADCE713A42A7
+	for <lists-debian-laptop@liszt.debian.org>; Wed, 12 May 2010 13:35:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-10.4 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BODY_8BITS=1.5, FOURLA=0.1, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 93A7URO2iVQb for <lists-debian-laptop@liszt.debian.org>;
+	Wed, 12 May 2010 13:35:37 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 2839513A42B0
+	for <debian-laptop@lists.debian.org>; Wed, 12 May 2010 13:35:31 +0000 (UTC)
+Received: by wwb39 with SMTP id 39so708525wwb.6
+        for <debian-laptop@lists.debian.org>; Wed, 12 May 2010 06:35:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=qq6AFNe8C4jchbfunUcfY3OtP+2c+2ztgStaNuNNbyE=;
+        b=I9E0F0SrXc1mG668OEJmh2/SU/OcqfLHySWtQe/62OHEpwtArApxgyEBztZ+1ViYBz
+         3P0VZZ6CYdJRbgDi+pCZW2V13b4fHphYsnniTIj22qcaKI3Kvc6sjLjLcNL48CMuEL60
+         R0FWa8kI6xOW5bywGb+mAF0mi47M0iEq1Tyhg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+         :content-type:content-transfer-encoding:message-id;
+        b=gmRXGDJhZUNgGqdP68AGz9a/aNrUGBYA7TAp0QaCfnBavzCq0o0Iiysvna8hOtg3se
+         U2pxmkpem493F0+urZaWVSZadisJQiJZoLmcQO7LdzRT7om1RxS3SKIyKUsMD84TYSeo
+         gcrxPOqWm9/qWcg6YmH8pqkM8FeSt/Vrnb21U=
+Received: by 10.227.128.81 with SMTP id j17mr6767282wbs.149.1273671326351;
+        Wed, 12 May 2010 06:35:26 -0700 (PDT)
+Received: from breton.localnet ([89.146.99.148])
+        by mx.google.com with ESMTPS id i35sm350942gve.26.2010.05.12.06.35.21
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 12 May 2010 06:35:24 -0700 (PDT)
+From: Boris Bobrov <breton.linux@csmining.org>
+To: debian-laptop@lists.debian.org
+Subject: Re: wireless connection issues
+Date: Wed, 12 May 2010 18:32:47 +0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-breton; KDE/4.3.4; i686; ; )
+References: <4BE85934.8030902@web.de>
+In-Reply-To: <4BE85934.8030902@web.de>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1456395.rF26q0RE7t";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005121832.52159.breton.linux@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <eZyj9mori6G.A.0qG.26q6LB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34142
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 13:35:50 +0000 (UTC)
+
+--nextPart1456395.rF26q0RE7t
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi, Frank.=20
+Try to set dhcp pool size in your router to 2 or 3
+=D0=92=D1=82=D0=BE=D1=80=D0=BD=D0=B8=D0=BA 11 =D0=BC=D0=B0=D1=8F 2010 00:06=
+:28 you wrote:
+> Hi guys,
+>=20
+> I'm having some headaches with our WLAN. We're going online with 2
+> laptops, that means we try. We do have the following setup:
+>=20
+> The router is a Speedport W 303V and we do have the folloeing laptops:
+> Asus M6N, Intel ipw2100 driver, Debian/sid with wicd
+> Acer Aspire 5680, Atheros AR2413 with the ath5k driver, Ubuntu 8.10 with
+> network manager
+>=20
+> When my wife is online with her Acer/Ubuntu system I cannot connect with
+> my Asus/Debian machine. The wireless network is detected but I do not
+> get an IP address.This is from the wicd.log file:
+> No DHCPOFFERS received.
+> No working leases in persistent database - sleeping.
+> DHCP connection failed
+> exiting connection thread
+> Sending connection attempt result dhcp_failed
+>=20
+> It does work the other way round though!
+>=20
+>=20
+> Any ideas on where to look?
+>=20
+> THX Frank
+>=20
+
+--nextPart1456395.rF26q0RE7t
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAABAgAGBQJL6q3/AAoJECLH0/4+jZdz3B4IAI9XjmPy9g/CFl7Y6r7DPA5q
+XmfAkOdf1++rZQ1SWj6oEF4Pi9yBLIsy1cXAZgNDRmpsytsTotaXIXeIXXlZpH0m
+vTTXguoz4rTmTHkGoqXFDpsuSuucl5rM+kpJlAWQFT28uPEQwIhbAUTdzNu2DyZb
+iepEW3lFEGmXc6aPuuxks9CYlzFyhDENWMwhEUMAvlwHqrbt/9Qb1ovMzW/w0dG8
+jWTJNSrYvvAoepspvMojnkOZMGM9bxb77ZncXCXotL/bmaJ/e+Hd2gO1FLCI9SlG
+KIdPINDVjk34LLRzF2AHoMtbp5njJDyed+rrvZjPRzSu1rxx8Z8XlE3rKVYc9wE=
+=MWiQ
+-----END PGP SIGNATURE-----
+
+--nextPart1456395.rF26q0RE7t--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005121832.52159.breton.linux@csmining.org
+
+

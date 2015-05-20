@@ -1,0 +1,127 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dc05606b36a3b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs64499wfi;
+        Wed, 7 Apr 2010 23:04:53 -0700 (PDT)
+Received: by 10.86.6.39 with SMTP id 39mr3210704fgf.4.1270706692220;
+        Wed, 07 Apr 2010 23:04:52 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 4si16914482fxm.20.2010.04.07.23.04.51;
+        Wed, 07 Apr 2010 23:04:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id EC10A2D0ED7; Thu,  8 Apr 2010 06:04:49 +0000 (UTC)
+Old-Return-Path: <avbidder@fortytwo.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-20.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CD68E2D0D60
+	for <lists-debian-kde@liszt.debian.org>; Thu,  8 Apr 2010 06:04:43 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DWgbj8ya5Kye for <lists-debian-kde@liszt.debian.org>;
+	Thu,  8 Apr 2010 06:04:32 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from zbasel.fortytwo.ch (zbasel.fortytwo.ch [193.138.215.60])
+	by liszt.debian.org (Postfix) with ESMTP id 9F30A2D0ED7
+	for <debian-kde@lists.debian.org>; Thu,  8 Apr 2010 06:04:32 +0000 (UTC)
+Received: from laeggerli.fortytwo.ch (cust.static.84-253-12-25.cybernet.ch [84.253.12.25])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by zbasel.fortytwo.ch (Postfix) with ESMTP id 7FD3925AC1
+	for <debian-kde@lists.debian.org>; Thu,  8 Apr 2010 08:04:30 +0200 (CEST)
+From: Adrian von Bidder <avbidder@fortytwo.ch>
+To: debian-kde@lists.debian.org
+Subject: pinentry window?
+Date: Thu, 8 Apr 2010 07:26:03 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33-2-686; KDE/4.4.2; i686; ; )
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2505536.5jZ5eAWnRl";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004080726.05819@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <XiKrR89MbvI.A.urF.BIXvLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31987
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 06:04:49 +0000 (UTC)
+
+--nextPart2505536.5jZ5eAWnRl
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Heyho!
+
+=2E.. and, sending the last mail: is it a Debian specific issue, or some lo=
+cal=20
+feature of my KDE profile, or a KDE bug: recently (4.3 to 4.4, but I'm not=
+=20
+sure exactly which updates triggered it), the pinentry window always comes=
+=20
+up behind the kmail windows when I sign email.  Confused me a bit at=20
+first... (luckily it is still modal relative to the kmail window, so the=20
+kmail composer gets greyed out, indicating that the pinentry might be=20
+somewhere...)
+
+Mostly everything related to KDE is experimental or qt-kde repository.=20
+pinentry-qt4 is 0.8.0-1.
+
+cheers
+=2D- vbi
+
+=2D-=20
+Development code can brick your network adapter,
+scramble your filesystems, open up severe security
+holes, or save your documents as OOXML
+        -- Jonathan Corbet, Linux Weekly News
+
+--nextPart2505536.5jZ5eAWnRl
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: get my key from http://fortytwo.ch/gpg/92082481
+
+iKcEABECAGcFAku9aO1gGmh0dHA6Ly9mb3J0eXR3by5jaC9sZWdhbC9ncGcvZW1h
+aWwuMjAwMjA4MjI/dmVyc2lvbj0xLjUmbWQ1c3VtPTVkZmY4NjhkMTE4NDMyNzYw
+NzFiMjVlYjcwMDZkYTNlAAoJECqqZti935l6uxgAn0og6Ei+blb6KfQyhY/rHrk+
+ZrJgAJ9Blz7kwYc7kBPW38Ylo+Wc9d3QEQ==
+=B5rv
+-----END PGP SIGNATURE-----
+
+--nextPart2505536.5jZ5eAWnRl--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004080726.05819@fortytwo.ch
+
+

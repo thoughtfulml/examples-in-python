@@ -1,0 +1,288 @@
+From - Fri Apr 16 10:29:35 2010
+X-Account-Key: account2
+X-UIDL: UID12702-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id E9DB72C1D3
+	for <m0620212@mail.csmining.org>; Fri, 16 Apr 2010 06:37:16 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id E5953167BE
+	for <m0620212@mail.csmining.org>; Fri, 16 Apr 2010 06:37:16 +0900 (JST)
+X-ASG-Debug-ID: 1271367435-66f0096e0001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id qPjjRGkYiVUFchh2 for <m0620212@mail.csmining.org>; Fri, 16 Apr 2010 06:37:15 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o3FLbFau012860
+        for <m0620212@mail.csmining.org>; Fri, 16 Apr 2010 06:37:15 +0900 (JST)
+Received: from mx1.csmining.org (ns3.csmining.org [192.168.3.3])
+        by gw1.csmining.org  with ESMTP id o3FLbFMc012857
+        for <hibody@csmining.org>; Fri, 16 Apr 2010 06:37:15 +0900 (JST)
+Message-Id: <201004152137.o3FLbFMc012857@gw1.csmining.org>
+Received: from [109.166.128.12] (unknown [109.166.128.4])
+	by mx1.csmining.org (csminingorg MX Server1) with ESMTP id F1FA775
+	for <hibody@csmining.org>; Fri, 16 Apr 2010 06:37:13 +0900 (JST)
+From: "Pfizer's best products" <hibody@csmining.org>
+X-Barracuda-BWL-IP: 109.166.128.12
+X-Barracuda-BBL-IP: 109.166.128.12
+X-Barracuda-RBL-IP: 109.166.128.12
+X-Barracuda-BRL-Tag: Barracuda Reputation
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Festival of discounts, hibody! Up to 70% off Wudyte
+Subject:   Festival of discounts, hibody! Up to 70% off Wudyte
+Date: Fri, 16 Apr 2010 00:37:11 +0300
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1271367435
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (*spicevalued.ru)
+X-Barracuda-Spam-Score: 40.88
+X-Barracuda-Spam-Status: No, SCORE=40.88 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA275b_HL, BSF_SC0_SA290_RN, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC2_SA154, BSF_SC2_SA154_HL, BSF_SC2_SA154a, BSF_SC5_MJ1963, HS_INDEX_PARAM, HTML_MESSAGE, MIME_HTML_ONLY, MSGID_FROM_MTA_HEADER, MSGID_FROM_MTA_HEADER_2, RDNS_NONE, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL, URIBL_JP_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.27579
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: spicevalued.ru]
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: spicevalued.ru]
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.00 HS_INDEX_PARAM         URI: Link contains a common tracker pattern.
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.00 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	1.50 MSGID_FROM_MTA_HEADER_2 Message-Id was added by a relay
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	5.00 BSF_SC2_SA154a         Custom Rule SA154a
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	6.50 BSF_SC2_SA154          Custom Rule SA154
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+	1.00 BSF_SC0_SA275b_HL      Custom Rule SA275b_HL
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+	Realtime IP - 202.111.175.31
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Newsletter</title>
+</head>
+
+
+<body>
+	<table width="700" cellspacing="0" cellpadding="0" align="center">
+
+		<tbody>
+			<tr valign="top" align="center">
+				<td width="700">
+					<table width="700" cellspacing="0" cellpadding="0" border="0" align="center">
+						<tbody>
+							<tr>
+
+								<td width="700">
+
+									<table width="700" cellspacing="0" cellpadding="0" border="0" align="center">
+										<tr>
+											<td>
+												Having trouble reading this email? <a href="http://l.spicevalued.ru/?65d3da6f13">View it in your browser</a>.<br />
+											</td>
+										</tr>
+									</table>
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table width="700" cellspacing="0" cellpadding="0" border="0" align="center">
+										<tr>
+											<td width="700">
+												<br />
+												<br />
+												<a href="http://u.spicevalued.ru/?970eec67e2">
+												<img width="598" height="406" src="http://i42.tinypic.com/2094q3k.jpg" border="0" alt="eStore's site on-line" /></a>
+												<br />
+												<br />
+												<br />
+												It is <p align="left">criss-crossed by the</p> mighty Cagayan River, Siffu river, and Magat River.
+He was considered one of the greatest <b>rulers of</b> the 
+region, also across the 
+Middle of Lebanon.
+He was crowned king (as <br>Robert I) less than seven weeks after the killing.
+This was the same year that the Wings added enforcer Bob Probert, one of the most familiar faces of the Wings in the 
+1980s and 1990s.
+Feminist methods seek to expose the biases 
+from which international law is written and 
+<h2>particularly the notion 
+that 
+women are</h2> more vulnerable than men 
+and 
+need <center>special</center> protection under the law.
+In addition 
+to irritability, mood disturbances, restlessness, paranoia, and auditory hallucinations, cocaine use can cause several dangerous physical conditions.
+Both 
+liberal reformers and radical politicians were 
+reshaping national governments.
+Extensive parcels of land were donated to monasteries to <p>exempt those</p> <div>lands</div> 
+from royal 
+taxation and <br>to preserve them within the 
+<p>family.</p>
+The surface of <h2>the pure metal tarnishes quickly,</h2> eventually forming a protective <p align="left">passivating</p> layer <p align="left">of</p> the basic zinc carbonate, Zn 5 (OH) 6 CO 3, by reaction with atmospheric carbon dioxide.
+They are permitted to join the other units of the IDF as well.
+For the <center>first</center> time PSP <b>owners could also access the store 
+directly on their PSP</b> consoles.
+Pieces feel 
+solid and larger <p>than they really are.It</p> has been suggested that Yalli <p align="left">(motif)</p> 
+be merged 
+into this article or section.
+Albania and Cyprus are the only countries 
+in Europe that recorded economic growth in the first quarter <b>of 2009.</b>
+The Chinese " Wu Ching Tsung Yao ", written by Tseng Kung-Liang in 1044, provides encyclopedia references to a variety of mixtures which included petrochemicals, as well as garlic and honey.
+Many 
+nations have 
+modeled their own corporate 
+laws 
+on American business law.
+He would go on to play a minor amount of time in <p align="left">both</p> the Swiss Hockey League and the Austrian Hockey League.
+There are various types of classifying tills.
+A good example of this are 
+the non-fiction scientific books and papers which explain the science <p>of the day but are</p> then superseded 
+by 
+better representations.
+In the years 1845 and 1846, a potato blight, originating in Belgium, caused a subsistence crisis in Northern Europe.
+Archived from the original on August 22, 2008.<h5>This 
+amount has</h5> increased in recent years due to non-military economic aid being shifted to military aid.
+Margo 
+MacDonald is the only independent MSP 
+sitting in Parliament.
+Together with <p align="right">five other films</p> extant in French archives, these are the only recordings of Doyen that survived the time [5].
+Finn eventually quits the job because 
+he is <div>afraid <b>Vito</b> might become violent</div> with this secret.
+After 
+Verdi, the 
+sentimental "realistic" melodrama 
+of verismo appeared in Italy.In the United States intermarriage 
+among Filipinos with other races is common.
+In March 1992 gang members raided the home of Patricia Harris and she was fatally shot.
+The limestone also produced a useful quarry industry, usually small, and <br>softer, high-calcium <div>seams</div> 
+were burned to produce industrial lime.
+The UN Security Council has 
+issued several non-binding resolutions addressing the issue 
+of the 
+<br>settlements.
+Laws banning "race-mixing" 
+were enforced in Nazi <em>Germany</em> (the Nuremberg Laws) until 
+1945, in certain U.Near the 
+end of the film, Cromwell tells the Rump <p>Parliament that</p> they <b>have</b> had six years 
+to form a new government 
+after the execution of Charles I.
+While nationwide the imputation method added.
+A 
+b c Poniewozik, James (September 7, 
+2003).
+English <h5>Tudor style was introduced in Karachi</h5> Gymkhana and the Boat Club.
+Laws banning "race-mixing" were enforced in <br>Nazi Germany (the Nuremberg Laws) until 1945, in certain U.
+Bedouin and his camel on the road to Jericho.Usually a voluntary association is founded upon the principle 
+of one-person-one-vote.
+Systematic deportations of Jewish Germans and Gentile Germans <em>of</em> Jewish descent started on October 18, 1941.
+The two generators 
+<h2>(42 Hz, 550 kW</h2> each) 
+and the 
+transformers were produced and installed by the Hungarian 
+company Ganz.
+Zinc is a fair conductor of electricity.
+The nonprofit may also be a trust or association of members.
+It was during 
+this 
+vacuum of authority that 
+the region <p>saw</p> 
+the rise 
+of the Signoria 
+and the Comune.
+The name may have a continuation in 
+the name 
+of a medieval settlement called Albanon and Arbanon, although it is not 
+certain this was the <h2>same place.
+Like</h2> stamped steel turntables, they were topped with rubber.
+All links are to sites 
+in English unless otherwise specified.The cathedral on the Rock of Cashel in Ireland <center>is completed.
+Larry</center> the loafer also made an appearance.
+Spain at the Open Directory 
+Project.
+Each record held 40 minutes of music per side, recorded 
+at 
+420 grooves per 
+inch.
+Rather than take a position, the article will present all arguments to the reader.
+M above the ground by a crossbar.The OVA <br>series was licensed and released subtitled in English by Kitty Media as a single DVD containing the 
+four episodes on August 17, 2004.They are East <center>Kilbride,</center> Glenrothes, Livingston, Cumbernauld, <b>and Irvine.</b>
+The Israeli military only commenced action after Government House was captured, which was seen as a threat to the security of Jerusalem.
+A bond issued by the Dutch East India 
+Company, dating from 1623, for the <center>amount of</center> 
+2,400 florins.</td>
+										</tr>
+										</table>
+								</td>
+							</tr>
+
+							<tr>
+								<td>
+									<table width="700" cellspacing="0" cellpadding="0" border="0" align="center">
+
+										<tr>
+											<td>
+												<table cellspacing="0" cellpadding="0" border="0">
+													<tr>
+														<td>
+															<br />
+															<br />
+															Copyright &copy; Mountain Ltd 2004 - 2010. All rights reserved.
+															<br />
+														</td>
+													</tr>
+
+													<tr>
+														<td>
+															<br />
+															<a href="http://yy.spicevalued.ru/?45146924e326" target="_blank">
+															Unsubscribe here</a>.
+															<br />
+														</td>
+													</tr>
+												</table>
+											</td>
+
+										</tr>
+
+									</table>
+								</td>
+							</tr>
+
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
+

@@ -1,0 +1,244 @@
+X-Account-Key: account5
+X-UIDL: GmailId12860b4e3fbc327b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs252884wfj;
+        Mon, 3 May 2010 17:26:28 -0700 (PDT)
+Received: by 10.87.70.7 with SMTP id x7mr11413175fgk.77.1272932786910;
+        Mon, 03 May 2010 17:26:26 -0700 (PDT)
+Return-Path: <bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f31si10101116fkf.48.2010.05.03.17.26.26;
+        Mon, 03 May 2010 17:26:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3BF2613A4FA7; Tue,  4 May 2010 00:25:57 +0000 (UTC)
+Old-Return-Path: <geissert@debian.org>
+X-Original-To: lists-debian-security-announce@liszt.debian.org
+Delivered-To: lists-debian-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B8FE913A4ED4
+	for <lists-debian-security-announce@liszt.debian.org>; Tue,  4 May 2010 00:25:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -12.38
+XLevel: 
+XStatus: No, score=-12.38 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1,
+	FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_2=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id s3syxrexrwoq
+	for <lists-debian-security-announce@liszt.debian.org>;
+	Tue,  4 May 2010 00:25:49 +0000 (UTC)
+Received: from master.debian.org (master.debian.org [70.103.162.29])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 017FF13A49A8
+	for <debian-security-announce@lists.debian.org>; Tue,  4 May 2010 00:25:49 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=eee.localnet)
+	by master.debian.org with esmtp (Exim 4.69)
+	(envelope-from <geissert@debian.org>)
+	id 1O95xJ-0000AL-FD
+	for debian-security-announce@lists.debian.org; Tue, 04 May 2010 00:25:45 +0000
+From: Raphael Geissert <geissert@debian.org>
+To: debian-security-announce@lists.debian.org
+Date: Mon, 3 May 2010 19:25:46 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-4-686; KDE/4.3.4; i686; ; )
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Message-Id: <201005031925.47383.geissert@debian.org>
+X-Debian: PGP check passed for security officers
+Subject: [SECURITY] [DSA-2041-1] New mediawiki packages fix cross-site request forgery
+Priority: urgent
+Reply-To: debian-security@lists.debian.org
+Resent-Message-ID: <BAcQexsduTB.A.7wH.Vm23LB@liszt>
+Resent-From: debian-security-announce@lists.debian.org
+X-Mailing-List: <debian-security-announce@lists.debian.org> archive/latest/753
+X-Loop: debian-security-announce@lists.debian.org
+List-Id: <debian-security-announce.lists.debian.org>
+List-Post: <mailto:debian-security-announce@lists.debian.org>
+List-Help: <mailto:debian-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-announce-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 00:25:57 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ------------------------------------------------------------------------
+Debian Security Advisory DSA-2041-1                  security@debian.org
+http://www.debian.org/security/                         Raphael Geissert
+May 03, 2010                          http://www.debian.org/security/faq
+- ------------------------------------------------------------------------
+
+Package        : mediawiki
+Vulnerability  : CSRF
+Problem type   : remote
+Debian-specific: no
+CVE Id(s)      : CVE-2010-1150
+
+It was discovered that mediawiki, a website engine for collaborative
+work, is vulnerable to a Cross-Site Request Forgery login attack, which
+could be used to conduct phishing or similar attacks to users via
+affected mediawiki installations.
+
+Note that the fix used breaks the login API and may require clients using it to 
+be updated.
+
+For the stable distribution (lenny), this problem has been fixed in
+version 1:1.12.0-2lenny5.
+
+For the testing distribution (squeeze) and the unstable distribution (sid),
+this problem has been fixed in version 1:1.15.3-1.
+
+
+We recommend that you upgrade your mediawiki packages.
+
+Upgrade instructions
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will install the referenced file.
+
+If you are using the apt-get package manager, use the line for
+sources.list as given below:
+
+apt-get update
+        will update the internal database
+apt-get upgrade
+        will install corrected packages
+
+You may use an automated update by adding the resources from the
+footer to the proper configuration.
+
+
+Debian GNU/Linux 5.0 alias lenny
+- --------------------------------
+
+Stable updates are available for alpha, amd64, arm, armel, hppa, i386, ia64, 
+mips, mipsel, powerpc, s390 and sparc.
+
+Source archives:
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki_1.12.0.orig.tar.gz
+    Size/MD5 checksum:  7188806 117a1360f440883a51f0ebca32906ea0
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki_1.12.0-2lenny5.diff.gz
+    Size/MD5 checksum:    64013 4bda93a5b7657c02615abb552a52656f
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki_1.12.0-2lenny5.dsc
+    Size/MD5 checksum:     1549 95beff777c2aabfc1c27ee705d6e962d
+
+Architecture independent packages:
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki_1.12.0-2lenny5_all.deb
+    Size/MD5 checksum:  7232192 376a7e8a9d5ef623d9f742c46b6731d2
+
+alpha architecture (DEC Alpha)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_alpha.deb
+    Size/MD5 checksum:    50010 ef0bba8b3e99182ca3aa0332c65ecb79
+
+amd64 architecture (AMD x86_64 (AMD64))
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_amd64.deb
+    Size/MD5 checksum:   157208 be32615f5aa6e9eb8c7cb9856190667e
+
+arm architecture (ARM)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_arm.deb
+    Size/MD5 checksum:    49488 daa203ec0ec783fa56621b5175bdf339
+
+armel architecture (ARM EABI)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_armel.deb
+    Size/MD5 checksum:    49466 0fadcd27411dfbe53bb5acf871f8e9a5
+
+hppa architecture (HP PA RISC)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_hppa.deb
+    Size/MD5 checksum:    50024 1d7fd2466472722e1c94b543e302c481
+
+i386 architecture (Intel ia32)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_i386.deb
+    Size/MD5 checksum:   139020 97e49217a15ba203534ed4e55684ec21
+
+ia64 architecture (Intel ia64)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_ia64.deb
+    Size/MD5 checksum:    50014 6d58ac1368a33980217cf93e6252bd8d
+
+mips architecture (MIPS (Big Endian))
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_mips.deb
+    Size/MD5 checksum:    50020 2402eedead8550ae99d9a979a861afb9
+
+mipsel architecture (MIPS (Little Endian))
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_mipsel.deb
+    Size/MD5 checksum:    50020 079fe641ba7565df49c0cd2b639d8cc7
+
+powerpc architecture (PowerPC)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_powerpc.deb
+    Size/MD5 checksum:   163034 93917f4c7b2b7c81e4542c83de7950d9
+
+s390 architecture (IBM S/390)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_s390.deb
+    Size/MD5 checksum:    50004 a54b1abd2c73872c378b73c751ac6134
+
+sparc architecture (Sun SPARC/UltraSPARC)
+
+  http://security.debian.org/pool/updates/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenny5_sparc.deb
+    Size/MD5 checksum:   158352 39f3faa87dcc103f6f948e351801ee88
+
+
+  These files will probably be moved into the stable distribution on
+  its next update.
+
+- ---------------------------------------------------------------------------------
+For apt-get: deb http://security.debian.org/ stable/updates main
+For dpkg-ftp: ftp://security.debian.org/debian-security 
+dists/stable/updates/main
+Mailing list: debian-security-announce@lists.debian.org
+Package info: `apt-cache show <pkg>' and http://packages.debian.org/<pkg>
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvfaYsACgkQYy49rUbZzlouLwCeO+UAd4EyEZsMjIUmEIWKe+ym
+6BgAoIxXttvlZkBeCi9xJXSWoScpq9Gp
+=73H+
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005031925.47383.geissert@debian.org
+
+

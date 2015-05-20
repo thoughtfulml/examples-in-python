@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId12843edce9f1fd17
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs176249wfj;
+        Wed, 28 Apr 2010 03:19:39 -0700 (PDT)
+Received: by 10.86.6.16 with SMTP id 16mr7074627fgf.55.1272449978254;
+        Wed, 28 Apr 2010 03:19:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si5061072fkr.9.2010.04.28.03.19.37;
+        Wed, 28 Apr 2010 03:19:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 11F1D13A523C; Wed, 28 Apr 2010 10:19:30 +0000 (UTC)
+Old-Return-Path: <mockingbird@earthlight.co.nz>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2159D13A5239
+	for <lists-debian-user@liszt.debian.org>; Wed, 28 Apr 2010 10:19:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6tciobbqsH29 for <lists-debian-user@liszt.debian.org>;
+	Wed, 28 Apr 2010 10:19:16 +0000 (UTC)
+Received: from mahler2.earthlight.co.nz (mozart.earthlight.co.nz [202.36.170.2])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 7BA0A13A50C8
+	for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 10:19:16 +0000 (UTC)
+Received: from [202.124.106.216] (helo=fischer)
+	by mahler2.earthlight.co.nz with esmtp (Exim 4.63)
+	(envelope-from <mockingbird@earthlight.co.nz>)
+	id 1O74MG-0007dE-MM
+	for debian-user@lists.debian.org; Wed, 28 Apr 2010 22:19:09 +1200
+Received: by fischer (Postfix, from userid 1000)
+	id 3AC6CC0C6; Wed, 28 Apr 2010 23:27:49 +1200 (NZST)
+Date: Wed, 28 Apr 2010 23:27:49 +1200
+From: Chris Bannister <mockingbird@earthlight.co.nz>
+To: debian-user@lists.debian.org
+Subject: Re: downloaded .jnlp won't open
+Message-ID: <20100428112749.GB18522@fischer>
+References: <l2s1f1816a91004270739u398b9f3fh891bd9e4cfcf8c3b@mail.csmining.org>
+ <4BD71346.7020604@dobosevic.com>
+ <n2g1f1816a91004270951mb5bcfd94p13b23eed96558b2d@mail.csmining.org>
+ <201004271201.51671.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <201004271201.51671.bss@iguanasuicide.net>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <CoVKSheYhKH.A.OaD.yuA2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575347
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 28 Apr 2010 10:19:30 +0000 (UTC)
+
+On Tue, Apr 27, 2010 at 12:01:45PM -0500, Boyd Stephen Smith Jr. wrote:
+> On Tuesday 27 April 2010 11:51:35 John O Laoi wrote:
+> > > cat /proc/sys/net/ipv6/bindv6only
+> > > if output is 1 then:
+> > > echo 0 > /proc/sys/net/ipv6/bindv6only
+> > 
+> > That fixed it.
+> > 
+> > Anybody know what was the problem?
+> 
+> Default kernel settings where changed.  Java applications and some other 
+> applications are now binding to IPv6 only, instead of IPv4 and IPv6.  There's 
+> an open bug about it, IIRC.
+> 
+> I think it was changed in order to allow communication to/from IPv4-embedded-
+> in-IPv6 addresses over IPv6, which might be required from some environments to 
+> function correctly / optimally.  I'm very sketchy on the details because I 
+> haven't hit the bug myself.
+
+http://lists.debian.org/debian-devel/2010/04/threads.html#00422
+
+-- 
+Chris.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100428112749.GB18522@fischer
+
+

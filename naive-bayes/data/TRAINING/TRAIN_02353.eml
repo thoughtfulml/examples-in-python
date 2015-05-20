@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284fdd858597299
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs109684wfj;
+        Fri, 30 Apr 2010 10:57:18 -0700 (PDT)
+Received: by 10.223.143.20 with SMTP id s20mr1589689fau.38.1272650237383;
+        Fri, 30 Apr 2010 10:57:17 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si3450167fke.57.2010.04.30.10.57.16;
+        Fri, 30 Apr 2010 10:57:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7BFCC13A49BD; Fri, 30 Apr 2010 17:57:07 +0000 (UTC)
+Old-Return-Path: <gary.mccallum@shaw.ca>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 953AA13A4984
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 17:39:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=0 tagged_above=-10000 required=5.3 tests=[none]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id EhXgVrcpNF37 for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 17:39:30 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .shaw. - helo: .idcmail-mo1so.shaw. - helo-domain: .shaw.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from idcmail-mo1so.shaw.ca (idcmail-mo1so.shaw.ca [24.71.223.10])
+	by liszt.debian.org (Postfix) with ESMTP id 5BB3D13A483E
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 17:39:25 +0000 (UTC)
+Received: from pd2ml3so-ssvc.prod.shaw.ca ([10.0.141.148])
+  by pd3mo1so-svcs.prod.shaw.ca with ESMTP; 30 Apr 2010 11:39:05 -0600
+X-Cloudmark-SP-Filtered: true
+X-Cloudmark-SP-Result: v=1.0 c=1 a=VphdPIyG4kEA:10 a=8nJEP1OIZ-IA:10 a=4rjF0NBHNTpt6I8vq1c9Cw==:17
+ a=Yhp_rsfHWQhqYfGVVSsA:9 a=xfr_Ksl6b2u9xBHTsqYA:7
+ a=A7_oz4GzRN3Q-DYYX-nRvYZA4p8A:4 a=wPNLvfGTeEIA:10 a=aFtb4dpASVCimkVz:21
+ a=OFId3DxMYGNVm69b:21
+Received: from unknown (HELO olddev) ([174.3.58.177])
+  by pd2ml3so-dmz.prod.shaw.ca with SMTP; 30 Apr 2010 11:39:05 -0600
+From: "Gary" <gary.mccallum@shaw.ca>
+To: <debian-user@lists.debian.org>
+Subject: sh command issue
+Date: Fri, 30 Apr 2010 11:39:00 -0600
+Message-ID: <ANEAJGKDLNAAPMPGONLKKEAGCBAA.gary.mccallum@shaw.ca>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2911.0)
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <pfdhV_YxR4M.A.KMB.znx2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575573
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 17:57:07 +0000 (UTC)
+
+I'm helping a fella in the UK with a debian build (tiny web) on a small VM
+machine in a data center.  I am trying to compile some c++ code, I have the
+libs and binaries installed and the compile "works", except for this line...
+
+I have a php file used to make the build, and the file contains these
+lines..
+
+
+	system("g++ $files $incl $libs >& build.log");
+#	system("g++ $files $incl $libs");
+
+The first line fails with an error "sh: Syntax error: Bad fd number".
+
+If I comment out the first line, and uncomment the second line, I do get my
+"a.out" file but the errors/warnings go to the screen...  how can I make
+them go to the 'build.log' file?
+
+I have done full package updates on the system using Webmin, and everything
+as of this morning is current.
+
+Thanks kindly for any assistance you can provide. :)
+
+Gary
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ANEAJGKDLNAAPMPGONLKKEAGCBAA.gary.mccallum@shaw.ca
+
+
