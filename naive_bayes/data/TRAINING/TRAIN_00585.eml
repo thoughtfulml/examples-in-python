@@ -1,0 +1,193 @@
+X-Account-Key: account5
+X-UIDL: GmailId12896c97cf3b707b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs25783wfo;
+        Fri, 14 May 2010 05:28:27 -0700 (PDT)
+Received: by 10.114.188.30 with SMTP id l30mr1080942waf.134.1273840106932;
+        Fri, 14 May 2010 05:28:26 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 12si3203435pzk.49.2010.05.14.05.28.26;
+        Fri, 14 May 2010 05:28:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 97C5B1C7E7FCA
+	for <mlsubscriber.tech@csmining.org>; Fri, 14 May 2010 05:28:26 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 87EE527A3CF40
+	for <mlsubscriber.tech@csmining.org>; Fri, 14 May 2010 05:28:26 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id BE5C827A3C8DA
+	for <java-dev@lists.apple.com>; Fri, 14 May 2010 05:27:28 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id 94427D4FAF24
+	for <java-dev@lists.apple.com>; Fri, 14 May 2010 05:27:28 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-ad-4bed41ad2e96
+Received: from valuelabs.net (mx1.valuelabstechnologies.com [59.163.114.5])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	5C.86.15139.FA14DEB4; Fri, 14 May 2010 05:27:28 -0700 (PDT)
+Received: (qmail 16987 invoked by uid 510); 14 May 2010 12:27:24 -0000
+Received: from 172.20.25.107 by mx.valuelabs.net (envelope-from
+	<vijay.kachhawal@valuelabs.net>, uid 501) with qmail-scanner-2.01st 
+	(clamdscan: 0.95.3/9979. spamassassin: 3.2.5. perlscan: 2.01st.  
+	Clear:RC:1(172.20.25.107):. 
+	Processed in 1.132259 secs); 14 May 2010 12:27:24 -0000
+Received: from unknown (HELO DTCORPGTCO3) (vijay.kachhawal@[172.20.25.107])
+	(envelope-sender <vijay.kachhawal@valuelabs.net>)
+	by valuelabs.net (qmail-ldap-1.03) with SMTP
+	for <hoverfrog@mac.com>; 14 May 2010 12:27:22 -0000
+Message-ID: <008501caf360$cdb8f0e0$6b1914ac@corp.ads.valuelabs.net>
+From: "Vijay Kachhawal" <vijay.kachhawal@valuelabs.net>
+To: "hoverfrog" <hoverfrog@mac.com>
+References: <54447073-D517-46A4-B7B5-24C5E8D1E30B@mac.com>
+	<808AD194-AC07-49F7-91C5-AEF56F170ED4@apple.com>
+	<002501caf32a$1227ba90$6b1914ac@corp.ads.valuelabs.net>
+	<D3BF7E0C-5392-47DE-85E7-5AEABF9E105F@mac.com>
+Date: Fri, 14 May 2010 17:57:22 +0530
+MIME-Version: 1.0
+Content-Type: text/plain; format=flowed; charset="iso-8859-1";
+	reply-type=response
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.3138
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+X-Brightmail-Tracker: AAAAAgoDS2QUKg8I
+Cc: list Java-dev <java-dev@lists.apple.com>
+Subject: Re: Snow Leopard refresh problems
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Yes, I fixed those issue with some silly workarounds only. The repaint 
+methods are not producing any fruitful results.
+
+These are the options I used:
+1. In some cases, resizing the frame solved the issue.
+2. In few cases, changed the location of one of the component present inside 
+the frame and then relocating the same component to its original position at 
+the end of the method solved the problem.
+3. In one case, removed the component and added the same component to the 
+frame solved the issue.
+
+Another typical point to note is, I could not find a single common solution 
+for all the above 3 cases.
+
+Regards,
+VPKVL
+
+----- Original Message ----- 
+From: "hoverfrog" <hoverfrog@mac.com>
+To: "Vijay Kachhawal" <vijay.kachhawal@valuelabs.net>
+Sent: Friday, May 14, 2010 03:44 PM
+Subject: Re: Snow Leopard refresh problems
+
+
+hello,
+
+did you find any workarounds?
+Are some methods of asking for a repaint more reliable than others?
+
+regards,
+
+Mary
+
+Le 14 May , 2010 à 7:55 AM, Vijay Kachhawal a écrit :
+
+> I have also experienced similar problem in many cases. My project  is 
+> based on purely swing and graphics API. Everything works fine  and no 
+> repaint issues when I am running the app on Mac 10.4/10.5  but found 
+> several repaint issues when executed the same application  on Snow 
+> Leaopard.
+>
+> Regards,
+> VPKVL
+> ----- Original Message -----
+> From: Bino George
+> To: hoverfrog
+> Cc: java-dev@lists.apple.com
+> Sent: Friday, May 14, 2010 03:52 AM
+> Subject: Re: Snow Leopard refresh problems
+>
+> Hi,
+>         Is your App publicly accessible ? Please file a bug at 
+> <http://bugreporter.apple.com> with the URL for the App and steps  to 
+> reproduce it etc. If it is not accessible,
+> please create a standalone test case that can reproduce the problem  and 
+> attach it to the bug. Also, please include your configuration  (which java 
+> update etc).
+>
+> Thanks,
+> Bino George,
+> Java Runtime Engineer,
+> Apple Inc.
+>
+>
+>  On May 13, 2010, at 2:06 PM, hoverfrog wrote:
+>
+>> various components in our app refresh by calling paintComponent(), 
+>> updateUI(), paintImmediately(), etc.
+>> On SL we're seeing a range of refresh errors - basically the  components 
+>> are not being redrawn!
+>> Usually, if you change the content pane of a JFrame it repaints -  it's 
+>> not happening, even when explicitly asked for.
+>> Has anyone else seen anything like this?
+>>
+>> Oh, Tiger works like a dream, as does Windoze and Linux.
+>>
+>> hoverfrog@mac.com
+>> http://www.veytisou.com
+>>
+>>
+>>
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> Java-dev mailing list      (Java-dev@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/java-dev/bino%40apple.com
+>>
+>> This email sent to bino@apple.com
+>
+>
+>
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/vijay.kachhawal% 
+> 40valuelabs.net
+>
+> This email sent to vijay.kachhawal@valuelabs.net
+
+hoverfrog@mac.com
+http://www.veytisou.com
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

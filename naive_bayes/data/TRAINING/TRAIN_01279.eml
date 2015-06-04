@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId12808ec0c00c1d8d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs43344wfj;
+        Fri, 16 Apr 2010 16:20:07 -0700 (PDT)
+Received: by 10.101.18.6 with SMTP id v6mr5519197ani.42.1271460006986;
+        Fri, 16 Apr 2010 16:20:06 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 1si7903220iwn.63.2010.04.16.16.20.06;
+        Fri, 16 Apr 2010 16:20:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 9931B1C028111
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:20:06 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9443326DF6CE8
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:20:06 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay11.apple.com (relay11.apple.com [17.128.113.48])
+	by lists.apple.com (Postfix) with ESMTP id 880D826DF6AF3
+	for <x11-users@lists.apple.com>; Fri, 16 Apr 2010 16:19:48 -0700 (PDT)
+X-AuditID: 11807130-b7cbdae0000079bd-24-4bc8f0944d2f
+Received: from gertie.apple.com (gertie.apple.com [17.151.62.15])
+	by relay11.apple.com (Apple SCV relay) with SMTP id
+	2D.1B.31165.490F8CB4; Fri, 16 Apr 2010 16:19:48 -0700 (PDT)
+Received: from [17.151.82.237] by gertie.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L0Z00FX1SSZ9P50@gertie.apple.com> for
+	x11-users@lists.apple.com; Fri, 16 Apr 2010 16:19:48 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <F99A57E3-C559-4F59-B596-BA8921808B51@web.de>
+Date: Fri, 16 Apr 2010 16:19:47 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <68F70974-1FEB-4D6E-B1DD-2FD805B67B67@apple.com>
+References: <520FA3E8-3D63-4C96-8315-268C49D2B24F@web.de>
+	<1154B731-63A0-408F-83D5-5FB9CE7E6745@apple.com>
+	<F99A57E3-C559-4F59-B596-BA8921808B51@web.de>
+To: Schindler Karl-Michael <karl-michael.schindler@web.de>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11 List Mailing <x11-users@lists.apple.com>
+Subject: Re: BadAtom X11 Error with fpGUI
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Please try starting X11.app first.  =46rom the console:
+
+open -a X11
+(wait a few seconds for it to appear in the dock as launched)
+./helloworld
+
+Does that work as expected?
+
+
+On Apr 16, 2010, at 16:12, Schindler Karl-Michael wrote:
+
+> Hi
+>=20
+> Am 17.04.2010 um 00:42 schrieb Jeremy Huddleston:
+>=20
+>> Are you running your application while X11 is already running (launch =
+X11.app but don't start an xterm), or are you using it to launch X11 =
+(from Terminal.app using the launchd $DISPLAY socket)?
+>=20
+>=20
+> I start the fpgui program (helloworld) from Terminal.app with the =
+terminal command "./helloworld". This starts X11.app but without an =
+xterm window or any other window and helloworld gets the error. The same =
+if X11 is already started. If another X11 program, for example xterm or =
+something else, is running, helloworld gets its windows and all seems =
+fine.
+>=20
+> Michael.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

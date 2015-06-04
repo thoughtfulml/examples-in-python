@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId12851c755dd1d343
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs129426wfj;
+        Fri, 30 Apr 2010 19:52:17 -0700 (PDT)
+Received: by 10.143.20.30 with SMTP id x30mr7246275wfi.57.1272682337408;
+        Fri, 30 Apr 2010 19:52:17 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 3si3652115pzk.95.2010.04.30.19.52.17;
+        Fri, 30 Apr 2010 19:52:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 299E81BDFC130
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 19:52:17 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 24E08274AB552
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 19:52:17 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 89957274AB522
+	for <augd@lists.apple.com>; Fri, 30 Apr 2010 19:52:14 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 6734CD0CB156
+	for <augd@lists.apple.com>; Fri, 30 Apr 2010 19:52:14 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7b87ae000003afb-36-4bdb975e505a
+Received: from mail-pz0-f188.google.com (mail-pz0-f188.google.com
+	[209.85.222.188])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	BA.AE.15099.E579BDB4; Fri, 30 Apr 2010 19:52:14 -0700 (PDT)
+Received: by pzk26 with SMTP id 26so477215pzk.6
+	for <augd@lists.apple.com>; Fri, 30 Apr 2010 19:52:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:sender:received
+	:in-reply-to:references:date:x-google-sender-auth:message-id:subject
+	:from:to:content-type;
+	bh=kcYlqDQFDqYsanXf3o74LWlxuvNvX4oO+hsddGc69rM=;
+	b=Qt2uT2U216bNQZJzeCuJPC0jdh2VKwwiZQRyTR+784lGiGMGTbhWssSv+SzaEeU4lW
+	mpgcx6Vflk9F09DnDF8tCdcdtrpFsEG6gUaBhH8F9/0KBneCwd42jwoVniKuDjt8YfUx
+	SyBGbBi8V/KJY59ub3/tKAJqbJ9eHFeO32Cyw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:sender:in-reply-to:references:date
+	:x-google-sender-auth:message-id:subject:from:to:content-type;
+	b=bYf8/FJu/yE43PTppDlo0Jppx9nmG7PvYYCGc0b7S8oC4lglFV5d/+egxg327Jwm04
+	KPa2wvsgICUzFcW0gpkGK2UBX57xlRylIkmPrGqHVClIHE3Yn62OtuTXTCCNsQsHM4iW
+	L2tXpqAKwUpHJjvOEzrggHUgtN6bMuePIRnXI=
+MIME-Version: 1.0
+Received: by 10.140.57.21 with SMTP id f21mr1551894rva.165.1272682333676; Fri, 
+	30 Apr 2010 19:52:13 -0700 (PDT)
+Received: by 10.140.132.13 with HTTP; Fri, 30 Apr 2010 19:52:13 -0700 (PDT)
+In-Reply-To: <20100430190102.4A4C32747670E@lists.apple.com>
+References: <20100430190102.4A4C32747670E@lists.apple.com>
+Date: Sat, 1 May 2010 06:52:13 +0400
+X-Google-Sender-Auth: 206539370ea46bd0
+Message-ID: <y2lf2834e4e1004301952y265cafdbq9d1bf07c7ad11fb7@mail.csmining.org>
+From: Magnus Nystedt <emiratesmac@mac.com>
+To: augd@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAABBPvoMIT8ELBE/BxWRPwk/E=
+Subject: AUGD: Re: Augd Digest, Vol 7, Issue 55
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> Going to whack the beehive here, just for the fun of it.
+> What are your thoughts about a user group being run on a for-profit model?
+
+*whack, whack, thump, bzzzzzzz, everyone running for their lives*
+
+Well, personally I'm not against as long as it's made clear to
+everyone. And you've also got to remember that volunteerism is not
+seen in the same way all over the world. We don't really have a board
+as such but we've given free membership to some individuals that have
+helped out a lot in the past (current annual fee is AED150, around
+$40).
+
+Regards
+Magnus
+
+-- 
+Magnus Nystedt
+www.emiratesmac.com
+Twitter: twitter.com/mnystedt
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

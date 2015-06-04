@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287904b5c56e2fe
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs515711wfb;
+        Sat, 8 May 2010 10:44:32 -0700 (PDT)
+Received: by 10.223.143.9 with SMTP id s9mr1799754fau.52.1273340671218;
+        Sat, 08 May 2010 10:44:31 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n27si4738263faa.88.2010.05.08.10.44.30;
+        Sat, 08 May 2010 10:44:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 715C713A563D; Sat,  8 May 2010 17:44:27 +0000 (UTC)
+Old-Return-Path: <didi.debian@cknow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=BLOGSPOT,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8496C13A52EA
+	for <lists-debian-kde@liszt.debian.org>; Sat,  8 May 2010 17:44:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BLOGSPOT=3, LDO_WHITELIST=-5,
+	MURPHY_DRUGS_REL8=0.02] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2PQpuEMlwZoz for <lists-debian-kde@liszt.debian.org>;
+	Sat,  8 May 2010 17:44:14 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.2
+Received: from homiemail-a2.g.dreamhost.com (caiajhbdccah.dreamhost.com [208.97.132.207])
+	by liszt.debian.org (Postfix) with ESMTP id 4DE7013A5577
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 17:44:14 +0000 (UTC)
+Received: from the-shire.localnet (e243048.upc-e.chello.nl [213.93.243.48])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by homiemail-a2.g.dreamhost.com (Postfix) with ESMTP id 3D87BD2713
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 10:44:11 -0700 (PDT)
+From: Diederik de Haas <didi.debian@cknow.org>
+Organization: Connecting Knowledge
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Sat, 8 May 2010 19:44:07 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-686-bigmem; KDE/4.4.3; i686; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005051621.23651.bss@iguanasuicide.net> <201005060913.06917.didi.debian@cknow.org>
+In-Reply-To: <201005060913.06917.didi.debian@cknow.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005081944.08205.didi.debian@cknow.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Rp8fABPBi1H.A.xTB.7La5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32279
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 17:44:27 +0000 (UTC)
+
+On 2010-05-06 Diederik de Haas wrote:
+> PostgreSQL is apparently capable of providing the proper features and
+> Tobias Koenig has made Akonadi  working with PostgreSQL since the end of
+> last year (http://tokoe-kde.blogspot.com/2009/12/akonadi-
+> and-postgresql.html). That patch was committed to trunk at that time, but
+> apparently didn't make into SC 4.4 (?).
+> So if you want to use PostgreSQL, your best bet would be to port/base that
+> patch on 4.4.
+
+I don't want to reinstate this discussion, but I just found sth which I haven't heard/read about 
+before, which might help you (haven't tried it myself).
+
+I just started the Akonadi Tray utility, then right-clicked on the tray icon and chose Configure...
+The second tab, labelled "Akonadi Server Configuration" has a setting for Database driver, which 
+allows you to choose between MySQL and ... PostgreSQL
+With PostgreSQL selected, you can specify your database settings.
+
+Maybe that helps.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005081944.08205.didi.debian@cknow.org
+
+

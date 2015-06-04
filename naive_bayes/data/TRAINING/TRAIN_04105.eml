@@ -1,0 +1,294 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282eb0386940547
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs3643wfj;
+        Sat, 24 Apr 2010 00:20:21 -0700 (PDT)
+Received: by 10.87.76.7 with SMTP id d7mr1895790fgl.65.1272093620547;
+        Sat, 24 Apr 2010 00:20:20 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si1197426fkq.17.2010.04.24.00.20.19;
+        Sat, 24 Apr 2010 00:20:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A1A8613A52CA; Sat, 24 Apr 2010 07:20:08 +0000 (UTC)
+Old-Return-Path: <export@hope.cz>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.2 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MIME_HTML_ONLY,NO_REAL_NAME
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7506413A5248
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 07:20:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=0.1 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, HTML_MESSAGE=1,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MIME_HTML_ONLY=4] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id eC90cZxudZN1 for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 07:19:55 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .hope. - helo: .cuda1.bluetone. - helo-domain: .bluetone.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from cuda1.bluetone.cz (cuda1.bluetone.cz [212.158.128.5])
+	by liszt.debian.org (Postfix) with ESMTP id 57B2313A52CA
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 07:19:54 +0000 (UTC)
+Received: from [192.168.1.2] (199-197-207-85.jizmorava.adsl-llu.static.bluetone.cz [85.207.197.199])
+	by cuda1.bluetone.cz (Spam & Virus Firewall) with ESMTP
+	id ABFA0145C966; Sat, 24 Apr 2010 09:19:51 +0200 (CEST)
+Received: from [192.168.1.2] (199-197-207-85.jizmorava.adsl-llu.static.bluetone.cz [85.207.197.199]) by cuda1.bluetone.cz with ESMTP id pGatHEMQdVrnsIR9; Sat, 24 Apr 2010 09:19:51 +0200 (CEST)
+From: export@hope.cz
+To: Celejar <celejar@csmining.org>,
+              debian-user@lists.debian.org
+Date: Sat, 24 Apr 2010 09:19:56 +0200
+MIME-Version: 1.0
+Subject: Re: Lite SMTP server/daemon
+Reply-To: export@hope.cz
+Message-ID: <4BD2B7BC.13085.1000BD@export.hope.cz>
+Priority: normal
+In-reply-to: <20100423151453.3f134ce4.celejar@csmining.org>
+References: <4BD1E3C5.23069.11D86AA@export.hope.cz>, <20100423151453.3f134ce4.celejar@csmining.org>
+X-mailer: Pegasus Mail for Windows (4.41)
+Content-type: text/html; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BtjAEgPnuME.A.TFF.oup0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574876
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 07:20:08 +0000 (UTC)
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+<br />
+</span>
+</font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Hi Celejar,</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Thank you for your reply.</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+I use Linux running in&#160; Compact Flash so that the size of the Compact flash memory is the 
+limit</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Users will&#160; send emails to a program running in the Compact flash so I need a mail server 
+there too.</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Only SMTP, no POP3 server</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Can you suggest something?</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+<br />
+</span>
+</font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Thank you .</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Best regards,</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Lad.</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&#160;</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; &gt; Does anyone know about a tiny&#160; / liteweight&#160; SMTP server for Linux( Debian)? I need the </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; &gt; server that can accept several connections at the same time .</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; &gt; I do not need POP3 server</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; I'm not sure that I can help, but what, exactly, do you mean by tiny /</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; liteweight?&#160; Binary size, CPU / RAM usage?&#160; IIUC, even the heavy</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; hitters like Exim use very few resources when not under load.&#160; E.g., on</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; my system, htop shows Exim at 0 CPU, and only &quot;6484 648 588&quot; for &quot;VIRT</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; RES SHR&quot;.</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; This has come up before on the list.&#160; What, exactly, are your</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; restrictions / goals?</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; Celejar</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; -- </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; mailmin.sourceforge.net - remote access via secure (OpenPGP) email</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; ssuds.sourceforge.net - A Simple Sudoku Solver and Generator</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; -- </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; with a subject of &quot;unsubscribe&quot;. Trouble? Contact listmaster@lists.debian.org</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; Archive: http://lists.debian.org/20100423151453.3f134ce4.celejar@csmining.org</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+<br />
+</span>
+</font>
+</div>
+<div align="left">
+&nbsp;</div>
+</body>
+</html>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD2B7BC.13085.1000BD@export.hope.cz
+
+

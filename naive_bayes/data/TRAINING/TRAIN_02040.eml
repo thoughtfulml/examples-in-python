@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286133673ae720a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs257261wfj;
+        Mon, 3 May 2010 19:44:39 -0700 (PDT)
+Received: by 10.87.20.36 with SMTP id x36mr11726664fgi.14.1272941078299;
+        Mon, 03 May 2010 19:44:38 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si10118527fka.32.2010.05.03.19.44.37;
+        Mon, 03 May 2010 19:44:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A8F6113A46A1; Tue,  4 May 2010 02:44:30 +0000 (UTC)
+Old-Return-Path: <tran@ms20.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-17.4 required=4.0 tests=ALL_TRUSTED,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0F15613A44EB
+	for <lists-debian-laptop@liszt.debian.org>; Tue,  4 May 2010 02:44:27 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-13.8 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id SI5SRLeNF1Xf for <lists-debian-laptop@liszt.debian.org>;
+	Tue,  4 May 2010 02:44:19 +0000 (UTC)
+Received: from honk.sigxcpu.org (honk.sigxcpu.org [IPv6:2001:7b8:3de::2])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "honk.sigxcpu.org", Issuer "CA Cert Signing Authority" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id C552213A4588
+	for <debian-laptop@lists.debian.org>; Tue,  4 May 2010 02:44:19 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by honk.sigxcpu.org (Postfix) with ESMTP id 9EC3E9C003
+	for <debian-laptop@lists.debian.org>; Tue,  4 May 2010 04:44:16 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at honk.sigxcpu.org
+Received: from honk.sigxcpu.org ([127.0.0.1])
+	by localhost (honk.sigxcpu.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id OJNK259YMQrp for <debian-laptop@lists.debian.org>;
+	Tue,  4 May 2010 04:44:16 +0200 (CEST)
+Received: by localhost.localdomain (Postfix, from userid 1000)
+	id 05B232BDB0; Mon,  3 May 2010 19:43:46 -0700 (PDT)
+Date: Mon, 3 May 2010 19:43:46 -0700
+From: Jan Hetges <tran@ms20.net>
+To: debian-laptop@lists.debian.org
+Subject: synaptics touchpad stopped working in gnome
+Message-ID: <20100504024346.GA7799@chunche.ms20.nix>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="zYM0uCDKw75PZbzx"
+Content-Disposition: inline
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WqzwzGTLvBJ.A.48.Oo43LB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34133
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 02:44:30 +0000 (UTC)
+
+
+--zYM0uCDKw75PZbzx
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hi List
+i'm running sid on a msi wind 100 with synaptics touchpad.=20
+since my last dist-upgrade yesterday, the touchpad is not working in
+gnome anymore, but still works fine in gdm-greeter, lxde and on console.
+anyone else seeing this? any ideas against which packet to file a bug?
+thanks
+
+  --Jan
+
+--zYM0uCDKw75PZbzx
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvfieIACgkQlTtvZdk47D5fNgCfcngptgFzETrQwxHlG8spCNIe
+JJ4AoIOYnO0rUkkR3u5cXY1EtGpoZtL/
+=l1G2
+-----END PGP SIGNATURE-----
+
+--zYM0uCDKw75PZbzx--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100504024346.GA7799@chunche.ms20.nix
+
+

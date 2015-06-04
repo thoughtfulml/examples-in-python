@@ -1,0 +1,222 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b16161b40bf2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs32323wfb;
+        Tue, 11 May 2010 22:56:42 -0700 (PDT)
+Received: by 10.223.26.154 with SMTP id e26mr7502015fac.57.1273643800196;
+        Tue, 11 May 2010 22:56:40 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y20si12988255fah.50.2010.05.11.22.56.39;
+        Tue, 11 May 2010 22:56:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 62B472E8ADC; Wed, 12 May 2010 05:56:33 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MDO_DATING2 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3A92A2D0C20
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 05:56:28 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.4 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BODY_8BITS=1.5, LDO_WHITELIST=-5, MDO_DATING2=0.1]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id L2dafCi-WT75 for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 05:56:20 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 1D7F22D8C5A
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 05:56:19 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so9450295qyk.6
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 22:56:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=LfzFGZKFJOeiPy1MEYrCBthiM2+1pMdd8F0vqkEVqyc=;
+        b=s5CCl0t8BkTklQ5RAYAzoyeHRLsOPGBaESmkjWDTAUjmD8hPghuKsGetNDzMyQopoG
+         KyZeQOZ8g1OJr+MWOpejN+jelBhZgkmwOpDe+BQwz5u4Ic3D1c4cfnvmrqQpjzDgzYVV
+         aGaLdHLk1TIGkMX2/KgMM65AREjWh2bYFZ0sk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=oxvMPrZ3fN4TxXdBNcBZOcYC6o4+0iE1emXmOA20pfziNbB1ix1fDVfmsaYSeNtuEX
+         p4kRf4bVgbGkfZd5EXq6iazMmeiW0eDyEjWYBfkDSishHeKRNsAz8+WvVmHbZEasyiiq
+         v52cgnDvjkfJoTr+PjpBX7BJ9m4i2Ab9Fqdg0=
+MIME-Version: 1.0
+Received: by 10.229.193.9 with SMTP id ds9mr475636qcb.124.1273643772251; Tue, 
+	11 May 2010 22:56:12 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Tue, 11 May 2010 22:56:12 -0700 (PDT)
+In-Reply-To: <hscd3u$moe$1@dough.gmane.org>
+References: <201005071123.48345.lisi.reisz@csmining.org>
+	 <4BE3F943.4010701@lorentz.leidenuniv.nl>
+	 <4BE4ED6F.4050708@dobosevic.com>
+	 <g2icdeec9051005080532z810046edveb2a8ea4c51fa0d9@mail.csmining.org>
+	 <q2t880dece01005080831zae8e27a7z35e6c132e9f0c273@mail.csmining.org>
+	 <hsbc1b$hor$1@dough.gmane.org> <hsbcpr$k5v$1@dough.gmane.org>
+	 <AANLkTinoxMbiE3v2HTcNli-955BwCfwkHXlpg7PRcBAW@mail.csmining.org>
+	 <hscd3u$moe$1@dough.gmane.org>
+Date: Wed, 12 May 2010 08:56:12 +0300
+Message-ID: <AANLkTilipKFmlB_1RBBrhknS-VzVvQegFHBjZgkpKk0M@mail.csmining.org>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gM-2KUyXPpD.A.QuF.RMk6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576593
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 05:56:33 +0000 (UTC)
+
+On 11 May 2010 23:02, deloptes <deloptes@yahoo.com> wrote:
+>>> - weather
+>>
+> http://kde-look.org/content/show.php/yaWP+%28Yet+Another+Weather+Plasmoid=
+%29?content=3D94106
+>
+> This was not working in 4.3 and I couldn't start it in 4.4.
+>
+
+Interesting, it works on the Ubuntu box I test KDE on.
+
+
+>>> - korganizer
+>>
+>> Check!
+>
+> it took at least 10min to start
+>
+
+Wow. Any console output?
+
+
+>>> - infrared control
+>>
+>> How did you do this in KDE 3?
+>
+> with klirc and lircd and modifying the kernel key map for my cinergy xxs
+> dvbt card ;-)
+>
+> a big challenge was to setup the kde keys ... it's not very developed, bu=
+t
+> the basic functionality works
+>
+
+Please, your input is needed here:
+https://bugs.kde.org/show_bug.cgi?id=3D197885
+
+
+>> i =C2=A0 plasma-widget-kbstate =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0- A
+>> plasma widget that shows the state of the modifier keys
+>
+> In kde3 the "idiots" didn't think of us poor people not using latin and
+> associated per default ALT+K to switch the keymap. Now if you switch from
+> english to rushian/bulgarian or whatever ALT+K gives a completely differe=
+nt
+> keycode ... So I had to always change this.
+>
+> Now in kde4 it's even better. You have to click ... and no reasonable
+> language switching combination is working. In this point Windows wins, as
+> it's per default configured to switch languages when typing (left)ALT+SHI=
+FT
+>
+
+I switch between languages with the Capslock key.
+=D7=A2=D7=95=D7=91=D7=93 =D7=92=D7=9D =D7=91=D7=A2=D7=91=D7=A8=D7=99=D7=AA!=
+=E2=80=8F
+=D0=A0=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D0=B5=D1=82 =D1=82=D0=BE=D0=B6=D0=B5 =
+=D0=BF=D0=BE =D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9!
+
+
+>>> - screen management (xrandr interface)
+>>
+>> Yes, built into System Settings.
+>
+> yes but not working for me and everybody running i915 vga card. this is a=
+lso
+> related to X-Server and the a**holes from intel. (don't judge me the
+> notebook was given to me from the company I'm working for :-( )
+>
+
+I don't think that's a KDE issue, though.
+
+
+>> http://kde-apps.org/content/show.php/Krypt?content=3D80641
+>
+> the question is if it is compiling in kde4? and also if it is working wel=
+l
+>
+
+It's not a core or even supported app, I think. It's a third-party
+app. I really can't help with that.
+
+
+>>> I forgot to mention that the keyboard froze after pressing ALT+F2 and
+>>> switching language settings
+>>
+>> Please, please comment on this bug:
+>> https://bugs.kde.org/show_bug.cgi?id=3D205369
+>
+> The problem is that it was not iresponsive for just 10secs but forever.
+>
+
+I see. Does that happen often, or only that once?
+
+
+> I'll look to get a complete list. We'll have to discuss also the stuff we
+> don't need too.
+>
+> this was my first impression. the conclusion is that it will stay unusabl=
+e
+> for quite a long time yet.
+>
+> your commitment is motivating me to do some testing ... may be it's time =
+to
+> have some closer look at upcoming testing debian.
+>
+> I'm still not that motivated as I would love to be, as I'm primary focuse=
+d
+> on debian stable.
+>
+
+Thanks. It will stay unusable for you until you tell us what you need
+to use it! That's what I'm here for.
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilipKFmlB_1RBBrhknS-VzVvQegFHBjZgkpKk0M@mail.csmining.org
+
+

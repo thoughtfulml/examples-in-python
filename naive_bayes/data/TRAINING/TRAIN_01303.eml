@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281ca53ff4522fe
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs83219wfj;
+        Tue, 20 Apr 2010 12:16:32 -0700 (PDT)
+Received: by 10.223.35.12 with SMTP id n12mr206682fad.35.1271790911462;
+        Tue, 20 Apr 2010 12:15:11 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si2483344fks.20.2010.04.20.12.15.10;
+        Tue, 20 Apr 2010 12:15:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 17D7613A4AD7; Tue, 20 Apr 2010 19:15:05 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0983D13A4A5D
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 19:14:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id yTrl1hexYCwI for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 19:14:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 4285C13A47C5
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 19:14:34 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O4Ity-0006OO-3d
+	for debian-user@lists.debian.org; Tue, 20 Apr 2010 21:14:30 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 21:14:30 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 21:14:30 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: Sudden reboots with Firefox and Flash
+Date: Tue, 20 Apr 2010 19:14:22 +0000 (UTC)
+Lines: 52
+Message-ID: <pan.2010.04.20.19.14.21@csmining.org>
+References: <20100420190026.GA4575@deathfog>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ixKBawXR95E.A.nu.50fzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574579
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 19:15:05 +0000 (UTC)
+
+On Tue, 20 Apr 2010 21:00:26 +0200, Nick Douma wrote:
+
+> I recently built a new computer with the following specs:
+> 
+> * Intel Core i7 930
+> * Gigabyte X58A-UD7
+> * OCZ Platinum XTC OCZ3P1333LV6GK (6GB DDR3) * Gigabyte GV-N275UD-896I
+> (nVidia GeForce GT 275) * 2x 1TB Saamsung Spinpoint F1 HD102UJ * 2x
+> 500GB Seagate Barracuda 7200.10 ST3500630AS
+>   - both in RAID0 using Intel Matrix RAID
+
+
+I hope you also get a 1000 watts power supply to feed that equipment >:-)
+ 
+
+> Here's the problem: I initially installed Windows 7 64bit on this pc.
+> Whenever I tried to watch a Flash movie using Minefield and Adobe Flash
+> 10.1, I would always get sudden reboots. It wasn't a BSOD, because I
+> received no such screen and no memory dumps were made. Suspecting that
+> it might be because of Minefield, I installed Firefox 3.6. I received
+> the same results. Even using IE8 and Opera, I would reliably get sudden
+> reboots when watching Flash movies. Fed up with this, I installed Debian
+> Lenny as a dual boot.
+
+(...)
+
+> Can anyone advise me what to do from here on? I tried googling the
+> initials Firefox + Flash problems, but nothing conclusive came up. I'm
+> posting a message on this list, because the problem is not limited to
+> just Windows, and I believe someone can give me some new insights on
+> this problem.
+
+
+So, as you already discarded FlashPlayer as unique source of your 
+reboots, I will take a look into:
+
+1/ System overheating (reboots tend to happen due to high temperatures, 
+watch the BIOS CPU temps and control the rpm of the fans).
+
+2/ RAM memory modules and voltages. Check the ram dimms are certified for 
+you motherboard and also, look into the BIOS voltages are the correct 
+ones for you type of ram.
+
+3/ Hard disks health. You can test this with "smartcl".
+
+Being a brand-new computer I would suspect for bad hardware or assembly 
+problems :-/
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.20.19.14.21@csmining.org
+
+

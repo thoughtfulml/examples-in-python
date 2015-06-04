@@ -1,0 +1,125 @@
+X-Account-Key: account5
+X-UIDL: GmailId128206ec80c955cc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs111563wfj;
+        Wed, 21 Apr 2010 05:54:12 -0700 (PDT)
+Received: by 10.141.89.17 with SMTP id r17mr2986455rvl.185.1271854450889;
+        Wed, 21 Apr 2010 05:54:10 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 10si3376871pzk.17.2010.04.21.05.54.10;
+        Wed, 21 Apr 2010 05:54:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 9DA321BB7C1EC
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 05:54:10 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 98C3026FBC73D
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 05:54:10 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 8DE4C26FBC53F
+	for <X11-users@lists.apple.com>; Wed, 21 Apr 2010 05:53:51 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 7B7BAD100EA3
+	for <X11-users@lists.apple.com>; Wed, 21 Apr 2010 05:53:51 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-f9-4bcef55d8019
+Received: from serenity.mcc.ac.uk (serenity.mcc.ac.uk [130.88.200.93])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	E8.84.25880.E55FECB4; Wed, 21 Apr 2010 05:53:51 -0700 (PDT)
+Received: from rankine.its.manchester.ac.uk ([130.88.25.196])
+	by serenity.mcc.ac.uk with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69 (FreeBSD)) (envelope-from <michael.bane@manchester.ac.uk>)
+	id 1O4ZR7-000PEg-0c
+	for X11-users@lists.apple.com; Wed, 21 Apr 2010 13:53:49 +0100
+Received: from mkb.rcs.manchester.ac.uk ([130.88.1.38]:61569)
+	by rankine.its.manchester.ac.uk with esmtpsa (TLSv1:AES128-SHA:128)
+	(Exim 4.69) (envelope-from <michael.bane@manchester.ac.uk>)
+	id 1O4ZR6-00031v-TL
+	for X11-users@lists.apple.com; Wed, 21 Apr 2010 13:53:48 +0100
+Message-Id: <656F4A8E-2D23-4FEF-B8BC-5FCC4C20C43F@manchester.ac.uk>
+From: michael bane <michael.bane@manchester.ac.uk>
+To: X11 Mailing <X11-users@lists.apple.com>
+In-Reply-To: <Pine.GSO.4.63.1004210515140.4522@pita.cisco.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Wed, 21 Apr 2010 13:53:56 +0100
+References: <543587.87903.qm@web55604.mail.re4.yahoo.com>
+	<FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+	<460333.63537.qm@web55608.mail.re4.yahoo.com>
+	<20100418.095448.252095907.hanche@math.ntnu.no>
+	<944345.33232.qm@web55601.mail.re4.yahoo.com>
+	<A6E290FA-B555-4377-9308-433E28FD24FC@mac.com>
+	<631726.36063.qm@web55606.mail.re4.yahoo.com>
+	<5986D43C-57E9-4DF3-8DA5-9705B1C3B2D8@apple.com>
+	<Pine.GSO.4.63.1004210515140.4522@pita.cisco.com>
+X-Mailer: Apple Mail (2.936)
+X-Authenticated-Sender: Michael Bane from mkb.rcs.manchester.ac.uk
+	[130.88.1.38]:61569
+X-Authenticated-From: michael.bane@manchester.ac.uk
+X-UoM: Scanned by the University Mail System. See
+	http://www.itservices.manchester.ac.uk/email/filtering/information/
+	for details.
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+Subject: zero brightness post Snow Leopard upgrade
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On my white MacBook (2007 eta) that I recently upgraded from Leopard  
+to Snow Leopard. I have installed all current updates.
+
+Now, and not before, I notice that frequently when I start to re-use  
+the machine that it has zero brightness when it powers up. The  
+'increase brightness' control has no effect (but other keys do work).  
+If I close the lid but then reopen it before the machine goes to sleep  
+that usually does the trick and I have medium(ish) brightness and can  
+turn brightness up or down.
+
+I am testing if this is related to X11/Xquartz so thought I would ask  
+here if anybody else has experience this problem.
+
+I can provide more h/w details later.
+
+Thanks, M
+
+
+Dr. Michael K Bane
+Senior Development Officer
+RESEARCH COMPUTING SERVICES
+Devonshire House
+Precinct Centre
+The University of Manchester
+Manchester
+M13 9PL
+
+www.rcs.manchester.ac.uk
+www.twitter.com/mkbane_mcr
+www.facebook.com/group.php?gid=73597922129
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

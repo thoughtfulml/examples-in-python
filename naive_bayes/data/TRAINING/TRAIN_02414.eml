@@ -1,0 +1,140 @@
+X-Account-Key: account5
+X-UIDL: GmailId128628d78345ed9c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs270355wfj;
+        Tue, 4 May 2010 02:02:40 -0700 (PDT)
+Received: by 10.87.1.2 with SMTP id d2mr12316657fgi.34.1272963758544;
+        Tue, 04 May 2010 02:02:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 26si10797098fks.52.2010.05.04.02.02.37;
+        Tue, 04 May 2010 02:02:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 70B1113A52A0; Tue,  4 May 2010 09:02:28 +0000 (UTC)
+Old-Return-Path: <i.vida@ivida.name>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-12.3 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,NO_REAL_NAME,NUMEMAIL,RCVD_IN_DNSWL_MED autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7DBD313A5267
+	for <lists-debian-user@liszt.debian.org>; Tue,  4 May 2010 09:02:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[FOURLA=0.1, LDO_WHITELIST=-5, NUMEMAIL=2, RCVD_IN_DNSWL_MED=-4]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id g0H5wcoSm7tn for <lists-debian-user@liszt.debian.org>;
+	Tue,  4 May 2010 09:02:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 843 seconds by postgrey-1.31 at liszt; Tue, 04 May 2010 09:02:15 UTC
+Received: from hillend.cent.gla.ac.uk (hillend.cent.gla.ac.uk [130.209.16.102])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 185EA13A51ED
+	for <debian-user@lists.debian.org>; Tue,  4 May 2010 09:02:15 +0000 (UTC)
+Received: from i-vida.ibls.gla.ac.uk ([130.209.48.70] helo=gla.ac.uk)
+	by hillend.cent.gla.ac.uk with esmtp (Exim 4.69)
+	(envelope-from <i.vida@ivida.name>)
+	id 1O9DnQ-0000rk-Pe
+	for debian-user@lists.debian.org; Tue, 04 May 2010 09:48:04 +0100
+Date: Tue, 4 May 2010 11:50:02 +0200
+From: i.vida@ivida.name
+To: debian-user@lists.debian.org
+Subject: Re: syslog-ng log output corrupted
+Message-ID: <20100504095002.GA25888@bio.gla.ac.uk>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100504090812.GA8728@bio.gla.ac.uk>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-15
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+In-Reply-To: <20100504090812.GA8728@bio.gla.ac.uk>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bf80eaX-F8N.A.WH.kK-3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575829
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 09:02:28 +0000 (UTC)
+
+On Tue, May 04, 2010 at 11:08:12AM +0200, Imre Vida wrote:
+>=20
+> a few days ago syslog-ng stopped working properly on my=20
+> laptop.
+>=20
+> Its output consists only of error report lines such as the following:
+> May  3 06:35:16 sharp syslog-ng[4361]: Log statistics; processed=3D'desti=
+nation(d_error)=3D249', processed=3D'cent er(received)=3D0', processed=3D's=
+rc.internal(s_src#1)=3D206', stamp=3D'src.internal(s_src#1)=3D1272860716', =
+processed=3D 'destination(d_syslog)=3D206', processed=3D'destination(d_xcon=
+sole)=3D268', processed=3D'destination(d_newscrit)=3D0', processed=3D'desti=
+nation(d_auth)=3D74', processed=3D'destination(d_daemon)=3D77', processed=
+=3D'global(payload_realloc s)=3D0', processed=3D'global(msg_clones)=3D0', p=
+rocessed=3D'destination(d_mail)=3D1354', processed=3D'destination(d_cron)=
+=3D36', processed=3D'destination(d_kern)=3D243', processed=3D'destination(d=
+_uucp)=3D0', processed=3D'destination(d_debu g)=3D36', processed=3D'destina=
+tion(d_lpr)=3D0', processed=3D'destination(d_user)=3D16', processed=3D'cent=
+er(queued)=3D0', processed=3D'global(sdata_updates)=3D0', processed=3D'dest=
+ination(d_newsnotice)=3D0', processed=3D'destination(d_conso le_all)=3D268'=
+, processed=3D'destination(d_console)=3D1', processed=3D'source(s_src)=3D20=
+42', processed=3D'destination(d _newserr)=3D0'
+> =20
+> This started when the /var partition filled up due to an=20
+> update (without cleaning up old debs before). In an 'emergency'
+> clean up i deleted also old, compressed log files (as i usually do).
+>=20
+> This has happened before without an consequences, but now what ever=20
+> i try (de/reinstall, pure/reinstall) the problem persists.
+>=20
+> I switched to sysklogd which work absolutely fine.
+>=20
+> I wonder if anybody could give me a hint what went wrong=20
+> and how could i fix this.
+>=20
+> Many thanks=20
+>=20
+> imre
+>=20
+> running:
+> Debian testing
+> kernel 2.6.31.6
+> (compiled from source)
+>=20
+
+--=20
+Imre Vida, M.D., Ph.D.
+Neuroscience and Molecular Pharmacology
+FBLS, University of Glasgow=20
+West Medical Building=20
+Glasgow, G12 8QQ, U.K.
+Tel.: 0044 141 330 5143
+Fax.: 0044 141 330 5481
+eMail: i.vida@bio.gla.ac.uk
+--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100504095002.GA25888@bio.gla.ac.uk
+
+

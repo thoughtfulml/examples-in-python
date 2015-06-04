@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId12887e17012533f4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs69508wfb;
+        Tue, 11 May 2010 08:00:21 -0700 (PDT)
+Received: by 10.223.19.87 with SMTP id z23mr6461467faa.7.1273590018466;
+        Tue, 11 May 2010 08:00:18 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w12si11509052fah.87.2010.05.11.08.00.17;
+        Tue, 11 May 2010 08:00:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D27A813A5820; Tue, 11 May 2010 15:00:14 +0000 (UTC)
+Old-Return-Path: <marco@bastardi.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.9 required=4.0 tests=LDO_WHITELIST,MURPHY_SEX_L5
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 985A313A5625
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 14:43:31 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_SEX_L5=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 131bJmpNjFBI for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 14:43:24 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from contumacia.investici.org (contumacia.investici.org [82.117.37.71])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "smtp.autistici.org", Issuer "Autistici/Inventati Certification Authority" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id 54E2113A580A
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 14:43:24 +0000 (UTC)
+Received: from [82.117.37.71] (contumacia.investici.org [82.117.37.71]) (Authenticated sender: marco@bastardi.net) by localhost (Postfix) with ESMTPSA id 61D1E6B961
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 14:43:21 +0000 (UTC)
+From: Marco Valli <marco@bastardi.net>
+To: debian-kde@lists.debian.org
+Subject: Re: Kontack and akonadi: a "dirty" workaround
+Date: Tue, 11 May 2010 16:43:26 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.30-2-686; KDE/4.4.3; i686; ; )
+In-Reply-To: <201005101842.41804.list@onlinehome.de>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005111643.27090.marco@bastardi.net>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <mYg-yWyMcgL.A.TOB.-DX6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32374
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 15:00:14 +0000 (UTC)
+
+> if you want a workaround, could you try to put "akonadictl start" into 
+> autostart?
+
+Doesn't work for me.
+regards
+ps sorry for the misprint:
+killall kaddressbook & kontact
+
+
+-- 
+Marco Valli
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005111643.27090.marco@bastardi.net
+
+

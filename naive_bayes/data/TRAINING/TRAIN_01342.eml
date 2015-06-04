@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282befa3f2a7fee
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs72766wfj;
+        Fri, 23 Apr 2010 11:30:45 -0700 (PDT)
+Received: by 10.142.208.12 with SMTP id f12mr309597wfg.226.1272047445152;
+        Fri, 23 Apr 2010 11:30:45 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 35si1911757pzk.43.2010.04.23.11.30.44;
+        Fri, 23 Apr 2010 11:30:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 5061C1BC1ACA8
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 11:30:44 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 47EC22710326B
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 11:30:44 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay13.apple.com (relay13.apple.com [17.128.113.29])
+	by lists.apple.com (Postfix) with ESMTP id 2949227102D8B
+	for <x11-users@lists.apple.com>; Fri, 23 Apr 2010 11:30:07 -0700 (PDT)
+X-AuditID: 1180711d-b7b5fae00000255f-5d-4bd1e72ebc9c
+Received: from et.apple.com (et.apple.com [17.151.62.12])
+	by relay13.apple.com (Apple SCV relay) with SMTP id
+	53.50.09567.E27E1DB4; Fri, 23 Apr 2010 11:30:07 -0700 (PDT)
+Received: from [10.0.10.103] (c-24-7-81-91.hsd1.ca.comcast.net [24.7.81.91])
+	by et.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L1C00M54E26VX50@et.apple.com> for
+	x11-users@lists.apple.com; Fri, 23 Apr 2010 11:30:06 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <z2ud4fa3cf71004230921ida154c7t64356ba85acc1708@mail.csmining.org>
+Date: Fri, 23 Apr 2010 11:30:06 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <FA1147D5-C69F-49F2-A720-359A99519F6C@apple.com>
+References: <w2o735277d41004221335g56f3a85cl5b102c2d92252b9a@mail.csmining.org>
+	<DFFF0847-DC13-45CE-9436-D7D24F7221E9@apple.com>
+	<16C944B2-3D12-4CD6-8705-DA1E79B0B8F8@bellsouth.net>
+	<A4B4E8E4-E522-45CB-9656-DC14C7EEE08D@apple.com>
+	<z2ud4fa3cf71004230921ida154c7t64356ba85acc1708@mail.csmining.org>
+To: Michael McCracken <michael.mccracken@csmining.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: x11-users@lists.apple.com
+Subject: Re: cycle through windows causes freeze
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Leopard will see limited development releases.  You will need to wait =
+for rc1.
+
+--Jeremy
+
+On Apr 23, 2010, at 09:21, Michael McCracken wrote:
+
+> It looks like 2.5.1_beta series is only up for 10.6 -- is a release
+> for 10.5 planned or was 2.5.0 the last 10.5 release?
+>=20
+> Sorry if this was discussed already, I did a quick search but didn't
+> see anything obvious.
+>=20
+> -mike
+>=20
+> On Thu, Apr 22, 2010 at 6:21 PM, Jeremy Huddleston =
+<jeremyhu@apple.com> wrote:
+>> =
+http://xquartz.macosforge.org/trac/wiki/Releases#AutomaticUpdatesforBetaVe=
+rsions
+>>=20
+>> On Apr 22, 2010, at 16:01, Jon Markle wrote:
+>>=20
+>>> Link please.
+>>>=20
+>>> Thanks,
+>>>=20
+>>> Jon
+>>>=20
+>>> On Apr 22, 2010, at 4:45 PM, Jeremy Huddleston wrote:
+>>>=20
+>>>>=20
+>>>>=20
+>>>> This was fixed in 2.5.1_beta1 3 weeks ago.  2.5.1_beta2 was just =
+released a few minutes ago which also contains this (and other) fixes.
+>>>>=20
+>>>> --Jeremy
+>>>=20
+>>=20
+>>  _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> X11-users mailing list      (X11-users@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/michael.mccracken%40gmail=
+.com
+>>=20
+>> This email sent to michael.mccracken@csmining.org
+>>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,165 @@
+X-Account-Key: account5
+X-UIDL: GmailId12851c00fea0ae44
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs129248wfj;
+        Fri, 30 Apr 2010 19:44:22 -0700 (PDT)
+Received: by 10.87.70.7 with SMTP id x7mr5193743fgk.77.1272681860986;
+        Fri, 30 Apr 2010 19:44:20 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 9si4118362fks.26.2010.04.30.19.44.20;
+        Fri, 30 Apr 2010 19:44:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 41DB213A4CE5; Sat,  1 May 2010 02:44:13 +0000 (UTC)
+Old-Return-Path: <aspnair@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.7 required=4.0 tests=CAPINIT,GMAIL,IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST,MAILTO_TO_SPAM_ADDR,SARE_MSGID_LONG45
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CCE2E13A4921
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 02:44:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, GMAIL=1, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id OWuKzJoi2lI1 for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 02:43:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id 61FED13A4900
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 02:43:59 +0000 (UTC)
+Received: by gya1 with SMTP id 1so397363gya.6
+        for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 19:43:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=rUKZLms0f/9Nu71rKRf3P/sFccY+9Li1ApDKbfrV/VU=;
+        b=EWh5JjqirAgS/Id2i0GI352SaFZBKMYP7nWDAnhI0+7Z7DASGr24+r69n1MnYiFKaN
+         B1Sqv8VBBfxNKj85ECiweTKhjO55Z0BVM7cQ+xyeFVamavMF7lMPsxVJv38wwELPvYph
+         Bt4/WEcql0YJDFFJQzMUtHE2r5M4deuOAV6bQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=iw1jBOle04suekmGSpu9zy82I2MOG3ScUC5zh/DNHnbxcsV7o8tkGh/lZ5LbmneBrb
+         IupJPfAUFLCyGjNrpfvJY5hGksAj6DeUvcqkVPms33wp0GasImLNRTWRz/GmOd6PIZKh
+         OxSotp+pXzElCva43IsN+iY4+ks8iTLRXokbU=
+MIME-Version: 1.0
+Received: by 10.150.248.3 with SMTP id v3mr4054327ybh.82.1272681831242; Fri, 
+	30 Apr 2010 19:43:51 -0700 (PDT)
+Received: by 10.150.227.3 with HTTP; Fri, 30 Apr 2010 19:43:50 -0700 (PDT)
+In-Reply-To: <s2g6d4219cc1004301138i6947c1e1n6c12c267d8e83003@mail.csmining.org>
+References: <y2xb36d43c31004300328m9fe16e64ldeddc780a0dbb397@mail.csmining.org>
+	 <201004301044.31771.bss@iguanasuicide.net>
+	 <y2ub36d43c31004301010r4538975bxd54a164d759951ba@mail.csmining.org>
+	 <201004301255.03070.bss@iguanasuicide.net>
+	 <s2g6d4219cc1004301138i6947c1e1n6c12c267d8e83003@mail.csmining.org>
+Date: Sat, 1 May 2010 08:13:50 +0530
+Message-ID: <j2nd0bf7b0b1004301943o2dd0f30fwb811b71e1ef8682a@mail.csmining.org>
+Subject: Re: Aptitude Error
+From: Anand Sivaram <aspnair@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <QXONpilxIm.A.wQD.9V52LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575592
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 02:44:13 +0000 (UTC)
+
+On Sat, May 1, 2010 at 00:08, Tom H <tomh0665@csmining.org> wrote:
+> On Fri, Apr 30, 2010 at 1:54 PM, Boyd Stephen Smith Jr.
+> <bss@iguanasuicide.net> wrote:
+>> On Friday 30 April 2010 12:10:45 James Stuckey wrote:
+>>> On Fri, Apr 30, 2010 at 5:44 PM, Boyd Stephen Smith Jr. <
+>>>
+>>> bss@iguanasuicide.net> wrote:
+>>> > On Friday 30 April 2010 06:16:22 James Stuckey wrote:
+>>> > > The unstable/sid doesn't have to be comment out. Setting the defaul=
+t
+>>> > > =A0release will keep the system tracked to, in this case, testing.
+>>> >
+>>> > Er, mostly.
+>>> >
+>>> > If there is a versioned dependency that can be satisfied from sid but=
+ not
+>>> > testing, you will get the package from sid. =A0This shouldn't happen =
+given
+>>> > the
+>>> > way testing is managed, unless you installed at least one package fro=
+m
+>>> > sid.
+>>>
+>>> I installed eclipse from sid, since there isn't eclipse in testing.
+>>
+>> It may have pulling in some dependencies from Sid, then.
+>>
+>> I know the official line is to use '-t $something' as arguments to apt-
+>> get/aptitude for pulling in packages from Sid/experimental/backports, bu=
+t I
+>> think it is better to use the '$package=3D$version' format.=A0(After get=
+ting the
+>> version from something like (apt-cache policy $package).)
+>>
+>> My instinct is that '-t $something' effectively increases the priority o=
+f all
+>> packages from the $something repository, which may make the dependency
+>> resolver pull more from that repository than is absolutely necessary.
+>
+> If you are running stable
+> aptitude install <package>/testing
+> will install <package> from testing and try to satisfy dependencies
+> from stable whereas
+> aptittude install -t testing <package>
+> will install <package> from testing and try to satisfy dependencies
+> from testing.
+>
+> I assume that
+> aptitude install <package>=3Dtesting_version
+> behaves like
+> aptitude install <package>/testing
+> and that in both these methods the dependencies might not be satisfied
+> (I had that problem in December with Firefox 3.6).
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/s2g6d4219cc1004301138i6947c1e1n6c12c267d=
+8e83003@mail.csmining.org
+>
+>
+
+Thanks for this nice information, Tom
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2nd0bf7b0b1004301943o2dd0f30fwb811b71e1ef8682a@mail.csmining.org
+
+

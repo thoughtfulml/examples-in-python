@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282bb04370a12a0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs70645wfj;
+        Fri, 23 Apr 2010 10:21:31 -0700 (PDT)
+Received: by 10.142.122.6 with SMTP id u6mr243173wfc.183.1272043291448;
+        Fri, 23 Apr 2010 10:21:31 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 31si1861035pzk.26.2010.04.23.10.21.31;
+        Fri, 23 Apr 2010 10:21:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 3539F1C209C9B
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 10:21:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6EB57270F60D6
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 10:21:09 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id EB3CA270F4F7C
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 10:19:04 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id DA6BECDF9839
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 10:19:04 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-eb-4bd1d688d1b7
+Received: from c3p0.reverse.net (smtp-1.out.reverse.net [66.225.200.241])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	6D.30.26228.886D1DB4; Fri, 23 Apr 2010 10:19:04 -0700 (PDT)
+Received: by c3p0.reverse.net (Postfix, from userid 556)
+	id B59795DE5; Fri, 23 Apr 2010 12:19:03 -0500 (CDT)
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10)
+XRelay-Country: 
+XStatus: No, hits=0.0 required=6.0 tests=ALL_TRUSTED,AWL,BAYES_00
+	autolearn=ham version=3.2.5
+XLevel: 
+Received: from localhost (localhost.reverse.net [127.0.0.1])
+	by c3p0.reverse.net (Postfix) with ESMTP id AE3255DE6;
+	Fri, 23 Apr 2010 12:18:57 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at c3p0.reverse.net
+Received: from c3p0.reverse.net ([127.0.0.1])
+	by localhost (c3p0.reverse.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eACWDWaYrizN; Fri, 23 Apr 2010 12:18:57 -0500 (CDT)
+Received: from localhost.reverse.net (localhost.reverse.net [127.0.0.1])
+	by c3p0.reverse.net (Postfix) with ESMTP id 799505DE5;
+	Fri, 23 Apr 2010 12:18:57 -0500 (CDT)
+Date: Fri, 23 Apr 2010 10:18:57 -0700 (PDT)
+From: Michael Allman <msa@allman.ms>
+To: Mike Swingler <swingler@apple.com>
+In-Reply-To: <956A81A2-9724-4716-A3DB-E2857BD81CB7@apple.com>
+Message-ID: <20100423101511.E85871@p3c0.erirefr.arg>
+References: <20100423020912.O98752@p3c0.erirefr.arg>
+	<AD5FC21A-D313-4696-991A-552F94574E14@apple.com>
+	<20100423080949.Y76963@p3c0.erirefr.arg>
+	<956A81A2-9724-4716-A3DB-E2857BD81CB7@apple.com>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Brightmail-Tracker: AAAAARPY2ZY=
+Cc: java-dev@lists.apple.com
+Subject: Re: NPAPI Java plugin issues
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Fri, 23 Apr 2010, Mike Swingler wrote:
+
+> On Apr 23, 2010, at 8:24 AM, Michael Allman wrote:
+>
+>> On Fri, 23 Apr 2010, Mike Swingler wrote:
+>>
+>>> On Apr 23, 2010, at 2:15 AM, Michael Allman wrote:
+>>>
+>>>> Hello,
+>>>>
+>>>> I'm not sure, but I think Apple wrote Java Plug-In 2 for NPAPI.  I'm seeing some serious display issues viewing some applets in Firefox using this plugin.  For a single example, if I go to
+>>>>
+>>>> http://pivot.apache.org/demos/
+>>>>
+>>>> and left-click on the "Kitchen Sink" demo, wait for the applet to load, and then switch back to the Demos tab, the bottom 85% or so of the browser window still shows the applet.  Can the Apple Java engineers comment on this issue?
+>>>>
+>>>> I'm running Firefox 3.6.3 on Mac OS 10.6.3.
+>>>
+>>> Are you running the NPAPI Plugin2 using the 10M3050 developer preview? Visually, it looks pretty good to me in FF 3.6.3 on 10.6.3 (there are some event issues like scrolling and right click - but I'm not seeing a clipping issue).
+>>
+>> I don't know what the 10M3050 developer preview is, so I guess that's a "no".
+>>
+>>> What version of Java does your browser think it's running (you can search for "what version of java do I have")?
+>>
+>> From http://www.javatester.org/version.html, I get "Java Version: 1.6.0_17 from Apple Inc."  Also, under "about:plugins" I see the version of the Java NPAPI plugin is 13.1.0.
+>>
+>> I'm going to send you a screen grab of the rendering error I'm seeing in a separate message that's not cc'd to java-dev.  Interestingly, if I grab the applet window, I get the clipped applet display stretched to fit the size of the entire applet window.  If I grab the firefox window, I just get the firefox window display.  I guess this makes sense since the applet runs in a separate process, though I don't understand why the applet display is getting messed up.  Maybe this is a clue to where the problem lies.
+>
+> That's really not necessary, thanks. The problem has to do with using 
+> clipping rectangles on overlay windows, which is a strategy that we have 
+> completely abandoned in the next release.
+>
+> Please download and install the new developer preview of Java for Mac OS 
+> X (10M3050+9M3150) at 
+> <https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftware?bundleID=20598>. 
+> We have made a considerable amount of progress on Plugin2 since "Java 
+> for Mac OS X 10.6 Update 1" has been shipped, and I think you'll find 
+> the experience with Plugin2 much more usable with this preview of "Java 
+> for Mac OS X 10.6 Update 2".
+>
+> We still have more work to do on Plugin2, but we'll keep everyone up to 
+> date with the release notes in later developer previews after "Java for 
+> Mac OS X 10.6 Update 2" and "Java for Mac OS X 10.5 Update 7" go live.
+
+I installed 10M3050 and it looks like overall a big improvement.  In 
+particlar, the rendering errors I've seen are gone.  However, I have 
+noticed one new problem which I don't think was present in the previous 
+version of the plugin.  I can't (mouse) drag inside an applet in Firefox. 
+Dragging works in Safari.  If I open
+
+http://pivot.apache.org/demos/decorators.html
+
+I can't move the "window" by dragging the title bar.  Also, if I open
+
+http://pivot.apache.org/demos/itunes-search.html
+
+and search for "beethoven" I cannot drag the scrollbar.  Do you have the 
+same problem?
+
+Cheers,
+
+Michael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

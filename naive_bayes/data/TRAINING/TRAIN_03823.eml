@@ -1,0 +1,219 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c1580895e13d4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs39650wfo;
+        Sat, 22 May 2010 11:48:11 -0700 (PDT)
+Received: by 10.142.2.22 with SMTP id 22mr2192650wfb.13.1274554091786;
+        Sat, 22 May 2010 11:48:11 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 6si2938485pzk.113.2010.05.22.11.48.11;
+        Sat, 22 May 2010 11:48:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 869B71CA3D935
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 11:48:11 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 7C7F027D99308
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 11:48:11 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 0EEA527D98C9B
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 11:47:15 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id F2498D64BFED
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 11:47:14 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b9fae0000068da-0d-4bf826b1cfa1
+Received: from mail-wy0-f179.google.com (mail-wy0-f179.google.com
+	[74.125.82.179])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	4D.FE.26842.2B628FB4; Sat, 22 May 2010 11:47:14 -0700 (PDT)
+Received: by wyj26 with SMTP id 26so813711wyj.24
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 11:47:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	bh=+DCb/5y+QOh4Dg+Vb2CuO5qIaIFi6GbAO6/BEIr76W4=;
+	b=v+B3K2JAf6YZhEsbtjmczHF6DNLBsKFJIeibCXnRv5CF9yUDnBvZJRyESVMCvffvf4
+	6mBJwD6/SrcJaE+p4MGCYckxQ7+gPB4eIOnT5qoOsAcMIaCeuvHqjuYBR2JDoEMrvuIQ
+	I3BogaODbczqAXpXwuYR3U6O6yTxq9j0EHo5U=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type:content-transfer-encoding;
+	b=uVtPBxwCHDbnEe64RK1CWw1u1QPDzX6c7RayN6wFwtRBtE/6jdBkUci56kH8jFC87Z
+	nCZ9S9POAPIBgzRs0ETa+JNGAzqxVNsGh9a+0l0gOOWfEmgUmIUHdmU3tkUpwuTWVH3p
+	0D5WyabXoa8fNOHJLqeryWWp8YUFFAo2BGx48=
+MIME-Version: 1.0
+Received: by 10.216.186.194 with SMTP id w44mr1819513wem.186.1274554033170; 
+	Sat, 22 May 2010 11:47:13 -0700 (PDT)
+Received: by 10.216.37.212 with HTTP; Sat, 22 May 2010 11:47:13 -0700 (PDT)
+In-Reply-To: <EE0FA0E9-3D88-43E8-AE99-0630DE4B3D4D@apple.com>
+References: <AANLkTimOqWs--2UKzTx_nXxIVa-7roeLzGyR2Y7kpicW@mail.csmining.org>
+	<AANLkTim7KhEx83w86LUhFsU3QqLAttszY15i4j_ndhc8@mail.csmining.org>
+	<AANLkTil_TAevRry0WrpU4BhRBX7B7-Dbc3YiV-9RpANB@mail.csmining.org>
+	<345B25FF-B04E-47B8-9D07-A99A9E33C0D4@apple.com>
+	<AANLkTili7gSxKKlRdOPSvtcuUF6rqWIxeGfVkqjU33lK@mail.csmining.org>
+	<EE0FA0E9-3D88-43E8-AE99-0630DE4B3D4D@apple.com>
+Date: Sat, 22 May 2010 19:47:13 +0100
+Message-ID: <AANLkTin4rBOwfMiNXw7pHbQ9VQ0VeTSJH0vNkd1SYLMO@mail.csmining.org>
+From: Rob Dickens <robcdickens@csmining.org>
+To: Mike Swingler <swingler@apple.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAARRHr58=
+Cc: java-dev <java-dev@lists.apple.com>
+Subject: Re: applets on 32-bit 1.6.0_20
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Mike,
+
+Thanks for explaining this, and clarifying the situation.
+
+I can report that I indeed did not have sufficient privileges. So I
+logged in as somebody who does, and was able to change the preference,
+and everything* now works as advertised.
+
+*except for two-finger scrolling in 1.6.0_20 own-process applets whose
+browser window is displayed on my secondary display! Please see bug id
+8017275.
+
+Thanks for your help,
+
+Rob
+
+On Sat, May 22, 2010 at 5:18 PM, Mike Swingler <swingler@apple.com> wrote:
+> On May 21, 2010, at 12:04 PM, Rob Dickens wrote:
+>
+>> Mike,
+>>
+>> Thanks for responding, and explaining what causes the flickering.
+>>
+>>> If your MacBook is actually 32-bit only, you should never even see the =
+64-bit JVMs.
+>>
+>> And I don't. But like I said,
+>>
+>>> Have just tested my applet on a 64-bit Mac
+>>
+>> Please could you confirm that the 'In their own process' preference is
+>> not currently available for 32-bit Macs (and whether there would be
+>> any point in putting in an RFE).
+>
+> The out-of-process Plugin2 should work fine on 32-bit only Macs.
+>
+> Switching between the in and out-of-process plugins is a simple matter of=
+ adding or removing a symlink to the in-process plugin to /Library/Internet=
+ Plug-Ins. You should only see grey radio buttons in Java Preferences if yo=
+u don't have write permissions in that directory. It's possible that if you=
+ have other Java plugins present in your ~/Library/Internet Plug-Ins folder=
+, that could be confusing the logic...maybe.
+>
+> Can you "ls -al@e /Library/Internet\ Plug-ins" and "ls -al@e ~/Library/In=
+ternet\ Plug-ins" to see what plugins are present, and if there are any fun=
+ny ACLs or extended attributes?
+>
+> Best of luck,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>
+>> On Fri, May 21, 2010 at 7:28 PM, Mike Swingler <swingler@apple.com> wrot=
+e:
+>>
+>>> There is a known race condition between native background repainting an=
+d Java drawing in the resize/scrolling case for Java applets embedded in th=
+e browser process. The reason you don't see this behavior when using the ou=
+t-of-process plugin is because the applet painting is happening in a sepera=
+te process, and the browser is "pulling the pixels" from the Java process w=
+hen the browser thinks it's a good time to repaint.
+>>>
+>>> I'm not clear why unchecking the "64-bit" checkbox in Java Preferences =
+should enable or disable the out-of-process vs. in-process applet setting. =
+If your MacBook is actually 32-bit only, you should never even see the 64-b=
+it JVMs.
+>>>
+>>> On May 21, 2010, at 4:42 AM, Rob Dickens wrote:
+>>>
+>>>> Have just tested my applet on a 64-bit Mac, and it seems,
+>>>>
+>>>> * you have to select the 'In their own process' preference, in order
+>>>> to stop the flicker-on-resize
+>>>>
+>>>> * unticking the 64-bit Java checkbox greys out the radio buttons that
+>>>> let you make the above change.
+>>>>
+>>>> Ergo, the non-flickering applet container is only available on 64-bit =
+Macs.
+>>>>
+>>>> If anyone from Apple could clarify the situation, I'd be much obliged.
+>>>>
+>>>> On Wed, May 19, 2010 at 10:41 AM, Chung-Kai Chen <ckchen@realtek.com> =
+wrote:
+>>>>
+>>>>> It's really frustrating to see something on Mac so bad compared to Wi=
+ndows.
+>>>>> I use this page (http://www.javafx.com/samples/TableInsights/index.ht=
+ml) to test
+>>>>> the newly arrived JVM and it still flickers like a hell when scrollin=
+g the page.
+>>>>> The same applet run on Windows hosted in VirtualBox on my Mac shows a=
+lmost
+>>>>> no flickering.
+>>>>>
+>>>>>
+>>>>> 2010/5/19 Rob Dickens <robcdickens@csmining.org>:
+>>>>>
+>>>>>> Dear Mac-Java Devs,
+>>>>>>
+>>>>>> Have just installed the new version of Java, hoping that my applets[=
+1]
+>>>>>> (in Safari) would stop flickering when I resized the browser
+>>>>>> window--something which the release notes suggest[2] might be the
+>>>>>> case--, but I find that they do still flicker.
+>>>>>>
+>>>>>> One thing I note is that the Java Preferences app won't let me chang=
+e
+>>>>>> the way applets are run (from 'Within the browser process' to 'In
+>>>>>> their own process'), since the radio buttons are greyed out.
+>>>>>>
+>>>>>> I'm on a 32-bit MacBook, btw.
+>>>>>>
+>>>>>> Please could somebody help.
+>>>>>>
+>>>>>> Best regards,
+>>>>>>
+>>>>>> Rob
+>>>>>>
+>>>>>> 1 http://lafros.com/gui
+>>>>>> 2 Plugin2 Graphics Rendering
+>>>>>> <http://developer.apple.com/mac/library/releasenotes/CrossPlatform/J=
+avaSnowLeopardUpdate2LeopardUpdate7RN/NewandNoteworthy/NewandNoteworthy.htm=
+l#//apple_ref/doc/uid/TP40009967-CH4-SW1>
+>
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

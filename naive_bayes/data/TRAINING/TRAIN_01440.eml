@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285f75d3e8f469e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs238446wfj;
+        Mon, 3 May 2010 11:38:01 -0700 (PDT)
+Received: by 10.151.87.7 with SMTP id p7mr8799237ybl.340.1272911876936;
+        Mon, 03 May 2010 11:37:56 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 1si8419032gxk.9.2010.05.03.11.37.56;
+        Mon, 03 May 2010 11:37:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 3DB441BE7C5CA
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 11:37:56 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 38E072759A669
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 11:37:56 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id B0CFC2759A63F
+	for <filesystem-dev@lists.apple.com>;
+	Mon,  3 May 2010 11:37:52 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id A07C7D7D0025
+	for <filesystem-dev@lists.apple.com>;
+	Mon,  3 May 2010 11:37:52 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-d7-4bdf17ff7c86
+Received: from mail63.opentransfer.com (mail63.opentransfer.com
+	[76.162.254.63])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	92.2A.05834.0081FDB4; Mon,  3 May 2010 11:37:52 -0700 (PDT)
+Received: (qmail 2989 invoked by uid 399); 3 May 2010 18:37:49 -0000
+Received: from unknown (HELO ?10.0.0.3?) (209.193.46.86)
+	by mail63.opentransfer.com with SMTP; 3 May 2010 18:37:49 -0000
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Jim O'Connor <joconnor@orderndev.com>
+X-Priority: 3
+In-Reply-To: <r314ps-1058i-F0C5F6CF3355425C8FD12184796B8AC0@crocodile.local>
+Date: Mon, 3 May 2010 10:37:46 -0800
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <5F310DF2-1307-4D13-92FC-2657027C49D3@orderndev.com>
+References: <r314ps-1058i-F0C5F6CF3355425C8FD12184796B8AC0@crocodile.local>
+To: James Bucanek <subscriber@gloaming.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAhPvsiET77iY
+Cc: filesystem-dev@lists.apple.com
+Subject: Re: differences between NSWorkspace unmountAndEjectDeviceAtURL and
+	unmountAndEjectDeviceAtPath
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+The system call works.
+
+As does the call to FSEjectVolumeSync(), which surprised me, since I =
+thought that if the NSWorkspace call failed then I must be missing some =
+step.
+
+
+Thanks,
+Jim
+
+On May 3, 2010, at 7:13 AM, James Bucanek wrote:
+
+> Jim O'Connor <mailto:joconnor@orderndev.com> wrote (Sunday, May 2, =
+2010 11:27 PM -0800):
+>=20
+>> My alternative is to call system with hdiutil detach, which is ugly.
+>=20
+> I would have thought that the alternative would be to get the volume's =
+FSVolumeRefNum and simply call FSEjectVolumeSync(), which is ultimately =
+what (I believe) NSWorkspace does.
+>=20
+> This would require about eight lines of code, and really isn't that =
+ugly.
+>=20
+> --=20
+> James Bucanek
+>=20
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

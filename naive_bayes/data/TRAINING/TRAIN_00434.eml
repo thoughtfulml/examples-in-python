@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId12886deffaa2da87
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs55164wfb;
+        Tue, 11 May 2010 03:18:01 -0700 (PDT)
+Received: by 10.223.92.152 with SMTP id r24mr5926156fam.74.1273573080733;
+        Tue, 11 May 2010 03:18:00 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u3si10822702fan.80.2010.05.11.03.18.00;
+        Tue, 11 May 2010 03:18:00 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3685913A58CA; Tue, 11 May 2010 10:17:51 +0000 (UTC)
+Old-Return-Path: <debian.linux@home.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,ONEWORD,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7CCD213A5894
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 10:17:45 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, ONEWORD=2]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id N1YR1cn2lAUO for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 10:17:38 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -1.8
+Received: from smtpq4.gn.mail.iss.as9143.net (smtpq4.gn.mail.iss.as9143.net [212.54.34.167])
+	by liszt.debian.org (Postfix) with ESMTP id 99CCD13A57A8
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 10:17:29 +0000 (UTC)
+Received: from [212.54.34.144] (helo=smtp13.gn.mail.iss.as9143.net)
+	by smtpq4.gn.mail.iss.as9143.net with esmtp (Exim 4.69)
+	(envelope-from <debian.linux@home.nl>)
+	id 1OBmWl-0002w8-4U
+	for debian-user@lists.debian.org; Tue, 11 May 2010 12:17:27 +0200
+Received: from 5ed409dc.cable.ziggo.nl ([94.212.9.220] helo=[192.168.0.3])
+	by smtp13.gn.mail.iss.as9143.net with esmtp (Exim 4.69)
+	(envelope-from <debian.linux@home.nl>)
+	id 1OBmWh-0001Pf-Fc
+	for debian-user@lists.debian.org; Tue, 11 May 2010 12:17:23 +0200
+Message-ID: <4BE92EB0.9010602@home.nl>
+Date: Tue, 11 May 2010 12:17:20 +0200
+From: steef <debian.linux@home.nl>
+Reply-To: debian.linux@home.nl
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.9.1.9) Gecko/20100317 SeaMonkey/2.0.4
+MIME-Version: 1.0
+To: debian <debian-user@lists.debian.org>
+Subject: Re: matroska
+References: <4BE80F89.9090809@home.nl> <hs9b6i$t90$1@dough.gmane.org>
+In-Reply-To: <hs9b6i$t90$1@dough.gmane.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-ZiggoSMTP-MailScanner-Information: Please contact the ISP for more information
+X-ZiggoSMTP-MailScanner-ID: 1OBmWh-0001Pf-Fc
+X-ZiggoSMTP-MailScanner: Found to be clean
+X-ZiggoSMTP-MailScanner-SpamCheck: geen spam, SpamAssassin (niet cached,
+	score=-1.422, vereist 5, ALL_TRUSTED -1.80, BAYES_50 0.00,
+	CM_REPLY_NOARROW 0.30, TW_IV 0.08)
+X-ZiggoSMTP-MailScanner-From: debian.linux@home.nl
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WDuht1IpIzD.A.KWF.P7S6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576487
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 10:17:51 +0000 (UTC)
+
+deloptes schreef:
+> steef wrote:
+>
+>    
+>> hi list,
+>>
+>> i am trying to synchronize sound and video-picture of a matroska-file (
+>>      
+> <..........>
+> I'm not sure divx is valid - try mpeg4 (MPEG-4 (DivX 4/5)). divx seem to be
+> win32 codec thus win32 option.
+>
+> from the above command you are extracting the audio and trying to build the
+> video file with the extracted audio again. I'm not sure if it will do the
+> job for you. anyway there are tons of info on how to do it (not only using
+> mplayer/encoder)
+>
+> good luck and regards
+>
+> regards
+>
+>
+>    
+thank you deloptes i 'll try mpeg4.
+
+reg.,
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE92EB0.9010602@home.nl
+
+

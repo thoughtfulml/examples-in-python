@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fbd5a84687b60
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs9291wfa;
+        Wed, 14 Apr 2010 03:20:36 -0700 (PDT)
+Received: by 10.103.4.14 with SMTP id g14mr3995581mui.84.1271240435848;
+        Wed, 14 Apr 2010 03:20:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id i5si1135947mue.49.2010.04.14.03.20.35;
+        Wed, 14 Apr 2010 03:20:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 45AFD13A578F; Wed, 14 Apr 2010 10:20:29 +0000 (UTC)
+Old-Return-Path: <ml@well-adjusted.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C16B413A55AC
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 10:20:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ucxxaNOfVP8M for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 10:20:16 +0000 (UTC)
+Received: from well-adjusted.de (well-adjusted.de [83.246.72.228])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 949BC13A5756
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 10:20:16 +0000 (UTC)
+Received: from mail.wasteland.homelinux.net (e176103149.adsl.alicedsl.de [85.176.103.149])
+	(Authenticated sender: jrschulz)
+	by well-adjusted.de (Postfix) with ESMTPSA id 666A013C122
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 12:20:15 +0200 (CEST)
+Received: by mail.wasteland.homelinux.net (Postfix, from userid 1000)
+	id 1359A3621A; Wed, 14 Apr 2010 12:20:13 +0200 (CEST)
+Date: Wed, 14 Apr 2010 12:20:13 +0200
+From: Jochen Schulz <ml@well-adjusted.de>
+To: debian-user@lists.debian.org
+Subject: Re: Where to find setup for env variable?
+Message-ID: <20100414102012.GF6054@wasteland.homelinux.net>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <87mxx62x0f.fsf@csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="DqhR8hV3EnoxUkKN"
+Content-Disposition: inline
+In-Reply-To: <87mxx62x0f.fsf@csmining.org>
+X-message-flag: Schoenen Gruss vom BKA
+X-GnuPG-Fingerprint: CE37 FE4D A5EE 969D 5E04  8A9B F807 D9C9 D58A DB39
+Jabber-ID: solexx@jabber.ccc.de
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8CJnCxKPYZE.A.QjC.tbZxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574025
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 10:20:29 +0000 (UTC)
+
+
+--DqhR8hV3EnoxUkKN
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Paul Chany:
+>=20
+> I have setup somewhere the JAVA_HOME environment variable, but don't
+> know where?
+
+~/.xsession?
+
+J.
+--=20
+When driving at night I find the headlights of oncoming vehicles very
+attractive.
+[Agree]   [Disagree]
+                 <http://www.slowlydownward.com/NODATA/data_enter2.html>
+
+--DqhR8hV3EnoxUkKN
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvFltwACgkQ+AfZydWK2zlkvwCgn/7sriQ1j8PnWOUDTPm08KJu
+vTsAnjwyO6WtetNKFu1m/eqeAYQdO9mn
+=TliH
+-----END PGP SIGNATURE-----
+
+--DqhR8hV3EnoxUkKN--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414102012.GF6054@wasteland.homelinux.net
+
+

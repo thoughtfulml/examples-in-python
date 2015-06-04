@@ -1,0 +1,133 @@
+X-Account-Key: account5
+X-UIDL: GmailId12805abde2881920
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs13561wfj;
+        Fri, 16 Apr 2010 01:11:10 -0700 (PDT)
+Received: by 10.223.17.155 with SMTP id s27mr573755faa.13.1271405469301;
+        Fri, 16 Apr 2010 01:11:09 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si3056432fkg.58.2010.04.16.01.11.08;
+        Fri, 16 Apr 2010 01:11:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 927E32D0D69; Fri, 16 Apr 2010 08:11:04 +0000 (UTC)
+Old-Return-Path: <holtkamp@medical-city.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.8 required=4.0 tests=FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD2,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8CFCF2D0CBF
+	for <lists-debian-security@liszt.debian.org>; Fri, 16 Apr 2010 08:10:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.78 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1YiD-AX5u9U1
+	for <lists-debian-security@liszt.debian.org>;
+	Fri, 16 Apr 2010 08:10:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 527 seconds by postgrey-1.31 at liszt; Fri, 16 Apr 2010 08:10:51 UTC
+Received: from mail.medical-city.de (medical-city.de [85.10.195.101])
+	by liszt.debian.org (Postfix) with ESMTP id 261A72D0C08;
+	Fri, 16 Apr 2010 08:10:51 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.medical-city.de (Postfix) with ESMTP id 63DE1E445E6;
+	Fri, 16 Apr 2010 10:03:18 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at medical-city.de
+Received: from mail.medical-city.de ([127.0.0.1])
+	by localhost (www.medical-city.de [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id uUT-uqXawaVW; Fri, 16 Apr 2010 10:03:15 +0200 (CEST)
+Received: from fileserver.medical (static-213-182-123-3.teleos-web.de [213.182.123.3])
+	by mail.medical-city.de (Postfix) with ESMTPA id 89A4FE442B0;
+	Fri, 16 Apr 2010 10:03:15 +0200 (CEST)
+Received: from [10.0.0.110] (mm110vista.medical [10.0.0.110])
+	by fileserver.medical (Postfix) with ESMTP id 97B30C1BE75A;
+	Fri, 16 Apr 2010 10:01:50 +0200 (CEST)
+Message-ID: <4BC8196A.3090601@medical-city.de>
+Date: Fri, 16 Apr 2010 10:01:46 +0200
+From: Maik Holtkamp <holtkamp@medical-city.de>
+User-Agent: secret(tm)
+MIME-Version: 1.0
+To: debian-volatile@lists.debian.org
+CC: debian-security@lists.debian.org, debian-release@lists.debian.org
+Subject: Re: [volatile] Updated clamav-related packages available fortesting
+References: <1271361167.4998@bluehome.net>
+In-Reply-To: <1271361167.4998@bluehome.net>
+X-Enigmail-Version: 1.0.1
+OpenPGP: url=http://pgpkeys.pca.dfn.de/pks/lookup?op=get&search=0xCF76EAE9A69D988F
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nCXLMAm8HQD.A.EFD.YuByLB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23787
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 08:11:04 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+Jason Self wrote/schrieb @ 15.04.2010 21:52:
+
+> Kurt Roeckx <kurt@roeckx.be> wrote ..
+>  
+>> What does this mean exactly?
+>
+> It means that you need to be running least version 0.95 of ClamAV, and 
+> preferably always the latest & greatest version, to be protected. Outdated anti-
+> virus software is not effective.
+
+& you have to exchange the packages build on clamav, too, as mentioned
+in above announcement.
+
+deb http://volatile.debian.org/debian-volatile \
+lenny-proposed-updates/volatile main contrib non-free
+
+/me just learned it the hard way (dansguardian), as everybody was
+claiming that there is no Web access :(.
+
+THX to Adam for the announcement and the volatile team for the updated
+packages. Dansguardian (i386) from volatile lenny-proposed-updates has
+no problem here.
+
+- -- 
+BR - Maik
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (MingW32)
+Comment: Signature of Maik Holtkamp
+
+iEYEARECAAYFAkvIGWoACgkQz3bq6aadmI919ACglwSR1nL4Aj523gvND4jDjAE0
+rx4AoKKBEqQOh4FrKNIRVzUqX+kuFA8z
+=8Gq9
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC8196A.3090601@medical-city.de
+
+

@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e3496aec8b307
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs35273wfi;
+        Fri, 9 Apr 2010 08:56:32 -0700 (PDT)
+Received: by 10.223.5.69 with SMTP id 5mr282348fau.8.1270828591982;
+        Fri, 09 Apr 2010 08:56:31 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si3510905fxm.77.2010.04.09.08.56.31;
+        Fri, 09 Apr 2010 08:56:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 843B313A64E8; Fri,  9 Apr 2010 15:56:23 +0000 (UTC)
+Old-Return-Path: <mark@allums.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9B51D13A649C
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 15:56:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dgsqvWofacmB for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 15:56:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 405 seconds by postgrey-1.31 at liszt; Fri, 09 Apr 2010 15:56:09 UTC
+Received: from smtpauth21.prod.mesa1.secureserver.net (smtpauth21.prod.mesa1.secureserver.net [64.202.165.38])
+	by liszt.debian.org (Postfix) with SMTP id E89F513A6252
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 15:56:03 +0000 (UTC)
+Received: (qmail 21012 invoked from network); 9 Apr 2010 15:49:20 -0000
+Received: from unknown (98.104.60.62)
+  by smtpauth21.prod.mesa1.secureserver.net (64.202.165.38) with ESMTP; 09 Apr 2010 15:49:18 -0000
+Message-ID: <4BBF4C64.1060207@allums.com>
+Date: Fri, 09 Apr 2010 10:48:52 -0500
+From: Mark Allums <mark@allums.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: how come...
+References: <hpnhrp$83r$1@dough.gmane.org>
+In-Reply-To: <hpnhrp$83r$1@dough.gmane.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <fqFFwNsjvuL.A.g_H.n40vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573723
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 15:56:23 +0000 (UTC)
+
+On 4/9/2010 10:41 AM, Hugo Vanwoerkom wrote:
+> Hi,
+>
+> How come the latest linux-image-2.6-686 in Sid is:
+>
+> http://packages.debian.org/sid/linux-headers-2.6-686
+>
+> and is set to linux-image-2.6-686 (2.6.32+24) while apt-cache policy
+> linux-image-2.6-686 gives:
+>
+> linux-image-2.6-686:
+> Installed: 2.6.32+25
+> Candidate: 2.6.32+25
+> Version table:
+> *** 2.6.32+25 0
+> 500 http://ftp.de.debian.org unstable/main Packages
+> 100 /var/lib/dpkg/status
+>
+> while linux-image-2.6.32-4-686 (2.6.32-11) is the latest per:
+>
+> apt-cache policy linux-image-2.6.32-4-686
+> linux-image-2.6.32-4-686:
+> Installed: (none)
+> Candidate: 2.6.32-11
+> Version table:
+> 2.6.32-11 0
+> 500 http://ftp.de.debian.org unstable/main Packages
+
+
+2.6.32-11 is in Squeeze.  A guess (based on nothing) might be that a 
+freeze is imminent, leading up to the release of Squeeze.  I expect that 
+it will be straightened out in due course.
+
+MAA
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBF4C64.1060207@allums.com
+
+

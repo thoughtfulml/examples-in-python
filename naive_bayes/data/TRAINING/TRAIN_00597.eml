@@ -1,0 +1,144 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288ea35ae98d667
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs23804wfo;
+        Wed, 12 May 2010 15:29:52 -0700 (PDT)
+Received: by 10.223.15.216 with SMTP id l24mr2532166faa.92.1273703390040;
+        Wed, 12 May 2010 15:29:50 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t12si1625696fah.66.2010.05.12.15.29.48;
+        Wed, 12 May 2010 15:29:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3013E13A503E; Wed, 12 May 2010 22:29:45 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9CAD313A4F93
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 22:29:39 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id je3w07VIMi6X for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 22:29:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 708C813A49D9
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 22:29:31 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1OCKQh-0000xB-Ne
+	for debian-kde@lists.debian.org; Wed, 12 May 2010 22:29:28 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 upgrade eats 141 MB of /home
+Date: Wed, 12 May 2010 17:31:47 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-bpo.3-amd64; KDE/4.4.3; x86_64; ; )
+References: <20100512005320.GA16379@club.cc.cmu.edu> <201005121845.25780.schwarzerf@csmining.org> <201005130022.21523.suy@badopi.org>
+In-Reply-To: <201005130022.21523.suy@badopi.org>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@
+ =?iso-8859-1?q?q=3B2h=0A=096=265?=@)
+ =?iso-8859-1?q?xd86p=3BwyaJ=25f7=26z=5FBW=7DDkm=2EL=24-=23h=25DUdk7thS-HC?=
+ =?iso-8859-1?q?=5FA=5EJp=7C=23Tq4R/=5Eq/-=5DwRVU=5ET=3Fj=0A=09g?=@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?iso-8859-1?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSK?=
+ =?iso-8859-1?q?VkSKVkSKVkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrX?=
+ =?iso-8859-1?q?bgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAAI0SURB?=
+ =?iso-8859-1?q?VDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOl?=
+ =?iso-8859-1?q?yn8DhAHZj=0A=093iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkb?=
+ =?iso-8859-1?q?IsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs=0A=09pY2lNMMz2FMIOurZpRE?=
+ =?iso-8859-1?q?z4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKrvHC+eDauR7oWn2?=
+ =?iso-8859-1?q?=0A=099cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X1KJxybF0zhLwsns?=
+ =?iso-8859-1?q?yJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096GudSNWT0NXblkVuwjBlkWVJr?=
+ =?iso-8859-1?q?maAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VIIiKVYmUnJiyr?=
+ =?iso-8859-1?q?=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERfOpfZ?=
+ =?iso-8859-1?q?iTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNrHHeCJMyuaujMNd?=
+ =?iso-8859-1?q?ktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG=0A=090?=
+ =?iso-8859-1?q?1oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJf?=
+ =?iso-8859-1?q?PTbS5oo9tOUMHbdKE23oTci=0A=093cBil8dtoGZk0BF2Yq35wSeWvYeT2E?=
+ =?iso-8859-1?q?E/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G=0A=098GbPE?=
+ =?iso-8859-1?q?j2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAA?=
+ =?iso-8859-1?q?SUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart6588633.idOSTF9z0v";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005121731.48269.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <I9KIyhYP82P.A.gnH.Zvy6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32435
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 22:29:45 +0000 (UTC)
+
+--nextPart6588633.idOSTF9z0v
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 12 May 2010 17:22:21 Alejandro Exojo wrote:
+> El Mi=E9rcoles, 12 de Mayo de 2010, Frederik Schwarzer escribi=F3:
+> > If you want to have these images there in case they are needed, keep the
+> > folder, if disk space is more important than loading speed, remove it
+> > regularily.
+>=20
+> Of course, that's what I do. But a plain user should not be asked to
+>  regularly remove it, should he? It probably should be handled like the
+>  trash folder, which IIRC has a size/time limit.
+
+I think "sweeper" (?) from kdeutils is supposed to handle this, right?
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart6588633.idOSTF9z0v
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvrLFQACgkQdNbfk+86fC0ocgCgg1rNejrQxkYsqc8/BQGI5DtL
+KVEAn127iu7NDL5gv9eh3u3Ox2LYMIUp
+=9qSB
+-----END PGP SIGNATURE-----
+
+--nextPart6588633.idOSTF9z0v--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005121731.48269.bss@iguanasuicide.net
+
+

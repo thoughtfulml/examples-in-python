@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c150f706292d5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs39477wfo;
+        Sat, 22 May 2010 11:40:28 -0700 (PDT)
+Received: by 10.142.117.15 with SMTP id p15mr2123544wfc.199.1274553628316;
+        Sat, 22 May 2010 11:40:28 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id k19si5925980wae.54.2010.05.22.11.40.28;
+        Sat, 22 May 2010 11:40:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id CF1B81C61A0C0
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 11:40:27 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id C4F7427D987E4
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 11:40:27 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id ADA2B27D9815B
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 11:39:33 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 9555CDA84757
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 11:39:33 -0700 (PDT)
+X-AuditID: 11fe0d07-b7b3aae000004253-db-4bf824e4c746
+Received: from mail-ww0-f51.google.com (mail-ww0-f51.google.com [74.125.82.51])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	07.16.16979.4E428FB4; Sat, 22 May 2010 11:39:33 -0700 (PDT)
+Received: by wwi18 with SMTP id 18so55102wwi.24
+	for <java-dev@lists.apple.com>; Sat, 22 May 2010 11:39:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	bh=kAQ41O4wIUpmflODgA+FsPfAL20bKsLPiDOnJVhCTtc=;
+	b=mNdNzbwZf7AmEOTft+uDYxaiK83xo9M4Rj6GMFd7qik/fpzrZxNBiGzLimYgbSdx5v
+	AOcVICgZ476CA3raeW7+PjJgu7vbBTsQHjH3VPAgT6KEZbJzZsFNaHkAYQIxm/qdIeLm
+	JmShsZKZ2r+GdhnBw+8oaGoEamJH5ypqYMIf0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type:content-transfer-encoding;
+	b=gKZsjA5dcnD1h0PfhKFGroOh5uqUAu83Oxx46Fq0b0fD3dA/Zswrx7zcdAVT5lPN7i
+	M0jdm40CVuNAHQ2GWznZ4vWhXR4TQE1fn4RV56ymRi9dk9AoYi65nm1lTxMxJP22TrFZ
+	GaOCq5bMpo3ogYyawRCc0shGSgn2QHescWdBA=
+MIME-Version: 1.0
+Received: by 10.216.160.67 with SMTP id t45mr1849070wek.158.1274553571978; 
+	Sat, 22 May 2010 11:39:31 -0700 (PDT)
+Received: by 10.216.37.212 with HTTP; Sat, 22 May 2010 11:39:31 -0700 (PDT)
+In-Reply-To: <AANLkTilKIcVg5ElfFOmvsRRc4OteIgAL3g1JTm4XNyN5@mail.csmining.org>
+References: <DC58EDE0-BC94-4E56-BA37-7C8A277A71CD@q7design.demon.co.uk>
+	<AANLkTilqgzZdQaRFm0K_FrwD6bGeAEH5tSjP212t5eRJ@mail.csmining.org>
+	<AANLkTilKIcVg5ElfFOmvsRRc4OteIgAL3g1JTm4XNyN5@mail.csmining.org>
+Date: Sat, 22 May 2010 19:39:31 +0100
+Message-ID: <AANLkTilv-1zGItsvrRteVmy9ftYE00p407Tg1Ivj-z2k@mail.csmining.org>
+From: Rob Dickens <robcdickens@csmining.org>
+To: java-dev@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAhRHr58UR9i7
+Subject: Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are live
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+After logging in as somebody with administrator privileges, I *was*
+able to select the 'In their own process' preference, and Safari then
+worked as advertised. I was also then able to change this preference
+from my own account (without admin privileges).
+
+Re the lack of two-finger scrolling in Chrome own-process applets,
+this turns out to occur only when the browser window is on my
+secondary display(!) (plugged into my MacBook), and applies to Safari
+as well. This I describe in a bug report I've just submitted.
+
+On Sat, May 22, 2010 at 2:19 PM, Rob Dickens <robcdickens@csmining.org> wrote:
+> Sorry - meant to include a link to the applet (which contains a scroll pa=
+ne):
+>
+> http://lafros.com/demos/gui/tabs/1.1/tabsDemo.html
+>
+> On Sat, May 22, 2010 at 2:17 PM, Rob Dickens <robcdickens@csmining.org> wrot=
+e:
+>> Thanks for mentioning this. I was particularly interested to see what
+>> would happen here on my 32-bit MacBook, where I don't seem to have the
+>> option of selecting the 'In their own process' preference--the radio
+>> buttons are greyed-out--which appears to be required in order to avoid
+>> the flickering seen on resizing the browser window.
+>>
+>> Lo and behold, there is no flicker! :-D
+>>
+>> However, on the downside, two-finger scrolling (inside the applet) is
+>> not supported (as it is in Safari) :-(
+>>
+>> Rob
+>>
+>> On Sat, May 22, 2010 at 12:34 PM, David Leader
+>> <java@q7design.demon.co.uk> wrote:
+>>> I don't think this was mentioned but the Mac beta of the Chrome browser=
+ will
+>>> now run applets which I gather is dependent on this java upgrade.
+>>>
+>>> (Not that I am in any way suggesting Mac users should use anything othe=
+r
+>>> than Safari themselves, but if one produces web sites that contain Java
+>>> applets it is obviously something which one has to be aware of.)
+>>>
+>>> David
+>>> _______________________________________________
+>>> Do not post admin requests to the list. They will be ignored.
+>>> Java-dev mailing list =A0 =A0 =A0(Java-dev@lists.apple.com)
+>>> Help/Unsubscribe/Update your Subscription:
+>>> http://lists.apple.com/mailman/options/java-dev/robcdickens%40csmining.org
+>>>
+>>> This email sent to robcdickens@csmining.org
+>>>
+>>
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

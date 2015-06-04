@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286c55acb12e280
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs375721wfb;
+        Wed, 5 May 2010 23:37:54 -0700 (PDT)
+Received: by 10.87.5.30 with SMTP id h30mr1028147fgi.3.1273127873734;
+        Wed, 05 May 2010 23:37:53 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e3si1197745fga.29.2010.05.05.23.37.53;
+        Wed, 05 May 2010 23:37:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BC2B52D8E0F; Thu,  6 May 2010 06:37:48 +0000 (UTC)
+Old-Return-Path: <lego_12239@rambler.ru>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_HEAD_8BIT_SPAM autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 520D72D8C84
+	for <lists-debian-user@liszt.debian.org>; Thu,  6 May 2010 06:37:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.572 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BODY_8BITS=1.5, CHARSET_FARAWAY_HEADER=0.02,
+	LDO_WHITELIST=-5, MIME_CHARSET_FARAWAY=0.02,
+	SARE_HEAD_8BIT_SPAM=0.888] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id eWpmjjCeei4J for <lists-debian-user@liszt.debian.org>;
+	Thu,  6 May 2010 06:37:34 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from maile.rambler.ru (maile.rambler.ru [81.19.66.15])
+	by liszt.debian.org (Postfix) with ESMTP id 0971A2D8C5A
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 06:37:33 +0000 (UTC)
+Received: from localhost (unknown [62.148.136.28])
+	(Authenticated sender: lego_12239@rambler.ru)
+	by maile.rambler.ru (Postfix) with ESMTP id EB8AF1A25107;
+	Thu,  6 May 2010 10:37:30 +0400 (MSD)
+Date: Thu, 6 May 2010 10:36:15 +0400
+From: Oleg <lego_12239@rambler.ru>
+To: =?koi8-r?B?7cnIwcnM?= <miklblitz@yandex.ru>
+Cc: debian-user@lists.debian.org
+Subject: Re: =?koi8-r?B?9dPUwc7P18vBIERlYmlhbiDO?=
+	=?koi8-r?Q?=C1?= x86_64
+Message-ID: <20100506063615.GA19902@debian>
+Reply-To: Oleg <lego_12239@rambler.ru>
+Mail-Followup-To: =?koi8-r?B?7cnIwcnM?= <miklblitz@yandex.ru>,
+	debian-user@lists.debian.org
+References: <143621273124238@web132.yandex.ru>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=koi8-r
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <143621273124238@web132.yandex.ru>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <1JyzPBoqprB.A.d-H.8Om4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575965
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 06:37:48 +0000 (UTC)
+
+On Thu, May 06, 2010 at 09:37:18AM +0400, Михаил wrote:
+> Здравствуйте.
+
+  Hi. You can use debian-russian@lists.debian.org for russian speaking
+  mailing list. This list use only english.
+
+> В организации стоит сервер спроцессором Intel(R) Xeon(TM). ОС: Red Hat Ent. Lic.5 x86_64.
+> Требуется перевести его на Debian.
+> Какой дистрибутив выбирать - x86 или AMD64? Какой из них установится на сервак ?
+> Спасибо.
+
+  You can use ia64 debian for Xeon 64bit. i386 will work too.
+
+  [ru]Используйте ia64 для 64 разрядного Xeon'а. Дистрибутив i386 тоже будет
+  работать[/ru]
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506063615.GA19902@debian
+
+

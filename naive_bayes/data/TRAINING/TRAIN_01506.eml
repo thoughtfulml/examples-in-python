@@ -1,0 +1,125 @@
+From - Thu Feb 18 10:15:51 2010
+X-Account-Key: account2
+X-UIDL: UID11121-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <obijir8990@quicknet.nl>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail2.csmining.org (localhost [127.0.0.1])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 1D1FF2C678
+	for <m0620212@mail.csmining.org>; Wed, 17 Feb 2010 22:41:08 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 1962A2C55E
+	for <m0620212@mail.csmining.org>; Wed, 17 Feb 2010 22:41:08 +0900 (JST)
+X-ASG-Debug-ID: 1266414067-761f19290001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id FDnOnN5EW5T1KvCg for <m0620212@mail.csmining.org>; Wed, 17 Feb 2010 22:41:07 +0900 (JST)
+X-Barracuda-Envelope-From: obijir8990@quicknet.nl
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o1HDf7Rh012646
+        for <m0620212@mail.csmining.org>; Wed, 17 Feb 2010 22:41:07 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id o1HDf7is012643
+        for <hibody@csmining.org>; Wed, 17 Feb 2010 22:41:07 +0900 (JST)
+Received: from quicknet.nl (82-217-119-38.cable.quicknet.nl [82.217.119.38])
+	by ns2.csmining.org  with ESMTP id o1HDf5g1028212
+	for <hibody@csmining.org>; Wed, 17 Feb 2010 22:41:06 +0900 (JST)
+Date: Wed, 17 Feb 2010 22:41:05 +0900 (JST)
+X-Barracuda-BWL-IP: 82.217.119.38
+X-Barracuda-BBL-IP: 82.217.119.38
+X-Barracuda-RBL-IP: 82.217.119.38
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Message-Id: <201002171341.o1HDf5g1028212@ns2.csmining.org>
+From: "Genuine Pfizer VIAGRA" <obijir8990@quicknet.nl>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: User hibody Supersale, 80% Off
+Subject:   User hibody Supersale, 80% Off
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1266414067
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (s001.radikal.ru)
+X-Barracuda-Spam-Score: 28.72
+X-Barracuda-Spam-Status: No, SCORE=28.72 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA148a_HL, BSF_SC0_SA290_HL, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC2_SA154, BSF_SC2_SA154_HL, BSF_SC2_SA154d, BSF_SC5_MJ1963, BSF_SC5_MJ3556, BSF_SC5_MJ3761, HTML_IMAGE_ONLY_16, HTML_IMAGE_RATIO_02, HTML_MESSAGE, HTML_SHORT_LINK_IMG_3, HTML_SHORT_LINK_IMG_3_2, MIME_HTML_ONLY, RDNS_DYNAMIC, SH_BIG5_05413_BODY_104, URIBL_JP_SURBL, URI_HEX
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.22772
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: hipisavis.cn]
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.32 URI_HEX                URI: URI hostname has long hexadecimal sequence
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.63 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of words
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 RDNS_DYNAMIC           Delivered to trusted network by host with
+	                           dynamic-looking rDNS
+	0.00 HTML_SHORT_LINK_IMG_3  HTML is very short with a linked image
+	0.50 BSF_SC5_MJ3761         Custom Rule MJ3761
+	1.00 BSF_SC5_MJ3556         Custom Rule MJ3556
+	0.56 HTML_SHORT_LINK_IMG_3_2 HTML is very short with a linked image
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	2.50 BSF_SC2_SA154d         Custom Rule SA154d
+	2.50 BSF_SC0_SA148a_HL      Custom Rule SA148a_HL
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	4.50 BSF_SC0_SA290_HL       Custom Rule SA290_HL
+	5.50 BSF_SC2_SA154          Custom Rule SA154
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<title></title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+</head>
+<body link="#242424" alink="#242424" vlink="#242424" bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center">
+<table width="581" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center">
+<font face="Verdana, Helvetica, sans-serif" color="#242424" size="1">
+This message contains graphics. If you do not see the graphics:&nbsp;<a href="http://a3881d341a22d.hipisavis.cn/" style="color:#c3010c">Graphic Version</a>.
+</font>
+</td>
+</tr>
+<tr>
+<td align="left">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="541" valign="top" style="text-align: center">
+<font face="Verdana, Arial, Helvetica, sans-serif" color="#666666" size="1">
+<br><a href="http://85e821b114.hipisavis.cn/">
+<img alt="Just click here if no image" src="http://s001.radikal.ru/i196/1002/fc/787fb1e2611d.jpg" width="450" height="550" style="border-width: 0px"></a><br>
+<br>
+Sent to: hibody@csmining.org.
+<br><br>
+<a style="color:#666666;" href="http://323f99851f793.hipisavis.cn/">
+Privacy</a> | <a style="color:#666666;" href="http://819271ea933a.hipisavis.cn/">Unsubscribe</a> |
+<a style="color:#666666;" href="http://6d8d1893c155fb.hipisavis.cn/">Subscribe</a>
+<br><br>
+<strong>&copy; 2009 Ebideb Inc. All rights reserved.</strong></font></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

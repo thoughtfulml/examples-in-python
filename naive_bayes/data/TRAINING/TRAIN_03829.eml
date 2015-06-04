@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ee8a238bacb74
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs121667wfo;
+        Sun, 11 Apr 2010 13:23:02 -0700 (PDT)
+Received: by 10.141.214.41 with SMTP id r41mr2426735rvq.77.1271017382588;
+        Sun, 11 Apr 2010 13:23:02 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 26si9718027pzk.112.2010.04.11.13.23.02;
+        Sun, 11 Apr 2010 13:23:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 60A5E1BC405FC
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 13:23:02 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 5B9B926B566B2
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 13:23:02 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id DAE2926B5643A
+	for <objc-language@lists.apple.com>;
+	Sun, 11 Apr 2010 13:22:38 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id CABC6CF9BA1A
+	for <objc-language@lists.apple.com>;
+	Sun, 11 Apr 2010 13:22:38 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7cc2ae000000813-88-4bc22f8ea5cc
+Received: from mail-pz0-f188.google.com (mail-pz0-f188.google.com
+	[209.85.222.188])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	E7.A6.02067.E8F22CB4; Sun, 11 Apr 2010 13:22:38 -0700 (PDT)
+Received: by pzk26 with SMTP id 26so3856710pzk.6
+	for <objc-language@lists.apple.com>;
+	Sun, 11 Apr 2010 13:22:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:received:message-id:subject:from:to:cc:content-type;
+	bh=Vk83S800C8evEiwLvxJ21J2N/5Zgip1NmZxxwSDK5Y4=;
+	b=x5pchJ+3TbBU7TcET0T5v9XbxtfDzJWal7dGMiSmBEHNku8sORN/ING60cr8pIWoKp
+	0g6wTfo6qnUSeWQB/iWUw48eObc1DCeB1tyXzHNt0DmycOcm4T3dJBG1qoBtAWBo3eWD
+	XohlLKQp9dGrfN8iEI9D2E7B86/sThwTu0fv8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type;
+	b=PTrDC8k6KvsRGrZ2VI2SebwreEguYnHKSiwjNJosm9vff1CvRLLX1B+peekC6MRd6o
+	2FPz4b9U9x9N3vxm07lGd6YO/0cBCd91h1zlVxVGJd7Z04hAtpoiEvf/j6FgCJjFqLnS
+	9hUwncymW91GYjMCgHqtGGeXDWTVvlGqDNoi0=
+MIME-Version: 1.0
+Received: by 10.142.213.4 with HTTP; Sun, 11 Apr 2010 13:22:38 -0700 (PDT)
+In-Reply-To: <t2ja92022a41004111315y4f399596pdfb107eb86563859@mail.csmining.org>
+References: <t2ja92022a41004111315y4f399596pdfb107eb86563859@mail.csmining.org>
+Date: Sun, 11 Apr 2010 16:22:38 -0400
+Received: by 10.142.66.12 with SMTP id o12mr1240713wfa.197.1271017358358; Sun, 
+	11 Apr 2010 13:22:38 -0700 (PDT)
+Message-ID: <z2ide3c77431004111322v7e93615x6941a344be5353ea@mail.csmining.org>
+From: Sherm Pendley <sherm.pendley@csmining.org>
+To: Ariel Feinerman <arielfapple@csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAxOdnMATnkgOE56A8A==
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: class variables
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Sun, Apr 11, 2010 at 4:15 PM, Ariel Feinerman <arielfapple@csmining.org> wrote:
+
+> Can we use static variables as a class variables in Objective C?
+
+Objective-C doesn't have class variables, but you can use C's static
+variables in a similar way, since they're global within the scope of
+the file in which they're defined. So, you need to define them in your
+.m file (not as part of your class @interface), and keep in mind that
+they won't be visible from category methods that are defined in a
+different .m file.
+
+sherm--
+
+-- 
+Cocoa programming in Perl:
+http://www.camelbones.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

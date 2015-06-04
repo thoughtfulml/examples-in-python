@@ -1,0 +1,140 @@
+X-Account-Key: account5
+X-UIDL: GmailId128972162b46255a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs28654wfo;
+        Fri, 14 May 2010 07:04:27 -0700 (PDT)
+Received: by 10.223.46.135 with SMTP id j7mr1644882faf.105.1273845867159;
+        Fri, 14 May 2010 07:04:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y12si5931254fah.45.2010.05.14.07.04.26;
+        Fri, 14 May 2010 07:04:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8F38D13A5727; Fri, 14 May 2010 14:04:20 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RCVD_NUMERIC_HELO autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 982FF13A56DC
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 14:04:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.833 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	RCVD_NUMERIC_HELO=2.067] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DLPXPpyiOYCE for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 14:04:07 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 5A64A13A56DA
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 14:04:07 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OCvUf-0002D6-Ox
+	for debian-user@lists.debian.org; Fri, 14 May 2010 16:04:01 +0200
+Received: from 200.57.201.124 ([200.57.201.124])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 16:04:01 +0200
+Received: from hvw59601 by 200.57.201.124 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 16:04:01 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Hugo Vanwoerkom <hvw59601@care2.com>
+Subject: MD subsystem is not loaded
+Date: Fri, 14 May 2010 09:03:51 -0500
+Lines: 51
+Message-ID: <hsjl89$ciq$1@dough.gmane.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 200.57.201.124
+User-Agent: Thunderbird 2.0.0.19 (X11/20081209)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <4icX4FSqPnK.A.g2C.khV7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576777
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 14:04:20 +0000 (UTC)
+
+Hi,
+
+
+When I install a kernel I get "MD subsystem is not loaded" as a warning:
+
+...
+/usr/srcThu May 13-13:50:50SDB6# dpkg -i linux-image-2.6.33.4-hvw_1_i386.deb
+Selecting previously deselected package linux-image-2.6.33.4-hvw.
+(Reading database ... 133008 files and directories currently installed.)
+Unpacking linux-image-2.6.33.4-hvw (from 
+linux-image-2.6.33.4-hvw_1_i386.deb) ...
+Examining /etc/kernel/preinst.d/Done.
+Setting up linux-image-2.6.33.4-hvw (1) ...
+Running depmod.
+Examining /etc/kernel/postinst.d.run-parts: executing 
+/etc/kernel/postinst.d/initramfs
+W: mdadm: /etc/mdadm/mdadm.conf defines no arrays.
+W: mkconf: MD subsystem is not loaded, thus I cannot scan for arrays.
+W: mdadm: failed to auto-generate temporary mdadm.conf file.
+W: mdadm: no configuration file available.
+run-parts: executing /etc/kernel/postinst.d/initramfs-tools
+run-parts: executing /etc/kernel/postinst.d/pm-utils
+Running postinst hook script update-grub.
+Searching for GRUB installation directory ...
+found: /boot/grubSearching for default file ...
+found: /boot/grub/defaultTesting for an existing GRUB menu.lst file ...
+found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-2.6.33.4-hvw
+Found kernel: /boot/vmlinuz-2.6.33.3-hvw
+Found kernel: /boot/vmlinuz-2.6.32-3-686
+Updating /boot/grub/menu.lst ... done
+...
+
+
+Googling that I get zip, more or less.
+
+How does one load the MD subsystem?
+
+I have mdadm:
+hugo@debian:~$ dpkg -l mdadm
+Desired=Unknown/Install/Remove/Purge/Hold
+| 
+Status=Not/Inst/Cfg-files/Unpacked/Failed-cfg/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                   Version                Description
++++-======================-======================-============================================================
+ii  mdadm                  3.1.1-1                tool to administer 
+Linux MD arrays (software RAID)
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsjl89$ciq$1@dough.gmane.org
+
+

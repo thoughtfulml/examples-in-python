@@ -1,0 +1,132 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286212cf73d836e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs265808wfj;
+        Mon, 3 May 2010 23:48:40 -0700 (PDT)
+Received: by 10.223.92.144 with SMTP id r16mr3897865fam.62.1272955719183;
+        Mon, 03 May 2010 23:48:39 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si10564627fka.1.2010.05.03.23.48.38;
+        Mon, 03 May 2010 23:48:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C654413A5317; Tue,  4 May 2010 06:48:36 +0000 (UTC)
+Old-Return-Path: <avbidder@fortytwo.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-20.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9544A13A5313
+	for <lists-debian-kde@liszt.debian.org>; Tue,  4 May 2010 06:48:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nv9I2wf-q8sj for <lists-debian-kde@liszt.debian.org>;
+	Tue,  4 May 2010 06:48:23 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from zbasel.fortytwo.ch (zbasel.fortytwo.ch [193.138.215.60])
+	by liszt.debian.org (Postfix) with ESMTP id 3B86613A4E41
+	for <debian-kde@lists.debian.org>; Tue,  4 May 2010 06:48:22 +0000 (UTC)
+Received: from laeggerli.fortytwo.ch (62-2-219-110.static.cablecom.ch [62.2.219.110])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by zbasel.fortytwo.ch (Postfix) with ESMTP id 362A730832;
+	Tue,  4 May 2010 08:48:20 +0200 (CEST)
+From: Adrian von Bidder <avbidder@fortytwo.ch>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE menu wierdness
+Date: Tue, 4 May 2010 08:48:15 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33-2-686; KDE/4.4.2; i686; ; )
+Cc: "B. Alexander" <storm16@csmining.org>
+References: <g2l258ced3f1005031944sb9b404f9o8f14674573d8f063@mail.csmining.org>
+In-Reply-To: <g2l258ced3f1005031944sb9b404f9o8f14674573d8f063@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart6605934.5IWWKmNijU";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005040848.16490@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <FD8ycQJxi1F.A.3tG.EN83LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32063
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 06:48:36 +0000 (UTC)
+
+--nextPart6605934.5IWWKmNijU
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Heyho!
+
+On Tuesday 04 May 2010 04.44:48 B. Alexander wrote:
+> [ KDE Menu chaos ]
+> Anyone got a fix for it?
+
+Have you tried creating a new account and looking if it's there as well? =20
+The menu is basically system wide, but users may customize it (and I=20
+absolutely don't understand how system wide and local menu are merged.)
+
+If it's not system wide, removing the right files from your ~/.kde, ~/.loca=
+l=20
+and/or ~/.config directories should probably cure the proble,  (If you=20
+didn't do much customizing you can obviously nuke your whole configuration=
+=20
+but in my case, that would lose quite a few hours configuration work, not t=
+o=20
+speak of stuff like address book/calendar data etc. ...)
+
+cheers
+=2D- vbi
+
+=2D-=20
+I have opinions of my own - strong opinions - but I don't always agree
+with them.
+        -- George W. Bush
+
+--nextPart6605934.5IWWKmNijU
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: get my key from http://fortytwo.ch/gpg/92082481
+
+iKcEABECAGcFAkvfwzBgGmh0dHA6Ly9mb3J0eXR3by5jaC9sZWdhbC9ncGcvZW1h
+aWwuMjAwMjA4MjI/dmVyc2lvbj0xLjUmbWQ1c3VtPTVkZmY4NjhkMTE4NDMyNzYw
+NzFiMjVlYjcwMDZkYTNlAAoJECqqZti935l6SewAni4yGMxmJ8RF2ZsSakC/Ptcr
+y0ujAJ9zxncIYuAozeb+b+3cnLZLK8kSkA==
+=ffDN
+-----END PGP SIGNATURE-----
+
+--nextPart6605934.5IWWKmNijU--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005040848.16490@fortytwo.ch
+
+

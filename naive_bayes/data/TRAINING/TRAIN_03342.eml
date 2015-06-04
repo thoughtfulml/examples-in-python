@@ -1,0 +1,175 @@
+X-Account-Key: account5
+X-UIDL: GmailId12886828c00e7b9c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs52082wfb;
+        Tue, 11 May 2010 01:37:03 -0700 (PDT)
+Received: by 10.223.98.19 with SMTP id o19mr5765230fan.80.1273567022524;
+        Tue, 11 May 2010 01:37:02 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z13si10597892fah.24.2010.05.11.01.37.01;
+        Tue, 11 May 2010 01:37:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C251713A5930; Tue, 11 May 2010 08:36:56 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5670013A55CF
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 08:36:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Kq0qVUeE5KKP for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 08:36:39 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id 98FD113A58B9
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 08:36:39 +0000 (UTC)
+Received: from shambhala.localnet (blackhole.teamix.net [194.150.191.251])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id 801DA5ADED
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 10:36:37 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Date: Tue, 11 May 2010 10:36:27 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.2-tp42-toi-3.1-lowmem-free-991-992-04964-gf00c7ec-dirty; KDE/4.4.3; i686; ; )
+References: <201005071123.48345.lisi.reisz@csmining.org> <201005110020.53324.Martin@lichtvoll.de> <201005101540.25824.mgb-debian@yosemite.net> (sfid-20100511_071116_172432_1422F750)
+In-Reply-To: <201005101540.25824.mgb-debian@yosemite.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart7202037.4TQ8iYhvCG";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005111036.35505.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6cbfWEzTxFC.A.mGD.ocR6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32362
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 08:36:56 +0000 (UTC)
+
+--nextPart7202037.4TQ8iYhvCG
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Am Dienstag 11 Mai 2010 schrieb Mike Bird:
+> On Mon May 10 2010 15:20:52 Martin Steigerwald wrote:
+> > This list is not for development issues like developing / maintaining
+> > KDE 3.5 packages for Squeeze.
+> >=20
+> > So IMHO any further request for KDE 3.5 in Squeeze is off topic on
+> > this list as Debian KDE/Qt maintainers repeatedly said they won't.
+>=20
+> Please don't lie.  This list is for "Discussions related to KDE in
+> Debian. Those developing KDE-based packages are encouraged to use this
+> to discuss issues and share their experience."
+> http://lists.debian.org/debian-kde/
+
+=46irst its IMHO.
+
+Second its from what I understood about the different purposes of debian-
+kde and qt-kde-ml mailing lists.
+
+And debian-kde is clearly sorted as users mailing list:
+
+Debian in KDE
+http://lists.debian.org/users.html
+
+debian-qt-kde: Packages using Qt and/or KDE
+http://lists.debian.org/devel.html
+
+So I think my view is not that far off.
+
+So or so: Your posts did not seem to me to bring anyone even the slightest=
+=20
+bit forward towards having KDE 3.5.
+
+So I finish with a suggestion, how this can work:
+
+=2D--------------------------------------------------------------------
+Hi developers and users of Debian in KDE,
+
+I set up an Alioth project repository of KDE 3.5 packages that I forward-
+ported to Squeeze at:
+
+http://some-alioth-url
+
+Right now I started just with the forward port of the basic KDE packages.
+
+I like to continue that work and to make the package co-installable with=20
+KDE 4.=20
+
+I appreciate any helping hand. If you are a user and want to use KDE 3 I=20
+encourage you to try may package. Please note they are not co-installable=20
+with KDE 4 in the moment. If you are a developer please help me with=20
+building and polishing packages.
+
+If you want to help out, subscribe to mailinglist xyz.
+
+Regards,
+Mike
+=2D--------------------------------------------------------------------
+
+Now, how about that, Mike? How about being the change you want to achieve?
+
+Thanks.
+
+Note: KDE 3.5 doesn't really need to be co-installable for those only=20
+interested in KDE 3.5. At least not initially.
+
+Just a small start might pull this off for you. But if you do not *act*,=20
+probably nothing will happen. You can't change those who are not=20
+interested in providing KDE 3.5 for Debian Squeeze. So either you start=20
+pulling it off for yourself or it - unless someone else feels the=20
+motivation to do it - *will just not happen*.
+
+Its as easy as that.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart7202037.4TQ8iYhvCG
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvpFwsACgkQmRvqrKWZhMekQwCgpYPb8XU7Tcws+J0DRZnN7gOe
+1OUAoLSQv/JS2tRPvPGM4H/MZsXcSaXV
+=8PUL
+-----END PGP SIGNATURE-----
+
+--nextPart7202037.4TQ8iYhvCG--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005111036.35505.Martin@lichtvoll.de
+
+

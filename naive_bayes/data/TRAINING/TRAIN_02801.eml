@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e4d59ae290648
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs59279wfi;
+        Fri, 9 Apr 2010 16:09:17 -0700 (PDT)
+Received: by 10.223.92.155 with SMTP id r27mr731813fam.7.1270854556582;
+        Fri, 09 Apr 2010 16:09:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si4362490fxm.38.2010.04.09.16.09.16;
+        Fri, 09 Apr 2010 16:09:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2BF0213A6359; Fri,  9 Apr 2010 23:09:09 +0000 (UTC)
+Old-Return-Path: <amacater@galactic.demon.co.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1D55713A63D6
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 23:09:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id jwvdfP6uereG for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 23:08:55 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .demon. - helo: .smtp-out5.blueyonder. - helo-domain: .blueyonder.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from smtp-out5.blueyonder.co.uk (smtp-out5.blueyonder.co.uk [195.188.213.8])
+	by liszt.debian.org (Postfix) with ESMTP id D593713A5F4B
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 23:08:55 +0000 (UTC)
+Received: from [172.23.170.146] (helo=anti-virus03-09)
+	by smtp-out5.blueyonder.co.uk with smtp (Exim 4.52)
+	id 1O0NJg-0002WD-8s
+	for debian-user@lists.debian.org; Sat, 10 Apr 2010 00:08:48 +0100
+Received: from [82.46.91.90] (helo=debian.localnet.net)
+	by asmtp-out1.blueyonder.co.uk with esmtp (Exim 4.52)
+	id 1O0NJf-0001VI-M4
+	for debian-user@lists.debian.org; Sat, 10 Apr 2010 00:08:47 +0100
+Received: by debian.localnet.net (Postfix, from userid 1000)
+	id 74DAB3160EF; Sat, 10 Apr 2010 00:08:47 +0100 (BST)
+Date: Sat, 10 Apr 2010 00:08:47 +0100
+From: "Andrew M.A. Cater" <amacater@galactic.demon.co.uk>
+To: debian-user@lists.debian.org
+Subject: Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with
+	a  different version name)
+Message-ID: <20100409230847.GA8470@galactic.demon.co.uk>
+References: <1280705063.2050161270780727932.JavaMail.root@md01.wow.synacor.com> <4BBE97DE.2090309@cox.net> <4BBF9FCE.3010400@hardwarefreak.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BBF9FCE.3010400@hardwarefreak.com>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5TXAs4kvjiJ.A.y4G.VO7vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573753
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 23:09:09 +0000 (UTC)
+
+On Fri, Apr 09, 2010 at 04:44:46PM -0500, Stan Hoeppner wrote:
+> Ron Johnson put forth on 4/8/2010 9:58 PM:
+> > On 2010-04-08 21:38, Stephen Powell wrote:
+> > [snip]
+> >>
+> >> For some reason, this well-known proverb is going through my head:
+> >>
+> >>    Give a man a fish and you feed him for a day.
+> >>    Teach a man to fish and you feed him for a lifetime.
+> >>
+> >> I'd rather learn to fish.
+> >>
+> > 
+> > There's another proverb: Teach a man to fish and he gets angry for
+> > making him work.
+> 
+> I've never heard that.  Must be a socialist thing...
+> 
+
+Give a man a fire and he's warm for an hour.
+
+Set a man on fire and he's warm for the rest of his life.
+
+[Courtesy of the fortunes-offensive program, I think :)
+
+
+> -- 
+> Stan
+
+AndyC
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409230847.GA8470@galactic.demon.co.uk
+
+

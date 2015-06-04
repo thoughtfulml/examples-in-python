@@ -1,0 +1,85 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e0513c18efe83
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs5930wfi;
+        Thu, 8 Apr 2010 19:06:14 -0700 (PDT)
+Received: by 10.87.31.36 with SMTP id i36mr1436289fgj.56.1270778772560;
+        Thu, 08 Apr 2010 19:06:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 23si1810261fxm.21.2010.04.08.19.06.12;
+        Thu, 08 Apr 2010 19:06:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A761113A5CAA; Fri,  9 Apr 2010 02:06:05 +0000 (UTC)
+Old-Return-Path: <lists@xdna.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 545E513A5C45
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 02:05:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1tqvisWvT-br for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 02:05:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from getafix.xdna.net (121.140.233.220.static.exetel.com.au [220.233.140.121])
+	by liszt.debian.org (Postfix) with ESMTP id B58C613A5C44
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 02:05:51 +0000 (UTC)
+Received: by getafix.xdna.net (Postfix, from userid 9)
+	id 9197935CE3; Fri,  9 Apr 2010 12:05:48 +1000 (EST)
+To: debian-user@lists.debian.org
+From: Cameron Hutchison <lists@xdna.net>
+Subject: Re: Making make-kpkg quieter
+References: <48c8.4bbd1c72.3e11c@getafix.xdna.net> <4BBD9418.6060802@chello.at> <6098.4bbdac15.23a40@getafix.xdna.net> <4BBDD017.7080007@chello.at>
+User-Agent: nn/6.7.3
+Message-ID: <acb.4bbe8b7c.839a2@getafix.xdna.net>
+Date: Fri, 09 Apr 2010 02:05:48 -0000
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kV_mzk5RezP.A.WmB.NuovLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573662
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 02:06:05 +0000 (UTC)
+
+Mart Frauenlob <mart.frauenlob@chello.at> writes:
+
+>You want to see the output of the build, but the clean process is too
+>much? The build output will be multiple times greater anyways. This is
+>not a problem over the slow link?
+
+Ok. It looks like you haven't run the latest make-kpkg.
+
+I just did a rebuild of an existing built source tree. The make-kpkg
+output contained 8839 lines of output just to describe unlinking things
+in the debian/... directory. That 8839 lines is about 980kB. There was
+later objcopy output from the make-kpkg process amounting to 180kB. The
+rest of the output is 73kB. It's a significant difference.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/acb.4bbe8b7c.839a2@getafix.xdna.net
+
+

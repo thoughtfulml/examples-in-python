@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId12838cd899431669
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs73324wfj;
+        Sun, 25 Apr 2010 23:28:36 -0700 (PDT)
+Received: by 10.87.67.13 with SMTP id u13mr1070668fgk.66.1272263313676;
+        Sun, 25 Apr 2010 23:28:33 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si6766413fka.1.2010.04.25.23.28.32;
+        Sun, 25 Apr 2010 23:28:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D42E06C8423; Mon, 26 Apr 2010 06:28:27 +0000 (UTC)
+Old-Return-Path: <madduck@piper.oerlikon.madduck.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7147A6C8428
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 06:28:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id KwcB8+AvN687 for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 06:28:14 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+X-Greylist: delayed 140 seconds by postgrey-1.31 at liszt; Mon, 26 Apr 2010 06:28:14 UTC
+Received: from clegg.madduck.net (clegg.madduck.net [193.242.105.96])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 83F0C6C841C
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 06:28:08 +0000 (UTC)
+Received: from piper.oerlikon.madduck.net (84-74-106-21.dclient.hispeed.ch [84.74.106.21])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "piper.oerlikon.madduck.net", Issuer "CAcert Class 3 Root" (verified OK))
+	by clegg.madduck.net (postfix) with ESMTPS id C47881D409C;
+	Mon, 26 Apr 2010 08:27:29 +0200 (CEST)
+Received: by piper.oerlikon.madduck.net (Postfix, from userid 1000)
+	id 89551F9; Mon, 26 Apr 2010 08:27:06 +0200 (CEST)
+Date: Mon, 26 Apr 2010 08:27:06 +0200
+From: martin f krafft <madduck@debian.org>
+To: Charles Kroeger <ckrogrr@frankensteinface.com>
+Cc: debian-user@lists.debian.org
+Subject: Re: Why are there no latest books written for Debian systems?
+Message-ID: <20100426062706.GB21670@piper.oerlikon.madduck.net>
+Mail-Followup-To: Charles Kroeger <ckrogrr@frankensteinface.com>,
+	debian-user@lists.debian.org
+References: <q2o8857b3151004202215l50a9ad58k82c2c1b169aefdfc@mail.csmining.org>
+ <20100421075052.GD17590@piper.oerlikon.madduck.net>
+ <20100423184520.125ae3d7@Mondo>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-ripemd160;
+	protocol="application/pgp-signature"; boundary="6sX45UoQRIJXqkqR"
+Content-Disposition: inline
+In-Reply-To: <20100423184520.125ae3d7@Mondo>
+X-Motto: Keep the good times rollin'
+X-OS: Debian GNU/Linux squeeze/sid kernel 2.6.33-2-amd64 x86_64
+Organization: The Debian project
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Virus-Scanned: clamav-milter 0.95.3 at clegg
+X-Virus-Status: Clean
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <eSHZT-_w7AL.A.yTC.LKT1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575065
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 06:28:27 +0000 (UTC)
+
+
+--6sX45UoQRIJXqkqR
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Charles Kroeger <ckrogrr@frankensteinface.com> [2010.04.24.0045=
+ +0200]:
+> Mr. Krafft, I have your "Debian System, concepts and techniques"
+> a first editon from 2005. I think it's a good choice for a new
+> Debian user.
+
+Thank you.
+
+> Why does a cow ride a surfboard on the cover, Is this widely understood?
+
+The image came to me as I was dozing off to sleep. The history of
+the Super-Cow in Debian is long and secret. I am afraid I cannot
+spill the details. ;)
+
+But given that Debian has Super-Cow Powers, I figured my book might
+let you surf properly. That's why.
+
+--=20
+ .''`.   martin f. krafft <madduck@d.o>      Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+"we did rate the microsoft security researcher as less-bad than the
+ people who prepare the carcasses for dissection in biology
+ laboratories."
+             -- michael moyer, executive editor of _popular science_
+
+--6sX45UoQRIJXqkqR
+Content-Type: application/pgp-signature; name="digital_signature_gpg.asc"
+Content-Description: Digital signature (see http://martin-krafft.net/gpg/)
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEAREDAAYFAkvVMjoACgkQIgvIgzMMSnXVFgCfc8XJihCmcQ7E5RFPSZ1S6UyG
+GkAAoLyJ/U0T5vq2lZflxNV7ShPScJP4
+=HNkB
+-----END PGP SIGNATURE-----
+
+--6sX45UoQRIJXqkqR--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426062706.GB21670@piper.oerlikon.madduck.net
+
+

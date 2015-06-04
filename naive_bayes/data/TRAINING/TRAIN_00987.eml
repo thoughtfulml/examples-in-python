@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ca4578da1aa88
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs86471wfo;
+        Mon, 24 May 2010 05:24:31 -0700 (PDT)
+Received: by 10.223.21.215 with SMTP id k23mr4603456fab.54.1274703870120;
+        Mon, 24 May 2010 05:24:30 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h4si5347074fai.43.2010.05.24.05.24.29;
+        Mon, 24 May 2010 05:24:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3533A13A4C19; Mon, 24 May 2010 12:24:27 +0000 (UTC)
+Old-Return-Path: <basaburu@basatu.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 43B4C13A4A45
+	for <lists-debian-kde@liszt.debian.org>; Mon, 24 May 2010 12:24:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_IN_DNSWL_MED=-4]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id loXb1qSfqNP4 for <lists-debian-kde@liszt.debian.org>;
+	Mon, 24 May 2010 12:24:13 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from relay4-v.mail.gandi.net (relay4-v.mail.gandi.net [217.70.178.78])
+	by liszt.debian.org (Postfix) with ESMTP id 39BA813A4C19
+	for <debian-kde@lists.debian.org>; Mon, 24 May 2010 12:24:07 +0000 (UTC)
+X-Originating-IP: 217.70.178.40
+Received: from mfilter6-d.gandi.net (mfilter6-d.gandi.net [217.70.178.40])
+	by relay4-v.mail.gandi.net (Postfix) with ESMTP id 0EB16BA1F
+	for <debian-kde@lists.debian.org>; Mon, 24 May 2010 14:24:05 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter6-v
+Received: from relay4-v.mail.gandi.net ([217.70.178.78])
+	by mfilter6-d.gandi.net (mfilter6-d.gandi.net [217.70.178.40]) (amavisd-new, port 10024)
+	with ESMTP id 7mydfJXO0Qxv for <debian-kde@lists.debian.org>;
+	Mon, 24 May 2010 14:24:03 +0200 (CEST)
+X-Originating-IP: 83.37.117.194
+Received: from basatu.localnet (unknown [83.37.117.194])
+	(Authenticated sender: basaburu@basatu.org)
+	by relay4-v.mail.gandi.net (Postfix) with ESMTPSA id 8D084BA31
+	for <debian-kde@lists.debian.org>; Mon, 24 May 2010 14:24:03 +0200 (CEST)
+From: BasaBuru <basaburu@basatu.org>
+To: debian-kde@lists.debian.org
+Subject: Re: problem to put the soho plasmoid
+Date: Mon, 24 May 2010 14:24:03 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.34-basati; KDE/4.4.3; x86_64; ; )
+References: <201005222229.06030.basaburu@basatu.org> <201005231246.01018.basaburu@basatu.org> <201005232023.28875.modestas@vainius.eu>
+In-Reply-To: <201005232023.28875.modestas@vainius.eu>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <201005241424.03293.basaburu@basatu.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0mfMh17OxG.A.jsF.7_m-LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32504
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 24 May 2010 12:24:27 +0000 (UTC)
+
+On Domingo 23 Mayo 2010 19:23:17 Modestas Vainius escribi=C3=B3:
+
+> You probably don't have python-kde4 installed. As far as I can tell, it's=
+ a
+> python based plasmoid.
+
+Yes is really........ i'm look for a phyton packges and find this.
+
+Now is work fine.
+
+thanks
+
+BasaBuru
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005241424.03293.basaburu@basatu.org
+
+

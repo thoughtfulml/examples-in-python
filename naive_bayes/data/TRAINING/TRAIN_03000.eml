@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286d35f86b675c6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs387358wfb;
+        Thu, 6 May 2010 03:42:54 -0700 (PDT)
+Received: by 10.223.98.83 with SMTP id p19mr6360737fan.27.1273142573487;
+        Thu, 06 May 2010 03:42:53 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k29si1680145fkk.15.2010.05.06.03.42.52;
+        Thu, 06 May 2010 03:42:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 40A0E3CA29E; Thu,  6 May 2010 10:42:51 +0000 (UTC)
+Old-Return-Path: <lkml@ds.gauner.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-17.4 required=4.0 tests=ALL_TRUSTED,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AC2A32E8B09
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 10:42:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-13.8 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 0Ihn0Vji9FfV for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 10:42:40 +0000 (UTC)
+X-Greylist: delayed 196 seconds by postgrey-1.31 at liszt; Thu, 06 May 2010 10:42:40 UTC
+Received: from mail.id-schulz.info (mail.id-schulz.info [IPv6:2001:470:1f0b:14ee::251])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 8071A2E8B07
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 10:42:40 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.id-schulz.info (Postfix) with ESMTP id 45FA82E0317
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 12:42:38 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mail.id-schulz.info
+Received: from mail.id-schulz.info ([127.0.0.1])
+	by localhost (mail.id-schulz.info [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yjAc4QR50XBD for <debian-kde@lists.debian.org>;
+	Thu,  6 May 2010 12:42:36 +0200 (CEST)
+Received: from iowa.localnet (unknown [192.168.23.11])
+	by mail.id-schulz.info (Postfix) with ESMTPSA
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 12:42:36 +0200 (CEST)
+From: Dominik Schulz <lkml@ds.gauner.org>
+To: debian-kde@lists.debian.org
+Subject: KDED4 blocking Weather Applets
+Date: Thu, 6 May 2010 12:42:31 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.1tex; KDE/4.4.3; x86_64; ; )
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart3285873.4QAKapWpos";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061242.35181.lkml@ds.gauner.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-YV24qp7gWE.A.jKD.r0p4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32104
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 10:42:51 +0000 (UTC)
+
+--nextPart3285873.4QAKapWpos
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+since this seems to be the time to complain about KDE, I'd like to ask for=
+=20
+help on an old issue: kded4 prevent the plasma weather applets from working=
+=2E=20
+When I login to my KDE session the weather applets fail to retrieve any dat=
+a.=20
+I've confirmed with Wireshark/TCPdump that there is no network traffic at t=
+hat=20
+time. As soon as I kill kded4 the weather applets startk working immedeatel=
+y.=20
+Is there are another workaround than killing kded4 (since that messes up so=
+me=20
+other things in KDE) or, even better, a fix available?
+
+=2D-=20
+Mit freundlichen Gr=FC=DFen / Best Regards
+Dominik
+
+--nextPart3285873.4QAKapWpos
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvinRkACgkQ0x+gVMha76yCwQCdFMxQ1Oi+jc7+7C6nyaSePS6h
+lxUAoIIbeWhOTtFaNyizcH3h2sKZvQvD
+=x8pz
+-----END PGP SIGNATURE-----
+
+--nextPart3285873.4QAKapWpos--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061242.35181.lkml@ds.gauner.org
+
+

@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId127edee527a0cad5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs118441wfo;
+        Sun, 11 Apr 2010 10:32:51 -0700 (PDT)
+Received: by 10.142.55.4 with SMTP id d4mr1119360wfa.309.1271007171425;
+        Sun, 11 Apr 2010 10:32:51 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 31si5191744pzk.33.2010.04.11.10.32.51;
+        Sun, 11 Apr 2010 10:32:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 397FF1BE79AF1
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 10:32:51 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 30FF726B3F200
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 10:32:51 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay13.apple.com (relay13.apple.com [17.128.113.29])
+	by lists.apple.com (Postfix) with ESMTP id D9A4D26B3F015
+	for <x11-users@lists.apple.com>; Sun, 11 Apr 2010 10:32:33 -0700 (PDT)
+X-AuditID: 1180711d-b7cabae00000754b-48-4bc207b1d752
+Received: from et.apple.com (et.apple.com [17.151.62.12])
+	by relay13.apple.com (Apple SCV relay) with SMTP id
+	20.CA.30027.1B702CB4; Sun, 11 Apr 2010 10:32:33 -0700 (PDT)
+Received: from [10.0.10.103] (c-24-7-81-91.hsd1.ca.comcast.net [24.7.81.91])
+	by et.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L0Q00M7M3E9VU90@et.apple.com> for
+	x11-users@lists.apple.com; Sun, 11 Apr 2010 10:32:33 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=iso-8859-1
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <D9A522F3-BD95-488F-AE43-743FD8DF9F63@unige.ch>
+Date: Sun, 11 Apr 2010 10:32:33 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <32653BCE-8AD3-4534-8D3C-7630692B4AE0@apple.com>
+References: <D9A522F3-BD95-488F-AE43-743FD8DF9F63@unige.ch>
+To: Cyril Georgy <Cyril.Georgy@unige.ch>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: x11-users@lists.apple.com
+Subject: Re: Problem with xquartz 2.5.0
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I have never seen this.  You'll have to provide more detail.  What is =
+the output of 'echo $DISPLAY' before launching nedit each time?
+
+On Apr 11, 2010, at 03:14, Cyril Georgy wrote:
+
+> Hi !
+>=20
+> I'm getting some problems with Xquartz (2.5.0). I'm running on Mac OS =
+10.6.3. My problem is the following :
+>=20
+> I use the option of the terminal to automatically launch Xquartz when =
+launching terminal. It works well, and Xquartz is launched. I can then =
+launch applications which need X11, like nedit.
+>=20
+> After working, I close all the open X11 windows, I close xquartz and =
+terminal with "command-q" keys.
+> The problems appear here : if I want to relaunch nedit, doing exactly =
+the same procedure, I obtain the "can't open display" exit status for =
+nedit. However, Xquartz is normally launched.
+>=20
+> I don't understand this behaviour. Somebody has an idea ? Probably a =
+problem with the environment variables ?
+>=20
+> Thank you !
+>=20
+> Cyril Georgy
+>=20
+> --------------------------------------------------
+> Cyril Georgy
+> t=E9l direct: +41 22 379 24 55
+> mail: Cyril.Georgy@unige.ch
+> --------------------------------------------------
+> Observatoire de Gen=E8ve
+> Facult=E9 des Sciences
+> Chemin des Maillettes 51
+> CH - 1290 Versoix
+> --------------------------------------------------
+>=20
+>=20
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

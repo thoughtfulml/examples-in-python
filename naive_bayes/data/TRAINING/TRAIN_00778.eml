@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId12819d8d50d7b059
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs55472wfj;
+        Mon, 19 Apr 2010 23:13:23 -0700 (PDT)
+Received: by 10.223.23.67 with SMTP id q3mr1069034fab.59.1271743960565;
+        Mon, 19 Apr 2010 23:12:40 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 13si2343540fks.0.2010.04.19.23.12.39;
+        Mon, 19 Apr 2010 23:12:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2339913A4A11; Tue, 20 Apr 2010 06:12:37 +0000 (UTC)
+Old-Return-Path: <johannes@physik.blm.tu-muenchen.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.7 required=4.0 tests=FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,
+	MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2ED8413A48C8
+	for <lists-debian-laptop@liszt.debian.org>; Tue, 20 Apr 2010 06:12:31 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-10.68 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LFk8QudU9Lbz for <lists-debian-laptop@liszt.debian.org>;
+	Tue, 20 Apr 2010 06:12:22 +0000 (UTC)
+Received: from mailrelay2.lrz-muenchen.de (mailrelay2.lrz-muenchen.de [129.187.254.102])
+	by liszt.debian.org (Postfix) with ESMTP id B431C13A4586
+	for <debian-laptop@lists.debian.org>; Tue, 20 Apr 2010 06:12:22 +0000 (UTC)
+Received: from [129.187.100.189] ([129.187.100.189] [129.187.100.189]) by mailout.lrz-muenchen.de with ESMTP for debian-laptop@lists.debian.org; Tue, 20 Apr 2010 08:11:48 +0200
+Message-Id: <4BCD45A3.3020902@physik.blm.tu-muenchen.de>
+Date: Tue, 20 Apr 2010 08:11:47 +0200
+From: Johannes Wiedersich <johannes@physik.blm.tu-muenchen.de>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+To: debian-laptop@lists.debian.org
+Subject: Re: Which kernel for ThinkPad 760XD ?
+References: <s2l50cc0ba51004190959r586ddc89y3c318c80f42da0@mail.csmining.org> <k2k50cc0ba51004192139xd57c1929if30a3ac13f545959@mail.csmining.org>
+In-Reply-To: <k2k50cc0ba51004192139xd57c1929if30a3ac13f545959@mail.csmining.org>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=197DA845
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <23pu0ZwqQiN.A.XEB.VXUzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34117
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 06:12:37 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ionreflex wrote:
+> @Stefan
+> 
+> [quote]
+> 486 will work.  686 may work.
+> [/quote]
+> 
+> 
+> My impression exactly, but I'd like to be sure : if I scrape this install,
+> I'll have a hard time recovering it...
+
+There is nothing in the way to install *both* kernels. Just give the 686
+a try and if it does not work you can just reboot into the 486 and
+uninstall the 686. Make sure that the 486 is installed before you try
+the 686, though.
+
+- --
+Johannes
+
+In questions of science, the authority of a thousand is not worth the
+humble reasoning of a single individual.
+- - Galileo Galilei, physicist and astronomer (1564-1642)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvNRaMACgkQC1NzPRl9qEUw0ACdFHBG9PluIDZpuMGD2fTPsEiQ
+4pQAn2clzpn7qmch9FpkkKkXZoeDV/JV
+=leB4
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD45A3.3020902@physik.blm.tu-muenchen.de
+
+

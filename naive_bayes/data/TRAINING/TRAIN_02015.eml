@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285f7be732d57de
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs238866wfj;
+        Mon, 3 May 2010 11:44:36 -0700 (PDT)
+Received: by 10.223.4.217 with SMTP id 25mr3501353fas.60.1272912275293;
+        Mon, 03 May 2010 11:44:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si9548183fkx.40.2010.05.03.11.44.34;
+        Mon, 03 May 2010 11:44:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 21A2E13A4E92; Mon,  3 May 2010 18:44:28 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9C37113A4686
+	for <lists-debian-user@liszt.debian.org>; Mon,  3 May 2010 18:44:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id i9zNwLY2sJtv for <lists-debian-user@liszt.debian.org>;
+	Mon,  3 May 2010 18:44:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 6C99513A44BD
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 18:44:09 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1O90cf-0004GR-QT
+	for debian-user@lists.debian.org; Mon, 03 May 2010 18:44:06 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: apt-get dist-update failure - can't boot
+Date: Mon, 3 May 2010 13:47:36 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-bpo.3-amd64; KDE/4.3.4; x86_64; ; )
+References: <D0B0ADD22F8E4DF9998B38187D784C04@Phoenix> <201005031259.42591.bss@iguanasuicide.net> <4BDF1797.6070402@csmining.org>
+In-Reply-To: <4BDF1797.6070402@csmining.org>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?utf-8?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSKVkSKVkSK?=
+ =?utf-8?q?VkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrXbgSKVlvm9zseJ?=
+ =?utf-8?q?LgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAAI0SURBVDjLbZRNbhQxEIU?=
+ =?utf-8?q?9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOlyn8DhAHZj=0A=093iv3Z?=
+ =?utf-8?q?CSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkbIsoWs+HzdQgPb83yc7JzcOHPi?=
+ =?utf-8?q?xC+mCWbRVs=0A=09pY2lNMMz2FMIOurZpREz4LtPU6qOly/A6G9aW0krjLAJcSg?=
+ =?utf-8?q?cICycxRCoXWmurHcKrvHC+eDauR7oWn2=0A=099cQEwExrEXa7/tJlyn9gsC/DhB?=
+ =?utf-8?q?dWpreheun7X1KJxybF0zhLwsnsyJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096Gud?=
+ =?utf-8?q?SNWT0NXblkVuwjBlkWVJrmaAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VII?=
+ =?utf-8?q?iKVYmUnJiyr=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERf?=
+ =?utf-8?q?OpfZiTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNrHHeCJMyuaujMNdkt?=
+ =?utf-8?q?gkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG=0A=0901oI?=
+ =?utf-8?q?hvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJfPTbS5oo9tOU?=
+ =?utf-8?q?MHbdKE23oTci=0A=093cBil8dtoGZk0BF2Yq35wSeWvYeT2EE/KnhRzorfMMgDmH?=
+ =?utf-8?q?3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G=0A=098GbPEj2T+kfi/kPAP8D93f6v?=
+ =?utf-8?q?uL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAASUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart5289365.QtxURYNKVF";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005031347.40005.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <F2RDm7y47JE.A.4AH.Mmx3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575772
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 18:44:28 +0000 (UTC)
+
+--nextPart5289365.QtxURYNKVF
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 03 May 2010 13:36:07 Jimmy Johnson wrote:
+> Boyd Stephen Smith Jr. wrote:
+> > From you output it looks like your 'perl-base' is scheduled to be
+> > upgraded. You should try installing the new version of that package with
+> > dpkg and then retrying your apt-get/aptitude run.
+>=20
+> It's worth a shot, depending of if dpkg has not been borked, 'dpkg -i
+> perl-base'
+>=20
+His screen shot seems to have a working dpkg.  It attempts to invoke the pr=
+erm=20
+scripts of a perl module.  That fails due to not being able to find=20
+'File/Basename.pm', which causes dpkg to fail the --remove action with erro=
+r=20
+code 1.  apt-get then stops the install run.
+
+Aptitude might get further than apt-get, but the prerm of the perl module i=
+s=20
+going to keep failing until perl is fixed.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart5289365.QtxURYNKVF
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEABECAAYFAkvfGkgACgkQdNbfk+86fC0gOwCfcsP1Wqfu5h+fHW79lVMa+jn5
+grQAoId7NJJgXS5SCl/zScIKeO9k0jXK
+=RADx
+-----END PGP SIGNATURE-----
+
+--nextPart5289365.QtxURYNKVF--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005031347.40005.bss@iguanasuicide.net
+
+

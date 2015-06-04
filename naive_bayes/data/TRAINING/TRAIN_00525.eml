@@ -1,0 +1,212 @@
+X-Account-Key: account5
+X-UIDL: GmailId12819844902f1b6c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs53191wfj;
+        Mon, 19 Apr 2010 21:40:37 -0700 (PDT)
+Received: by 10.223.16.84 with SMTP id n20mr685776faa.94.1271738419244;
+        Mon, 19 Apr 2010 21:40:19 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si1393257fkr.29.2010.04.19.21.40.18;
+        Mon, 19 Apr 2010 21:40:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1FC8F13A4911; Tue, 20 Apr 2010 04:40:15 +0000 (UTC)
+Old-Return-Path: <ionreflex@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C913113A48C8
+	for <lists-debian-laptop@liszt.debian.org>; Tue, 20 Apr 2010 04:40:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Cacn30WlHjV7 for <lists-debian-laptop@liszt.debian.org>;
+	Tue, 20 Apr 2010 04:40:01 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-pz0-f198.google.com (mail-pz0-f198.google.com [209.85.222.198])
+	by liszt.debian.org (Postfix) with ESMTP id 3FDEA13A4676
+	for <debian-laptop@lists.debian.org>; Tue, 20 Apr 2010 04:39:49 +0000 (UTC)
+Received: by pzk36 with SMTP id 36so9069pzk.24
+        for <debian-laptop@lists.debian.org>; Mon, 19 Apr 2010 21:39:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=6BjF5ZQH3ovTtS4khnVUt4Ml8Oiki/SOd5IhXz4aa5k=;
+        b=UNCY4BEPKl/SYB5FSZFx0Yatwp7zBquk5Voj21I5mKE/u5SldkUsfnBGplQLzPGPtt
+         nL6Hx8QMj9rvTQ2zjB0FBZvE2Wpldsqcn1oGD9ef5quXGinPIZSGHiLe4HsNkhvOJys4
+         NUNlZBVC+bl3vKlk38uezT0zv6L9eighH4mQs=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=v5sKPXcLmhBUg1hxNRhisZkgYgH273dLY+NFCDL0o9VS3b5MmzuHWX+yBzDMKHd+m/
+         geiVeuWrlQriuOyCqLCXi5vMyB+IkZg0S48TCydchzan/vxCkLXpcrAcuMVv7rYAQMH7
+         ve9Y/L8u8KpBfnDhC42Mee4FJj0ljOkmI/ijM=
+MIME-Version: 1.0
+Received: by 10.142.141.15 with HTTP; Mon, 19 Apr 2010 21:39:42 -0700 (PDT)
+In-Reply-To: <s2l50cc0ba51004190959r586ddc89y3c318c80f42da0@mail.csmining.org>
+References: <s2l50cc0ba51004190959r586ddc89y3c318c80f42da0@mail.csmining.org>
+Date: Tue, 20 Apr 2010 00:39:42 -0400
+Received: by 10.143.193.8 with SMTP id v8mr2542614wfp.162.1271738382528; Mon, 
+	19 Apr 2010 21:39:42 -0700 (PDT)
+Message-ID: <k2k50cc0ba51004192139xd57c1929if30a3ac13f545959@mail.csmining.org>
+Subject: Re: Which kernel for ThinkPad 760XD ?
+From: Ionreflex <ionreflex@csmining.org>
+To: debian-laptop@lists.debian.org
+Content-Type: multipart/alternative; boundary=000e0cd4ce7a89b2790484a3aa31
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <EECphqLSeDB.A.oaG.vATzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34116
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 04:40:15 +0000 (UTC)
+
+--000e0cd4ce7a89b2790484a3aa31
+Content-Type: text/plain; charset=ISO-8859-1
+
+@Merciadri Luca
+
+[quote]
+I have no answer to your question, but I am wondering... what does 'lol'
+mean here? Is it some version of something, or did you simply put this over
+there because you have some sense of humor and you like to make your
+(somewhat old) config appear less depressing to the others' eyes?
+[/quote]
+
+
+... it's the hostname, but it is funny! I don't give a damn about what
+others might think anyway, I'm just having fun with it, making some tests,
+pushing my knowledge...
+
+@Stefan
+
+[quote]
+486 will work.  686 may work.
+[/quote]
+
+
+My impression exactly, but I'd like to be sure : if I scrape this install,
+I'll have a hard time recovering it...
+
+@Bob
+
+[quote]
+ionreflex@lol:~$ cat /proc/cpuinfo
+processor: 0
+vendor_id: GenuineIntel
+cpu family: 5
+model: 4
+model name: Pentium MMX
+stepping: 4
+cpu MHz: 165.791
+fdiv_bug: no
+hlt_bug: no
+f00f_bug: yes
+coma_bug: no
+fpu: yes
+fpu_exception: yes
+cpuid level: 1
+wp: yes
+flags: fpu vme de pse tsc msr mce cx8 mmx
+bogomips: 330.95
+[/quote]
+
+[quote]
+ionreflex@lol:~$ cat /etc/debian_version
+4.0
+[/quote]
+
+
+I had to doublecheck to make sure I wasn't jumping any major, thanks for
+that insight; I already knew what chip was inside the laptop, I'm just not
+sure what and where to look for to know which kernel to choose. If you can
+point me in the right direction, I would really appreciate it!
+
+Tankiou all! :o)
+
+
+
+Ion
+
+--000e0cd4ce7a89b2790484a3aa31
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<span class=3D"Apple-style-span" style=3D"font-family: arial, sans-serif; f=
+ont-size: 13px; border-collapse: collapse; "><div>@Merciadri Luca</div><blo=
+ckquote style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; ma=
+rgin-left: 40px; border-top-style: none; border-right-style: none; border-b=
+ottom-style: none; border-left-style: none; border-width: initial; border-c=
+olor: initial; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; p=
+adding-left: 0px; ">
+<div>[quote]</div><div>I have no answer to your question, but I am wonderin=
+g... what does &#39;lol&#39; mean here? Is it some version of something, or=
+ did you simply put this over there because you have some sense of humor an=
+d you like to make your (somewhat old) config appear less depressing to the=
+ others&#39; eyes?</div>
+<div>[/quote]</div></blockquote><div><br></div><div>... it&#39;s the hostna=
+me, but it is funny! I don&#39;t give a damn about what others might think =
+anyway, I&#39;m just having fun with it, making some tests, pushing my know=
+ledge...</div>
+<div><br></div><div>@Stefan</div><blockquote style=3D"margin-top: 0px; marg=
+in-right: 0px; margin-bottom: 0px; margin-left: 40px; border-top-style: non=
+e; border-right-style: none; border-bottom-style: none; border-left-style: =
+none; border-width: initial; border-color: initial; padding-top: 0px; paddi=
+ng-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<div>[quote]</div><div class=3D"im"><div>486 will work. =A0686 may work.</d=
+iv></div><div>[/quote]</div></blockquote><div><br></div><div>My impression =
+exactly, but I&#39;d like to be sure : if I scrape this install, I&#39;ll h=
+ave a hard time recovering it...</div>
+<div><br></div><div>@Bob</div><blockquote style=3D"margin-top: 0px; margin-=
+right: 0px; margin-bottom: 0px; margin-left: 40px; border-top-style: none; =
+border-right-style: none; border-bottom-style: none; border-left-style: non=
+e; border-width: initial; border-color: initial; padding-top: 0px; padding-=
+right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<div>[quote]</div><div>ionreflex@lol:~$ cat /proc/cpuinfo</div><div>process=
+or: 0</div><div>vendor_id: GenuineIntel</div><div>cpu family: 5</div><div>m=
+odel: 4</div><div>model name: Pentium MMX</div><div>stepping: 4</div><div>
+cpu MHz: 165.791</div><div>fdiv_bug: no</div><div>hlt_bug: no</div><div>f00=
+f_bug: yes</div><div>coma_bug: no</div><div>fpu: yes</div><div>fpu_exceptio=
+n: yes</div><div>cpuid level: 1</div><div>wp: yes</div><div>flags: fpu vme =
+de pse tsc msr mce cx8 mmx</div>
+<div>bogomips: 330.95</div><div>[/quote]</div><div><br></div><div>[quote]</=
+div><div>ionreflex@lol:~$ cat /etc/debian_version</div><div>4.0</div><div>[=
+/quote]</div></blockquote><div><br></div><div>I had to doublecheck to make =
+sure I wasn&#39;t jumping any major, thanks for that insight; I already kne=
+w what chip was inside the laptop, I&#39;m just not sure what and where to =
+look for to know which kernel to choose. If you can point me in the right d=
+irection, I would really appreciate it!</div>
+<div><br></div><div>Tankiou all! :o)</div><div><br></div><div><br></div><di=
+v><br></div><div>Ion</div></span>
+
+--000e0cd4ce7a89b2790484a3aa31--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2k50cc0ba51004192139xd57c1929if30a3ac13f545959@mail.csmining.org
+
+

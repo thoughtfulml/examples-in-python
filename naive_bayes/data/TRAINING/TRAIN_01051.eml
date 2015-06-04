@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286ff8181d2616a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs422123wfb;
+        Thu, 6 May 2010 16:34:11 -0700 (PDT)
+Received: by 10.223.143.67 with SMTP id t3mr194089fau.16.1273188849953;
+        Thu, 06 May 2010 16:34:09 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y12si930282fah.45.2010.05.06.16.34.09;
+        Thu, 06 May 2010 16:34:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9C4D613A59E7; Thu,  6 May 2010 23:34:05 +0000 (UTC)
+Old-Return-Path: <mgb-debian@yosemite.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A6DC813A59D2
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 23:33:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id oK-5ySjfF-Gu for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 23:33:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.2
+Received: from mpa-se.yosemite.net (mpa-se-e0-core.yosemite.net [12.234.40.9])
+	by liszt.debian.org (Postfix) with ESMTP id 6C76513A59C9
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 23:33:52 +0000 (UTC)
+Received: from mpa-se.yosemite.net (localhost.localdomain [127.0.0.1])
+	by mpa-se.yosemite.net (Postfix) with ESMTP id 79981203C7
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 16:33:49 -0700 (PDT)
+Received: from bul-lb-t0-mpa.core.ims (bul-lb.yosemite.net [12.234.40.209])
+	(Authenticated sender: mgb@yosemite.net)
+	by mpa-se.yosemite.net (Postfix) with ESMTPA id 3EBEC201DC
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 16:33:49 -0700 (PDT)
+From: Mike Bird <mgb-debian@yosemite.net>
+Organization: Iron Mtn Systems
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 16:33:47 -0700
+User-Agent: KMail/1.9.9
+References: <201005061759.39942.bss@iguanasuicide.net>
+In-Reply-To: <201005061759.39942.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Message-Id: <201005061633.47357.mgb-debian@yosemite.net>
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <eTJTiMeCSMO.A.QEC.tH14LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32203
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 23:34:05 +0000 (UTC)
+
+On Thu May 6 2010 15:59:39 Boyd Stephen Smith Jr. wrote:
+> I think that KMail requiring MySQL to function in Debian stable is a
+> problem. I request that the Qt/KDE packaging team take steps to ensure that
+> Debian stable users are not stranded with that situation for the lifetime
+> of stable.
+
+I'm curious.  When I install MySQL on a Lenny server it thereafter
+automatically starts the global /var/lib/mysql MySQL server at boot time.
+
+I thought Akonadi was intended to use a private MySQL server process
+running in each users' home directory and started as needed.  (Maybe
+I misunderstood.)
+
+Does installing KDE cause a global /var/lib/mysql MySQL server to run on
+each workstation, even when nobody is logged in?
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061633.47357.mgb-debian@yosemite.net
+
+

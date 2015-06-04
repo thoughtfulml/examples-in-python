@@ -1,0 +1,142 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283563acd7f77f2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs48718wfj;
+        Sun, 25 Apr 2010 07:34:05 -0700 (PDT)
+Received: by 10.87.58.6 with SMTP id l6mr4702152fgk.15.1272206044354;
+        Sun, 25 Apr 2010 07:34:04 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si6279792fks.35.2010.04.25.07.34.03;
+        Sun, 25 Apr 2010 07:34:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2D1F513A4E22; Sun, 25 Apr 2010 14:34:02 +0000 (UTC)
+Old-Return-Path: <debian-kde@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3941313A4EC0
+	for <lists-debian-kde@liszt.debian.org>; Sun, 25 Apr 2010 14:33:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wJRdf8wGK+Gd for <lists-debian-kde@liszt.debian.org>;
+	Sun, 25 Apr 2010 14:33:48 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id B657113A4A89
+	for <debian-kde@lists.debian.org>; Sun, 25 Apr 2010 14:33:48 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <debian-kde@m.gmane.org>)
+	id 1O62tw-0006p3-Rn
+	for debian-kde@lists.debian.org; Sun, 25 Apr 2010 16:33:40 +0200
+Received: from ppp121-45-51-13.lns20.adl2.internode.on.net ([121.45.51.13])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-kde@lists.debian.org>; Sun, 25 Apr 2010 16:33:40 +0200
+Received: from arthur.marsh by ppp121-45-51-13.lns20.adl2.internode.on.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-kde@lists.debian.org>; Sun, 25 Apr 2010 16:33:40 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-kde@lists.debian.org
+connect(): No such file or directory
+From: Arthur Marsh <arthur.marsh@internode.on.net>
+Subject: Re: KDE Issues under "Squeeze"
+Date: Mon, 26 Apr 2010 00:03:20 +0930
+Lines: 52
+Message-ID: <ge0ea7-1d2.ln1@ppp121-45-136-118.lns11.adl6.internode.on.net>
+References: <aPKdnQH1541FJk7WnZ2dnUVZ_tWhnZ2d@giganews.com> <201004251552.19182@fortytwo.ch>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: ppp121-45-51-13.lns20.adl2.internode.on.net
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-AU; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+In-Reply-To: <201004251552.19182@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gGLqowzPTtJ.A.QiD.aLF1LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32046
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun, 25 Apr 2010 14:34:02 +0000 (UTC)
+
+Adrian von Bidder wrote, on 25/04/10 23:22:
+> Hi,
+>
+> On Sunday 25 April 2010 05.49:44 lrhorer wrote:
+>> KDE is much more stable, but still has problems.
+>
+> Hmm.
+>
+> Using KDE 4 for months now; currently 4.4 from experimental.  If that's
+> what'll end up in squeeze I wouldn't say "it has problems" in general.  KDE
+> certainly is far from bug-free, but it's very usable as an everyday desktop.
+> ( Sune&  Co: you can consider this a general reportbug --kudos :-)
+>
+> lrhorer: I recommend you update to the packages that are currently in
+> experimental and check if the problems are still there.  I'm sure bug
+> reports are welcome.  If you can be bothered to do the necessary work and
+> separately report packaging issues to the Debian bts and KDE 4.4 issues to
+> the KDE bug reporting sysstem, then all the better..
+>
+> cheers
+> -- vbi
+>
+
+Agreed, but where do I file a bug in Debian to say that instructions on 
+how to report a bug upstream and how to mark the bug originally reported 
+in Debian has been forwarded upstream are lacking?
+
+I've just attempted to do this with icedove ( 
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=579095 ) but how does 
+one do this for the general case?
+
+I found the instructions on marking a Debian bug as forwarded upstream 
+not via the Debian wiki or any package's instructions on reporting bugs 
+with packages upstream, but by a Google search which lead to:
+http://www.debian.org/Bugs/server-control
+
+Many packages do *not* list the upstream site for the package or how to 
+report bugs upstream anywhere within /usr/share/doc/<package-name> but 
+ideally they should be listed:
+
+- in the manual page for the programs/configuration files for that package
+
+- in /usr/share/doc/<package-name>
+
+and in the reportbug script for that package.
+
+I do appreciate all the work of the Debian developers/packagers/release 
+people, but please help "fill in the gaps" or "connect the dots" on how 
+to go about reporting bugs that may affect both Debian users and the 
+upstream package.
+
+Arthur.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ge0ea7-1d2.ln1@ppp121-45-136-118.lns11.adl6.internode.on.net
+
+

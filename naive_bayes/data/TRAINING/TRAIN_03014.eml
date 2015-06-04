@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289bb4fc66f9baa
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs76247wfo;
+        Sat, 15 May 2010 04:24:09 -0700 (PDT)
+Received: by 10.223.56.212 with SMTP id z20mr3088641fag.1.1273922649124;
+        Sat, 15 May 2010 04:24:09 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n15si7866933fam.5.2010.05.15.04.24.08;
+        Sat, 15 May 2010 04:24:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1424213A5A59; Sat, 15 May 2010 11:24:03 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9991E13A5A32
+	for <lists-debian-user@liszt.debian.org>; Sat, 15 May 2010 11:23:57 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id W-KREVurDLKx for <lists-debian-user@liszt.debian.org>;
+	Sat, 15 May 2010 11:23:50 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id A065713A5336
+	for <debian-user@lists.debian.org>; Sat, 15 May 2010 11:23:50 +0000 (UTC)
+Received: (qmail 4834 invoked from network); 15 May 2010 13:23:48 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <debian-user@lists.debian.org>; 15 May 2010 13:23:48 +0200
+Message-ID: <4BEE83F0.3070805@student.ulg.ac.be>
+Date: Sat, 15 May 2010 13:22:24 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: How to manage multiple Internet connections?
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig6C24AB6BF7089B06699854C7"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2JYpNKMkCvO.A.8fH.TRo7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576907
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 15 May 2010 11:24:03 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig6C24AB6BF7089B06699854C7
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Let's say that you have two internet connections at home, and
+consequently two devices which link your computer to the Internet. How
+can you manage, e.g. in Iceweasel/FF, to use one or the other? If you
+have multiple downloads all the time, it might be an interesting thing
+to split them among the diferent connections.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Listen to many, speak to a few. (William Shakespeare)
+
+
+--------------enig6C24AB6BF7089B06699854C7
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvug/IACgkQM0LLzLt8MhzVLwCgoT5cKxJgDQ9dNG/TO3/b4N6k
+x0UAnAz/Eu5hX45OXCx3ZibL8VJrTQRR
+=zjlc
+-----END PGP SIGNATURE-----
+
+--------------enig6C24AB6BF7089B06699854C7--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEE83F0.3070805@student.ulg.ac.be
+
+

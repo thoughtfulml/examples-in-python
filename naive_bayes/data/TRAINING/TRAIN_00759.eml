@@ -1,0 +1,211 @@
+From - Mon Mar 15 12:42:41 2010
+X-Account-Key: account2
+X-UIDL: UID11809-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 044E816B16
+	for <m0620212@mail.csmining.org>; Mon, 15 Mar 2010 12:44:19 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 0032616B07
+	for <m0620212@mail.csmining.org>; Mon, 15 Mar 2010 12:44:18 +0900 (JST)
+X-ASG-Debug-ID: 1268624658-079f094b0001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id LnGM1D851ApMfDmn for <m0620212@mail.csmining.org>; Mon, 15 Mar 2010 12:44:18 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o2F3iIsa020647
+        for <m0620212@mail.csmining.org>; Mon, 15 Mar 2010 12:44:18 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id o2F3iHPf020644
+        for <hibody@csmining.org>; Mon, 15 Mar 2010 12:44:18 +0900 (JST)
+Received: from [117.195.4.223] ([117.195.4.223])
+	by ns2.csmining.org  with ESMTP id o2F3iG6a005552
+	for <hibody@csmining.org>; Mon, 15 Mar 2010 12:44:17 +0900 (JST)
+Message-Id: <201003150344.o2F3iG6a005552@ns2.csmining.org>
+X-Barracuda-BWL-IP: 117.195.4.223
+X-Barracuda-BBL-IP: 117.195.4.223
+X-Barracuda-RBL-IP: 117.195.4.223
+X-Barracuda-BRL-Tag: Barracuda Reputation
+From: "Viagra Giveaway" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: My dear, hibody! Order on -80%
+Subject:   My dear, hibody! Order on -80%
+Date: Sun, 4 Jan 2004 21:54:10 +0530
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1268624658
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (s48.radikal.ru)
+X-Barracuda-Spam-Score: 43.97
+X-Barracuda-Spam-Status: No, SCORE=43.97 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA275b_HL, BSF_SC0_SA290_RN, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC2_SA154, BSF_SC2_SA154_HL, BSF_SC2_SA154a, BSF_SC5_MJ1963, BSF_SC5_MJ3661, DATE_IN_PAST_96_XX, DATE_IN_PAST_96_XX_2, FH_FROM_GIVEAWAY, HTML_MESSAGE, MIME_HTML_ONLY, RDNS_NONE, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL, URIBL_JP_SURBL, URIBL_WS_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.24891
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	1.80 FH_FROM_GIVEAWAY       From name is giveaway.
+	0.01 DATE_IN_PAST_96_XX     Date: is 96 hours or more before Received: date
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: walkflip.ru]
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: walkflip.ru]
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: walkflip.ru]
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	2.07 DATE_IN_PAST_96_XX_2   DATE_IN_PAST_96_XX_2
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	4.10 BSF_SC2_SA154a         Custom Rule SA154a
+	0.50 BSF_SC5_MJ3661         Custom Rule MJ3661
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	5.50 BSF_SC2_SA154          Custom Rule SA154
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+	1.00 BSF_SC0_SA275b_HL      Custom Rule SA275b_HL
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Census is January professional</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+</head>
+<body style="margin-left:0px; margin-right:0px; margin-bottom:0px;margin-top:0px;">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif; font-size:12px;">
+<tr><td>
+<table width="674" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;">
+  <tr>
+    <td align="center"><table width="648" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;">
+        <tr>
+          <td><table bgcolor="#e6effe" width="648" style="font-family:Arial;font-size:11px;color:#1D355B;" cellspacing="0" border="0" cellpadding="0" align="center">
+              <tr>
+                <td width="240" align="left" valign="middle" style="color:#3E71CC;padding:4px 10px;"><b style="font-size:11px;">
+				Dear hibody,</b></td>
+                <td valign="middle" align="right">Can't view email? Go <a target="_blank" style="text-decoration:underline; font-family:Arial, Helvetica; font-size:11px; COLOR: #003c78;" href="http://eec.walkflip.ru/">
+				here</a></td>
+                <td style="color:#3E71CC;font-size:11px;" valign="middle" align="right">
+				Sun, January 4</td>
+              </tr>
+            </table>
+         </td>
+        </tr>
+        </table>
+      <table width="648" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+          <td style="font-family:arial;font-size:12px;" align="center">
+		  <br />
+		  <a href="http://26.walkflip.ru/">
+		  <img alt="Not all images loaded successfully? Try this link" height="471" src="http://s48.radikal.ru/i119/1002/59/b2c85ef7fac3.jpg" style="border-width: 0px" width="569" /></a><br />
+		  <br />
+		  <a target="_blank" style="color:#003C78; text-decoration:underline;" href="http://fe.walkflip.ru/">
+		  Privacy
+		  Policy</a> |<span style="color: #003C78"> </span><a target="_blank"  style="color:#003C78; text-decoration:underline;" href="http://b.walkflip.ru/">Contact
+		  Us</a> <span style="color: #003C78">| </span><strong>
+		  <a target="_blank" style="text-decoration:underline; font-family:Arial, Helvetica; font-size:12px; COLOR: #003C78;" href="http://e.walkflip.ru/">Unsubscribe</a></strong><br />
+		  <br />
+		  (c) 2010 widely However Company. All rights reserved.<br />
+		  <br />
+          </td>
+        </tr>
+        <tr>
+          <td style="color:#999999;font-family:arial;font-size:11px;padding:5px;"><p align="left">
+		  <br />
+		  The Capital District Islanders <h2>joined</h2> as an expansion team.
+This was despite <center>spot checks conducted by South Korea,</center> Saudi Arabia, and Japan on 
+Garuda Indonesia 
+that yielded 
+satisfactory results.
+Yet 
+another version links the Rabbitoh name as being adopted 
+from that of 
+the touring Australian rugby union teams of the early 1900s who 
+were nicknamed 
+"Rabbits" prior 
+to discarding the name in 1908 in favour of the moniker "Wallabies".
+Border and territorial disputes were also common, with the European-imposed borders of many nations being widely contested through armed conflicts.
+Morocco 
+in northern Africa has also hosted the 2002 Morocco Cup, 
+but the national team has never qualified for a 
+major 
+tournament.
+The company 
+also unveiled 
+the new colorful 
+livery on November 27, along with "Mexicana Click" brand new name for 
+<h5>Click</h5> Mexicana.
+On the other hand, the rules themselves are 
+designed to assure 
+a satisfying 
+life, and provide a perfect springboard for the higher attainments.
+Philips Global - access to world wide local sites, research, consumer 
+products, Healthcare, lighting etc.Ife was noted as a major religious 
+and cultural centre in 
+Africa, and for its 
+unique naturalistic tradition of bronze sculpture.
+Lead commentator 
+for many 
+decades 
+was 
+David Coleman, until his retirement after the 2000 Summer 
+Olympics.
+This was renamed the 
+African Union First Colored Methodist Protestant Church and Connection, more commonly known <br>as the 
+A.The Binghamton Rangers became the 
+Hartford Wolf Pack.Owned by Franklin 
+Township, the farm is under the stewardship 
+of the Meadows Foundation.
+The short-barreled Panzer IV Ausf.
+Rutgers is accredited by the Commission on Higher Education of 
+the Middle States Association of Colleges 
+and Schools (1921), and in 1989, became a member of 
+the Association of American Universities, an organization of the 62 leading research universities in 
+North America.
+The station was used 
+by an average of 3.
+Shutdown and transition to 
+digital.
+Kay 
+Wilkins, Customer Relations Representative, Lotus develompent Corp.
+It 
+is listed <div>on</div> the London Stock Exchange and is <em>a</em> constituent of 
+the FTSE 100 Index.
+The referee is assisted by two assistant referees.On 11 March 1927 Philips went 
+on the air with 
+a station called PCJ, 
+now known as Radio Netherlands Worldwide.Municipalities and communities of.
+CNR would become the main competitor to the CPR in Canada.
+Brandon 
+Folk Music and 
+Arts Festival 
+is a weekend event held annually in late July.
+Route expansions 
+include Amsterdam with stopover 
+in Dubai 
+in 2010 and non-stop flight using Boeing 777 is planned in 
+2011.Of the population were below the poverty line, including 3.
+		  </p>
+            </td>
+        </tr>
+        </table>
+   </td>
+  </tr>
+</table>
+</body></html>
+

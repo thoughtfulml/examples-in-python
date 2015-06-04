@@ -1,0 +1,136 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286d8086bac763a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs390308wfb;
+        Thu, 6 May 2010 05:04:24 -0700 (PDT)
+Received: by 10.86.124.35 with SMTP id w35mr1319088fgc.49.1273147463187;
+        Thu, 06 May 2010 05:04:23 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y15si1862713fkd.8.2010.05.06.05.04.18;
+        Thu, 06 May 2010 05:04:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CBBE013A562E; Thu,  6 May 2010 12:04:14 +0000 (UTC)
+Old-Return-Path: <n0nb@n0nb.us>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.8 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MDO_DATING14 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4A86B13A5628
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 12:04:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, MDO_DATING14=0.1]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Z9+EJHTtSAed for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 12:04:01 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from p3plsmtpa01-01.prod.phx3.secureserver.net (p3plsmtpa01-01.prod.phx3.secureserver.net [72.167.82.81])
+	by liszt.debian.org (Postfix) with SMTP id 5B03513A5608
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 12:04:00 +0000 (UTC)
+Received: (qmail 20706 invoked from network); 6 May 2010 12:03:57 -0000
+Received: from unknown (12.187.50.57)
+  by p3plsmtpa01-01.prod.phx3.secureserver.net (72.167.82.81) with ESMTP; 06 May 2010 12:03:57 -0000
+Date: Thu, 6 May 2010 07:03:56 -0500
+From: Nate Bargmann <n0nb@n0nb.us>
+To: debian-kde@lists.debian.org, debian-user@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Message-ID: <20100506120356.GT28964@n0nb.us>
+Mail-Followup-To: debian-kde@lists.debian.org, debian-user@lists.debian.org
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+X-Operating-System: Linux 2.6.32-3-686 i686
+Organization: Amateur Radio!
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <wK8yUiyn1VC.A.ieH.-Ar4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32113
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 12:04:14 +0000 (UTC)
+
+* On 2010 06 May 01:35 -0500, Jorge Gonçalves wrote:
+> Hello!
+> 
+> First, thank you for the great distro that is Debian, one of the best.
+> 
+> I would like to suggest you some way so that the users keep on using
+> the good old KDE 3.5 when they migrate to the upcoming Lenny.
+
+Others have probably pointed this out, Lenny has 3.5, the upcoming
+Squeeze will not.
+
+> Maybe use dummy packages, or rename the packages so that KDE 3.5 could
+> remain installed, and not be forced to upgrade to Kde4.
+
+That ship has sailed and it isn't coming back.  KDE 3.5 is considered
+dead.  Why some motivated person has not forked it yet has escaped me.
+
+If I had the time, resources, and ability, it would be worthwhile to me
+to see the KDE 3.5 codebase live on.  If nothing else, the Lenny source
+tarballs would be a starting point for a new branch.  I'd expect some
+pushback from the KDE devs so it's likely the fork could not call itself
+KDE.  Some will say that KDE 3.5 can go no further which was also said
+of XMMS which spawned Beep Media Player which spawned Audacious which is
+alive and well, last I checked.  As I see it, KDE4 has been given 2+
+years to match KDE 3.5 and they've been unable to do so thus the time
+has come for someone to seriously consider reviving the KDE 3.5
+codebase.
+
+> I really feel sorry that KDE 3 series is no more being developed, and
+> when the day cames that I no longer will be able to use KDE 3, I will
+> switch to Apple or even Windows, but NEVER to kde4 or Gnome!
+> (and I feel many users out there think like me!!!)
+
+Well, don't go throwing the baby out with the bathwater as we say over
+here!  I felt the same way but even though it is quirky, XFCE works
+fairly well as does GNOME in Linux Mint 8.  Still, either pales in
+comparison to the KDE 3.5 as does KDE4 but at the end of the day, the 
+DE is really not why I use a Linux distribution in the first place.  So
+jumping to a proprietary OS is not an option.
+
+- Nate >>
+
+> Thank you, keep the good work, Debian is one of the best.
+
+Agreed.  No matter the distro I choose, they are all Debian based.
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506120356.GT28964@n0nb.us
+
+

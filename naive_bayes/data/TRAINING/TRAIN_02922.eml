@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId12816558b1add986
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs25976wfj;
+        Mon, 19 Apr 2010 06:50:44 -0700 (PDT)
+Received: by 10.223.16.214 with SMTP id p22mr965344faa.47.1271685024693;
+        Mon, 19 Apr 2010 06:50:24 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 13si505341fks.30.2010.04.19.06.50.24;
+        Mon, 19 Apr 2010 06:50:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B971213A46B4; Mon, 19 Apr 2010 13:50:17 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.5 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FVGT_m_MULTI_ODD,GMAIL,PGPSIGNATURE autolearn=no
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6BC0B13A4615
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 13:50:13 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7.78 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, GMAIL=1,
+	PGPSIGNATURE=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id U9EY+hvlGqXi for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 13:50:05 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id BFB2F13A469B
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 13:50:05 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id 992FC3A65F7
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 15:50:03 +0200 (CEST)
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Subject: Re: Light automatically and randomly reduces some secs. after it  has been set to its maximum level
+Date: Mon, 19 Apr 2010 15:52:15 +0200
+Message-ID: <87633nbldc.fsf@merciadriluca-eee.WORKGROUP>
+References: <4BCB183C.8080803@student.ulg.ac.be> <pan.2010.04.18.14.52.29@csmining.org>
+To: debian-user@lists.debian.org
+Organization: ULg
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+Cancel-Lock: sha1:ze/W+7Iv8hDYlEaFemSGlHUJrx0=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+NNTP-Posting-Host: 62.197.101.67
+X-Trace: news.sunsite.dk DXC=2kD=QDm>Z^U5dE91CT5^XYYSB=nbEKnk[QZdgl@i=>2VB`G2cTG;MnQLGVLjEY^2YX[=LHD=0P^YT9g\V1BeNHOY5Z@8`56Df9P;_oYN<1Tn3S=c;S3E<iW8Y
+X-Complaints-To: staff@sunsite.dk
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eADPc-4fX-3@gated-at.bofh.it> <eAE8y-4Hx-5@gated-at.bofh.it>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <60XMYqCEbvL.A.HLD.Z-FzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574431
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 13:50:17 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón <noelamac@csmining.org> writes:
+
+> On Sun, 18 Apr 2010 16:33:32 +0200, Merciadri Luca wrote:
+>
+>> As stated in the title, the light on my Asus EEE 1000HE automatically
+>> and randomly reduces some seconds after I have set it to its maximum
+>> level. Why? That must be for some energy reason, but I would like to
+>> deactivate this feature, or at least to modify the timer between the
+>> action I do, and the using of the default value.
+>
+> Open GConf editor and navigate to "/apps/gnome-power-manager/backlight/
+> idle_brightness". You can tweak many things from there.
+
+Thanks. I had not thought about it.
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+It is better to die on one's feet than live on one's knees.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 <http://mailcrypt.sourceforge.net/>
+
+iEYEARECAAYFAkvMYA8ACgkQM0LLzLt8MhyQdACfeFDjy5XGIk1zE30iFi3hccV+
+5vwAnA5oyr2A8XUEJiCp741X1z3ULJqg
+=TmPK
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87633nbldc.fsf@merciadriluca-eee.WORKGROUP
+
+

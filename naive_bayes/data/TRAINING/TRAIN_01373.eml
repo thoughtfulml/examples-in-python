@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888e53aaaa5f33
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs5795wfb;
+        Tue, 11 May 2010 12:44:05 -0700 (PDT)
+Received: by 10.223.99.156 with SMTP id u28mr129094fan.53.1273607044081;
+        Tue, 11 May 2010 12:44:04 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s14si8044009faa.10.2010.05.11.12.44.03;
+        Tue, 11 May 2010 12:44:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2B6D913A43B9; Tue, 11 May 2010 19:36:07 +0000 (UTC)
+Old-Return-Path: <snood@comcast.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD,RERE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AE28D13A58BC
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 19:20:46 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RERE=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Q6Zj17tUjSrZ for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 19:20:39 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+X-Greylist: delayed 126 seconds by postgrey-1.31 at liszt; Tue, 11 May 2010 19:19:49 UTC
+Received: from qmta12.westchester.pa.mail.comcast.net (qmta12.westchester.pa.mail.comcast.net [76.96.59.227])
+	by liszt.debian.org (Postfix) with ESMTP id 67EC913A5736
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 19:19:24 +0000 (UTC)
+Received: from omta19.westchester.pa.mail.comcast.net ([76.96.62.98])
+	by qmta12.westchester.pa.mail.comcast.net with comcast
+	id GFe21e00727AodY5CKHhL6; Tue, 11 May 2010 19:17:41 +0000
+Received: from [192.168.1.100] ([98.235.209.250])
+	by omta19.westchester.pa.mail.comcast.net with comcast
+	id GKHf1e00B5Qhlui3fKHgzr; Tue, 11 May 2010 19:17:40 +0000
+Message-ID: <4BE9AD52.2060401@comcast.net>
+Date: Tue, 11 May 2010 15:17:38 -0400
+From: Snood <snood@comcast.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user <debian-user@lists.debian.org>
+Subject: Re: Re: Switching from NV to Nouveau in Squeeze
+References: <AANLkTikm5GiBxdwXa0FRR-o_YOw5PG-KWGzBWKOV873D@mail.csmining.org>
+In-Reply-To: <AANLkTikm5GiBxdwXa0FRR-o_YOw5PG-KWGzBWKOV873D@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Bl3XYAesT9F.A.PAG.nGb6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576565
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 19:36:07 +0000 (UTC)
+
+On 01/-10/-28163 02:59 PM, Kelly Clowers wrote:
+ > I don't have Nvidia myself, but tt should be a matter of installing 
+Nouveau,
+ > and then changing the "Driver" line in /etc/x11/xorg.conf from "nv" to
+ >   "Nouveau"
+ > (or adding the line in the "Device" section if it doesn't exist).
+
+Good old /etc/X11/xorg.conf. There isn't one on this system. I used to 
+hate fiddling around with that file. The transition to other means of 
+controlling video has been fraught with peril for some, but a few false 
+starts with video configuration on this system under various 
+distributions finally convinced me that the voyage needed to be undertaken.
+
+ > Cheers,
+ > Kelly Clowers
+
+Many thanks for your response.
+
+Best,
+Sam
+
+PS: I also sent this message from a different e-mail account. I figured 
+I'd resend it to clear up any question about who was actually responding 
+to the thread. Sorry about the dumbness. Too much swapping of systems 
+and info around this place.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE9AD52.2060401@comcast.net
+
+

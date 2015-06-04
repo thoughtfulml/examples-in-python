@@ -1,0 +1,132 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289b84cd18aad34
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs74880wfo;
+        Sat, 15 May 2010 03:31:31 -0700 (PDT)
+Received: by 10.143.24.11 with SMTP id b11mr1560042wfj.215.1273919491577;
+        Sat, 15 May 2010 03:31:31 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id f9si5508158wfg.78.2010.05.15.03.31.31;
+        Sat, 15 May 2010 03:31:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 5D0F51C45F42F
+	for <mlsubscriber.tech@csmining.org>; Sat, 15 May 2010 03:31:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 5207C27A99B99
+	for <mlsubscriber.tech@csmining.org>; Sat, 15 May 2010 03:31:31 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id EE33527A99538
+	for <java-dev@lists.apple.com>; Sat, 15 May 2010 03:30:31 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id C121AD351F87
+	for <java-dev@lists.apple.com>; Sat, 15 May 2010 03:30:31 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-89-4bee77c69a21
+Received: from smtp-out3.blueyonder.co.uk (smtp-out3.blueyonder.co.uk
+	[195.188.213.6])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	B7.F9.15139.7C77EEB4; Sat, 15 May 2010 03:30:31 -0700 (PDT)
+Received: from [172.23.170.138] (helo=anti-virus01-09)
+	by smtp-out3.blueyonder.co.uk with smtp (Exim 4.52)
+	id 1ODEda-0001Bq-1B
+	for java-dev@lists.apple.com; Sat, 15 May 2010 11:30:30 +0100
+Received: from [62.31.159.186] (helo=[192.168.2.6])
+	by asmtp-out3.blueyonder.co.uk with esmtp (Exim 4.52)
+	id 1ODEdZ-0003kt-I2
+	for java-dev@lists.apple.com; Sat, 15 May 2010 11:30:29 +0100
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Bob Lang <Bob.Lang@uwe.ac.uk>
+In-Reply-To: <008501caf360$cdb8f0e0$6b1914ac@corp.ads.valuelabs.net>
+Date: Sat, 15 May 2010 11:30:28 +0100
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <B20C9808-5DDB-4B4C-B807-B9830E301628@uwe.ac.uk>
+References: <54447073-D517-46A4-B7B5-24C5E8D1E30B@mac.com>
+	<808AD194-AC07-49F7-91C5-AEF56F170ED4@apple.com>
+	<002501caf32a$1227ba90$6b1914ac@corp.ads.valuelabs.net>
+	<D3BF7E0C-5392-47DE-85E7-5AEABF9E105F@mac.com>
+	<008501caf360$cdb8f0e0$6b1914ac@corp.ads.valuelabs.net>
+To: list Java-dev <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Subject: Strange behaviour: Scanner and Netbeans
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi all
+
+=46rom time to time I have to assess Flash projects, and to assist my =
+marking a few years ago I wrote a program which uses a Scanner to open =
+the .fla file and read it on a "line by line" basis.  Although this is =
+really stretching what a Scanner should do, it has proven surprisingly =
+useful over the years.
+
+My original version of the software was written with an "old" Xcode =
+style project using the now deprecated jam.  Recently I decided I needed =
+to make some changes to it and I thought it would be a good move to =
+transfer it to Netbeans --- and it didn't work!  The Scanner wouldn't =
+read a .fla file when run from Netbeans, but it would when run from =
+Xcode, using either a jam or ant type project.  It would also work if I =
+navigated to the Netbeans "dist" folder and double clicked the jar =
+directly. =20
+
+The following code shows the problem:
+
+      String fullFileName =3D "/Users/boblang1/Desktop/xxx.fla";
+     =20
+      try {
+        Scanner in =3D new Scanner (new File (fullFileName));
+        while (in.hasNextLine ()) {
+          String line =3D in.nextLine ();
+          System.out.println (line);
+        }
+      }
+      catch (Exception e) {
+        System.out.println ("Exception reading file: " + fullFileName);
+        System.out.println (e);
+      }
+
+When run inside Xcode or by double clicking the jar, the Scanner reads =
+the .fla file.  When run inside Netbeans, it appears to open the file =
+but won't return any lines (the while loop terminates early).  There are =
+no exceptions reported. =20
+
+BTW, the problem only seems to happen with .fla files.  I can read .txt =
+files quite successfully.
+
+I'm running fully up to date Snow Leopard, with the latest developer =
+preview Java. As far as I can tell, I don't have any older versions of =
+Java on my computer.  All the versions in /System/Library appear to link =
+to Java 1.6.=20
+
+Any ideas?
+
+Bob
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

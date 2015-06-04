@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284bd929f5d6b59
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs54430wfj;
+        Thu, 29 Apr 2010 16:14:02 -0700 (PDT)
+Received: by 10.142.10.40 with SMTP id 40mr5870363wfj.26.1272582842406;
+        Thu, 29 Apr 2010 16:14:02 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 32si1876647pzk.24.2010.04.29.16.14.02;
+        Thu, 29 Apr 2010 16:14:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 35B581C3DD461
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 16:14:02 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 31FF827409CCD
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 16:14:02 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 9505427409A5A
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 16:13:39 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 7DD16D7495F0
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 16:13:39 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-e1-4bda12a26c81
+Received: from mail-vw0-f51.google.com (mail-vw0-f51.google.com
+	[209.85.212.51])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	1A.F4.25880.3A21ADB4; Thu, 29 Apr 2010 16:13:39 -0700 (PDT)
+Received: by vws6 with SMTP id 6so2942822vws.24
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 16:13:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:cc:content-type;
+	bh=g7c2/iaIVNCNLGpuKfPSp2X8FK6SiXsTYKKlHx2ZLCE=;
+	b=UO7wxgK0DEVrgaS1t43ZjHGmMT/zjPImsHnjSLXYoWNpbDSAOE9XA/B6hmMesHtAgi
+	MIVXimNGeOvhOuB/GRhBNtH9m7qO3FHE3l5oksQ08A17SfxiLxpWlToaWZppiU/BHcJ/
+	fQMnqNtBwxbpFLvZ9IkrC/wvuFK418RnHtHY8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type;
+	b=jcPt/7owECZiYvLmUXT6ym/jdxpMmI36oh7DiUm0WBu9IxKSqHM7xANULqqtKhzvtz
+	hzgNncahwZlyU1VR6dTpmwcMOTPMoSIi5QARX+iTina8pexpcp5H7Vkm62ic6fxw0Use
+	BClBQYiUH6UhcPROHSnn4rWAV0QaWv8Qcdg/g=
+MIME-Version: 1.0
+Received: by 10.220.128.136 with SMTP id k8mr7058144vcs.178.1272582818331; 
+	Thu, 29 Apr 2010 16:13:38 -0700 (PDT)
+Received: by 10.220.111.72 with HTTP; Thu, 29 Apr 2010 16:13:38 -0700 (PDT)
+In-Reply-To: <4BDA05D5.5070407@cywh.com>
+References: <4BDA00A5.7020207@cywh.com>
+	<z2ud73dcbd61004291510i8ad13fa8u9a2f018fe6df3158@mail.csmining.org>
+	<4BDA05D5.5070407@cywh.com>
+Date: Thu, 29 Apr 2010 16:13:38 -0700
+Message-ID: <l2jd73dcbd61004291613pa2aec8e0ydcc4f72e99df1703@mail.csmining.org>
+From: Shawn Erickson <shawnce@csmining.org>
+To: Luke Scott <luke@cywh.com>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAABBPvoMIT8EK7E/BxWRPwkqg=
+Cc: objc-language@lists.apple.com
+Subject: Re: Mouse/Keyboard "Hook"?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Thu, Apr 29, 2010 at 3:19 PM, Luke Scott <luke@cywh.com> wrote:
+
+> Is quartz "the option" or "one of the options" for capturing keyboard and
+> mouse events? If it's one of the options, I would be interested in knowing
+> what the other options are.
+
+The supported modern way is via the CGEvent API...
+
+<http://developer.apple.com/mac/library/DOCUMENTATION/Carbon/Reference/QuartzEventServicesRef/Reference/reference.html>
+
+... the best list for this API is likely ...
+
+<http://lists.apple.com/mailman/listinfo/quartz-dev>
+
+-Shawn
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

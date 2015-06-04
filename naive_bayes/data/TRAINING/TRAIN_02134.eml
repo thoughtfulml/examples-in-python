@@ -1,0 +1,93 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d92888e580986
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs33185wfi;
+        Wed, 7 Apr 2010 09:44:30 -0700 (PDT)
+Received: by 10.141.213.31 with SMTP id p31mr7537050rvq.21.1270658664800;
+        Wed, 07 Apr 2010 09:44:24 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 38si25083269iwn.75.2010.04.07.09.44.24;
+        Wed, 07 Apr 2010 09:44:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 439D81BB3C700
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 09:44:24 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 3E0C32695B974
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 09:44:24 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay11.apple.com (relay11.apple.com [17.128.113.48])
+	by lists.apple.com (Postfix) with ESMTP id B128E2695B315
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 09:43:31 -0700 (PDT)
+X-AuditID: 11807130-b7bdeae000004562-d1-4bbcb63373b6
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay11.apple.com (Apple SCV relay) with SMTP id
+	B0.DE.17762.336BCBB4; Wed,  7 Apr 2010 09:43:31 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <1f5d398f1003281025g530569d8m81a854ac0a4615d0@mail.csmining.org>
+Date: Wed, 7 Apr 2010 09:43:31 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <35C697FB-E62D-4AEC-97BD-A81BD68F5031@apple.com>
+References: <1f5d398f1003281025g530569d8m81a854ac0a4615d0@mail.csmining.org>
+To: Gabriele Kahlout <gabriele@mysimpatico.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: java-dev <java-dev@lists.apple.com>
+Subject: Re: Submitting my Java Web Start application to Apple downloads
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Mar 28, 2010, at 10:25 AM, Gabriele Kahlout wrote:
+
+> Hello,
+>=20
+> I'd like to submit my JWS application MemorizEasy to apple downloads,
+> however it requires a zip folder download link, while I distribute it
+> as jnlp, as in these links:
+>=20
+> http://memorizeasy.mysimpatico.com
+> http://mac.softpedia.com/get/Educational/MemorizeEasy.shtml
+>=20
+> Does anyone know If I still must provide a zip (of the jnlp file) for
+> submitting, or submitting the jnlp would be accepted?
+
+You could create a desktop shortcut of your application (and ensure the =
+full URL to your JNLP is correct in it's Info.plist), wrap up the =
+shortcut, and submit that. I think that would provide a more Mac-like =
+experience for your customers coming from =
+<http://www.apple.com/downloads>.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

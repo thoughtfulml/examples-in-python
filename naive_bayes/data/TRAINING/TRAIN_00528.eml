@@ -1,0 +1,87 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c19fa532ecf5b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs41542wfo;
+        Sat, 22 May 2010 13:06:25 -0700 (PDT)
+Received: by 10.143.153.9 with SMTP id f9mr2266616wfo.29.1274558784815;
+        Sat, 22 May 2010 13:06:24 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 42si2456726pzk.76.2010.05.22.13.06.24;
+        Sat, 22 May 2010 13:06:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 9BFEE1CA419C2
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 13:06:24 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 97F4627D9D9A7
+	for <mlsubscriber.tech@csmining.org>; Sat, 22 May 2010 13:06:24 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 9670627D9D99A
+	for <augd@lists.apple.com>; Sat, 22 May 2010 13:06:22 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 85DFBDA87DC0
+	for <augd@lists.apple.com>; Sat, 22 May 2010 13:06:22 -0700 (PDT)
+X-AuditID: 11fe0d07-b7b3aae000004253-e5-4bf8393ed32a
+Received: from vms173015pub.verizon.net (vms173015pub.verizon.net
+	[206.46.173.15])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	53.C8.16979.E3938FB4; Sat, 22 May 2010 13:06:22 -0700 (PDT)
+Received: from [10.0.1.3] ([unknown] [74.98.22.222]) by vms173015.mailsrvcs.net
+	(Sun Java(tm) System Messaging Server 7u2-7.02 32bit (built Apr 16
+	2009)) with ESMTPA id <0L2U00JQI7UJV4K2@vms173015.mailsrvcs.net> for
+	augd@lists.apple.com; Sat, 22 May 2010 15:06:21 -0500 (CDT)
+From: ARMUG <allegheny.macusers1@verizon.net>
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: quoted-printable
+Date: Sat, 22 May 2010 16:06:19 -0400
+Message-id: <4E7BDA9C-E505-488E-B6E7-092EB5E41A4E@verizon.net>
+To: augd@lists.apple.com
+MIME-version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: AUGD: Social Media 2
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Another issue has just been brought to my attention that I would like to =
+see addressed: SECURITY!
+
+Have any MUGs held forums/meetings/presentations on privacy/security in =
+social media such as FaceBook, MySpace, etc.?
+
+
+Walt Atwood, moderator and Apple Ambassador
+Allegheny Region Macintosh Users Group
+Warren, PA and Jamestown, NY
+allegheny.macusers1@verizon.net
+cell:         (814) 730 - 1815
+landline:  (814)  726 - 2774
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

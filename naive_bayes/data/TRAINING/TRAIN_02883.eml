@@ -1,0 +1,136 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fd558bf04f189
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs24359wfa;
+        Wed, 14 Apr 2010 10:19:55 -0700 (PDT)
+Received: by 10.103.80.8 with SMTP id h8mr4423738mul.90.1271265594395;
+        Wed, 14 Apr 2010 10:19:54 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id j9si3299061mue.47.2010.04.14.10.19.53;
+        Wed, 14 Apr 2010 10:19:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 85EE513A50F3; Wed, 14 Apr 2010 17:19:47 +0000 (UTC)
+Old-Return-Path: <tv.debian@googlemail.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MDO_CABLE_TV3,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D8BF813A50CE
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 17:19:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MDO_CABLE_TV3=0.5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id zZzwcOcbBw8d for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 17:19:34 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ew0-f214.google.com (mail-ew0-f214.google.com [209.85.219.214])
+	by liszt.debian.org (Postfix) with ESMTP id 6926B13A50CF
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 17:19:28 +0000 (UTC)
+Received: by ewy6 with SMTP id 6so224623ewy.32
+        for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 10:19:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:references:in-reply-to
+         :content-type:content-transfer-encoding;
+        bh=MHw4k3SuSjOnU4bfgJpW2/3Cn0r4PkAsSdbxQfk9ynQ=;
+        b=uwIu5SmBR3b+Y+lM8QESbRzyrhnxn1fsEvRvKiBtCWEoXsn84/s8iBGEsLH6nrBD6t
+         yze+2wamZjTNx5co/idr4rtQ6VXzHhlDls0tZPuBhwfkt0OSXHAbFeDLHGwvfVyzU7x8
+         lq/wIhTR2XKgG6e3o/hvWQaj8i3DFqYXKn9t8=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=googlemail.com; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type:content-transfer-encoding;
+        b=oQLa6KcDBW+6rTJK80x61hqz27I96Pszz43tqDcGujq0pkBktOJtltleN7w1NjLnWx
+         1hFfXWjea+11JF9kZhRnPk1mGHPoyh6zN0BxcuWEoRBSAkBFCJEYSR1MRzGFCxsjcPwu
+         7urRSn/vk1c7T7ejp4vIVj2/kVR01jZpHnUHw=
+Received: by 10.213.72.129 with SMTP id m1mr2660461ebj.86.1271265561325;
+        Wed, 14 Apr 2010 10:19:21 -0700 (PDT)
+Received: from [192.168.1.5] (ti0027a380-0394.bb.online.no [80.212.64.140])
+        by mx.google.com with ESMTPS id 13sm371315ewy.1.2010.04.14.10.19.19
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Wed, 14 Apr 2010 10:19:20 -0700 (PDT)
+Message-ID: <4BC5F916.80103@googlemail.com>
+Date: Wed, 14 Apr 2010 19:19:18 +0200
+From: "tv.debian@googlemail.com" <tv.debian@googlemail.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Iceowl/1.0b1 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Realtek ethernet (was Re: recent mobo recommendation)
+References: <hq2ljp$8o3$1@dough.gmane.org> <4BC53B68.90407@hardwarefreak.com> <4BC5C2F0.7060801@cox.net>
+In-Reply-To: <4BC5C2F0.7060801@cox.net>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WXiv6pJfKYB.A.Lq.zkfxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574072
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 17:19:47 +0000 (UTC)
+
+Le 14/04/2010 15:28, Ron Johnson wrote:
+> On 2010-04-13 22:50, Stan Hoeppner wrote:
+>> Hugo Vanwoerkom put forth on 4/13/2010 3:53 PM:
+> [snip]
+>>
+>> Either way, avoid onboard RealTek ethernet as it's not currently
+>> supported
+>> well by Debian. One might be able to make it work, but the process
+>> requires
+>> some serious hoop jumping.
+>>
+>
+> Really? RealTek chips are as common as flies on horse poop, and works
+> perfectly for me.
+>
+> $ lspci -vs 03:00.0
+> 03:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd.
+> RTL8111/8168B PCI Express Gigabit Ethernet controller (rev 02)
+> Subsystem: Giga-byte Technology GA-EP45-DS5 Motherboard
+> Flags: bus master, fast devsel, latency 0, IRQ 28
+> I/O ports at ce00 [size=256]
+> Memory at fddff000 (64-bit, prefetchable) [size=4K]
+> Memory at fdde0000 (64-bit, prefetchable) [size=64K]
+> [virtual] Expansion ROM at fdd00000 [disabled] [size=64K]
+> Capabilities: <access denied>
+> Kernel driver in use: r8169
+>
+Hi, I have an Asus "sabertooth" 55i (socket LGA1156) with the same 
+Realtek lan chip (rev03 here), no problem.
+The motherboard is overpriced due to it's marketing hype regarding 
+"military" grade components and "Ceramix" coated heatsinks , but 
+otherwise it's working great, and very cool too with an Intel Core i7. 
+Layout is good for my needs, ample space for large video card without 
+blocking any sata port. Bundle is limited to bare minimum (esata/usb 
+bracket and a few cables). Used for video processing mainly, occasional 
+kernel compilations, virtualbox vm and the occasional game.Works with 
+Squeeze amd64 with stock kernel (minor sound glitches with on-board 
+chip) and currently 2.6.33.2 (100% functional), suspend works too.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5F916.80103@googlemail.com
+
+

@@ -1,0 +1,140 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280c6097345e49d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs19879wfj;
+        Sat, 17 Apr 2010 08:26:17 -0700 (PDT)
+Received: by 10.223.30.10 with SMTP id s10mr971139fac.4.1271517976551;
+        Sat, 17 Apr 2010 08:26:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si6358733fke.27.2010.04.17.08.26.16;
+        Sat, 17 Apr 2010 08:26:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E7E2D13A5977; Sat, 17 Apr 2010 15:26:10 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	ONEWORD,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 664BF13A592C
+	for <lists-debian-user@liszt.debian.org>; Sat, 17 Apr 2010 15:26:05 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, ONEWORD=2, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id XFeUwVpRPOUc for <lists-debian-user@liszt.debian.org>;
+	Sat, 17 Apr 2010 15:25:57 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id C5AAE13A590F
+	for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 15:25:57 +0000 (UTC)
+Received: from 76-220-103-20.lightspeed.fyvlar.sbcglobal.net ([76.220.103.20] helo=monster.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1O39u6-0002jf-9p
+	for debian-user@lists.debian.org; Sat, 17 Apr 2010 15:25:54 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: reportug
+Date: Sat, 17 Apr 2010 10:25:42 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-bpo.3-amd64; KDE/4.3.4; x86_64; ; )
+References: <COL119-W36EE985CCF60C8E24C4354A80D0@phx.gbl>
+In-Reply-To: <COL119-W36EE985CCF60C8E24C4354A80D0@phx.gbl>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+Face: iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSKVkSKVkSKVkSKVkrXb
+	grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrXbgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3
+	6QAAAI0SURBVDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOlyn8DhAHZj
+	3iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkbIsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs
+	pY2lNMMz2FMIOurZpREz4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKrvHC+eDauR7oWn2
+	9cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X1KJxybF0zhLwsnsyJ/rU4AbtYPXViyxQNQlrXWTCsJ
+	6GudSNWT0NXblkVuwjBlkWVJrmaAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VIIiKVYmUnJiyr
+	bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERfOpfZiTzPxYnCNMw1x62G9Y2gUFkeJXo
+	NIyLKGpXNrHHeCJMyuaujMNdktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG
+	01oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJfPTbS5oo9tOUMHbdKE23oTci
+	3cBil8dtoGZk0BF2Yq35wSeWvYeT2EE/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G
+	8GbPEj2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAASUVORK5CYII=
+X-Eric-Conspiracy: There is no conspiracy.
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1394307.p8HeUAjL3g";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004171025.47837.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YuHZwYe_ykK.A.T2E.SMdyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574316
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 17 Apr 2010 15:26:10 +0000 (UTC)
+
+--nextPart1394307.p8HeUAjL3g
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+In <COL119-W36EE985CCF60C8E24C4354A80D0@phx.gbl>, IAN DELANEY wrote:
+>oh, i may have just figured it out.  It's using vim.  Must be different
+> version perhaps.  Once entered the data, I couldn't see how to save and
+> exit.  I'm used to nano. The other instance uses nano as a text editor to
+> enter the description.'   No matter, let's persevere since I've started.
+
+Setting EDITOR=3D/usr/bin/nano in your environment will make most Debian=20
+utilities use it instead of /usr/bin/sensible-editor.
+
+>The bug report:
+
+That's a decent report, but bug reports don't go to debian-user@l.d.o.  The=
+y=20
+go to submit@b.d.o.
+=2D-=20
+Boyd Stephen Smith Jr.                   ,=3D ,-_-. =3D.
+bss@iguanasuicide.net                   ((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy         `-'(. .)`-'
+http://iguanasuicide.net/                    \_/
+
+--nextPart1394307.p8HeUAjL3g
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEABECAAYFAkvJ0vYACgkQ55pqL7G1QFnbVACfSjKvGljrcjqfltgL0MIAUPYE
+eu0An0vRl35LEWSuyWYUo0bnN818BHgu
+=OpfQ
+-----END PGP SIGNATURE-----
+
+--nextPart1394307.p8HeUAjL3g--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004171025.47837.bss@iguanasuicide.net
+
+

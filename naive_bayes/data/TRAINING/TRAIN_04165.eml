@@ -1,0 +1,79 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a87404942472f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs35909wfo;
+        Mon, 17 May 2010 15:48:16 -0700 (PDT)
+Received: by 10.223.51.152 with SMTP id d24mr779858fag.36.1274136495223;
+        Mon, 17 May 2010 15:48:15 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si14057323fak.96.2010.05.17.15.48.14;
+        Mon, 17 May 2010 15:48:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4B5BB13A4DDE; Mon, 17 May 2010 22:48:07 +0000 (UTC)
+Old-Return-Path: <SurikovAV@kam.dsv.ru>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: **
+XStatus: No, score=3.0 required=4.0 tests=MIME_BASE64_TEXT,NO_REAL_NAME,
+	SARE_HEAD_8BIT_SPAM autolearn=no version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7FCCC13A4B5E
+	for <lists-debian-security@liszt.debian.org>; Mon, 17 May 2010 22:31:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=4.252 tagged_above=-10000 required=5.3
+	tests=[BODY_8BITS=1.5, CHARSET_FARAWAY=0.03,
+	CHARSET_FARAWAY_HEADER=0.02, MIME_BASE64_BLANKS=0.041,
+	MIME_BASE64_TEXT=1.753, MIME_CHARSET_FARAWAY=0.02,
+	SARE_HEAD_8BIT_SPAM=0.888] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id YlwjaeGJ1Th6
+	for <lists-debian-security@liszt.debian.org>;
+	Mon, 17 May 2010 22:31:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 1834 seconds by postgrey-1.31 at liszt; Mon, 17 May 2010 22:31:08 UTC
+Received: from relayK.kam.dsv.ru (relayk.kam.dsv.ru [85.28.194.7])
+	by liszt.debian.org (Postfix) with ESMTP id 978BD13A486E
+	for <debian-security@lists.debian.org>; Mon, 17 May 2010 22:30:55 +0000 (UTC)
+Received: from PETKAMDM01.kam.dsv.ru (unverified) by relayK.kam.dsv.ru
+ (Clearswift SMTPRS 5.3.2) with ESMTP id <T95b77977bcac1b654333c@relayK.kam.dsv.ru> for <debian-security@lists.debian.org>;
+ Tue, 18 May 2010 10:58:38 +1200
+Subject: =?KOI8-R?B?QWxla3NleSBWIFN1cmlrb3YgzsXUIM7BINLBws/UxS4=?=
+From: SurikovAV@kam.dsv.ru
+To: debian-security@lists.debian.org
+Message-ID: <OF7B5D2B3A.13E320F5-ONCB257726.0078DD60-CB257726.0078DD60@kam.dsv.ru>
+Date: Tue, 18 May 2010 10:00:09 +1200
+X-MIMETrack: Serialize by Router on PETKAMDM01/KAM/Dalsvyaz(Release 7.0.3|September 26, 2007) at
+ 18.05.2010 10:00:10
+MIME-Version: 1.0
+Content-type: text/plain; charset=KOI8-R
+Content-transfer-encoding: base64
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <W6UIfwgv2eN.A.ciD.nec8LB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23812
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 22:48:07 +0000 (UTC)
+
+DQrtxc7RIM7FIMLVxMXUIM7BINLBws/UxSDTICAxNy4wNS4yMDEwINDPIDE0LjA2LjIwMTAuDQoN
+CvDPINfP2tfSwd3FzsnJINEgz9TXxd7VIM7BINfB28Ug08/Pwt3FzsnFLg==
+
+
+

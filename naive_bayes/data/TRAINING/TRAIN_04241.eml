@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId12844585b5514307
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs179893wfj;
+        Wed, 28 Apr 2010 05:16:01 -0700 (PDT)
+Received: by 10.141.187.9 with SMTP id o9mr7851181rvp.211.1272456960995;
+        Wed, 28 Apr 2010 05:16:00 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 12si6755387iwn.43.2010.04.28.05.16.00;
+        Wed, 28 Apr 2010 05:16:00 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 70B3D1C04BED0
+	for <mlsubscriber.tech@csmining.org>; Wed, 28 Apr 2010 05:16:00 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6BBA6273336C6
+	for <mlsubscriber.tech@csmining.org>; Wed, 28 Apr 2010 05:16:00 -0700 (PDT)
+X-Original-To: Java-dev@lists.apple.com
+Delivered-To: Java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id B973527333057
+	for <Java-dev@lists.apple.com>; Wed, 28 Apr 2010 05:15:10 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id A8F2FD042A9A
+	for <Java-dev@lists.apple.com>; Wed, 28 Apr 2010 05:15:10 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-49-4bd826ceaa55
+Received: from asmtpout030.mac.com (asmtpout030.mac.com [17.148.16.105])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	0E.90.17067.EC628DB4; Wed, 28 Apr 2010 05:15:10 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [10.0.0.2]
+	(adsl-99-162-190-98.dsl.wlfrct.sbcglobal.net [99.162.190.98])
+	by asmtp030.mac.com
+	(Sun Java(tm) System Messaging Server 6.3-8.01 (built Dec 16 2008;
+	32bit)) with ESMTPSA id <0L1L003M3613BG70@asmtp030.mac.com> for
+	Java-dev@lists.apple.com; Wed, 28 Apr 2010 05:15:10 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004280067
+From: Erik Mattheis <ironduck@mac.com>
+In-reply-to: <m2l61b5d9411004261830n54bf7609pee74edcccd0c756f@mail.csmining.org>
+Date: Wed, 28 Apr 2010 08:15:02 -0400
+Message-id: <1174E8A2-3B59-4E3D-9F20-1A26C3EE11C4@mac.com>
+References: <m2l61b5d9411004261830n54bf7609pee74edcccd0c756f@mail.csmining.org>
+To: java-dev <Java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: 
+Subject: Re: Don't be too quick to assume that -XX:+UseCompressedOops is a
+ good thing
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Can you post some details? I haven't done any serious benchmarking, but I haven't seen a scenario where something 'seemed' significantly slower, and in all cases I've tried (GUI applications and J2EE applications) the memory footprint was significantly smaller). I imagine a codebase that would not benefit much from compressed OOPs would be one relying primarily on manipulating primitive data types, but in that scenario I don't see how performance would be impacted. I'd love to see your data, and if anyone has some insight on the potential performance tradeoffs with compressed OOPs, please share!
+
+-- 
+Erik
+
+
+On Apr 26, 2010, at 9:30 PM, Benson Margulies wrote:
+
+> A quick benchmark of some CPU-intensive code of ours shows a quite marked slowdown with that option turned on.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

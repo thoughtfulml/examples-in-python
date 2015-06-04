@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId12895f4310e35470
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs18119wfo;
+        Fri, 14 May 2010 01:35:29 -0700 (PDT)
+Received: by 10.223.25.208 with SMTP id a16mr1157904fac.79.1273826128052;
+        Fri, 14 May 2010 01:35:28 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si5157482fah.89.2010.05.14.01.35.27;
+        Fri, 14 May 2010 01:35:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 08C2713A4FBF; Fri, 14 May 2010 08:35:22 +0000 (UTC)
+Old-Return-Path: <johannes@physik.blm.tu-muenchen.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.7 required=4.0 tests=FVGT_m_MULTI_ODD,
+	LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 90BED13A4F5A
+	for <lists-debian-security@liszt.debian.org>; Fri, 14 May 2010 08:35:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.68 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id yZX1e4SIK3Tx
+	for <lists-debian-security@liszt.debian.org>;
+	Fri, 14 May 2010 08:35:08 +0000 (UTC)
+Received: from mailrelay1.lrz-muenchen.de (mailrelay1.lrz-muenchen.de [129.187.254.106])
+	by liszt.debian.org (Postfix) with ESMTP id 3724E13A4609;
+	Fri, 14 May 2010 08:35:08 +0000 (UTC)
+Received: from [10.152.99.21] ([10.152.99.21] [10.152.99.21]) by mailout.lrz-muenchen.de with ESMTP; Fri, 14 May 2010 10:34:44 +0200
+Message-Id: <4BED0B25.8030100@physik.blm.tu-muenchen.de>
+Date: Fri, 14 May 2010 10:34:45 +0200
+From: Johannes Wiedersich <johannes@physik.blm.tu-muenchen.de>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+To: debian-security@lists.debian.org
+CC: debian-release@lists.debian.org
+Subject: Re: Upcoming etch point release
+References: <1273775215.6385.453.camel@kaa.jungle.aubergine.my-net-space.net>
+In-Reply-To: <1273775215.6385.453.camel@kaa.jungle.aubergine.my-net-space.net>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=197DA845
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YsNlPZVizUM.A.A8C.JtQ7LB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23808
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 08:35:22 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Adam D. Barratt wrote:
+> The next point release for the "etch" oldstable distribution, 4.0r9, is
+> scheduled for Saturday, 22nd May.
+
+I guess this is rather a plain "formality" than an endorsement by the
+project that this release is an up-to-date version of "etch" (say as far
+as security is concerned). Maybe this should be pointed out more clearly
+in order to avoid misunderstandings.
+
+Cheers,
+
+Johannes
+
+- --
+In questions of science, the authority of a thousand is not worth the
+humble reasoning of a single individual.
+- - Galileo Galilei, physicist and astronomer (1564-1642)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvtCyQACgkQC1NzPRl9qEWmbQCfbzcP/lHqnzkJysd9wC0yKKGi
+gvgAn2GW2R7lSpr/QRjuNxOegEyq1otj
+=hrlU
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED0B25.8030100@physik.blm.tu-muenchen.de
+
+

@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c8db447caaf09
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs72992wfo;
+        Sun, 23 May 2010 22:48:53 -0700 (PDT)
+Received: by 10.143.85.9 with SMTP id n9mr3549716wfl.4.1274680133073;
+        Sun, 23 May 2010 22:48:53 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 4si4230008pzk.104.2010.05.23.22.48.52;
+        Sun, 23 May 2010 22:48:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id CB0301CA83E8C
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 22:48:52 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id C64B127E00063
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 22:48:52 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 433C927DFFDE6
+	for <objc-language@lists.apple.com>;
+	Sun, 23 May 2010 22:48:30 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 19E7BD688194
+	for <objc-language@lists.apple.com>;
+	Sun, 23 May 2010 22:48:30 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b9fae0000068da-d1-4bfa132d8066
+Received: from mail-yw0-f202.google.com (mail-yw0-f202.google.com
+	[209.85.211.202])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	E3.D5.26842.D231AFB4; Sun, 23 May 2010 22:48:30 -0700 (PDT)
+Received: by ywh40 with SMTP id 40so1586421ywh.18
+	for <objc-language@lists.apple.com>;
+	Sun, 23 May 2010 22:48:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	bh=MJgcUaerXs21wWk8RZ24E1siYSOj+AGhMMTsIKSVcCo=;
+	b=ma3yHIxWPiGV9mEu4i5maUV+vAye+ky93EsFCr8D+ip77n67t4BDGxJaY5vAvWo4lK
+	XLey7JBE6FrvyMw3C/dzHy0oYLcejGI/pcfaz1bz74Aay0Un0LhVrq9HGGyOl868xme+
+	0TY2aQY8t519Cfdf4+zz1LzLaZuK+Z1MQk5I4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type:content-transfer-encoding;
+	b=mjBZFHmeRNQONrB2ywJ72CTZ8qaH5rl9WBRUMftv868axjxudFX1aoU7/ooO8pAJG3
+	MpV8fzopuc5x/krPtLaAMVslkIjzxTWd9yggjHrcTHa0g3Lje5P+YCHLVTzgMGG+zPCO
+	SCZvvN0UrI318qaq8EpeoJK7R0MwvPtQ2D6Oc=
+MIME-Version: 1.0
+Received: by 10.91.163.11 with SMTP id q11mr2461275ago.90.1274680109300; Sun, 
+	23 May 2010 22:48:29 -0700 (PDT)
+Received: by 10.90.33.9 with HTTP; Sun, 23 May 2010 22:48:29 -0700 (PDT)
+In-Reply-To: <AANLkTimFR4sMMLXN9Hws5apZ3eT14EJP4CntQORqvesl@mail.csmining.org>
+References: <20100519021456.6E05C27C124F1@lists.apple.com>
+	<8DAB639D-3AFA-4ABE-AAAF-04D1F8566FD5@apple.com>
+	<6D2572D9-FD76-4188-8235-3DF9FD537457@earthlink.net>
+	<AANLkTikKV7gGSsp7AJi8E2mFeGWOQv4EX0cXXd-G7I2y@mail.csmining.org>
+	<AANLkTikcmSJxdB7uss6zGwVQjaBtKOid5Rm2hPwBGsX2@mail.csmining.org>
+	<AANLkTimtpRirXwYA8lQ9Dg5ARVrviL5Oj4XW0tgHinjB@mail.csmining.org>
+	<09D49951-8578-4123-B27F-F9BA1BDD82EC@csmining.org>
+	<AANLkTinPDrll4Px9xzxi_zseLeaPOlaSODjIksnfK_3w@mail.csmining.org>
+	<07DCDB4F-FE26-4594-852C-46E1053D324A@csmining.org>
+	<AANLkTimFR4sMMLXN9Hws5apZ3eT14EJP4CntQORqvesl@mail.csmining.org>
+Date: Mon, 24 May 2010 01:48:29 -0400
+Message-ID: <AANLkTikdUGJCwN1FwmvDBvd-sKBPGSmEOY_HzKQVNtYq@mail.csmining.org>
+From: Michael Ash <michael.ash@csmining.org>
+To: objc-language <objc-language@lists.apple.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: Re: Nil messaging statement in "Cocoa Fundimentals Guide"
+	misleading?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Sun, May 23, 2010 at 7:34 PM, John Engelhart
+<john.engelhart@csmining.org> wrote:
+> If you believe otherwise, show your work. =C2=A0Otherwise, the point is s=
+ettled.
+
+Fact: the C standard does not say anything about machine-level calling
+conventions.
+
+Fact: the C standard does not address the behavior which results when
+the call site of a function sees a prototype whose return type differs
+from the return type present at the definition of the function.
+
+Conclusion: a conforming C compiler could use completely different
+techniques for returning 'int' and 'long'.
+
+Conclusion: in such an ABI, machine-level code which arranges for
+callers to see an 'int' return value of 0 could easily be written such
+that a caller which expects 'long' to see something other than zero.
+
+Conclusion: if you're paranoid about portability, you can't assume
+that messages to nil with a 'long' return type will return 0, with a
+strict reading of Apple's guarantees.
+
+And note that absolutely nothing in the above is even slightly related
+to integer type sizes, type conversions, casts, promotions, the
+bit-level representation of the NULL pointer, or any other such
+things, so any discussion of them in this context is utterly
+pointless.
+
+Mike
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286adf499c6b1f0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs361339wfb;
+        Wed, 5 May 2010 16:48:59 -0700 (PDT)
+Received: by 10.223.127.196 with SMTP id h4mr6043146fas.56.1273103338931;
+        Wed, 05 May 2010 16:48:58 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si815240fkb.33.2010.05.05.16.48.57;
+        Wed, 05 May 2010 16:48:57 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=pass (test mode) header.i=@schuerig.de
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B031C13A5431; Wed,  5 May 2010 23:48:52 +0000 (UTC)
+Old-Return-Path: <michael@schuerig.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2775313A434E
+	for <lists-debian-kde@liszt.debian.org>; Wed,  5 May 2010 23:48:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id AE7sB71RdjXr for <lists-debian-kde@liszt.debian.org>;
+	Wed,  5 May 2010 23:48:39 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .schuerig. - helo: .mo-p00-ob.rzone. - helo-domain: .rzone.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from mo-p00-ob.rzone.de (mo-p00-ob.rzone.de [81.169.146.162])
+	(using TLSv1 with cipher EDH-RSA-DES-CBC3-SHA (168/168 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id B63CD13A540D
+	for <debian-kde@lists.debian.org>; Wed,  5 May 2010 23:48:39 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; t=1273103313; l=1048;
+	s=domk; d=schuerig.de;
+	h=Content-Transfer-Encoding:Content-Type:MIME-Version:In-Reply-To:
+	References:Date:Subject:To:From:X-RZG-CLASS-ID:X-RZG-AUTH;
+	bh=pInxs2pcyxMtl6IYFWI7NuTKj3I=;
+	b=SCNzbCXMv2ACECXx3ngpV/UbwA4DO2h1VPKihA51hRV0TCvLA65W5P0SwyrZBGZQfcP
+	n7D1Z34ClB+RtY/k3+G0tuHFKYFGntRxTnLBCcDKa5pxCu8DmFs0YgUYNxMMrLppB2TNK
+	ZMs1eZRDxO55hRSklYb2RhnxgZ1tc+TwOnY=
+X-RZG-AUTH: :IWUHfUGtd9+vBOPSU2tipXsK9ccDFFfW1WHk1q7FaEbep/oN5X383NgV523Bzg==
+X-RZG-CLASS-ID: mo00
+Received: from debby.localnet (xdsl-87-78-63-44.netcologne.de [87.78.63.44])
+	by post.strato.de (fruni mo11) (RZmta 23.2)
+	with ESMTP id 004612m45MVfoE for <debian-kde@lists.debian.org>;
+	Thu, 6 May 2010 01:48:33 +0200 (MEST)
+From: Michael Schuerig <michael@schuerig.de>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 01:48:31 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-686; KDE/4.4.3; i686; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005051621.23651.bss@iguanasuicide.net>
+In-Reply-To: <201005051621.23651.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005060148.32290.michael@schuerig.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <KhdpSqnOeJH.A.HjB.kPg4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32078
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 23:48:52 +0000 (UTC)
+
+On Wednesday 05 May 2010, Boyd Stephen Smith Jr. wrote:
+> In 4.3, this is not true.  From what I hear on upstream mailing
+> lists, this  won't be true in 4.5.  Upstream is already aware and
+> working on the issue, but it falls under "new feature" so it won't
+> be included in the 4.4.x line.
+
+Do you have a pointer to the discussion?
+
+As far as the safety of your data is concerned, none of your emails are 
+stored in MySQL (yet). Mail storage is still in the file system, Akonadi 
+is only used for contacts.
+
+That said, I'd be much happier myself without having to run yet another 
+database server on my machine. Right now there are "global" instances of 
+PostgreSQL and MySQL (personal and for work); on top of that, for each 
+logged-in user, Akonadi runs a private MySQL server as well as a 
+virtuoso server. Incidentally, virtuoso is a SQL database in its own 
+right, persumably fully capable of completing supplanting MySQL in this 
+case.
+
+Michael
+
+-- 
+Michael Schuerig
+mailto:michael@schuerig.de
+http://www.schuerig.de/michael/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005060148.32290.michael@schuerig.de
+
+

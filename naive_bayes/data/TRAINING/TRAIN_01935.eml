@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId128701f37fd11532
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs423190wfb;
+        Thu, 6 May 2010 17:16:54 -0700 (PDT)
+Received: by 10.223.25.208 with SMTP id a16mr400163fac.79.1273191413645;
+        Thu, 06 May 2010 17:16:53 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e15si958561fai.75.2010.05.06.17.16.53;
+        Thu, 06 May 2010 17:16:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id F19DF13A55D8; Fri,  7 May 2010 00:16:48 +0000 (UTC)
+Old-Return-Path: <Howland@priss.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-13.7 required=4.0 tests=FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_1,IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0CD6D13A55CE
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 00:16:43 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-9.68 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_1=1,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gHJf9Si0RBoz for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 00:16:35 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from omta01.suddenlink.net (omta01-pub.suddenlink.net [208.180.40.73])
+	by liszt.debian.org (Postfix) with ESMTP id 3DD4813A5351
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 00:16:35 +0000 (UTC)
+Received: from random-3.local ([74.192.191.217]) by omta01.suddenlink.net
+          (InterMail vM.7.09.02.04 201-2219-117-106-20090629) with ESMTP
+          id <20100507001632.QHZF20698.omta01.suddenlink.net@random-3.local>
+          for <debian-kde@lists.debian.org>; Thu, 6 May 2010 19:16:32 -0500
+From: Curt Howland <Howland@priss.com>
+Organization: Acolytes of the Goddess Priss
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Date: Thu, 6 May 2010 20:16:29 -0400
+User-Agent: KMail/1.9.9
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org> <201005070708.48362.msp@debian.org> <201005061437.43604.mgb-debian@yosemite.net>
+In-Reply-To: <201005061437.43604.mgb-debian@yosemite.net>
+Content-Type: text/plain;
+  charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Message-Id: <201005062016.34977.Howland@priss.com>
+X-Cloudmark-Analysis: v=1.1 cv=RVC5jdVMcgmM7k0xwx+wRaBGxuoHRLGtJ/uJvXgxRSw= c=1 sm=0 a=IkcTkHD0fZMA:10 a=2CiOB_jpHpQL90BTDuQA:9 a=cezewhZFsVyfq4m3XbWRcDkOCfgA:4 a=QEXdDO2ut3YA:10 a=HpAAvcLHHh0Zw7uRqdWCyQ==:117
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7kZOdAE3zLM.A.SW.wv14LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32205
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 00:16:48 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thursday 06 May 2010, Mike Bird was heard to say:
+> Debian is the sole remaining major
+> distro that cared enough for its users to ship KDE 3.5.
+
+When Lenny was released, KDE4 was just plain broken. Since then, it 
+has matured such that other distributions which have released with 
+it.
+
+I do not believe the decision to stay with KDE3 in Lenny was anything 
+other than the simple pragmatic fact that Lenny was being released at 
+that time.
+
+> I guess this discussion is about trying to figure
+> out what KDE end users can do when Debian pulls the plug on us.
+
+As much as I prefer KDE3, I agree that there is nothing else the 
+Debian developers can do, since to take up KDE3 would require 
+effectively duplicating the entire KDE development team.
+
+The dropping of KDE3 is a simple fact of life because it is no longer 
+maintained upstream. I hope the pain will be worth it in the long 
+run.
+
+What I do not appreciate is that the attitude has been not "we have to 
+do this", but "we're doing it, must suck to be you."
+
+Curt-
+
+
+- -- 
+Those who torment us for our own good will torment us without end,
+for they do so with the approval of their consciences.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iQEVAwUBS+Nb3S9Y35yItIgBAQLhGQf/Xf1HbACgc/BXPDJv2YrsJ/pOo+b6w/GJ
+ZPvBoJX6Zlmr98zeCPhPdzLbRMYKfFMsbxHRfSF43x/B3PVqXegErFVdbKcVqH+/
+lxRczYaXDbcYHcGdS6Ntmw2ZbSxRA4xnnGeW5feqPOAZI73KTU7THQ0KoCz4fepi
+a7y3H/SSgxUWXMwLEQ4ij8IvKKG4aJnW460J11vcesXuEH9xYf1knkzxpQuc0fzU
+2UYsJBQvrrHxO+bE1DeSNkdtUxjtwtSkXRex8JUyEs38y1IKRXmoPs2WhXrYZTWo
+voTPSGs3XpzgCxY1I4snVfFwA4rtk42V5xenuggFd9Yh8oGhjJl4+Q==
+=8pV7
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005062016.34977.Howland@priss.com
+
+

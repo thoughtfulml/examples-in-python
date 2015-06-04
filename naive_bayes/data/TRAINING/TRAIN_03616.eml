@@ -1,0 +1,473 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d80d801df8fe4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs17761wfi;
+        Wed, 7 Apr 2010 04:35:17 -0700 (PDT)
+Received: by 10.87.58.37 with SMTP id l37mr13373559fgk.21.1270640116213;
+        Wed, 07 Apr 2010 04:35:16 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 20si33448658fxm.24.2010.04.07.04.35.15;
+        Wed, 07 Apr 2010 04:35:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5C69313A6544; Wed,  7 Apr 2010 11:35:13 +0000 (UTC)
+Old-Return-Path: <daniel.sutil@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.7 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	IMPRONONCABLE_1,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,
+	MURPHY_WRONG_WORD2,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C5C2313A64F8
+	for <lists-debian-kde@liszt.debian.org>; Wed,  7 Apr 2010 11:35:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2.807 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, IMPRONONCABLE_1=1,
+	LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kDvVdQA4NTcZ for <lists-debian-kde@liszt.debian.org>;
+	Wed,  7 Apr 2010 11:34:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-yw0-f197.google.com (mail-yw0-f197.google.com [209.85.211.197])
+	by liszt.debian.org (Postfix) with ESMTP id C9F0213A650F
+	for <debian-kde@lists.debian.org>; Wed,  7 Apr 2010 11:34:58 +0000 (UTC)
+Received: by ywh35 with SMTP id 35so487732ywh.24
+        for <debian-kde@lists.debian.org>; Wed, 07 Apr 2010 04:34:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type;
+        bh=dmlombTwCwZGPC3xFJbj1RbwbpVnmbiownwQCqSCXfc=;
+        b=SxgjhBDa2h1xjl3uGkqmPcPQFoN4DxLvmZoDof9mBgjBfXkzM9pzbZsGcq7SEPFjSN
+         /2h6gZY9eusBADKtPytgVgubSmKM1N3xTWKwUd4y5K/jDsR9/GcdzROTlbMWQJPjus7g
+         Z97qp7c4ReG+2hBv82fTUuBI1sh8Hi4C8BC0I=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=GWMD/4G/u8nCZ7ebUseSG+Hn1Wq2DVkCAITcT7N1BHY5rIuLiIB3Itvyems2JEIUHb
+         UZLxv4YaKo4FWQjyZqMm/DuA780kbUkjAP7XfZ0LE8/fEzE8vkwZz18U+h4Cupr0kCKt
+         4E/cll5HrjpZ5poEhkfr+HnRYGQePnlJlI/bM=
+MIME-Version: 1.0
+Received: by 10.90.71.7 with HTTP; Wed, 7 Apr 2010 04:34:53 -0700 (PDT)
+In-Reply-To: <n2g8f23146b1004070425ue2606108w656546d4ab058899@mail.csmining.org>
+References: <4BBB62E7.9010208@csmining.org> <201004062253.54963.colonius@free.fr>
+	 <u2x8f23146b1004070315t791a80d4sc27bdf20a2e14b23@mail.csmining.org>
+	 <g2naee79c571004070334gd92eb786uefc481df70c74cce@mail.csmining.org>
+	 <w2laee79c571004070335q80635354uf21347f6776b2a38@mail.csmining.org>
+	 <y2y8f23146b1004070400g4060b0bbxb06f93989117389@mail.csmining.org>
+	 <k2iaee79c571004070407td8f1f652m1c1fe91ecb49e715@mail.csmining.org>
+	 <t2z8f23146b1004070417p3056c176qdc831af693cacd21@mail.csmining.org>
+	 <u2yaee79c571004070418s37a0c900s3b62f08bcafcd5f1@mail.csmining.org>
+	 <n2g8f23146b1004070425ue2606108w656546d4ab058899@mail.csmining.org>
+Date: Wed, 7 Apr 2010 13:34:53 +0200
+Received: by 10.91.162.16 with SMTP id p16mr2787224ago.101.1270640093665; Wed, 
+	07 Apr 2010 04:34:53 -0700 (PDT)
+Message-ID: <i2laee79c571004070434pf2f6d34cq57be4fc100f60309@mail.csmining.org>
+Subject: Re: Cannot login
+From: Daniel Sutil <daniel.sutil@csmining.org>
+To: Smokejohn <smokejohn@csmining.org>
+Cc: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=001485f7cad66b9b5f0483a3f3a8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <xT0x393Cz-H.A.TaE.x3GvLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31978
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 11:35:13 +0000 (UTC)
+
+--001485f7cad66b9b5f0483a3f3a8
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, Apr 7, 2010 at 1:25 PM, Smokejohn <smokejohn@csmining.org> wrote:
+
+>
+>
+> On Wed, Apr 7, 2010 at 2:18 PM, Daniel Sutil <daniel.sutil@csmining.org>wrot=
+e:
+>
+>>
+>> Un saludo,
+>>
+>> Daniel Sutil
+>>
+>>
+>>
+>> On Wed, Apr 7, 2010 at 1:17 PM, Smokejohn <smokejohn@csmining.org> wrote:
+>>
+>>>
+>>>
+>>> On Wed, Apr 7, 2010 at 2:07 PM, Daniel Sutil <daniel.sutil@csmining.org>wr=
+ote:
+>>>
+>>>>
+>>>> Un saludo,
+>>>>
+>>>> Daniel Sutil
+>>>>
+>>>>
+>>>>
+>>>> On Wed, Apr 7, 2010 at 1:00 PM, Smokejohn <smokejohn@csmining.org> wrote:
+>>>>
+>>>>>
+>>>>>
+>>>>> On Wed, Apr 7, 2010 at 1:35 PM, Daniel Sutil <daniel.sutil@csmining.org>=
+wrote:
+>>>>>
+>>>>>>
+>>>>>> On Wed, Apr 7, 2010 at 12:15 PM, Smokejohn <smokejohn@csmining.org>wrot=
+e:
+>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> On Tue, Apr 6, 2010 at 11:53 PM, Klaus Becker <colonius@free.fr>wro=
+te:
+>>>>>>>
+>>>>>>>> Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :
+>>>>>>>> > Finally I applied the following workaround: I remove kdm and
+>>>>>>>> installed gdm.
+>>>>>>>> > After that, I have no problem to login. I haven't investigated a=
+ny
+>>>>>>>> further
+>>>>>>>> > because I really don't know from where the problem comes, but no=
+w,
+>>>>>>>> maybe we
+>>>>>>>> > have to undo the steps applied with the skype's solution to solv=
+e
+>>>>>>>> our
+>>>>>>>> > problem.
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> Hi,
+>>>>>>>>
+>>>>>>>> I had the same problem with kdm, but no problem with gdm.
+>>>>>>>>
+>>>>>>>> cheers
+>>>>>>>>
+>>>>>>>> Klaus
+>>>>>>>>
+>>>>>>>> Hi. Installing gdm did not do the trick :(
+>>>>>>>
+>>>>>>> You must uninstall the kdm service first and select in the session
+>>>>>> selector of gdm "kde". If you don't select the session type, get som=
+e
+>>>>>> errors.
+>>>>>>
+>>>>>
+>>>>> I uninstalled kdm and selected kde as a session but I got the same
+>>>>> message telling me that my session lasted lower than 10s and bla bla.=
+.
+>>>>>
+>>>>>>
+>>>>>>
+>>>>>>> When doing startx as a normal user from console I get some errors
+>>>>>>> like "xkb could not initialize" and "Xinit: no such file or directo=
+ry" and
+>>>>>>> "Xinit: Could not connect to xserver"....
+>>>>>>>
+>>>>>>
+>>>>>> Have you stopped the kdm first?
+>>>>>>
+>>>>>
+>>>>> Yes I did stop kdm when I tried that. The strange thing is that if I
+>>>>> login as root from console and do a startx then a kde session starts
+>>>>> normally. If I do that as a normal user I get the errors..
+>>>>>
+>>>>
+>>>> Can you paste the errors?
+>>>>
+>>>
+>>> When trying to login with gdm it has an option to view the
+>>> .xsession-errors file. The error is mkdtmp: private folder browsing
+>>> (something like that :P): Permission denied.
+>>>
+>>> When I was using kdm and did a cat on the same file the second line jus=
+t
+>>> showed: Permission denied.
+>>>
+>>> I checked the .Xauthority file and did chown to my user.
+>>>
+>>
+>> I remember that first time I try to execute the startx with my user I ge=
+t
+>> some errors but not with root. The problem was that the /tmp directory
+>> doesn't have permissions to write with my user.
+>>
+>> The correct permissions are:
+>>
+>>
+>> cd /tmp
+>>
+>> ls -ld
+>>
+>> drwxrwxrwt  8 root root 12288 2010-04-07 13:12 .
+>>
+>> Could you check it?
+>>
+>>
+>>>
+>>>>
+>>>>>
+>>>>>>
+>>>>>>>
+>>>>>>> Some friend told me to purge kde and reinstall it. I don't think th=
+is
+>>>>>>> will help. Do you think I should give it a try?
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>> I tried that with no success :-(
+>>>>>>
+>>>>>> If that didn't help you I will not bother..
+>>>>>
+>>>>> J
+>>>>>
+>>>>>
+>>>>
+>>>
+>> Well yesterday before I sent the list an email I used google to find
+> anything that would help. I found someone reporting that the permissions =
+in
+> /tmp and /var/tmp could be the problem. I checked both. Everything seemed
+> fine :S  I will check again, just in case.....
+>
+
+Check the sticky bit.. is the important think.
+
+I think is:
+
+chmod 01777 /tmp
+chmod 01777 /var/tmp
+
+--001485f7cad66b9b5f0483a3f3a8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote">On Wed, Apr 7, 2010 at 1:25 PM, Smokejohn <span =
+dir=3D"ltr">&lt;<a href=3D"mailto:smokejohn@csmining.org">smokejohn@csmining.org<=
+/a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:=
+ 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204); padding-left=
+: 1ex;">
+<div><div></div><div class=3D"h5"><br><br><div class=3D"gmail_quote">On Wed=
+, Apr 7, 2010 at 2:18 PM, Daniel Sutil <span dir=3D"ltr">&lt;<a href=3D"mai=
+lto:daniel.sutil@csmining.org" target=3D"_blank">daniel.sutil@csmining.org</a>&gt=
+;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<br clear=3D"all">Un saludo,<br><br>Daniel Sutil<br><br>
+<br><br><div class=3D"gmail_quote"><div><div></div><div>On Wed, Apr 7, 2010=
+ at 1:17 PM, Smokejohn <span dir=3D"ltr">&lt;<a href=3D"mailto:smokejohn@gm=
+ail.com" target=3D"_blank">smokejohn@csmining.org</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<br><br><div class=3D"gmail_quote"><div>On Wed, Apr 7, 2010 at 2:07 PM, Dan=
+iel Sutil <span dir=3D"ltr">&lt;<a href=3D"mailto:daniel.sutil@csmining.org" t=
+arget=3D"_blank">daniel.sutil@csmining.org</a>&gt;</span> wrote:<br><blockquot=
+e class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1p=
+x solid rgb(204, 204, 204); padding-left: 1ex;">
+
+
+
+<br clear=3D"all">Un saludo,<br><br>Daniel Sutil<br><br>
+<br><br><div class=3D"gmail_quote"><div>On Wed, Apr 7, 2010 at 1:00 PM, Smo=
+kejohn <span dir=3D"ltr">&lt;<a href=3D"mailto:smokejohn@csmining.org" target=
+=3D"_blank">smokejohn@csmining.org</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid=
+ rgb(204, 204, 204); padding-left: 1ex;">
+
+
+
+
+<br><br><div class=3D"gmail_quote"><div>On Wed, Apr 7, 2010 at 1:35 PM, Dan=
+iel Sutil <span dir=3D"ltr">&lt;<a href=3D"mailto:daniel.sutil@csmining.org" t=
+arget=3D"_blank">daniel.sutil@csmining.org</a>&gt;</span> wrote:<br><blockquot=
+e class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1p=
+x solid rgb(204, 204, 204); padding-left: 1ex;">
+
+
+
+
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div><div>On Wed,=
+ Apr 7, 2010 at 12:15 PM, Smokejohn <span dir=3D"ltr">&lt;<a href=3D"mailto=
+:smokejohn@csmining.org" target=3D"_blank">smokejohn@csmining.org</a>&gt;</span> =
+wrote:<br>
+
+
+
+
+
+
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<br><br><div class=3D"gmail_quote"><div>On Tue, Apr 6, 2010 at 11:53 PM, Kl=
+aus Becker <span dir=3D"ltr">&lt;<a href=3D"mailto:colonius@free.fr" target=
+=3D"_blank">colonius@free.fr</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb=
+(204, 204, 204); padding-left: 1ex;">
+
+
+
+
+
+
+
+
+Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :<br>
+<div>&gt; Finally I applied the following workaround: I remove kdm and inst=
+alled gdm.<br>
+&gt; After that, I have no problem to login. I haven&#39;t investigated any=
+ further<br>
+&gt; because I really don&#39;t know from where the problem comes, but now,=
+ maybe we<br>
+&gt; have to undo the steps applied with the skype&#39;s solution to solve =
+our<br>
+&gt; problem.<br>
+<br>
+<br>
+</div>Hi,<br>
+<br>
+I had the same problem with kdm, but no problem with gdm.<br>
+<br>
+cheers<br>
+<div><br>
+Klaus<br>
+<br></div></blockquote></div><div>Hi. Installing gdm did not do the trick :=
+(<br><br></div></div></blockquote></div><div>You must uninstall the kdm ser=
+vice first and select in the session selector of gdm &quot;kde&quot;. If yo=
+u don&#39;t select the session type, get some errors.<br>
+
+
+
+
+
+
+
+</div></div></div></div></blockquote></div><div><br>I uninstalled kdm and s=
+elected kde as a session but I got the same message telling me that my sess=
+ion lasted lower than 10s and bla bla..=A0 <br></div><div><blockquote class=
+=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid=
+ rgb(204, 204, 204); padding-left: 1ex;">
+
+
+
+
+
+<div class=3D"gmail_quote"><div class=3D"gmail_quote"><div><div>=A0<br></di=
+v><div><blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex=
+; border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;"><div class=
+=3D"gmail_quote">
+
+
+
+
+
+<div>When doing startx as a normal user from console I get some errors like=
+ &quot;xkb could not initialize&quot; and &quot;Xinit: no such file or dire=
+ctory&quot; and &quot;Xinit: Could not connect to xserver&quot;....<br>
+
+
+
+
+
+
+
+</div></div></blockquote></div></div><div><br>Have you stopped the kdm firs=
+t?<br></div></div></div></blockquote></div><div><br>Yes I did stop kdm when=
+ I tried that. The strange thing is that if I login as root from console an=
+d do a startx then a kde session starts normally. If I do that as a normal =
+user I get the errors.. <br>
+
+
+
+
+</div></div></blockquote></div><div><br>Can you paste the errors?<br></div>=
+</div></blockquote></div><div><br>When trying to login with gdm it has an o=
+ption to view the .xsession-errors file. The error is mkdtmp: private folde=
+r browsing (something like that :P): Permission denied.<br>
+
+
+
+<br>When I was using kdm and did a cat on the same file the second line jus=
+t showed: Permission denied. <br><br>I checked the .Xauthority file and did=
+ chown to my user.<br></div></div></blockquote></div></div><div><br>I remem=
+ber that first time I try to execute the startx with my user I=20
+get some errors but not with root. The problem was that the /tmp=20
+directory doesn&#39;t have permissions to write with my user. <br>
+<br>
+The correct permissions are:<br>
+<font face=3D"Default Sans Serif,Verdana,Arial,Helvetica,sans-serif" size=
+=3D"2">
+<p style=3D"margin: 0px;">
+</p>
+  <p style=3D"margin: 0px;"><br>
+cd /tmp </p>
+
+<p style=3D"margin: 0px;">ls -ld </p>
+<p style=3D"margin: 0px;">drwxrwxrwt=A0 8 root root 12288 2010-04-07 13:12 =
+.
+=20
+</p></font><br>Could you check it?<br>=A0</div><div><blockquote class=3D"gm=
+ail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(2=
+04, 204, 204); padding-left: 1ex;"><div class=3D"gmail_quote"><div>
+</div><div>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<div class=3D"gmail_quote"><div>=A0<br></div><div><blockquote class=3D"gmai=
+l_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204=
+, 204, 204); padding-left: 1ex;"><div class=3D"gmail_quote">
+<div>
+</div><div><blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0=
+.8ex; border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;"><div c=
+lass=3D"gmail_quote"><div class=3D"gmail_quote"><div>=A0<br></div><div>
+<div>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<div class=3D"gmail_quote">
+<div>
+<br>Some friend told me to purge kde and reinstall it. I don&#39;t think th=
+is will help. Do you think I should give it a try?<br><br>=A0<br></div></di=
+v>
+</blockquote></div></div></div><div>I tried that with no success :-(<br>
+</div></div><br></blockquote></div><div>If that didn&#39;t help you I will =
+not bother..<br><br>J <br></div></div><br>
+</blockquote></div></div><br>
+</blockquote></div></div><br>
+</blockquote></div></div><br>
+</blockquote></div></div></div>Well yesterday before I sent the list an ema=
+il I used google to find anything that would help. I found someone reportin=
+g that the permissions in /tmp and /var/tmp could be the problem. I checked=
+ both. Everything seemed fine :S=A0 I will check again, just in case.....<b=
+r>
+</blockquote><div><br>Check the sticky bit.. is the important think.<br><br=
+>I think is:<br><br>chmod 01777 /tmp <br>chmod 01777 /var/tmp <br></div></d=
+iv><br>
+
+--001485f7cad66b9b5f0483a3f3a8--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2laee79c571004070434pf2f6d34cq57be4fc100f60309@mail.csmining.org
+
+

@@ -1,0 +1,88 @@
+From - Mon Mar 15 10:52:09 2010
+X-Account-Key: account2
+X-UIDL: UID11605-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ayoadolphus@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 6417616088
+	for <m0620212@mail.csmining.org>; Tue,  9 Mar 2010 03:23:52 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 6048C15FFD
+	for <m0620212@mail.csmining.org>; Tue,  9 Mar 2010 03:23:52 +0900 (JST)
+X-ASG-Debug-ID: 1268072631-761fd0f10001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id RqKRNbp4yxaChOLw for <m0620212@mail.csmining.org>; Tue, 09 Mar 2010 03:23:51 +0900 (JST)
+X-Barracuda-Envelope-From: ayoadolphus@csmining.org
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o28INp3D000440
+        for <m0620212@mail.csmining.org>; Tue, 9 Mar 2010 03:23:51 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id o28INpoj000437
+        for <hibody@csmining.org>; Tue, 9 Mar 2010 03:23:51 +0900 (JST)
+Received: from homeloufaa1jw1 ([92.116.102.48])
+	by ns2.csmining.org  with ESMTP id o28INmIL015498
+	for <hibody@csmining.org>; Tue, 9 Mar 2010 03:23:49 +0900 (JST)
+Message-ID: <000e01cabef4$de233f30$7f000001@homeloufaa1jw1>
+X-Barracuda-BWL-IP: 92.116.102.48
+X-Barracuda-BBL-IP: 92.116.102.48
+X-Barracuda-RBL-IP: 92.116.102.48
+From: "Ayo Adolphus" <ayoadolphus@csmining.org>
+To: <hibody@csmining.org>
+X-ASG-Orig-Subj: Solutions for ero-exploits
+Subject:   Solutions for ero-exploits
+Date: Mon, 8 Mar 2010 19:23:36 +0100
+MIME-Version: 1.0
+Content-Type: text/plain;
+	format=flowed;
+	charset="koi8-r";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5512
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1268072631
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-Barracuda-Fingerprint-Found: *Spam.Pharmacy-118263073 (afe52cd0121652a62970f9771b207acc-107-txt)
+X-ASG-Tag: INTENT (gonestory.com)
+X-Barracuda-Spam-Score: 16.86
+X-Barracuda-Spam-Status: No, SCORE=16.86 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA290_RN, BSF_SC0_SA_TO_FROM_DOMAIN_MATCH, BSF_SC0_SA_TO_FROM_DOMAIN_MATCH_HL, BSF_SC5_MJ1963, CN_BODY_332, RDNS_NONE, STOX_REPLY_TYPE, URIBL_AB_SURBL, URIBL_JP_SURBL, URIBL_OB_SURBL, URIBL_SC_SURBL, URIBL_WS_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.24361
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 STOX_REPLY_TYPE        STOX_REPLY_TYPE
+	0.12 CN_BODY_332            BODY: CN_BODY_332
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: gonestory.com]
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: gonestory.com]
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: gonestory.com]
+	2.13 URIBL_OB_SURBL         Contains an URL listed in the OB SURBL blocklist
+	                           [URIs: gonestory.com]
+	2.52 URIBL_SC_SURBL         Contains an URL listed in the SC SURBL blocklist
+	                           [URIs: gonestory.com]
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	0.01 BSF_SC0_SA_TO_FROM_DOMAIN_MATCH Sender Domain Matches Recipient
+	                           Domain
+	1.40 BSF_SC0_SA_TO_FROM_DOMAIN_MATCH_HL Custom Rule
+	                           SA_TO_FROM_DOMAIN_MATCH_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+The eyes of your girl will shine of joy after you try it!
+
+http://gonestory.com/
+
+Become superstart in bed
+

@@ -1,0 +1,170 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281a3727097b6e5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs58931wfj;
+        Tue, 20 Apr 2010 00:56:29 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr818105fai.98.1271750141711;
+        Tue, 20 Apr 2010 00:55:41 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z15si10459752fkz.21.2010.04.20.00.55.41;
+        Tue, 20 Apr 2010 00:55:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 81B5913A4C27; Tue, 20 Apr 2010 07:55:31 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_SEX_L2,PLING_QUERY autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 80BA413A49BA
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 07:55:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.41 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, MURPHY_SEX_L2=0.1,
+	PLING_QUERY=1.39] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ao9Tm0ZySBmY for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 07:55:18 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 34FF313A49A9
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 07:55:18 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O48Ib-0002vc-MO
+	for debian-user@lists.debian.org; Tue, 20 Apr 2010 09:55:13 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 09:55:13 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 09:55:13 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: [OT] Enforcing policies (was: PDF is blocked for printing, etc. OK
+ for acroread (it behaves  as expected), but KPDF allows me to print it,
+ even if it is protected! Why?)
+Date: Tue, 20 Apr 2010 07:55:04 +0000 (UTC)
+Lines: 72
+Message-ID: <pan.2010.04.20.07.55.03@csmining.org>
+References: <4BCC5B32.5030300@student.ulg.ac.be>
+	<20100419144409.e99ce9d8.codehelp@debian.org>
+	<4BCC5FB0.7060106@student.ulg.ac.be>
+	<4BCC613C.6090107@lorentz.leidenuniv.nl>
+	<4BCC77A3.9080803@student.ulg.ac.be> <4BCC83D1.308@free.fr>
+	<4BCC8906.3010505@student.ulg.ac.be> <pan.2010.04.19.18.40.04@csmining.org>
+	<87tyr75fh6.fsf@merciadriluca-eee.WORKGROUP>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <g-0LxoO-MTF.A.pfE.z3VzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574521
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 07:55:31 +0000 (UTC)
+
+On Mon, 19 Apr 2010 22:56:05 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>> IANAL, but you can always take the "legal" path and require that the
+>> person you are giving the documents first signs a contract to prevent
+>> sharing, extracting or printing data. I know this can sound a bit
+>> strict measure but is a very usual method in many companies to prevent
+>> data leakage, depending upon the importance of the material they share
+>> with another "partners".
+
+> Yes. But what happens if they do not sign? 
+
+If they do not agree with the terms, then they cannot access the doc.
+
+> Do you then have any proof
+> that you did not ask/blackmail them to prevent them from signing? 
+
+In any kind of contract, both parts have to agree the terms. No 
+agreement, no contract.
+
+> More
+> generally, how can you prove that if they did not sign, it is because of
+> their personal opinion? 
+
+All of us hold our "personal opinions" and nobody can force any user to 
+sign any contrat they don't agree. But then the relation between two 
+parts stops there. As I don't know what are all of your specific 
+situation details, I'm also unaware if this kind of agreement is out of 
+place or just fits well within your environment.
+
+> That is some part of the problem. Note that next
+> year, I will make people sign. I think that in a > 18 yr. world with
+> engineering students, students should be more responsible about their
+> duty/ies.
+
+In open source world, it is not so uncommom to make people who wants to 
+participate in some aspects of sensitive developing (i.e. fsf) to sign 
+and agree with their terms, regardless the age of the developers (if they 
+are young, they parents have to agree). That is the only way to protect 
+(free) the code.
+
+>> You can enforce a PDF to use DRM *and* activation measures. I have
+>> found some e-books that I was not able to open with Linux boxes and
+>> forced the user reading it on screen just under windows machines with
+>> Acrobat Reader
+>>>6.
+>>
+>> More info here:
+>> http://kb2.adobe.com/cps/329/329059.html
+>>
+>> What you have to ask your boss if this is worth for it as you are
+>> imposing many limitations to the person you are "lending" the document
+>> and also, you need a server (and a license of "Adobe Content Server")
+>> to host the files and manage the DRM licences and restrictions :-/
+
+> Thanks. I read it, but this is quite commercial, isn't it?
+
+"Quite"? Full, I'd say :-)
+
+But is you who seeks for a "comercial" solution. Only proprietary tools 
+(Adobe Reader?) enforce the use of the kind of policies you are looking 
+for.
+
+Inside open source world is a bit difficult to find programs or tools 
+that make what you are looking for, that is, preventing users to make 
+their own :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.20.07.55.03@csmining.org
+
+

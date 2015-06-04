@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a58ba41f9855a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs9063wfo;
+        Mon, 17 May 2010 02:15:14 -0700 (PDT)
+Received: by 10.223.101.4 with SMTP id a4mr5893700fao.71.1274087711898;
+        Mon, 17 May 2010 02:15:11 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c3si12265165fah.21.2010.05.17.02.15.11;
+        Mon, 17 May 2010 02:15:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A335E13A5B91; Mon, 17 May 2010 09:15:08 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4B95713A5B89
+	for <lists-debian-kde@liszt.debian.org>; Mon, 17 May 2010 09:15:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id NcsnFpm-eXvK for <lists-debian-kde@liszt.debian.org>;
+	Mon, 17 May 2010 09:14:55 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 039102D0DD3
+	for <debian-kde@lists.debian.org>; Mon, 17 May 2010 09:14:48 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1ODwPO-0005qi-8a; Mon, 17 May 2010 12:14:46 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: Nicola Chiapolini <nicola.chiapolini@bluewin.ch>
+Subject: Re: plasma desktop missing after upgrade
+Date: Mon, 17 May 2010 12:14:45 +0300
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-amd64; KDE/4.4.3; x86_64; ; )
+Cc: debian-kde@lists.debian.org
+References: <201005171001.13840.nicola.chiapolini@bluewin.ch> <201005171147.55437.modestas@vainius.eu> <201005171059.14475.nicola.chiapolini@bluewin.ch>
+In-Reply-To: <201005171059.14475.nicola.chiapolini@bluewin.ch>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1367779.K1620Mc9bf";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005171214.45814.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <X-ldetNnw5H.A.DuH.ckQ8LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32449
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 09:15:08 +0000 (UTC)
+
+--nextPart1367779.K1620Mc9bf
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On pirmadienis 17 Gegu=C5=BE=C4=97 2010 11:59:14 Nicola Chiapolini wrote:
+> I agree.
+>=20
+> My intention was more to let you know that upgrading brakes the system
+> and leaves you with a black screen. (If you had my combination of
+> packages installed).
+> I guess this could be avioded with adjusted dependencies.
+> Let me know if you need any further info.
+
+Yes, it is inconvenience, but testing -> testing or unstable -> unstable do=
+=20
+not have to be flawlessly supported. Only stable -> next stable should. kde-
+minimal is not stable so we are not going to workaround it (i.e. keep dummy=
+=20
+package around) just because it causes a minor issue in current testing or=
+=20
+sid.
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart1367779.K1620Mc9bf
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvxCQUACgkQHO9JRnPq4hRwKACgyr+hcOnVuY0fh61nV7FqYh93
+i8wAnj3d13cnFhz8268smIHahpJZcEDM
+=bg6H
+-----END PGP SIGNATURE-----
+
+--nextPart1367779.K1620Mc9bf--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005171214.45814.modestas@vainius.eu
+
+

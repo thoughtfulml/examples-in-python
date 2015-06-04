@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282c4897b234ef9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs75325wfj;
+        Fri, 23 Apr 2010 13:07:54 -0700 (PDT)
+Received: by 10.140.252.8 with SMTP id z8mr793209rvh.35.1272053274235;
+        Fri, 23 Apr 2010 13:07:54 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 7si2215772pzk.30.2010.04.23.13.07.54;
+        Fri, 23 Apr 2010 13:07:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 09F861BF3D7FB
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 13:07:54 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 059BB271160C2
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 13:07:54 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id C564A2711609C
+	for <filesystem-dev@lists.apple.com>;
+	Fri, 23 Apr 2010 13:07:50 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id B49D9CE08C39
+	for <filesystem-dev@lists.apple.com>;
+	Fri, 23 Apr 2010 13:07:50 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-52-4bd1fe162b1b
+Received: from smtp.thursby.com (smtp.thursby.com [208.7.44.13])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	DF.A2.25880.61EF1DB4; Fri, 23 Apr 2010 13:07:50 -0700 (PDT)
+Received: from nelson-air.thursby.com (assp.thursby.com [208.7.44.19])
+	by smtp.thursby.com (Postfix) with ESMTP
+	id 9F8BE1A6956F; Fri, 23 Apr 2010 15:07:49 -0500 (CDT)
+Received: from nelson-air.thursby.com ([208.7.44.52]
+	helo=nelson-air.thursby.com)
+	by assp.thursby.com; 23 Apr 2010 15:07:49 -0500
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Paul Nelson <nelson@thursby.com>
+In-Reply-To: <l2ib9543e911004231302jd6e69887ha7b07363bbf29eb8@mail.csmining.org>
+Date: Fri, 23 Apr 2010 15:07:48 -0500
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <5900F2D5-3F53-4B41-B230-B54025E5D262@thursby.com>
+References: <l2ib9543e911004231302jd6e69887ha7b07363bbf29eb8@mail.csmining.org>
+To: mogambo <mogambo13@csmining.org>, filesystem-dev@lists.apple.com
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAABBMb7QMT2MjhE9m4HxPZuN8=
+Cc: 
+Subject: Re: supporting Get Info "Locked" checkbox in a file system driver
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+The lock bit comes into a VFS as the UF_IMMUTABLE flag.  See man chflags
+
+On Apr 23, 2010, at 3:02 PM, mogambo wrote:
+
+> Hi,
+>=20
+> It seems that clicking that checkbox makes the file read-only.  =
+However, the actual permissions do not change on the file when I check =
+with ls.  Trying to modify the file, with vi say, fails saying it's a =
+read-only file.
+>=20
+> Is it handled with some extended attributes?  What are the =
+expectations from a file system driver for a remote file system to =
+support this feature?
+>=20
+> Thanks,
+> -m.
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/filesystem-dev/nelson%40thursby.com=
+
+>=20
+> This email sent to nelson@thursby.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

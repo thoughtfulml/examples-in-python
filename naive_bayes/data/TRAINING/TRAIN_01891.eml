@@ -1,0 +1,153 @@
+X-Account-Key: account5
+X-UIDL: GmailId12899f320e797a9e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs59536wfo;
+        Fri, 14 May 2010 20:12:48 -0700 (PDT)
+Received: by 10.223.144.84 with SMTP id y20mr2495193fau.78.1273893167465;
+        Fri, 14 May 2010 20:12:47 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n27si7074640faa.88.2010.05.14.20.12.46;
+        Fri, 14 May 2010 20:12:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 58F3813A436B; Sat, 15 May 2010 03:12:42 +0000 (UTC)
+Old-Return-Path: <storm16@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.8 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EC27D13A5992
+	for <lists-debian-user@liszt.debian.org>; Sat, 15 May 2010 03:12:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, HTML_MESSAGE=1,
+	LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id b7lNEuibY-lw for <lists-debian-user@liszt.debian.org>;
+	Sat, 15 May 2010 03:12:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-gw0-f47.google.com (mail-gw0-f47.google.com [74.125.83.47])
+	by liszt.debian.org (Postfix) with ESMTP id B26D613A599A
+	for <debian-user@lists.debian.org>; Sat, 15 May 2010 03:12:28 +0000 (UTC)
+Received: by gwb17 with SMTP id 17so998323gwb.6
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 20:12:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=JWn+DObW0rLF8cGIgcL7ehGbG23MlF99P3F0z+g8Xes=;
+        b=PNING6RMUUfoklLx0Je2fypX8ycvZ/vMfhetIIf9BJ4AckGpkfTA8iQD/oLK6EZERd
+         OA72iYyIHVN7EugIHOQTfa7WZbpHGJ5bBaGgnixfdXdt3glF0WFH5X/of0slTr90FzYw
+         0RyW/+Jik72x7HSlDm97uK2XcdVBnvDNkSzdY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=L+TpjRecNWFg12vnpSQdV0Zzq+5BZEp8BFde/HvNJBfweXT0esx1HdOArbXTA8CGyN
+         MRLt3QUs42ORiDtEbVjDUUbVMcy/spwspukDJ+ATs4+3ycOE89YDMT6Vv+4sjmbLMO1f
+         4htP8VyTj0zPs4TAohj+VW57RjYGT1HEm9c34=
+MIME-Version: 1.0
+Received: by 10.150.104.20 with SMTP id b20mr3152201ybc.312.1273893143617; 
+	Fri, 14 May 2010 20:12:23 -0700 (PDT)
+Received: by 10.150.52.17 with HTTP; Fri, 14 May 2010 20:12:23 -0700 (PDT)
+In-Reply-To: <622646146-1273890328-cardhu_decombobulator_blackberry.rim.net-429594017-@bda030.bisx.prodap.on.blackberry>
+References: <622646146-1273890328-cardhu_decombobulator_blackberry.rim.net-429594017-@bda030.bisx.prodap.on.blackberry>
+Date: Fri, 14 May 2010 23:12:23 -0400
+Message-ID: <AANLkTilUy9ZEQ3g6joZeDQWCynpAU7Hxoe_WyTbt1kch@mail.csmining.org>
+Subject: Re: Updrading or reinstalling?
+From: "B. Alexander" <storm16@csmining.org>
+To: ryanjonathanb@csmining.org
+Cc: "Debian.org" <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=000e0cd48b204ea2a50486995c70
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <G8N4Bg3Z5xO.A.x4G.qEh7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576879
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 15 May 2010 03:12:42 +0000 (UTC)
+
+--000e0cd48b204ea2a50486995c70
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+IMHO, Debian seems to have the best record of successful upgrades. I run Si=
+d
+on several of my boxes, which means it is in a constant state of upgrade. O=
+n
+my workstation, with a very eclectic mix of software, I have only started
+over from scratch twice in the last 10 years...Once in 2000 and once in
+2007.
+
+--b
+
+On Fri, May 14, 2010 at 10:25 PM, <ryanjonathanb@csmining.org> wrote:
+
+> Hi there,
+>
+> Just one question,
+>
+> Is it better to upgrade debian using dist-upgrade or just download the ne=
+w
+> iso and reinstalling it?? I'm waiting for the squeeze final release..
+> Currently still using lenny.
+>
+> Thanks
+> RJB
+> Sent from my BlackBerry=AE
+> powered by Sinyal Kuat INDOSAT
+>
+
+--000e0cd48b204ea2a50486995c70
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+IMHO, Debian seems to have the best record of successful upgrades. I run Si=
+d on several of my boxes, which means it is in a constant state of upgrade.=
+ On my workstation, with a very eclectic mix of software, I have only start=
+ed over from scratch twice in the last 10 years...Once in 2000 and once in =
+2007.<br>
+<br>--b<br><br><div class=3D"gmail_quote">On Fri, May 14, 2010 at 10:25 PM,=
+  <span dir=3D"ltr">&lt;<a href=3D"mailto:ryanjonathanb@csmining.org">ryanjona=
+thanb@csmining.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" =
+style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8=
+ex; padding-left: 1ex;">
+Hi there,<br>
+<br>
+Just one question,<br>
+<br>
+Is it better to upgrade debian using dist-upgrade or just download the new =
+iso and reinstalling it?? I&#39;m waiting for the squeeze final release.. C=
+urrently still using lenny.<br>
+<br>
+Thanks<br>
+<div><div></div><div class=3D"h5">RJB<br>
+Sent from my BlackBerry=AE<br>
+powered by Sinyal Kuat INDOSAT</div></div></blockquote></div><br>
+
+--000e0cd48b204ea2a50486995c70--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilUy9ZEQ3g6joZeDQWCynpAU7Hxoe_WyTbt1kch@mail.csmining.org
+
+

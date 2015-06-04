@@ -1,0 +1,87 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283591919194e05
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs50434wfj;
+        Sun, 25 Apr 2010 08:24:13 -0700 (PDT)
+Received: by 10.87.49.36 with SMTP id b36mr4849081fgk.57.1272209052161;
+        Sun, 25 Apr 2010 08:24:12 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si1402902fkq.17.2010.04.25.08.24.11;
+        Sun, 25 Apr 2010 08:24:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id EE10A13A50C7; Sun, 25 Apr 2010 15:24:06 +0000 (UTC)
+Old-Return-Path: <3m4il@gmx.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 11C5313A5044
+	for <lists-debian-kde@liszt.debian.org>; Sun, 25 Apr 2010 15:06:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id MVwT06crbDQX for <lists-debian-kde@liszt.debian.org>;
+	Sun, 25 Apr 2010 15:06:00 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmx. - helo: .mail.gmx. - helo-domain: .gmx.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by liszt.debian.org (Postfix) with SMTP id 0B75413A5038
+	for <debian-kde@lists.debian.org>; Sun, 25 Apr 2010 15:05:56 +0000 (UTC)
+Received: (qmail invoked by alias); 25 Apr 2010 15:05:54 -0000
+Received: from dslb-088-068-131-152.pools.arcor-ip.net (EHLO [192.168.2.100]) [88.68.131.152]
+  by mail.gmx.net (mp067) with SMTP; 25 Apr 2010 17:05:54 +0200
+X-Authenticated: #37800816
+X-Provags-ID: V01U2FsdGVkX1+GuLAl2TuGUM10IjTAoo5rA/zstouhGHzOeJO1pB
+	pWk+s2U8fuhzW0
+Message-ID: <4BD45A53.90604@gmx.de>
+Date: Sun, 25 Apr 2010 17:05:55 +0200
+From: 3m4il <3m4il@gmx.de>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.23) Gecko/20090812 Lightning/0.9 Thunderbird/2.0.0.23 Mnenhy/0.7.5.0
+MIME-Version: 1.0
+To: debian-kde@lists.debian.org
+Subject: broken url
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Y-GMX-Trusted: 0
+X-FuHaFi: 0.67000000000000004
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <qcBBE-dowpD.A.ziB.W6F1LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32047
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun, 25 Apr 2010 15:24:06 +0000 (UTC)
+
+Hi Guys
+The URL to the i386 Version of  KDE-Debian ist broken (404).
+Page:
+http://pkg-kde.alioth.debian.org/kde3.html
+Link:
+http://caesar.acc.umu.se/debian-cd/4.0_r6/i386/iso-cd/debian-40r6-i386-kde-CD-1.iso
+bye
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD45A53.90604@gmx.de
+
+

@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287284665e705c4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs446208wfb;
+        Fri, 7 May 2010 04:26:40 -0700 (PDT)
+Received: by 10.223.45.83 with SMTP id d19mr286895faf.65.1273231599125;
+        Fri, 07 May 2010 04:26:39 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k9si1775654fad.81.2010.05.07.04.26.38;
+        Fri, 07 May 2010 04:26:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AC12C13A516D; Fri,  7 May 2010 11:26:34 +0000 (UTC)
+Old-Return-Path: <didi.debian@cknow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1CD7413A4FE1
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 11:26:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Sf3II06R4nfG for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 11:26:21 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.2
+Received: from homiemail-a7.g.dreamhost.com (caiajhbdcbbj.dreamhost.com [208.97.132.119])
+	by liszt.debian.org (Postfix) with ESMTP id D5B4A13A452C
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 11:26:20 +0000 (UTC)
+Received: from the-shire.localnet (e243048.upc-e.chello.nl [213.93.243.48])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: didi.debian@cknow.org)
+	by homiemail-a7.g.dreamhost.com (Postfix) with ESMTPSA id 785AE25C062
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 04:26:17 -0700 (PDT)
+From: Diederik de Haas <didi.debian@cknow.org>
+Organization: Connecting Knowledge
+To: debian-kde@lists.debian.org
+Subject: Re: Bug 226394 NOT confirmed
+Date: Fri, 7 May 2010 13:26:13 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-686-bigmem; KDE/4.4.3; i686; ; )
+References: <y2v880dece01005062300ma4f992b2zaa5515660c3484ff@mail.csmining.org>
+In-Reply-To: <y2v880dece01005062300ma4f992b2zaa5515660c3484ff@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005071326.14497.didi.debian@cknow.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dBy-3157IyI.A.JxC.qj_4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32226
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 11:26:34 +0000 (UTC)
+
+On 2010-05-07 Dotan Cohen wrote:
+> Can other KDE users please triage these dataloss bugs in Korganizer in KDE
+> 4.4:
+> 
+>  https://bugs.kde.org/show_bug.cgi?id=172464
+>  https://bugs.kde.org/show_bug.cgi?id=226394
+>  https://bugs.kde.org/show_bug.cgi?id=228674
+>  https://bugs.kde.org/show_bug.cgi?id=236563
+>  https://bugs.kde.org/show_bug.cgi?id=236658
+> 
+> Each one should take less than a minute to triage.
+> 
+> Dataloss is a huge issue and I fear that it is not getting the
+> attention that it deserves. Hopefully if some other users confirm the
+> issues then the bugs will get priority. Thanks.
+
+I was not able to reproduce the bug and added that to the bug report.
+
+Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071326.14497.didi.debian@cknow.org
+
+

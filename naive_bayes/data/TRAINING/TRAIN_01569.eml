@@ -1,0 +1,99 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d3eeeacdfea61
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs200352wfa;
+        Tue, 6 Apr 2010 09:23:22 -0700 (PDT)
+Received: by 10.140.247.5 with SMTP id u5mr5483669rvh.62.1270571002554;
+        Tue, 06 Apr 2010 09:23:22 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 37si4002092iwn.82.2010.04.06.09.23.22;
+        Tue, 06 Apr 2010 09:23:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 2D3691BCF76AD
+	for <mlsubscriber.tech@csmining.org>; Tue,  6 Apr 2010 09:23:22 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 28592268C6E83
+	for <mlsubscriber.tech@csmining.org>; Tue,  6 Apr 2010 09:23:22 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay15.apple.com (relay15.apple.com [17.128.113.54])
+	by lists.apple.com (Postfix) with ESMTP id 3D0F6268C6C8A
+	for <x11-users@lists.apple.com>; Tue,  6 Apr 2010 09:23:03 -0700 (PDT)
+X-AuditID: 11807136-b7c8dae000004b66-13-4bbb5fe73db7
+Received: from elliott.apple.com (elliott.apple.com [17.151.62.13])
+	by relay15.apple.com (Apple SCV relay) with SMTP id
+	B4.C7.19302.7EF5BBB4; Tue,  6 Apr 2010 09:23:03 -0700 (PDT)
+Received: from [10.0.1.109]
+	(99-51-79-55.lightspeed.snjsca.sbcglobal.net [99.51.79.55])
+	by elliott.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L0G009Y9QUEAC70@elliott.apple.com> for
+	x11-users@lists.apple.com; Tue, 06 Apr 2010 09:23:03 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <4BBAE46A.6060104@wanadoo.fr>
+Date: Tue, 06 Apr 2010 09:23:03 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <633CA998-3C2C-4947-843E-D00E0B2BC16C@apple.com>
+References: <C7DFE98E.50BCE%trk@kirbys.org>
+	<E74FB9A4-232B-4342-8D8C-CE18BFCD70BA@mac.com>
+	<4BBAE46A.6060104@wanadoo.fr>
+To: Martin Costabel <costabel@wanadoo.fr>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11 List <x11-users@lists.apple.com>
+Subject: Re: Oddity ?
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I bet it's the same border issue that's been plaguing us for a while...
+
+On Apr 6, 2010, at 00:36, Martin Costabel wrote:
+
+> Merle Reinhart wrote:
+>> The 'box' shows up if you use xev -rv.  So my guess is that it is =
+there, but just white on white (I'm using the default SL X11 2.3.5).
+>=20
+> This is true. Even if you don't see the box, moving the mouse over its =
+invisible border shows corresponding events.
+>=20
+> Looks like a bug, but not in xev, because running xev via ssh on a =
+remote machine doesn't show the box either. I am running standard SL =
+10.6.3 X11 "XQuartz 2.3.5 (xorg-server 1.4.2-apple53)".
+>=20
+> --=20
+> Martin
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

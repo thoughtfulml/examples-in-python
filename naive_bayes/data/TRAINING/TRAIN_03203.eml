@@ -1,0 +1,177 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287feabb701a4f2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs575078wfb;
+        Sun, 9 May 2010 18:53:30 -0700 (PDT)
+Received: by 10.223.101.81 with SMTP id b17mr3612529fao.17.1273456409126;
+        Sun, 09 May 2010 18:53:29 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y11si7368893fak.15.2010.05.09.18.53.28;
+        Sun, 09 May 2010 18:53:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 032A513A5033; Mon, 10 May 2010 01:53:26 +0000 (UTC)
+Old-Return-Path: <serrameira@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-2.9 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0E1D413A501C
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 01:53:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LIsRVF9rEWpy for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 01:53:12 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 8A2C013A5023;
+	Mon, 10 May 2010 01:53:12 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so5424985qyk.3
+        for <multiple recipients>; Sun, 09 May 2010 18:53:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:sender:received:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=7HWkG69m3m1cnUAFbXe568QUpcUxVAquBLMalNwxasE=;
+        b=xFcBUTSRwK7WU6CIei6snZPTKgD4U9Qgu04yGJSEVMBb0ckKYO6X4hsaFGZ4NAEP55
+         Ph9s2UhRezW6agvpr9/bkhX7dUJsO1KS7Fd3izjVbCu/Cy6vkLr8kQDLNmZBFeSI9wx5
+         SfmCGZMEgKZQOCzyNgX6jEqEDlkuo/ntwX5pk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type;
+        b=xltcW9Q9WQDiyEokKxW9eu+USEl6aZBycFwsSx8NhTmHkp+brVlIgYMkS8y2DVgNqd
+         5NibzvzYqDiWCJK7H6C0yJ2XG8E0B346Y28FOZ5pGMDrQii84KvqwYMHQGXbcJ0pgknc
+         krslWWEzFwRFzbpUcMndHmBABeXey/godp0T4=
+MIME-Version: 1.0
+Received: by 10.229.182.145 with SMTP id cc17mr2583784qcb.35.1273456387443; 
+	Sun, 09 May 2010 18:53:07 -0700 (PDT)
+Sender: serrameira@csmining.org
+Received: by 10.229.27.80 with HTTP; Sun, 9 May 2010 18:53:07 -0700 (PDT)
+Date: Sun, 9 May 2010 22:53:07 -0300
+X-Google-Sender-Auth: 37bdae068c4a0f07
+Message-ID: <j2ze270ff421005091853hc17ade9fh64bf0df01abcf913@mail.csmining.org>
+Subject: Problem with ALC662 Intel HDA
+From: Leonardo Meira <serra.meira@csmining.org>
+To: Debian <debian-user@lists.debian.org>, Debian KDE <debian-kde@lists.debian.org>
+Content-Type: multipart/alternative; boundary=0016364ecbf29c4ddd048633ab6f
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <S1By90dB68.A.TZF.Vc25LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32295
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 01:53:26 +0000 (UTC)
+
+--0016364ecbf29c4ddd048633ab6f
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello everybody,
+
+I have a problem with my sound card (nVidia Corporation MCP67 High
+Definition Audio | ALC662 High Definition Audio) and I would like you to
+indicate the best location and the best way for me to report the bug that I
+will describe:
+
+After a fresh installation and setup of alsa, I only have sound in one of
+two outputs and the microphone does not work. After reading a lot of
+documentation about the subject, I found that inserting the line "options
+snd-hda-intel model = 3stack 6ch-index = 0" in alsa-base.conf file I can
+make my sound card work better, but with some problems, which are:
+
+a) If I select the 6-channel mode (in kmix or alsa-mixer), the two sound
+outputs work but the microphone do not work.
+b) If I select the 2-channel mode (in kmix or alsa-mixer), the microphone
+works but only one sound output works.
+
+You do not agree with me that this is a bug? I've been experiencing it in
+different distributions and several versions of the Linux kernel. As in
+several versions of ALSA.
+
+Before you ask me, yes, I've tried all the options associated with ALC662
+codec (
+http://www.mjmwired.net/kernel/Documentation/sound/alsa/HD-Audio-Models.txt)
+and the option mentioned above was that worked best.
+
+
+ I am a novice user of Linux. So I ask you for help. How could I help solve
+this problem? What is the right place to report this bug?
+
+Thanks,
+
+Motherboard: ASUS M2N68-AM SE
+Debian Lenny
+Squeeze Debian / Sid
+
+--0016364ecbf29c4ddd048633ab6f
+Content-Type: text/html; charset=ISO-8859-1
+
+
+
+
+	<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8">
+	<title></title>
+	<meta name="GENERATOR" content="OpenOffice.org 3.2  (Linux)">
+	<style type="text/css">
+	<!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+	-->
+	</style>
+
+<p style="margin-bottom: 0in;" lang="en-US">Hello everybody,<br><br>I
+have a problem with my sound card (nVidia Corporation MCP67 High
+Definition Audio | ALC662 High Definition Audio) and I would like you
+to indicate the best location and the best way for me to report the
+bug that I will describe:<br><br>After a fresh installation and setup
+of alsa, I only have sound in one of two outputs and the microphone
+does not work. After reading a lot of documentation about the subject, I
+found that inserting the line &quot;options snd-hda-intel model =
+3stack 6ch-index = 0&quot; in alsa-base.conf file I can make my sound card
+work better, but with some problems, which are:<br><br>a) If I select the
+6-channel mode (in kmix or alsa-mixer), the two sound outputs work
+but the microphone do not work.<br>b) If I select the 2-channel mode
+(in kmix or alsa-mixer), the microphone works but only one sound
+output works.<br><br>You do not agree with me that this is a bug?
+I&#39;ve been experiencing it in different distributions and several
+versions of the Linux kernel. As in several versions of ALSA.<br><br>Before
+you ask me, yes, I&#39;ve tried all the options associated with ALC662
+codec
+(<a href="http://www.mjmwired.net/kernel/Documentation/sound/alsa/HD-Audio-Models.txt">http://www.mjmwired.net/kernel/Documentation/sound/alsa/HD-Audio-Models.txt</a>)
+and the option mentioned above was that worked best.</p>
+<p style="margin-bottom: 0in;" lang="en-US"><br>
+</p>
+<p style="margin-bottom: 0in;" lang="en-US">I am a novice user of
+Linux. So I ask you for help. How could I help solve this problem?
+What is the right place to report this bug?<br><br>Thanks,<br></p><p style="margin-bottom: 0in;" lang="en-US"></p><p style="margin-bottom: 0in;" lang="en-US">Motherboard: ASUS M2N68-AM SE<br>Debian
+Lenny<br>Squeeze Debian / Sid</p><p style="margin-bottom: 0in;" lang="en-US"><br></p>
+
+--0016364ecbf29c4ddd048633ab6f--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2ze270ff421005091853hc17ade9fh64bf0df01abcf913@mail.csmining.org
+
+

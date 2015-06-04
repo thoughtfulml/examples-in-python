@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287985b133ec6c4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs521457wfb;
+        Sat, 8 May 2010 13:05:25 -0700 (PDT)
+Received: by 10.223.67.144 with SMTP id r16mr1884470fai.102.1273349124351;
+        Sat, 08 May 2010 13:05:24 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si4986147fay.31.2010.05.08.13.05.23;
+        Sat, 08 May 2010 13:05:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6F9C213A553E; Sat,  8 May 2010 20:05:20 +0000 (UTC)
+Old-Return-Path: <nsandschn@gmx.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E477F13A51E2
+	for <lists-debian-kde@liszt.debian.org>; Sat,  8 May 2010 20:05:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id z3SXSyRxZ8ju for <lists-debian-kde@liszt.debian.org>;
+	Sat,  8 May 2010 20:05:07 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by liszt.debian.org (Postfix) with SMTP id A51AB13A5175
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 20:05:01 +0000 (UTC)
+Received: (qmail invoked by alias); 08 May 2010 20:04:59 -0000
+Received: from g228208231.adsl.alicedsl.de (EHLO [192.168.1.4]) [92.228.208.231]
+  by mail.gmx.net (mp016) with SMTP; 08 May 2010 22:04:59 +0200
+X-Authenticated: #5476350
+X-Provags-ID: V01U2FsdGVkX18XqoZUBkEXNvcoV4bE78O+qW2qhnjpzw/rMbVnNm
+	wGRhCuYC6STXm7
+Message-ID: <4BE5C3E2.7070403@gmx.de>
+Date: Sat, 08 May 2010 22:04:50 +0200
+From: Niko Sandschneider <nsandschn@gmx.de>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-kde@lists.debian.org
+Subject: Re: Automount HDD KDE 4.4 Problem
+References: <x2me270ff421005080926v8d0fed57kbfb7a25a5adba7bf@mail.csmining.org> <201005081843.43186.didi.debian@cknow.org>
+In-Reply-To: <201005081843.43186.didi.debian@cknow.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Y-GMX-Trusted: 0
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <NS8TGRZeCZN.A.EOC.AQc5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32284
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 20:05:20 +0000 (UTC)
+
+On 2010-05-08 Leonardo Meira wrote:
+>> Dolphin does not mount my other hard drives. They appear in "places" but
+>> when I click I get a message
+>> ""org.freedesktop.Hal.Device.Volume.PermissionDenied: Refusing to mount
+>> device /dev/sdaX for uid = 1000"". I tried, as read in other forums, create
+>> a configuration file for Polkit but in vain.
+>> I also saw that this is a common problem in other Distros, possibly a
+>> problem with KDE 4.4.
+>>
+>>      
+The upstream bug report is at 
+https://bugs.kde.org/show_bug.cgi?id=219996 in case you want to vote for 
+it :)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE5C3E2.7070403@gmx.de
+
+

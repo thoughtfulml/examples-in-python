@@ -1,0 +1,173 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286f1c374486d3c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs413556wfb;
+        Thu, 6 May 2010 12:34:00 -0700 (PDT)
+Received: by 10.223.19.87 with SMTP id z23mr7164075faa.7.1273174439543;
+        Thu, 06 May 2010 12:33:59 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t12si640016fah.66.2010.05.06.12.33.59;
+        Thu, 06 May 2010 12:33:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 79D9413A5693; Thu,  6 May 2010 19:33:57 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1B3A513A5676
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 19:33:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id G3yY+hczzxOP for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 19:33:43 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id AF68F13A5664
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 19:33:43 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1OA6pJ-0000vy-2P
+	for debian-kde@lists.debian.org; Thu, 06 May 2010 22:33:41 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 22:33:40 +0300
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-amd64; KDE/4.4.3; x86_64; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005060007.16669.suy@badopi.org> <201005051813.50627.bss@iguanasuicide.net>
+In-Reply-To: <201005051813.50627.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart5616742.Iahe7PrQS2";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005062233.40618.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8huGdIvopkC.A.DqE.lmx4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32181
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 19:33:57 +0000 (UTC)
+
+--nextPart5616742.Iahe7PrQS2
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 02:13:50 Boyd Stephen Smith Jr. =
+wrote:
+> > Debian packagers don't have that much time to spend on packaging (they
+> > are volunteers after all), and hardly they can do decisions about which
+> > particular branch is better.
+> > They have to package the last one which has
+> >=20
+> >  been released, unless has been released very soon and there is no time
+> >  for testing.
+>=20
+> Stable is going to be with those users for at least a year, probably more.
+> They deserve more than whatever upstream wants to throw at the wall this
+> week.
+
+Debian users deserve quality packaging of upstream software, good integrati=
+on=20
+of it throughout the whole distribution and general assumption that it won'=
+t=20
+eat their kittens (yet data loss bugs happen). But whether upstream softwar=
+e=20
+meets users' needs is out of Debian scope. Just find another software/solut=
+ion=20
+which does, develop it by yourself, pay somebody to develop it for you or a=
+sk=20
+kindly and wait till somebody else is motivated enough to do it.
+
+> >  Also, is specially hard to decide which branch is better, because
+> >  branch A can have application X in a great shape, and application Y in=
+ a
+> >  bad one, while in branch B the case might be the opposite. And having =
+to
+> >  go back one whole release of the whole software compilation just becau=
+se
+> >  one app has one annoying dependency is a little bit overkill, isn't it?
+>=20
+> Just block the KDEPIM 4.4 apps from migrating to testing.  The KDEPIM 4.3
+> programs already work with the KDEBASE 4.4 libraries.
+>=20
+> Heck, just stop *kmail* from migrating.  Korganizer and KAddressBook have
+> required Akonadi since 4.2 or earlier.
+
+Move on. kdepim 4.3 is gone. Given that KDE SC 4.5 might release with kdepi=
+m=20
+from 4.4 anyway extending kdepim 4.4 codebase lifetime to 1 year, beating d=
+ead=20
+horse (4.3) makes absolutely no sense. I recommend you to face reality here.
+
+> These responses are quite frustrating.  I read Ana's post as "please make
+> sure KDE 4.4 is ready for stable".  My post was "KDE 4.4 is inappropriate
+> for stable".  All the replies have been "too bad, we are going to release
+> it anyway".
+
+Don't you see that you always put yourself in the front in your rationales?=
+=20
+YOU run a dozen of DB servers, YOU don't want another one, YOU don't trust=
+=20
+MySQL, YOU say KDE 4.4 is inappropriate for stable. Nothing objective and Y=
+OU=20
+assume that your truth is an ultimate one. Pet bugs are always RC to the=20
+reporter, but yet again, we need to face reality here. If YOU have so many=
+=20
+problems with particular piece of software, look for better options or read=
+=20
+the first part of this mail again.
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart5616742.Iahe7PrQS2
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvjGZQACgkQHO9JRnPq4hQwNQCeOstFKXUdBC7S56fOojhi3ENE
+UKIAoMvweBx7Je8/mU/4zfP4Q0M3IKEp
+=i7po
+-----END PGP SIGNATURE-----
+
+--nextPart5616742.Iahe7PrQS2--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005062233.40618.modestas@vainius.eu
+
+

@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId12802fbad63a2753
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs74385wfa;
+        Thu, 15 Apr 2010 12:39:29 -0700 (PDT)
+Received: by 10.102.174.39 with SMTP id w39mr393328mue.20.1271360368122;
+        Thu, 15 Apr 2010 12:39:28 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u9si9906548muf.36.2010.04.15.12.39.27;
+        Thu, 15 Apr 2010 12:39:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1557A13A5B75; Thu, 15 Apr 2010 19:39:17 +0000 (UTC)
+Old-Return-Path: <celejar@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8E6E313A5B59
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 19:39:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id td6rU1BZK1Ae for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 19:39:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 2242213A5AAA
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 19:39:03 +0000 (UTC)
+Received: by wyf23 with SMTP id 23so820454wyf.6
+        for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 12:38:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:in-reply-to:references:x-mailer:mime-version
+         :content-type:content-transfer-encoding;
+        bh=CfZQFF+wfbBavq4rA9yiVUSUKyuDY1NsIFH1VlD0qgM=;
+        b=o7e44ImlDG338iIcqEPqc8ZOJlgENeInkkvSPnRt0/8GRg+duXCZE8wx3MgVKaQ3fX
+         fuw/PjVWhHQSkUp6NRfKjr1XfjiyPeBRFOjGGNraWvWTMEH8ECes8AOMDWozCbRYusPp
+         D67sM555QalpED6bkTtcCmV5kVe9yGiFdoNwc=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:in-reply-to:references:x-mailer
+         :mime-version:content-type:content-transfer-encoding;
+        b=Kox4Ar5yccHNmukVUtS18RYWZvKhPQVtBVFZsqs2dwGrMMu9gYhd5WXjJKLuPtOmLH
+         9BIvCYpMFV6pWqgRtFgqyUirRx6nLCBpLps+fFDITp4RDnDGRVgHzQCTHVPM3LcQfzZH
+         1tjn3wYNyL8bFqQEI+5tVZB5aEtW/xasQHvGg=
+Received: by 10.216.164.132 with SMTP id c4mr575029wel.15.1271360335826;
+        Thu, 15 Apr 2010 12:38:55 -0700 (PDT)
+Received: from localhost.localdomain (ool-43524048.dyn.optonline.net [67.82.64.72])
+        by mx.google.com with ESMTPS id t27sm14170278wbc.5.2010.04.15.12.38.54
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Thu, 15 Apr 2010 12:38:55 -0700 (PDT)
+Date: Thu, 15 Apr 2010 15:38:53 -0400
+From: Celejar <celejar@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: Does Linux respect gratuitous arp replies?
+Message-Id: <20100415153853.f46e5f69.celejar@csmining.org>
+In-Reply-To: <20100415143303.GQ24320@axel>
+References: <20100414172031.0de7cecb.celejar@csmining.org>
+	<20100415143303.GQ24320@axel>
+X-Mailer: Sylpheed 3.0.1 (GTK+ 2.20.0; i486-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <j3SstvmvWjL.A.mdD.lt2xLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574199
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 19:39:17 +0000 (UTC)
+
+On Thu, 15 Apr 2010 16:33:03 +0200
+Axel Freyn <axel-freyn@gmx.de> wrote:
+
+> Hi Celejar,
+> On Wed, Apr 14, 2010 at 05:20:31PM -0400, Celejar wrote:
+> > Does Linux respect gratuitous arp replies?  This page claims that it
+> > does:
+> > 
+> > Linux kernels will respect gratuitous ARP frames.
+> > 
+> > http://linux-ip.net/html/ether-arp.html
+> 
+> It depends on your configuration:
+> 
+> If you do:
+> 
+> echo 1 > /proc/sys/net/ipv4/conf/all/arp_accept
+> 
+> it will accept them.
+> 
+> With
+> 
+> echo 0 > /proc/sys/net/ipv4/conf/all/arp_accept
+> 
+> they are ignored.
+
+Thanks much for this information.  I see that it's currently set
+(default?  I don't recall ever touching this setting) to 0, so that may
+have been the problem.  I don't have access to the other system
+currently, but I'll certainly check whether changing this works, when I
+get a chance.
+
+Thanks again,
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415153853.f46e5f69.celejar@csmining.org
+
+

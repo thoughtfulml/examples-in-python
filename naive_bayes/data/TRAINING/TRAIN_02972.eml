@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId12849cd8b4117c70
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs25564wfj;
+        Thu, 29 Apr 2010 06:44:38 -0700 (PDT)
+Received: by 10.142.59.13 with SMTP id h13mr5362363wfa.168.1272548526794;
+        Thu, 29 Apr 2010 06:42:06 -0700 (PDT)
+Return-Path: <bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 4si1253363pzk.46.2010.04.29.06.42.06;
+        Thu, 29 Apr 2010 06:42:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 64C811C098726
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 06:42:06 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 60150273C35F9
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 06:42:06 -0700 (PDT)
+X-Original-To: bluetooth-dev@lists.apple.com
+Delivered-To: bluetooth-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 6C58A273C35C5
+	for <bluetooth-dev@lists.apple.com>;
+	Thu, 29 Apr 2010 06:42:03 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 5CBAFD72D0A2
+	for <bluetooth-dev@lists.apple.com>;
+	Thu, 29 Apr 2010 06:42:03 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-1b-4bd98ca8cea1
+Authentication-Results: mail-in13.apple.com x-tls.subject="/CN=gws01";
+	auth=fail (cipher=AES128-SHA)
+Received: from gwse.ethz.ch (gwse.ethz.ch [129.132.178.238])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client CN "gws01", Issuer "ETH Zurich D.ETHZ.CH" (not verified))
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	BC.88.17067.AAC89DB4; Thu, 29 Apr 2010 06:42:03 -0700 (PDT)
+Received: from CAS01.d.ethz.ch (129.132.178.235) by gws01.d.ethz.ch
+	(129.132.178.238) with Microsoft SMTP Server (TLS) id 8.2.254.0;
+	Thu, 29 Apr 2010 15:41:59 +0200
+Received: from spinoff-dybuster-als-misc-1-136.ethz.ch (129.132.178.136) by
+	mail.ethz.ch (129.132.178.227) with Microsoft SMTP Server (TLS) id
+	8.2.254.0; Thu, 29 Apr 2010 15:41:58 +0200
+MIME-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset="us-ascii"
+From: Matthias Ringwald <mringwal@inf.ethz.ch>
+In-Reply-To: <81E61A0C-E692-4D0A-961E-5F980C586B59@mac.com>
+Date: Thu, 29 Apr 2010 15:41:58 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <DBEC4842-58D1-4494-B9F5-D2D548B1DE0F@inf.ethz.ch>
+References: <20100428190117.B45122736C0B8@lists.apple.com>
+	<9D76C1FE-A565-4811-BE60-FF1F07FC147A@mac.com>
+	<AFE102B5-BB9D-4B62-824C-893BE11D483E@inf.ethz.ch>
+	<8C52F2FD-0359-4AF9-9EF8-D367F9002521@mac.com>
+	<154385B5-9089-4055-B1EE-88D470F19AC4@inf.ethz.ch>
+	<81E61A0C-E692-4D0A-961E-5F980C586B59@mac.com>
+To: David Giovannini <dsjove@mac.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: bluetooth-dev@lists.apple.com
+Subject: Re: Bluetooth-dev Digest, Vol 7, Issue 13
+X-BeenThere: bluetooth-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "Mailing list for Bluetooth developer discussion."
+	<bluetooth-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:bluetooth-dev@lists.apple.com>
+List-Help: <mailto:bluetooth-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=subscribe>
+Sender: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi David
+
+interesting software architecture discussion... :)
+
+On Apr 29, 2010, at 2:10 PM, David Giovannini wrote:
+
+>=20
+> On Apr 29, 2010, at 2:00 AM, Matthias Ringwald wrote:
+>=20
+>> On 29.04.2010, at 08:11, David Giovannini wrote:
+>>>>=20
+>>>> In BTnut, the first Bluetooth stack I was involved, we used =
+separate threads for different Bluetooth layers and protocols, but in =
+the end, the required thread synchronization was just creating =
+unnecessary problems. In my new Bluetooth stack called BTstack =
+(btstack.org), the Bluetooth daemon runs in a single thread which can =
+handle any number of clients. So far this seems to be the right choice, =
+both for portability and for implementation ease.
+>>>=20
+>>> Yes, I want that single dedicated thread for BT. Forcing the client =
+of the BT library to share the same thread as BT service is the problem.
+>>>=20
+>>=20
+>> I would argue that this depends on the "contract" you provide for =
+your library (also, I did not know you have to provide one in the first =
+place).=20
+>=20
+> Every library has implicit and explicit contracts. Forcing a threading =
+model that eliminates the possibility to wait on a response is a =
+contract that reduces usefulness (and could dramatically increase client =
+code).
+
+Yup. I do agree here, however, e.g., the Cocoa(Touch) Framework already =
+requires "no blocking, all user interface operation on the main thread". =
+If Apple then says: "all your Bluetooth communication has to be on the =
+main thread, too", it does not restrict the rules set up by the Cocoa =
+Framework any further. So, if rules for apps are already set by the OS, =
+your library would not restrict anything by saying it must be started =
+from the main loop and the main loop cannot block.
+
+>>=20
+>> E.g., BTstack uses unix domain sockets to handle communication =
+between the clients and the single Bluetooth daemon. To support the =
+domain socket,=20
+>> the Cocoa(Touch) implementation registers a CFSocket that is wrapped =
+into a CFRunLoopSource and added to the main run loop. So although it is =
+a library, the communication with the server is on the main thread - not =
+that it would matter for socket communication, but it fits nicely with =
+the pure select()-based runloop for non-GUI applications. The WiiMote =
+OpenGL ES Demo (http://www.youtube.com/watch?v=3D3FPHpMonoC8) is =
+single-threaded without extra tricks.
+>=20
+> Would it be possible to register the CFRunLoopSource into another =
+thread's runloop?
+Are you asking about BTstack? If yes: the BTstack client  library does =
+not provide a way to choose a run loop, but as it is only using =
+thread-safe socket functions, that could run on any given thread. If =
+there is a clear need for such a feature, I would't mind adding a "set =
+default runloop" function. Would that help you in any way?
+
+Best=20
+Matthias=20=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

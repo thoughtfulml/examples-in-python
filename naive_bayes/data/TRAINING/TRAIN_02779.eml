@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280d1520c69a003
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs25279wfj;
+        Sat, 17 Apr 2010 11:43:29 -0700 (PDT)
+Received: by 10.87.63.21 with SMTP id q21mr2504345fgk.52.1271529808184;
+        Sat, 17 Apr 2010 11:43:28 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si6739743fkt.49.2010.04.17.11.43.27;
+        Sat, 17 Apr 2010 11:43:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B307E13A5BE6; Sat, 17 Apr 2010 18:43:22 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 71E5613A5B37
+	for <lists-debian-user@liszt.debian.org>; Sat, 17 Apr 2010 18:43:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2Sb7iUYb2UgH for <lists-debian-user@liszt.debian.org>;
+	Sat, 17 Apr 2010 18:43:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 1843D13A4D55
+	for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 18:43:10 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O3Cyu-00078j-VZ
+	for debian-user@lists.debian.org; Sat, 17 Apr 2010 20:43:04 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 20:43:04 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 20:43:04 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: How to play 3gp audio files?
+Date: Sat, 17 Apr 2010 18:42:56 +0000 (UTC)
+Lines: 58
+Message-ID: <pan.2010.04.17.18.42.56@csmining.org>
+References: <20100416190000.GA12338@s70206.gridserver.com>
+	<pan.2010.04.16.19.19.32@csmining.org>
+	<20100417175210.GA1483@s70206.gridserver.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dDIskF6xrSK.A.gLD.KFgyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574336
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 17 Apr 2010 18:43:22 +0000 (UTC)
+
+On Sat, 17 Apr 2010 10:52:10 -0700, John Magolske wrote:
+
+> I installed the amrnb package from the multimedia repo, but it didn't
+> help. 
+
+
+Wow :-(
+
+
+> I also installed the OpenCORE AMR libraries to /usr/local/lib as
+> recommended on the Mplayer site:
+> 
+>     MPlayer can use the OpenCORE AMR libraries through FFmpeg. Download
+>     the libraries for AMR-NB and AMR-WB from the opencore-amr project
+>     and install them according to the instructions on that page.
+>     http://www.mplayerhq.hu/DOCS/HTML/en/codec-installation.html
+>     http://sourceforge.net/projects/opencore-amr/
+> 
+> But that didn't help. 
+
+
+Ouch! :-(
+
+
+> Also built ffmpeg from source as suggested here:
+> http://ubuntuforums.org/showthread.php?t=178455 and did this:
+> 
+>     svn checkout svn://svn.mplayerhq.hu/ffmpeg/trunk ffmpeg ./configure
+>     --enable-libopencore-amrnb --enable-version3 make
+>     make install
+
+
+Mmm, those instructions seems pretty old (2006-2007), maybe something has 
+changed since then.
+ 
+> That didn't help either, keep getting "Cannot find codec 'libamr_nb' in
+> libavcodec..." still searching around the www to see what I can find.
+
+Two more hints:
+
+1/ The error message you got was:
+
+***
+(...)
+Cannot find codec for audio format 0x726D6173.
+Read DOCS/HTML/en/codecs.html!
+***
+
+So follow their wise advice and take a look into that doc file. 
+
+2/ Dunno if you already installed the mpeg/ffmpeg versions from "debian-
+multimedia" repo, as Ron already pointed out. That could be another thing 
+you can test.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.17.18.42.56@csmining.org
+
+

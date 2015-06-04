@@ -1,0 +1,190 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284dd42e569d00c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs79808wfj;
+        Fri, 30 Apr 2010 01:27:52 -0700 (PDT)
+Received: by 10.87.53.28 with SMTP id f28mr3358241fgk.70.1272616071105;
+        Fri, 30 Apr 2010 01:27:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si2421720fks.53.2010.04.30.01.27.50;
+        Fri, 30 Apr 2010 01:27:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BA05513A4A80; Fri, 30 Apr 2010 08:27:45 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CD8A813A4766
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 08:27:39 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id RErCzDlmOXEJ for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 08:27:32 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 876EB13A498D
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 08:27:32 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1603744fxm.6
+        for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 01:27:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=7UNXJumIdI1mvwtnm1jvtnxHGR+7qijoRsCVc2yrh/g=;
+        b=T9S91dSs+OhCQwq8XqeoP04ArGPv0ZJNhtyVKuv172JSHiozAxWNgyBkAGlvlPG6Uj
+         RNeR2UIe9hvJSr+AdmhAr66mSdpYUa63Lhx4GlwZ7GM5lvsSGS34uOy3LP5IGURRzP5L
+         LJfmZ5mYyqEjpivSda7FjTB4kxm2P4mjw+g4k=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=L2pHC3rp0oDWeaKl3Or2n8Btbon64OF88fIgotgUHbSwx2CjO963n6fzIxkbfj3TFg
+         cVlTgGEQMpz2Jifc/yruz7tF97aTS/XmwWKdB3wEcTeNh3nrzU949ZzJIbsNmf2jwooL
+         LetfmHNwh1F7LeLUOG3NDyl9JBIGSRWte4Uos=
+MIME-Version: 1.0
+Received: by 10.223.72.156 with SMTP id m28mr1228341faj.26.1272616047229; Fri, 
+	30 Apr 2010 01:27:27 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Fri, 30 Apr 2010 01:27:26 -0700 (PDT)
+In-Reply-To: <pan.2010.04.30.08.15.37@csmining.org>
+References: <o2ib36d43c31004291227o21734bfenee035d037cec4a2e@mail.csmining.org>
+	 <pan.2010.04.29.19.45.06@csmining.org>
+	 <g2zb36d43c31004291246lbf15fd0ama7e0505e4b4d5d1a@mail.csmining.org>
+	 <pan.2010.04.29.20.03.03@csmining.org>
+	 <h2mb36d43c31004291306gb845a4d5re17c730e273610d0@mail.csmining.org>
+	 <pan.2010.04.29.20.15.51@csmining.org>
+	 <u2pb36d43c31004291320ue7e1334dyb7e1343c78e830c8@mail.csmining.org>
+	 <pan.2010.04.29.21.05.08@csmining.org>
+	 <p2ob36d43c31004300105wa93b93cfq61e1b290a3022480@mail.csmining.org>
+	 <pan.2010.04.30.08.15.37@csmining.org>
+Date: Fri, 30 Apr 2010 10:27:26 +0200
+Message-ID: <r2yb36d43c31004300127q8adf79dan4640c1148027b04e@mail.csmining.org>
+Subject: Re: Making onscreen fonts read-able[was:New monitor, how to change 
+	screen resolution?]
+From: James Stuckey <jhstuckey@csmining.org>
+To: =?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0015174a05426e54e30485700399
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <q55xaGc9njK.A.SpD.BSp2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575529
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 08:27:45 +0000 (UTC)
+
+--0015174a05426e54e30485700399
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Apr 30, 2010 at 10:15 AM, Camale=F3n <noelamac@csmining.org> wrote:
+
+> On Fri, 30 Apr 2010 10:05:42 +0200, James Stuckey wrote:
+>
+> >> Can you please upload a snapshot so we can see what you get?
+> >>
+> >>
+> > http://www.jhstuckey.com/1080.jpeg
+> >
+> > Does that look right to you?
+>
+> Mmmm, yes, nothing strange :-?. I bit "big" for my taste...
+>
+> Do you find the font of the toolbar is still "small"? Then instead 96dpi
+> set to 120dpi, that will make things "bigger".
+>
+> Greetings,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/pan.2010.04.30.08.15.37@csmining.org
+>
+>
+Doing "xrandr --dpi 120", logging out of wmii and logging back in doesn't
+change anything.
+
+Maybe the problem I perceived in the text on screen is just how the monitor
+displays.
+
+--0015174a05426e54e30485700399
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Fri, Apr 30, 2010 at 10:15 AM, Camale=
+=F3n <span dir=3D"ltr">&lt;<a href=3D"mailto:noelamac@csmining.org">noelamac@g=
+mail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; p=
+adding-left: 1ex;">
+<div><div></div><div class=3D"h5">On Fri, 30 Apr 2010 10:05:42 +0200, James=
+ Stuckey wrote:<br>
+<br>
+&gt;&gt; Can you please upload a snapshot so we can see what you get?<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt; <a href=3D"http://www.jhstuckey.com/1080.jpeg" target=3D"_blank">http:=
+//www.jhstuckey.com/1080.jpeg</a><br>
+&gt;<br>
+&gt; Does that look right to you?<br>
+<br>
+</div></div>Mmmm, yes, nothing strange :-?. I bit &quot;big&quot; for my ta=
+ste...<br>
+<br>
+Do you find the font of the toolbar is still &quot;small&quot;? Then instea=
+d 96dpi<br>
+set to 120dpi, that will make things &quot;bigger&quot;.<br>
+<div class=3D"im"><br>
+Greetings,<br>
+<br>
+--<br>
+Camale=F3n<br>
+<br>
+<br>
+--<br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-user-REQUEST@lists.debian=
+.org">debian-user-REQUEST@lists.debian.org</a><br>
+with a subject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mail=
+to:listmaster@lists.debian.org">listmaster@lists.debian.org</a><br>
+</div>Archive: <a href=3D"http://lists.debian.org/pan.2010.04.30.08.15.37@g=
+mail.com" target=3D"_blank">http://lists.debian.org/pan.2010.04.30.08.15.37=
+@csmining.org</a><br>
+<br>
+</blockquote></div><br>Doing &quot;xrandr --dpi 120&quot;, logging out of w=
+mii and logging back in doesn&#39;t change anything.<br><br>Maybe the probl=
+em I perceived in the text on screen is just how the monitor displays. <br>
+
+--0015174a05426e54e30485700399--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2yb36d43c31004300127q8adf79dan4640c1148027b04e@mail.csmining.org
+
+

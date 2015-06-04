@@ -1,0 +1,137 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287fc563cecc038
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs573533wfb;
+        Sun, 9 May 2010 18:12:43 -0700 (PDT)
+Received: by 10.223.99.212 with SMTP id v20mr3516470fan.44.1273453962206;
+        Sun, 09 May 2010 18:12:42 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si7336355fah.47.2010.05.09.18.12.41;
+        Sun, 09 May 2010 18:12:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id EDBC013A549F; Mon, 10 May 2010 01:12:33 +0000 (UTC)
+Old-Return-Path: <dulist@noark.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RERE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DF79B13A533B
+	for <lists-debian-user@liszt.debian.org>; Mon, 10 May 2010 01:12:27 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RERE=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Nb6imtBFN303 for <lists-debian-user@liszt.debian.org>;
+	Mon, 10 May 2010 01:12:20 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.2
+Received: from homiemail-a20.g.dreamhost.com (caiajhbdcbhh.dreamhost.com [208.97.132.177])
+	by liszt.debian.org (Postfix) with ESMTP id 7E6DC13A532B
+	for <debian-user@lists.debian.org>; Mon, 10 May 2010 01:12:20 +0000 (UTC)
+Received: from [192.168.0.18] (102.237.dsl-dhcp.ytc.net [216.134.237.102])
+	(Authenticated sender: dlj_mailbox@noark.net)
+	by homiemail-a20.g.dreamhost.com (Postfix) with ESMTPA id F29BC7EC060
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 18:12:16 -0700 (PDT)
+Message-ID: <4BE75D6D.3010200@noark.net>
+Date: Sun, 09 May 2010 20:12:13 -0500
+From: Don <dulist@noark.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.18) Gecko/20081030 Iceape/1.1.13 (Debian-1.1.13-1)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Re: Password messed up
+References: <201005072325.22749.reidac@bellatlantic.net>
+In-Reply-To: <201005072325.22749.reidac@bellatlantic.net>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gQEn53AOtzK.A.At.B215LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576332
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 01:12:33 +0000 (UTC)
+
+>   Coming in late to this thread, but if your K desktop is OK,
+> then you actually have this problem quite well isolated to something
+> in the KDM log-in process. It's not X, and it's not your desktop
+> itself.
+> 
+>   By the time KDM has switched over to you, it's writing errors
+> into a file, ".xession-errors", in your home directory -- you can
+> check this for clues to what's going on.
+> 
+>   Another option is to blitz kdm's config files, and re-configure
+> or re-install the package.  I'm not familiar with how sid 
+> does this, but you can do "dpkg -L kdm", and look for files in
+> the /etc directory -- for the current Debian stable it's
+> /etc/kde3/kdm.  I suggest re-naming the analogous directory
+> (don't delete it, you might want it back), and then doing
+> "apt-get install --reinstall kdm", or whatever the analogous
+> operation is in aptitude or synaptic, if that's your preference,
+> which should re-build the configuration section.  That's likely
+> to fix it, at the cost of un-doing any customizations you've
+> done.
+> 
+>   If blitzing and re-building the kdm config fails, then it's
+> probably some kind of interaction between kdm and something else...
+> 
+> 				-- A.
+> -- 
+> Andrew Reid / reidac@bellatlantic.net
+
+Hi Andrew,
+
+Thanks for jumping in here.  I've tried the following:
+
+1. I have no ".xsession-errors" (or ".xession-errors") in my home 
+directory or that of any other user.
+
+2. It appears the configuration files for kde4 are found under 
+"/usr/share/kde4/config" and also "/etc/kde4/kdm/".  I tried moving the 
+"config" directory to an obscure location and the doing the "apt-get 
+install --reinstall kdm".  It regenerated the config directory but no 
+change in login.
+
+3. I found that under /user/bin (when doing the dpkg -L kdm) there is a 
+file "genkdmconf" which looked promising.  Reading the help file for it 
+and executing "genkdmconf -no-old", the files under /etc/kde4/kdm were 
+backed up and new ones regenerated.  Now, I get a different login screen 
+background, but the action is still the same -- does not accept my 
+password.  I can still use the "console login" option of that screen and 
+get to the CLI login and doing so still allows me to startx and get 
+things going.
+
+So it appears that your last paragraph applies.  I'll be glad to try 
+(almost) anything you or anyone else suggests on this.
+
+(I am also, per my previous message, starting another thread for the 
+symbol not found problem I have in trying to get some applications 
+running (synaptic, iceape, geany to name a few).)
+
+Regards,
+Don
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE75D6D.3010200@noark.net
+
+

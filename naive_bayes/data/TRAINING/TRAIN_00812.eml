@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId128697a76de6a52a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs342612wfb;
+        Wed, 5 May 2010 10:19:14 -0700 (PDT)
+Received: by 10.223.23.83 with SMTP id q19mr5683751fab.12.1273079953342;
+        Wed, 05 May 2010 10:19:13 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k29si96214fkk.45.2010.05.05.10.19.12;
+        Wed, 05 May 2010 10:19:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4DD7513A54F3; Wed,  5 May 2010 17:19:06 +0000 (UTC)
+Old-Return-Path: <dpaschal@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0518813A54C1
+	for <lists-debian-user@liszt.debian.org>; Wed,  5 May 2010 17:19:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, SARE_MSGID_LONG45=0.893]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 9WTOrnrq5b5O for <lists-debian-user@liszt.debian.org>;
+	Wed,  5 May 2010 17:18:49 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id 5F26913A54EB
+	for <debian-user@lists.debian.org>; Wed,  5 May 2010 17:18:49 +0000 (UTC)
+Received: by gya1 with SMTP id 1so2143145gya.6
+        for <debian-user@lists.debian.org>; Wed, 05 May 2010 10:18:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type;
+        bh=4c26nrP7iOSzF7ck3ptRqTdTKflGHzb90MGqQBkO7dk=;
+        b=ZoGtvQGpsP4tkJcUUrqmpkCv0xZFfNtjqRF6fdDfZ9q0K8vXJG6yNIk4Sa9utH+204
+         RjopDM8Nnajly7GpPNDRoxSXZvAefY/m249gBq9wRDSOs28q7V+H3usur1e7ngIvlxTF
+         kmtWek2Y6My00nx82Mhw8NYBWN85Z5x4eEaEI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=euvt4GqWzkhYyZa2CPRu5gOfM78AV1AidcKZuB8sSZRKrtbFk/8zsWW4BeGHVFTQTZ
+         PX9ZG7FUrri4nMM2/EwCyMA75YxSazY4dfjbAuzmreQvC7NRTKmZRrsQCSWHpP+kYPq5
+         ZzpbehqMf8mei9upqcyn0qFyI+8WwlJhTT0gM=
+MIME-Version: 1.0
+Received: by 10.231.171.79 with SMTP id g15mr1503092ibz.75.1273079921718; Wed, 
+	05 May 2010 10:18:41 -0700 (PDT)
+Received: by 10.231.17.10 with HTTP; Wed, 5 May 2010 10:18:41 -0700 (PDT)
+Date: Wed, 5 May 2010 13:18:41 -0400
+Message-ID: <v2r9b249e7f1005051018v291de90bg46567a02d12fc289@mail.csmining.org>
+Subject: GRUB2 resolution
+From: Drew Paschal <dpaschal@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=001636d33a3c813a950485dc0412
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Twn729AqYVJ.A.lMB.Kia4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575915
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 17:19:06 +0000 (UTC)
+
+--001636d33a3c813a950485dc0412
+Content-Type: text/plain; charset=ISO-8859-1
+
+I have looked around on google and found some documentation to set the
+resolution within grub2 but some of the explanations are a bit vague.  Can
+someone post a clear and concise way of doing this?  When I tried the ones I
+found on google, I managed to make the box not boot anymore.
+
+--001636d33a3c813a950485dc0412
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+I have looked around on google and found some documentation to set the reso=
+lution within grub2 but some of the explanations are a bit vague.=A0 Can so=
+meone post a clear and concise way of doing this?=A0 When I tried the ones =
+I found on google, I managed to make the box not boot anymore.<br>
+
+--001636d33a3c813a950485dc0412--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2r9b249e7f1005051018v291de90bg46567a02d12fc289@mail.csmining.org
+
+

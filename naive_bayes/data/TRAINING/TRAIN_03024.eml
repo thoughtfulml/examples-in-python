@@ -1,0 +1,428 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c3f3c4c6026c8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs51766wfo;
+        Sat, 22 May 2010 23:57:33 -0700 (PDT)
+Received: by 10.223.33.218 with SMTP id i26mr3304327fad.58.1274597852366;
+        Sat, 22 May 2010 23:57:32 -0700 (PDT)
+Return-Path: <bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n24si3929173faa.86.2010.05.22.23.57.31;
+        Sat, 22 May 2010 23:57:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 78C8613A5946; Sun, 23 May 2010 06:56:59 +0000 (UTC)
+Old-Return-Path: <tolimar@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.7 required=4.0 tests=ALL_TRUSTED,FOURLA,
+	HEADER_SPAM,IMPRONONCABLE_1,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD2,
+	PHONENUMBER,SARE_HEAD_HDR_APPROV autolearn=failed version=3.2.5
+X-Original-To: lists-debian-announce@liszt.debian.org
+Delivered-To: lists-debian-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BB3F813A52A1
+	for <lists-debian-announce@liszt.debian.org>; Sun, 23 May 2010 06:56:53 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+X-AmavisStatus: No, score=-1.787 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1, HEADER_SPAM=3.396,
+	IMPRONONCABLE_1=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD2=0.2,
+	PHONENUMBER=1.5, SARE_HEAD_HDR_APPROV=0.817] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4fIhCzTh10N3
+	for <lists-debian-announce@liszt.debian.org>;
+	Sun, 23 May 2010 06:56:45 +0000 (UTC)
+Received: from melusine.alphascorpii.net (cl-961.dus-01.de.sixxs.net [IPv6:2a01:198:200:3c0::2])
+	by liszt.debian.org (Postfix) with ESMTP id EB18813A523C
+	for <debian-announce@lists.debian.org>; Sun, 23 May 2010 06:56:44 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by melusine.alphascorpii.net (Postfix) with ESMTP id BCA9085EB18
+	for <debian-announce@lists.debian.org>; Sun, 23 May 2010 08:56:42 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at melusine.alphascorpii.net
+Received: from melusine.alphascorpii.net ([127.0.0.1])
+	by localhost (melusine.alphascorpii.net [127.0.0.1]) (amavisd-new, port 10026)
+	with LMTP id HncipULItGBk for <debian-announce@lists.debian.org>;
+	Sun, 23 May 2010 08:56:41 +0200 (CEST)
+Received: by melusine.alphascorpii.net (Postfix, from userid 1001)
+	id 040DD87F222; Sun, 23 May 2010 08:56:41 +0200 (CEST)
+Date: Sun, 23 May 2010 08:56:40 +0200
+From: Alexander Reichle-Schmehl <tolimar@debian.org>
+To: debian-announce@lists.debian.org
+Subject: Debian GNU/Linux 4.0 updated
+Message-ID: <20100523065640.GB3233@melusine.alphascorpii.net>
+Mail-Followup-To: debian-announce@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-15
+Content-Disposition: inline
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BSdJBpp3HaM.A.bXH.7GN-LB@liszt>
+Resent-From: debian-announce@lists.debian.org
+X-Mailing-List: <debian-announce@lists.debian.org> archive/latest/128
+X-Loop: debian-announce@lists.debian.org
+List-Id: <debian-announce.lists.debian.org>
+List-Post: <mailto:debian-announce@lists.debian.org>
+List-Help: <mailto:debian-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-announce-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 06:56:59 +0000 (UTC)
+
+-------------------------------------------------------------------------
+The Debian Project                                 http://www.debian.org/
+Debian GNU/Linux 4.0 updated                             press@debian.org
+May 22nd, 2010                   http://www.debian.org/News/2010/20100522
+-------------------------------------------------------------------------
+
+Debian GNU/Linux 4.0 updated
+
+The Debian project is pleased to announce the ninth and final update of
+its oldstable distribution Debian GNU/Linux 4.0 (codename "etch").
+
+This update incorporates all security updates which have been released
+for the oldstable release since the previous point release, with one
+exception which it was unfortunately not possible to include, together
+with a few adjustments to serious problems.
+
+PLEASE NOTE: Security support for the oldstable distribution ended in
+February 2010 [1] and no updates have been released since that point.
+
+  1: http://www.debian.org/News/2010/20100121
+
+Those who frequently install updates from security.debian.org won't
+have to update many packages and most updates from security.debian.org
+are included in this update.
+
+New CD and DVD images containing updated packages and the regular
+installation media accompanied with the package archive respectively
+will be available soon at the regular locations.
+
+Upgrading to this revision online is usually done by pointing the
+aptitude (or apt) package tool (see the sources.list(5) manual page) to
+one of Debian's many FTP or HTTP mirrors.  A comprehensive list of
+mirrors is available at:
+
+    <http://www.debian.org/distrib/ftplist>
+
+Please note that the oldstable distribution will be moved from the main
+archive to the archive.debian.org repository after June 6th 2010.
+After this move, it will no longer be available from the main mirror
+network.  More information about the distribution archive and a list of
+mirrors is available at:
+
+    <http://www.debian.org/distrib/archive>
+
+
+Miscellaneous Bugfixes
+----------------------
+
+This oldstable update adds a few important corrections to the following
+packages:
+
+    Package                                      Reason
+
+    backup-manager         Fix disclosure of MySQL passwords to local users
+    binutils               Add mips support for ".set symbol,value" gas syntax
+    fam                    Fix 100% CPU usage in famd
+    fetchmail              Fix potential MITM against APOP and potential DoS
+    freedoom               Remove copyright-violating material
+    glibc                  Fix incorrect libc6-amd64 dependency
+    gnupg                  Fix memory leak and cleanup terminal on interrupt
+    irssi                  Fix out of bounds access
+    kazehakase             Disallow adding bookmarks for data:/javascript: URIs
+    linux-2.6              Several vulnerabilities
+    linux-2.6.24           Several vulnerabilities
+    mksh                   Fix unauthenticated local privilege escalation
+    mt-daapd               Update the embedded prototype.js to fix security issues
+    openafs                Don't create invalid pointers to kernel memory when handling errors
+    openssl                Deprecate MD2 hash signatures and fix several DoS vulnerabilities
+    serveez                Fix remote buffer overflow
+    tetex-bin              Don't fail when LaTeX is more than five years old
+    texlive-bin            Don't fail when LaTeX is more than five years old
+    texlive-extra          Don't fail when LaTeX is more than five years old
+    texlive-lang           Don't fail when LaTeX is more than five years old
+    wordpress              Fix DoS via long title and specially constructed charset parameter
+    xcftools               Fix crash with files containing negative co-ordinates
+
+
+Debian Installer
+----------------
+
+The Debian Installer has been updated in this point release to offer
+better support for installation of the "oldstable" distribution and
+from archive.debian.org and to resolve issues with checking the GPG
+signatures of some files on mirror servers.
+
+The kernel image used by the installer has been updated to incorporate
+a number of important and security-related fixes.
+
+
+Security Updates
+----------------
+
+This revision adds the following security updates to the oldstable
+release.  The Security Team has already released an advisory for each
+of these updates:
+
+    Advisory ID    Package                 Correction(s)
+
+    DSA-1617       refpolicy               Incompatible policy from previous DSA
+    DSA-1622       newsx                   Arbitrary code execution
+    DSA-1748       libsoup                 Arbitrary code execution
+    DSA-1754       roundup                 Privilege escalation
+    DSA-1761       moodle                  File disclosure
+    DSA-1762       icu                     Cross site scripting
+    DSA-1763       openssl                 Denial of service
+    DSA-1763       openssl097              Denial of service
+    DSA-1765       horde3                  Several vulnerabilities
+    DSA-1766       krb5                    Several vulnerabilities
+    DSA-1767       multipath-tools         Denial of service
+    DSA-1768       openafs                 Arbitrary code execution
+    DSA-1770       imp4                    Cross-site scripting
+    DSA-1771       clamav                  Several vulnerabilities
+    DSA-1772       udev                    Privilege escalation
+    DSA-1773       cupsys                  Arbitrary code execution
+    DSA-1775       php-json-ext            Denial of service
+    DSA-1777       git-core                Privilege escalation
+    DSA-1779       apt                     Several vulnerabilities
+    DSA-1780       libdbd-pg-perl          Arbitrary code execution
+    DSA-1781       ffmpeg                  Arbitrary code execution
+    DSA-1782       mplayer                 Arbitrary code execution
+    DSA-1783       mysql-dfsg-5.0          Several vulnerabilities
+    DSA-1784       freetype                Arbitrary code execution
+    DSA-1786       acpid                   Denial of service
+    DSA-1787       linux-2.6.24            Several vulnerabilities
+    DSA-1789       php5                    Several vulnerabilities
+    DSA-1790       xpdf                    Several vulnerabilities
+    DSA-1793       kdegraphics             Several vulnerabilities
+    DSA-1794       user-mode-linux         Several vulnerabilities
+    DSA-1794       fai-kernels             Several vulnerabilities
+    DSA-1794       linux-2.6               Several vulnerabilities
+    DSA-1796       libwmf                  Denial of service
+    DSA-1798       pango1.0                Arbitrary code execution
+    DSA-1799       qemu                    Several vulnerabilites
+    DSA-1801       ntp                     Buffer overflows allowing DoS or code execution
+    DSA-1802       squirrelmail            Code execution vulnerability in map_yp_alias function
+    DSA-1803       nsd                     Denial of service
+    DSA-1804       ipsec-tools             Denial of service
+    DSA-1805       gaim                    Several vulnerabilities
+    DSA-1806       cscope                  Arbitrary code execution
+    DSA-1807       cyrus-sasl2             Fixes arbirary code execution
+    DSA-1810       cupsys                  Denial of service
+    DSA-1810       libapache-mod-jk        Information disclosure
+    DSA-1812       apr-util                Several vulnerabilities
+    DSA-1813       evolution-data-server   Regressions in previous security update
+    DSA-1814       libsndfile              Arbitrary code execution
+    DSA-1816       apache2                 Privilege escalation
+    DSA-1816       apache2-mpm-itk         Rebuild against apache2 2.2.3-4+etch8
+    DSA-1818       gforge                  Insufficient input sanitising
+    DSA-1819       vlc                     Several vulnerabilities
+    DSA-1824       phpmyadmin              Several vulnerabilities
+    DSA-1825       nagios2                 Arbitrary code execution
+    DSA-1826       eggdrop                 Several vulnerabilities
+    DSA-1829       sork-passwd-h3          Regression in previous security update
+    DSA-1832       camlimages              Arbitrary code execution
+    DSA-1833       dhcp3                   Arbitrary code execution
+    DSA-1834       apache2                 Denial of service
+    DSA-1834       apache2-mpm-itk         Denial of service
+    DSA-1835       tiff                    Several vulnerabilities
+    DSA-1837       dbus                    Denial of service
+    DSA-1839       gst-plugins-good0.10    Arbitrary code execution
+    DSA-1841       git-core                Denial of service
+    DSA-1842       openexr                 Several vulnerabilities
+    DSA-1847       bind9                   Denial of service
+    DSA-1848       znc                     Remote code execution
+    DSA-1849       xml-security-c          Signature forgery
+    DSA-1850       libmodplug              Arbitrary code execution
+    DSA-1851       gst-plugins-bad0.10     Arbitrary code execution
+    DSA-1852       fetchmail               SSL certificate verification weakness
+    DSA-1853       memcached               Arbitrary code execution
+    DSA-1854       apr-util                Arbitrary code execution
+    DSA-1854       apr                     Arbitrary code execution
+    DSA-1855       subversion              Arbitrary code execution
+    DSA-1857       camlimages              Arbitrary code execution
+    DSA-1858       imagemagick             Several vulnerabilities
+    DSA-1859       libxml2                 Several issues
+    DSA-1860       ruby1.8                 Several issues
+    DSA-1860       ruby1.9                 Several issues
+    DSA-1861       libxml                  Several issues
+    DSA-1863       zope2.9                 Arbitrary code execution
+    DSA-1865       fai-kernels             Several vulnerabilities
+    DSA-1865       user-mode-linux         Several vulnerabilities
+    DSA-1866       kdegraphics             Several vulnerabilities
+    DSA-1867       kdelibs                 Several vulnerabilities
+    DSA-1869       curl                    SSL certificate verification weakness
+    DSA-1871       wordpress               Regression fix
+    DSA-1872       fai-kernels             Several vulnerabilities
+    DSA-1872       user-mode-linux         Several vulnerabilities
+    DSA-1877       mysql-dfsg-5.0          Arbitrary code
+    DSA-1878       devscripts              Remote code execution
+    DSA-1880       openoffice.org          Arbitrary code execution
+    DSA-1882       xapian-omega            Cross-site scripting
+    DSA-1883       nagios2                 Several cross-site scriptings
+    DSA-1884       nginx                   Arbitrary code execution
+    DSA-1888       openssl                 Deprecate MD2 hash signatures and fix several DoS vulnerabilities
+    DSA-1888       openssl097              Deprecate MD2 hash signatures
+    DSA-1889       icu                     Security bypass due to multibyte sequence parsing
+    DSA-1890       wxwindows2.4            Arbitrary code execution
+    DSA-1890       wxwidgets2.6            Arbitrary code execution
+    DSA-1891       changetrack             Arbitrary code execution
+    DSA-1892       dovecot                 Arbitrary code execution
+    DSA-1893       cyrus-imapd-2.2         Arbitrary code execution
+    DSA-1893       kolab-cyrus-imapd       Arbitrary code execution
+    DSA-1894       newt                    Arbitrary code execution
+    DSA-1896       opensaml                Potential code execution
+    DSA-1896       shibboleth-sp           Potential code execution
+    DSA-1897       horde3                  Arbitrary code execution
+    DSA-1898       openswan                Denial of service
+    DSA-1899       strongswan              Denial of service
+    DSA-1900       postgresql-7.4          Various problems
+    DSA-1900       postgresql-8.1          Various problems
+    DSA-1901       mediawiki1.7            Several vulnerabilities
+    DSA-1902       elinks                  Arbitrary code execution
+    DSA-1903       graphicsmagick          Several vulnerabilities
+    DSA-1904       wget                    SSL certificate verification weakness
+    DSA-1909       postgresql-ocaml        Missing escape function
+    DSA-1910       mysql-ocaml             Missing escape function
+    DSA-1911       pygresql                Missing escape function
+    DSA-1912       camlimages              Arbitrary code execution
+    DSA-1912       advi                    Arbitrary code execution
+    DSA-1914       mapserver               Serveral vulnerabilities
+    DSA-1916       kdelibs                 SSL certificate verification weakness
+    DSA-1917       mimetex                 Several vulnerabilities
+    DSA-1918       phpmyadmin              Several vulnerabilities
+    DSA-1919       smarty                  Several vulnerabilities
+    DSA-1920       nginx                   Denial of service
+    DSA-1921       expat                   Denial of service
+    DSA-1923       libhtml-parser-perl     Denial of service
+    DSA-1925       proftpd-dfsg            SSL certificate verification weakness
+    DSA-1926       typo3-src               Several vulnerabilities
+    DSA-1928       linux-2.6.24            Several vulnerabilities
+    DSA-1929       linux-2.6               Several vulnerabilities
+    DSA-1933       cupsys                  Cross-site scripting
+    DSA-1934       apache2                 Several issues
+    DSA-1934       apache2-mpm-itk         Several issues
+    DSA-1935       gnutls13                SSL certificate
+    DSA-1936       libgd2                  Several vulnerabilities
+    DSA-1937       gforge                  Cross-site scripting
+    DSA-1938       php-mail                Insufficient input sanitising
+    DSA-1939       libvorbis               Several vulnerabilities
+    DSA-1940       php5                    Multiple issues
+    DSA-1942       wireshark               Several vulnerabilities
+    DSA-1943       openldap2.3             SSL certificate
+    DSA-1944       request-tracker3.6      Session hijack vulnerability
+    DSA-1944       request-tracker3.4      Session hijack vulnerability
+    DSA-1945       gforge                  Denial of service
+    DSA-1946       belpic                  Cryptographic weakness
+    DSA-1947       shibboleth-sp           Cross-site scripting
+    DSA-1948       ntp                     Denial of service
+    DSA-1951       firefox-sage            Insufficient input sanitizing
+    DSA-1953       expat                   Regression fix
+    DSA-1954       cacti                   Insufficient input sanitising
+    DSA-1955       network-manager         Information disclosure
+    DSA-1958       libtool                 Privilege escalation
+    DSA-1960       acpid                   Weak file permissions
+    DSA-1961       bind9                   Cache poisoning
+    DSA-1964       postgresql-8.1          Several vulnerabilities
+    DSA-1964       postgresql-7.4          Several vulnerabilities
+    DSA-1966       horde3                  Cross-site scripting
+    DSA-1968       pdns-recursor           Cache poisoning
+    DSA-1969       krb5                    Denial of service
+    DSA-1971       libthai                 Arbitrary code execution
+    DSA-1972       audiofile               Buffer overflow
+    DSA-1973       glibc                   Information disclosure
+    DSA-1974       gzip                    Arbitrary code execution
+    DSA-1977       python2.4               Several vulnerabilities
+    DSA-1977       python2.5               Several vulnerabilities
+    DSA-1979       lintian                 Multiple vulnerabilities
+    DSA-1980       ircd-hybrid             Arbitrary code execution
+    DSA-1981       maildrop                Privilege escalation
+    DSA-1982       hybserv                 Denial of service
+    DSA-1984       libxerces2-java         Denial of service
+    DSA-1985       sendmail                Insufficient input validation
+    DSA-1987       lighttpd                Denial of service
+    DSA-1989       fuse                    Denial of service
+    DSA-1991       squid3                  Denial of service
+    DSA-1991       squid                   Denial of service
+    DSA-1992       chrony                  Denial of service
+    DSA-1994       ajaxterm                Session hijacking
+    DSA-1995       openoffice.org          Several vulnerabilities
+    DSA-1997       mysql-dfsg-5.0          Several vulnerabilities
+    DSA-2003       fai-kernels             Several vulnerabilities
+    DSA-2003       user-mode-linux         Several vulnerabilities
+    DSA-2003       linux-2.6               Several vulnerabilities
+    DSA-2004       linux-2.6.24            Several vulnerabilities
+
+
+Unfortunately it was not possible to include the security updates for
+the lcms package in this point release due to a mismatch between the
+upstream tarball used for the security update and that already present
+in the oldstable distribution.
+
+
+Removed packages
+----------------
+
+The following packages were removed due to circumstances beyond our
+control:
+
+    Package                                Reason
+
+    destar                                 Security issues
+    libclass-dbi-loader-relationship-perl  License problems
+    libhdate-pascal                        [source:hdate] Licensing issues
+    loop-aes-modules-2.6-sparc32           [source:loop-aes] Corresponding source / kernel no longer in the archive
+    loop-aes-modules-2.6-sparc64           [source:loop-aes] Corresponding source / kernel no longer in the archive
+    loop-aes-modules-2.6-sparc64-smp       [source:loop-aes] Corresponding source / kernel no longer in the archive
+    loop-aes-modules-2.6-vserver-sparc64   [source:loop-aes] Corresponding source / kernel no longer in the archive
+    rails                                  Security and usability issues
+
+A few further packages were removed as a result, as they depend on
+libclass-dbi-loader-relationship-perl; these packages are:
+
+    maypole
+    maypole-authentication-usersession-cookie
+    maypole-plugin-upload
+    memories
+
+
+Additionally those parts of the libwww-search-perl and
+libperl4caml-ocaml-dev packages which rely on the Google SOAP search
+API (provided by libnet-google-perl) are no longer functional as the
+API has been retired by Google.  The remaining portions of the packages
+will continue to function as before.
+
+
+About Debian
+------------
+
+The Debian project is an organisation of Free Software developers who
+volunteer their time and effort, collaborating via the Internet.  Their
+tasks include maintaining and updating Debian GNU/Linux which is a free
+distribution of the GNU/Linux operating system.  Debian's dedication to
+Free Software, its non-profit nature, and its open development model
+makes it unique among GNU/Linux distributions.
+
+
+Contact
+-------
+
+For further information, please visit the Debian web pages at
+<http://www.debian.org/>, send mail to <press@debian.org>, or contact
+the oldstable release team at <debian-release@lists.debian.org>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100523065640.GB3233@melusine.alphascorpii.net
+
+

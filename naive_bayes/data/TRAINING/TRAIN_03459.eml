@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285056bffc4e4c5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs117392wfj;
+        Fri, 30 Apr 2010 13:09:42 -0700 (PDT)
+Received: by 10.143.153.22 with SMTP id f22mr7100016wfo.126.1272658182218;
+        Fri, 30 Apr 2010 13:09:42 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 14si3398157pzk.0.2010.04.30.13.09.41;
+        Fri, 30 Apr 2010 13:09:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id A254E1C428286
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 13:09:41 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9DF7F2748540B
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 13:09:41 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 0A95727485233
+	for <quicktime-api@lists.apple.com>;
+	Fri, 30 Apr 2010 13:09:23 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id EB4C9D0C1542
+	for <quicktime-api@lists.apple.com>;
+	Fri, 30 Apr 2010 13:09:23 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7b87ae000003afb-39-4bdb38f28402
+Received: from smtp-vbr7.xs4all.nl (smtp-vbr7.xs4all.nl [194.109.24.27])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	4C.20.15099.3F83BDB4; Fri, 30 Apr 2010 13:09:23 -0700 (PDT)
+Received: from [192.168.1.33] (a83-161-250-180.adsl.xs4all.nl [83.161.250.180])
+	by smtp-vbr7.xs4all.nl (8.13.8/8.13.8) with ESMTP id o3UK9LNW037297
+	for <quicktime-api@lists.apple.com>;
+	Fri, 30 Apr 2010 22:09:21 +0200 (CEST)
+	(envelope-from jeschot@xs4all.nl)
+Message-Id: <70DE5A02-AF88-496C-A155-4BC3AE08D5FC@xs4all.nl>
+From: "Jan E. Schotsman" <jeschot@xs4all.nl>
+To: quicktime-api@lists.apple.com
+In-Reply-To: <20100430190900.7D3DB27479DCF@lists.apple.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Fri, 30 Apr 2010 22:09:21 +0200
+References: <20100430190900.7D3DB27479DCF@lists.apple.com>
+X-Mailer: Apple Mail (2.936)
+X-Virus-Scanned: by XS4ALL Virus Scanner
+X-Brightmail-Tracker: AAAAAxPvoAQT77IhE++2/Q==
+Subject: Re: Does QTVisualContextCopyImageForTime block?
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On Apr 30, 2010, at 9:09 PM, Matt Slot  wrote:
+
+> I'm iterating a movie frame by frame from a secondary thread. Rather  
+> than polling/spinning on QTVisualContextIsNewImageAvailable() for  
+> each frame, can I just CopyImageForTime() and let it block until the  
+> data is available? The alternative is to install a hook via  
+> QTVisualContextSetImageAvailableCallback() and trigger a semaphore,  
+> but blocking on the Copy call would be much more straightforward.
+
+If you are using SetMovieTime and  
+QTVisualContextSetImageAvailableCallback  you can do everything on the  
+secondary thread, after attaching the movie to this thread.
+
+If you are playing the movie you need to play it on the main thread.
+
+Normally you would use a display link callback which calls the  
+QTVisualContextIsNewImageAvailable/QTVisualContextCopyImageForTime  
+combo. Kind of smart polling.
+
+If you don't want to poll you can use an ImageAvailableCallback and  
+and an input queue but I don't see much benefit from that. The  
+overhead of the display link is small and if you suspect that your  
+movie has a higher frame rate than the display refresh time you can  
+always call QTVisualContextIsNewImageAvailable multiple times until it  
+returns false. Either you can keep up with the input or else you are  
+going to drop frames. The ImageAvailableCallback won't  help you there.
+
+Jan E.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

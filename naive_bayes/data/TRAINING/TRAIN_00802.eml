@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ad4360df30cb2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs27414wfo;
+        Tue, 18 May 2010 14:13:14 -0700 (PDT)
+Received: by 10.223.26.69 with SMTP id d5mr1039944fac.20.1274217193549;
+        Tue, 18 May 2010 14:13:13 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si16647352faw.71.2010.05.18.14.13.12;
+        Tue, 18 May 2010 14:13:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7CB9013A521C; Tue, 18 May 2010 21:13:03 +0000 (UTC)
+Old-Return-Path: <richard.bown@blueyonder.co.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 87EB613A50A2
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 21:12:57 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mipDW7rG5GgX for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 21:12:50 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) IN_IX_MANITU=4.35 CL_IP_EQ_HELO_IP=-2 (check from: .blueyonder. - helo: .smtp-out4.blueyonder. - helo-domain: .blueyonder.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=2.275; rate: -0.375
+X-Greylist: delayed 9026 seconds by postgrey-1.31 at liszt; Tue, 18 May 2010 21:12:50 UTC
+Received: from smtp-out4.blueyonder.co.uk (smtp-out4.blueyonder.co.uk [195.188.213.7])
+	by liszt.debian.org (Postfix) with ESMTP id 2189B13A4FB9
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 21:12:49 +0000 (UTC)
+Received: from [172.23.170.142] (helo=anti-virus02-09)
+	by smtp-out4.blueyonder.co.uk with smtp (Exim 4.52)
+	id 1OERkD-0001Hr-UA
+	for debian-user@lists.debian.org; Tue, 18 May 2010 19:42:22 +0100
+Received: from [77.98.118.78] (helo=localhost)
+	by asmtp-out6.blueyonder.co.uk with esmtp (Exim 4.52)
+	id 1OERkD-0004w6-Ag
+	for debian-user@lists.debian.org; Tue, 18 May 2010 19:42:21 +0100
+Date: Tue, 18 May 2010 19:42:21 +0100
+From: richard <richard.bown@blueyonder.co.uk>
+To: debian-user@lists.debian.org
+Subject: shoe horn KDE3.5 system
+Message-ID: <20100518194221.4344b180@blueyonder.co.uk>
+Organization: Ham Radio
+X-Mailer: Claws Mail 3.7.2 (GTK+ 2.18.6; x86_64-mandriva-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <sz5sgyPw2TI.A.wYF.fLw8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577148
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 21:13:03 +0000 (UTC)
+
+Hi 
+it sounds a bit weird but its pretty close to what I need to do.
+As you can see from my footer I use mandriva and I like it.
+I have however an app which does not.
+It needs QT3 and KDE3.5 to run, anfd it has to be run in a KDE DM. It crashes
+when run on gnome.I have made space in the middle of one of the two SATA drives.
+There's about 100 GB it can use.
+I have gone back on Mandriva releases and 2008.0 was the last to solely use
+KDE3.5, if piklab finds a KDE4 lib it crashes, and from MDV2008.1 they merged.
+MDV 2008.0 would be OK but it won't recognise SATA HDs.
+I tried Ubuntu to try and load it in that 100 Gb gap, but it wanted all of the
+drive, even when told use unused space.
+I know Debian is stable, will the installer if told install its self on to an
+unused section of the SATA HD and put its bootloader at the start of the rott
+partition , ie" /", not /root.
+Is the a version that used KDE3.5, QT3 that will work on a SATA HD, will the 32
+bit versions run on a 64 bit or must I use the AMD_64 version.
+Are the any problem with the kernel supplied with what ever version is
+suggested with RTL8111/8168B PCI express ethernet cards, on MDV certain kernels
+in 2009 had problems with the driver for that card.
+
+A quick reply would really be appreciated, I've been trying to get this app to
+run for the last couple of days without any luck.
+
+TIA
+
+-- 
+Best wishes
+
+Richard Bown G8JVM
+
+###################################################################################
+Registered Linux User 36561
+OS: Mandriva 2010.0 Powerpack on an AMD Dual Athlon 64 +4400: 8 GB RAM DDR2
+Ham Call: G8JVM , QRA IO82SP, Interests Microwave 1.3 GHz,2.3 GHz & 5.7GHz & 10
+GHz
+###################################################################################
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100518194221.4344b180@blueyonder.co.uk
+
+

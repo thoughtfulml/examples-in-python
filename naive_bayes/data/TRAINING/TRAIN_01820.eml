@@ -1,0 +1,161 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d05286d7f9194
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs138636wfo;
+        Tue, 25 May 2010 09:36:30 -0700 (PDT)
+Received: by 10.223.21.215 with SMTP id k23mr6486566fab.54.1274805389312;
+        Tue, 25 May 2010 09:36:29 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si7694748fah.99.2010.05.25.09.36.28;
+        Tue, 25 May 2010 09:36:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4FB4B13A553B; Tue, 25 May 2010 16:36:17 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E9DA213A53E2
+	for <lists-debian-user@liszt.debian.org>; Tue, 25 May 2010 16:36:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id v7hBUV6eh4uC for <lists-debian-user@liszt.debian.org>;
+	Tue, 25 May 2010 16:36:04 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 9E40413A5211
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 16:36:04 +0000 (UTC)
+Received: (qmail 24339 invoked from network); 25 May 2010 18:36:01 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <tadziu23@csmining.org>; 25 May 2010 18:36:01 +0200
+Message-ID: <4BFBFC09.2090700@student.ulg.ac.be>
+Date: Tue, 25 May 2010 18:34:17 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: tadziu <tadziu23@csmining.org>
+CC: debian-user@lists.debian.org
+Subject: Re: can't determine affected package
+References: <AANLkTin43vEob7kzNeIADfbHJEIk-T8FW2wJre1JbmTG@mail.csmining.org>	 <4BFBF8A5.3020906@student.ulg.ac.be> <AANLkTilNwsfmGkdIrZZBTvVXexg5UllfLdvX0ELNv9wp@mail.csmining.org>
+In-Reply-To: <AANLkTilNwsfmGkdIrZZBTvVXexg5UllfLdvX0ELNv9wp@mail.csmining.org>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig4AD51EB91A3C35E06A1F61E6"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5zCeTqVxqUE.A.qQB.By_-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577608
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 16:36:17 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig4AD51EB91A3C35E06A1F61E6
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Then, you might follow Boyd Stephen Smith Jr.'s recommendation.
+
+tadziu wrote:
+> yes i've got the same hardware as mentioned in bug report,
+> and tested suspension on debian as well as ubuntu, mint,
+> fedora, and sabayon. problem persist distro independent,
+> and kernel version indepedent
+>
+> 2010/5/25 Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>:
+>  =20
+>> Are you using `exactly' (in some sense) the same config?
+>>
+>> --
+>> Merciadri Luca
+>> See http://www.student.montefiore.ulg.ac.be/~merciadri/
+>> I use PGP. If there is an incompatibility problem with your mail
+>> client, please contact me.
+>>
+>>
+>>
+>>
+>>
+>> tadziu wrote:
+>>    =20
+>>> it's a simple reproduction of this bug:
+>>>
+>>> https://bugs.launchpad.net/ubuntu/+source/linux/+bug/329645
+>>>
+>>> i've got the same problem either on lenny/squeeze/sid and all possibl=
+e
+>>> kernels up to 2.6.34 (not tested yet). can someone tell mi how to
+>>> send a bug report in that case? launchpad service seems little
+>>> easier since it doesn't reqiure exact package ;)
+>>>
+>>> thanks in advance and all the best
+>>> t.
+>>>
+>>>
+>>>
+>>>      =20
+>
+>
+>  =20
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+
+
+--------------enig4AD51EB91A3C35E06A1F61E6
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkv7/AoACgkQM0LLzLt8MhywQQCfXMtaTz11FakqErPfvKjlmH39
+vZsAmwdbkIG4STTXHaL38Ba8aEjghdy3
+=l/21
+-----END PGP SIGNATURE-----
+
+--------------enig4AD51EB91A3C35E06A1F61E6--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFBFC09.2090700@student.ulg.ac.be
+
+

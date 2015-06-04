@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId128313b45e618f04
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs24483wfj;
+        Sat, 24 Apr 2010 12:11:28 -0700 (PDT)
+Received: by 10.87.69.8 with SMTP id w8mr3059928fgk.58.1272136287746;
+        Sat, 24 Apr 2010 12:11:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si4728927fks.23.2010.04.24.12.11.27;
+        Sat, 24 Apr 2010 12:11:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 87CF113A50D5; Sat, 24 Apr 2010 19:11:21 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_NUMERIC_HELO autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9045F13A4CB5
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 19:11:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.933 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_NUMERIC_HELO=2.067]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id BQVqylDccuX3 for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 19:11:08 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 8A09913A50AA
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 19:11:08 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O5kkn-0007lY-Fk
+	for debian-user@lists.debian.org; Sat, 24 Apr 2010 21:11:01 +0200
+Received: from 200.57.201.223 ([200.57.201.223])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 21:11:01 +0200
+Received: from hvw59601 by 200.57.201.223 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 21:11:01 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Hugo Vanwoerkom <hvw59601@care2.com>
+Subject: Re: where is what kontrol did?
+Date: Sat, 24 Apr 2010 14:10:51 -0500
+Lines: 21
+Message-ID: <hqvfnr$bkp$1@dough.gmane.org>
+References: <hqsoge$ir0$1@dough.gmane.org>	 <j2t880dece01004231410l53d27c8g534e4dd6c6efdb2f@mail.csmining.org>	 <hqutjv$gr2$1@dough.gmane.org> <hquu45$ih4$1@dough.gmane.org> <x2i880dece01004241057xf33dfcfj7fa77b75922afb29@mail.csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 200.57.201.223
+User-Agent: Thunderbird 2.0.0.19 (X11/20081209)
+In-Reply-To: <x2i880dece01004241057xf33dfcfj7fa77b75922afb29@mail.csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YkyIEX8PATL.A.w1F.ZJ00LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574938
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 19:11:21 +0000 (UTC)
+
+Dotan Cohen wrote:
+>> But at what price: hal comes back in again, after I just got rid of it, and
+>> also consolekit, after I just got rid of that too...
+>> I dunno, all for just a sound...
+>>
+> 
+> I suppose that depends on how (and why) you got rid of them.
+> 
+> Have you tried installing Pulse Audio, you can control that without
+> the KDE tools.
+> 
+> 
+
+Hal and friend got installed because they used to be needed for 
+xserver-xorg, but that is no longer true in the latest versions, so I 
+just removed them.
+
+But will pulse audio make my Konsole make a sound because that is the 
+only reason I would install systemsettings.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqvfnr$bkp$1@dough.gmane.org
+
+

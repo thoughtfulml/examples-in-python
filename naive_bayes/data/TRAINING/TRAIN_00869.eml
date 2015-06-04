@@ -1,0 +1,169 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d7c4697cf012e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs15112wfi;
+        Wed, 7 Apr 2010 03:15:26 -0700 (PDT)
+Received: by 10.86.126.4 with SMTP id y4mr1218648fgc.47.1270635325612;
+        Wed, 07 Apr 2010 03:15:25 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 8si32695129fxm.25.2010.04.07.03.15.25;
+        Wed, 07 Apr 2010 03:15:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7152613A64B6; Wed,  7 Apr 2010 10:15:20 +0000 (UTC)
+Old-Return-Path: <smokejohn@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0F8D513A64B3
+	for <lists-debian-kde@liszt.debian.org>; Wed,  7 Apr 2010 10:15:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id BZUk-pToBnPc for <lists-debian-kde@liszt.debian.org>;
+	Wed,  7 Apr 2010 10:15:06 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f210.google.com (mail-fx0-f210.google.com [209.85.220.210])
+	by liszt.debian.org (Postfix) with ESMTP id C0F2C13A5369
+	for <debian-kde@lists.debian.org>; Wed,  7 Apr 2010 10:15:06 +0000 (UTC)
+Received: by fxm2 with SMTP id 2so809290fxm.30
+        for <debian-kde@lists.debian.org>; Wed, 07 Apr 2010 03:15:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type;
+        bh=/DS6uGgewtizswf0u8sJIKqrp/zCI7PklzVnlQSumd0=;
+        b=c1Ztp82mS7g+KnysvasItKOls/jHa2TtZTw4hqh0R3VRXOsFcEkYCWUm1A+RQwVKbt
+         ymJdvWeVtHtJExuexw29pVcOHjUNfWv0cM42u0U6nz1twW9x2h8154v+Q/qzNMOyegek
+         alWCDwEkWWPl+sq2Fy89hVn/BW7fGhWo5V/oI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=uhR1TlzRI4l+1TOvooB45brwuNTfnBvzydjGRQEZ4zRj2/NZcUhu59/ikg41IFSypj
+         UhdY98uj9dmelOjo9CiRBdTECCiqWIWfiXbue4pV+fizW1AA2lQ4181nNjFyXG8wZbVv
+         zneoeDrCkiTUVHqtx+3kpWRf99XNRxhNKjH6U=
+MIME-Version: 1.0
+Received: by 10.223.108.2 with HTTP; Wed, 7 Apr 2010 03:15:02 -0700 (PDT)
+In-Reply-To: <201004062253.54963.colonius@free.fr>
+References: <4BBB62E7.9010208@csmining.org>
+	 <l2w8f23146b1004061146w7dca7842sd0c14533936b2caa@mail.csmining.org>
+	 <n2zaee79c571004061341q66664974z7e5c4ce1decdb79d@mail.csmining.org>
+	 <201004062253.54963.colonius@free.fr>
+Date: Wed, 7 Apr 2010 13:15:02 +0300
+Received: by 10.223.23.67 with SMTP id q3mr8862956fab.59.1270635302121; Wed, 
+	07 Apr 2010 03:15:02 -0700 (PDT)
+Message-ID: <u2x8f23146b1004070315t791a80d4sc27bdf20a2e14b23@mail.csmining.org>
+Subject: Re: Cannot login
+From: Smokejohn <smokejohn@csmining.org>
+To: Klaus Becker <colonius@free.fr>
+Cc: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=001517476664d2744d0483a2d565
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <s-jZmQFeBQC.A.ZMH.4sFvLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31971
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 10:15:20 +0000 (UTC)
+
+--001517476664d2744d0483a2d565
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Apr 6, 2010 at 11:53 PM, Klaus Becker <colonius@free.fr> wrote:
+
+> Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :
+> > Finally I applied the following workaround: I remove kdm and installed
+> gdm.
+> > After that, I have no problem to login. I haven't investigated any
+> further
+> > because I really don't know from where the problem comes, but now, mayb=
+e
+> we
+> > have to undo the steps applied with the skype's solution to solve our
+> > problem.
+>
+>
+> Hi,
+>
+> I had the same problem with kdm, but no problem with gdm.
+>
+> cheers
+>
+> Klaus
+>
+> Hi. Installing gdm did not do the trick :(
+
+When doing startx as a normal user from console I get some errors like "xkb
+could not initialize" and "Xinit: no such file or directory" and "Xinit:
+Could not connect to xserver"....
+
+Some friend told me to purge kde and reinstall it. I don't think this will
+help. Do you think I should give it a try?
+
+--001517476664d2744d0483a2d565
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Tue, Apr 6, 2010 at 11:53 PM, Klaus B=
+ecker <span dir=3D"ltr">&lt;<a href=3D"mailto:colonius@free.fr">colonius@fr=
+ee.fr</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"m=
+argin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204); paddin=
+g-left: 1ex;">
+Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :<br>
+<div class=3D"im">&gt; Finally I applied the following workaround: I remove=
+ kdm and installed gdm.<br>
+&gt; After that, I have no problem to login. I haven&#39;t investigated any=
+ further<br>
+&gt; because I really don&#39;t know from where the problem comes, but now,=
+ maybe we<br>
+&gt; have to undo the steps applied with the skype&#39;s solution to solve =
+our<br>
+&gt; problem.<br>
+<br>
+<br>
+</div>Hi,<br>
+<br>
+I had the same problem with kdm, but no problem with gdm.<br>
+<br>
+cheers<br>
+<div class=3D"im"><br>
+Klaus<br>
+<br></div></blockquote><div>Hi. Installing gdm did not do the trick :(<br><=
+br>When doing startx as a normal user from console I get some errors like &=
+quot;xkb could not initialize&quot; and &quot;Xinit: no such file or direct=
+ory&quot; and &quot;Xinit: Could not connect to xserver&quot;....<br>
+<br>Some friend told me to purge kde and reinstall it. I don&#39;t think th=
+is will help. Do you think I should give it a try?<br><br>=A0<br></div></di=
+v>
+
+--001517476664d2744d0483a2d565--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2x8f23146b1004070315t791a80d4sc27bdf20a2e14b23@mail.csmining.org
+
+

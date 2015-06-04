@@ -1,0 +1,464 @@
+From - Fri Feb 19 10:25:20 2010
+X-Account-Key: account2
+X-UIDL: UID11152-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bounce-use=M=3794163632=dr=852DD07E7ACE65F60C2B47F65E3E57FD@returnpath.bluehornet.com>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id AE5751991
+	for <m0620212@mail.csmining.org>; Fri, 19 Feb 2010 03:24:46 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id A9FC1184C
+	for <m0620212@mail.csmining.org>; Fri, 19 Feb 2010 03:24:46 +0900 (JST)
+X-ASG-Debug-ID: 1266517484-761d7dc20001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id moRo5VtRLvYy016C for <m0620212@mail.csmining.org>; Fri, 19 Feb 2010 03:24:44 +0900 (JST)
+X-Barracuda-Envelope-From: bounce-use=M=3794163632=dr=852DD07E7ACE65F60C2B47F65E3E57FD@returnpath.bluehornet.com
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o1IIOi2l014403
+        for <m0620212@mail.csmining.org>; Fri, 19 Feb 2010 03:24:44 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id o1IIOihd014400
+        for <hibody@csmining.org>; Fri, 19 Feb 2010 03:24:44 +0900 (JST)
+Received: from smtp.khartoum.bluehornet.com (smtp.khartoum.bluehornet.com [216.54.194.36])
+      by ns1.csmining.org  with ESMTP id o1IIOggK028492
+      for <hibody@csmining.org>; Fri, 19 Feb 2010 03:24:42 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha1; d=bluehornet.com; s=bluehornet-1.bh; c=relaxed/simple;
+	q=dns/txt; i=@bluehornet.com; t=1266517481;
+	h=From:Subject:X-Outgoing:Date;
+	bh=H82wJIJ8Qz8W9ANGSWJxwmxNw3U=;
+	b=Y8+wICOy0GgVDIuvWwkJcdqhazVEBGJ3xC+Pi2AhzmI3Jy7FYiR6GuPU40jXbkAP
+	E3cBuCCLw8f4kDqC32WKtbCmiM9bX5c6ItGDREpfHdvcpk6EmH6BsjUSBq+WabTs;
+X-Barracuda-BWL-IP: 216.54.194.36
+X-Barracuda-BBL-IP: 216.54.194.36
+X-Barracuda-RBL-IP: 216.54.194.36
+X-TokenInfo-NoToken: 
+Message-ID: <DA.1D.09372.9E58D7B4@dc1bhmta05>
+Date: Thu, 18 Feb 2010 08:17:30 -0800
+From: "SWREG" <noreply@swreg.org>
+Reply-To: noreply@swreg.org
+To: hibody hibody <hibody@csmining.org>
+X-Outgoing: khartoum
+X-ASG-Orig-Subj: Create animations, text effects, websites, slideshows and more - KoolMoves now only $34.95
+Subject: Create animations, text effects, websites, slideshows and more - KoolMoves now only $34.95
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+    boundary="--4b7d681a55a28-MultiPart-Mime-Boundary"
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1266517484
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-BarracudaScore: 1.54
+X-BarracudaStatus: No, SCORE=1.54 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC5_SA061a, BSF_SC5_SA161f, CN_BODY_332, HTML_MESSAGE, SH_BIG5_05413_BODY_104
+X-BarracudaReport: Code version 3.2, rules version 3.2.2.22862
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.12 CN_BODY_332            BODY: CN_BODY_332
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC5_SA161f         Custom Rule SA161f
+	1.00 BSF_SC5_SA061a         Custom Rule SA061a
+
+
+
+----4b7d681a55a28-MultiPart-Mime-Boundary
+Content-Type: text/plain; charset="utf-8"
+Content-Disposition: inline
+
+
+
+To ensure you receive future customer-only offers, please add
+noreply@swreg.org to your address book. If you no longer wish to
+receive email offers from SWREG, please click the following link
+to unsubscribe: http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=83e256ca7e16ed7a9d39f54c68e290a9
+
+--------------------------------------------------------------------------------------------
+
+
+**A special offer from SWREG and Lucky Monkey Designs, LLC**
+
+--------------------------------------------------------------------------------------------
+
+
+KoolMoves
+Powerful Full Featured Flash* Authoring Tools
+Create animations, text effects, websites, slideshows and more! 
+
+KoolMoves is Flash* animation software that's so easy and
+powerful, it's all you need to...
+
+-Play video & music with stylish media players 
+-Create high impact web sites & animations  
+-Customize text effects, buttons, & clip art  
+-Add impressive 3D text and shape effects 
+-Use templates or create your own designs
+-Take control with Flash* 9 action scripts 
+
+--------------------------------------------------------------------------------------------
+
+
+Buy KoolMoves for only $34.95:
+http://dr.bluehornet.com/ct/3640199:3794163632:m:3:133771572:FA6D222A1A2844F9329B45ACCD21A417
+
+--------------------------------------------------------------------------------------------
+
+
+Get professional results at an affordable price. And now for a
+limited time only, KoolMoves is only $34.95. 
+
+Used by both professionals and novices to create rich
+interactive content for web sites, KoolMoves is a popular Flash*
+authoring tool with rave industry reviews! 
+
+Combining ease-of-use with a wealth of powerful animation
+effects, KoolMoves makes it easy and inexpensive to create
+professional quality animations for web sites. 
+
+As Adobe Flash(R) has developed into the standard for animation
+on the web, KoolMoves has emerged as an advanced but low cost
+alternative to Flash*.
+
+It is ideal for creating a wide range of Web content, including
+high-impact Web pages, banners, navigation systems, and
+multimedia slide shows. It features libraries of text effects,
+Flash* templates, and clip art. There are 4 skill levels and
+built-in wizards. For advanced users, it has Flash* AS1/AS3
+action scripting, interface components and bones for character
+animation. 
+
+--------------------------------------------------------------------------------------------
+
+
+Features Include: 
+
+-Import images and sounds 
+-71 action script based text/image effects 
+-100 stylish text effects templates 
+-343 clip art items and buttons 
+-Wizard for adding Flash* animation to web page 
+-Slide show Wizard 
+-Banner Wizard 
+-40 media player skins 
+-28 web interface templates 
+-4 skill levels (wizards, basic, advanced, cartooning) 
+-43 customizable 3D effects 
+-Full set of drawing/shape manipulation tools 
+-And much more 
+-Click to view the full feature list: 
+http://www.koolmoves.com/product.html
+
+--------------------------------------------------------------------------------------------
+
+What can you do with KoolMoves?
+
+-Website Design 
+-Widgets 
+-Games 
+-Applications 
+
+--------------------------------------------------------------------------------------------
+
+
+Buy KoolMoves for only $34.95:
+http://dr.bluehornet.com/ct/3640200:3794163632:m:3:133771572:FA6D222A1A2844F9329B45ACCD21A417
+
+--------------------------------------------------------------------------------------------
+
+
+Visit the Gallery to see examples of animations created by
+KoolMoves users: http://www.koolmoves.com/gallery.html
+
+Want to learn more about KoolMoves? 
+Support pages provide tutorials, examples, help manuals (in 5
+languages) and links to other helpful resources: 
+http://www.koolmoves.com/support.html
+
+*Flash(R) is a registered trademark of Adobe Systems, Inc. 
+
+--------------------------------------------------------------------------------------------
+
+IMPORTANT: this offer is only valid for a limited period of
+time!
+
+--------------------------------------------------------------------------------------------
+
+
+Visit Simtel for a huge collection of free software trials:
+www.simtel.net
+  
+--------------------------------------------------------------------------------------------
+
+
+Visit Software Deal of the Day for great software
+discounts...every day!
+www.softwaredod.com      
+   
+--------------------------------------------------------------------------------------------
+
+
+This message was intended for: hibody@csmining.org
+You were added to the system June 15, 2007.  For more information
+please follow the URL below:
+http://dr.bluehornet.com/subscribe/source.htm?c=bhTNBsNX.05WI&email=hibody@csmining.org&cid=5a11d45857a74672da2a45dbcc865a
+
+Follow the URL below to update your preferences or opt-out:
+http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=83e256ca7e16ed7a9d39f54c68e290a9
+
+SWREG, Inc.
+9625 West 76th Street, #150
+Eden Prairie, MN 55344
+
+----Powered by Digital River----
+http://www.digitalriver.com
+
+
+
+
+
+----4b7d681a55a28-MultiPart-Mime-Boundary
+Content-Type: text/html; charset="utf-8"
+Content-Disposition: inline
+
+
+
+<html><!--
+
+*******************************************************
+*Note: If you are having trouble viewing this message,*
+*copy and paste the link below into your browser      *
+*address field and hit the Enter button on your       *
+*keyboard.                                            *
+http://dr.bluehornet.com/hostedemail/email.htm?h=83e256ca7e16ed7a9d39f54c68e290a9&CID=3794163632&ch=FA6D222A1A2844F9329B45ACCD21A417 
+ If you would like to change your preferences         *
+ or unsubscribe, copy the URL below:                  *
+This message was intended for: hibody@csmining.org
+You were added to the system June 15, 2007.  For more information
+please follow the URL below:
+http://dr.bluehornet.com/subscribe/source.htm?c=bhTNBsNX.05WI&email=hibody@csmining.org&cid=5a11d45857a74672da2a45dbcc865a
+
+Follow the URL below to update your preferences or opt-out:
+http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=83e256ca7e16ed7a9d39f54c68e290a9
+
+SWREG, Inc.
+9625 West 76th Street, #150
+Eden Prairie, MN 55344 
+*******************************************************
+ -->
+<body style="padding: 0px; margin: 0px; background-color: #f2f2f2;">
+<div style="padding: 0px; margin: 0px; background-color: #f2f2f2;">
+
+<table border=0 cellpadding=0 cellspacing=0 width=600 align=center>
+<tr><td height=5><!--spacer--></td></tr>
+<tr>
+<td style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; padding-bottom: 8px;">To ensure you receive future customer-only
+offers, please add <A href="mailto:noreply@swreg.org">noreply@swreg.org</A> to your address book. If you no longer wish to receive email offers from
+SWREG, please <A href="http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=83e256ca7e16ed7a9d39f54c68e290a9">unsubscribe here</A>.</td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width=600 align=center>
+<tr>
+<td style="border-top: 1px solid #0067b1; border-left: 1px solid #0067b1; border-right: 1px solid #0067b1; padding: 15px 15px 3px 15px;
+background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;">
+
+	<img src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/common/dr_interim_swreg_affiliate_banner.gif" width="568" height="75"
+alt="Affiliate Banner">
+    
+<br>&nbsp;<br>
+<div style="color: #FF9900; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 19px; border-top: 1px dashed #CCCCCC;
+border-bottom: 1px dashed #CCCCCC; ">A special offer from SWREG and Lucky Monkey Designs, LLC</div>
+<br>&nbsp;
+
+<br><br>
+
+	<table border=0 cellpadding=0 cellspacing=0 width=568 align=center>
+    <tr valign=top>
+    <td width=10><!--spacer--></td>
+    <td width=200 style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;" align=center><a
+href="http://dr.bluehornet.com/ct/3640189:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100122a/boxshot.jpg" width="200" height="322" border="0" alt="Product
+Boxshot"></a><br>
+    
+    &nbsp;
+    
+    <br>
+    <a href="http://dr.bluehornet.com/ct/3640190:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100122a/button_buy.gif" alt="Buy Now!" width="200" height="57"
+border="0"></a><br>
+    <br>
+    
+        <table align="center" bgcolor="#999999" border="0" cellpadding="3" cellspacing="1" width="200">
+        <tr>
+        <td style="font-family: verdana, san-serif; font-size: 10px; color: black" bgcolor="#e8d087"><strong>Specifications</strong></td>
+        </tr>
+        <tr bgcolor="#ffffff">
+        <td>
+        	<table bgcolor="#cccccc" border="0" cellpadding="0" cellspacing="1" width=100%>
+            <tr valign="top" style="font-family: verdana, san-serif; font-size: 10px; color: black">
+            <td align="right" bgcolor="#f1f1f1" style="padding-right: 5px; font-family: verdana, san-serif; font-size: 10px; color: black"
+nowrap><strong>Price:</strong></td>
+            <td bgcolor="#ffffff" style="padding-left: 5px; font-family: verdana, san-serif; font-size: 10px;"><strike>$49.00</strike> <span
+style="color: red; font-weight: bold;">$34.95</span></td>
+            </tr>
+            <tr valign="top" style="font-family: verdana, san-serif; font-size: 10px; color: black">
+            <td align="right" bgcolor="#f1f1f1" style="padding-right: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Platform:</strong></td>
+            <td bgcolor="#ffffff" style="padding-left: 5px; font-family: verdana, san-serif; font-size: 10px;">&middot; Windows
+98/Me<br>&nbsp;NT4/2000/XP/Vista</td>
+            </tr>
+            </table>
+        </td>
+        </tr>
+        </table>
+    
+    <br><br><a href="http://dr.bluehornet.com/ct/3640191:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100122a/screenshot_sm.jpg" width="200" height="160" border="0"
+alt="screenshot"></a><br>
+    click to view screenshot
+
+        <br><br><table border=0 cellpadding=0 cellspacing=0 style="border: 1px solid #CC9900; background-color: #FFFFCC;">
+        <tr>
+        <td style="padding: 10px; font-size: 11px; font-family: Arial, Helvetica, sans-serif"><div>&quot;<strong>Kudos for KoolMoves</strong><br>
+        KoolMoves is rated 5 stars by PC Magazine, Tucows, Download.com, and Rocket Download, but there's nothing like spontaneous praise from our
+dedicated users! We get a lot of it and it never gets old. KoolMoves is our easy to use, powerful, low cost Flash* alternative. It really does live up
+to its reputation&quot;</div></td>
+        </tr>
+        </table>
+
+        <br><br><table border=0 cellpadding=0 cellspacing=0 style="border: 1px solid #CC9900; background-color: #FFFFCC;">
+        <tr>
+        <td style="padding: 10px; font-size: 11px; font-family: Arial, Helvetica, sans-serif"><div>&quot;I would just like to say: well done!
+KoolMoves is my absolute favorite program that I own. Not only for its simple-to-use interface, but for its ability to make very complex animations
+with that interface. ...So I would just like to say thank you for making such an impressive program, and keep on updating.&quot;</div></td>
+        </tr>
+        </table>
+
+        <br><br><table border=0 cellpadding=0 cellspacing=0 style="border: 1px solid #CC9900; background-color: #FFFFCC;">
+        <tr>
+        <td style="padding: 10px; font-size: 11px; font-family: Arial, Helvetica, sans-serif"><div>&quot;The simplicity of use of this product
+astounded me. After five minutes I created a movie I would have been pleased to put on a customer's web site.&quot;
+        
+        <br><br>Read more <a href="http://dr.bluehornet.com/ct/3640192:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417">testimonials</a></div></td>
+        </tr>
+        </table>
+        
+    </td>
+    <td width=20><!--spacer--></td>
+    <td width=328 style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;">&nbsp;<br>
+    <span style="font-size: 21px; font-weight: bold">KoolMoves</span><br>
+    <strong style="color:#FD9B00; font-size: 12px;">Powerful Full Featured Flash* Authoring Tools</strong><br>
+    <strong style="color: red;">Create animations, text effects, websites, slideshows and more!</strong>
+    
+	<br><br><strong>KoolMoves is Flash* animation software that's so easy and powerful, it's all you need to...</strong>
+    
+    <ul>
+    <li><strong>Play video &amp; music with stylish media players</strong>  
+    <li><strong>Create high impact web sites &amp; animations</strong> 
+    <li><strong>Customize text effects, buttons, &amp; clip art</strong> 
+    <li><strong>Add impressive 3D text and shape effects</strong> 
+    <li><strong>Use templates or create your own designs</strong> 
+    <li><strong>Take control with Flash* 9 action scripts</strong>
+    </ul>
+    
+    <P>Get professional results at an affordable price.  And now for a limited time only, KoolMoves is <strong>only $34.95.</strong>
+    
+    <br><br>Used by both professionals and novices to create rich interactive content for web sites, KoolMoves is a popular Flash* authoring tool
+with rave industry reviews!
+    
+    <br><br>Combining ease-of-use with a wealth of powerful animation effects, KoolMoves makes it easy and inexpensive to create professional quality
+animations for web sites.
+    
+    <br><br>As Adobe Flash&#174; has developed into the standard for animation on the web, KoolMoves has emerged as an advanced but low cost
+alternative to Flash*.
+    
+    <br><br>It is ideal for creating a wide range of Web content, including high-impact Web pages, banners, navigation systems, and multimedia slide
+shows. It features libraries of text effects, Flash* templates, and clip art. There are 4 skill levels and built-in wizards. For advanced users, it
+has Flash* AS1/AS3 action scripting, interface components and bones for character animation.
+    
+    <br><br><strong>Features include:</strong>
+
+	<ul>
+    <li>Import images and sounds
+    <li>71 action script based text/image effects
+    <li>100 stylish text effects templates
+    <li>343 clip art items and buttons
+    <li>Wizard for adding Flash* animation to web page
+    <li>Slide show Wizard
+    <li>Banner Wizard
+    <li>40 media player skins
+    <li>28 web interface templates
+    <li>4 skill levels (wizards, basic, advanced, cartooning)
+    <li>43 customizable 3D effects
+    <li>Full set of drawing/shape manipulation tools
+    <li>And much more
+    <li>See the full <a href="http://dr.bluehornet.com/ct/3640193:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417">feature list</a>.
+    </ul>
+    
+    <P><strong>What can you do with KoolMoves?</strong>
+
+	<ul>
+    <li>Website Design
+    <li>Widgets
+    <li>Games
+    <li>Applications
+    </ul>
+    
+    <P>Visit the <a href="http://dr.bluehornet.com/ct/3640194:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417">Gallery</a> to see examples of animations created by
+KoolMoves users.
+    
+    <br><br><strong>Want to learn more about KoolMoves?</strong>  <br>
+    <a href="http://dr.bluehornet.com/ct/3640195:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417">Support</a> pages provide tutorials, examples, help manuals (in 5
+languages) and links to other helpful resources.
+
+        <p>*Flash&#174; is a registered trademark of Adobe Systems, Inc. 
+    	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+        <tr><td height=15><!--spacer--></td></tr>
+        <tr><td height=1 bgcolor="#999999"><!--spacer--></td></tr>
+        <tr><td height=15><!--spacer--></td></tr>
+        </table>
+    
+    <div style="text-align: center;"><a href="http://dr.bluehornet.com/ct/3640196:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100122a/button_buy.gif" alt="Buy Now!" width="200" height="57"
+border="0"></a></div>
+	
+	<P align=center style="font-family: Arial, Helvetica, sans-serif; font-size: 13px;">
+    <strong style="color: #FF0000">IMPORTANT:</strong> this offer is <strong>only valid for a limited period of time!</strong></p></td>
+    <td width=10><!--spacer--></td>
+    </tr>
+    </table>
+    
+    <table border=0 cellpadding=0 cellspacing=0 width=568 align=center>
+    <tr><td colspan=3 height=20 style="border-bottom: 1px dashed #CCCCCC; padding-top: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #FFFFFF;">&nbsp;</td></tr>
+    </table>
+
+</td>
+</tr>
+<tr>
+<td><img src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/common/bottom-banner_2.jpg" alt="Software Sites" width="600"
+height="175" border="0" usemap="#Map"></td>
+</tr>
+</table>
+
+<map name="Map">
+<area shape="rect" coords="65,50,260,165" href="http://dr.bluehornet.com/ct/3640197:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417" alt="Simtel">
+<area shape="rect" coords="330,50,535,165" href="http://dr.bluehornet.com/ct/3640198:3794163632:m:1:133771572:FA6D222A1A2844F9329B45ACCD21A417" alt="Software Deal of the Day">
+</map>
+
+</div>
+</body>
+
+<P><FONT face="Verdana, Arial, Helvetica, sans-serif" color=#999999 size=1>This message was intended for: <A href="mailto:hibody@csmining.org">hibody@csmining.org</A> <BR>You
+were added to the system June 15, 2007. For more information<BR><A href="http://dr.bluehornet.com/subscribe/source.htm?c=bhTNBsNX.05WI&email=hibody@csmining.org&cid=5a11d45857a74672da2a45dbcc865a">click here</A>.<BR><A href="http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=83e256ca7e16ed7a9d39f54c68e290a9">Update your preferences</A> | <A
+href="http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=83e256ca7e16ed7a9d39f54c68e290a9">Unsubscribe</A></FONT></P>
+<P><FONT face=Verdana color=#999999 size=1>SWREG, Inc.<BR>9625 West 76th Street, #150<BR>Eden Prairie, MN 55344</FONT></P><br><br><a href="http://www.digitalriver.com"><img src="http://dr.bluehornet.com/skins/dr/powered_by.jpg" border="0"></a></b></font></p><img src="http://dr.bluehornet.com/imagelibrary/N-3794163632-0A6BDDD227B15BB2D79D5FB642B8DADC.jpg" border="0" width="1" height="1">
+
+</html>
+
+
+
+----4b7d681a55a28-MultiPart-Mime-Boundary--
+

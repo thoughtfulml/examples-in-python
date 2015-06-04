@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286e57d4b9f1dbb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs401491wfb;
+        Thu, 6 May 2010 08:59:30 -0700 (PDT)
+Received: by 10.87.70.21 with SMTP id x21mr1800749fgk.62.1273161569362;
+        Thu, 06 May 2010 08:59:29 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si2345435fkt.7.2010.05.06.08.59.28;
+        Thu, 06 May 2010 08:59:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A228913A56C7; Thu,  6 May 2010 15:59:24 +0000 (UTC)
+Old-Return-Path: <budinero@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C7D9F13A55B1
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 15:59:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5UvvTgeaQAFx for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 15:59:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-gx0-f224.google.com (mail-gx0-f224.google.com [209.85.217.224])
+	by liszt.debian.org (Postfix) with ESMTP id 8B68A13A56B9
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 15:59:05 +0000 (UTC)
+Received: by gxk24 with SMTP id 24so77229gxk.18
+        for <debian-kde@lists.debian.org>; Thu, 06 May 2010 08:58:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=bORGxNsTREbRpOZ5fSZFAz3oBQgHQPR5UKn5cTcPrsM=;
+        b=k6leBBwm4hfPvmz46PAgGTX6YroYOwLvGJiJ2hBojREkavD7bMAXrZyDpjSlGa1qEx
+         uYD1LpJx/HnmkgZqOGFMIzxWML8yPb3zVwprVJocF7EHKJVNryT+W6X/HgohqOWRINPi
+         eTZTFwoGiwtncQx3sOtxu1mESBr0QdnaW+1mM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+         :content-type:content-transfer-encoding:message-id;
+        b=Uv4Zv8/ThDetmza8TrqD7So+1OTxoGrx+eVydLKBXTCkBg+fr6XI8bR+UMgAFVzHpX
+         Frio1zonaHqkRTk+Lq0eY2ImjHzuCtSejXeDIYFSECG9AtRvDjfeaaz3xiDM54L2zK1I
+         fEIaiyxisELfrcx40DJC+c2R8ONOHyoS+m1dE=
+Received: by 10.231.79.144 with SMTP id p16mr2337627ibk.4.1273161537649;
+        Thu, 06 May 2010 08:58:57 -0700 (PDT)
+Received: from budibook.localnet (gea.ing.unrc.edu.ar [170.210.133.54])
+        by mx.google.com with ESMTPS id c21sm340369ibr.16.2010.05.06.08.58.54
+        (version=SSLv3 cipher=RC4-MD5);
+        Thu, 06 May 2010 08:58:56 -0700 (PDT)
+From: Facundo Aguilera <budinero@csmining.org>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 12:59:41 -0300
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-amd64; KDE/4.4.3; x86_64; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005061250.53353.budinero@csmining.org>
+In-Reply-To: <201005061250.53353.budinero@csmining.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <201005061259.42306.budinero@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ScueTtsy9aP.A.LBC.cdu4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32143
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 15:59:24 +0000 (UTC)
+
+El Jueves 06 Mayo 2010 12:50:52 Facundo Aguilera <budinero@csmining.org>=20
+escribi=F3:
+>=20
+> Just for add a good comment, I'm testing 4.4.3 and it working very good!!
+> Thanks!!
+>=20
+>=20
+> The only problem I'm having is that kmail is not searching in the full
+> address list when writing a new message. But i can drag from kaddressbook
+> for now...
+
+
+Solved, I just create again the akonadi resource in systemsettings... the o=
+ld=20
+setting was removed in the upgrade.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061259.42306.budinero@csmining.org
+
+

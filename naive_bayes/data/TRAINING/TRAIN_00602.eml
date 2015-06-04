@@ -1,0 +1,222 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288c098218c600b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs45481wfb;
+        Wed, 12 May 2010 03:22:34 -0700 (PDT)
+Received: by 10.223.4.217 with SMTP id 25mr7879677fas.60.1273659753075;
+        Wed, 12 May 2010 03:22:33 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f1si7354fai.79.2010.05.12.03.22.32;
+        Wed, 12 May 2010 03:22:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4964A13A5400; Wed, 12 May 2010 10:22:26 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=FORGED_YAHOO_RCVD,FOURLA,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D49A613A53DC
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 10:22:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.103 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BODY_8BITS=1.5, FORGED_YAHOO_RCVD=2.297,
+	FOURLA=0.1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 86oOKsonYtRS for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 10:22:13 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id F006A13A5186
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 10:22:12 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OC94q-0003wi-HX
+	for debian-user@lists.debian.org; Wed, 12 May 2010 12:22:08 +0200
+Received: from chello062178025100.9.11.vie.surfer.at ([62.178.25.100])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 12 May 2010 12:22:08 +0200
+Received: from deloptes by chello062178025100.9.11.vie.surfer.at with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 12 May 2010 12:22:08 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: deloptes <deloptes@yahoo.com>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Date: Wed, 12 May 2010 12:21:59 +0200
+Lines: 131
+Message-ID: <hsdvg7$dpm$1@dough.gmane.org>
+References: <201005071123.48345.lisi.reisz@csmining.org> <4BE3F943.4010701@lorentz.leidenuniv.nl> <4BE4ED6F.4050708@dobosevic.com> <g2icdeec9051005080532z810046edveb2a8ea4c51fa0d9@mail.csmining.org> <q2t880dece01005080831zae8e27a7z35e6c132e9f0c273@mail.csmining.org> <hsbc1b$hor$1@dough.gmane.org> <hsbcpr$k5v$1@dough.gmane.org> <AANLkTinoxMbiE3v2HTcNli-955BwCfwkHXlpg7PRcBAW@mail.csmining.org> <hscd3u$moe$1@dough.gmane.org> <AANLkTilipKFmlB_1RBBrhknS-VzVvQegFHBjZgkpKk0M@mail.csmining.org>
+Reply-To: deloptes@yahoo.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8Bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: chello062178025100.9.11.vie.surfer.at
+User-Agent: KNode/0.10.9
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2hYkBVgfVoP.A.ZwF.iFo6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576600
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 10:22:26 +0000 (UTC)
+
+Dotan Cohen wrote:
+
+> On 11 May 2010 23:02, deloptes <deloptes@yahoo.com> wrote:
+>>>> - weather
+>>>
+>>
+http://kde-look.org/content/show.php/yaWP+%28Yet+Another+Weather+Plasmoid%29?content=94106
+>>
+>> This was not working in 4.3 and I couldn't start it in 4.4.
+>>
+> 
+> Interesting, it works on the Ubuntu box I test KDE on.
+> 
+> 
+>>>> - korganizer
+>>>
+>>> Check!
+>>
+>> it took at least 10min to start
+>>
+> 
+> Wow. Any console output?
+> 
+> 
+>>>> - infrared control
+>>>
+>>> How did you do this in KDE 3?
+>>
+>> with klirc and lircd and modifying the kernel key map for my cinergy xxs
+>> dvbt card ;-)
+>>
+>> a big challenge was to setup the kde keys ... it's not very developed,
+>> but the basic functionality works
+>>
+> 
+> Please, your input is needed here:
+> https://bugs.kde.org/show_bug.cgi?id=197885
+> 
+> 
+>>> i   plasma-widget-kbstate                                          - A
+>>> plasma widget that shows the state of the modifier keys
+>>
+>> In kde3 the "idiots" didn't think of us poor people not using latin and
+>> associated per default ALT+K to switch the keymap. Now if you switch from
+>> english to rushian/bulgarian or whatever ALT+K gives a completely
+>> different keycode ... So I had to always change this.
+>>
+>> Now in kde4 it's even better. You have to click ... and no reasonable
+>> language switching combination is working. In this point Windows wins, as
+>> it's per default configured to switch languages when typing
+>> (left)ALT+SHIFT
+>>
+> 
+> I switch between languages with the Capslock key.
+> עובד גם בעברית!‏
+> Работает тоже по Русский!
+> 
+> 
+>>>> - screen management (xrandr interface)
+>>>
+>>> Yes, built into System Settings.
+>>
+>> yes but not working for me and everybody running i915 vga card. this is
+>> also related to X-Server and the a**holes from intel. (don't judge me the
+>> notebook was given to me from the company I'm working for :-( )
+>>
+> 
+> I don't think that's a KDE issue, though.
+
+no but it's definitely an issue if you can not arrange your displays.
+
+> 
+> 
+>>> http://kde-apps.org/content/show.php/Krypt?content=80641
+>>
+>> the question is if it is compiling in kde4? and also if it is working
+>> well
+>>
+> 
+> It's not a core or even supported app, I think. It's a third-party
+> app. I really can't help with that.
+
+yes, I know. I'll check ... I have about  10 application to recompile.
+
+> 
+> 
+>>>> I forgot to mention that the keyboard froze after pressing ALT+F2 and
+>>>> switching language settings
+>>>
+>>> Please, please comment on this bug:
+>>> https://bugs.kde.org/show_bug.cgi?id=205369
+>>
+>> The problem is that it was not iresponsive for just 10secs but forever.
+>>
+> 
+> I see. Does that happen often, or only that once?
+
+For now it has happened twice ... it could be that I have
+installed/configured something after logging in the first time. 
+
+What is happening permanently is that if I click the logout button the whole
+desktop freezes. I have to press CTRL+ALT+F[1-6] to restart kdm
+
+What I am missing now is also the old behavior from CTRL+ALT+DEL to get
+prompt for reboot or shutdown - or whatever. Now this combination is
+locking the screen. Was it adopted from newer windows?
+
+>>
+> 
+> Thanks. It will stay unusable for you until you tell us what you need
+> to use it! That's what I'm here for.
+> 
+
+Well, 
+- kplayer was not working for DVB input.
+- korganizer does not start
+- kweather and kmoon are not visible (can not choose to activate), though it
+states it's installed.
+
+- ALL kde apps like kplayer/organizer and probably others start very slowly
+about 20-30secs to pop up
+
+
+I'm sorry but I can not test anything that fast. it will take few weeks.
+
+I will probably test upgrading (As I said) from lenny to squeeze to sid. To
+simulate an upgrade of my current system. I think this is more important.
+This will take a while, so my plan for now is to see what basically works
+and what not.
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsdvg7$dpm$1@dough.gmane.org
+
+

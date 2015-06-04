@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId128792ca89109454
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs517548wfb;
+        Sat, 8 May 2010 11:28:10 -0700 (PDT)
+Received: by 10.223.18.2 with SMTP id u2mr1815889faa.73.1273343289593;
+        Sat, 08 May 2010 11:28:09 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c9si4820636fac.64.2010.05.08.11.28.09;
+        Sat, 08 May 2010 11:28:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 11B6613A55D1; Sat,  8 May 2010 18:28:04 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C0E8813A5529
+	for <lists-debian-user@liszt.debian.org>; Sat,  8 May 2010 18:27:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id C6IPvcjCKnAu for <lists-debian-user@liszt.debian.org>;
+	Sat,  8 May 2010 18:27:51 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .wowway. - helo: .smtp.mail.wowway. - helo-domain: .wowway.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_ABUSE_RFCI=0.1; rate: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id EFA1013A5526
+	for <debian-user@lists.debian.org>; Sat,  8 May 2010 18:27:43 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=EnAg6b0JcI4A:10 a=FKkrIqjQGGEA:10 a=IkcTkHD0fZMA:10 a=u-ph-vMhAAAA:8 a=bVP7E8VSAAAA:8 a=PU3mmk4U60onR9HJTcYA:9 a=opelzwVxei-x0EqN4H0i6wTRGyYA:4 a=QEXdDO2ut3YA:10 a=ZUdhixyheCsA:10 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:53111] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 09/92-21309-C1DA5EB4; Sat, 08 May 2010 14:27:40 -0400
+Date: Sat, 8 May 2010 14:27:40 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <1847001195.164270.1273343260580.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <20100508182429.58039ee8@marvin.dhcp.hri>
+Subject: Re: Resources for learning Linux
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [75.118.95.22]
+X-Mailer: Zimbra 6.0.5_GA_2328.RHEL5_64 (zclient/6.0.5_GA_2328.RHEL5_64)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <094pJ6pXmqJ.A.klG.00a5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576226
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 18:28:04 +0000 (UTC)
+
+On Sat, 08 May 2010 08:54:29 -0400 (EDT), Girish Kulkarni wrote:
+> On Mon, 26 Apr 2010 13:37:53 -0400 (EDT) Stephen Powell wrote:
+>> My favorite free on-line reference for general Linux knowledge is
+>> currently the original edition of "The Linux Cookbook", by Michael
+>> Stutz.  Here is the link:
+>> 
+>>    http://dsl.org/cookbook/cookbook_toc.html
+>> 
+>> There is a greatly expanded second edition of the book, which is more
+>> comprehensive, but it is not free.  You have to pay for it.
+>> Others, I'm sure, will have other ideas.
+> 
+> Yes, Michael Stutz book is good, both in content and style.  Also,
+> there is the Linux Documentation Project, with many learning
+> resources: http://tldp.org/
+
+Yes, the Linux Documentation project is good too.  I go there mainly
+for the HOWTOs if I want to research a specific subject.  But for
+how to perform typical daily computing tasks using Linux, The Linux
+Cookbook is the best that I have found.
+
+"Oh, you want to do that?  Here, type this ..."
+
+That's the kind of everyday usage question that the Linux Cookbook was
+designed to solve.  And the second edition is even better.
+Unfortunately, it's not available online.  But I liked the original
+so well that I bought a hard copy of the second edition.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1847001195.164270.1273343260580.JavaMail.root@md01.wow.synacor.com
+
+

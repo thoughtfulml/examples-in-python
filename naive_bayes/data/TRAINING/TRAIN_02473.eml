@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ac15df8678d1f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs20578wfo;
+        Tue, 18 May 2010 08:43:55 -0700 (PDT)
+Received: by 10.223.127.196 with SMTP id h4mr8383627fas.56.1274197434340;
+        Tue, 18 May 2010 08:43:54 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id a25si15961158faa.68.2010.05.18.08.43.53;
+        Tue, 18 May 2010 08:43:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BAB2113A4F91; Tue, 18 May 2010 15:43:51 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 70D6813A4EDC
+	for <lists-debian-kde@liszt.debian.org>; Tue, 18 May 2010 15:43:45 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id hz-+V83fJVg7 for <lists-debian-kde@liszt.debian.org>;
+	Tue, 18 May 2010 15:43:38 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 387A213A4EA8
+	for <debian-kde@lists.debian.org>; Tue, 18 May 2010 15:43:38 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1OEOxC-00050l-LY; Tue, 18 May 2010 18:43:34 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: Re: What needs to improve in KDE 4?
+Date: Tue, 18 May 2010 18:43:28 +0300
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-amd64; KDE/4.4.3; x86_64; ; )
+Cc: "B. Alexander" <storm16@csmining.org>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org> <AANLkTinvsjKE5j4hLyA2CljNhHWscIjuVd9ZHkDJuiHI@mail.csmining.org> <AANLkTimB-_xs-mJFi33Xzh6hDDUmos6jMKbAek3OMdcy@mail.csmining.org>
+In-Reply-To: <AANLkTimB-_xs-mJFi33Xzh6hDDUmos6jMKbAek3OMdcy@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart7836339.e92ZCPSInC";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005181843.33989.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <c77eP3ybekJ.A.dnE.3Wr8LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32459
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 15:43:51 +0000 (UTC)
+
+--nextPart7836339.e92ZCPSInC
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On antradienis 18 Gegu=C5=BE=C4=97 2010 18:02:53 B. Alexander wrote:
+> On both systems, clicking either on the desktop or the cashew and selecti=
+ng
+> Desktop Activity Settings causes the panel and the desktop background to
+> disappear. I no longer get a menu when right clicking on the (black)
+> desktop. I am also no longer able to change desktops, but I can still
+> access the windows on the current (only) desktop.
+
+That's symptoms of plasma-desktop crashing.
+
+> The only way to recover
+> from this is to go into a terminal window and restart kdm or reboot.
+
+Run plasma-desktop from krunner or X terminal.
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart7836339.e92ZCPSInC
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvytaEACgkQHO9JRnPq4hT96wCcDxXgsLpQ7JsKg2YyublXzuux
+4YQAnjMbZe6EMHd4oahdL/aCtjdha+tg
+=7D2T
+-----END PGP SIGNATURE-----
+
+--nextPart7836339.e92ZCPSInC--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005181843.33989.modestas@vainius.eu
+
+

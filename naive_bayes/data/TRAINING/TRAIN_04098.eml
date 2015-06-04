@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280c82936da5839
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs20997wfj;
+        Sat, 17 Apr 2010 09:03:24 -0700 (PDT)
+Received: by 10.87.35.9 with SMTP id n9mr2409329fgj.45.1271520203640;
+        Sat, 17 Apr 2010 09:03:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si6448538fkt.37.2010.04.17.09.03.23;
+        Sat, 17 Apr 2010 09:03:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B51DB13A5A8E; Sat, 17 Apr 2010 16:03:18 +0000 (UTC)
+Old-Return-Path: <ddjones@riddlemaster.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RDNS_NONE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5109913A5273
+	for <lists-debian-user@liszt.debian.org>; Sat, 17 Apr 2010 16:03:12 +0000 (UTC)
+X-Quarantine-ID: <skI1Tjl-SNZb>
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-Amavis-Alert: BAD HEADER SECTION, Improper folded header field made up
+	entirely of whitespace (char 20 hex): X-Spam_report: ...that system
+	for details.\n \n Content previ[...]
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RDNS_NONE=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id skI1Tjl-SNZb for <lists-debian-user@liszt.debian.org>;
+	Sat, 17 Apr 2010 16:03:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from etch.riddlemaster.org (unknown [209.170.146.89])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 8913813A5A74
+	for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 16:03:04 +0000 (UTC)
+Received: from merlin ([192.168.2.12] helo=merlin.localnet)
+	by etch.riddlemaster.org with esmtp (Exim 4.71)
+	(envelope-from <ddjones@riddlemaster.org>)
+	id 1O3AU0-0000PK-Jq
+	for debian-user@lists.debian.org; Sat, 17 Apr 2010 12:03:00 -0400
+From: Daniel D Jones <ddjones@riddlemaster.org>
+To: debian-user@lists.debian.org
+Subject: Re: Bash script - pass command line arg to embedded sed script with multiple args
+Date: Sat, 17 Apr 2010 12:02:40 -0400
+User-Agent: KMail/1.12.4 (Linux/2.6.31-gentoo-r6; KDE/4.3.5; i686; ; )
+References: <201004162015.38878.ddjones@riddlemaster.org> <20100417040928.GA11872@sigpipe.org>
+In-Reply-To: <20100417040928.GA11872@sigpipe.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-6"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004171202.40262.ddjones@riddlemaster.org>
+X-Spam_score_int: -9
+X-Spam_bar: -
+X-Spam_report: Spam detection software, running on the system "etch.riddlemaster.org", has
+ identified this incoming email as possible spam.  The original message
+ has been attached to this so you can view it (if it isn't spam) or label
+ similar future email.  If you have any questions, see
+ the administrator of that system for details. 
+ Content preview:  On Saturday 17 April 2010 00:09:28 Michael Elkins wrote: >
+    On Fri, Apr 16, 2010 at 08:15:38PM -0400, Daniel D Jones wrote: > >What I'm
+    trying to do is pretty simple. Getting it to work is turning out > > not
+   to be. What I want to do is call a bash script with a couple of > > arguments,
+    and, within the script, call sed to use those args to replace > > two placeholders
+    in a file: > > > >bashscript SUB1 SUB2 > > > >This line inside bashscript
+    doesn't work: > > > >sed -e 's/PLACEHOLDER1/$1/' -e 's/PLACEHOLDER2/$2/'
+   < input > output > > If you switch the single quotes to double quotes it will
+    work as you > expect. Variables inside of double quotes are expanded. Single
+    quotes are > for literal strings, as you've discovered. [...]  
+ Content analysis details:   (-1.0 points, 5.0 required) 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -1.0 ALL_TRUSTED            Passed through trusted hosts only via SMTP
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <4sMkrUQef7C.A.ViD.GvdyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574322
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 17 Apr 2010 16:03:18 +0000 (UTC)
+
+On Saturday 17 April 2010 00:09:28 Michael Elkins wrote:
+> On Fri, Apr 16, 2010 at 08:15:38PM -0400, Daniel D Jones wrote:
+> >What I'm trying to do is pretty simple.  Getting it to work is turning out
+> > not to be.  What I want to do is call a bash script with a couple of
+> > arguments, and, within the script, call sed to use those args to replace
+> > two placeholders in a file:
+> >
+> >bashscript SUB1 SUB2
+> >
+> >This line inside bashscript doesn't work:
+> >
+> >sed -e 's/PLACEHOLDER1/$1/' -e 's/PLACEHOLDER2/$2/' < input > output
+> 
+> If you switch the single quotes to double quotes it will work as you
+>  expect. Variables inside of double quotes are expanded.  Single quotes are
+>  for literal strings, as you've discovered.
+
+That was the first thing I tried and sed gave me an error:
+
+sed: -e expression #1, char 18: unknown option to `s'
+
+I just went back and tried it again and it worked, so I have no idea what I 
+did the first time that made it not work.
+
+-- 
+"Clear writers assume, with a pessimism born of experience, that whatever 
+isn't plainly stated the reader will invariably misconstrue." - John R. 
+Trimble
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004171202.40262.ddjones@riddlemaster.org
+
+

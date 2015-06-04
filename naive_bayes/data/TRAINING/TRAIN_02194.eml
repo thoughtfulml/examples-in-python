@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId128589a38f67b96a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs177622wfj;
+        Sun, 2 May 2010 03:40:22 -0700 (PDT)
+Received: by 10.223.21.23 with SMTP id h23mr2612867fab.21.1272796821694;
+        Sun, 02 May 2010 03:40:21 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si6533840fkx.10.2010.05.02.03.40.21;
+        Sun, 02 May 2010 03:40:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 903CE13A4CA1; Sun,  2 May 2010 10:40:18 +0000 (UTC)
+Old-Return-Path: <didi.debian@cknow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EB36A13A4862
+	for <lists-debian-kde@liszt.debian.org>; Sun,  2 May 2010 10:40:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DJtDhMAnDVYI for <lists-debian-kde@liszt.debian.org>;
+	Sun,  2 May 2010 10:40:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from hapkido.dreamhost.com (hapkido.dreamhost.com [66.33.216.122])
+	by liszt.debian.org (Postfix) with ESMTP id 6025613A49E6;
+	Sun,  2 May 2010 10:39:53 +0000 (UTC)
+Received: from homiemail-a4.g.dreamhost.com (caiajhbdccah.dreamhost.com [208.97.132.207])
+	by hapkido.dreamhost.com (Postfix) with ESMTP id 2FE251798A5;
+	Sun,  2 May 2010 03:39:51 -0700 (PDT)
+Received: from the-shire.localnet (e243048.upc-e.chello.nl [213.93.243.48])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by homiemail-a4.g.dreamhost.com (Postfix) with ESMTP id 113584083C;
+	Sun,  2 May 2010 03:38:49 -0700 (PDT)
+From: Diederik de Haas <didi.debian@cknow.org>
+To: debian-live@lists.debian.org
+Subject: kde-core list should be updated (live-helper)
+Date: Sun, 2 May 2010 12:38:43 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.32-3-686-bigmem; KDE/4.4.2; i686; ; )
+Organization: Connecting Knowledge
+Cc: debian-kde@lists.debian.org
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005021238.43613.didi.debian@cknow.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <VcZiUd8vgN.A.fqH.SaV3LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32058
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 10:40:18 +0000 (UTC)
+
+Hello all,
+
+I just received a notification that meta-kde 5:59 has entered unstable/sid.
+With that, the meta package kde-minimal does no longer exist, so /usr/share/live-helper/lists/kde-
+core should be updated and possibly again when 5:59 gets into testing/squeeze.
+
+This is the contents of that file now (primairily for debian-kde list):
+#if DISTRIBUTION lenny
+kde-core
+#endif
+#if DISTRIBUTION squeeze sid
+kde-minimal
+#endif
+
+kdm
+desktop-base
+
+
+I think the following change should correct the change in the meta-package:
+#if DISTRIBUTION squeeze sid
+kde-minimal
+#endif
+
+becomes:
+
+#if DISTRIBUTION squeeze
+kde-minimal
+#endif
+#if DISTRIBUTION sid
+kde-plasma-desktop
+#endif
+
+and when 5:59 gets into testing it should become:
+#if DISTRIBUTION squeeze sid
+kde-plasma-desktop
+#endif
+
+I'm CC-ing debian-kde list, since they probably can add sth useful to this.
+
+Regards,
+   Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005021238.43613.didi.debian@cknow.org
+
+

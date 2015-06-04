@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId128af89f70df01f5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs43858wfo;
+        Wed, 19 May 2010 00:49:35 -0700 (PDT)
+Received: by 10.223.62.202 with SMTP id y10mr9311785fah.100.1274255373855;
+        Wed, 19 May 2010 00:49:33 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n24si17318974faa.34.2010.05.19.00.49.33;
+        Wed, 19 May 2010 00:49:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8F07413A53DC; Wed, 19 May 2010 07:49:30 +0000 (UTC)
+Old-Return-Path: <fboudra@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 04BE213A517F
+	for <lists-debian-kde@liszt.debian.org>; Wed, 19 May 2010 07:49:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 40GEPBc1lGjt for <lists-debian-kde@liszt.debian.org>;
+	Wed, 19 May 2010 07:49:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-vw0-f47.google.com (mail-vw0-f47.google.com [209.85.212.47])
+	by liszt.debian.org (Postfix) with ESMTP id 7A87013A4FD7
+	for <debian-kde@lists.debian.org>; Wed, 19 May 2010 07:49:16 +0000 (UTC)
+Received: by vws20 with SMTP id 20so2693507vws.6
+        for <debian-kde@lists.debian.org>; Wed, 19 May 2010 00:49:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:sender:reply-to:received
+         :in-reply-to:references:from:date:x-google-sender-auth:message-id
+         :subject:to:cc:content-type;
+        bh=1bHfXzUfnOa5Vi+rFoP9tDe5PsvygHuOWhnAGsLQZlI=;
+        b=ibCgrMRvfGRvDllGrGrzBCh77tGnVCcfYAkxtnCqM8sJaFSP2VdZec0nzepZT6K49o
+         0pl4LVh5b8R+w3oqBv+/sk5YrjHKctI74TOjRrmp0oGwiMlaecgmLlRjpsmYqJ9hRHOF
+         zmLbhP3NAb7IxEEYMRLp2PkVwMCPaHgHKcx4U=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:sender:reply-to:in-reply-to:references:from:date
+         :x-google-sender-auth:message-id:subject:to:cc:content-type;
+        b=rL7QqqRR66laHohzHlnMmoglIlKpkEEkhbAu37NMaxJr9SaAiVmsC/RCKJebsXWQmD
+         4booCOyuOs3H+T5vU5SQYey2b8gHA9WPvOiGgnBfzQKQ7wsNh5ckyIpnm1SFT8axtRG/
+         bRHihBxr+jTnprQ0A0hgbXhLzH0zOYLEyfQZM=
+Received: by 10.220.124.15 with SMTP id s15mr3992080vcr.217.1274255348466; 
+	Wed, 19 May 2010 00:49:08 -0700 (PDT)
+MIME-Version: 1.0
+Sender: fboudra@csmining.org
+Reply-To: fabo@debian.org
+Received: by 10.220.170.134 with HTTP; Wed, 19 May 2010 00:48:48 -0700 (PDT)
+In-Reply-To: <201005181523.36084.Martin@lichtvoll.de>
+References: <201005181523.36084.Martin@lichtvoll.de>
+From: Fathi Boudra <fabo@debian.org>
+Date: Wed, 19 May 2010 10:48:48 +0300
+X-Google-Sender-Auth: UY_QsA1pirdRWdDTFZo8Ka4c160
+Message-ID: <AANLkTinbtGGq10EqOvPR2IIopu2t4W1_WdgzX0TS7TwG@mail.csmining.org>
+Subject: Re: plans for basket
+To: Martin Steigerwald <Martin@lichtvoll.de>
+Cc: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5VJafEgVMGO.A.ubF.Kg58LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32465
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 19 May 2010 07:49:30 +0000 (UTC)
+
+> do you have any plans for Basket?
+> There is a Qt 4 port available Basket 2.0 Beta 1 (1.80).
+>
+> It didn't show any basket contents after installation to my home
+> directory, but that might have been a problem with the installer script in
+> the upstream archive.
+
+basket is in under our radar.
+The package should be reviewed before the upload.
+
+Cheers,
+
+Fathi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinbtGGq10EqOvPR2IIopu2t4W1_WdgzX0TS7TwG@mail.csmining.org
+
+

@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId128020ab6b2c1494
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs64334wfa;
+        Thu, 15 Apr 2010 08:16:17 -0700 (PDT)
+Received: by 10.102.16.14 with SMTP id 14mr164341mup.136.1271344576291;
+        Thu, 15 Apr 2010 08:16:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y6si8637102mug.50.2010.04.15.08.16.11;
+        Thu, 15 Apr 2010 08:16:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 56CEB13A4FE9; Thu, 15 Apr 2010 15:16:05 +0000 (UTC)
+Old-Return-Path: <johnxj@comcast.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 74EB213A496E
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 15:15:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4Qfhz5IJvgrP for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 15:15:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -1.8
+X-Greylist: delayed 600 seconds by postgrey-1.31 at liszt; Thu, 15 Apr 2010 15:15:51 UTC
+Received: from beyla.oit.pdx.edu (beyla.oit.pdx.edu [131.252.120.61])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id D010E13A4991
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 15:15:45 +0000 (UTC)
+Received: from mailhost.pdx.edu (c-24-21-200-228.hsd1.or.comcast.net [24.21.200.228])
+	(authenticated bits=0)
+	by beyla.oit.pdx.edu (8.14.1+/8.13.1) with ESMTP id o3FF5fdm000510
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NOT)
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 08:05:43 -0700
+X-Authentication-Warning: beyla.oit.pdx.edu: Host c-24-21-200-228.hsd1.or.comcast.net [24.21.200.228] claimed to be mailhost.pdx.edu
+Date: Thu, 15 Apr 2010 08:05:40 -0700
+From: John Jason Jordan <johnxj@comcast.net>
+To: debian-user@lists.debian.org
+Subject: Re: acroread not seeing printers
+Message-ID: <20100415080540.5ea5b90b@mailhost.pdx.edu>
+In-Reply-To: <1271325404.4177.5.camel@Family.pacifera.com>
+References: <1271325404.4177.5.camel@Family.pacifera.com>
+Organization: None whatsoever
+X-Mailer: Claws Mail 3.7.5 (GTK+ 2.16.6; x86_64-redhat-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <QnrENElgJfM.A.ZrG.12yxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574182
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 15:16:05 +0000 (UTC)
+
+On Thu, 15 Apr 2010 05:56:44 -0400
+"John A. Sullivan III" <jsullivan@opensourcedevel.com> dijo:
+
+>Hello, all.  We've installed acroread 8.1.7-0.1 from debian-multimedia.
+>It is not seeing any of the printers on our cups print server.  It just
+>shows the custom lpr printer.  How do we get it to see our printers
+>like all the other applications in our KDE setup do? We are running
+>Lenny + backports.  Thanks - John
+
+I had this problem with 64-bit Ubuntu for a long time. Finally, when
+Adobe was working on the 9.x release I inquired directly to Adobe. The
+result was that I became a beta tester. And the outcome was that Adobe
+fixed Reader 9.1 so that I could see my printers.
+
+I have not had the problem since. I suggest getting the latest version
+of Reader. Version 8.1.7 is really old anyway.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415080540.5ea5b90b@mailhost.pdx.edu
+
+

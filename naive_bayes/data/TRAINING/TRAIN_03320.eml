@@ -1,0 +1,161 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281cd0b5692c35a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs84352wfj;
+        Tue, 20 Apr 2010 13:02:39 -0700 (PDT)
+Received: by 10.114.97.17 with SMTP id u17mr6076383wab.145.1271793759735;
+        Tue, 20 Apr 2010 13:02:39 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 27si790108pzk.3.2010.04.20.13.02.39;
+        Tue, 20 Apr 2010 13:02:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 79F531BE73D8F
+	for <mlsubscriber.tech@csmining.org>; Tue, 20 Apr 2010 13:02:39 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 7548B26F846DE
+	for <mlsubscriber.tech@csmining.org>; Tue, 20 Apr 2010 13:02:39 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 9AC1A26F84500
+	for <quicktime-api@lists.apple.com>;
+	Tue, 20 Apr 2010 13:02:22 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 8B070CCECF2D
+	for <quicktime-api@lists.apple.com>;
+	Tue, 20 Apr 2010 13:02:22 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-65-4bce084e4867
+Received: from fed1rmmtao107.cox.net (fed1rmmtao107.cox.net [68.230.241.39])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	9D.E1.26228.E480ECB4; Tue, 20 Apr 2010 13:02:22 -0700 (PDT)
+Received: from fed1rmimpo01.cox.net ([70.169.32.71]) by fed1rmmtao107.cox.net
+	(InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+	id <20100420200222.BWBA1969.fed1rmmtao107.cox.net@fed1rmimpo01.cox.net>;
+	Tue, 20 Apr 2010 16:02:22 -0400
+Received: from [192.168.1.170] ([72.215.173.90])
+	by fed1rmimpo01.cox.net with bizsmtp
+	id 7w2M1e00E1xPF4g03w2MXi; Tue, 20 Apr 2010 16:02:21 -0400
+X-VR-Score: -130.00
+X-Authority-Analysis: v=1.1 cv=cnbFproiWJRJ9R5Ra84R6dpMd929KZAD6MF01mSBA8Y=
+	c=1 sm=1 a=8nJEP1OIZ-IA:10 a=NPxosNbGwc+gdho90fHKsw==:17
+	a=t-IPkPogAAAA:8
+	a=n-kJSqksAAAA:8 a=P4LrBEJmM8jiMdo8TWUA:9 a=TlSxSblbSDPAUDAGVTAA:7
+	a=NGFZqjS78JX4tgCw-iN07RP-MA4A:4 a=wPNLvfGTeEIA:10 a=YT1PGqTJFakA:10
+	a=capAXYWsSBQA:10 a=98jSFH7WqmUA:10 a=NPxosNbGwc+gdho90fHKsw==:117
+X-CM-Score: 0.00
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=iso-8859-1
+From: Robert Monaghan <robert_monaghan@mac.com>
+In-Reply-To: <D190394A-CDFD-4505-8003-ECCB6AAA44BE@gmx.net>
+Date: Tue, 20 Apr 2010 13:02:20 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <D4FDDB3F-AD32-40DE-8F44-EE192B5AF74D@mac.com>
+References: <D190394A-CDFD-4505-8003-ECCB6AAA44BE@gmx.net>
+To: =?iso-8859-1?Q?Alexander_Car=F4t?= <alexander_carot@gmx.net>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAARO2goI=
+Cc: quicktime-api@lists.apple.com
+Subject: Re: color problem
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+This looks like a classic case of ARGB mixup.
+Have you ordered your bytes to paint "Alpha, Red, Green Blue"?
+
+bob.
+
+On Apr 19, 2010, at 8:38 AM, Alexander Car=F4t wrote:
+
+> Hello again,
+>=20
+> regarding my color problem I attached a screenshot of the actual image =
+I get when mapping the pixels of a CGImage onto a QImage: The image is =
+kind of blue/white (pillow should be red, pullover shuld be green and =
+skin white).
+>=20
+> The full mapping sequence looks like this:
+>=20
+> *****************************
+> CGImageRef image =3D NULL;
+>=20
+> size_t width, height, rowBytes, bitsPerComponent;
+> CVPixelBufferLockBaseAddress( pixelBuffer, 0 );
+> rowBytes =3D CVPixelBufferGetBytesPerRow( pixelBuffer );
+> baseAddr =3D CVPixelBufferGetBaseAddress( pixelBuffer );
+> width =3D CVPixelBufferGetWidth( pixelBuffer );
+> height =3D CVPixelBufferGetHeight( pixelBuffer );
+> colorspace =3D CGColorSpaceCreateDeviceRGB();
+> CVBufferRetain( pixelBuffer );
+> provider =3D CGDataProviderCreateWithData( pixelBuffer, baseAddr, =
+rowBytes *height, releaseAndUnlockThis );
+> image =3D CGImageCreate( width, height, 8, 32, rowBytes, colorspace,=20=
+
+> kCGImageAlphaNoneSkipFirst, provider, NULL, true, =
+kCGRenderingIntentDefault );
+>=20
+> unsigned char *rawData =3D new unsigned char[1000000];
+> unsigned char backup;
+>=20
+> CFDataRef data =3D =
+CGDataProviderCopyData(CGImageGetDataProvider(image));
+> rawData =3D (unsigned char*) CFDataGetBytePtr(data);
+>=20
+> if (data !=3D NULL){
+>  currentObject->displayImage =3D new =
+QImage(rawData,320,240,QImage::Format_RGB32);  =20
+>  currentObject->update();
+> }  =20
+> *****************************
+>=20
+> I already changed the formats but this made it even worse. =
+Furthermore, I did a manua byte swap of the raw data buffer (in case =
+this might be an endian problem)<colorProblem.tiff>:
+>=20
+>  for (int i=3D0;i<100000;i=3Di+2){
+>    backup =3D rawData[i];
+>    rawData[i]=3DrawData[i+1];
+>    rawData[i+1] =3D backup;
+>  }=20
+>=20
+> but this painted swapped range in green.
+>=20
+> I anyone might know what the problem might be I'd appreciate any hint.
+>=20
+> Thanks a lot in advance
+>=20
+> -- A l e x
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/quicktime-api/robert_monaghan%40mac=
+.com
+>=20
+> This email sent to robert_monaghan@mac.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

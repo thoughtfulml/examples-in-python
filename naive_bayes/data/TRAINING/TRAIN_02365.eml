@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId128794795c30c7c0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs518953wfb;
+        Sat, 8 May 2010 11:57:36 -0700 (PDT)
+Received: by 10.223.143.9 with SMTP id s9mr1879532fau.52.1273345054101;
+        Sat, 08 May 2010 11:57:34 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z13si4869901fah.76.2010.05.08.11.57.33;
+        Sat, 08 May 2010 11:57:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D35A313A5740; Sat,  8 May 2010 18:57:31 +0000 (UTC)
+Old-Return-Path: <didi.debian@cknow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A554213A553D
+	for <lists-debian-kde@liszt.debian.org>; Sat,  8 May 2010 18:57:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4BirrVyFJCS2 for <lists-debian-kde@liszt.debian.org>;
+	Sat,  8 May 2010 18:57:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.2
+Received: from homiemail-a4.g.dreamhost.com (caiajhbdcbhh.dreamhost.com [208.97.132.177])
+	by liszt.debian.org (Postfix) with ESMTP id EE38013A542E
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 18:57:16 +0000 (UTC)
+Received: from the-shire.localnet (e243048.upc-e.chello.nl [213.93.243.48])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by homiemail-a4.g.dreamhost.com (Postfix) with ESMTP id 1D57241A0D
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 11:57:14 -0700 (PDT)
+From: Diederik de Haas <didi.debian@cknow.org>
+Organization: Connecting Knowledge
+To: debian-kde@lists.debian.org
+Subject: Re: Best way to install kde-standard
+Date: Sat, 8 May 2010 20:57:10 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-686-bigmem; KDE/4.4.3; i686; ; )
+References: <201005081517.11177.didi.debian@cknow.org> <201005081712.22357.didi.debian@cknow.org> <87aasati32.fsf@turtle.gmx.de>
+In-Reply-To: <87aasati32.fsf@turtle.gmx.de>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005082057.11661.didi.debian@cknow.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <hroFVkA-oEE.A.h9C.bQb5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32280
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 18:57:31 +0000 (UTC)
+
+On 2010-05-08 Sven Joachim wrote:
+> > Suggestions?
+> 
+> File a bug report.
+
+I first want to know if I'm the only one and/or try to find the cause of the issue before filing a bug 
+report.
+But I'll start a separate thread for it.
+ 
+> > Since the noveau driver didn't seem capable of rendering kde/kdm properly
+> > I installed the nvidia  drivers (the debian way).
+> 
+> Does hibernating work with the nvidia driver?  BTW, nouveau should work
+> fine if you disable desktop effects.
+
+Nope, hibernating does not work with the nvidia driver, but I didn't/couldn't test it with the 
+nouveau driver, since I couldn't get a login screen to begin with and Ctl+Alt+F1 didn't respond 
+either, so it was unusable for me.
+Had to do Ctl+Alt+SysRq+(REISUB) and boot into single user mode to get my system working again.
+
+Desktop effects seems to be disabled by default on laptops, so that's probably not it.
+
+Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005082057.11661.didi.debian@cknow.org
+
+

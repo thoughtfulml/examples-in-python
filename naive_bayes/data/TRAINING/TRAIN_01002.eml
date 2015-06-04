@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888d6c09f44918
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs5014wfb;
+        Tue, 11 May 2010 12:28:15 -0700 (PDT)
+Received: by 10.223.127.212 with SMTP id h20mr6778073fas.89.1273606095062;
+        Tue, 11 May 2010 12:28:15 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n15si4503550fam.5.2010.05.11.12.28.14;
+        Tue, 11 May 2010 12:28:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D93F413A55D8; Tue, 11 May 2010 19:28:04 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=FORGED_YAHOO_RCVD,
+	LDOSUBSCRIBER,LDO_WHITELIST,MDO_DATING2 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 967ED13A5292
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 19:27:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.603 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FORGED_YAHOO_RCVD=2.297, LDO_WHITELIST=-5,
+	MDO_DATING2=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JLlecEuAlW6f for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 19:27:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 860EC13A54F9
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 19:27:51 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OBv7K-0000xJ-Oz
+	for debian-user@lists.debian.org; Tue, 11 May 2010 21:27:46 +0200
+Received: from chello062178025100.9.11.vie.surfer.at ([62.178.25.100])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 21:27:46 +0200
+Received: from deloptes by chello062178025100.9.11.vie.surfer.at with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 21:27:46 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: deloptes <deloptes@yahoo.com>
+Subject: Re: KDE4 & KDE3 || Gnome2 & Gnome3
+Date: Tue, 11 May 2010 21:27:38 +0200
+Lines: 37
+Message-ID: <hscb3a$f9f$1@dough.gmane.org>
+References: <4BE91E87.70402@uni-altai.ru> <201005111618.41916.lisi.reisz@csmining.org> <hsbts7$km8$1@dough.gmane.org> <201005111010.32203.agianson@csmining.org>
+Reply-To: deloptes@yahoo.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7Bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: chello062178025100.9.11.vie.surfer.at
+User-Agent: KNode/0.10.9
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <sxGioX72wiO.A.l_D.E_a6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576562
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 19:28:04 +0000 (UTC)
+
+Alan Ianson wrote:
+
+> On Tue May 11 2010 08:41:59 am deloptes wrote:
+> 
+>> Don't understand me wrong. I am for improvement and progress but not the
+>> way kde4 is pushing it to the end user.
+> 
+> If there was enough interest, kde3 could continue to be developed as it's
+> own project.
+> 
+> I would support the project but I can't contribute anything more than bug
+> reports since I am just a user and not a programmer.
+
+I remember I asked on kde-develop and they said they don't have the
+ressources to support it. But what I mean is that someone should care to
+get the code compiled on newer libraries. This could be challenging though
+if the code is working ATM, it's not that much effort to keep it running at
+least for the next few years.
+
+The interest is present I think, but not in the focus of interest of kde
+management/development team. I personally could and will make a repo for my
+needs ... but it does not seem to be urgent ATM. If someone starts similar
+project I would love to know and join.
+
+Hm, so we have to think about doing something like kde3.10 for debian
+squeeze. I personally hate k/ubuntu but there are few very useful features
+in the 3.10 version there.
+
+This plan could cover 3-4 years. And in that time kde4 should have matured
+enough to fit our needs.
+
+As far as I know kde3 is not in squeeze (apps are supported but framework
+not) or am I wrong?
+
+What do you think?
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hscb3a$f9f$1@dough.gmane.org
+
+

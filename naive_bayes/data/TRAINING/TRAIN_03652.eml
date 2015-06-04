@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId12832dc58228ac5e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs33131wfj;
+        Sat, 24 Apr 2010 19:47:02 -0700 (PDT)
+Received: by 10.87.1.13 with SMTP id d13mr3740544fgi.29.1272163621063;
+        Sat, 24 Apr 2010 19:47:01 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si5333926fkt.37.2010.04.24.19.47.00;
+        Sat, 24 Apr 2010 19:47:01 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4F29A13A5051; Sun, 25 Apr 2010 02:46:50 +0000 (UTC)
+Old-Return-Path: <kevin@familyross.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.4 required=4.0 tests=FOURLA,FVGT_m_MULTI_ODD,
+	LDOSUBSCRIBER,LDO_WHITELIST,RATWARE_GECKO_BUILD,RDNS_NONE autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 58BBE13A4FAC
+	for <lists-debian-user@liszt.debian.org>; Sun, 25 Apr 2010 02:46:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.78 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	LDO_WHITELIST=-5, RDNS_NONE=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6PMd5CyxMZh2 for <lists-debian-user@liszt.debian.org>;
+	Sun, 25 Apr 2010 02:46:37 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .familyross. - helo: .mail.familyross. - helo-domain: .familyross.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from mail.familyross.net (unknown [74.82.57.38])
+	by liszt.debian.org (Postfix) with ESMTP id 9D62413A4F88
+	for <debian-user@lists.debian.org>; Sun, 25 Apr 2010 02:46:36 +0000 (UTC)
+Received: from [192.168.1.5] (pool-71-164-13-125.sttlwa.fios.verizon.net [71.164.13.125])
+	by mail.familyross.net (Postfix) with ESMTPSA id F3D4E417B
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 19:46:32 -0700 (PDT)
+Message-ID: <4BD3AD1B.70001@familyross.net>
+Date: Sat, 24 Apr 2010 19:46:51 -0700
+From: Kevin Ross <kevin@familyross.net>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org>
+In-Reply-To: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <JRUjikzbbZG.A.X7D.a060LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574973
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 25 Apr 2010 02:46:50 +0000 (UTC)
+
+On 4/24/2010 10:53 AM, B. Alexander wrote:
+> Hi,
+>
+> I have a question on filesystems. Back in the day, I started using 
+> reiser3. It was faster than ext3, and it could be extended without 
+> umounting the filesystem (which has since been fixed in ext3), plus, 
+> unlike any filesystem I have encountered, it could be reduced in size.
+>
+> Well, now reiser3 is very long in the tooth, reiser4 will probably 
+> never go anywhere, so I'm wondering what filesystems are recommended. 
+> Last I heard, ext4 is stablizing, but it had problems with filesystem 
+> corruption, though that was mid-fall last year, IIRC.
+>
+> So now, I would like to slowly start replacing my reiser3 partitions 
+> with...something else. There are two options, the old standards, e.g. 
+> ext3/4, xfs, etc, and then there are a slew of new filesystems, such 
+> as nilfs2, btrfs and exofs.
+>
+> I'm talking about a range of machines, from workstations to servers to 
+> NFS and storage servers with multi-terabyte disks, and a backup server 
+> with several hundred gigs of backups.
+>
+> Does anyone have suggestions and practical experience with the pros 
+> and cons of the various filesystems?
+>
+> Thanks,
+> --b
+
+If file integrity are important to you, look for a FS that keeps 
+checksums of individual files.  Otherwise, if a file becomes corrupted, 
+you'll never know it, unless you keep your own checksums.  There are 
+only a small handful of filesystems that keep checksums of your files.  
+Btrfs and ZFS come to mind.  I believe ZFS is more mature than Btrfs, 
+but it isn't in the kernel.  I believe the only way to get ZFS on Linux 
+is through FUSE.
+
+There's also JFS, which has been around for a number of years, and is 
+mature.  It doesn't checksum your files, but it does use copy-on-write 
+(as do Btrfs and ZFS), which goes a long way to keeping your data from 
+getting corrupted, something XFS does not do.
+
+So if Btrfs were more mature, or if ZFS were included in the kernel, I'd 
+recommend either of those.  But as it is, I think JFS is the way to go.
+
+-- Kevin
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD3AD1B.70001@familyross.net
+
+

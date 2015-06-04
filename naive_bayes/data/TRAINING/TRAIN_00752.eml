@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f25d6257e0d18
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs149486wfo;
+        Mon, 12 Apr 2010 07:12:39 -0700 (PDT)
+Received: by 10.141.106.15 with SMTP id i15mr3301552rvm.194.1271081558869;
+        Mon, 12 Apr 2010 07:12:38 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 3si2415761iwn.114.2010.04.12.07.12.38;
+        Mon, 12 Apr 2010 07:12:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 3E2EC1BEAC011
+	for <mlsubscriber.tech@csmining.org>; Mon, 12 Apr 2010 07:12:38 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 376C426B8C459
+	for <mlsubscriber.tech@csmining.org>; Mon, 12 Apr 2010 07:12:38 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id D8E4D26B8BDD3
+	for <java-dev@lists.apple.com>; Mon, 12 Apr 2010 07:11:39 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id C8746CE5D58F
+	for <java-dev@lists.apple.com>; Mon, 12 Apr 2010 07:11:39 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7cccae000002a80-39-4bc32a1aa7b6
+Received: from ey-out-1920.google.com (ey-out-1920.google.com [74.125.78.147])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	F6.F7.10880.B1A23CB4; Mon, 12 Apr 2010 07:11:39 -0700 (PDT)
+Received: by ey-out-1920.google.com with SMTP id 4so215105eyg.0
+	for <java-dev@lists.apple.com>; Mon, 12 Apr 2010 07:11:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:subject:mime-version
+	:content-type:from:in-reply-to:date:cc:content-transfer-encoding
+	:message-id:references:to:x-mailer;
+	bh=ytBXxqbX11+2lOHAr1FlpSaWEY+VDuElElgJZ6UrmTE=;
+	b=tu28eCNeaWWP2gjPYU2Dm9AljDZf5kPWLF+Yf6Uj55t5OsY8l4N4V+YVReohZal7D3
+	N0GXNzHSxmdo+c6qFrzY2KO+iUE8Wk1ZKwB5HXuvB7M3Wk6heU86HCY65ItR940m4vpx
+	zzVKaTOsYsLVqEpBX4fSasFTNchkRR1byeDbM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=subject:mime-version:content-type:from:in-reply-to:date:cc
+	:content-transfer-encoding:message-id:references:to:x-mailer;
+	b=Opumf0HJ8SRoybXvGED6oWQkHnVPlbJ2cMe6ydoF0iXJK7yLC2+jg28WjQ9/e2KQpr
+	15dhB5+JLDDS1zO4TG9gUpojimnM5V1JVmRxWJky6ZeyMLocC72gpN1MH48kng6UJXS9
+	sDe0I6HpYOAYMkWRqprvbuIYSGXUS+sTKA4PI=
+Received: by 10.213.59.10 with SMTP id j10mr2074093ebh.26.1271081498118;
+	Mon, 12 Apr 2010 07:11:38 -0700 (PDT)
+Received: from agpwek1.cappelendamm.no (aggw006.cappelendamm.no [93.124.242.6])
+	by mx.google.com with ESMTPS id 16sm2915610ewy.7.2010.04.12.07.11.37
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Mon, 12 Apr 2010 07:11:37 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Harald Kuhr <harald.kuhr@csmining.org>
+In-Reply-To: <20100412134127.140324418@smtp.csmining.org>
+Date: Mon, 12 Apr 2010 16:11:36 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <6673EFA1-62D1-4C77-9212-38EDDD4E5940@csmining.org>
+References: <20100412134127.140324418@smtp.csmining.org>
+To: "java-dev@lists.apple.com list" <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAROegO8=
+Cc: 
+Subject: Re: Servlets, JSP, EL and deprecated HTML attributes
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+This is slightly off-topic, as nothing about this is Apple-specific...=20=
+
+
+But anyway: I think you are wrong. The "name" attribute is only =
+deprecated for certain elements, where "id" is a better match. It's =
+still the correct way to name "input", "textarea", "button" and other =
+form-elements (controls). See: =
+http://www.w3.org/TR/REC-html40/interact/forms.html#control-name
+
+
+Best regards,
+
+--=20
+Harald K
+
+
+On 12. apr. 2010, at 15.41, MB wrote:
+
+> The Servlet engine, inlcuding JSP and Expression Language (EL) as used
+> in the Tomcat 6 container server for example makes use of the =
+deprecated
+> HTML attribute "name" via different built-in mechanism in order to tie
+> indiviudal elements of a HTML form to server-side variables. This =
+means
+> that in order to produce working JSP-pages one has to make pages =
+invalid
+> according to the HTML 4.01 Strict spec.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

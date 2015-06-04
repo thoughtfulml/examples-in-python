@@ -1,0 +1,207 @@
+X-Account-Key: account5
+X-UIDL: GmailId128542ccdd9904b7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs148891wfj;
+        Sat, 1 May 2010 07:02:21 -0700 (PDT)
+Received: by 10.142.210.19 with SMTP id i19mr2678056wfg.301.1272722541702;
+        Sat, 01 May 2010 07:02:21 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 8si4586041pzk.48.2010.05.01.07.02.21;
+        Sat, 01 May 2010 07:02:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 691691C44F125
+	for <mlsubscriber.tech@csmining.org>; Sat,  1 May 2010 07:02:21 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 64FCE274CB584
+	for <mlsubscriber.tech@csmining.org>; Sat,  1 May 2010 07:02:21 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 12B4B274CB3A0
+	for <quicktime-api@lists.apple.com>;
+	Sat,  1 May 2010 07:02:03 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id 0220ED30E695
+	for <quicktime-api@lists.apple.com>;
+	Sat,  1 May 2010 07:02:03 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-69-4bdc34598ae2
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	0F.D5.15139.A543CDB4; Sat,  1 May 2010 07:02:02 -0700 (PDT)
+Received: (qmail invoked by alias); 01 May 2010 14:02:01 -0000
+Received: from i5E860CF5.versanet.de (EHLO [192.168.1.4]) [94.134.12.245]
+	by mail.gmx.net (mp042) with SMTP; 01 May 2010 16:02:01 +0200
+X-Authenticated: #3660908
+X-Provags-ID: V01U2FsdGVkX1+b97sozIabD5AjJhNlxGviDn4vInaZ3YwswfMUy0
+	pIL5Ei7ZaLpih4
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: =?iso-8859-1?Q?Alexander_Car=F4t?= <Alexander_Carot@gmx.net>
+In-Reply-To: <F3825928-562B-4576-9A64-BC0BA57E121E@araelium.com>
+Date: Sat, 1 May 2010 16:01:59 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <38997EFC-FE1F-4142-ADCC-BCBBEFB8C5F3@gmx.net>
+References: <B25E8E98-A623-4EFB-AB9E-9151C669486C@gmx.net>
+	<F3825928-562B-4576-9A64-BC0BA57E121E@araelium.com>
+To: Seth Willits <slists@araelium.com>
+X-Mailer: Apple Mail (2.1078)
+X-Y-GMX-Trusted: 0
+X-FuHaFi: 0.54000000000000004
+X-Brightmail-Tracker: AAAAAQAAAUo=
+Cc: quicktime-api list list <quicktime-api@lists.apple.com>
+Subject: Re: ICMCompressionSession question
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+>> I have no idea what that's supposed to mean. You'd use a =
+decompression session and do whatever you want with the pixel buffers it =
+gives you. Why do you think you can't?
+
+I believe this is a newbie question related to the general use of the =
+decompression session. Let me try to explain:=20
+
+First I initialize my decompression session within the data proc =
+callback function:
+
+*******START***********
+if (videoData->decompressionSession =3D=3D NULL) {
+    cout << "create decompression session: ";
+    ImageDescriptionHandle imageDesc =3D =
+(ImageDescriptionHandle)NewHandle(0);
+    err =3D SGGetChannelSampleDescription(c, (Handle)imageDesc);
+    err =3D createDecompressionSession( imageDesc,=20
+                                videoData->width, =
+videoData->height,k32BGRAPixelFormat,=20
+                                displayAndCompressFrame, videoData,=20
+                                &videoData->decompressionSession);
+
+    if (err =3D=3D 0) cout << "SUCCESS" << endl; else cout << "FAILED" =
+<< endl;
+}
+*******END***********
+
+
+I do the same for a compression session:
+
+
+*******START***********
+if (videoData->compressionSession =3D=3D NULL) {
+    cout << "create compression session: ";
+    err =3D createCompressionSession(
+                                videoData->width, videoData->height, =
+videoData->codecType,=20
+                                videoData->averageDataRate, =
+videoData->timeScale,
+                                useCompressedFrame, videoData,
+                                &videoData->compressionSession );
+    if (err =3D=3D 0) cout << "SUCCESS" << endl; else cout << "FAILED" =
+<< endl;
+}  =20
+*******END***********
+
+
+Furthermore, within the data proc callback I have the decompression =
+call:
+
+
+*******START***********
+err =3D ICMDecompressionSessionDecodeFrame( =
+videoData->decompressionSession,
+                        (UInt8 *)p, len, NULL, &frameTime, videoData );
+*******END***********
+
+
+which finally allows me to access the pure pixelBuffer to be accessed in =
+my "displayAndCompressFrame" function.
+In my "displayAndCompressFrame"-function I display the pixels on a =
+custom frame and compress the frame via:
+
+
+*******START***********
+err =3D ICMCompressionSessionEncodeFrame( videoData->compressionSession, =
+pixelBuffer,
+                                displayTime, displayDuration, =
+validTimeFlags,
+                                frameOptions, NULL, NULL );
+*******END***********
+
+
+This triggers my "useCompressedFrame"-function:
+
+
+*******START***********
+static OSStatus useCompressedFrame( void *encodedFrameOutputRefCon,
+                                   ICMCompressionSessionRef session,
+                                   OSStatus err,
+                                   ICMEncodedFrameRef encodedFrame,
+                                   void *reserved ){
+
+  int size =3D ICMEncodedFrameGetDataSize( encodedFrame );
+
+  //// WHAT NOW ???
+
+  return err;
+}
+******** END***************
+
+
+in which I can send the encoded frame across a network but before I =
+involve any network functionality I first want to test if the =
+decompression works. However, here is the problem and I will start with =
+a simple first question:=20
+
+Can I feed the encoded frame to the same decompression session which =
+decompresses my device data and displays it or do I need to create a =
+second decompression session with the respective callback ? If I need to =
+create another decompression session are there any special requirements =
+I need to take care of  - so far my first try also failed.
+
+Thanks a lot in advance,
+best
+
+-- A l e x
+
+
+
+
+>=20
+>=20
+> --
+> Seth Willits
+>=20
+>=20
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/quicktime-api/alexander_carot%40gmx=
+.net
+>=20
+> This email sent to alexander_carot@gmx.net
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

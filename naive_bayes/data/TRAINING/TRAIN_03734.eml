@@ -1,0 +1,160 @@
+X-Account-Key: account5
+X-UIDL: GmailId12851ebd15405853
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs130409wfj;
+        Fri, 30 Apr 2010 20:32:08 -0700 (PDT)
+Received: by 10.142.2.34 with SMTP id 34mr7225810wfb.9.1272684728561;
+        Fri, 30 Apr 2010 20:32:08 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 1si3769563pzk.70.2010.04.30.20.32.08;
+        Fri, 30 Apr 2010 20:32:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 252621C4427A5
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 20:32:08 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 11D40274AE3D2
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 20:32:08 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 1218E274AE3C5
+	for <Augd@lists.apple.com>; Fri, 30 Apr 2010 20:32:06 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id E14ECD0CC02C
+	for <Augd@lists.apple.com>; Fri, 30 Apr 2010 20:32:06 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-8e-4bdba0b6c951
+Received: from imr-ma03.mx.aol.com (imr-ma03.mx.aol.com [64.12.206.41])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	0A.D4.15139.6B0ABDB4; Fri, 30 Apr 2010 20:32:06 -0700 (PDT)
+Received: from mtaout-mb06.r1000.mx.aol.com (mtaout-mb06.r1000.mx.aol.com
+	[172.29.41.70])
+	by imr-ma03.mx.aol.com (8.14.1/8.14.1) with ESMTP id o413W1W5011878
+	for <Augd@lists.apple.com>; Fri, 30 Apr 2010 23:32:01 -0400
+Received: from [192.168.0.100] (cpe-76-184-214-198.tx.res.rr.com
+	[76.184.214.198]) (using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by mtaout-mb06.r1000.mx.aol.com (MUA/Third Party Client Interface) with
+	ESMTPSA id 7412CE000094
+	for <Augd@lists.apple.com>; Fri, 30 Apr 2010 23:31:59 -0400 (EDT)
+Message-Id: <4B7E607A-5C18-4D3D-8BD7-9D8AECB3CD90@aol.com>
+From: Lynn Wegley <lynnw3@aol.com>
+To: Apple Discussion List <Augd@lists.apple.com>
+In-Reply-To: <3E43C611-4996-4ADD-8637-27EA2C01E0FC@nicholaspyers.com>
+Content-Type: text/plain; charset=WINDOWS-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: Re: AUGD: Have You Thanked Your Volunteers?
+Date: Fri, 30 Apr 2010 22:31:57 -0500
+References: <3E43C611-4996-4ADD-8637-27EA2C01E0FC@nicholaspyers.com>
+X-Mailer: Apple Mail (2.936)
+x-aol-global-disposition: G
+X-AOL-SCOLL-SCORE: 0:2:495427424:93952408  
+X-AOL-SCOLL-URL_COUNT: 0  
+x-aol-sid: 3039ac1d29464bdba0af629f
+X-AOL-IP: 76.184.214.198
+X-Brightmail-Tracker: AAAAARPwkeg=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+My current group is too small to worry about thanking them in any =20
+major way.  Of we all thank each other.  We have 4 regular volunteers =20=
+
+and currently having a different member each month volunteering to do =20=
+
+a presentation.  Only occasionally having an outside speaker. =20
+Sometimes via iChat.
+
+When I was with HAUS in Honolulu, we thanked the volunteers by buying =20=
+
+them pizza each month at the board meetings.  In Boston, we had an =20
+annual meeting of "activists".  400 strong.  Then we had an annual =20
+picnic for volunteers as well.
+
+I think it never hurts to thank people every chance you can get.
+
+Lynn
+
+
+"Sometimes I wonder whether the world is being run by smart people who =20=
+
+are putting us on or by imbeciles who really mean it." --Mark Twain
+
+Lynn Wegley
+lynnw3@csmining.org
+http://www.ugnn.com
+
+On Apr 30, 2010, at 12:38 AM, Nicholas Pyers wrote:
+
+> Here in Australia, May 10th to 16th, 2010 is National Volunteer Week =20=
+
+> (NVW) =96 the largest celebration of volunteers and volunteerism in =20=
+
+> Australia, and it provides an opportunity to highlight the role of =20
+> volunteers in our communities and to say thank you to the more than =20=
+
+> 5 million Australians who volunteer.
+>
+> Earlier this week I asked Australian Apple User Groups if they were =20=
+
+> doing anything to thank their volunteers, and in light of Chris =20
+> Hart's query about ways of getting people onto Boards & Committees =20
+> and my response about thanking outgoing Committee members, I thought =20=
+
+> now would also be an appropriate time to share the article with =20
+> everyone here.
+>
+> The article provides some ideas on WHO to thank; HOW to thank them; =20=
+
+> and WHEN it may be appropriate to thank them.
+>
+> You can read the article over at;
+> http://www.appleusers.org/ugr/have-you-thanked-your-volunteers/
+>
+> If your group has done something different or interesting to thank a =20=
+
+> member of your group, perhaps you'll share the idea with the list :)
+>
+> --
+> Nicholas Pyers (nicholas@appleusers.org)
+> Founder & Publisher, AppleUsers.org
+>
+> http://www.appleusers.org/
+>
+>
+>
+>
+>
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Augd mailing list      (Augd@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/augd/lynnw3%40aol.com
+>
+> This email sent to lynnw3@aol.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

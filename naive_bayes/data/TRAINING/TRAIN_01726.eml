@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId127eef6a4c140eb2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs123996wfo;
+        Sun, 11 Apr 2010 15:21:34 -0700 (PDT)
+Received: by 10.223.1.19 with SMTP id 19mr2228432fad.61.1271024493579;
+        Sun, 11 Apr 2010 15:21:33 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si7251192fks.20.2010.04.11.15.21.33;
+        Sun, 11 Apr 2010 15:21:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 379C72D0E6E; Sun, 11 Apr 2010 22:21:25 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.8 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	IMPRONONCABLE_1,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,
+	MURPHY_WRONG_WORD2 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 733DD13A61AF
+	for <lists-debian-user@liszt.debian.org>; Sun, 11 Apr 2010 22:21:19 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_1=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id cNHCVsFnf6U0 for <lists-debian-user@liszt.debian.org>;
+	Sun, 11 Apr 2010 22:21:12 +0000 (UTC)
+Received: from eastrmmtao101.cox.net (eastrmmtao101.cox.net [68.230.240.7])
+	by liszt.debian.org (Postfix) with ESMTP id DE99213A5F27
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 22:21:11 +0000 (UTC)
+Received: from eastrmimpo02.cox.net ([68.1.16.120])
+          by eastrmmtao101.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100411222109.WPHE14747.eastrmmtao101.cox.net@eastrmimpo02.cox.net>
+          for <debian-user@lists.debian.org>;
+          Sun, 11 Apr 2010 18:21:09 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo02.cox.net with bizsmtp
+	id 4NM81e0094dcMZy02NM9ra; Sun, 11 Apr 2010 18:21:09 -0400
+X-VR-Score: -100.00
+X-Authority-Analysis: v=1.1 cv=lL4dQe6A0XfTYzqIbzpq/h+TkgPEjAvcHnuEPneVQrQ=
+ c=1 sm=1 a=XBT8AuaYqVkA:10 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=jFveBZ3Wh1qnos7O8dAA:9 a=StNB9lL4SgRBdmb4ULBMDTxDCD8A:4 a=wPNLvfGTeEIA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BC24B54.5060804@cox.net>
+Date: Sun, 11 Apr 2010 17:21:08 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Migrate OS to smaller drive?
+References: <3cc33b52b344d44be33167a82fe301fe@192.168.0.66> <4BC0EBE5.8060807@lorentz.leidenuniv.nl> <4BC1CA69.4080601@web.de> <4BC1E301.8020105@cox.net> <4BC23713.4010307@lorentz.leidenuniv.nl>
+In-Reply-To: <4BC23713.4010307@lorentz.leidenuniv.nl>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5MO_st9EqXL.A.sqD.ltkwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573895
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 22:21:25 +0000 (UTC)
+
+On 2010-04-11 15:54, Sjoerd Hardeman wrote:
+> Ron Johnson schreef:
+>> On 2010-04-11 08:11, Clive McBarton wrote:
+>>> Sjoerd Hardeman wrote:
+>>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>>  rsync -ax / /media/newdevice.
+>>> What exactly is the advantage of this approach over "cp -a" or "mv"?
+>>>
+>>> I would have suggested mv. It has the useful property that you can
+>>> easily spot aborted transfers by the fact that the original device is
+>>> not empty afterwards.
+>> One note is that I've had issues where symlinks remain pointing to the 
+>> old drive.  (That was a long time ago, though, and maybe I did something
+>> wrong.)
+> I thought symlinks keep point via a file location memo, like "look at
+> /usr/share/the/file/you/want", which is the old location just after
+> copying, but the new location when you boot from your new device and
+> that becomes root.
+> 
+
+Note how at the bottom or this example bar/shoe still points to 
+../snuffle/shoe/.  When you try to "cp -axv / /some/new/root" the 
+same thing will happen.   In /usr/bin all the symlinks to 
+/etc/alternatives will still point to the *current* 
+/etc/alternatives not to /some/new/root/etc/alternatives.
+
+$ mkdir foo/snaggle snuffle/shoe
+$ cd foo
+$ ln -sf ../snuffle/shoe .
+$ dir
+total 44
+drwxr-xr-x   3 me me  4096 2010-04-11 17:12:44 ./
+drwxr-xr-x 206 me me 36864 2010-04-11 17:12:04 ../
+lrwxrwxrwx   1 me me    15 2010-04-11 17:12:44 shoe -> ../snuffle/shoe/
+drwxr-xr-x   2 me me  4096 2010-04-11 17:12:04 snaggle/
+
+$ cd ..
+$ cp -av foo bar
+`foo' -> `bar'
+`foo/snaggle' -> `bar/snaggle'
+`foo/shoe' -> `bar/shoe'
+
+$ dir bar
+total 44
+drwxr-xr-x   3 me me  4096 2010-04-11 17:12:44 ./
+drwxr-xr-x 207 me me 36864 2010-04-11 17:13:54 ../
+lrwxrwxrwx   1 me me    15 2010-04-11 17:12:44 shoe -> ../snuffle/shoe/
+drwxr-xr-x   2 me me  4096 2010-04-11 17:12:04 snaggle/
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC24B54.5060804@cox.net
+
+

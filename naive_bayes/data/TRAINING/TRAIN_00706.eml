@@ -1,0 +1,85 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f80fce2932aae
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs28726wfa;
+        Tue, 13 Apr 2010 09:45:39 -0700 (PDT)
+Received: by 10.86.6.39 with SMTP id 39mr5225511fgf.4.1271177138109;
+        Tue, 13 Apr 2010 09:45:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 13si11396157fks.0.2010.04.13.09.45.37;
+        Tue, 13 Apr 2010 09:45:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 82E4B13A5CF9; Tue, 13 Apr 2010 16:45:32 +0000 (UTC)
+Old-Return-Path: <d_baron@012.net.il>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-0.7 required=4.0 tests=CAPINIT,DNS_FROM_RFC_WHOIS,
+	LDO_WHITELIST,SARE_RECV_IP_080178 autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 905A12D0C60
+	for <lists-debian-user@liszt.debian.org>; Tue, 13 Apr 2010 16:30:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.609 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, LDO_WHITELIST=-5,
+	SARE_RECV_IP_080178=0.391] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LeMhlC3KUcw7 for <lists-debian-user@liszt.debian.org>;
+	Tue, 13 Apr 2010 16:30:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.8
+X-Greylist: delayed 308 seconds by postgrey-1.31 at liszt; Tue, 13 Apr 2010 16:30:02 UTC
+Received: from mtaout23.012.net.il (mtaout23.012.net.il [80.179.55.175])
+	by liszt.debian.org (Postfix) with ESMTP id 62ACF13A59FD
+	for <debian-user@lists.debian.org>; Tue, 13 Apr 2010 16:29:56 +0000 (UTC)
+Received: from conversion-daemon.a-mtaout23.012.net.il by a-mtaout23.012.net.il (HyperSendmail v2007.08) id <0L0T00J00PEAMK00@a-mtaout23.012.net.il> for debian-user@lists.debian.org; Tue, 13 Apr 2010 19:24:38 +0300 (IDT)
+Received: from dovidhalevi ([77.127.177.77]) by a-mtaout23.012.net.il (HyperSendmail v2007.08) with ESMTPA id <0L0T00I73PL2H150@a-mtaout23.012.net.il> for debian-user@lists.debian.org; Tue, 13 Apr 2010 19:24:38 +0300 (IDT)
+Received: from localhost ([127.0.0.1] helo=dovidhalevi.homelinux.net)	by dovidhalevi with esmtp (Exim 4.71)	(envelope-from <d_baron@012.net.il>)	id 1O1iuf-0006uX-N7	for debian-user@lists.debian.org; Tue, 13 Apr 2010 19:24:33 +0300
+Date: Tue, 13 Apr 2010 19:24:29 +0300
+From: David Baron <d_baron@012.net.il>
+Subject: New Clamav-daemon Error
+X-012-Sender: d_baron@012.net.il
+To: debian-user@lists.debian.org
+Message-id: <201004131924.30567.d_baron@012.net.il>
+MIME-version: 1.0
+Content-type: Text/Plain; charset=us-ascii
+Content-transfer-encoding: 7bit
+User-Agent: KMail/1.13.2 (Linux/2.6.32-davidb; KDE/4.4.2; i686; ; )
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <pmRACoeve4.A.HhH.s-JxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573984
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 16:45:32 +0000 (UTC)
+
+~$ sudo /etc/init.d/clamav-daemon start
+Starting ClamAV daemon: clamd ERROR: Unknown group 20 Incorrect number of 
+arguments
+ failed!
+
+After latest upgrade. Anyone have a quick fix?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004131924.30567.d_baron@012.net.il
+
+

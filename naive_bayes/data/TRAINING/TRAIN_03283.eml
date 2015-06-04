@@ -1,0 +1,129 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c2d24523ec69d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs46349wfo;
+        Sat, 22 May 2010 18:41:20 -0700 (PDT)
+Received: by 10.223.4.217 with SMTP id 25mr3143724fas.60.1274578879813;
+        Sat, 22 May 2010 18:41:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si3811292fah.47.2010.05.22.18.41.19;
+        Sat, 22 May 2010 18:41:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 214FE13A5751; Sun, 23 May 2010 01:41:14 +0000 (UTC)
+Old-Return-Path: <tomh0665@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C79DB13A5377
+	for <lists-debian-user@liszt.debian.org>; Sun, 23 May 2010 01:41:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Lh+FzspnnUCH for <lists-debian-user@liszt.debian.org>;
+	Sun, 23 May 2010 01:41:00 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 6DF4C13A4988
+	for <debian-user@lists.debian.org>; Sun, 23 May 2010 01:40:59 +0000 (UTC)
+Received: by fxm2 with SMTP id 2so33152fxm.6
+        for <debian-user@lists.debian.org>; Sat, 22 May 2010 18:40:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=BMiqEZaDiyoa0eWBcf+KxxPjD+TDfduCbO3doBcRQyU=;
+        b=s1bw7lJ9CquN+RLsmdRGWF5uwXttG3Kpb+9tLV6f6ZRze20cqbKIdBmK3ttAtddKwe
+         611w5Tlec1xY59fTcOhbmoKxQ19KtR2TLTbKKUDoMndlnxMCouFCIYLWsULzCCSDHvev
+         DwamgmVXU5pEuZwX/n52q+p3t7hYPRYNpgJWs=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=wQSo4nmJkDcOPuxbiFdUP+ldwe0RFPAq+YDUM3kbLcmvHqSn0LpnGKNiIN5B9zmI8S
+         yoTlIX54ogkRL9Sk7+8ngXfC1IRjBF4ddAYGHL2R60G0brfgNImKlpXUGfiM3qYWn8x0
+         j+aTTiiAvWyObOAK3rv6vu2Sd7S99DbkBCXOk=
+MIME-Version: 1.0
+Received: by 10.239.180.17 with SMTP id f17mr319293hbg.138.1274578854560; Sat, 
+	22 May 2010 18:40:54 -0700 (PDT)
+Received: by 10.239.133.194 with HTTP; Sat, 22 May 2010 18:40:54 -0700 (PDT)
+In-Reply-To: <1274530100.3111.2@compax>
+References: <1274530100.3111.2@compax>
+Date: Sat, 22 May 2010 21:40:54 -0400
+Message-ID: <AANLkTin0JzLSSk1lQVKKF3R5_YjtYnON5gxP6Wh5YKdv@mail.csmining.org>
+Subject: Re: Cloned Lenny OS partition: bumped into hibernate and grub2 issues
+From: Tom H <tomh0665@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <1m6U6vWHu6G.A.8p.6eI-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577401
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 01:41:14 +0000 (UTC)
+
+On Sat, May 22, 2010 at 8:08 AM, Klistvud <quotations@aliceadsl.fr> wrote:
+>
+> I've recently swapped the hard drive on my box, after cloning my Lenny (and
+> other) partition(s) from the old drive that was becoming too small. I just
+> did dd if=/dev/hda2 of=/dev/hdb2
+>
+> After changing the UUID of the new partition and manually making some minor
+> adjustments to /boot/grub/grub.cfg and /etc/fstab, the system boots OK, but
+> there are two glitches I can't seem to sort out:
+>
+> 1. hibernation bails out with the message "Cannot find swap device",
+> although there IS a big enough, and actively used swap partition on the new
+> drive; and
+>
+> 2. update-grub still refers to the OS partition by the old UUID, which is no
+> longer correct. In order to boot, I must manually edit grub.cfg, but I'd
+> like this fixed *properly*.
+>
+> I suspect both issues are related to the changed UUIDs of both the swap and
+> the OS partitions.
+>
+> Now, my questions to the savants out there:
+> 1. How do I tell the hibernation scripts that there IS a swap device, but
+> with another UUID?
+> 2. Where do the grub2 scripts get their UUIDs from, so I can replace the
+> wrong UUIDs with the right ones?
+
+Re 1. Your swap partition's UUID must be different. Check
+"/etc/initramfs-tools/". There is a "resume" file (in that dir or in a
+subdir) that will have your swap partition's UUID.
+
+Re 2. What do you mean by "After changing the UUID of the new
+partition"? After "dd...", did your run "tune2fs -U ..." on your root
+partition (or the equivalent for xfs, ...; I am assuming that you have
+just one partition)? If you didn't, your root partition still has the
+same UUID and update-grub is picking it up correctly (in which case, I
+have no idea idea how you are booting up!).
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTin0JzLSSk1lQVKKF3R5_YjtYnON5gxP6Wh5YKdv@mail.csmining.org
+
+

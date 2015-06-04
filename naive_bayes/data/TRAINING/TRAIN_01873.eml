@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId12871a5de31b6ab5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs435182wfb;
+        Fri, 7 May 2010 00:23:36 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr3196405fai.98.1273217015693;
+        Fri, 07 May 2010 00:23:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h4si1358930fai.95.2010.05.07.00.23.35;
+        Fri, 07 May 2010 00:23:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B028613A5AF6; Fri,  7 May 2010 07:23:26 +0000 (UTC)
+Old-Return-Path: <field.engineer@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5BC0E13A5AEC
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 07:23:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4Vw7332p8TZf for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 07:23:13 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmail. - helo: .smtp108.sbc.mail.mud.yahoo. - helo-domain: .yahoo.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0 IN_PM_RFCI=3.2; rate: -1.8
+Received: from smtp108.sbc.mail.mud.yahoo.com (smtp108.sbc.mail.mud.yahoo.com [68.142.198.106])
+	by liszt.debian.org (Postfix) with SMTP id 7CE8B13A5AE2
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 07:23:05 +0000 (UTC)
+Received: (qmail 97119 invoked from network); 7 May 2010 07:22:50 -0000
+Received: from [10.0.0.3] (field.engineer@76.244.171.208 with plain)
+        by smtp108.sbc.mail.mud.yahoo.com with SMTP; 07 May 2010 00:22:49 -0700 PDT
+X-Yahoo-SMTP: RZ3gxciswBBgk2GT.bh.53dvHFPBUq3_nlS3fqI-
+X-YMail-OSG: rwgjLa4VM1kFPK3W0AShkOv3kx3lNU9YTHH4lE8iJduzvVScjOnj0LazOauH3A5cXdqBmhy.nky0lliTwj2lHuKwp88QMxwDcdkTP6KN8BrtK3PJryiQSmaxHFOR2JvI6KJI8izVASqEnacQDEpnmtjTbgp.FqVrHEWTrB5f5tlgwheE2j2uLW6zKoZ10HaY.syqoLc6ACEvTtVeQfmPOj3MjCZBtnZ4xHRh40b6gK0.KhLRktNhEi1FU16312GN
+X-Yahoo-Newman-Property: ymail-3
+Message-ID: <4BE3BFCE.1020900@csmining.org>
+Date: Fri, 07 May 2010 00:22:54 -0700
+From: Jimmy Johnson <field.engineer@csmining.org>
+Organization: PC Repair
+User-Agent: PC Repair and Better Built Computers
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: no alternatives for firefox/mozilla
+References: <hs00t7$3fh$1@dough.gmane.org>
+In-Reply-To: <hs00t7$3fh$1@dough.gmane.org>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <MhfVcBMbT4H.A.CzG.u_74LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576114
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 07:23:26 +0000 (UTC)
+
+T o n g wrote:
+> Hi,
+> 
+> Having upgraded iceweasel, I am no longer able to call firefox or mozilla 
+> from command line any more. I don't mind firefox is called iceweasel or 
+> whatever in Debian, but entirely stopping me from starting firefox is 
+> something I don't feel comfortable.
+> 
+> Please comment. 
+
+
+I fail to see the problem, firefox is now '/user/bin/iceweasel'
+
+'update-alternatives --config x-www-browser' and enter your choice.
+-- 
+Jimmy Johnson
+
+Bakersfield, CA. U.S.A.
+Registered Linux User #380263
+K.I.S.S. (Keep it simple stupid)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE3BFCE.1020900@csmining.org
+
+

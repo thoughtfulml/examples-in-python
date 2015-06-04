@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d8fc795606e17
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs30638wfi;
+        Wed, 7 Apr 2010 08:56:18 -0700 (PDT)
+Received: by 10.141.188.4 with SMTP id q4mr7410593rvp.147.1270655778126;
+        Wed, 07 Apr 2010 08:56:18 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 14si7396335iwn.45.2010.04.07.08.56.16;
+        Wed, 07 Apr 2010 08:56:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; domainkeys=hardfail header.From=brandon@pixelture.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 7F5181BD4DF74
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 08:56:16 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 7A05C26952778
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 08:56:16 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id EBCE726951C10
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 08:54:25 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id D92A7CE8A5E7
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 08:54:25 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bffae00000768e-19-4bbcaab17059
+Received: from edge25.inmotionhosting.com (edge25.inmotionhosting.com
+	[74.124.200.24])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	6B.2C.30350.1BAACBB4; Wed,  7 Apr 2010 08:54:25 -0700 (PDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=pixelture.com;
+	h=Received:Message-ID:Date:From:User-Agent:MIME-Version:To:CC:Subject:References:In-Reply-To:Content-Type:Content-Transfer-Encoding;
+	b=NWqO9QqyOjBbZl66zKcyt/8pkEXxL+/YSrIDgddIKIYNt+hOr3sMZkzAXYhf9ohGIu3qebLSBtTuloIeTAlw0ZqpVDQaTgRQNXa/07A26nsf27IvdYnD6cuup7vPEfRu;
+Received: from icielab.cs.byu.edu ([128.187.81.183] helo=[192.168.13.63])
+	by edge25.inmotionhosting.com with esmtpsa (TLSv1:AES256-SHA:256)
+	(Exim 4.69) (envelope-from <brandon@pixelture.com>)
+	id 1NzXaC-0006Pw-Iq; Wed, 07 Apr 2010 08:54:24 -0700
+Message-ID: <4BBCAAAE.7040802@pixelture.com>
+Date: Wed, 07 Apr 2010 09:54:22 -0600
+From: Brandon Moon <brandon@pixelture.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Mike Swingler <swingler@apple.com>
+References: <4BBBB5AF.6070501@pixelture.com>
+	<3980B080-E118-456D-9E76-15172857FED9@sun.com>
+	<4BBCA70F.5090401@pixelture.com>
+	<53748B0D-7081-47E9-93DF-F56D4BDA7800@apple.com>
+In-Reply-To: <53748B0D-7081-47E9-93DF-F56D4BDA7800@apple.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - edge25.inmotionhosting.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - pixelture.com
+X-Brightmail-Tracker: AAAAAA==
+Cc: java-dev@lists.apple.com
+Subject: Re: Problems with JNI included in a JNLP on Mac OS X
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 4/7/2010 9:50 AM, Mike Swingler wrote:
+> On Apr 7, 2010, at 8:38 AM, Brandon Moon wrote:
+>
+>    
+>> On 4/7/2010 7:00 AM, Tomas Hurka wrote:
+>>
+>>      
+>>> On 7 Apr 2010, at 00:29, Brandon Moon wrote:
+>>>
+>>>        
+>>>> I'm having an issue with a JNI library when distributed as part of a JNLP app (or Java Web Start).  The Java application loads the library, then calls a native function that spawns a new thread.  I attach this thread to the JVM (using AttachCurrentThreadAsDaemon) and initialize a JNIEnv object.  I then use this JNIEnv object to get the Java class and a few methods (so I can get back to java on certain events).  When I run this over Java Web Start, the call that requests a method id crashes.  I have no idea why this happens, and can't find any related errors online.  Has anyone else run into this problem?  Any input would be appreciated.
+>>>>
+>>>> This is the native code, the line that causes problems has *** around it:
+>>>>
+>>>> // Attach this thread to Java VM
+>>>>    if ((*javaVM)->AttachCurrentThreadAsDaemon(javaVM, (void**)&eventPumpEnv, NULL)<  0) {
+>>>>        NSLog(@"Failed to attach event pump to Java VM");
+>>>>    }
+>>>>    else {
+>>>>        // Cache class and method references
+>>>>        systemHooks = (*eventPumpEnv)->FindClass(eventPumpEnv, "com/pixelture/systemhooks/SystemHooks");
+>>>>        systemHooks = (*eventPumpEnv)->NewGlobalRef(eventPumpEnv, systemHooks);
+>>>>
+>>>> ***        notifySuspend = (*eventPumpEnv)->GetStaticMethodID(eventPumpEnv, systemHooks, "notifySuspend", "()V"); ***
+>>>>        //notifySuspend = (jmethodID)(*eventPumpEnv)->NewGlobalRef(eventPumpEnv, (jobject)notifySuspend);
+>>>>        notifySystemEvent = (*eventPumpEnv)->GetStaticMethodID(eventPumpEnv, systemHooks, "notifySystemEvent", "(JI)V");
+>>>>        //notifySystemEvent = (jmethodID)(*eventPumpEnv)->NewGlobalRef(eventPumpEnv, (jobject)notifySystemEvent);
+>>>>
+>>>>        ...
+>>>>
+>>>>        if (DEBUG) NSLog(@"Attached PollingLoop to Java and got environment&  methods");
+>>>>    }
+>>>>          
+>>> I think that class "com/pixelture/systemhooks/SystemHooks" is not found for some reason. Check that systemHooks is not NULL and that FindClass method does not throw an exception.
+>>>        
+>> So you were right, Java is throwing a ClassNotFoundException, but I don't understand why this would be the case.  I have a static initializer in that class, and that's where it is loading and calling that native method.  How can the class not be found if that's where the native method is being called from?
+>>      
+> Think about it: you are calling your JNI function from the class' static initializer. The class is not initialized yet. Attempts to find the (uninitialized) class should probably fail.
+>
+> Regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+
+I'm not trying to load an instance of the class, I'm trying to load the 
+actual class definition.  The error is telling me that the Java 
+ClassLoader can't find that class on the classpath (at least that's my 
+understanding).  What I don't understand is, for it to have called the 
+static initializer, that means Java has already loaded the class 
+definition, right?  So why can't it find it?
+
+Brandon Moon<brandon@pixelture.com
+http://www.pixelture.com
+
+Join us for EduComm 2010
+June 7 - 9 Las Vegas
+www.EducommConference.com
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

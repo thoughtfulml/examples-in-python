@@ -1,0 +1,193 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281f6f933b9407a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs103275wfj;
+        Wed, 21 Apr 2010 01:15:26 -0700 (PDT)
+Received: by 10.223.65.77 with SMTP id h13mr1360123fai.91.1271837725226;
+        Wed, 21 Apr 2010 01:15:25 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si4719356fkr.39.2010.04.21.01.15.24;
+        Wed, 21 Apr 2010 01:15:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9E44713A4707; Wed, 21 Apr 2010 08:15:14 +0000 (UTC)
+Old-Return-Path: <firewalrus@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-2.0 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8775013A4D4B
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 07:59:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ZvQjxSrSIhCw for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 07:59:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-px0-f175.google.com (mail-px0-f175.google.com [209.85.212.175])
+	by liszt.debian.org (Postfix) with ESMTP id 131F113A4551
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 07:59:01 +0000 (UTC)
+Received: by pxi14 with SMTP id 14so246915pxi.6
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 00:58:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=aTBHTk/NAZeY8HXvvFfSqc8WkS+slX8uxOFpAFjEapg=;
+        b=miC4jbIstor08jjfJ9T6l1EL0wWviMeP08A7XRxE7PQx/W6T5TY8V9+LglFR647DGn
+         zpXyytCrjf3grL74qtvtE8w6odOY2v1UVAFDJdCOh/LvkUvS8gmwtjvxxwAwx5qTX+/M
+         GRPzKCQcA+FtC8nR1Cjvcm4H32BolOrWwz0n4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=MIbpV5NCo+6P+SmyD6sVx+MkoOeJFa+KveuTZnjZZ1m4B4qBC+HwxLgnfvJYq5hRM6
+         5uOypZ9ei7NE8BJcL/nIMsV85Z8XubBBqprt9GoMtqfnU5zzvIhYJma3KtffqAxNU1Lg
+         bHV/5A/9RlGdHKYDvVSY1U/6HHT+DUKpgWSQo=
+MIME-Version: 1.0
+Received: by 10.143.158.9 with HTTP; Wed, 21 Apr 2010 00:58:53 -0700 (PDT)
+In-Reply-To: <20100421075052.GD17590@piper.oerlikon.madduck.net>
+References: <q2o8857b3151004202215l50a9ad58k82c2c1b169aefdfc@mail.csmining.org>
+	 <20100421075052.GD17590@piper.oerlikon.madduck.net>
+Date: Wed, 21 Apr 2010 13:28:53 +0530
+Received: by 10.142.7.41 with SMTP id 41mr3531375wfg.320.1271836733100; Wed, 
+	21 Apr 2010 00:58:53 -0700 (PDT)
+Message-ID: <k2x8857b3151004210058x6184e332n347d0d37c8f000b1@mail.csmining.org>
+Subject: Re: Why are there no latest books written for Debian systems?
+From: surreal <firewalrus@csmining.org>
+To: surreal <firewalrus@csmining.org>, debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=00504502b4ffb054eb0484ba90d6
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ZCxY731EVVH.A.NPF.SQrzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574638
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 08:15:14 +0000 (UTC)
+
+--00504502b4ffb054eb0484ba90d6
+Content-Type: text/plain; charset=ISO-8859-1
+
+Thank you Mr Kraft. I am eagerly waiting for the new book  to hit the market
+(and Debian Squeeze as stable release).
+
+2010/4/21 martin f krafft <madduck@debian.org>
+
+> also sprach surreal <firewalrus@csmining.org> [2010.04.21.0715 +0200]:
+> > I wanted to buy a book about Debian, I found that the last book
+> > written was way back in 2005 by Martin F.
+> > Krafft<
+> http://www.amazon.com/Martin-F.-Krafft/e/B001K892PK/ref=sr_ntt_srch_lnk_1?_encoding=UTF8&qid=1271826559&sr=8-1
+> >
+> >
+> > After 2005, Etch and Lenny were released.
+> >
+> > In 5 years its surprising no one thought to write a book specially for
+> > debian lenny or etch ?? Why?
+>
+> Because writing non-fiction books is not a way to make enough money
+> for a living, and real life moves on.
+>
+> I am still working on a new edition, hopefully to be released with
+> or shortly after Squeeze.
+>
+> --
+>  .''`.   martin f. krafft <madduck@d.o>      Related projects:
+> : :'  :  proud Debian developer               http://debiansystem.info
+> `. `'`   http://people.debian.org/~madduck<http://people.debian.org/%7Emadduck>
+> http://vcs-pkg.org
+>  `-  Debian - when you have better things to do than fixing systems
+>
+> "when in doubt, parenthesize. at the very least it will let some
+>  poor schmuck bounce on the % key in vi."
+>                                                         -- larry wall
+>
+
+
+
+-- 
+Harshad Joshi
+
+--00504502b4ffb054eb0484ba90d6
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Thank you Mr Kraft. I am eagerly waiting for the new book=A0 to hit the mar=
+ket (and Debian Squeeze as stable release). <br><br><div class=3D"gmail_quo=
+te">2010/4/21 martin f krafft <span dir=3D"ltr">&lt;<a href=3D"mailto:maddu=
+ck@debian.org">madduck@debian.org</a>&gt;</span><br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">also sprach surre=
+al &lt;<a href=3D"mailto:firewalrus@csmining.org">firewalrus@csmining.org</a>&gt;=
+ [2010.04.21.0715 +0200]:<br>
+
+<div class=3D"im">&gt; I wanted to buy a book about Debian, I found that th=
+e last book<br>
+&gt; written was way back in 2005 by Martin F.<br>
+</div>&gt; Krafft&lt;<a href=3D"http://www.amazon.com/Martin-F.-Krafft/e/B0=
+01K892PK/ref=3Dsr_ntt_srch_lnk_1?_encoding=3DUTF8&amp;qid=3D1271826559&amp;=
+sr=3D8-1" target=3D"_blank">http://www.amazon.com/Martin-F.-Krafft/e/B001K8=
+92PK/ref=3Dsr_ntt_srch_lnk_1?_encoding=3DUTF8&amp;qid=3D1271826559&amp;sr=
+=3D8-1</a>&gt;<br>
+
+<div class=3D"im">&gt;<br>
+&gt; After 2005, Etch and Lenny were released.<br>
+&gt;<br>
+&gt; In 5 years its surprising no one thought to write a book specially for=
+<br>
+&gt; debian lenny or etch ?? Why?<br>
+<br>
+</div>Because writing non-fiction books is not a way to make enough money<b=
+r>
+for a living, and real life moves on.<br>
+<br>
+I am still working on a new edition, hopefully to be released with<br>
+or shortly after Squeeze.<br>
+<br>
+--<br>
+=A0.&#39;&#39;`. =A0 martin f. krafft &lt;madduck@d.o&gt; =A0 =A0 =A0Relate=
+d projects:<br>
+: :&#39; =A0: =A0proud Debian developer =A0 =A0 =A0 =A0 =A0 =A0 =A0 <a href=
+=3D"http://debiansystem.info" target=3D"_blank">http://debiansystem.info</a=
+><br>
+`. `&#39;` =A0 <a href=3D"http://people.debian.org/%7Emadduck" target=3D"_b=
+lank">http://people.debian.org/~madduck</a> =A0 =A0<a href=3D"http://vcs-pk=
+g.org" target=3D"_blank">http://vcs-pkg.org</a><br>
+ =A0`- =A0Debian - when you have better things to do than fixing systems<br=
+>
+<br>
+&quot;when in doubt, parenthesize. at the very least it will let some<br>
+=A0poor schmuck bounce on the % key in vi.&quot;<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 -- larry wall<br>
+</blockquote></div><br><br clear=3D"all"><br>-- <br>Harshad Joshi<br>
+
+--00504502b4ffb054eb0484ba90d6--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2x8857b3151004210058x6184e332n347d0d37c8f000b1@mail.csmining.org
+
+

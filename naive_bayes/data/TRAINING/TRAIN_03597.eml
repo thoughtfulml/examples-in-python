@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId12849504ceea3374
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs19017wfj;
+        Thu, 29 Apr 2010 04:25:20 -0700 (PDT)
+Received: by 10.87.8.4 with SMTP id l4mr1047165fgi.1.1272540319017;
+        Thu, 29 Apr 2010 04:25:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 3si8503945fge.5.2010.04.29.04.25.18;
+        Thu, 29 Apr 2010 04:25:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 314802E8ADA; Thu, 29 Apr 2010 11:25:12 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6BE6613A502F
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 11:25:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id cNEpFzeKaHiz for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 11:24:59 +0000 (UTC)
+Received: from eastrmmtao101.cox.net (eastrmmtao101.cox.net [68.230.240.7])
+	by liszt.debian.org (Postfix) with ESMTP id AD48D13A54A6
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 11:24:58 +0000 (UTC)
+Received: from eastrmimpo02.cox.net ([68.1.16.120])
+          by eastrmmtao101.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100429112456.OASY14747.eastrmmtao101.cox.net@eastrmimpo02.cox.net>
+          for <debian-user@lists.debian.org>;
+          Thu, 29 Apr 2010 07:24:56 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo02.cox.net with bizsmtp
+	id BPQu1e00G4dcMZy02PQvKi; Thu, 29 Apr 2010 07:24:55 -0400
+X-VR-Score: -120.00
+X-Authority-Analysis: v=1.1 cv=FnQQhIGgoxKy895ni2P06Ys7q26b/tysl77b0NRG5XA=
+ c=1 sm=1 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=8Nd9O-HQzH_RMoYK8igA:9 a=w-lam2b5N6--ZBdWXAQA:7
+ a=V62oxbNQizAGgHkHMxEgmMUlUvgA:4 a=wPNLvfGTeEIA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BD96C86.3060301@cox.net>
+Date: Thu, 29 Apr 2010 06:24:54 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: backing up LVM volumes
+References: <4BD614B4.5060209@teaser.fr> <4BD70A07.6040109@physik.blm.tu-muenchen.de> <r7pja7xlvi.ln2@news.roaima.co.uk> <201004271452.01555.bss@iguanasuicide.net>
+In-Reply-To: <201004271452.01555.bss@iguanasuicide.net>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <IUrkUGlug0N.A.eFB.YyW2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575432
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 11:25:12 +0000 (UTC)
+
+On 04/27/2010 02:51 PM, Boyd Stephen Smith Jr. wrote:
+[snip]
+>
+> For "normal" file operations, taking an LVM snapshot of the mounted filesystem
+> and then making your backup from that should be sufficient.  This should even
+> work for postgreSQL database files (though, it is not optimal).  MySQL has a
+> history of being more flaky, but it might work there as well.
+>
+> If you snapshot a mounted file system, the snapshot will be approximately
+> equivalent to the original file system, uncleanly unmounted at that exact
+> moment (think: power failure).  It's possible to then take backups of an
+> active system with no downtime (although I/O load will certainly go up during
+> the backup).  If you mount the snapshot as part of the backup procedure, a
+> journaled file system will want to replay the journal then.  Otherwise, a
+> journal replay will be required at restore time.  PostgreSQL (etc.) will also
+> end up doing a journal replay / recovery at restore time.
+>
+
+A proper RDBMS will have a hot-backup feature, so I'd still say that 
+a file-only backup is the way to go.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD96C86.3060301@cox.net
+
+

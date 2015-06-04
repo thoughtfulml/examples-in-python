@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId127df4c0df8af050
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs99220wfi;
+        Thu, 8 Apr 2010 14:20:56 -0700 (PDT)
+Received: by 10.101.130.3 with SMTP id h3mr838304ann.118.1270761655815;
+        Thu, 08 Apr 2010 14:20:55 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 3si1110394gxk.62.2010.04.08.14.20.55;
+        Thu, 08 Apr 2010 14:20:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 1A7491B88A65A
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 14:20:55 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 15BFB26A4010B
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 14:20:55 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id C11E326A3FEDB
+	for <augd@lists.apple.com>; Thu,  8 Apr 2010 14:20:35 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id ADED3CD797E5
+	for <augd@lists.apple.com>; Thu,  8 Apr 2010 14:20:35 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c7dae000001ba1-b6-4bbe48a35444
+Received: from asmtpout025.mac.com (asmtpout025.mac.com [17.148.16.100])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	0B.B2.07073.3A84EBB4; Thu,  8 Apr 2010 14:20:35 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [10.0.1.3] (bb-205-209-70-125.gwi.net [205.209.70.125])
+	by asmtp025.mac.com
+	(Sun Java(tm) System Messaging Server 6.3-8.01 (built Dec 16 2008;
+	32bit)) with ESMTPSA id <0L0K00HX9TY9GF10@asmtp025.mac.com> for
+	augd@lists.apple.com; Thu, 08 Apr 2010 14:20:35 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004080190
+Subject: Re: AUGD: Displaying iPad at a meeting, what doesn't work
+From: Pete Zimowski <petez@me.com>
+In-reply-to: <05EE37E3-D520-4153-8E27-A300245BE865@lighthousetv.com>
+Date: Thu, 08 Apr 2010 17:20:32 -0400
+Message-id: <4BC2AC70-F860-4D47-B4F9-95E4BF50374C@me.com>
+References: <C7E3764C.50C02%augd@chrishart.net>
+	<A7C1395F-6295-4363-95D9-7FDD70E8B58B@csmining.org>
+	<4F4E926E-626F-46D8-B200-B2C660125214@dagcomputer.com>
+	<CBCC1BA5-E280-4F3F-86A4-AE2B71FD7B45@comcast.net>
+	<05EE37E3-D520-4153-8E27-A300245BE865@lighthousetv.com>
+To: Apple Discussion List <augd@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Yep.  When I did the iPhone demo a couple years back we duck-taped my video camera to the arm of a boom mike, pointed it down at a flat surface, hooked the video camera up to the projector, and did it that way.  Took a bit of finagling the light and angles so everything was visible.
+
+We called it "the miracle of MMOOS-vision"
+
+As we are MMOOS, the Maine Macintosh Owners & Operators Society (mmoos.net).
+
+OK, it was funny at the time.  Guess you had to be there.
+
+Pete
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

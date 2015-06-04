@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId12841ae2fa7eed8f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs157039wfj;
+        Tue, 27 Apr 2010 16:50:54 -0700 (PDT)
+Received: by 10.142.247.35 with SMTP id u35mr3574382wfh.113.1272412253987;
+        Tue, 27 Apr 2010 16:50:53 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 12si8241898pzk.134.2010.04.27.16.50.53;
+        Tue, 27 Apr 2010 16:50:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 959981C338774
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 16:50:53 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8FB7D272F5537
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 16:50:53 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 3F532272F548C
+	for <Augd@lists.apple.com>; Tue, 27 Apr 2010 16:50:47 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 1DA6AD01542C
+	for <Augd@lists.apple.com>; Tue, 27 Apr 2010 16:50:47 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-95-4bd77856229d
+Received: from mail-pz0-f188.google.com (mail-pz0-f188.google.com
+	[209.85.222.188])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	1B.4B.17067.65877DB4; Tue, 27 Apr 2010 16:50:46 -0700 (PDT)
+Received: by pzk26 with SMTP id 26so9757531pzk.6
+	for <Augd@lists.apple.com>; Tue, 27 Apr 2010 16:50:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	bh=4mYs7HRPUxeO66hIMU+B+ZBZSP7k6EyZAY+oHs/imlo=;
+	b=UHYtMWyDpCt6IdR2LwqCQ1CyrkzplCVDwrde38M3sMfbzyQ0gbTp5XVFk6gl0yX195
+	SwA+Y4RnOOk3ovuCQYBdpc/6HvQkU4/BmWfPBDEDZtYPFMs/2bAMIsCtm/79LQDuShLR
+	xM92vR79fJX7W5ACPaiEIKLMZIQ0JHlWcVPCQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type:content-transfer-encoding;
+	b=MylKnmZLxFXA56Ugp+X0Avr3Fd/Os9WYuFnOc5wKICZUFyoYL6rmEmJRkhmfTws1AS
+	p4bsB6cQ6bn1GnmZjWItHmsndstUMWKO/FjUQcbZ+TU6VmpWTBKPdvYrP5bIpcYHmTUk
+	LqcsldE+F+NWgpO5bkdfPt/PvG9TTZp2Ywkk8=
+MIME-Version: 1.0
+Received: by 10.142.8.22 with SMTP id 22mr3572849wfh.194.1272412246296; Tue, 
+	27 Apr 2010 16:50:46 -0700 (PDT)
+Received: by 10.142.125.6 with HTTP; Tue, 27 Apr 2010 16:50:46 -0700 (PDT)
+In-Reply-To: <34D8D7E3-7517-4446-86A6-F256780290A9@csmining.org>
+References: <C7FC9999.5192A%augd@chrishart.net>
+	<34D8D7E3-7517-4446-86A6-F256780290A9@csmining.org>
+Date: Tue, 27 Apr 2010 18:50:46 -0500
+Message-ID: <g2vaae88f271004271650l5ebbc897i15d1e440416ade26@mail.csmining.org>
+Subject: Re: AUGD: Re: PR Mailing Lists
+From: Dave G <dgreenbaum@csmining.org>
+To: Apple Discussion List <Augd@lists.apple.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAABBPvoMIT8ELBE/BxWRPwkeg=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I'm confused, isn't this list supported by Apple's servers?
+
+On Tue, Apr 27, 2010 at 4:19 PM, Jason Davies <ophiochos@csmining.org> wrote:
+>
+> On 27 Apr 2010, at 18:39, Chris Hart wrote:
+>
+>>
+>>
+>> ___ John Feltham at <wantok@me.com> wrote: ___
+>>
+>>> G'day Chris,
+>>>
+>>> On 21/04/2010, at 1:02 PM, Chris Hart wrote:
+>>>
+>>>> See, that's downright disgusting that Apple won't even acknowledge
+>>>> our existence.
+>>>
+>>> While I agree that their position is not good, I think that you have to=
+ think
+>>> that their business is the manufacture and sale of their products.
+>>
+>> I'm not asking them to promote our groups prominently. =A0I just want th=
+em to
+>> publicly acknowledge our existence in a proud fashion and not hesitate t=
+o
+>> mention us to their customers when appropriate.
+>
+>
+> while I understand the frustration I have also known MUGs which were seri=
+ously dysfunctional and embarrassing to be part of. I can see why Apple don=
+'t wish to promote a link with them, because they can't always rely on it. =
+All you need is a bad list-moderator and a couple of nutters, and you have =
+a list which all the right people leave.
+>
+> =A0_______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Augd mailing list =A0 =A0 =A0(Augd@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/augd/dgreenbaum%40csmining.org
+>
+> This email sent to dgreenbaum@csmining.org
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

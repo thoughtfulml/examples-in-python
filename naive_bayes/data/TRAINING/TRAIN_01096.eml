@@ -1,0 +1,145 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282c8be7e4e0170
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs76889wfj;
+        Fri, 23 Apr 2010 14:21:25 -0700 (PDT)
+Received: by 10.142.117.5 with SMTP id p5mr453054wfc.23.1272057685655;
+        Fri, 23 Apr 2010 14:21:25 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 1si2443653pzk.36.2010.04.23.14.21.25;
+        Fri, 23 Apr 2010 14:21:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 679C21BF4098B
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 14:21:25 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 635732711B5ED
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 14:21:25 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 8C5142711B40D
+	for <quicktime-api@lists.apple.com>;
+	Fri, 23 Apr 2010 14:21:07 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 7B1E2D47445D
+	for <quicktime-api@lists.apple.com>;
+	Fri, 23 Apr 2010 14:21:07 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-be-4bd20f42bfaa
+Received: from vps.hungerhost.com (vps.hungerhost.com [216.38.53.176])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	B8.1C.17067.34F02DB4; Fri, 23 Apr 2010 14:21:07 -0700 (PDT)
+Received: from c-67-164-43-66.hsd1.ca.comcast.net ([67.164.43.66] helo=pleaset)
+	by vps.hungerhost.com with esmtpa (Exim 4.69)
+	(envelope-from <dbyron@dbyron.com>) id 1O5QJ7-0007FS-DO
+	for quicktime-api@lists.apple.com; Fri, 23 Apr 2010 17:21:05 -0400
+From: "David Byron" <dbyron@dbyron.com>
+To: <quicktime-api@lists.apple.com>
+Date: Fri, 23 Apr 2010 14:21:20 -0700
+Message-ID: <1461C6BDCC944495B722BD6BC4FFC8BD@pleaset>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+Thread-Index: AcrjKurNsvqX3etCTjuETpsE6uq46Q==
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps.hungerhost.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - dbyron.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Brightmail-Tracker: AAAABAEm7mEPY+s8E9jXmxPY2pc=
+Subject: MovieAudioExtractionFillBuffer calling exit?
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: dbyron@dbyron.com
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I'm running QuickTime on Windows (XP SP3) and have a reproducible way to
+make MovieAudioExtractionFillBuffer in a C++ program do something strange.
+It looks like it's calling exit() or doing something equivalent, but I can't
+say for sure.   What I do see is that immediately after calling
+MovieAudioExtractionFillBuffer, execution continues in the destructors of my
+statically allocated objects.  If I replace the call to
+MovieAudioExtractionFillBuffer with a call to exit(), I see the same thing.
+
+I'm using version 7.3 of the QuickTime SDK, but 
+
+long version;
+Gestalt(gestaltQuickTimeVersion,&version);
+
+populates version with 0x07668000.  I can reproduce the same behavior with
+version 7.1 of the QuickTime SDK, but Gestalt still returns the same thing
+in this case.
+
+The QuickTime-related things that happen before this are:
+
+- QuickTime initializes normally
+- QuickTime reads metadata from one aac file
+- QuickTime reads metadata from a second aac file
+- Quicktime reads the audio properties of an mp3 file
+- and then I call MovieAudioExtractionFillBuffer
+
+The audio-related function calls are:
+
+MovieAudioExtractionBegin
+MovieAudioExtractionGetProperty(kQTPropertyClass_MovieAudioExtraction_Audio,
+ 
+kQTMovieAudioExtractionAudioPropertyID_AudioStreamBasicDescription);
+MovieAudioExtractionSetProperty(kQTPropertyClass_MovieAudioExtraction_Audio,
+ 
+kQTMovieAudioExtractionAudioPropertyID_AudioStreamBasicDescription);
+
+all of which work as expected (or at least I think they do).
+
+And then
+
+MovieAudioExtractionFillBuffer
+
+I can give more details about the API calls if necessary.  I think I'm
+calling QuickTime correctly since it decodes audio successfully almost all
+the time -- with this file and many others (i.e.
+MovieAudioExtractionFillBuffer returns normally).  I've had customers report
+similar problems, but this is the first time I've been able to reproduce it
+reliably myself.  Unfortunately it's with a complex program.  My attempts to
+reproduce this with a simpler program have failed.  It seems to be
+timing-related but I can't do better than that at the moment.
+
+I'd love some help figuring out what's happening in
+MovieAudioExtractionFillBuffer, and even better some help making it go away.
+If I need to report this in some more official way to Apple to make that
+happen, please let me know.
+
+Thanks much.
+
+-DB
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

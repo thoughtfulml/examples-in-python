@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281bc35ba8717b0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs73911wfj;
+        Tue, 20 Apr 2010 08:09:30 -0700 (PDT)
+Received: by 10.223.15.65 with SMTP id j1mr1073093faa.0.1271776107280;
+        Tue, 20 Apr 2010 08:08:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si1978679fka.43.2010.04.20.08.08.26;
+        Tue, 20 Apr 2010 08:08:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 59DBB13A4F21; Tue, 20 Apr 2010 15:08:21 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DBC1D13A4F0D
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 15:08:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id i3WnDCmVU86p for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 15:08:08 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 8073013A4EEA
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 15:08:08 +0000 (UTC)
+Received: (qmail 16758 invoked from network); 20 Apr 2010 17:08:05 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <zlinuxman@wowway.com>; 20 Apr 2010 17:08:05 +0200
+Message-ID: <4BCDC32D.80203@student.ulg.ac.be>
+Date: Tue, 20 Apr 2010 17:07:25 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: Stephen Powell <zlinuxman@wowway.com>
+CC: debian-user@lists.debian.org
+Subject: Re: Plagiarism (was Re: PDF is blocked for ...)
+References: <57412780.169322.1271773849573.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <57412780.169322.1271773849573.JavaMail.root@md01.wow.synacor.com>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enigBB12E0CC4DA2DB4F9CF5EF72"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <k1-4HTWMWwM.A.rvD.lNczLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574556
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 15:08:21 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enigBB12E0CC4DA2DB4F9CF5EF72
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Stephen Powell wrote:
+> On Tue, 20 Apr 2010 10:13:01 -0400 (EDT), Merciadri Luca wrote:
+>  =20
+>
+> I haven't been following this thread.  I just took a look at it today,
+> primarily because there's been so much activity on it.  So it's quite
+> possible that I'm repeating sentiments that have been expressed by
+> others already.  If so, please excuse the repetition.
+>
+> Basically, there is no foolproof protection against plagiarism.
+> Any lock that can be invented by a mortal man can probably be
+> picked eventually.  If anyone but you sees it, even once, your
+> work is unprotected.  Who knows, he might have a photographic
+> memory.  Some people do.  But then again, if no-one sees it but you,
+> what's the point?  Protection against plagiarism basically comes
+> down to the honor system.  And not everyone is honorable.
+>  =20
+I agree with you.
+> But remember this, if it's any consolation.  Plagiarism is the
+> sincerest form of flattery.
+>  =20
+Paradoxally. But nice for the morale.
+
+Thanks for your answers. This gives me a practical point of view about
+what can, and cannot be done with such problems, and their CS counterpart=
+s.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+
+
+--------------enigBB12E0CC4DA2DB4F9CF5EF72
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvNwy8ACgkQM0LLzLt8MhzOzACfZ2K+9wVFUxC8rCTCZTMUtdvQ
+73oAn32QpXoU43eOd8jj91b/sRDn6me3
+=fosF
+-----END PGP SIGNATURE-----
+
+--------------enigBB12E0CC4DA2DB4F9CF5EF72--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCDC32D.80203@student.ulg.ac.be
+
+

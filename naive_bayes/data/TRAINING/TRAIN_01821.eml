@@ -1,0 +1,152 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f8745bb10e852
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs33592wfa;
+        Tue, 13 Apr 2010 11:35:28 -0700 (PDT)
+Received: by 10.102.216.24 with SMTP id o24mr3428144mug.67.1271183727314;
+        Tue, 13 Apr 2010 11:35:27 -0700 (PDT)
+Return-Path: <bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n10si240121mue.42.2010.04.13.11.35.26;
+        Tue, 13 Apr 2010 11:35:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1F8F813A58EA; Tue, 13 Apr 2010 18:35:26 +0000 (UTC)
+Old-Return-Path: <mt@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-volatile@liszt.debian.org
+Delivered-To: lists-debian-volatile@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 95E2E13A58C3
+	for <lists-debian-volatile@liszt.debian.org>; Tue, 13 Apr 2010 18:35:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id r8l7Ny5Yn+QK
+	for <lists-debian-volatile@liszt.debian.org>;
+	Tue, 13 Apr 2010 18:35:13 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lnx141.hrz.tu-darmstadt.de (lnx141.hrz.tu-darmstadt.de [130.83.156.236])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 5967E13A589C
+	for <debian-volatile@lists.debian.org>; Tue, 13 Apr 2010 18:35:13 +0000 (UTC)
+Received: from lnx500.hrz.tu-darmstadt.de (lnx500.hrz.tu-darmstadt.de [130.83.156.225])
+	by lnx141.hrz.tu-darmstadt.de (8.14.2/8.13.8) with ESMTP id o3DIgPMp032477;
+	Tue, 13 Apr 2010 20:42:26 +0200
+	(envelope-from mt@debian.org)
+Received: from calf.forsyte.informatik.tu-darmstadt.de (calf.forsyte.informatik.tu-darmstadt.de [130.83.161.206])
+	by lnx500.hrz.tu-darmstadt.de (8.14.2/8.14.2/HRZ/PMX) with ESMTP id o3DIWTWk022432;
+	Tue, 13 Apr 2010 20:32:29 +0200
+	(envelope-from mt@debian.org)
+Received: from localhost (localhost [127.0.0.1])
+	by calf.forsyte.informatik.tu-darmstadt.de (Postfix) with ESMTP id 4BCDD3F0A;
+	Tue, 13 Apr 2010 20:32:30 +0200 (CEST)
+X-Virus-Scanned: by amavisd-new/clamav/sophos at
+	mail.forsyte.informatik.tu-darmstadt.de
+Received: from calf.forsyte.informatik.tu-darmstadt.de ([127.0.0.1])
+	by localhost (calf.forsyte [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id vzqNmzSMtzLh; Tue, 13 Apr 2010 20:32:26 +0200 (CEST)
+Received: by calf.forsyte.informatik.tu-darmstadt.de (Postfix, from userid 8)
+	id 919FB3F09; Tue, 13 Apr 2010 20:32:26 +0200 (CEST)
+Received: from mail.forsyte.cs.tu-darmstadt.de (bull.forsyte [192.168.46.2])
+	by calf.forsyte.informatik.tu-darmstadt.de (Postfix) with ESMTPS id 6DCC93F09;
+	Tue, 13 Apr 2010 20:32:24 +0200 (CEST)
+Received: from l04.local (chello084112032179.1.11.vie.surfer.at [84.112.32.179])
+	(Authenticated sender: tautschnig)
+	by mail.forsyte.cs.tu-darmstadt.de (Postfix) with ESMTPSA id 2FB1FFA60;
+	Tue, 13 Apr 2010 20:32:23 +0200 (CEST)
+Date: Tue, 13 Apr 2010 20:32:22 +0200
+From: Michael Tautschnig <mt@debian.org>
+To: Scott Kitterman <scott@kitterman.com>
+Cc: debian-volatile@lists.debian.org
+Subject: Re: lenny-volatile updates for clamav-related packages
+Message-ID: <20100413183222.GC44172@l04.local>
+Mail-Followup-To: Michael Tautschnig <mt@debian.org>,
+	Scott Kitterman <scott@kitterman.com>,
+	debian-volatile@lists.debian.org
+References: <1270993126.24922.1463.camel@kaa.jungle.aubergine.my-net-space.net>
+ <250fa4d3-32d7-4a79-87f2-976a8add2b4b@email.android.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="raC6veAxrt5nqIoY"
+Content-Disposition: inline
+In-Reply-To: <250fa4d3-32d7-4a79-87f2-976a8add2b4b@email.android.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-PMX-TU: seen v0.99a by 5.5.9.388399, Antispam-Engine: 2.7.2.376379, Antispam-Data: 2010.4.13.182116
+X-PMX-SPAMCHECK: outgoing mail
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YYK-108SzoC.A.VuD.ulLxLB@liszt>
+Resent-From: debian-volatile@lists.debian.org
+X-Mailing-List: <debian-volatile@lists.debian.org> archive/latest/1272
+X-Loop: debian-volatile@lists.debian.org
+List-Id: <debian-volatile.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-volatile/>
+List-Post: <mailto:debian-volatile@lists.debian.org>
+List-Help: <mailto:debian-volatile-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 18:35:26 +0000 (UTC)
+
+
+--raC6veAxrt5nqIoY
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+> As a Debian Maintainer, I can't upload to Volatile. The current Klamav from Testing should work fine if someone cares to upload it.
+>
+
+[...]
+
+Scott, we'll need to bump the version number; if you keep the package in some
+VCS it might make sense if you prepare an updated package; otherwise I can take
+care of that.
+
+Best,
+Michael
+
+
+--raC6veAxrt5nqIoY
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iQIcBAEBCAAGBQJLxLi2AAoJEKjvEonjOGdBn/kP+gNdaFc1eOaKW/A/UgV6t8wy
+R1eGZqglKHn96+sTqHpEsuwjy3MxqiSI87x9UYlYTvx2d31u5sseDB2Ya6rTDvvl
+JNqGuHTbTOOyj4qvbinci5PvS2PIh5JvFAa+8VmnYLUYf8m7C3AD66MMQa8EHjf0
+8r67r376b+PwsYfE0DFPmzBjN+gEEUMwOJSG4gKMuPVR8vnLTUSLR5C7hbyCjgbs
+Wj5GpiQ7WYN7oiuPacqBmKOrcwt8o/+A/t+Yx5/Az5dxCrLnS8IPuVALOOFQWF2i
+UZlXGosaLJuN4R5wYzVe37gHnoAdh/3036uToowzuxd4T2/KotvMgEAP2fnDEANd
+G4kXd7dSGlsKRmCUiy8k6O7wEhA1ZVmDSi5Fnc9PuM+YkT4JX8SonJyYfuqK4Mmc
+sFX0NcYOxI1GVR2NDhS0Ty654ik2vaFQeXDgpHaJKX/DjIB4apG1TQvTGf3IiFsi
+fSy6IVQiCDYcWX0Kbz98KMid/dnCpp+AF7R+Wx1cA8Cs38D72UCh6oDGKkTEXTq8
+A1lmq2r9Zt2QffQTFdfn7kdaP7oFdbEjOmMyMbyEzaSPx2WNo+Sm7ReY7dcLDsuj
+gZzVIj8VHKQlNQlqZJWdERgvk9HtEBmZCBRAQEJXygCBv8HuRKpvr/YlYz0C6Bnx
+5bVBBB2W16AW1T0Ysthc
+=eVRr
+-----END PGP SIGNATURE-----
+
+--raC6veAxrt5nqIoY--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100413183222.GC44172@l04.local
+
+

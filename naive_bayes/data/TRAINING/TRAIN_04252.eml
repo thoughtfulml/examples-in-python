@@ -1,0 +1,169 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286eb1dec2f9524
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs407576wfb;
+        Thu, 6 May 2010 10:37:51 -0700 (PDT)
+Received: by 10.223.33.218 with SMTP id i26mr6807664fad.58.1273167470486;
+        Thu, 06 May 2010 10:37:50 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si2535543fka.46.2010.05.06.10.37.49;
+        Thu, 06 May 2010 10:37:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 52A7C13A5859; Thu,  6 May 2010 17:37:48 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-13.0 required=4.0 tests=BLOGSPOT,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_DRUGS_REL8,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D368213A5857
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 17:37:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-8.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BLOGSPOT=3, LDO_WHITELIST=-5,
+	MURPHY_DRUGS_REL8=0.02, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id aLOtIdXIvT0V for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 17:37:35 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 6D66C13A5853
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 17:37:35 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1OA50u-0008JO-7Q
+	for debian-kde@lists.debian.org; Thu, 06 May 2010 17:37:32 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 12:40:21 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.32-bpo.3-amd64; KDE/4.4.3; x86_64; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005051621.23651.bss@iguanasuicide.net> <201005060913.06917.didi.debian@cknow.org>
+In-Reply-To: <201005060913.06917.didi.debian@cknow.org>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?iso-8859-1?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSK?=
+ =?iso-8859-1?q?VkSKVkSKVkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrX?=
+ =?iso-8859-1?q?bgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAAI0SURB?=
+ =?iso-8859-1?q?VDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOl?=
+ =?iso-8859-1?q?yn8DhAHZj=0A=093iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkb?=
+ =?iso-8859-1?q?IsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs=0A=09pY2lNMMz2FMIOurZpRE?=
+ =?iso-8859-1?q?z4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKrvHC+eDauR7oWn2?=
+ =?iso-8859-1?q?=0A=099cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X1KJxybF0zhLwsns?=
+ =?iso-8859-1?q?yJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096GudSNWT0NXblkVuwjBlkWVJr?=
+ =?iso-8859-1?q?maAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VIIiKVYmUnJiyr?=
+ =?iso-8859-1?q?=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERfOpfZ?=
+ =?iso-8859-1?q?iTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNrHHeCJMyuaujMNd?=
+ =?iso-8859-1?q?ktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG=0A=090?=
+ =?iso-8859-1?q?1oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJf?=
+ =?iso-8859-1?q?PTbS5oo9tOUMHbdKE23oTci=0A=093cBil8dtoGZk0BF2Yq35wSeWvYeT2E?=
+ =?iso-8859-1?q?E/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G=0A=098GbPE?=
+ =?iso-8859-1?q?j2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAA?=
+ =?iso-8859-1?q?SUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2986580.jzuflj1gPn";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061240.21428.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dxoQRJPLOjF.A.MiD.s5v4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32166
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 17:37:48 +0000 (UTC)
+
+--nextPart2986580.jzuflj1gPn
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 06 May 2010 02:13:06 Diederik de Haas wrote:
+> I don't get what you're trying to accomplish.
+>=20
+> On 2010-05-05 Boyd Stephen Smith Jr. wrote:
+> > In 4.4, kmail depends on mysql-server in order to send mail. (kmail ->
+> > Akonadi  -> mysql-server).
+>=20
+> So you don't like the dependency to Akonadi?
+
+No.  I believe in Akonadi as a technology and I don't have a problem with i=
+t.
+
+> Or don't you like the Akonadi dependency to mysql-server? Well, it's not
+>  the full mysqld package anymore, but the dependency is to
+>  mysql-server-core(-5.1) (see #548419).
+
+That's still yet another RDBMS.  I already have plenty installed, thanks.
+
+>  PostgreSQL is apparently
+>  capable of providing the proper features and Tobias Koenig has made
+>  Akonadi working with PostgreSQL since the end of last year
+>  (http://tokoe-kde.blogspot.com/2009/12/akonadi- and-postgresql.html). Th=
+at
+>  patch was committed to trunk at that time, but apparently didn't make in=
+to
+>  SC 4.4 (?).
+> So if you want to use PostgreSQL, your best bet would be to port/base that
+>  patch on 4.4.
+
+Again, would Debian accept such a patch?  Upstream intends that patch for K=
+DE=20
+SC 4.5, and I don't believe they will apply it to the KDE SC 4.4.x line.
+
+I know the majority of the work has already been done.  I can probably=20
+backport those patches to KDE SC 4.4 before the freeze date, but I don't wa=
+nt=20
+to start the work if there's no chance for it to get into Debian.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart2986580.jzuflj1gPn
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEABECAAYFAkvi/wUACgkQdNbfk+86fC1vKACdHKiP85qUbPN/GHwdZtFsFXqv
+CEUAnRSccW36PKPXJwtglYjToaBJpSzU
+=V2iz
+-----END PGP SIGNATURE-----
+
+--nextPart2986580.jzuflj1gPn--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061240.21428.bss@iguanasuicide.net
+
+

@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e29ac5f5579b6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs25204wfi;
+        Fri, 9 Apr 2010 05:45:46 -0700 (PDT)
+Received: by 10.87.42.2 with SMTP id u2mr247827fgj.79.1270817146089;
+        Fri, 09 Apr 2010 05:45:46 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 24si2946359fxm.33.2010.04.09.05.45.45;
+        Fri, 09 Apr 2010 05:45:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 99DCF2D0D0D; Fri,  9 Apr 2010 12:45:43 +0000 (UTC)
+Old-Return-Path: <avbidder@fortytwo.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-20.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 164A913A6064
+	for <lists-debian-kde@liszt.debian.org>; Fri,  9 Apr 2010 12:45:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id cIuLaVOcpPSd for <lists-debian-kde@liszt.debian.org>;
+	Fri,  9 Apr 2010 12:45:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from zbasel.fortytwo.ch (zbasel.fortytwo.ch [193.138.215.60])
+	by liszt.debian.org (Postfix) with ESMTP id B84062D0D0D
+	for <debian-kde@lists.debian.org>; Fri,  9 Apr 2010 12:45:30 +0000 (UTC)
+Received: from laeggerli.fortytwo.ch (62-2-219-110.static.cablecom.ch [62.2.219.110])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by zbasel.fortytwo.ch (Postfix) with ESMTP id 6687837ED
+	for <debian-kde@lists.debian.org>; Fri,  9 Apr 2010 14:45:28 +0200 (CEST)
+From: Adrian von Bidder <avbidder@fortytwo.ch>
+To: debian-kde@lists.debian.org
+Subject: Re: Attach gdb to program?
+Date: Fri, 9 Apr 2010 14:45:22 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33-2-686; KDE/4.4.2; i686; ; )
+References: <201004080722.14782@fortytwo.ch>
+In-Reply-To: <201004080722.14782@fortytwo.ch>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart3240376.t7vXzDoi9q";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004091445.22933@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <GUlG-Yn1AVB.A.KGF.3FyvLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32000
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 12:45:43 +0000 (UTC)
+
+--nextPart3240376.t7vXzDoi9q
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 08 April 2010 07.21:59 Adrian von Bidder wrote:
+> Just gdb -p <pid> /usr/bin/kmail doesn't work :-(
+
+Arrgh!
+
+As it turns out, gdb 7.0 (squeeze) doesn't really work with binarries from=
+=20
+sid (or experimental), at least onn 32bit x86.  gdb 7.1 (sid) works fine.
+
+cheers
+=2D- vbi
+
+=2D-=20
+As we found out later, our activities had both saturated an uplink two
+"hops" up from our university, at the Nordic University Network level
+and made some DoS-alarms go off at the national level. All part of a fun
+release.
+        -- serving Debian sarge and Ubuntu Breezy CD images
+           http://www.acc.umu.se/~maswan/2005-12-10/2gbit-freesoftware.html
+
+--nextPart3240376.t7vXzDoi9q
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: get my key from http://fortytwo.ch/gpg/92082481
+
+iKcEABECAGcFAku/IWJgGmh0dHA6Ly9mb3J0eXR3by5jaC9sZWdhbC9ncGcvZW1h
+aWwuMjAwMjA4MjI/dmVyc2lvbj0xLjUmbWQ1c3VtPTVkZmY4NjhkMTE4NDMyNzYw
+NzFiMjVlYjcwMDZkYTNlAAoJECqqZti935l6IgAAoJE7+WxKeNJKfIW5iJbchy3A
+E59SAKCuV8Xozuh87ei4bHCPc4mPNmhDtw==
+=LuxM
+-----END PGP SIGNATURE-----
+
+--nextPart3240376.t7vXzDoi9q--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004091445.22933@fortytwo.ch
+
+

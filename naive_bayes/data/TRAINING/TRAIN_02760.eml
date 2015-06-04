@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId12817d2c5fda0f60
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs41397wfj;
+        Mon, 19 Apr 2010 13:47:35 -0700 (PDT)
+Received: by 10.223.4.217 with SMTP id 25mr378600fas.60.1271710009047;
+        Mon, 19 Apr 2010 13:46:49 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si897941fka.46.2010.04.19.13.46.48;
+        Mon, 19 Apr 2010 13:46:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 80F3A13A496D; Mon, 19 Apr 2010 20:46:39 +0000 (UTC)
+Old-Return-Path: <joe@emenaker.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 86CC813A48E2
+	for <lists-debian-laptop@liszt.debian.org>; Mon, 19 Apr 2010 20:46:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6OdBo59dyU7m for <lists-debian-laptop@liszt.debian.org>;
+	Mon, 19 Apr 2010 20:46:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -3.66
+X-Greylist: delayed 1251 seconds by postgrey-1.31 at liszt; Mon, 19 Apr 2010 20:46:25 UTC
+Received: from scully.cob.calpoly.edu (videoserver8.cob.calpoly.edu [129.65.185.9])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id CAF4913A476F
+	for <debian-laptop@lists.debian.org>; Mon, 19 Apr 2010 20:46:25 +0000 (UTC)
+Received: from damien.cob.calpoly.edu ([129.65.91.128] helo=[127.0.0.1])
+	by scully.cob.calpoly.edu with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <joe@emenaker.com>)
+	id 1O3xX6-0000td-5I
+	for debian-laptop@lists.debian.org; Mon, 19 Apr 2010 13:25:28 -0700
+Message-ID: <4BCCBC32.8090706@emenaker.com>
+Date: Mon, 19 Apr 2010 13:25:22 -0700
+From: Joe Emenaker <joe@emenaker.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.9) Gecko/20100317 Lightning/1.0b1 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Debian Laptop List <debian-laptop@lists.debian.org>
+Subject: Battery monitor tools?
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5jeiD47BBIM.A.LtE.vEMzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34110
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 20:46:39 +0000 (UTC)
+
+
+I'm looking for a good battery charge/discharge profiler tool for my=20
+Ubuntu laptop. I'm aware that there's the "Power History" tool, but it=20
+doesn't seem to do what I'm after. I'll explain....
+
+A couple of years ago, I came across a really neat tool for Windows for=20
+estimating the time remaining until the battery is completely charged or =
+
+discharged. It was pretty clever about how it went about it. It would=20
+constantly record things like: how much charge the battery said it still =
+
+had, how much the battery said it was charging/discharging at, etc. The=20
+tool would use this info to estimate the time to charge/discharge...=20
+/but/ it also went one step further. It could account for errors in the=20
+battery's reporting. For example, if the battery reported that it had=20
+80% charge left, and then, a few minutes later, reported that it had=20
+just 20% left, then this tool would learn this, and realize that the=20
+battery was old/problematic. So, the /next/ time the battery was=20
+reporting 80% charge left, the tool would know not to give too=20
+optimistic of an estimate for the remaining time. In other words, the=20
+tool was learning what "80%" /really/ meant to that battery.
+
+It also did something else which was really cool. Because the battery=20
+drains at different rates depending upon what you're doing with your=20
+laptop (ie, playing a DVD on a bright screen versus just reading some=20
+text on a dimmer screen), this tool would actually show you "best case"=20
+and "worst case" predictions of your remaining battery life (or time to=20
+charge back up) based upon /actual/ discharge rates from /that level/ of =
+
+battery charge remaining that it had experienced on /that/ laptop. So,=20
+you'd open up the little power-discharge graph tool and you'd see three=20
+lines: a best, a worst, and one in-between which was what rate you're=20
+currently at.
+
+So, two questions:
+1 - Does anyone know what tool that was? (Yes, I know this is a Linux=20
+forum but, as long as I'm describing the tool, I figured I'd ask. It's=20
+not the PassMark one. I thought it was called BatMon or something, but=20
+now I can't find it anywhere).
+2 - Does anybody know of a tool that does this in Linux? Or, is there=20
+some way to get the Gnome power-history tool to show this kind of stuff?
+
+- Joe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCBC32.8090706@emenaker.com
+
+

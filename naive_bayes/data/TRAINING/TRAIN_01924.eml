@@ -1,0 +1,137 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288da3542124e32
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs6010wfo;
+        Wed, 12 May 2010 10:50:12 -0700 (PDT)
+Received: by 10.223.143.12 with SMTP id s12mr8710887fau.9.1273686611040;
+        Wed, 12 May 2010 10:50:11 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s7si1048566faa.40.2010.05.12.10.50.10;
+        Wed, 12 May 2010 10:50:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9943C13A4FB6; Wed, 12 May 2010 17:50:07 +0000 (UTC)
+Old-Return-Path: <mkasick-dk@club.cc.cmu.edu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_DRUGS_REL8,RCVD_IN_DNSWL_MED autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0445113A4CDE
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 17:50:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.88 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	MURPHY_DRUGS_REL8=0.02, RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ceV6x40vji1r for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 17:49:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 407 seconds by postgrey-1.31 at liszt; Wed, 12 May 2010 17:49:51 UTC
+Received: from strontium.club.cc.cmu.edu (STRONTIUM.CLUB.CC.CMU.EDU [128.2.204.151])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 32A6813A4A14
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 17:49:38 +0000 (UTC)
+Received: (qmail 20009 invoked from network); 12 May 2010 17:42:54 -0000
+Received: from bromine.club.cc.cmu.edu (128.237.157.4)
+  by strontium.club.cc.cmu.edu with ESMTPS (AES256-SHA encrypted); 12 May 2010 17:42:54 -0000
+Received: from mkasick by bromine.club.cc.cmu.edu with local (Exim 4.63)
+	(envelope-from <mkasick-dk@club.cc.cmu.edu>)
+	id 1OCFxN-0004ZG-U5
+	for debian-kde@lists.debian.org; Wed, 12 May 2010 13:42:53 -0400
+Date: Wed, 12 May 2010 13:42:53 -0400
+From: Mike Kasick <mkasick-dk@club.cc.cmu.edu>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 upgrade eats 141 MB of /home
+Message-ID: <20100512174253.GA17540@club.cc.cmu.edu>
+References: <20100512005320.GA16379@club.cc.cmu.edu> <AANLkTim5DSUzpyUrf5PqgBiXmYCLX_f0Mw0_wfVYSgeg@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <AANLkTim5DSUzpyUrf5PqgBiXmYCLX_f0Mw0_wfVYSgeg@mail.csmining.org>
+User-Agent: Mutt/1.5.13 (2006-08-11)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <R_8MqUJJkHC.A.2F.Ppu6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32430
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 17:50:07 +0000 (UTC)
+
+On Wed, May 12, 2010 at 10:48:43AM +0200, Richard Hartmann wrote:
+
+> > - Disable "kres-migrator".  Or at least add a debconf option to
+> >  kdepim-runtime presenting the option of running kres-migrator by default
+> >  or disabling it.
+> 
+> Did you do any research as to what the longer-term implications
+> of foregoing this might be? I am not saying there are any, I
+> honestly don't know.
+
+There shouldn't be any long-term implications as long as the old KResource
+code still exists.  I'm assuming it's being deprecated as of KDE 4.4, but
+I'd be surprised if it's removed in KDE 4.5, especially since delaying
+migration is an official recommendation.
+
+Once the DB mess is sorted out (KDE 4.5?), one can manually migrate the
+data by running "kres-migrator".  I actually did this accidentally.  The
+migrator _might_ also run if we remove the configuration bit, but I've not
+tried.
+
+> > - Add a warning dialog during kdepim-runtime upgrade stating that
+> >  kres-migrator will run by default and potentially consume a large amount
+> >  of per-user disk space, unless migration is manually disabled by the
+> >  above command.
+> 
+> Personally, I would like to see such a warning, but I am not sure if
+> that is acceptable by Debian's standards. apt-listchanges exists for
+> a reason.
+
+It extends beyond just a change in package behavior, it's a non-reversible
+and potentially aggravating alteration to user data.  I've seen similar
+warnings before, most recently to rebuild OpenOffice.org .rdb files due to
+possible corruption.
+
+> > - Reduce the default size of the InnoDB transaction logs in the Akonadi
+> >  per-user MySQL configuration.
+> 
+> Seems like the best bet to me. If need be, the file size could be adapted
+> automagically. But that functionality would be in 4.5 at the earliest unless
+> it's patched downstream.
+
+Forgot to mention before, apparently there's an Innodb_log_waits counter
+that increments when you have write bursts that exceed the REDO log size.
+It can be used for feedback to increase the log size if needed.  Perhaps
+something to suggest manually doing in NEWS.
+
+> Also, what about /root?
+
+Should have same problem, if one runs a KDE desktop as root, which I do
+not.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100512174253.GA17540@club.cc.cmu.edu
+
+

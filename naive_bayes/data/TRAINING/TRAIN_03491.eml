@@ -1,0 +1,153 @@
+X-Account-Key: account5
+X-UIDL: GmailId128af931015ce1b6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs44240wfo;
+        Wed, 19 May 2010 00:59:31 -0700 (PDT)
+Received: by 10.142.56.15 with SMTP id e15mr1779065wfa.128.1274255970491;
+        Wed, 19 May 2010 00:59:30 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 9si10017721pzk.72.2010.05.19.00.59.30;
+        Wed, 19 May 2010 00:59:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 0EDE61C93000D
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 00:59:30 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 08D4227C1CD7A
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 00:59:30 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id AEC0D27C1CD51
+	for <filesystem-dev@lists.apple.com>;
+	Wed, 19 May 2010 00:59:26 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 9DB01D5A36F9
+	for <filesystem-dev@lists.apple.com>;
+	Wed, 19 May 2010 00:59:26 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-68-4bf39a5c83ef
+Authentication-Results: mail-in12.apple.com
+	x-tls.subject="/C=FI/ST=Espoo/L=Espoo/O=Nokia/OU=Nokia/CN=smtp.nokia.com";
+	auth=fail (cipher=AES256-SHA)
+Received: from mgw-mx06.nokia.com (smtp.nokia.com [192.100.122.233])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client CN "smtp.nokia.com", Issuer "smtp.nokia.com" (not verified))
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	FC.52.07800.D5A93FB4; Wed, 19 May 2010 00:59:26 -0700 (PDT)
+Received: from vaebh106.NOE.Nokia.com (vaebh106.europe.nokia.com
+	[10.160.244.32])
+	by mgw-mx06.nokia.com (Switch-3.3.3/Switch-3.3.3) with ESMTP id
+	o4J7x0Pw029842
+	for <filesystem-dev@lists.apple.com>; Wed, 19 May 2010 10:59:21 +0300
+Received: from vaebh104.NOE.Nokia.com ([10.160.244.30]) by
+	vaebh106.NOE.Nokia.com with Microsoft SMTPSVC(6.0.3790.3959); 
+	Wed, 19 May 2010 10:58:46 +0300
+Received: from smtp.mgd.nokia.com ([65.54.30.5]) by vaebh104.NOE.Nokia.com
+	over TLS secured channel with Microsoft SMTPSVC(6.0.3790.3959); 
+	Wed, 19 May 2010 10:58:41 +0300
+Received: from NOK-EUMSG-03.mgdnok.nokia.com ([65.54.30.108]) by
+	nok-am1mhub-01.mgdnok.nokia.com ([65.54.30.5]) with mapi;
+	Wed, 19 May 2010 09:58:29 +0200
+From: <fabien.freling@nokia.com>
+To: <filesystem-dev@lists.apple.com>
+Date: Wed, 19 May 2010 09:58:28 +0200
+Thread-Topic: FSEvents errors after the removal of a watched directory
+Thread-Index: Acr3KRF5vIq9LdSxSl6v0L2UJaks9A==
+Message-ID: <DDB3EA47-CDFA-46ED-A0EB-C88219E19DAB@nokia.com>
+References: <81275C1E-75FF-4987-8CEA-31654720F4F9@nokia.com>
+	<13D51DD3-B52E-44BD-A2DF-21E35BC80886@apple.com>
+In-Reply-To: <13D51DD3-B52E-44BD-A2DF-21E35BC80886@apple.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginalArrivalTime: 19 May 2010 07:58:41.0861 (UTC)
+	FILETIME=[18FFAF50:01CAF729]
+X-Nokia-AV: Clean
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: Re: FSEvents errors after the removal of a watched directory
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On May 5, 2010, at 9:12 PM, ext Dominic Giampaolo wrote:
+
+>> - I create a FSEventStream with the right directories to watch
+>> - if the user adds or removes a directory, I delete the current FSEventS=
+tream and create a new one with the right values
+>>=20
+> Are you sure that you're properly tearing down and
+> releasing the old FSEvent stream before creating=20
+> the new one?=20
+>=20
+
+Yes, I am sure of that.
+I printed all the steps on the output to check:
+
+# Create stream=20
+## Schedule stream=20
+### Start stream=20
+[stuff happens]
+#### Stop stream=20
+##### Invalidate stream=20
+###### Release stream=20
+# Create stream=20
+## Schedule stream=20
+### Start stream=20
+[...]
+#### Stop stream=20
+##### Invalidate stream=20
+###### Release stream=20
+
+I don't unschedule the stream from the run loop since I invalidate it.
+
+> Also, is it possible that one FSEventStream gets=20
+> deleted on one thread and another is created on
+> another thread at the same time?  Can you see if
+> putting all FSEventStream creation/deletion on=20
+> the same thread makes the problem go away?
+>=20
+
+
+All the stream related stuff is happening on the same thread (at least for =
+now).
+Plus, in my example, I don't create a new stream after deleting the first o=
+ne (since I have nothing left to watch).
+
+It seems to me the stream may not be properly closed, or it is trying to ac=
+cess something that doesn't exist anymore.
+But I am following all the steps for properly stopping and releasing the st=
+ream.
+
+--=20
+Fabien Freling
+Software Engineer, Platform team
+Nokia, Qt Development Frameworks
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

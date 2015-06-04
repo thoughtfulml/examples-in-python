@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ddb65496aaaba
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs80482wfi;
+        Thu, 8 Apr 2010 06:57:47 -0700 (PDT)
+Received: by 10.223.62.83 with SMTP id w19mr202846fah.22.1270735066372;
+        Thu, 08 Apr 2010 06:57:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 4si271885fxm.20.2010.04.08.06.57.45;
+        Thu, 08 Apr 2010 06:57:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 077D62D9741; Thu,  8 Apr 2010 13:57:37 +0000 (UTC)
+Old-Return-Path: <briand@aracnet.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.4 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	NO_REAL_NAME autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1177F2D974C
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 13:57:31 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id OnKFg9sP7+I0 for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 13:57:23 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from jade.aracnet.com (jade.aracnet.com [216.99.193.136])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 548972D973F
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 13:57:22 +0000 (UTC)
+Received: from windy.deldotd.com (216-99-206-32.static.cust.aracnet.com [216.99.206.32] (may be forged))
+	by jade.aracnet.com (8.13.6/8.12.8) with ESMTP id o38DvILu019918
+	for <debian-user@lists.debian.org>; Thu, 8 Apr 2010 06:57:18 -0700
+Date: Thu, 8 Apr 2010 06:57:17 -0700
+From: <briand@aracnet.com>
+To: debian-user@lists.debian.org
+Subject: Re: recompiling the kernel with a different version name
+Message-ID: <20100408065717.697f2861@windy.deldotd.com>
+In-Reply-To: <1974702266.1834701270728549885.JavaMail.root@md01.wow.synacor.com>
+References: <hpk99h$mh2$1@dough.gmane.org>
+	<1974702266.1834701270728549885.JavaMail.root@md01.wow.synacor.com>
+X-Mailer: Claws Mail 3.7.5 (GTK+ 2.18.9; x86_64-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <XbCEko_gB1M.A.sSF.QDevLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573602
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 13:57:37 +0000 (UTC)
+
+On Thu, 8 Apr 2010 08:09:09 -0400 (EDT)
+Stephen Powell <zlinuxman@wowway.com> wrote:
+
+> On Thu, 8 Apr 2010 05:56:58 -0400 (EDT), Lorenzo Bettini wrote:
+> > ... 
+> > --revision actually took effect since the 
+> > generated .deb is now (note the 'lore01')
+> > 
+> > linux-image-2.6.32.10+drm33.1-recompiled_lore01_i386.deb
+> > 
+> > but what I need to do is to get rid of '+drm33.1' which seems to be 
+> > automatically added...
+> > 
+> > the kernel sources are from the ubuntu lucid package
+> > 'linux-source-2.6.32'.
+> 
+> I never have this trouble when using official *Debian* source
+> packages. If you're running Ubuntu, I suggest you seek help from the
+> Ubuntu forums. My web page, and my advice, are based on the
+> assumption that you are running *Debian*.
+> 
+> BTW, does anyone know why Ubuntu users seem to want to use the Debian
+> forums?  Don't they have forums of their own?
+> 
+
+Yes they do, and in fact I find them helpful even though I'm running
+Debian :-)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100408065717.697f2861@windy.deldotd.com
+
+

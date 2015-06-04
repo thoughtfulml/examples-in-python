@@ -1,0 +1,195 @@
+X-Account-Key: account5
+X-UIDL: GmailId12805eed422517bc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs15893wfj;
+        Fri, 16 Apr 2010 02:24:19 -0700 (PDT)
+Received: by 10.223.1.19 with SMTP id 19mr610160fad.61.1271409858013;
+        Fri, 16 Apr 2010 02:24:18 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si3187521fkr.29.2010.04.16.02.24.17;
+        Fri, 16 Apr 2010 02:24:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 82ACD2D0BF2; Fri, 16 Apr 2010 09:24:08 +0000 (UTC)
+Old-Return-Path: <samu60@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: **
+XStatus: No, score=2.1 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 714CD2D0C17
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 09:06:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DC74z4kxP+oh for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 09:06:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 0AB472D0BFB
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 09:06:48 +0000 (UTC)
+Received: by wyf23 with SMTP id 23so1085079wyf.6
+        for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 02:06:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:date:received:message-id
+         :subject:from:to:content-type;
+        bh=G+tsyZBTaPY9e5L5zMooSQ/HX2YcxCYsdFseSq6uL+M=;
+        b=ZMczttsi2EWN2pCEu05E92NW8WfU84iJ+QDNK7OahV5ODxYApShsDSsL7NyzG36W0/
+         w0aKywZe9npPecsbXjOfmIiAOtqsXViSv/trdisEh4Tx/FFVAVx6IYSM7OrFyMvM9fXB
+         +t5d6MHeug5LT3+AnkuI9B+BSCEx2odOzgLgs=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=geuTYmaljrwiHkb/+d8dVt/nvkesKjEXOYo6mkR1xeMKc1OT5SEgo13AgT0DVWhok5
+         r+jdBl8P8KV/TFkAw7W2H4j1LinnZfSGAbpR4cjWmlS1zJr5zfYII0v08kwKR17niW1J
+         yNyK5Cgr2eQmDILmu+6MuQJwnfuoOPtJrbhHw=
+MIME-Version: 1.0
+Received: by 10.216.157.149 with HTTP; Fri, 16 Apr 2010 02:06:38 -0700 (PDT)
+Date: Fri, 16 Apr 2010 11:06:38 +0200
+Received: by 10.216.170.147 with SMTP id p19mr1424099wel.129.1271408798636; 
+	Fri, 16 Apr 2010 02:06:38 -0700 (PDT)
+Message-ID: <o2od18bd3a11004160206ia1453162oee206df4d9267f50@mail.csmining.org>
+Subject: repeated ATA errors debian lenny
+From: samuel <samu60@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016e65a1074ce9c7e048456ed07
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <wkvc4qiuytD.A.aHB.4yCyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574245
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 09:24:08 +0000 (UTC)
+
+--0016e65a1074ce9c7e048456ed07
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi all,
+
+Recently a couple of new machines came to my hands, HP DL 180 G6 with 500Gb
+SATA hard disk, and I tried to setup a 2-nodes ganeti cluster with debian
+lenny.
+
+Default 2-6-26 kernel does work without any issue.
+
+I've done a fresh installation with nothing more than the basics (vim and
+less ;) ) and after a aptitude install ganeti, editing xen-config.xsp and
+grub xen options, upon restarting I get the following error on the screen:
+
+Apr 15 13:24:56 virt8 kernel: [  297.381987] ata3.00: exception Emask 0x0
+SAct 0x0 SErr 0x0 action 0x6 frozen
+Apr 15 13:24:56 virt8 kernel: [  297.382163] ata3.00: cmd
+a0/00:00:00:24:00/00:00:00:00:00/a0 tag 0 pio 36 in
+Apr 15 13:24:56 virt8 kernel: [  297.382164]          cdb 12 00 00 00 24 00
+00 00  00 00 00 00 00 00 00 00
+Apr 15 13:24:56 virt8 kernel: [  297.382165]          res
+40/00:00:00:00:00/00:00:00:00:00/00 Emask 0x4 (timeout)
+Apr 15 13:24:56 virt8 kernel: [  297.382595] ata3.00: status: { DRDY }
+Apr 15 13:24:56 virt8 kernel: [  297.382727] ata3: hard resetting link
+Apr 15 13:24:56 virt8 kernel: [  297.858982] ata3: SATA link up 1.5 Gbps
+(SStatus 113 SControl 310)
+Apr 15 13:24:56 virt8 kernel: [  297.914096] ata3.00: configured for PIO0
+Apr 15 13:24:56 virt8 kernel: [  297.914235] ata3: EH complete
+
+The installed versions are:
+linux-image-2.6.26-1-xen-686
+xen-hypervisor-3.2-1-i386
+ganeti                              1.2.6-3+lenny2
+ganeti-instance-debootstrap         0.5-1
+drbd8-utils                         2:8.0.14-2+lenny1
+
+I upgraded to kernel 2-6-26-2 to see whether it solved the issue without
+success.
+I also tried booting with clocksource=acpi_pm. I've also just tried
+acpi=off, pci=nosmi, and nocpi as suggests the ata kernel website without
+much success.
+
+I've checked through internet and found the following:
+
+https://bugzilla.redhat.com/show_bug.cgi?id=480317
+
+It should be solved because hipervisor version 3.2 is higher than the one
+solving the issue (3.0.3) unless redhat's version differ much from the
+debian ones in minnor version....which i don't think.
+
+
+Can anyone shed some light on this issue?
+
+Thank you in advance!!
+
+Samuel
+
+--0016e65a1074ce9c7e048456ed07
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,<br><br>Recently a couple of new machines came to my hands, HP DL 18=
+0 G6 with 500Gb SATA hard disk, and I tried to setup a 2-nodes ganeti clust=
+er with debian lenny.<br><br>Default 2-6-26 kernel does work without any is=
+sue. <br>
+<br>I&#39;ve done a fresh installation with nothing more than the basics (v=
+im and less ;) ) and after a aptitude install ganeti, editing xen-config.xs=
+p and grub xen options, upon restarting I get the following error on the sc=
+reen:<br>
+<br>Apr 15 13:24:56 virt8 kernel: [=A0 297.381987] ata3.00: exception Emask=
+ 0x0 SAct 0x0 SErr 0x0 action 0x6 frozen<br>Apr 15 13:24:56 virt8 kernel: [=
+=A0 297.382163] ata3.00: cmd a0/00:00:00:24:00/00:00:00:00:00/a0 tag 0 pio =
+36 in<br>
+Apr 15 13:24:56 virt8 kernel: [=A0 297.382164]=A0=A0=A0=A0=A0=A0=A0=A0=A0 c=
+db 12 00 00 00 24 00 00 00=A0 00 00 00 00 00 00 00 00<br>Apr 15 13:24:56 vi=
+rt8 kernel: [=A0 297.382165]=A0=A0=A0=A0=A0=A0=A0=A0=A0 res 40/00:00:00:00:=
+00/00:00:00:00:00/00 Emask 0x4 (timeout)<br>
+Apr 15 13:24:56 virt8 kernel: [=A0 297.382595] ata3.00: status: { DRDY }<br=
+>Apr 15 13:24:56 virt8 kernel: [=A0 297.382727] ata3: hard resetting link<b=
+r>Apr 15 13:24:56 virt8 kernel: [=A0 297.858982] ata3: SATA link up 1.5 Gbp=
+s (SStatus 113 SControl 310)<br>
+Apr 15 13:24:56 virt8 kernel: [=A0 297.914096] ata3.00: configured for PIO0=
+<br>Apr 15 13:24:56 virt8 kernel: [=A0 297.914235] ata3: EH complete<br><br=
+>The installed versions are:<br>linux-image-2.6.26-1-xen-686<br>xen-hypervi=
+sor-3.2-1-i386<br>
+ganeti=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0 1.2.6-3+lenny2<br>ganeti-instance-debootstrap=A0=A0=A0=
+=A0=A0=A0=A0=A0 0.5-1<br>drbd8-utils=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 2:8.0.14-2+lenny1<br><br>I upgraded to ke=
+rnel 2-6-26-2 to see whether it solved the issue without success.<br>
+I also tried booting with clocksource=3Dacpi_pm. I&#39;ve also just tried a=
+cpi=3Doff, pci=3Dnosmi, and nocpi as suggests the ata kernel website withou=
+t much success.<br><br>I&#39;ve checked through internet and found the foll=
+owing:<br>
+<br><a href=3D"https://bugzilla.redhat.com/show_bug.cgi?id=3D480317">https:=
+//bugzilla.redhat.com/show_bug.cgi?id=3D480317</a><br><br>It should be solv=
+ed because hipervisor version 3.2 is higher than the one solving the issue =
+(3.0.3) unless redhat&#39;s version differ much from the debian ones in min=
+nor version....which i don&#39;t think.<br>
+<br><br>Can anyone shed some light on this issue? <br><br>Thank you in adva=
+nce!!<br><br>Samuel<br><br>
+
+--0016e65a1074ce9c7e048456ed07--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2od18bd3a11004160206ia1453162oee206df4d9267f50@mail.csmining.org
+
+

@@ -4,6 +4,7 @@ from numpy.random import permutation
 from numpy import array_split, concatenate
 import pandas as pd
 import numpy as np
+
 class MushroomClassifier:
   def __init__(self, data_file):
     self.dataFrame = pd.read_csv(data_file)

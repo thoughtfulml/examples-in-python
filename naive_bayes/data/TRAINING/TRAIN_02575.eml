@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f8ab348c68630
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs36694wfa;
+        Tue, 13 Apr 2010 12:35:23 -0700 (PDT)
+Received: by 10.103.81.29 with SMTP id i29mr3401697mul.109.1271187322254;
+        Tue, 13 Apr 2010 12:35:22 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b9si24807721mug.43.2010.04.13.12.35.21;
+        Tue, 13 Apr 2010 12:35:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0929013A57A3; Tue, 13 Apr 2010 19:35:14 +0000 (UTC)
+Old-Return-Path: <jozsi.avadkan@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0E5D913A56D5
+	for <lists-debian-user@liszt.debian.org>; Tue, 13 Apr 2010 19:35:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id MD-CtvUWI-t1 for <lists-debian-user@liszt.debian.org>;
+	Tue, 13 Apr 2010 19:34:57 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ew0-f214.google.com (mail-ew0-f214.google.com [209.85.219.214])
+	by liszt.debian.org (Postfix) with ESMTP id 4A54E13A565F
+	for <debian-user@lists.debian.org>; Tue, 13 Apr 2010 19:34:06 +0000 (UTC)
+Received: by ewy6 with SMTP id 6so616919ewy.32
+        for <debian-user@lists.debian.org>; Tue, 13 Apr 2010 12:34:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:subject:from:to:content-type
+         :date:message-id:mime-version:x-mailer:content-transfer-encoding;
+        bh=70NzoQJwdUrsdnVpZMltrzhfiw8f7y7BWuIY4ya9Fpo=;
+        b=Y1LIxIKbp25bVALlFUeBQ36VaGZrQdxA8pEibO3dQXJQI4aLPAySC486lEXa4tDI3R
+         ZLAtWOCjRD0OBNqN2+SEBQvikAy8dYi1bHRKzFFwF4IdcSzvt3Zoyki5fwNKL4nD3YFc
+         iFMZThHunfQs8xYXjQDX4Q3zn/IY2sIOzy2DY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=subject:from:to:content-type:date:message-id:mime-version:x-mailer
+         :content-transfer-encoding;
+        b=V04UBhBL8ZmTXgYMLdWvUcIsMgJl6dRmpaHNSGbQBvC3Y0N1TcY2cTFweT1MKK9TwU
+         febhnUcQvt55KjZbgqY4Z4H0jZ27JRSEU6qsGQfBWXNe3zHHqiV065HiFreP7A1v2nRG
+         lqEPbWNPUKfT/ZXFGCIt9iz4cCR57vWoklk9s=
+Received: by 10.102.174.30 with SMTP id w30mr3437646mue.57.1271187241343;
+        Tue, 13 Apr 2010 12:34:01 -0700 (PDT)
+Received: from [192.168.0.88] (178-164-140-163.pool.digikabel.hu [178.164.140.163])
+        by mx.google.com with ESMTPS id j6sm25362494mue.44.2010.04.13.12.34.00
+        (version=SSLv3 cipher=RC4-MD5);
+        Tue, 13 Apr 2010 12:34:00 -0700 (PDT)
+Subject: 093a:2622 webcam
+From: Jozsi Vadkan <jozsi.avadkan@csmining.org>
+To: Debian User Mailing list <debian-user@lists.debian.org>
+Content-Type: text/plain
+Date: Tue, 13 Apr 2010 21:33:46 +0200
+Message-Id: <1271187226.4881.1.camel@localhost>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1 
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ZlD56CozRpL.A.elF.xdMxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573994
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 19:35:14 +0000 (UTC)
+
+I bought a webcam:
+
+Bus 006 Device 004: ID 093a:2622 Pixart Imaging, Inc. 
+
+What should I do, to bring it to life?
+
+I installed cheese, but it doesn't gives any video.
+
+/dev/video doesn't exists.
+
+Is there a script that installs all the webcam drivers?
+
+Or how to find out, what drivers does it need?
+
+Thank you.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271187226.4881.1.camel@localhost
+
+

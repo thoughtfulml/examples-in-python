@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId12882245c400a0a9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs6978wfb;
+        Mon, 10 May 2010 05:15:42 -0700 (PDT)
+Received: by 10.223.31.136 with SMTP id y8mr4296474fac.19.1273493740883;
+        Mon, 10 May 2010 05:15:40 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c11si8332830faa.30.2010.05.10.05.15.40;
+        Mon, 10 May 2010 05:15:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3A0B513A4A1A; Mon, 10 May 2010 12:15:38 +0000 (UTC)
+Old-Return-Path: <avbidder@fortytwo.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-20.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 43E0513A42CC
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 12:15:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id cksQHtBIdptW for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 12:15:24 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from zbasel.fortytwo.ch (zbasel.fortytwo.ch [193.138.215.60])
+	by liszt.debian.org (Postfix) with ESMTP id E9C6713A57A9
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 12:15:11 +0000 (UTC)
+Received: from laeggerli.fortytwo.ch (cust.static.84-253-12-25.cybernet.ch [84.253.12.25])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by zbasel.fortytwo.ch (Postfix) with ESMTP id C7C0C1F9
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 14:15:09 +0200 (CEST)
+From: Adrian von Bidder <avbidder@fortytwo.ch>
+To: debian-kde@lists.debian.org
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Date: Mon, 10 May 2010 14:14:57 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-686; KDE/4.4.3; i686; ; )
+References: <201005071123.48345.lisi.reisz@csmining.org> <isapiwc.9c0acd06.54b1.4be7db6a.a58cd.16@mailin.ph.tum.de> <201005100357.19021.mgb-debian@yosemite.net>
+In-Reply-To: <201005100357.19021.mgb-debian@yosemite.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1751082.1IG1q03ILl";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005101415.04864@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0FD4PN7goJC.A.F3C.qj_5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32299
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 12:15:38 +0000 (UTC)
+
+--nextPart1751082.1IG1q03ILl
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 10 May 2010 12.57:18 Mike Bird wrote:
+> Please don't interfere with discussions about rescuing KDE 3.5.
+
+So far most of the "discussion" has been whining about where KDE 4 is=20
+perceived to be worse than KDE 3.5 and whining that "somebody should please=
+=20
+do something".
+
+If the discussion starts to get positive and deals with stuff like who will=
+=20
+do what and where to host the new packages until they can be uploaded etc.,=
+=20
+this kind of whining about what discussions should or should not be held=20
+will probably stop quite soon.  (At least from my side.)
+
+cheers
+=2D- vbi
+
+=2D-=20
+I think there's a world market for about five computers.
+		-- attr. Thomas J. Watson (Chairman of the Board, IBM), 1943
+
+--nextPart1751082.1IG1q03ILl
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: get my key from http://fortytwo.ch/gpg/92082481
+
+iKcEABECAGcFAkvn+MFgGmh0dHA6Ly9mb3J0eXR3by5jaC9sZWdhbC9ncGcvZW1h
+aWwuMjAwMjA4MjI/dmVyc2lvbj0xLjUmbWQ1c3VtPTVkZmY4NjhkMTE4NDMyNzYw
+NzFiMjVlYjcwMDZkYTNlAAoJECqqZti935l6CS8AoKTAuP5B00OUZW3EmsV8Naap
+Ma9+AJoC0dbPwotxt9dDmS4zpAxxsIg/mg==
+=FViY
+-----END PGP SIGNATURE-----
+
+--nextPart1751082.1IG1q03ILl--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005101415.04864@fortytwo.ch
+
+

@@ -1,0 +1,209 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284b15449b3011d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs46594wfj;
+        Thu, 29 Apr 2010 12:40:05 -0700 (PDT)
+Received: by 10.223.143.9 with SMTP id s9mr930160fau.52.1272570004751;
+        Thu, 29 Apr 2010 12:40:04 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si1534814fkq.34.2010.04.29.12.40.04;
+        Thu, 29 Apr 2010 12:40:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A169813A5117; Thu, 29 Apr 2010 19:39:58 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.8 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MDO_DATING2,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 007A813A50F7
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 19:39:53 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, MDO_DATING2=0.1,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5Z3Tg33nNp5s for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 19:39:45 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id E800913A50E3
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 19:39:44 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1O7ZaH-0002zi-Eu
+	for debian-user@lists.debian.org; Thu, 29 Apr 2010 19:39:41 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+Date: Thu, 29 Apr 2010 14:43:13 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.31.12-0.2-default; KDE/4.3.5; x86_64; ; )
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org> <4BD37551.3070109@cox.net> <201004291917.o3TJHSIg000473@kzsu.stanford.edu>
+In-Reply-To: <201004291917.o3TJHSIg000473@kzsu.stanford.edu>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?iso-8859-15?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSK?=
+ =?iso-8859-15?q?VkSKVkSKVkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrX?=
+ =?iso-8859-15?q?bgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAA?=
+ =?iso-8859-15?q?I0SURBVDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRT?=
+ =?iso-8859-15?q?knZsOlyn8DhAHZj=0A=093iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdP?=
+ =?iso-8859-15?q?wxCGbzkbIsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs=0A=09pY2lNMM?=
+ =?iso-8859-15?q?z2FMIOurZpREz4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKr?=
+ =?iso-8859-15?q?vHC+eDauR7oWn2=0A=099cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X?=
+ =?iso-8859-15?q?1KJxybF0zhLwsnsyJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096GudSNWT0?=
+ =?iso-8859-15?q?NXblkVuwjBlkWVJrmaAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ?=
+ =?iso-8859-15?q?7VIIiKVYmUnJiyr=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ks?=
+ =?iso-8859-15?q?KF6ESMFERfOpfZiTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNr?=
+ =?iso-8859-15?q?HHeCJMyuaujMNdktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6?=
+ =?iso-8859-15?q?OJEzN41d5VtqG=0A=0901oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnP?=
+ =?iso-8859-15?q?OnUAfY6NR3iGYSu4qJfPTbS5oo9tOUMHbdKE23oTci=0A=093cBil8dto?=
+ =?iso-8859-15?q?GZk0BF2Yq35wSeWvYeT2EE/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyy?=
+ =?iso-8859-15?q?RfV6k76A93l6G=0A=098GbPEj2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3A?=
+ =?iso-8859-15?q?RhvDfGP4AtLxO3F/uHbUAAAAASUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart5535948.gElQyTuMKx";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004291443.18606.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Pdw5E6cmFlP.A.IKG.OCe2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575486
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 19:39:58 +0000 (UTC)
+
+--nextPart5535948.gElQyTuMKx
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 29 April 2010 14:17:28 Joe Brenner wrote:
+> Ron Johnson <ron.l.johnson@cox.net> wrote:
+> > B. Alexander wrote:
+> > > Ron Johnson<ron.l.johnson@cox.net>  wrote:
+> > >> XFS is the canonical fs for when you have lots of Big Files.  I've
+> > >> also seen simple benchmarks on this list showing that it's faster
+> > >> than ext3/ext4.
+> > >
+> > > Thats cool. What about Lots of Little Files? That was another of the
+> > > draws of reiser3.
+> >
+> > That same unofficial benchmark showed surprising small-file speed by
+> > xfs.
+>=20
+> Would you happen to have any links to such benchmarks, unofficial or
+> otherwise?
+>=20
+> My experience has been that whenever I look at filesystem benchmarks,
+> they skip the many-small-files case.  I've always had the feeling that
+> most of the big filesystems cared a lot about scaling up in file-size,
+> but not too much about anything else.
+
+NB: This is my best recollection; I'm not looking this up right now.  Pleas=
+e=20
+check my facts, I'd love to know if I'm wrong.
+
+Some of that reiserfs performance came from directories-as-hash-tables, whi=
+ch=20
+I believe ext3/4 supports and is native for btrfs.  Some of that also came=
+=20
+from tail-packing, which could come from the extents feature of ext4 and=20
+should be in btrfs.  The final edge reiserfs had was above-average=20
+flushing/caching algorithms, and the development pushes in ext4 and btrfs h=
+ave=20
+likely reduced or eliminated that; I think the unified block-device caching=
+=20
+system in the kernel able helped make that not such a big deal.
+
+> I'm a Reiser3 user myself, and I've never had any problems with it.
+>=20
+> (The trouble with it being "long in the tooth" is mostly hypothetical,
+> isn't it?)
+
+Not really.  Reiserfs will probably be maintained in the kernel for a very=
+=20
+long time, in that as any interfaces it uses are updated it will be updated=
+ to=20
+use the new interface.  However, ISTR there are open bugs on reiserfs that=
+=20
+will not be fixed.  Similarly, I expect new bugs that can be blamed on the=
+=20
+reiserfs code are less likely to be fixed than bugs than can be blamed on t=
+he=20
+ext2/3/4 or xfs code.
+
+In addition, as file system technology advances, reiserfs will become less=
+=20
+attractive for new installs and it will become more attractive to migrate a=
+way=20
+from it.  Unfortunately, migration tools are unlikely to be developed, outs=
+ide=20
+of generic file system migration tools.  Compare with btrfs_convert which=20
+allows an ext2/3 file system to be converted to btrfs with no data copying;=
+=20
+such tools have to be aware of the internal structure of the file system an=
+d=20
+fewer and fewer developers will even HAVE that knowledge of reiserfs.  The=
+=20
+source will be available, sure, but even kernel maintainers interested in f=
+ile=20
+systems are not interested in reiserfs.
+
+There's no drop-dead date for reiserfs in the kernel (AFAIK), so there's no=
+=20
+pressing need to migrate away from it, but there is a lot of work on file=20
+systems that should both perform better and be supported better than reiser=
+fs.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart5535948.gElQyTuMKx
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.12 (GNU/Linux)
+
+iEYEABECAAYFAkvZ4VYACgkQdNbfk+86fC1QSACdHjK7katgwikVt7KjzVIco1Yi
+cy8Anj/WFH101/m5i/lRwiD1/Wmy8MTv
+=ds0B
+-----END PGP SIGNATURE-----
+
+--nextPart5535948.gElQyTuMKx--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004291443.18606.bss@iguanasuicide.net
+
+

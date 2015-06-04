@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286a3944779ed36
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs354131wfb;
+        Wed, 5 May 2010 13:47:38 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr1383825fai.98.1273092457506;
+        Wed, 05 May 2010 13:47:37 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si569643fkt.37.2010.05.05.13.47.36;
+        Wed, 05 May 2010 13:47:37 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D474913A54DC; Wed,  5 May 2010 20:47:31 +0000 (UTC)
+Old-Return-Path: <jsullivan@opensourcedevel.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DB7A413A54C3
+	for <lists-debian-user@liszt.debian.org>; Wed,  5 May 2010 20:47:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id NpqQY0LLVqxn for <lists-debian-user@liszt.debian.org>;
+	Wed,  5 May 2010 20:47:18 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.194])
+	by liszt.debian.org (Postfix) with ESMTP id 53C8E13A5437
+	for <debian-user@lists.debian.org>; Wed,  5 May 2010 20:47:09 +0000 (UTC)
+Received: from [192.168.223.100] (cpe-74-75-231-235.maine.res.rr.com [74.75.231.235])
+	by mrelay.perfora.net (node=mrus4) with ESMTP (Nemesis)
+	id 0LhwU6-1NWbGt1IA6-00nEZk; Wed, 05 May 2010 16:47:06 -0400
+Subject: Re: More acroread printing problems
+From: "John A. Sullivan III" <jsullivan@opensourcedevel.com>
+To: debian-user@lists.debian.org
+In-Reply-To: <1273092061.19539.74.camel@Family.pacifera.com>
+References: <1273092061.19539.74.camel@Family.pacifera.com>
+Content-Type: text/plain
+Date: Wed, 05 May 2010 16:46:52 -0400
+Message-Id: <1273092412.19539.77.camel@Family.pacifera.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1 
+Content-Transfer-Encoding: 7bit
+X-Provags-ID: V01U2FsdGVkX18UWYRiLZL/3dvpXlYC23aj5CokV3WaAYX7DYR
+ bhRsNeFTnjHTOZeeqi6BGH04plvvefPFbGm+4UYVtzOPBwW8mf
+ ITfZG8H792gs6WR45xcbYnKATlvRseLKjDYM00uhkc=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <u4X-k9Y7xoE.A.xSB.jld4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575927
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 20:47:31 +0000 (UTC)
+
+On Wed, 2010-05-05 at 16:41 -0400, John A. Sullivan III wrote:
+> Hello, all.  With the appreciate help from this list, we finally learned
+> we needed to install Acrobat Reader version 9.3.2 from unstable into our
+> Lenny systems in order for Acrobat to see our CUPS printers.  However we
+> are still having problems printing anything other than letter size jobs.
+> It looks like acroread is creating an lpr command using the -o
+> PageRegion and setting that option incorrectly.  For example, in one
+> case we saw -o PageSize=11x17 -p PageRegion=Letter which printed the
+> 11x17 print job on letter sized paper.  On a plotter we saw -o
+> PageSize=24x36 -p PageRegion=A4 which resulted in the plotter rejecting
+> the job as an invalid page size.  Bypassing the Acroread print command
+> by using a Custom printer and sending the job to KPrinter works so this
+> seems to be a clear bug in how Acrobat is reading the PPD file and
+> creating the print command.
+> 
+> Has anyone else encountered this problem? Is there a workaround? If not,
+> I suppose I'll need to figure out how one reports bugs for acroread to
+> Adobe.  Thanks - John
+> 
+> 
+Oops! typing a little too fast.  That's appreciated help and the
+PageRegion is preceded by -o and not -p - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273092412.19539.77.camel@Family.pacifera.com
+
+

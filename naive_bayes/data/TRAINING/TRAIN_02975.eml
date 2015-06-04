@@ -1,0 +1,201 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285589d3601ceeb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs159104wfj;
+        Sat, 1 May 2010 13:23:36 -0700 (PDT)
+Received: by 10.223.62.202 with SMTP id y10mr2264328fah.100.1272745415632;
+        Sat, 01 May 2010 13:23:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si5651220fkb.33.2010.05.01.13.23.35;
+        Sat, 01 May 2010 13:23:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0DB4213A4A62; Sat,  1 May 2010 20:23:30 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=CAPINIT,GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7E6DC13A4A1C
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 20:23:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, GMAIL=1, HTML_MESSAGE=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id tI5q93WdKH31 for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 20:23:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 5446D13A4752
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 20:23:17 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1074215fxm.6
+        for <debian-user@lists.debian.org>; Sat, 01 May 2010 13:23:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=BvcYvG86mCptsDQtrfy4uXPyMrFCkk+6k82s6ka7sKQ=;
+        b=k9o/7Nq/kJizJ8kSQ/POUGXPQHIXRh6q8wfAUQUOb0wxgpWMTwAFvmhhf60p/1CVs2
+         NzV+M258A2ayq6xvhuJzPA2O/iYdXalovzSdjAHV+hc3yZbE9mQny1R+AgVIw6/jkAvT
+         InQfHYDG1JT/YVy22luydIdt3w51LlF63a0Eg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=uUNUJvm7lt8f7Gd1uAwNWUNhnGZfftQQDAw0nlNEldIZm80yZrb07VPRoS5Kg4WuXe
+         0vtQ9Rm8nGu0oSocsM10aDj4GZDB80f7ksrjiqn+8QkznPtId1kvdcaOIYh4rwdnsI7e
+         Sl3upmAKbiS4NjieCR2hnUEydW5XHt+Rn2/dQ=
+MIME-Version: 1.0
+Received: by 10.223.143.9 with SMTP id s9mr2250824fau.52.1272745392594; Sat, 
+	01 May 2010 13:23:12 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Sat, 1 May 2010 13:23:12 -0700 (PDT)
+In-Reply-To: <20100501201509.GA2278@emurlahn.burrows.local>
+References: <201004301044.31771.bss@iguanasuicide.net>
+	 <o2u6d4219cc1004301026ma6bc698ft418cb39f162fb69@mail.csmining.org>
+	 <20100501034943.GC26444@emurlahn.burrows.local>
+	 <BAY148-w32EA0F9C959F48DED8105DEFF00@phx.gbl>
+	 <j2r6d4219cc1004302146t8aeac35ax923069b8544415d1@mail.csmining.org>
+	 <20100501052534.GI26444@emurlahn.burrows.local>
+	 <m2gb36d43c31005010929vecc62fa4y9fe43d43280e125a@mail.csmining.org>
+	 <20100501191450.GA32038@emurlahn.burrows.local>
+	 <s2kb36d43c31005011309ve91e0e33w15d969ea45a07329@mail.csmining.org>
+	 <20100501201509.GA2278@emurlahn.burrows.local>
+Date: Sat, 1 May 2010 22:23:12 +0200
+Message-ID: <x2mb36d43c31005011323y245a422apf6562a0306241402@mail.csmining.org>
+Subject: Re: Aptitude Error
+From: James Stuckey <jhstuckey@csmining.org>
+To: Daniel Burrows <dburrows@debian.org>
+Cc: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0023545bd3f003df9604858e21d1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <X6_A2khJAnI.A.fXH.B3I3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575645
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 20:23:30 +0000 (UTC)
+
+--0023545bd3f003df9604858e21d1
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sat, May 1, 2010 at 10:15 PM, Daniel Burrows <dburrows@debian.org> wrote:
+
+> On Sat, May 01, 2010 at 10:09:32PM +0200, James Stuckey <
+> jhstuckey@csmining.org> was heard to say:
+> > On Sat, May 1, 2010 at 9:14 PM, Daniel Burrows <dburrows@debian.org>
+> wrote:
+> > >  Did you mean to drop debian-user?
+> > >
+> > > On Sat, May 01, 2010 at 06:29:55PM +0200, James Stuckey <
+> > > jhstuckey@csmining.org> was heard to say:
+> > > > I have the nvidia drivers, among other packages, from Sid.
+> > >
+> > >   What's in your /etc/apt/sources.list?
+> >
+> > No I didn't, thanks.
+> >
+> > deb ftp://ftp.debian-multimedia.org squeeze main non-free
+> >
+> > deb http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+> > #deb-src http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+> >
+> > #deb http://ftp.de.debian.org/debian sid main contrib non-free
+> > deb-src http://ftp.de.debian.org/debian/ sid main contrib non-free
+> >
+> > deb http://security.debian.org/ squeeze/updates main contrib non-free
+> > #deb-src http://security.debian.org/ squeeze/updates main contrib
+> non-free
+>
+>   That's the problem -- you have no (active) "deb" lines for unstable,
+> so apt doesn't know which packages are from it.
+>
+>  Daniel
+>
+
+The aptitude search ~Aunstable appears to just list all the packages in the
+repository. As so with the other commands. The list of packages is so long
+that gmail freezes when I try to past it in, and paste.debian.net tells me
+that it is over 90kb and cannot be pasted.
+
+--0023545bd3f003df9604858e21d1
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Sat, May 1, 2010 at 10:15 PM, Daniel =
+Burrows <span dir=3D"ltr">&lt;<a href=3D"mailto:dburrows@debian.org">dburro=
+ws@debian.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" st=
+yle=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex=
+; padding-left: 1ex;">
+On Sat, May 01, 2010 at 10:09:32PM +0200, James Stuckey &lt;<a href=3D"mail=
+to:jhstuckey@csmining.org">jhstuckey@csmining.org</a>&gt; was heard to say:<br>
+<div class=3D"im">&gt; On Sat, May 1, 2010 at 9:14 PM, Daniel Burrows &lt;<=
+a href=3D"mailto:dburrows@debian.org">dburrows@debian.org</a>&gt; wrote:<br=
+>
+&gt; &gt; =A0Did you mean to drop debian-user?<br>
+&gt; &gt;<br>
+&gt; &gt; On Sat, May 01, 2010 at 06:29:55PM +0200, James Stuckey &lt;<br>
+&gt; &gt; <a href=3D"mailto:jhstuckey@csmining.org">jhstuckey@csmining.org</a>&gt=
+; was heard to say:<br>
+&gt; &gt; &gt; I have the nvidia drivers, among other packages, from Sid.<b=
+r>
+&gt; &gt;<br>
+&gt; &gt; =A0 What&#39;s in your /etc/apt/sources.list?<br>
+&gt;<br>
+</div><div class=3D"im">&gt; No I didn&#39;t, thanks.<br>
+&gt;<br>
+&gt; deb <a href=3D"ftp://ftp.debian-multimedia.org" target=3D"_blank">ftp:=
+//ftp.debian-multimedia.org</a> squeeze main non-free<br>
+&gt;<br>
+&gt; deb <a href=3D"http://ftp.de.debian.org/debian/" target=3D"_blank">htt=
+p://ftp.de.debian.org/debian/</a> squeeze main contrib non-free<br>
+&gt; #deb-src <a href=3D"http://ftp.de.debian.org/debian/" target=3D"_blank=
+">http://ftp.de.debian.org/debian/</a> squeeze main contrib non-free<br>
+&gt;<br>
+&gt; #deb <a href=3D"http://ftp.de.debian.org/debian" target=3D"_blank">htt=
+p://ftp.de.debian.org/debian</a> sid main contrib non-free<br>
+&gt; deb-src <a href=3D"http://ftp.de.debian.org/debian/" target=3D"_blank"=
+>http://ftp.de.debian.org/debian/</a> sid main contrib non-free<br>
+&gt;<br>
+&gt; deb <a href=3D"http://security.debian.org/" target=3D"_blank">http://s=
+ecurity.debian.org/</a> squeeze/updates main contrib non-free<br>
+&gt; #deb-src <a href=3D"http://security.debian.org/" target=3D"_blank">htt=
+p://security.debian.org/</a> squeeze/updates main contrib non-free<br>
+<br>
+</div> =A0That&#39;s the problem -- you have no (active) &quot;deb&quot; li=
+nes for unstable,<br>
+so apt doesn&#39;t know which packages are from it.<br>
+<font color=3D"#888888"><br>
+ =A0Daniel<br>
+</font></blockquote></div><br>The aptitude search ~Aunstable appears to jus=
+t list all the packages in the repository. As so with the other commands. T=
+he list of packages is so long that gmail freezes when I try to past it in,=
+ and <a href=3D"http://paste.debian.net">paste.debian.net</a> tells me that=
+ it is over 90kb and cannot be pasted. <br>
+
+--0023545bd3f003df9604858e21d1--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2mb36d43c31005011323y245a422apf6562a0306241402@mail.csmining.org
+
+

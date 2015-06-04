@@ -1,0 +1,248 @@
+X-Account-Key: account5
+X-UIDL: GmailId12852d90fe8930e3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs138320wfj;
+        Sat, 1 May 2010 00:51:16 -0700 (PDT)
+Received: by 10.142.210.15 with SMTP id i15mr7572807wfg.256.1272700276472;
+        Sat, 01 May 2010 00:51:16 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 34si4002435pzk.101.2010.05.01.00.51.16;
+        Sat, 01 May 2010 00:51:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 32ED91C44868B
+	for <mlsubscriber.tech@csmining.org>; Sat,  1 May 2010 00:51:16 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 2C8A1274BEBE9
+	for <mlsubscriber.tech@csmining.org>; Sat,  1 May 2010 00:51:16 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 8FA0F274BEA18
+	for <quicktime-api@lists.apple.com>;
+	Sat,  1 May 2010 00:50:59 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 69E1BD0D1BAB
+	for <quicktime-api@lists.apple.com>;
+	Sat,  1 May 2010 00:50:59 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-70-4bdbdd62001d
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.157])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	8A.A3.05834.26DDBDB4; Sat,  1 May 2010 00:50:59 -0700 (PDT)
+Received: by fg-out-1718.google.com with SMTP id 19so313175fgg.6
+	for <quicktime-api@lists.apple.com>;
+	Sat, 01 May 2010 00:50:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:subject:mime-version
+	:content-type:from:in-reply-to:date:cc:content-transfer-encoding
+	:message-id:references:to:x-mailer;
+	bh=0H3sYjRbvhMt9i0BVEgLQOyA0Of52qpDxT2bEC+ynQs=;
+	b=J5wnxkhuplK1gGX/MquCtTrTgrWywKrMEKcehNuV57OD/tNNRdhALw+X5hd4a+0QgQ
+	Do9squzKyXFmmasdBwG8gHzUOHQLZrFZJVYn66RZGO/7dnj9Hz5EjWFA6otx4n7QIbCw
+	8jxgq50LMRugG52nCEtLMA7UQWW7pCXRWXRy0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=subject:mime-version:content-type:from:in-reply-to:date:cc
+	:content-transfer-encoding:message-id:references:to:x-mailer;
+	b=rRnbR9eX3jyTw5I/u0gMiwb8UBjNIzVULDgZ842JsTtdJPA3swEXWhqyDEJOteultU
+	eiZldtfkOpObhhsTRV+obgeP771vPMhCc0ksXSTlheQqR1KuptQNVhX0iuMMdSOYAGOq
+	PKGV489ndcAOB+5eHnqzJs43bSw6l8h1tgu8s=
+Received: by 10.87.73.30 with SMTP id a30mr5775007fgl.64.1272700257678;
+	Sat, 01 May 2010 00:50:57 -0700 (PDT)
+Received: from [192.168.1.68] (93-96-192-175.zone4.bethere.co.uk
+	[93.96.192.175])
+	by mx.google.com with ESMTPS id d4sm5826930fga.15.2010.05.01.00.50.56
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Sat, 01 May 2010 00:50:57 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Tom Butterworth <bangnoise@csmining.org>
+In-Reply-To: <w2s384845551004301842z98c7052bk94a7c538f87d8ad1@mail.csmining.org>
+Date: Sat, 1 May 2010 08:50:54 +0100
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <5E01146E-393C-4968-A6DE-160420144959@csmining.org>
+References: <w2s384845551004301842z98c7052bk94a7c538f87d8ad1@mail.csmining.org>
+To: Bo Peng <bpeng@capellasystems.net>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAhPvsiET8HFX
+Cc: quicktime-api@lists.apple.com
+Subject: Re: ICMDecompressionSessionDecodeFrame() is not working
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi
+
+You need to fill out the ImageDescription before creating the =
+decompression session, using eg GetMediaSampleDescription.
+
+There is documentation and a couple of ICMDecompressionSession samples =
+in Xcode.
+
+Best of luck - T
+
+On 1 May 2010, at 02:42, Bo Peng wrote:
+
+> Hi All,
+>=20
+> I forgot to tell you guys the error code. The returned value of
+> ICMDecompressionSessionDecodeFrame() function call is always -50,
+> which means error in user parameter list.
+>=20
+> I am stuck in the quicktime API ICMDecompressionSessionDecodeFrame()
+> for a while, and I could not find any other resources or any other
+> sample code. Could any body help me out, and any suggestions
+> appreciated.
+>=20
+> I want to import a movie file from local drive, get the compressed
+> video frames, decode them, and encapsulate them into our own
+> UncVideoUnit format.
+> Right now we have already got the compressed video frames, but when we
+> are trying to decode them, we have got some problem. Here is our
+> source code, could any body tell me if there is something wrong in our
+> code.
+>=20
+>=20
+> // initialize callback structure
+> ICMDecompressionTrackingCallbackRecord callRecord;
+> callRecord.decompressionTrackingCallback =3D WriteFrameToBitmap;
+> callRecord.decompressionTrackingRefCon =3D NULL;
+>=20
+> // add attributes for pixel buffer that comes out
+> CFMutableDictionaryRef pixelBufferAttributes =3D NULL;
+> pixelBufferAttributes =3D CFDictionaryCreateMutable( NULL, 0,
+> &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks );
+>=20
+> OSType format =3D k24RGBPixelFormat;
+> CFNumberRef pFormat =3D CFNumberCreate( NULL, kCFNumberSInt32Type, =
+&format );
+> CFDictionaryAddValue( pixelBufferAttributes,
+> kCVPixelBufferPixelFormatTypeKey, pFormat );
+> CFRelease( pFormat );
+>=20
+> int width =3D 1280;
+> CFNumberRef pWidth =3D CFNumberCreate( NULL, kCFNumberIntType, &width =
+);
+> CFDictionaryAddValue( pixelBufferAttributes, kCVPixelBufferWidthKey, =
+pWidth );
+> CFRelease( pWidth );
+>=20
+> int height =3D 720;
+> CFNumberRef pHeight =3D CFNumberCreate( NULL, kCFNumberIntType, =
+&height );
+> CFDictionaryAddValue( pixelBufferAttributes, kCVPixelBufferHeightKey, =
+pHeight );
+> CFRelease( pHeight );
+>=20
+> //  set up decompression session
+> ICMDecompressionSessionRef decompressionSession;
+> ImageDescriptionHandle description =3D
+> (ImageDescriptionHandle)NewHandleClear(sizeof(ImageDescription));
+> OSStatus nStatus =3D ICMDecompressionSessionCreate ( NULL, =
+description,
+> NULL, pixelBufferAttributes, &callRecord, &decompressionSession);
+> CFRelease( pixelBufferAttributes );
+>=20
+>=20
+> // get video frames from movie files and decode each frame
+> TimeValue64 startTime
+> =3DGetMediaAdvanceDecodeTime(GetTrackMedia(track));     // for =
+starting
+> time of each frame
+> TimeValue64 DurationPerSample =3D 0;               // fro duration of =
+each frame
+> int count =3D 0;
+> while(true)
+> {
+>       ByteCount size =3D 0;
+>       UInt8 *aData =3D new unsigned char[maxDataSize];
+>       nErr =3D GetMediaSample2(videoMedia, aData, maxDataSize, &size,
+> startTime, nil, &DurationPerSample, nil, nil, nil, 1, nil, nil);
+>=20
+>       OSStatus nStatus =3D ICMDecompressionSessionDecodeFrame(
+> decompressionSession, (const UInt8*)aData, size, NULL, NULL, (void
+> *)&count );
+>=20
+>       count++;
+>       startTime +=3D DurationPerSample;
+>=20
+>       if(nErr !=3D noErr)
+>            break;
+>=20
+>        delete [] aData;}
+> }
+>=20
+>=20
+> Here is the definition for the callback funtion:
+>=20
+> static void WriteFrameToBitmap(
+>                       void *decompressionTrackingRefCon,
+>                       OSStatus result,
+>                       ICMDecompressionTrackingFlags =
+decompressionTrackingFlags,
+>                       CVPixelBufferRef pixelBuffer,
+>                       TimeValue64 displayTime,
+>                       TimeValue64 displayDuration,
+>                       ICMValidTimeFlags validTimeFlags,
+>                       void *reserved,
+>                       void *sourceFrameRefCon )
+> {
+>       // when we get decoded frame, print it out to bitmap
+>       if ( (result =3D=3D noErr) && (decompressionTrackingFlags &
+> kICMDecompressionTracking_EmittingFrame) && pixelBuffer )
+>       {
+>               char num[16];
+>               sprintf_s(num, 16, "%d", *((int *)sourceFrameRefCon));
+>               std::string strFilePath =3D std::string("Bitmap0") +
+> std::string(num);
+>=20
+>               boost::shared_ptr<StillImage> pMyImage =3D
+> StillImage::CreateInstance();
+>               size_t size =3D CVPixelBufferGetDataSize(pixelBuffer);
+>               BYTE *mem_buffer =3D (BYTE*)malloc(size * sizeof(BYTE));
+>               strcpy((char*)mem_buffer, (char
+> *)CVPixelBufferGetBaseAddress(pixelBuffer));
+>               pMyImage->LoadImage(mem_buffer, size);
+>               pMyImage->SaveImage(strFilePath.c_str(), BMP);
+>       }
+>=20
+>=20
+> }
+>=20
+>=20
+> Thanks very much.
+>=20
+> Bo Peng
+> Software Engineer
+> Capella Systems, LLC
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/quicktime-api/bangnoise%40csmining.org=
+
+>=20
+> This email sent to bangnoise@csmining.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,92 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fa7631beec413
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs50467wfa;
+        Tue, 13 Apr 2010 20:56:48 -0700 (PDT)
+Received: by 10.101.137.3 with SMTP id p3mr1795997ann.178.1271217401940;
+        Tue, 13 Apr 2010 20:56:41 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 42si13817619iwn.39.2010.04.13.20.56.41;
+        Tue, 13 Apr 2010 20:56:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 6817D1B9B3F8E
+	for <mlsubscriber.tech@csmining.org>; Tue, 13 Apr 2010 20:56:41 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 622EC26C75AEC
+	for <mlsubscriber.tech@csmining.org>; Tue, 13 Apr 2010 20:56:41 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 3B8DF26C75AC2
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 13 Apr 2010 20:56:38 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 29E77D0320B3
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 13 Apr 2010 20:56:38 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7cc2ae000000813-2a-4bc53cf54403
+Received: from mail63.opentransfer.com (mail63.opentransfer.com
+	[76.162.254.63])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	C9.67.02067.5FC35CB4; Tue, 13 Apr 2010 20:56:38 -0700 (PDT)
+Received: (qmail 27053 invoked by uid 399); 14 Apr 2010 03:56:36 -0000
+Received: from unknown (HELO ?10.0.0.3?) (209.193.46.86)
+	by mail63.opentransfer.com with SMTP; 14 Apr 2010 03:56:36 -0000
+From: Jim O'Connor <joconnor@orderndev.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 13 Apr 2010 19:56:35 -0800
+Message-Id: <09543AA4-9BBA-4946-B387-8FB2D92DFA7C@orderndev.com>
+To: filesystem-dev@lists.apple.com
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAARO1aYQ=
+Subject: How does the Finder decide that two drives are on the same
+	partition?
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+When I make two "local" disks via MacFuse and I try to eject one of them =
+the Finder insists on warning me that there are two drives on the same =
+partition, and giving me the option to unmount all of them or just the =
+one I tried to. This is very inconvenient for me.
+
+The mount command shows:
+
+
+MyFS@fuse0 on /Volumes/MyFS_2Gig (...)
+MyFS@fuse1 on /Volumes/MyFS_4Gig (...)
+
+My suspicion is that the Finder just looks for the mount=46rom value =
+then calls volumes partitions on the same disk if they only vary in the =
+last number.
+
+Thoughts?
+
+Thanks,
+Jim O'Connor=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

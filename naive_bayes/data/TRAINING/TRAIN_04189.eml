@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bd17d7bd49359
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs18175wfo;
+        Fri, 21 May 2010 15:59:35 -0700 (PDT)
+Received: by 10.142.207.13 with SMTP id e13mr1549045wfg.21.1274482775671;
+        Fri, 21 May 2010 15:59:35 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 5si1346612pzk.118.2010.05.21.15.59.35;
+        Fri, 21 May 2010 15:59:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 6A1DD1CA1137A
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 15:59:35 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6549827D626D7
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 15:59:35 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay11.apple.com (relay11.apple.com [17.128.113.48])
+	by lists.apple.com (Postfix) with ESMTP id ECD0227D62074
+	for <java-dev@lists.apple.com>; Fri, 21 May 2010 15:58:45 -0700 (PDT)
+X-AuditID: 11807130-b7c56ae000001d33-67-4bf71025cda0
+Received: from [17.151.83.8] (Unknown_Domain [17.151.83.8])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay11.apple.com (Apple SCV relay) with SMTP id
+	98.12.07475.52017FB4; Fri, 21 May 2010 15:58:45 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Bino George <bino@apple.com>
+In-Reply-To: <938465B5-5D59-40F0-9F2E-8BAA7E5AE0C3@verizon.net>
+Date: Fri, 21 May 2010 15:58:45 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <57A6201F-8DB8-430E-86CB-4CD60D06D2A9@apple.com>
+References: <938465B5-5D59-40F0-9F2E-8BAA7E5AE0C3@verizon.net>
+To: Michael Dever <mdever2000@verizon.net>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: list Java-dev <java-dev@lists.apple.com>
+Subject: Re: Java Sound Api Status?
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi Michael,
+                           .RMF and .mid files work fine for me with the =
+JavaSound demo that is shipped under :
+
+/Developer/Extras/Java/Sound/JavaSoundDemo/
+
+The JavaSound demo that is on this site is old and buggy :
+
+> http://java.sun.com/products/java-media/sound/samples/JavaSoundDemo/
+
+When running it, it fails with an error in the demo : (this is a demo =
+bug, which we fixed in our demo code)
+
+Exception in thread "Juke" java.lang.NullPointerException
+	at Juke.setGain(Juke.java:464)
+	at Juke.playSound(Juke.java:301)
+	at Juke.run(Juke.java:410)
+	at java.lang.Thread.run(Thread.java:637)
+
+Please use the demo from /Developer/Extras/Java/Sound/JavaSoundDemo/.
+
+Both .mid and .RMF files play fine. As of Update 1, we also support =
+external MIDI devices.
+
+Thanks,
+Bino George,
+Java Runtime Engineer,
+Apple Inc.
+
+
+
+On May 21, 2010, at 2:51 PM, Michael Dever wrote:
+
+> Trying out the Java Sound .jar file.
+> Some of the file types don't play.
+> [ .RMF and .mid ]
+>=20
+> - Wave, aif and au play nicely.
+>=20
+>=20
+> Is this a know issue?
+>=20
+> http://java.sun.com/products/java-media/sound/samples/JavaSoundDemo/
+>=20
+>=20
+>=20
+>=20
+> Michael J. Dever
+>=20
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/bino%40apple.com
+>=20
+> This email sent to bino@apple.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

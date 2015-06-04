@@ -1,0 +1,158 @@
+X-Account-Key: account5
+X-UIDL: GmailId127da170ee166af8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs46667wfi;
+        Wed, 7 Apr 2010 14:04:57 -0700 (PDT)
+Received: by 10.223.97.220 with SMTP id m28mr2001180fan.36.1270674296727;
+        Wed, 07 Apr 2010 14:04:56 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si20500931fxm.77.2010.04.07.14.04.56;
+        Wed, 07 Apr 2010 14:04:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 07CBA348E84; Wed,  7 Apr 2010 21:04:46 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5CA56348E7F
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 21:04:40 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_2=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 7c9+iFWVA0KY for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 21:04:33 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 08BE62D0D2E
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 21:04:33 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1NzcQE-0007M9-ON
+	for debian-user@lists.debian.org; Wed, 07 Apr 2010 23:04:26 +0200
+Received: from c-24-16-70-55.hsd1.wa.comcast.net ([24.16.70.55])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 07 Apr 2010 23:04:26 +0200
+Received: from srivasta by c-24-16-70-55.hsd1.wa.comcast.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 07 Apr 2010 23:04:26 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+Mail-Followup-To: debian-user@lists.debian.org
+To: debian-user@lists.debian.org
+From: Manoj Srivastava <srivasta@ieee.org>
+Subject: Re: recompiling the kernel with a different version name
+Date: Wed, 07 Apr 2010 14:04:18 -0700
+Organization: Manoj Srivastava's Home
+Lines: 47
+Message-ID: <877hojkm99.fsf@anzu.internal.golden-gryphon.com>
+References: <20100407145453.41737aad.celejar@csmining.org>
+	<1106816267.1705831270667777333.JavaMail.root@md01.wow.synacor.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: c-24-16-70-55.hsd1.wa.comcast.net
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/24.0.50 (gnu/linux) (x86_64-unknown-linux-gnu)
+Face: iVBORw0KGgoAAAANSUhEUgAAACYAAAAwCAMAAABKbPgaAAAAM1BMVEUAAADIjH/0rp1KPz79
+	0b+ic2nlpJc2Ly2AY17VlYb4uqi2gHQXFBN2WVXgno5iT02Xa2Nx+jaIAAACVElEQVQ4jeWU23bj
+	IAxFLUAggQX6/6+dI9LGTpo+9mlYiXNhc3TnOP50naZE0tqvgEk+soutnNfQ8yPTWMTENhNrjI+Y
+	+N7POVt8tAzpn2vJlsmttbyfrdkP7hx5iezteGzsbOts7xT+tC1mcG+LtRP2X/16bEQExuyx1uZW
+	vscrAWUT8aE0aDBeBuw8nS5u4WgWyDCllOZUBeyWgbWbGrBsTDpTx0qpphlcYPcgJLvBXFClPMg5
+	6WH2JidLIAaDF5aAed7uPTH4bjw0bZvfajp2tHc1F+cBm+Vr9YomGSwNhbmcczYEWUu5MBpYvCLV
+	F+ZIKwQfYB+CBXnIRQFvIRhK6l96PemsFLEPFxi+MPxiTYH0Ave1InPsIYes3NJb42ytBSmmysyj
+	lIQYHJm6Im1WbQ0kWMesKFRFPKTDzJ3GhWUn2KWKEkWlKthoACLm2eWJQQh2qKbAUgQxa+8TVjn1
+	aySm8656ookCfCc5TRzvnZ6YOu3NpHg+uR5YuRkNF/b5IHq5Y7Ve6c2+sR4hqIZ3+5DCt3ukh8Eo
+	vFIXVJxqfMdbkd/BF3YaQkB/2RIUHPMS7RLVAHefrYzWZVQ/ei4peBsROFLi90ltQyvF5I05t4Zs
+	L4C9DODJ2AZCUf8UitGjCIdfx15QQkfZibTOGT3edxns5fY6F2rstKcTwiiaJnQwvYkdzTlaTqNH
+	IkSmGdLrON45tGsMNDoSYr4bxH5emHEFaoFjKBahHXFXfLx9cR9p6ejJXihuxPz57gWHZkWovbPl
+	9gsU8eImtBi++3D+f+sfT/Mg79fyEz8AAAAASUVORK5CYII=
+X-URL: http://www.golden-gryphon.com/
+Mail-Copies-To: never
+X-Face:  #q.#]5@vq!Jz+E0t_/;Y^gTjR\T^"B'fbeuVGiyKrvbfKJl!^e|e:iu(kJ6c|QYB57LP*|t
+ &YlP~HF/=h:GA6o6W@I#deQL-%#.6]!z:6Cj0kd#4]>*D,|0djf'CVlXkI,>aV4\}?d_KEqsN{Nnt7
+ 78"OsbQ["56/!nisvyB/uA5Q.{)gm6?q.j71ww.>b9b]-sG8zNt%KkIa>xWg&1VcjZk[hBQ>]j~`Wq
+ Xl,y1a!(>6`UM{~'X[Y_,Bv+}=L\SS*mA8=s;!=O`ja|@PEzb&i0}Qp,`Z\:6:OmRi*
+Cancel-Lock: sha1:7uOccI0T8f710934ax4X95pPJ7c=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <rkAq-aSTkWG.A.JhB.tNPvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573545
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 21:04:46 +0000 (UTC)
+
+On Wed, Apr 07 2010, Stephen Powell wrote:
+
+> On Wed, 7 Apr 2010 14:54:53 -0400 (EDT), Celejar wrote:
+>> On Wed, 7 Apr 2010 13:48:18 -0400 (EDT), Stephen Powell wrote:
+>>>
+>>> ...
+>>>
+>>> Note: you must always issue "make-kpkg clean" after running "make menuconfig"
+>>> or after running "make-kpkg" with any target other than "clean".  Otherwise,
+>>> version and revision numbers will not work as expected.  Assuming that you
+>> 
+>> Are you sure that this is currently required?  From the changelog:
+>> 
+>> kernel-package (12.016) unstable; urgency=low
+>> 
+>>   * [4df65e7]: Remove obsolete warnings about running make-clean
+>>     With the new facility to regenerate ./debian, all the old strictures
+>>     about running make clean after anything that might change the version
+>>     number have beenmade obsolete, so remove from man page.  
+>>     Bug fix: "Is the --append-to-version section still accurate?", thanks
+>>     to Frédéric Brière. Short answer: No.                  (Closes: #534743).
+>> 
+>>  -- Manoj Srivastava <srivasta@debian.org>  Sun, 28 Jun 2009 15:31:12 -0500
+>
+> I must confess I did not look at the change log.  But the README file
+> (/usr/share/doc/kernel-package/README.gz) still documents it as necessary.
+> As to whether this is out of date or not, I do not know.
+> But there is one thing I *do* know: the --revision flag he was using was
+> not taking effect, as evidenced by the name of the package file produced.
+> And I also know that when I use "make-kpkg clean" before building the kernel
+> package, I never have any trouble.  Note also that the comment above talks
+> about changing the version number, not the revision number.  They aren't
+> the same.
+
+        The README is out of date. I'll try and remember to fix this
+ (feel free to file a bug report to remind me). 
+
+        I am not sure why the revision flag was not taking effect (I
+ have not had time to look into the mails yet), but the +drm3 is coming
+ from the kernel code (something is setting .localversions or the ilk).
+
+        manoj
+-- 
+Guard against physical unruliness. Be restrained in body. Abandoning
+physical wrong doing, lead a life of physical well doing. 231
+Manoj Srivastava <srivasta@acm.org> <http://www.golden-gryphon.com/>  
+4096R/C5779A1C E37E 5EC5 2A01 DA25 AD20  05B6 CF48 9438 C577 9A1C
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/877hojkm99.fsf@anzu.internal.golden-gryphon.com
+
+

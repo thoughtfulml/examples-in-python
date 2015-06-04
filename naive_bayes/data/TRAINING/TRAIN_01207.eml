@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId127eeb9692047dd4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs122639wfo;
+        Sun, 11 Apr 2010 14:14:42 -0700 (PDT)
+Received: by 10.223.46.135 with SMTP id j7mr398794faf.105.1271020480775;
+        Sun, 11 Apr 2010 14:14:40 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si7231134fkr.39.2010.04.11.14.14.40;
+        Sun, 11 Apr 2010 14:14:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9D06713A5F5B; Sun, 11 Apr 2010 21:14:30 +0000 (UTC)
+Old-Return-Path: <thib@stammed.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2462F13A5F50
+	for <lists-debian-user@liszt.debian.org>; Sun, 11 Apr 2010 21:14:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4oP1aYFvWl7C for <lists-debian-user@liszt.debian.org>;
+	Sun, 11 Apr 2010 21:14:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from 26.mail-out.ovh.net (26.mail-out.ovh.net [91.121.27.225])
+	by liszt.debian.org (Postfix) with SMTP id CD98C13A5D9F
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 21:14:17 +0000 (UTC)
+Received: (qmail 7043 invoked by uid 503); 11 Apr 2010 21:21:21 -0000
+Received: from b9.ovh.net (HELO mail620.ha.ovh.net) (213.186.33.59)
+  by 26.mail-out.ovh.net with SMTP; 11 Apr 2010 21:21:21 -0000
+Received: from b0.ovh.net (HELO queueout) (213.186.33.50)
+	by b0.ovh.net with SMTP; 11 Apr 2010 21:14:17 -0000
+Received: from ip-83-134-218-234.dsl.scarlet.be (HELO ?192.168.1.101?) (thib@stammed.net@83.134.218.234)
+  by ns0.ovh.net with SMTP; 11 Apr 2010 21:14:15 -0000
+Message-ID: <4BC23BA5.7030406@stammed.net>
+Date: Sun, 11 Apr 2010 23:14:13 +0200
+From: thib <thib@stammed.net>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Migrate OS to smaller drive?
+References: <3cc33b52b344d44be33167a82fe301fe@192.168.0.66> <4BC0EBE5.8060807@lorentz.leidenuniv.nl> <4BC1CA69.4080601@web.de> <4BC1CA98.4070100@kalinowski.com.br> <4BC1CEC7.7030909@web.de> <4BC1E472.8060202@cox.net> <4BC236BC.1050004@web.de>
+In-Reply-To: <4BC236BC.1050004@web.de>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Ovh-Tracer-Id: 4298404369776854790
+X-Ovh-Remote: 83.134.218.234 (ip-83-134-218-234.dsl.scarlet.be)
+X-Ovh-Local: 213.186.33.20 (ns0.ovh.net)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LSnKMLVvT_K.A.cmB.2ujwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573889
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 21:14:30 +0000 (UTC)
+
+Clive McBarton wrote:
+> Ron Johnson wrote:
+>> Never destroy the original until you know the copy works!
+> 
+> In my earlier days I would have avoided mv for exactly that reason. But
+> when copying (including rsync), you cannot easily see that it worked
+> from the emptyness of the original file system. And comparing large
+> filesystem trees (not just 4GB as in this case) is trickier than most
+> people realize. At least a simple "diff -r" will be far from doing it.
+> Maybe you have some good way of comparing FS trees?
+> 
+>  [snip]
+
+Including rsync?  I'd say that's the exact purpose of rsync.
+
+Anyway, there are many filesystem comparison tools if one wants to do it 
+"manually", like dirdiff.  For file contents, just hash and re-hash.
+
+-thib
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC23BA5.7030406@stammed.net
+
+

@@ -1,0 +1,260 @@
+From - Mon Sep 07 09:36:08 2009
+X-Account-Key: account2
+X-UIDL: UID7354-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 078341693A
+	for <m0620212@mail.csmining.org>; Sun,  6 Sep 2009 17:50:56 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 03A3616939
+	for <m0620212@mail.csmining.org>; Sun,  6 Sep 2009 17:50:56 +0900 (JST)
+X-ASG-Debug-ID: 1252227055-11f100400000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1252227055
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250])
+	by spamgw.csmining.org Firewall) with SMTP id 35E0E6E3F00
+	for <m0620212@mail.csmining.org>; Sun,  6 Sep 2009 17:50:55 +0900 (JST)
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id n868ot3I013697
+        for <m0620212@mail.csmining.org>; Sun, 6 Sep 2009 17:50:55 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id n868otPD013694
+        for <hibody@csmining.org>; Sun, 6 Sep 2009 17:50:55 +0900 (JST)
+Received: from [59.97.233.19] ([59.97.234.236])
+      by ns1.csmining.org  with ESMTP id n868oq42025465
+      for <hibody@csmining.org>; Sun, 6 Sep 2009 17:50:53 +0900 (JST)
+Date: Sun, 6 Sep 2009 17:50:52 +0900 (JST)
+From: "Maresca Bud" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Catch you =)
+Subject: [SPAM]  Catch you =)
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Message-Id: <WSYSI62820.E90E66C@[59.97.233.19]>
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-ASG-Tag: BRL ([<http://www.barracuda.com/reputation?ip=59.97.234.236>])
+X-Barracuda-Spam-Score: 7.47
+X-Barracuda-Spam-Status: No, SCORE=7.47 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.95240
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.50 BARRACUDA_HEADER_FP20  RBL: Barracuda Reputation
+	                     [<http://www.barracuda.com/reputation?ip=59.97.234.236>]
+	1.75 EXCUSE_6               BODY: Claims you can be removed from the list
+	0.13 HTML_TAG_EXIST_TBODY   BODY: HTML has "tbody" tag
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Barracuda-Spam-Flag: YES
+
+<html>
+<head>
+
+<style>
+BODY, P, TD, TD P, TD UL, TD BLOCKQUOTE, BLOCKQUOTE {
+    color: black;
+    font-family: Verdana, "Trebuchet MS" , sans-serif;
+    font-size: 10pt
+}
+A:link { color: #003366 }
+A:visited { color: #003366 }
+A:active { color: #0000FF }
+
+bodybold {  font-weight: bold} /* this is for making body text bold */
+bodybold10px {  font-weight: bold; font-size: 10px} /* this is for making body text bold at 10px */
+bodybold11px {  font-weight: bold; font-size: 11px} /* this is for making body text bold at 11px */
+bodybold12px {  font-weight: bold; font-size: 12px} /* this is for making body text bold at 12px */
+bodybold13px {  font-weight: bold; font-size: 13px}
+bodybold14px {  font-weight: bold; font-size: 14px}
+bodybold15px {  font-weight: bold; font-size: 15px}
+body8px {  font-size: 8px} /* this is for making body text smaller */
+body9px {  font-size: 9px} /* this is for making body text smaller */
+body10px {  font-size: 10px} /* this is for making body text smaller */
+body11px {  font-size: 11px} /* this is for making body text smaller */
+body12px {  font-size: 12px} /* this is for making body text smaller */
+body14px {  font-size: 14px} /* this is for making body text smaller */
+body16px {  font-size: 16px} /* this is for making body text smaller */
+body18px {  font-size: 18px} /* this is for making body text smaller */
+bodyunderline {  text-decoration: underline}
+bodyitalic {  font-style: italic}
+none {list-style-type: none}
+titleitalic {  font-weight: bold; font-style: italic}
+titlebold {  font-weight: bold} /* this is for making title text bold */
+titlebold10px {  font-weight: bold; font-size: 10px}
+titlebold11px {  font-weight: bold; font-size: 11px}
+titlebold12px {  font-weight: bold; font-size: 12px}
+titlebold13px {  font-weight: bold; font-size: 13px}
+titlebold14px {  font-weight: bold; font-size: 14px}
+titlebold15px {  font-weight: bold; font-size: 15px}
+titlebold16px {  font-weight: bold; font-size: 16px}
+titlebold17px {  font-weight: bold; font-size: 17px}
+titlebold18px {  font-weight: bold; font-size: 18px}
+titlebold19px {  font-weight: bold; font-size: 19px}
+titlebold20px {  font-weight: bold; font-size: 20px}
+titlebold21px {  font-weight: bold; font-size: 21px}
+titlebold22px {  font-weight: bold; font-size: 22px}
+titlebold23px {  font-weight: bold; font-size: 23px}
+titlebold24px {  font-weight: bold; font-size: 24px}
+titlebold25px {  font-weight: bold; font-size: 25px}
+titlebold26px {  font-weight: bold; font-size: 26px}
+titlebold27px {  font-weight: bold; font-size: 27px}
+titlebold28px {  font-weight: bold; font-size: 28px}
+titlebold29px {  font-weight: bold; font-size: 29px}
+titlebold30px {  font-weight: bold; font-size: 30px}
+flashtitle { font-family: Georgia, "Times New Roman", Times, serif; font-size: 18px} /* Used for Advocacy Campaign titles */
+monospace { font-family: Courier, monospace;}/* monospace fonts for input forms */
+roll   { text-decoration: none; font-weight: normal; color: black }/* rolling links */
+a.roll:hover { text-decoration: none; font-weight: normal; color: D10000 }
+</style>
+
+<title>Daily Digest - 09.02.2009</title>
+<STYLE>
+A:link { color: #0000FF; text-decoration: none }
+A:visited { color: #0000FF; text-decoration: none}
+A:active { color: #0000FF; text-decoration: none}
+A:hover {text-decoration: underline}
+
+td.sojomail_small {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #666666}
+p.sojomail_small {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #666666}
+td.sojomail_header {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #FF9933; font-weight: bold}
+div.sojomail_header {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #FF9933; font-weight: bold}
+div.sojomail_title {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #000000; font-weight: bold}
+div.gray {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; font-weight: normal}
+
+
+</STYLE>
+</head>
+<body bgcolor="white">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+ <tr>
+  <td>
+
+    <TABLE border=0 cellSpacing=0 cellPadding=0 bgColor=#ff9933>
+<TBODY>
+<TR>
+<TD bgColor=#ff9933 width="100%">&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=10 cellPadding=0>
+<TBODY>
+
+<TR>
+<TD vAlign=top>
+<TABLE class=OrangeBorder border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 10px; BACKGROUND-COLOR:rgb(255,255,255); PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: VERDANA,ARIAL,SANS-SERIF; FONT-SIZE: 12px; PADDING-TOP: 10px" vAlign=top>
+
+<P><B><span style="font-size: x-large"><span style="color: #D10000">Top stories</span> -
+</span> </B><span style="font-size: x-large">Sep. 4, 2009</span> </P>
+<P><STRONG>Like to protect your love-gun from failures? </STRONG>Easy as 1-2-3!
+One p-ilule from our store is a full protection of such kind, plus you get more
+pleasure and give more pleasure also.<br>You will Never have your face turned
+red of shame. It&#39;s your ticket to success!</P>
+								<P>
+								<img alt="" src="http://f9d91c.tyirupeh.cn/blank.gif"></P>
+
+<P><B>Continue reading today's Top stories by <a href="http://83ca35.tyirupeh.cn/?yr=DBFB498E90E66C9F9D91C&?ix=879735596094476958517" target="_blank">
+clicking here</a></B></P>
+	</TD></TR></TBODY></TABLE></TD>
+					</TR>
+
+	</TBODY></TABLE>
+<TABLE style="BORDER-BOTTOM: rgb(255,153,51) 1px solid;
+BORDER-LEFT: rgb(255,153,51) 1px solid; BORDER-TOP:
+rgb(255,153,51) 1px solid; BORDER-RIGHT: rgb(255,153,51) 1px
+solid" cellSpacing=0 cellPadding=10 width=728 bgColor=#eeeeee
+height=30>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: VERDANA,ARIAL,SANS-SERIF; COLOR:
+rgb(102,102,102); FONT-SIZE: 12px">
+<P>
+<SPAN style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR:
+rgb(255,153,51); FONT-SIZE: 14px; FONT-WEIGHT: bold">CONTACT
+US:</SPAN> General inquiries: <A
+href="http://83ca35.tyirupeh.cn/?emo=DBFB498E90E66C9F9D91C&?pi=879735596094476958517">click here</A> |
+Advertising: <A
+href="http://83ca35.tyirupeh.cn/?us=DBFB498E90E66C9F9D91C&?zqs=879735596094476958517">click here</A></P>
+
+<P><SPAN style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR:
+rgb(255,153,51); FONT-SIZE: 14px; FONT-WEIGHT: bold">PRIVACY
+NOTICE:</SPAN> We won't trade, sell, or give away your
+e-mail address. Read our <A
+href="http://83ca35.tyirupeh.cn/?oda=DBFB498E90E66C9F9D91C&?ymj=879735596094476958517">privacy
+policy</A>.</P>
+<P><SPAN style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR:
+rgb(255,153,51); FONT-SIZE: 14px; FONT-WEIGHT: bold"></SPAN><A
+href="http://83ca35.tyirupeh.cn/?me=DBFB498E90E66C9F9D91C&?uc=879735596094476958517">Subscribe</A>
+| <A
+href="http://83ca35.tyirupeh.cn/?ex=DBFB498E90E66C9F9D91C&?jr=879735596094476958517">About
+Us</A> | <A
+href="http://83ca35.tyirupeh.cn/?yk=DBFB498E90E66C9F9D91C&?vuz=879735596094476958517">Tell-a-friend</A></P></TD></TR></TBODY></TABLE>
+
+
+  </td>
+
+ </tr>
+</table>
+<p>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+ <tr>
+  <td><hr noshade size="1" color="aaaaaa">
+  </td>
+ </tr>
+</table>
+
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+
+ <tr>
+ <td>
+   Visit the link below to tell your friends about this e-mail.
+<br>
+   <a href="http://83ca35.tyirupeh.cn/?hec=DBFB498E90E66C9F9D91C&?gj=879735596094476958517">Tell-a-friend!</a><br>
+  </td>
+ </tr>
+</table>
+
+<P>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" valign="top" bgcolor="#ffffff">
+ <tr>
+  <td>
+
+    If you received this message from a friend, you can
+    <a href="http://83ca35.tyirupeh.cn/?ic=DBFB498E90E66C9F9D91C&?xu=879735596094476958517">sign up for
+	daily Top stories</a>.
+  </td>
+ </tr>
+</table>
+</p>
+
+<p>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" valign="top" bgcolor="#ffffff">
+ <tr>
+  <td>
+
+    <P>To stop receiving Daily News Summary, click to <A href="http://83ca35.tyirupeh.cn/?hyz=DBFB498E90E66C9F9D91C&?zet=879735596094476958517">unsubscribe</A>.<BR><BR>To stop ALL email from
+	our company, click to <A href="http://83ca35.tyirupeh.cn/?kee=DBFB498E90E66C9F9D91C&?uw=879735596094476958517">remove</A> yourself from our lists (or reply via email with "remove" in the subject line).</P>
+<P>To change your email address or change other subscription settings, click to <A href="http://83ca35.tyirupeh.cn/?ylq=DBFB498E90E66C9F9D91C&?al=879735596094476958517">update your email settings</A>.<BR></P>
+
+  </td>
+ </tr>
+</table>
+</P>
+
+</body>
+</html>
+

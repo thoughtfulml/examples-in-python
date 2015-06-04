@@ -1,0 +1,171 @@
+X-Account-Key: account5
+X-UIDL: GmailId128514c6c4cf14f7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs126121wfj;
+        Fri, 30 Apr 2010 17:38:04 -0700 (PDT)
+Received: by 10.223.98.83 with SMTP id p19mr1742945fan.27.1272674282832;
+        Fri, 30 Apr 2010 17:38:02 -0700 (PDT)
+Return-Path: <bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si4014814fkt.19.2010.04.30.17.38.02;
+        Fri, 30 Apr 2010 17:38:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1A52113A4A02; Sat,  1 May 2010 00:37:59 +0000 (UTC)
+Old-Return-Path: <sectracker@soler.debian.org>
+X-Original-To: lists-debian-testing-security-announce@liszt.debian.org
+Delivered-To: lists-debian-testing-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CE0B013A49B5
+	for <lists-debian-testing-security-announce@liszt.debian.org>; Sat,  1 May 2010 00:37:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -7.001
+XLevel: 
+XStatus: No, score=-7.001 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, NO_RELAYS=-0.001] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1DBOgdTzxWMH
+	for <lists-debian-testing-security-announce@liszt.debian.org>;
+	Sat,  1 May 2010 00:37:50 +0000 (UTC)
+Received: from draghi.debian.org (draghi.debian.org [IPv6:2001:41b8:202:deb:216:36ff:fe40:3906])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 626EB13A49A9
+	for <debian-testing-security-announce@lists.debian.org>; Sat,  1 May 2010 00:37:50 +0000 (UTC)
+Received: from soler.debian.org ([2001:8d8:2:1:6564:a62:0:5])
+	from C=NA,ST=NA,L=Ankh Morpork,O=Debian SMTP,OU=Debian SMTP CA,CN=soler.debian.org,EMAIL=hostmaster@soler.debian.org (verified)
+	by draghi.debian.org with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <sectracker@soler.debian.org>)
+	id 1O80iK-000094-3U
+	for debian-testing-security-announce@lists.debian.org; Sat, 01 May 2010 00:37:48 +0000
+Received: from sectracker by soler.debian.org with local (Exim 4.69)
+	(envelope-from <sectracker@soler.debian.org>)
+	id 1O80iJ-00057n-MN
+	for debian-testing-security-announce@lists.debian.org; Sat, 01 May 2010 00:37:47 +0000
+From: Testing Security Team <secure-testing-team@lists.alioth.debian.org>
+To: debian-testing-security-announce@lists.debian.org
+Subject: Security update for Debian Testing - 2010-05-01
+Message-Id: <E1O80iJ-00057n-MN@soler.debian.org>
+Sender: security tracker role <sectracker@soler.debian.org>
+Date: Sat, 01 May 2010 00:37:47 +0000
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <eWtxuekQrUD.A.-WH.nf32LB@liszt>
+Resent-From: debian-testing-security-announce@lists.debian.org
+X-Mailing-List: <debian-testing-security-announce@lists.debian.org> archive/latest/261
+X-Loop: debian-testing-security-announce@lists.debian.org
+List-Id: <debian-testing-security-announce.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-testing-security-announce/>
+List-Post: <mailto:debian-testing-security-announce@lists.debian.org>
+List-Help: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-testing-security-announce-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 00:37:59 +0000 (UTC)
+
+This automatic mail gives an overview over security issues that were recently 
+fixed in Debian Testing. The majority of fixed packages migrate to testing 
+from unstable. If this would take too long, fixed packages are uploaded to the 
+testing-security repository instead. It can also happen that vulnerable 
+packages are removed from Debian testing.
+
+Migrated from unstable:
+=======================
+sudo 1.7.2p6-1:
+CVE-2010-1163: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1163
+               http://bugs.debian.org/578275
+
+sun-java6 6.20-dlj-1 (non-free):
+CVE-2009-2409: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2409
+CVE-2009-3728: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3728
+CVE-2009-3729: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3729
+CVE-2009-3865: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3865
+CVE-2009-3866: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3866
+CVE-2009-3867: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3867
+CVE-2009-3868: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3868
+CVE-2009-3869: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3869
+CVE-2009-3871: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3871
+CVE-2009-3872: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3872
+CVE-2009-3873: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3873
+CVE-2009-3874: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3874
+CVE-2009-3875: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3875
+CVE-2009-3876: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3876
+CVE-2009-3877: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3877
+CVE-2009-3879: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3879
+CVE-2009-3880: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3880
+CVE-2009-3881: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3881
+CVE-2009-3882: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3882
+CVE-2009-3883: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3883
+CVE-2009-3884: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3884
+CVE-2009-3886: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3886
+CVE-2010-0082: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0082
+CVE-2010-0084: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0084
+CVE-2010-0085: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0085
+CVE-2010-0088: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0088
+CVE-2010-0089: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0089
+CVE-2010-0090: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0090
+CVE-2010-0091: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0091
+CVE-2010-0092: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0092
+CVE-2010-0093: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0093
+CVE-2010-0094: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0094
+CVE-2010-0095: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0095
+CVE-2010-0837: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0837
+CVE-2010-0838: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0838
+CVE-2010-0839: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0839
+CVE-2010-0840: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0840
+CVE-2010-0841: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0841
+CVE-2010-0842: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0842
+CVE-2010-0843: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0843
+CVE-2010-0844: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0844
+CVE-2010-0845: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0845
+CVE-2010-0846: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0846
+CVE-2010-0847: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0847
+CVE-2010-0848: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0848
+CVE-2010-0849: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0849
+CVE-2010-0850: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0850
+CVE-2010-0886: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0886
+CVE-2010-0887: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0887
+
+
+
+How to update:
+--------------
+Make sure the line
+
+	deb http://security.debian.org squeeze/updates main contrib non-free
+
+is present in your /etc/apt/sources.list. Of course, you also need the line
+pointing to your normal squeeze mirror. You can use
+
+	aptitude update && aptitude dist-upgrade
+
+to install the updates.
+
+
+More information:
+-----------------
+More information about which security issues affect Debian can be found in the 
+security tracker:
+
+	http://security-tracker.debian.org/tracker/
+
+A list of all known unfixed security issues is at
+
+	http://security-tracker.debian.org/tracker/status/release/testing
+
+
+-- 
+To UNSUBSCRIBE, email to debian-testing-security-announce-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E1O80iJ-00057n-MN@soler.debian.org
+
+

@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId128196a788bc600f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs52556wfj;
+        Mon, 19 Apr 2010 21:12:08 -0700 (PDT)
+Received: by 10.223.143.9 with SMTP id s9mr735085fau.52.1271736727785;
+        Mon, 19 Apr 2010 21:12:07 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f31si938105fkf.48.2010.04.19.21.12.07;
+        Mon, 19 Apr 2010 21:12:07 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CB15813A4734; Tue, 20 Apr 2010 04:11:57 +0000 (UTC)
+Old-Return-Path: <tzafrir@cohens.org.il>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7A11313A46BC
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 04:11:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ch--4a9GEvtK for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 04:11:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from pear.tzafrir.org.il (pear.tzafrir.org.il [209.9.237.134])
+	by liszt.debian.org (Postfix) with ESMTP id 1A37913A46AE
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 04:11:37 +0000 (UTC)
+Received: by pear.tzafrir.org.il (Postfix, from userid 1000)
+	id D4CEF108986; Tue, 20 Apr 2010 04:10:25 +0000 (UTC)
+Date: Tue, 20 Apr 2010 04:10:24 +0000
+From: Tzafrir Cohen <tzafrir@cohens.org.il>
+To: debian-user@lists.debian.org
+Subject: Re: Bash script - pass command line arg to embedded sed script
+	with multiple args
+Message-ID: <20100420041023.GO16560@pear.tzafrir.org.il>
+References: <201004162015.38878.ddjones@riddlemaster.org> <20100417040928.GA11872@sigpipe.org> <201004171202.40262.ddjones@riddlemaster.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <201004171202.40262.ddjones@riddlemaster.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <E3YzS7eztSM.A.ogC.NmSzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574512
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 04:11:57 +0000 (UTC)
+
+On Sat, Apr 17, 2010 at 12:02:40PM -0400, Daniel D Jones wrote:
+> On Saturday 17 April 2010 00:09:28 Michael Elkins wrote:
+> > On Fri, Apr 16, 2010 at 08:15:38PM -0400, Daniel D Jones wrote:
+> > >What I'm trying to do is pretty simple.  Getting it to work is turning out
+> > > not to be.  What I want to do is call a bash script with a couple of
+> > > arguments, and, within the script, call sed to use those args to replace
+> > > two placeholders in a file:
+> > >
+> > >bashscript SUB1 SUB2
+> > >
+> > >This line inside bashscript doesn't work:
+> > >
+> > >sed -e 's/PLACEHOLDER1/$1/' -e 's/PLACEHOLDER2/$2/' < input > output
+> > 
+> > If you switch the single quotes to double quotes it will work as you
+> >  expect. Variables inside of double quotes are expanded.  Single quotes are
+> >  for literal strings, as you've discovered.
+> 
+> That was the first thing I tried and sed gave me an error:
+> 
+> sed: -e expression #1, char 18: unknown option to `s'
+> 
+> I just went back and tried it again and it worked, so I have no idea what I 
+> did the first time that made it not work.
+
+As others have mentioned, rgw command-line parameter $1 probably has a
+'/' in it.
+
+A simple workaround is to use a different character as the separator.
+That is: *if* you can assume that variable will not contain the
+character '|', you can use:
+
+  sed -e "s|PLACEHOLDER1|$1|' -e "s|PLACEHOLDER2|$2|" < input > output
+
+You can use some other characters there as well. See sed(1).
+
+-- 
+Tzafrir Cohen         | tzafrir@jabber.org | VIM is
+http://tzafrir.org.il |                    | a Mutt's
+tzafrir@cohens.org.il |                    |  best
+tzafrir@debian.org    |                    | friend
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100420041023.GO16560@pear.tzafrir.org.il
+
+

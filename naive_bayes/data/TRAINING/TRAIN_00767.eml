@@ -1,0 +1,136 @@
+X-Account-Key: account5
+X-UIDL: GmailId128adf0a24f0f5aa
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs32540wfo;
+        Tue, 18 May 2010 17:22:28 -0700 (PDT)
+Received: by 10.142.65.22 with SMTP id n22mr1618343wfa.86.1274228548232;
+        Tue, 18 May 2010 17:22:28 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 9si9625099pzk.4.2010.05.18.17.22.28;
+        Tue, 18 May 2010 17:22:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id EF6E01C91F619
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 17:22:27 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id EB26027C05162
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 17:22:27 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 119BE27C0513C
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 18 May 2010 17:22:26 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 01058D9B0A4D
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 18 May 2010 17:22:26 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-d8-4bf32f4191a1
+Received: from daleenterprise.com (daleenterprise.com [67.78.11.229])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	2C.73.15139.14F23FB4; Tue, 18 May 2010 17:22:25 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by daleenterprise.com (Postfix) with ESMTP id CA77112C8BAC;
+	Tue, 18 May 2010 20:22:24 -0400 (EDT)
+Received: from daleenterprise.com ([127.0.0.1])
+	by localhost (daleenterprise.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 06039-02; Tue, 18 May 2010 20:22:23 -0400 (EDT)
+Received: from [10.1.100.11] (unknown [67.78.11.226])
+	by macftphttp.serverbox.org (Postfix) with ESMTP id EFC0A12C8BA2;
+	Tue, 18 May 2010 20:22:22 -0400 (EDT)
+In-Reply-To: <2C1FA738-3BD8-4D09-B4B4-4661AB287EC6@apple.com>
+References: <9F133EEE-B8F4-46E9-81FB-90C5AF4F341B@macftphttp.serverbox.org>
+	<2C1FA738-3BD8-4D09-B4B4-4661AB287EC6@apple.com>
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Type: text/plain; charset=ISO-8859-1; delsp=yes; format=flowed
+Message-Id: <D3974E3B-8A71-4B63-AE3B-7CA0572EE143@macftphttp.serverbox.org>
+Content-Transfer-Encoding: quoted-printable
+From: websrvr <websrvr@macftphttp.serverbox.org>
+Date: Tue, 18 May 2010 20:22:22 -0400
+To: filesystem-dev@lists.apple.com
+X-Mailer: Apple Mail (2.752.2)
+MTA-Interface: amavisd-new-2.3.3 (2005-08-22) + Maia Mailguard 1.0.1 at
+	daleenterprise.com
+XScanned: using SpamAssassin 3.1.7 (2006-10-05) at daleenterprise.com
+X-Virus-Scanned: using ClamAV 0.96 (2010-03-15) at daleenterprise.com
+X-Brightmail-Tracker: AAAAAgBUIXcURuVK
+Cc: 
+Subject: Re: mount information from DA framework.
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On May 18, 2010, at 18:41 PM, Daniel Markarian wrote:
+
+> Hey Dale,
+>
+> You have to use BSD.  eg.
+>
+>     1. DADiskCopyDescription()
+>     2. CFDictionaryGetValue() with kDADiskDescriptionVolumePathKey
+>     3. CFURLGetFileSystemRepresentation()
+>     4. statfs()
+>     5. f_flags with MNT_DONTBROWSE
+
+Sample code would have been helpful but I guess I can try and figure =20
+it out.
+
+> I have a suggestion though.  It seems to me that the mount can be =20
+> made without the assistance of an I/O Kit extension and a Disk =20
+> Arbitration daemon.  You can mount a diskXs3 partition directly =20
+> with BSD, through your application, agent, or whatnot, without any =20
+> requirement to expose diskXs3s1 in I/O Kit.  eg.
+>
+>     /sbin/mount -t hfs -o nobrowse /dev/diskXs3 /var/tmp/=20
+> com.MyCompany.MyProduct.X
+
+Fails cause the directory does not exist so I would have to not only =20
+create the directory I would have to remove it upon a dismount and =20
+create code to manage multiple drives.
+
+> You can use posix_spawn() to invoke such a command.
+>
+> Dan
+>
+> PS:  Disk Arbitration 1 is deprecated, thus the sample code that =20
+> uses Disk Arbitration 1 is deprecated.  It is not useful in modern =20
+> code, but if you must insist, look at disktool.c in the Disk =20
+> Arbitration project.
+
+This code did not display the nobrowse option.
+
+OK, how can I do it using DA 2?
+
+> Le 2010-05-16 =E0 14:24, websrvr a =E9crit :
+>
+>> Does anyone know how I can find out if a partition is mounted =20
+>> nobrowse using the DA framework?
+>>
+>> -- Dale
+>
+>
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

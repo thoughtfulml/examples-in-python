@@ -1,0 +1,155 @@
+X-Account-Key: account5
+X-UIDL: GmailId12860da3a155a530
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs253968wfj;
+        Mon, 3 May 2010 18:07:16 -0700 (PDT)
+Received: by 10.223.68.13 with SMTP id t13mr3758584fai.69.1272935234287;
+        Mon, 03 May 2010 18:07:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si10158492fka.1.2010.05.03.18.07.13;
+        Mon, 03 May 2010 18:07:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 96D0F13A5219; Tue,  4 May 2010 01:07:05 +0000 (UTC)
+Old-Return-Path: <storm16@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.9 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2D72A13A5214
+	for <lists-debian-user@liszt.debian.org>; Tue,  4 May 2010 01:06:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, HTML_MESSAGE=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 8YpnNZ6NRPiY for <lists-debian-user@liszt.debian.org>;
+	Tue,  4 May 2010 01:06:52 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id DB8F713A51F0
+	for <debian-user@lists.debian.org>; Tue,  4 May 2010 01:06:51 +0000 (UTC)
+Received: by gya1 with SMTP id 1so1371721gya.6
+        for <debian-user@lists.debian.org>; Mon, 03 May 2010 18:06:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=GsfyrCX3sC9YD64z+rB4jEIHS7SaQSauncQXOYqKS6w=;
+        b=BiYonssBDC0lkAY+cIp93shOouKQ3K+9BT+x/esV3/Ve3a6PhJfBBMFDyphR/Na10W
+         PappYGiYIUcefQRoEYVLSO+0ErK6qZZncOGJl/UyKXU6mK0y6/MacoADxEcAQothnrYq
+         +rrLT00ZV6LDVBZv39/hjjzYkrPmcA+t3mvsI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=dcKOjfG2l3wfKUIsQomECeCb4k+puBZhGHlgYJsavYddFWPlyYQyKgFZhmD3c88zRr
+         LyGVwDGBI2R0iuapGnzzYkFKST+razIWlQxZ38KNs20z07lnYG08dlxzI1PboHfi7Y6v
+         PKFGCwdUijoGnv9+MOqINbVOKykVRr2C8qI9E=
+MIME-Version: 1.0
+Received: by 10.151.116.6 with SMTP id t6mr9160427ybm.116.1272935202186; Mon, 
+	03 May 2010 18:06:42 -0700 (PDT)
+Received: by 10.150.203.9 with HTTP; Mon, 3 May 2010 18:06:42 -0700 (PDT)
+In-Reply-To: <i2y1840f6971004291007xb13cdd63k17ced5dc429df5d@mail.csmining.org>
+References: <4BD9A53C.50503@hardwarefreak.com>
+	 <815778928.87815.1272556487107.JavaMail.root@md01.wow.synacor.com>
+	 <i2y1840f6971004291007xb13cdd63k17ced5dc429df5d@mail.csmining.org>
+Date: Mon, 3 May 2010 21:06:42 -0400
+Message-ID: <q2t258ced3f1005031806s7098c124k37fbe75c91fedda7@mail.csmining.org>
+Subject: Re: [OT] Home UPS (was Filesystem recommendations)
+From: "B. Alexander" <storm16@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=001e680f15c08ca11a0485ba5202
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <aqj8UI1aeRM.A.izE.5M33LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575800
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 01:07:05 +0000 (UTC)
+
+--001e680f15c08ca11a0485ba5202
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Thu, Apr 29, 2010 at 1:07 PM, Kelly Clowers <kelly.clowers@csmining.org>wrote:
+
+>
+> For me, it is only partly about my hardware. It is also about my data.
+> I have backups, but I didn't used to, and I would just as soon not
+> have to go through a restore process. And even a simple power
+> outage that wouldn't harm hardware might at least produce the
+> need for a fsck (not as much of a problem with ext4, but again
+> I would rather avoid the situation entirely).
+>
+
+I figured I would pipe up here, because I have a kind of different
+perspective here. I have a 42U data center rack in my basement, and about
+half a dozen really old servers. They aren't really worth much from a
+financial standpoint, but at the same time, I use them as a sort of test
+lab. and I have a Tripp Lite 1000VA and an APC BackUPS 1000 (just replaced
+the batteries) in the rack. I also have a BackUPS 350 for my workstation.
+
+It's not about the cost of the hardware (as I said, almost everything is 32
+bit PIII/P4 class hardware that has little to no value in most business
+environments (which is how I came by it, by and large), but my data? Thats a
+whole nother kettle of fish. It may only be important to me, but the point
+is that it *is* important to me.
+
+--b
+
+--001e680f15c08ca11a0485ba5202
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Thu, Apr 29, 2010 at 1:07 PM, Kelly C=
+lowers <span dir=3D"ltr">&lt;<a href=3D"mailto:kelly.clowers@csmining.org">kel=
+ly.clowers@csmining.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0p=
+t 0.8ex; padding-left: 1ex;">
+<div class=3D"im"><br>
+</div>For me, it is only partly about my hardware. It is also about my data=
+.<br>
+I have backups, but I didn&#39;t used to, and I would just as soon not<br>
+have to go through a restore process. And even a simple power<br>
+outage that wouldn&#39;t harm hardware might at least produce the<br>
+need for a fsck (not as much of a problem with ext4, but again<br>
+I would rather avoid the situation entirely).<br></blockquote><div><br>I fi=
+gured I would pipe up here, because I have a kind of different perspective =
+here. I have a 42U data center rack in my basement, and about half a dozen =
+really old servers. They aren&#39;t really worth much from a financial stan=
+dpoint, but at the same time, I use them as a sort of test lab. and I have =
+a Tripp Lite 1000VA and an APC BackUPS 1000 (just replaced the batteries) i=
+n the rack. I also have a BackUPS 350 for my workstation.<br>
+<br>It&#39;s not about the cost of the hardware (as I said, almost everythi=
+ng is 32 bit PIII/P4 class hardware that has little to no value in most bus=
+iness environments (which is how I came by it, by and large), but my data? =
+Thats a whole nother kettle of fish. It may only be important to me, but th=
+e point is that it *is* important to me.<br>
+=A0</div>--b<br></div>
+
+--001e680f15c08ca11a0485ba5202--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/q2t258ced3f1005031806s7098c124k37fbe75c91fedda7@mail.csmining.org
+
+

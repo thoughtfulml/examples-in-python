@@ -1,0 +1,157 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289710973fb508e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs27919wfo;
+        Fri, 14 May 2010 06:46:07 -0700 (PDT)
+Received: by 10.223.20.218 with SMTP id g26mr1704536fab.18.1273844766497;
+        Fri, 14 May 2010 06:46:06 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g5si5874512fai.85.2010.05.14.06.46.05;
+        Fri, 14 May 2010 06:46:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3B1A52D0DC5; Fri, 14 May 2010 13:45:58 +0000 (UTC)
+Old-Return-Path: <artifexor@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 84C7E2D0DC3
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 13:45:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id g3RE6qxHGDcv for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 13:45:45 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ew0-f228.google.com (mail-ew0-f228.google.com [209.85.219.228])
+	by liszt.debian.org (Postfix) with ESMTP id 7C70413A5676
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 13:45:44 +0000 (UTC)
+Received: by ewy28 with SMTP id 28so693593ewy.18
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 06:45:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=lXW+9GWGYAcf/3gZimSQjvSNgBl7iU4uUVq1ez5kdpE=;
+        b=XNC7VADcPH05mUJdm/1VF3+2K0LBcu2ogX+3n+brA1fvKGEJc1hMrjcVwZXN3p0cGR
+         BEbWiO1DS3l28c3qbD0eKBfZEqzETBRIVMUWsZGKafNh5EYCIBRPLG8cbMNZOjKOG9ON
+         +2Y4QW4ey6w7RUtxfe4CdDVMXOi+vnbOKUSJc=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=VDJPx60M/t2OqEBpdYlTwIo5AbcdQ5mEXwKgcbI3s51D5woIkUcz46QyETkvoFbWJc
+         GOcZg07ymiVU5vRr09LZnBk39fS9p1xtxe6SqtSmfm7G//ftC7Z789/MlU7MBBt4ocXX
+         Lt1SxuGsgHwc83vMPkprtyFPbw+nTfiIimgeE=
+MIME-Version: 1.0
+Received: by 10.213.25.79 with SMTP id y15mr392811ebb.24.1273844736840; Fri, 
+	14 May 2010 06:45:36 -0700 (PDT)
+Received: by 10.213.113.203 with HTTP; Fri, 14 May 2010 06:45:36 -0700 (PDT)
+In-Reply-To: <pan.2010.05.14.13.28.47@csmining.org>
+References: <20100513193147.0466ac73.celejar@csmining.org>
+	 <pan.2010.05.14.07.42.29@csmining.org> <4BED13E3.8020604@cox.net>
+	 <pan.2010.05.14.09.32.06@csmining.org> <4BED1F53.6070202@cox.net>
+	 <pan.2010.05.14.10.38.00@csmining.org>
+	 <AANLkTinexhMKIN_mHG2efRrLX7nSo_0UyyffBhG2j6XN@mail.csmining.org>
+	 <pan.2010.05.14.12.04.42@csmining.org> <4BED42CA.2060406@cox.net>
+	 <pan.2010.05.14.13.28.47@csmining.org>
+Date: Fri, 14 May 2010 15:45:36 +0200
+Message-ID: <AANLkTil7Z7jGyva3EAZ5wkE1yTufs0eWhTFNDwOFlL_H@mail.csmining.org>
+Subject: Re: Flash is open?
+From: Artifex Maximus <artifexor@csmining.org>
+To: =?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8zknW1cZCNK.A.GJ.WQV7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576775
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 13:45:58 +0000 (UTC)
+
+On Fri, May 14, 2010 at 3:28 PM, Camale=F3n <noelamac@csmining.org> wrote:
+> On Fri, 14 May 2010 07:32:10 -0500, Ron Johnson wrote:
+>
+>> On 05/14/2010 07:04 AM, Camale=F3n wrote:
+>
+>>>> http://en.wikipedia.org/wiki/Open_specifications
+>>>>
+>>>> "An open specification is not controlled by a single company or
+>>>> individual or by a group with discriminatory membership criteria.
+>>>> Copies of Open Specifications are available free of charge or for a
+>>>> moderate fee and can be implemented under reasonable and non
+>>>> discriminatory licensing (RAND) terms by all interested parties."
+>>>
+>>> So that means...?
+>>>
+>>> a/ That I can modify the code of Flash without any fear of Adobe being
+>>> suing me :-)
+>>
+>> Pay attention, for God's sake!
+>>
+>> Their *code* is proprietary, their file specs are not.
+>
+> Sorry, but IANAL. "Proprietary code" is what we (linux community) avoid
+> the most, so, what I am missing here?
+>
+> Or put in another words, what "code" are you referring to?
+>
+> The question is still unanswered.
+>
+> Can we (we=3Dpeople) make our own Flash implementation by using Adobe Fla=
+sh
+> specs?
+
+Yes. "Developers are now free to implement what is documented in the
+specifications without restrictions from Adobe."
+
+I think you might separate the description of file format (free) and
+the code itself (proprietary). So you can write your flash player
+using the documentation but you cannot get the code of Adobe Flash
+Player.
+
+>>> Sorry, but I do cannot fully trust Adobe nor any company behind a
+>>> product with such "terse" license model...
+>>
+>> No one is holding your feet to the fire while simultaneously
+>> waterboarding you, saying "Trust Adobe!!"
+>
+> Oh, no, but... If W3C does not trust "Flash" technology to be included as
+> one of their recommended standards, why should I? That is the point.
+
+Linux, FreeBSD, OSX and other OSs included in that W3C standards? I
+think the answer is no... Do you have trust in them?
+
+Bye,
+a
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTil7Z7jGyva3EAZ5wkE1yTufs0eWhTFNDwOFlL_H@mail.csmining.org
+
+

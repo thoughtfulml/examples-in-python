@@ -1,0 +1,99 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283053d77c9e08d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs16519wfj;
+        Sat, 24 Apr 2010 07:58:41 -0700 (PDT)
+Received: by 10.87.5.30 with SMTP id h30mr2724463fgi.3.1272121120720;
+        Sat, 24 Apr 2010 07:58:40 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h2si4248439fkh.55.2010.04.24.07.58.40;
+        Sat, 24 Apr 2010 07:58:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2BCD613A5349; Sat, 24 Apr 2010 14:58:35 +0000 (UTC)
+Old-Return-Path: <mgb-debian@yosemite.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 38DBF13A5340
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 14:58:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ov4HVEF9ki5m for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 14:58:22 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) HELO_IP_IN_CL_SUBNET=-1.2 (check from: .yosemite. - helo: .mpa-se.yosemite. - helo-domain: .yosemite.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -6.2
+Received: from mpa-se.yosemite.net (mpa-se-e0-core.yosemite.net [12.234.40.9])
+	by liszt.debian.org (Postfix) with ESMTP id F2A4213A5339
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 14:58:21 +0000 (UTC)
+Received: from mpa-se.yosemite.net (localhost.localdomain [127.0.0.1])
+	by mpa-se.yosemite.net (Postfix) with ESMTP id E6E7B203CA
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 07:58:18 -0700 (PDT)
+Received: from bul-lb-t0-mpa.core.ims (bul-lb.yosemite.net [12.234.40.209])
+	(Authenticated sender: mgb@yosemite.net)
+	by mpa-se.yosemite.net (Postfix) with ESMTPA id 8EFAB2018E
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 07:58:18 -0700 (PDT)
+From: Mike Bird <mgb-debian@yosemite.net>
+Organization: Iron Mtn Systems
+To: debian-user@lists.debian.org
+Subject: Re: overcoming the 32k objects limit is ext3 - which file system to use?
+Date: Sat, 24 Apr 2010 07:58:17 -0700
+User-Agent: KMail/1.9.9
+References: <t2lb713df2c1004230626nf03ce27bu8d967978af7d90c8@mail.csmining.org> <201004240717.24641.mgb-debian@yosemite.net> <pan.2010.04.24.14.30.33@csmining.org>
+In-Reply-To: <pan.2010.04.24.14.30.33@csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+Message-Id: <201004240758.17484.mgb-debian@yosemite.net>
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6iKVAvE5D4B.A.7YF.bcw0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574920
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 14:58:35 +0000 (UTC)
+
+On Sat April 24 2010 07:30:33 Camale=C3=B3n wrote:
+> And wasn't *that* the limit the OP was asking about or I misunderstood
+> something? :-?
+
+OP wrote: "ext3 can have only 32000 files/folders under a folder and I
+hit that limit."
+
+As I demonstrated, ext3 can have 50000 files in a "folder" (directory).
+Or as many more as the filesystem has space for.
+
+The 31998 subdirectories limit is rarely encountered because using a
+multi-level directory heirarchy is so much more efficient.
+
+=2D-Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004240758.17484.mgb-debian@yosemite.net
+
+

@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dc6de649da687
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs68364wfi;
+        Thu, 8 Apr 2010 00:59:03 -0700 (PDT)
+Received: by 10.223.144.77 with SMTP id y13mr10149944fau.86.1270713542510;
+        Thu, 08 Apr 2010 00:59:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 5si34784990fxm.72.2010.04.08.00.59.01;
+        Thu, 08 Apr 2010 00:59:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9AC2D13A5D08; Thu,  8 Apr 2010 07:58:53 +0000 (UTC)
+Old-Return-Path: <mart.frauenlob@chello.at>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1F85B13A5CF3
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 07:58:48 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2RoZQRUHq5kw for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 07:58:37 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .chello. - helo: .viefep12-int.chello. - helo-domain: .chello.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from viefep12-int.chello.at (viefep12-int.chello.at [62.179.121.32])
+	by liszt.debian.org (Postfix) with ESMTP id BDF1A13A5CEB
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 07:58:21 +0000 (UTC)
+Received: from edge03.upcmail.net ([192.168.13.238])
+          by viefep12-int.chello.at
+          (InterMail vM.8.01.02.02 201-2260-120-106-20100312) with ESMTP
+          id <20100408075819.PSZS14855.viefep12-int.chello.at@edge03.upcmail.net>
+          for <debian-user@lists.debian.org>;
+          Thu, 8 Apr 2010 09:58:19 +0200
+Received: from [192.168.13.254] ([62.178.115.27])
+	by edge03.upcmail.net with edge
+	id 2vyJ1e0190bYFJN03vyKQ2; Thu, 08 Apr 2010 09:58:19 +0200
+X-SourceIP: 62.178.115.27
+Message-ID: <4BBD8C33.2070908@chello.at>
+Date: Thu, 08 Apr 2010 09:56:35 +0200
+From: Mart Frauenlob <mart.frauenlob@chello.at>
+Reply-To: debian-user@lists.debian.org
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: OT: Script to add line to file if it doesn't exist
+References: <4BBCE69D.3040308@acu.edu> <4BBCEF02.8050306@chello.at> <4BBCFF82.4070904@kalinowski.com.br>
+In-Reply-To: <4BBCFF82.4070904@kalinowski.com.br>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Cloudmark-Analysis: v=1.1 cv=SLkC287PFWo6d7eSEiSBB9255DBOWQ3bwOwHXJiyZoo= c=1 sm=0 a=5C6CqtlbsZwA:10 a=8nJEP1OIZ-IA:10 a=wFaEK3txAAAA:8 a=XOcjyLcoqtzlKB5yDLsA:9 a=a2neWdFtZ33IxoxMEvsqtCwIzAsA:4 a=wPNLvfGTeEIA:10 a=YbAGs6EtlmYA:10 a=HpAAvcLHHh0Zw7uRqdWCyQ==:117
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <vftqs621F9D.A.QOD.9yYvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573570
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 07:58:53 +0000 (UTC)
+
+On 07.04.2010 23:56, Eduardo M KALINOWSKI wrote:
+> On 04/07/2010 05:45 PM, Mart Frauenlob wrote:
+>>
+>> #!/bin/sh
+>> grep -w "fred" file || printf "%s\n" "fred">>file
+>>
+>>    
+> 
+> Why not simply use
+>   echo "fred" >> file
+> for the second command?
+> 
+> 
+1: I'm used to it.
+
+2: saving me typing (quick web search):
+http://unix.derkeiler.com/Newsgroups/comp.unix.shell/2006-12/msg00934.html
+
+I know the example of the OP is simple, but most likely 'fred' will
+become a variable.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBD8C33.2070908@chello.at
+
+

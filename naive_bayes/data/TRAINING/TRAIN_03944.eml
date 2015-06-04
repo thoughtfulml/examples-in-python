@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288cdad19449cf5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs56827wfb;
+        Wed, 12 May 2010 07:11:11 -0700 (PDT)
+Received: by 10.223.127.196 with SMTP id h4mr8276930fas.56.1273673470226;
+        Wed, 12 May 2010 07:11:10 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u3si542879fan.28.2010.05.12.07.11.09;
+        Wed, 12 May 2010 07:11:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2A96D13A4315; Wed, 12 May 2010 14:11:02 +0000 (UTC)
+Old-Return-Path: <snood@comcast.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8A03B13A42F5
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 14:10:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id G0qZ0GN43Kwq for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 14:10:49 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .comcast. - helo: .qmta12.emeryville.ca.mail.comcast. - helo-domain: .comcast.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from qmta12.emeryville.ca.mail.comcast.net (qmta12.emeryville.ca.mail.comcast.net [76.96.27.227])
+	by liszt.debian.org (Postfix) with ESMTP id 7548613A4310
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 14:10:41 +0000 (UTC)
+Received: from omta01.emeryville.ca.mail.comcast.net ([76.96.30.11])
+	by qmta12.emeryville.ca.mail.comcast.net with comcast
+	id Gcjw1e0030EPchoACeAfkG; Wed, 12 May 2010 14:10:39 +0000
+Received: from [192.168.9.22] ([65.167.125.1])
+	by omta01.emeryville.ca.mail.comcast.net with comcast
+	id GeAH1e00f01vnnD8MeAQrt; Wed, 12 May 2010 14:10:34 +0000
+Message-ID: <4BEAB6C8.2070409@comcast.net>
+Date: Wed, 12 May 2010 10:10:16 -0400
+From: Snood <snood@comcast.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Switching from NV to Nouveau in Squeeze
+References: <4BE97290.7010109@comcast.net> <20100511214328.4ac28463@Mondo> <4BEA95B5.2080107@comcast.net> <4BEA9A3A.6090402@allums.com>
+In-Reply-To: <4BEA9A3A.6090402@allums.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <fm-DpZDVKZJ.A.p3G.2br6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576606
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 14:11:02 +0000 (UTC)
+
+On 05/12/2010 08:08 AM, Mark Allums wrote:
+> On 5/12/2010 6:49 AM, Snood wrote:
+>
+>> I'm looking forward to seeing if nouveau will be an improvement,
+>> performance-wise, without causing reliability issues.
+>>
+>> I am, however, going to wait and install nouveau the easy way, once the
+>> upgrade to xserver-xorg-core becomes available in the repository. If
+>> this weren't my main system I might be tempted to experiment, but I just
+>> need this thing to keep working.
+>
+>
+> People running non-stable (even squeeze) are going to run into problems
+> now and then. It's an unavoidable certainty. nouveau is, well, new.
+> There are going to be problems with it.
+
+Of course. But the problems I had with Gnome and Xfce on this system 
+occurred not only in Squeeze, but also when running an Ubuntu LTS 
+version and Debian Stable. I only saw those problems when using the 
+restricted / glx drivers. Never with nv or vesa. I think this is, 
+perhaps, more a measure of the card itself than the drivers. But I know 
+a number of people with "high end" graphics cards from nvidia who have 
+reported the same sorts of issues that I saw. It doesn't really matter 
+much as these particular systems are no longer used as graphics 
+workstations. As they've aged we stuck Linux on them and use them as 
+admin workhorses, a job for which they are admirably suited because of 
+all of the screen real estate.
+
+> Regarding reliability of video drivers: Running many different things,
+> hardware- and driver-wise, over time, I have learned that
+> dpkg-reconfigure is your friend, especially
+>
+> dpkg-reconfigure linux-image-2.6.32-5
+>
+> which regenerates the initrd.img. (I needed this recently. Substitute
+> the package name of your kernel.) Occasionally very helpful, that, when
+> troubleshooting drivers.
+
+Yes. In my earlier experiences I would just wipe the drive and start 
+over when I suspected that hangovers from previous experiments with 
+drivers were getting in the way of new configurations. But after I 
+became comfortable with a few different methods of installation and 
+initial configuration I started paying attention to things like 
+dpkg-reconfigure and debconf-show.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEAB6C8.2070409@comcast.net
+
+

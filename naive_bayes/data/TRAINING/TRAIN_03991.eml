@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId12896ff20588d78c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs27310wfo;
+        Fri, 14 May 2010 06:27:03 -0700 (PDT)
+Received: by 10.223.35.12 with SMTP id n12mr1662259fad.35.1273843622221;
+        Fri, 14 May 2010 06:27:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z20si5839535fah.60.2010.05.14.06.27.01;
+        Fri, 14 May 2010 06:27:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B84EF6C8461; Fri, 14 May 2010 13:26:55 +0000 (UTC)
+Old-Return-Path: <adam.ant@cyberspaceroad.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B685713A50B2
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 13:26:49 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Z67uWONLYmqG for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 13:26:42 +0000 (UTC)
+Received: from mx2.athnic.net (host80-240-94-7.athnic.net [80.240.94.7])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "mx2.athnic.net", Issuer "UTN-USERFirst-Hardware" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id 6B9136C8450
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 13:26:42 +0000 (UTC)
+Received: from [86.183.122.47] (host86-183-122-47.range86-183.btcentralplus.com [86.183.122.47])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx2.athnic.net (Postfix) with ESMTP id E9C5098C4C
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 14:26:39 +0100 (BST)
+Message-ID: <4BED4F8D.2080007@cyberspaceroad.com>
+Date: Fri, 14 May 2010 14:26:37 +0100
+From: Adam Hardy <adam.ant@cyberspaceroad.com>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: monitoring internet availability and sending sms alert?
+References: <4BEC8B36.7020509@cyberspaceroad.com> <4BED2046.9000006@cox.net> <4BED2676.90701@student.ulg.ac.be> <4BED34C9.2000306@cyberspaceroad.com> <4BED39F6.8020200@cox.net> <4BED4C6A.30303@cyberspaceroad.com>
+In-Reply-To: <4BED4C6A.30303@cyberspaceroad.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8yIxPOnxcNM.A.MnF.f-U7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576772
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 13:26:55 +0000 (UTC)
+
+Adam Hardy on 14/05/10 14:13, wrote:
+> Ron Johnson on 14/05/10 12:54, wrote:
+>> On 05/14/2010 06:32 AM, Adam Hardy wrote:
+>>> Merciadri Luca on 14/05/10 11:31, wrote:
+>>>> Ron Johnson wrote:
+>>>>> On 05/13/2010 06:28 PM, Adam Hardy wrote:
+>>>>>> I figure this is probably something I would have to script myself
+>>>>>> because I can't find anything useful looking out there, but I thought
+>>>>>> I'd ask before I try (or perhaps before I procrastinate again):
+>>>>>>
+>>>>>> I have a machine here at home running some 24x5 programs which I 
+>>>>>> really
+>>>>>> need to keep up and running, along with my broadband so it can get 
+>>>>>> its
+>>>>>> datafeeds.
+>>>>>>
+>>>>>> I figured I could run a program on my webserver to ping my home 
+>>>>>> machine
+>>>>>> regularly and in case it starts to slow down, lose packets or die
+>>>>>> completely, it could send me an SMS to alert me to the fact.
+>>>>>>
+>>>>>> Is there something like this already in existence?
+>>>>>>
+>>>>> smsclient, ping and bash should do the trick...
+>>>>>
+>>>> Might not be too hard to implement, as explained by Ron.
+>>>
+>>> I shall look into these options. I'll obviously have to open up the ping
+>>> port on my firewall.
+>>>
+>>
+>> Outgoing ports are randomly assigned, though, aren't they?
+> 
+> Sure. I mean on the box at home that I'm monitoring from the online 
+> server. Aaaah, just realised I don't have a fixed IP ?$*!(*)"*"!!!
+
+Actually the more I think about it, the more I realise that I would rather have 
+some kind of full blooded monitoring app which lets me see stats (or even charts 
+like ntop) of internet speed over the week, although I bet that is just dreaming.
+
+I read one thread somewhere out there about apps like cacti, zenoss and 
+groundwork - if you know anything about such packages, then you know more about 
+them than me: is this kind of package remotely suitable or am I barking up the 
+wrong tree?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED4F8D.2080007@cyberspaceroad.com
+
+

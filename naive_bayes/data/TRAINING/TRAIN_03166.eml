@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280cc6ed7748cbb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs22870wfj;
+        Sat, 17 Apr 2010 10:18:03 -0700 (PDT)
+Received: by 10.223.26.69 with SMTP id d5mr1491002fac.20.1271524682800;
+        Sat, 17 Apr 2010 10:18:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si6584764fkt.37.2010.04.17.10.18.02;
+        Sat, 17 Apr 2010 10:18:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5E61A13A5A10; Sat, 17 Apr 2010 17:17:57 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	WEBMAIL autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 63D1813A58EE
+	for <lists-debian-user@liszt.debian.org>; Sat, 17 Apr 2010 17:17:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, WEBMAIL=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JmP5Bff9nbnC for <lists-debian-user@liszt.debian.org>;
+	Sat, 17 Apr 2010 17:17:43 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id F1F9913A5899
+	for <debian-user@lists.debian.org>; Sat, 17 Apr 2010 17:17:42 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=EnAg6b0JcI4A:10 a=FKkrIqjQGGEA:10 a=Bed0S5BdCTcA:10 a=IkcTkHD0fZMA:10 a=BK9FcZcltkdtMJq6om4A:9 a=ghS_ioaEWTEgwWs82mUA:7 a=lZz4VqSGpNc4GRp64LurDNTEnnwA:4 a=QEXdDO2ut3YA:10 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:55432] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 26/98-21309-43DE9CB4; Sat, 17 Apr 2010 13:17:40 -0400
+Date: Sat, 17 Apr 2010 13:17:40 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <17634273.96763.1271524660328.JavaMail.root@md01.wow.synacor.com>
+Subject: Epiphany browser continues to get worse and worse
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [75.118.95.22]
+X-Mailer: Zimbra 6.0.5_GA_2213.RHEL4_64 (zclient/6.0.5_GA_2213.RHEL4_64)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8vbxj5TZTVH.A.OhG.F1eyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574327
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 17 Apr 2010 17:17:57 +0000 (UTC)
+
+I am continuing to suffer the on-going de-volution of the once-decent
+epiphany browser under Debian Squeeze.  First they broke file
+downloading.  They still haven't fixed that.  I'll bet it's been
+six months or more.
+
+Now I can't reply to any e-mails using the Wow basic
+webmail client.  I click on the "Reply" button, the mail compose
+screen appears for a fraction of a second, then I get this error
+screen.  The problem does not occur with iceweasel.  The problem is
+very recent.  It broke with a recent
+"aptitude update;aptitude full-upgrade" sequence.  I suppose I could
+report a bug, but I'm not about to give them my password so they
+can logon as me to test it!  I'm going back to iceweasel again.
+I kept using epiphany so I would know when the file download feature
+got fixed.  Instead they broke something else.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/17634273.96763.1271524660328.JavaMail.root@md01.wow.synacor.com
+
+

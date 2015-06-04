@@ -1,0 +1,136 @@
+X-Account-Key: account5
+X-UIDL: GmailId12812b44d7f14472
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs23wfj;
+        Sun, 18 Apr 2010 13:55:28 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr2168153fai.98.1271624125720;
+        Sun, 18 Apr 2010 13:55:25 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h2si9023044fkh.25.2010.04.18.13.55.20;
+        Sun, 18 Apr 2010 13:55:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 55D9513A49A6; Sun, 18 Apr 2010 20:55:16 +0000 (UTC)
+Old-Return-Path: <debian-security@stephan.homeunix.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9848F13A4829
+	for <lists-debian-security@liszt.debian.org>; Sun, 18 Apr 2010 20:55:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 89zSfDBmMmlE
+	for <lists-debian-security@liszt.debian.org>;
+	Sun, 18 Apr 2010 20:55:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 132 seconds by postgrey-1.31 at liszt; Sun, 18 Apr 2010 20:55:03 UTC
+Received: from v54870.topnetworks.de (v54870.topnetworks.de [82.197.159.26])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 2FF5513A4807
+	for <debian-security@lists.debian.org>; Sun, 18 Apr 2010 20:55:03 +0000 (UTC)
+Received: from v54870.topnetworks.de ([82.197.159.26] helo=[192.168.40.121])
+	by v54870.topnetworks.de with esmtp (Exim 4.69)
+	(envelope-from <debian-security@stephan.homeunix.net>)
+	id 1O3bTu-0004QB-IQ
+	for debian-security@lists.debian.org; Sun, 18 Apr 2010 22:52:43 +0200
+From: Jan =?iso-8859-1?q?L=FChr?= <debian-security@stephan.homeunix.net>
+To: debian-security@lists.debian.org
+Date: Sun, 18 Apr 2010 22:52:41 +0200
+User-Agent: KMail/1.9.10
+References: <1271361167.4998@bluehome.net> <4BC8196A.3090601@medical-city.de>
+In-Reply-To: <4BC8196A.3090601@medical-city.de>
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Message-Id: <201004182252.41966.debian-security@stephan.homeunix.net>
+X-SA-Exim-Connect-IP: 82.197.159.26
+X-SA-Exim-Mail-From: debian-security@stephan.homeunix.net
+Subject: Re: [volatile] Updated clamav-related packages available fortesting
+X-SA-Exim-Version: 4.2.1 (built Wed, 25 Jun 2008 17:14:11 +0000)
+X-SA-Exim-Scanned: Yes (on v54870.topnetworks.de)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Wyg4lRmSx5C.A.oh.0G3yLB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23788
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Sun, 18 Apr 2010 20:55:16 +0000 (UTC)
+
+Hello,
+
+On Friday 16 April 2010 10:01:46 you wrote:
+> Hi,
+>
+> Jason Self wrote/schrieb @ 15.04.2010 21:52:
+> > Kurt Roeckx <kurt@roeckx.be> wrote ..
+> >
+> >> What does this mean exactly?
+
+> deb http://volatile.debian.org/debian-volatile \
+> lenny-proposed-updates/volatile main contrib non-free
+
+The imho more interesting point is: What does it mean in the long term?
+The current situation is: 
+Volatile has clamav 0.95, while upstream has 0.96.  There are security related 
+issues in 0.95 (DoS etc.?) [1] that might affect(?) volatile - futhermore the 
+clamav-people are suggesting to use the latest version [2] - that is 0.96.
+Volatile itself is not supported by the security team [3] and the security 
+team refuses the support the current stable version [4].
+
+As a sysop running lenny/clamav on a few hosts, I started building clamav from 
+source and reading clamav's announce list.
+But I wonder, what does it mean in the long run:
+- Will volatile be updated to 0.96 soon?
+- Will clamav (in volatile) receive official security support?
+- Are there any (better supported) alternatives to clamav in lenny?
+- Afair there is no specific EOL-/Kill-Switch in clamav: ClamAV <= 0.94 is 
+unable to handle "big" incremental updates and a "too" big update was 
+shipped. Is it - from a naive point of view - just a bug that can be fixed in 
+debian [5]? Just apply the given patch [6] in lenny's clamav and be 
+happy? ;-)
+
+Thanks,
+Keep smiling
+yanosz
+
+
+
+[1] 
+http://git.clamav.net/gitweb?p=clamav-devel.git;a=blob_plain;f=ChangeLog;hb=clamav-0.95.3
+[2] http://www.clamav.net/lang/en/2009/10/05/eol-clamav-094/
+[3] http://www.debian.org/volatile/index.en.html
+[4] http://lists.debian.org/debian-security-announce/2009/msg00228.html
+[5] https://wwws.clamav.net/bugzilla/show_bug.cgi?id=1395
+[6] https://wwws.clamav.net/bugzilla/show_bug.cgi?id=1395#c12
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004182252.41966.debian-security@stephan.homeunix.net
+
+

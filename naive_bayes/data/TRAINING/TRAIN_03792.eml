@@ -1,0 +1,151 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c5d63795ca07b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs60275wfo;
+        Sun, 23 May 2010 08:44:30 -0700 (PDT)
+Received: by 10.142.118.2 with SMTP id q2mr2709325wfc.114.1274629469833;
+        Sun, 23 May 2010 08:44:29 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 38si3144934pzk.99.2010.05.23.08.44.29;
+        Sun, 23 May 2010 08:44:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 71E2A1CA5F9E5
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 08:44:29 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6DA3B27DCBD9E
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 08:44:29 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay11.apple.com (relay11.apple.com [17.128.113.48])
+	by lists.apple.com (Postfix) with ESMTP id AE15627DCB722
+	for <java-dev@lists.apple.com>; Sun, 23 May 2010 08:43:38 -0700 (PDT)
+X-AuditID: 11807130-b7c56ae000001d33-dd-4bf94d2a92eb
+Received: from [17.151.81.57] (Unknown_Domain [17.151.81.57])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay11.apple.com (Apple SCV relay) with SMTP id
+	34.1E.07475.A2D49FB4; Sun, 23 May 2010 08:43:38 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <4C76DB3C-BAF4-4218-A3D1-08EF42FE47EE@att.net>
+Date: Sun, 23 May 2010 08:43:37 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <54D9614E-06DE-4724-B89A-EFB0BF71E16C@apple.com>
+References: <DC58EDE0-BC94-4E56-BA37-7C8A277A71CD@q7design.demon.co.uk>
+	<ADB71160-5E91-4D4D-B41E-5F76A1A1B855@apple.com>
+	<821213D4-80CB-4EA9-B66D-B4FABA526775@activemath.org>
+	<36A81879-8E81-457E-9B1D-6AF1975F38BA@apple.com>
+	<AEA4ED12-330A-4D62-AB48-EDA28D0019A0@att.net>
+	<59477710-8D1D-49BC-803E-5FE9A41C0811@apple.com>
+	<4C76DB3C-BAF4-4218-A3D1-08EF42FE47EE@att.net>
+To: Michael Hall <hallmike@att.net>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: "java-dev@lists.apple.com Java-dev" <java-dev@lists.apple.com>
+Subject: State of Plugin2 (was Re: Java for Mac OS X 10.6 Update 2 and 10.5
+	Update 7 are live)
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On May 23, 2010, at 7:35 AM, Michael Hall wrote:
+
+> On May 23, 2010, at 9:16 AM, Mike Swingler wrote:
+>=20
+>> On May 22, 2010, at 5:01 PM, Michael Hall wrote:
+>>=20
+>>> On May 22, 2010, at 1:32 PM, Mike Swingler wrote:
+>>>=20
+>>>> Firefox is hardwired to Plugin1 with the JEP/MRJ, unless you remove =
+it them from (app)/Contents/MacOS/plugins
+>>>=20
+>>> Are you saying that if this is done for Firefox, the =
+Contents/MacOS/plugins files are 'removed', then plugin2 will =
+automatically get picked up and work correctly?
+>>=20
+>> Yes. I usually create a new directory =
+(Firefox.app/Contents/MacOS/plugins/disabled) and move both =
+JavaEmbeddingPlugin.bundle and MRJPlugin.plugin into that directory so I =
+still have them around.
+>>=20
+>> I'm at a complete loss why this doesn't work for Camino.
+>=20
+> Both Mozilla right? Googling last night Firefox I think was the only =
+one that came in both older Carbon and newer Cocoa flavors. But not sure =
+why they'd work different in that same setup either.
+> Wouldn't some way for these other browsers to control this other than =
+manipulating files be a little better? How many users not fortunate =
+enough to frequent the java-dev list would be aware they can do this? Is =
+there an official Apple preference for either plugin or would the =
+default setting just de facto be that? Is there any way to provide 3rd =
+party access to java preferences settings?
+
+I wouldn't suggest putting any time into engineering a Java-specific =
+switch which is only going to be used by an audience of developers, who =
+can follow steps on a wiki until Mozilla is ready to make the switch for =
+all of their customers. I think the plan is to just cut over completely =
+to Plugin2 and drop support for the JEP at some point (and we had to =
+ship Update 2 & 7 with the Plugin2 symlink present in /Library/Internet =
+Plug-Ins to make that a possibility). But really someone from Mozilla =
+would be best to comment on how and when they are planning to do what.
+
+I don't believe it makes sense for Apple to say which plugin "should be =
+the default for all browsers". Plugin1 is simply the default for Safari =
+for now (and will likely remain the default forever on Leopard). Chrome =
+never bothered to implement a compatibility hack to load Plugin1, and =
+simply did without Java support until Apple shipped an NPAPI Plugin2 =
+that could render cooperatively via CoreGraphics, and didn't use an =
+overlay window.
+
+Obviously, Plugin2 is a continuing work in progress that has several =
+more technical challenges ahead (like interleaving hardware accelerated =
+drawing), will likely require changes to browsers (like adopting =
+CoreAnimation-NPAPI drawing model), 3rd party libraries (like JOGL), and =
+will probably provide a tiered user experience based on which browser =
+supports which drawing models, event models, and other features. We are =
+also still iterating on the user experience of how to handle applets =
+that open their own windows and dialogs that are in a different process =
+from the browser.
+
+Currently, we don't have any stored setting which tracks the switch =
+between Plugin1 or Plugin2. The state of the Java Preferences UI is =
+actually just built from the presence or non-presence of the =
+JavaPluginCocoa.bundle symlink. In a future release when we make Plugin2 =
+the default for Safari, we'll simply delete the JavaPluginCocoa.bundle =
+in /Library/Internet Plug-ins (which we know Mozilla does not use), and =
+alter Java Preferences to write out a symlink to ~/Library/Internet =
+Plug-ins instead, so the change is only scoped to the user. At least =
+that's the current plan, and it could change, but it's the best idea =
+we've got so far.
+
+I hope this provides some perspective on where we'd like to go with =
+Plugin2,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

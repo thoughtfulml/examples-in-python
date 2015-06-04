@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d9bf8be6e368d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs41475wfi;
+        Wed, 7 Apr 2010 12:29:21 -0700 (PDT)
+Received: by 10.141.108.2 with SMTP id k2mr7923836rvm.125.1270668561022;
+        Wed, 07 Apr 2010 12:29:21 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 40si27318953iwn.128.2010.04.07.12.29.20;
+        Wed, 07 Apr 2010 12:29:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 85B2B1B82D9BA
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 12:29:20 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 7FAA226981E5D
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 12:29:20 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 20F9C269813E5
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 12:27:51 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 094EFCE91B71
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 12:27:51 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bffae00000768e-e5-4bbcdcb649a6
+Authentication-Results: mail-in13.apple.com
+	x-tls.subject="/C=CA/ST=AB/L=Calgary/O=Elluminate
+	Inc./CN=mail1.elluminate.com"; auth=fail (cipher=RC4-MD5)
+Received: from mail1.elluminate.com (mail.elluminate.com [139.142.154.2])
+	(using TLS with cipher RC4-MD5 (RC4-MD5/128 bits))
+	(Client CN "mail1.elluminate.com",
+	Issuer "DigiCert Global CA" (not verified))
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	5D.57.30350.6BCDCBB4; Wed,  7 Apr 2010 12:27:50 -0700 (PDT)
+Received: from dougz-g4.corp.elluminate.com (192.168.1.26) by
+	mail1.corp.elluminate.com (192.168.1.3) with Microsoft SMTP Server id
+	8.1.358.0; Wed, 7 Apr 2010 13:27:50 -0600
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0 (Apple Message framework v1077)
+From: Doug Zwick <dougzwick@elluminate.com>
+In-Reply-To: <20100407184642.C7EF0269778C0@lists.apple.com>
+Date: Wed, 7 Apr 2010 13:27:49 -0600
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <80079FDC-B365-46F4-95BB-44694A2BF378@elluminate.com>
+References: <20100407184642.C7EF0269778C0@lists.apple.com>
+To: "java-dev@lists.apple.com" <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1077)
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: Problems with JNI included in a JNLP on Mac OS X
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Mike Swingler wrote:
+
+> Your class is scoped under a JNLP-specifc ClassLoader: using the =
+provided jclass reference or directly passing a reference to the class =
+object you need will remove any lookup ambiguity. You should not =
+consider the JNI class lookup mechanism to be reliable while you are =
+being called from a static initializer.
+
+If you spawn the new thread in Java, and have it call down into your JNI =
+library, the thread will already be attached to the JVM, be part of the =
+correct Java ThreadGroup, and inherit all the expected behaviour of the =
+JWS environment. If you create the Thread in native code, what Java =
+ThreadGroup does it belong to? I've always avoided spawning new threads =
+in native code because of the amibuguity here.
+
+Be advised, however, that the thread where the static initializer is =
+running is holding the monitor lock for the class being loaded. The =
+monitor is not released until the static initializer returns and class =
+initialization is complete. This can result in deadlock when a helper =
+thread attempts to do anything with the class while the static =
+initializer is still running. I think it is in the JVM specification =
+where this is spelled out. I had to do some digging through it once, a =
+long time ago, to resolve a deadlocking issue (involving the native =
+Carbon native event thread, which tells you how long ago this was).=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId12839103261180a2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs75352wfj;
+        Mon, 26 Apr 2010 00:41:23 -0700 (PDT)
+Received: by 10.86.22.32 with SMTP id 32mr1321159fgv.61.1272267682519;
+        Mon, 26 Apr 2010 00:41:22 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 26si7764317fks.52.2010.04.26.00.41.21;
+        Mon, 26 Apr 2010 00:41:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A660E13A4959; Mon, 26 Apr 2010 07:41:14 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.1 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MAILTO_TO_SPAM_ADDR,RATWARE_GECKO_BUILD,RDNS_DYNAMIC
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4CCB913A54FA
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 07:41:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, RDNS_DYNAMIC=0.1]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id uKqG3d0bTRIu for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 07:41:01 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id 179A013A5466
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 07:41:01 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id 5D2416C243
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 02:40:58 -0500 (CDT)
+Message-ID: <4BD54389.1030604@hardwarefreak.com>
+Date: Mon, 26 Apr 2010 02:40:57 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org> <j2v537f90651004250829j1b0cb458y681b1732c2c2da4a@mail.csmining.org>
+In-Reply-To: <j2v537f90651004250829j1b0cb458y681b1732c2c2da4a@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BjyfljV7WzK.A.fTH.aOU1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575076
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 07:41:14 +0000 (UTC)
+
+Mike Castle put forth on 4/25/2010 10:29 AM:
+> On Sat, Apr 24, 2010 at 10:53 AM, B. Alexander <storm16@csmining.org> wrote:
+>> Does anyone have suggestions and practical experience with the pros and cons
+>> of the various filesystems?
+> 
+> Google is switching (has switched by now?) all of it's servers over to
+> ext4.  A web search will turn up more details on the subject.  But
+> they are mostly lots of big files.
+
+If it weren't for the live migration requirement, I read this to say that
+Google would be using XFS due to its superior performance:
+
+"In a mailing list post, Google engineer Michael Rubin provided more insight
+into the decision-making process that led the company to adopt Ext4. The
+filesystem offered significant performance advantages over Ext2 _and nearly
+rivaled the high-performance XFS filesystem_ during the company's tests.
+Ext4 was ultimately chosen over XFS because it would allow Google to do a
+live in-place upgrade of its existing Ext2 filesystems."
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD54389.1030604@hardwarefreak.com
+
+

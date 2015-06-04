@@ -1,0 +1,156 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286eff614aae834
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs411852wfb;
+        Thu, 6 May 2010 12:02:31 -0700 (PDT)
+Received: by 10.223.127.212 with SMTP id h20mr7166801fas.89.1273172549653;
+        Thu, 06 May 2010 12:02:29 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h18si597913fai.20.2010.05.06.12.02.29;
+        Thu, 06 May 2010 12:02:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8107613A54AA; Thu,  6 May 2010 19:02:27 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3BBA713A5440
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 19:02:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id rL5cfzATHWg8 for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 19:02:14 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 8DB1E13A5453
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 19:02:14 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so407567qyk.6
+        for <debian-kde@lists.debian.org>; Thu, 06 May 2010 12:02:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=TBfAnrZp6ZPYZKc1GQmKZ75sLPWgzCrSPpmAVay1KLo=;
+        b=e0oxZyNdPNWkE18KGjCbXMhG33lMC7yQMckPxysZ1X2kIuAnu6hGaAUyabiNjdDTel
+         jKWA3HkQkJPOtECs51v9w1Nd286GNPmko2HWdSYNWisHZCc9EyOJP4ZE7GwsCNKAgHF3
+         OnLY82p8jksmqdAeBWOoVfFWj7M6gaSNCfesk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=eu/JH8MsIl6mNwJlm8DYuPY0JyNK/+BFfiL7w1jEzhjTBfp+wwmAwZQ4HKKk/SxMzB
+         3DjYvKnv3rJdS/gMioNzLM899Q+YPWB3IDrddvyTe/5uW5mvviZfrsCiNtLY3kdvpYlM
+         IBguLwklK5w97jymF9cTw/IG7veO6OndECQWU=
+MIME-Version: 1.0
+Received: by 10.224.43.197 with SMTP id x5mr3131814qae.127.1273172526415; Thu, 
+	06 May 2010 12:02:06 -0700 (PDT)
+Received: by 10.229.221.13 with HTTP; Thu, 6 May 2010 12:02:05 -0700 (PDT)
+In-Reply-To: <201005061054.17409.mgb-debian@yosemite.net>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+	 <201005061013.46891.mgb-debian@yosemite.net>
+	 <i2k880dece01005061024v1f3c4914vd9eac1c2fff4db53@mail.csmining.org>
+	 <201005061054.17409.mgb-debian@yosemite.net>
+Date: Thu, 6 May 2010 22:02:05 +0300
+Message-ID: <p2o880dece01005061202xb6b00dbag1bc9731e28987444@mail.csmining.org>
+Subject: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Mike Bird <mgb-debian@yosemite.net>
+Cc: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <9r8mBH3FkEI.A.qvH.DJx4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32177
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 19:02:27 +0000 (UTC)
+
+On 6 May 2010 20:54, Mike Bird <mgb-debian@yosemite.net> wrote:
+> On Thu May 6 2010 10:24:08 Dotan Cohen wrote:
+>> > Even with perfect packaging KDE SC 4 is slow and unreliable,
+>>
+>> Slow? Can you elaborate? I can help with that.
+>>
+>> Unreliable? In what way?
+>
+> Are you aware that KDE PIM developers noticed that the percentage of
+> KMail users on KDE-PIM's own mailing list has dropped below 50%? =C2=A0Ev=
+en
+> KDE developers are fed up with KDE unreliability.
+>
+
+No, I am not aware of that. I also don't use Kmail.
+
+
+> Did you check my email's user-agent string?
+
+No. Do you customarily read the complete email headers of those whom
+with which you correspond?
+
+
+>=C2=A0It's "KMail/1.9.9" - the
+> last Debian STABLE KMail. =C2=A0How come you're not using KMail if it's s=
+o
+> stable in KDE SC 4?
+>
+
+I  cannot use Kmail until two feature requests are implemented:
+https://bugs.kde.org/show_bug.cgi?id=3D72926
+https://bugs.kde.org/show_bug.cgi?id=3D159251
+
+Thunderbird has this implemented as an extension:
+https://addons.mozilla.org/en-US/thunderbird/addon/594
+
+
+> Sune is not interested in working on KDE 3.5 but he's using slrn via
+> gmane.
+>
+> I have great respect for Ana's work but even Ana is using Mutt.
+>
+> Have you ever actually tried converting normal office workers from
+> KDE 3.5 to KDE SC 4? =C2=A0I have. =C2=A0Twice. =C2=A0Utter failure.
+>
+
+I have done tens of KDE 4 installs, and filed or triaged over 1300
+bugs at KDE. I have installed KDE-based systems for home users,
+students, university laboratories, a library, and some small home
+offices. Am I qualified enough for you to tell me what's wrong
+already?
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/p2o880dece01005061202xb6b00dbag1bc9731e28987444@mail.csmining.org
+
+

@@ -1,0 +1,817 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285978ca5901223
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs183943wfj;
+        Sun, 2 May 2010 07:43:29 -0700 (PDT)
+Received: by 10.223.29.156 with SMTP id q28mr2725712fac.77.1272811408386;
+        Sun, 02 May 2010 07:43:28 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si6871339fkt.49.2010.05.02.07.43.27;
+        Sun, 02 May 2010 07:43:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E0A5113A510A; Sun,  2 May 2010 14:43:19 +0000 (UTC)
+Old-Return-Path: <sarkiaponius@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.9 required=4.0 tests=FOURLA,IMPRONONCABLE_2,
+	LDO_WHITELIST autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A253C13A505A
+	for <lists-debian-user@liszt.debian.org>; Sun,  2 May 2010 14:43:13 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, IMPRONONCABLE_2=1, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ctW7BJUWJAor for <lists-debian-user@liszt.debian.org>;
+	Sun,  2 May 2010 14:43:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 961D113A5041
+	for <debian-user@lists.debian.org>; Sun,  2 May 2010 14:43:05 +0000 (UTC)
+Received: by wyf22 with SMTP id 22so1105604wyf.6
+        for <debian-user@lists.debian.org>; Sun, 02 May 2010 07:43:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:sender:received:subject:from
+         :to:cc:in-reply-to:references:content-type:content-transfer-encoding
+         :date:message-id:mime-version:x-mailer;
+        bh=SlIDn7rzHyPaHdWNjtMNqjLD1DVqlaImtwfIeB2GagU=;
+        b=urXjTa2jdEKwu1WBeMFdZ8PGyqcDNmKEm/NPWx83211ePr2gHwnINdKco78sma34RK
+         Z4gDCtKXjGXrz6BxYyEwJNpCa2VjHeiv8uqE45ezbfw+YiouEohu5MuT8QuP9fWW6zd7
+         abZxZXbsV9qaoX50Sf2tzLFupZd9HoR7JX01g=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=sender:subject:from:to:cc:in-reply-to:references:content-type
+         :content-transfer-encoding:date:message-id:mime-version:x-mailer;
+        b=M6czb0MQeBzOUE9I3fv4gvEXj622XX/2dYWE+s3sW7Q1tHYkV6vEECPwNG1C6ti1K+
+         iRXyYlRb+qvyqLKngphApaZcTckEO/X+4tD/Pa90j2GxAIBH51nMArWdmFzO3Zohq4ct
+         5yLmGNF6YpU+/46MGwYJdjLA4DTSOzuM3PuEY=
+Received: by 10.216.154.7 with SMTP id g7mr12828028wek.7.1272811378285;
+        Sun, 02 May 2010 07:42:58 -0700 (PDT)
+Received: from debian.it (net-93-145-75-129.t2.dsl.vodafone.it [93.145.75.129])
+        by mx.google.com with ESMTPS id z3sm33585945wbs.4.2010.05.02.07.42.30
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 02 May 2010 07:42:33 -0700 (PDT)
+Sender: Andrea Giuliano <sarkiaponius@csmining.org>
+Received: by debian.it (Postfix, from userid 1000)
+	id C714A3BE05; Sun,  2 May 2010 16:42:27 +0200 (CEST)
+Subject: [SOLVED] Re: NVidia MCP61, no sound...
+From: Andrea Giuliano <sarkiaponius@alice.it>
+To: Anand Sivaram <aspnair@csmining.org>
+Cc: debian-user <debian-user@lists.debian.org>
+In-Reply-To: <w2pd0bf7b0b1005012056lc9d09d6dw7fe805aed7a8d703@mail.csmining.org>
+References: <1272712434.16598.7.camel@debian>
+	 <pan.2010.05.01.11.36.09@csmining.org> <1272721966.6312.5.camel@debian>
+	 <pan.2010.05.01.14.08.44@csmining.org> <1272727535.20670.1.camel@debian>
+	 <v2wd0bf7b0b1005010910s737eaa0dnf75809624ea3d653@mail.csmining.org>
+	 <1272734343.3578.1.camel@debian>
+	 <w2pd0bf7b0b1005012056lc9d09d6dw7fe805aed7a8d703@mail.csmining.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Date: Sun, 02 May 2010 16:42:27 +0200
+Message-Id: <1272811347.3525.8.camel@debian>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <P0cGsR1RBJK.A.nLH.H-Y3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575685
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 14:43:19 +0000 (UTC)
+
+Dear Anand,=20
+
+I tried your configuration file, but nothing changed.
+
+For all of you who were so kind to try to help me, here are some good
+news: I tried to install kernel 2.6.32 from lenny backports and the
+sound seems to work now. At least I could here the "login.wav" that most
+Lenny users know.
+
+The bad part is that now I cannot make the graphics card to work,
+because I should recompile the NVidia driver, but to accomplish this
+task I need linux-headers-$(uname -r), and this package depend on  the
+corresponding linux-kbuild, which won't install, according to apt-get
+message.
+
+This is a pity, but at least now I'm sure the sound card is working. My
+PC is brand new, so I'm happy it's not a hardware problem, even though
+it's still a problem.
+
+So I would say the issue is solved, from my point of view. I won't ask
+some help to force the installation of linux-headers in this thread,
+maybe I'll start another one.
+
+Many many thanks to everyone!
+
+On Sun, 2010-05-02 at 09:26 +0530, Anand Sivaram wrote:
+> On Sat, May 1, 2010 at 22:49, Andrea Giuliano <sarkiaponius@alice.it> wro=
+te:
+> > Here is /usr/share/alsa/alsa.conf (that's a lot of lines!)
+> >
+> > Best regards.
+> >
+> > #
+> > #  ALSA library configuration file
+> > #
+> >
+> > # pre-load the configuration files
+> >
+> > @hooks [
+> >        {
+> >                func load
+> >                files [
+> >                        "/etc/asound.conf"
+> >                        "~/.asoundrc"
+> >                ]
+> >                errors false
+> >        }
+> > ]
+> >
+> > # load card-specific configuration files (on request)
+> >
+> > cards.@hooks [
+> >        {
+> >                func load
+> >                files [
+> >                        {
+> >                                @func concat
+> >                                strings [
+> >                                        { @func datadir }
+> >                                        "/cards/aliases.conf"
+> >                                ]
+> >                        }
+> >                ]
+> >        }
+> >        {
+> >                func load_for_all_cards
+> >                files [
+> >                        {
+> >                                @func concat
+> >                                strings [
+> >                                        { @func datadir }
+> >                                        "/cards/"
+> >                                        { @func private_string }
+> >                                        ".conf"
+> >                                ]
+> >                        }
+> >                ]
+> >                errors false
+> >        }
+> > ]
+> >
+> > #
+> > # defaults
+> > #
+> >
+> > # show all name hints also for definitions without hint {} section
+> > defaults.namehint.showall off
+> > # show just basic name hints
+> > defaults.namehint.basic on
+> > # show extended name hints
+> > defaults.namehint.extended off
+> > #
+> > defaults.ctl.card 0
+> > defaults.pcm.card 0
+> > defaults.pcm.device 0
+> > defaults.pcm.subdevice -1
+> > defaults.pcm.nonblock 1
+> > defaults.pcm.ipc_key 5678293
+> > defaults.pcm.ipc_gid audio
+> > defaults.pcm.ipc_perm 0660
+> > defaults.pcm.dmix.max_periods 0
+> > defaults.pcm.dmix.rate 48000
+> > defaults.pcm.dmix.format "unchanged"
+> > defaults.pcm.dmix.card defaults.pcm.card
+> > defaults.pcm.dmix.device defaults.pcm.device
+> > defaults.pcm.dsnoop.card defaults.pcm.card
+> > defaults.pcm.dsnoop.device defaults.pcm.device
+> > defaults.pcm.front.card defaults.pcm.card
+> > defaults.pcm.front.device defaults.pcm.device
+> > defaults.pcm.rear.card defaults.pcm.card
+> > defaults.pcm.rear.device defaults.pcm.device
+> > defaults.pcm.center_lfe.card defaults.pcm.card
+> > defaults.pcm.center_lfe.device defaults.pcm.device
+> > defaults.pcm.side.card defaults.pcm.card
+> > defaults.pcm.side.device defaults.pcm.device
+> > defaults.pcm.surround40.card defaults.pcm.card
+> > defaults.pcm.surround40.device defaults.pcm.device
+> > defaults.pcm.surround41.card defaults.pcm.card
+> > defaults.pcm.surround41.device defaults.pcm.device
+> > defaults.pcm.surround50.card defaults.pcm.card
+> > defaults.pcm.surround50.device defaults.pcm.device
+> > defaults.pcm.surround51.card defaults.pcm.card
+> > defaults.pcm.surround51.device defaults.pcm.device
+> > defaults.pcm.surround71.card defaults.pcm.card
+> > defaults.pcm.surround71.device defaults.pcm.device
+> > defaults.pcm.iec958.card defaults.pcm.card
+> > defaults.pcm.iec958.device defaults.pcm.device
+> > defaults.pcm.modem.card defaults.pcm.card
+> > defaults.pcm.modem.device defaults.pcm.device
+> > defaults.rawmidi.card 0
+> > defaults.rawmidi.device 0
+> > defaults.rawmidi.subdevice -1
+> > defaults.hwdep.card 0
+> > defaults.hwdep.device 0
+> > defaults.timer.class 2
+> > defaults.timer.sclass 0
+> > defaults.timer.card 0
+> > defaults.timer.device 0
+> > defaults.timer.subdevice 0
+> >
+> > #
+> > #  PCM interface
+> > #
+> >
+> > # redirect to load-on-demand extended pcm definitions
+> > pcm.cards cards.pcm
+> >
+> > pcm.default cards.pcm.default
+> > pcm.front cards.pcm.front
+> > pcm.rear cards.pcm.rear
+> > pcm.center_lfe cards.pcm.center_lfe
+> > pcm.side cards.pcm.side
+> > pcm.surround40 cards.pcm.surround40
+> > pcm.surround41 cards.pcm.surround41
+> > pcm.surround50 cards.pcm.surround50
+> > pcm.surround51 cards.pcm.surround51
+> > pcm.surround71 cards.pcm.surround71
+> > pcm.iec958 cards.pcm.iec958
+> > pcm.spdif iec958
+> > pcm.dmix cards.pcm.dmix
+> > pcm.dsnoop cards.pcm.dsnoop
+> > pcm.modem cards.pcm.modem
+> > pcm.phoneline cards.pcm.phoneline
+> >
+> > pcm.hw {
+> >        @args [ CARD DEV SUBDEV ]
+> >        @args.CARD {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        vars [
+> >                                ALSA_PCM_CARD
+> >                                ALSA_CARD
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.pcm.card
+> >                        }
+> >                }
+> >        }
+> >        @args.DEV {
+> >                type integer
+> >                default {
+> >                        @func igetenv
+> >                        vars [
+> >                                ALSA_PCM_DEVICE
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.pcm.device
+> >                        }
+> >                }
+> >        }
+> >        @args.SUBDEV {
+> >                type integer
+> >                default {
+> >                        @func refer
+> >                        name defaults.pcm.subdevice
+> >                }
+> >        }
+> >        type hw
+> >        card $CARD
+> >        device $DEV
+> >        subdevice $SUBDEV
+> >        hint {
+> >                show {
+> >                        @func refer
+> >                        name defaults.namehint.extended
+> >                }
+> >                description "Direct hardware device without any conversi=
+ons"
+> >        }
+> > }
+> >
+> > pcm.plughw {
+> >        @args [ CARD DEV SUBDEV ]
+> >        @args.CARD {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        vars [
+> >                                ALSA_PCM_CARD
+> >                                ALSA_CARD
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.pcm.card
+> >                        }
+> >                }
+> >        }
+> >        @args.DEV {
+> >                type integer
+> >                default {
+> >                        @func igetenv
+> >                        vars [
+> >                                ALSA_PCM_DEVICE
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.pcm.device
+> >                        }
+> >                }
+> >        }
+> >        @args.SUBDEV {
+> >                type integer
+> >                default {
+> >                        @func refer
+> >                        name defaults.pcm.subdevice
+> >                }
+> >        }
+> >        type plug
+> >        slave.pcm {
+> >                type hw
+> >                card $CARD
+> >                device $DEV
+> >                subdevice $SUBDEV
+> >        }
+> >        hint {
+> >                show {
+> >                        @func refer
+> >                        name defaults.namehint.extended
+> >                }
+> >                description "Hardware device with all software conversio=
+ns"
+> >        }
+> > }
+> >
+> > pcm.plug {
+> >        @args [ SLAVE ]
+> >        @args.SLAVE {
+> >                type string
+> >        }
+> >        type plug
+> >        slave.pcm $SLAVE
+> > }
+> >
+> > pcm.shm {
+> >        @args [ SOCKET PCM ]
+> >        @args.SOCKET {
+> >                type string
+> >        }
+> >        @args.PCM {
+> >                type string
+> >        }
+> >        type shm
+> >        server $SOCKET
+> >        pcm $PCM
+> > }
+> >
+> > pcm.tee {
+> >        @args [ SLAVE FILE FORMAT ]
+> >        @args.SLAVE {
+> >                type string
+> >        }
+> >        @args.FILE {
+> >                type string
+> >        }
+> >        @args.FORMAT {
+> >                type string
+> >                default raw
+> >        }
+> >        type file
+> >        slave.pcm $SLAVE
+> >        file $FILE
+> >        format $FORMAT
+> > }
+> >
+> > pcm.file {
+> >        @args [ FILE FORMAT ]
+> >        @args.FILE {
+> >                type string
+> >        }
+> >        @args.FORMAT {
+> >                type string
+> >                default raw
+> >        }
+> >        type file
+> >        slave.pcm null
+> >        file $FILE
+> >        format $FORMAT
+> > }
+> >
+> > pcm.null {
+> >        type null
+> >        hint {
+> >                show {
+> >                        @func refer
+> >                        name defaults.namehint.basic
+> >                }
+> >                description "Discard all samples (playback) or generate =
+zero samples
+> > (capture)"
+> >        }
+> > }
+> >
+> > #
+> > #  Control interface
+> > #
+> >
+> > ctl.default {
+> >        type hw
+> >        card {
+> >                @func getenv
+> >                vars [
+> >                        ALSA_CTL_CARD
+> >                        ALSA_CARD
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name defaults.ctl.card
+> >                }
+> >        }
+> > }
+> >
+> > ctl.hw {
+> >        @args [ CARD ]
+> >        @args.CARD {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        vars [
+> >                                ALSA_CTL_CARD
+> >                                ALSA_CARD
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.ctl.card
+> >                        }
+> >                }
+> >        }
+> >        type hw
+> >        card $CARD
+> > }
+> >
+> > ctl.shm {
+> >        @args [ SOCKET CTL ]
+> >        @args.SOCKET {
+> >                type string
+> >        }
+> >        @args.CTL {
+> >                type string
+> >        }
+> >        type shm
+> >        server $SOCKET
+> >        ctl $CTL
+> > }
+> >
+> > #
+> > #  RawMidi interface
+> > #
+> >
+> > rawmidi.default {
+> >        type hw
+> >        card {
+> >                @func getenv
+> >                vars [
+> >                        ALSA_RAWMIDI_CARD
+> >                        ALSA_CARD
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name defaults.rawmidi.card
+> >                }
+> >        }
+> >        device {
+> >                @func igetenv
+> >                vars [
+> >                        ALSA_RAWMIDI_DEVICE
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name defaults.rawmidi.device
+> >                }
+> >        }
+> > }
+> >
+> > rawmidi.hw {
+> >        @args [ CARD DEV SUBDEV ]
+> >        @args.CARD {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        vars [
+> >                                ALSA_RAWMIDI_CARD
+> >                                ALSA_CARD
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.rawmidi.card
+> >                        }
+> >                }
+> >        }
+> >        @args.DEV {
+> >                type integer
+> >                default {
+> >                        @func igetenv
+> >                        vars [
+> >                                ALSA_RAWMIDI_DEVICE
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.rawmidi.device
+> >                        }
+> >                }
+> >        }
+> >        @args.SUBDEV {
+> >                type integer
+> >                default -1
+> >        }
+> >        type hw
+> >        card $CARD
+> >        device $DEV
+> >        subdevice $SUBDEV
+> >        hint {
+> >                description "Direct rawmidi driver device"
+> >                device $DEV
+> >        }
+> > }
+> >
+> > rawmidi.virtual {
+> >        @args [ MERGE ]
+> >        @args.MERGE {
+> >                type string
+> >                default 1
+> >        }
+> >        type virtual
+> >        merge $MERGE
+> > }
+> >
+> > #
+> > #  Sequencer interface
+> > #
+> >
+> > seq.default {
+> >        type hw
+> > }
+> >
+> > seq.hw {
+> >        type hw
+> > }
+> >
+> > #
+> > #  HwDep interface
+> > #
+> >
+> > hwdep.default {
+> >        type hw
+> >        card {
+> >                @func getenv
+> >                vars [
+> >                        ALSA_HWDEP_CARD
+> >                        ALSA_CARD
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name defaults.hwdep.card
+> >                }
+> >        }
+> >        device {
+> >                @func igetenv
+> >                vars [
+> >                        ALSA_HWDEP_DEVICE
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name defaults.hwdep.device
+> >                }
+> >        }
+> > }
+> >
+> > hwdep.hw {
+> >        @args [ CARD DEV ]
+> >        @args.CARD {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        vars [
+> >                                ALSA_HWDEP_CARD
+> >                                ALSA_CARD
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.hwdep.card
+> >                        }
+> >                }
+> >        }
+> >        @args.DEV {
+> >                type integer
+> >                default {
+> >                        @func igetenv
+> >                        vars [
+> >                                ALSA_HWDEP_DEVICE
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name defaults.hwdep.device
+> >                        }
+> >                }
+> >        }
+> >        type hw
+> >        card $CARD
+> >        device $DEV
+> > }
+> >
+> > #
+> > #  Timer interface
+> > #
+> >
+> > timer_query.default {
+> >        type hw
+> > }
+> >
+> > timer_query.hw {
+> >        type hw
+> > }
+> >
+> > timer.default {
+> >        type hw
+> >        class {
+> >                @func refer
+> >                name defaults.timer.class
+> >        }
+> >        sclass {
+> >                @func refer
+> >                name defaults.timer.sclass
+> >        }
+> >        card {
+> >                @func refer
+> >                name defaults.timer.card
+> >        }
+> >        device {
+> >                @func refer
+> >                name defaults.timer.device
+> >        }
+> >        subdevice {
+> >                @func refer
+> >                name defaults.timer.subdevice
+> >        }
+> >        hint.description "Default direct hardware timer device"
+> > }
+> >
+> > timer.hw {
+> >        @args [ CLASS SCLASS CARD DEV SUBDEV ]
+> >        @args.CLASS {
+> >                type integer
+> >                default {
+> >                        @func refer
+> >                        name defaults.timer.class
+> >                }
+> >        }
+> >        @args.SCLASS {
+> >                type integer
+> >                default {
+> >                        @func refer
+> >                        name defaults.timer.sclass
+> >                }
+> >        }
+> >        @args.CARD {
+> >                type string
+> >                default {
+> >                        @func refer
+> >                        name defaults.timer.card
+> >                }
+> >        }
+> >        @args.DEV {
+> >                type integer
+> >                default {
+> >                        @func refer
+> >                        name defaults.timer.device
+> >                }
+> >        }
+> >        @args.SUBDEV {
+> >                type integer
+> >                default {
+> >                        @func refer
+> >                        name defaults.timer.subdevice
+> >                }
+> >        }
+> >        type hw
+> >        class $CLASS
+> >        sclass $SCLASS
+> >        card $CARD
+> >        device $DEV
+> >        subdevice $SUBDEV
+> > }
+> >
+> >
+> > On Sat, 2010-05-01 at 21:40 +0530, Anand Sivaram wrote:
+> >> On Sat, May 1, 2010 at 20:55, Andrea Giuliano <sarkiaponius@alice.it> =
+wrote:
+> >> > Here aplay -l:
+> >> >
+> >> > card 0: NVidia [HDA NVidia], device 0: HDA Generic [HDA Generic]
+> >> >  Subdevices: 1/1
+> >> >  Subdevice #0: subdevice #0
+> >> >
+> >> > Here is amixer info, too:
+> >> >
+> >> > Card default 'NVidia'/'HDA NVidia at 0xf9ef8000 irq 22'
+> >> >  Mixer name    : 'VIA ID 397'
+> >> >  Components    : 'HDA:11060397'
+> >> >  Controls      : 4
+> >> >  Simple ctrls  : 3
+> >> >
+> >> > Actually, you are right, it's rather strange I see just a few contro=
+ls,
+> >> > they should be many more (my card is a 7.1 points one).
+> >> >
+> >> > On Sat, 2010-05-01 at 14:08 +0000, Camale=C3=B3n wrote:
+> >> >> On Sat, 01 May 2010 15:52:46 +0200, Andrea Giuliano wrote:
+> >> >>
+> >> >> > Alsamixer doesn'i show muted input. Not does gnome-volume-setting=
+s. I
+> >> >> > also checked out gnome-sound-properties, and it gives no errors a=
+t all,
+> >> >> > as if it thinks everything is working fine.
+> >> >> >
+> >> >> > Here is the output from amixer:
+> >> >>
+> >> >> Only "master", "PCM" and "capture"?
+> >> >>
+> >> >> No "mic" and no additional "aux" or "surround" outputs? :-?
+> >> >>
+> >> >> > and here is /proc/asound/cards
+> >> >> >
+> >> >> >  0 [NVidia         ]: HDA-Intel - HDA NVidia
+> >> >> >                       HDA NVidia at 0xf9ef8000 irq 22
+> >> >> >
+> >> >> > I'm going to try a LiveCD or such, but I'm not very optimistic.
+> >> >>
+> >> >> Modern motherboards use to include 5.1 or 7.1 audio channel chipset=
+, it's
+> >> >> a bit weird your amixer output only shows 3 devices...
+> >> >>
+> >> >> This may sound silly, but have you tried to plug the speakers jack =
+in all
+> >> >> the outlets available?
+> >> >>
+> >> >> What does "aplay -l" say?
+> >> >>
+> >> >> Greetings,
+> >> >>
+> >> >> --
+> >> >> Camale=C3=B3n
+> >> >>
+> >> >>
+> >> >
+> >> >
+> >> > --
+> >> > To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> >> > with a subject of "unsubscribe". Trouble? Contact listmaster@lists.d=
+ebian.org
+> >> > Archive: http://lists.debian.org/1272727535.20670.1.camel@debian
+> >> >
+> >> >
+> >>
+> >> What is the output of /usr/share/alsa/alsa.conf
+> >>
+> >>
+> >
+>=20
+> This is the working alsa.conf of my athlon mcp61 machine.
+> Could you try the following.
+> cd /usr/share/alsa
+> mv alsa.conf alsa.conf.original (_do_ _not_ delete it, just move it so
+> that you could copy  it back in case required)
+> gunzip /path/to/download/alsa.conf.gz
+> mv /path/to/download/alsa.conf ./
+> restart machine.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272811347.3525.8.camel@debian
+
+

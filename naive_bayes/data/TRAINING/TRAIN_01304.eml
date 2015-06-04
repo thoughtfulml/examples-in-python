@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888c5933c1f9ef
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs4007wfb;
+        Tue, 11 May 2010 12:09:30 -0700 (PDT)
+Received: by 10.223.77.86 with SMTP id f22mr6823832fak.49.1273604969376;
+        Tue, 11 May 2010 12:09:29 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t1si12092543faa.46.2010.05.11.12.09.28;
+        Tue, 11 May 2010 12:09:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9650C2E8B62; Tue, 11 May 2010 19:09:25 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E071B2E8B61
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 19:09:19 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id GJFdaz0z5yJb for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 19:09:12 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 275312E8B5D
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 19:09:12 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so8711524qyk.6
+        for <debian-kde@lists.debian.org>; Tue, 11 May 2010 12:09:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=YvWER/ehpJoPyKuEbMYvPzlNnVKQXDHDtuiqBSBmiAU=;
+        b=XYxkxOXHYBTx2tdATopV2mtoRVf/ZjmPSJ+tYEUVV0dYtuevg156Xeh7d3kA89iffW
+         oyo77HNnOoTyAhegiW6si/MdbdEAHpSvfd1wqE6at1BbGRacYU9iKNtHl9lRcuRKV+zK
+         2U7DdFcu6LOacwuuk+/XNNxTYHP3uQSOOkI7M=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=ZjDCGtc1pEJRmvRE2+Cb+wKlrD3/Ow9CR+3O9mJWd8zTsKQsKBd340dCMjjXznohsS
+         Yw7GI3UQ+u0eazBbrp5YLABZjCLlvQrFR3OPm4qXsM59gGlgOfIkYEO09XCS8qNrCyMb
+         laHz6Oa6yhptHXjPJGHPX0ieItHWTRym/bvG4=
+MIME-Version: 1.0
+Received: by 10.224.52.23 with SMTP id f23mr4221228qag.57.1273604944106; Tue, 
+	11 May 2010 12:09:04 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Tue, 11 May 2010 12:09:03 -0700 (PDT)
+In-Reply-To: <201005110811.57482@fortytwo.ch>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+	 <AANLkTilmJH5xC584VbDBnqGdNjRxpZxY-gJZkOBTjtc0@mail.csmining.org>
+	 <AANLkTikT9DpKjAvZ6Jlc_5Uf3Oz5ZI6ZLGORWXfZhvoE@mail.csmining.org>
+	 <201005110811.57482@fortytwo.ch>
+Date: Tue, 11 May 2010 22:09:03 +0300
+Message-ID: <AANLkTik1GL9dfwldAhoYUoPD6kaDGnTixl6HLLKWdR1n@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <JFHKT1WTRBL.A.OkB.lta6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32384
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 19:09:25 +0000 (UTC)
+
+On 11 May 2010 09:11, Adrian von Bidder <avbidder@fortytwo.ch> wrote:
+> Dotan,
+>
+> On Monday 10 May 2010 18.12:46 Dotan Cohen wrote:
+>> I started 4.4 on a new ~/.kde
+>> folder, can you try in a new user profile and report back?
+>
+> I hate it when this shows up. =C2=A0Yes, it's probably easier to debug, b=
+ut often
+> bugs *do* show up that don't happen anymore when I remove my ~/.kde
+> directory, but this doesn't really help the user who has the bug.
+> Unfortunately, the end result is very often that removing ~/.kde and
+> starting from scratch becomes the only solution that is "officially"
+> recommended.
+>
+
+I know, but it helps to know if the bug is in the config file or the
+software package. The config file _should_ have been updated when the
+KDE version was, and I need to know that.
+
+
+> Fine. =C2=A0Except that reconfiguring my desktop to how I want it takes a=
+ges. =C2=A0I
+> use offline IMAP and have 100s of MB of email in my ~/.kde that will need=
+ to
+> be re-downloaded. =C2=A0And stuff like the calendar etc. is in there, too=
+. =C2=A0And
+> the nepomuk database etc.
+>
+
+You can copy those parts right back over!
+
+
+> So yes, KDE people may well want to know if a bug happens on old
+> configurations only or if it happens on new configurations, but I think
+> there's an attitude problem here: KDE needs to become MUCH better at deal=
+ing
+> with unexpected input from its configuration. =C2=A0(I don't have a preci=
+se
+> example right now; I'll try to report this kind of issue when I see it ne=
+xt.
+> Admittedly, KDE has improved in this area as well.)
+>
+
+I agree with you 100%. I really do.
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTik1GL9dfwldAhoYUoPD6kaDGnTixl6HLLKWdR1n@mail.csmining.org
+
+

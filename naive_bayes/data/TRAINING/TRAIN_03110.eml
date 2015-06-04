@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId12846ffe54f5103b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs206463wfj;
+        Wed, 28 Apr 2010 17:38:16 -0700 (PDT)
+Received: by 10.87.35.9 with SMTP id n9mr5959fgj.45.1272501494886;
+        Wed, 28 Apr 2010 17:38:14 -0700 (PDT)
+Return-Path: <bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e11si10158061fga.3.2010.04.28.17.38.14;
+        Wed, 28 Apr 2010 17:38:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A580E13A4EF2; Thu, 29 Apr 2010 00:38:12 +0000 (UTC)
+Old-Return-Path: <sectracker@soler.debian.org>
+X-Original-To: lists-debian-testing-security-announce@liszt.debian.org
+Delivered-To: lists-debian-testing-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 63C0013A4E40
+	for <lists-debian-testing-security-announce@liszt.debian.org>; Thu, 29 Apr 2010 00:38:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -7.001
+XLevel: 
+XStatus: No, score=-7.001 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, NO_RELAYS=-0.001] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Hb1TOMgPde63
+	for <lists-debian-testing-security-announce@liszt.debian.org>;
+	Thu, 29 Apr 2010 00:38:05 +0000 (UTC)
+Received: from draghi.debian.org (draghi.debian.org [IPv6:2001:41b8:202:deb:216:36ff:fe40:3906])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 1517A13A4E80
+	for <debian-testing-security-announce@lists.debian.org>; Thu, 29 Apr 2010 00:38:05 +0000 (UTC)
+Received: from soler.debian.org ([2001:8d8:2:1:6564:a62:0:5])
+	from C=NA,ST=NA,L=Ankh Morpork,O=Debian SMTP,OU=Debian SMTP CA,CN=soler.debian.org,EMAIL=hostmaster@soler.debian.org (verified)
+	by draghi.debian.org with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <sectracker@soler.debian.org>)
+	id 1O7HlS-0001aP-Lw
+	for debian-testing-security-announce@lists.debian.org; Thu, 29 Apr 2010 00:38:02 +0000
+Received: from sectracker by soler.debian.org with local (Exim 4.69)
+	(envelope-from <sectracker@soler.debian.org>)
+	id 1O7HlS-0005nH-55
+	for debian-testing-security-announce@lists.debian.org; Thu, 29 Apr 2010 00:38:02 +0000
+From: Testing Security Team <secure-testing-team@lists.alioth.debian.org>
+To: debian-testing-security-announce@lists.debian.org
+Subject: Security update for Debian Testing - 2010-04-29
+Message-Id: <E1O7HlS-0005nH-55@soler.debian.org>
+Sender: security tracker role <sectracker@soler.debian.org>
+Date: Thu, 29 Apr 2010 00:38:02 +0000
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jT60ZkqQ8qJ.A.PjC.0TN2LB@liszt>
+Resent-From: debian-testing-security-announce@lists.debian.org
+X-Mailing-List: <debian-testing-security-announce@lists.debian.org> archive/latest/259
+X-Loop: debian-testing-security-announce@lists.debian.org
+List-Id: <debian-testing-security-announce.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-testing-security-announce/>
+List-Post: <mailto:debian-testing-security-announce@lists.debian.org>
+List-Help: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-testing-security-announce-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 00:38:12 +0000 (UTC)
+
+This automatic mail gives an overview over security issues that were recently 
+fixed in Debian Testing. The majority of fixed packages migrate to testing 
+from unstable. If this would take too long, fixed packages are uploaded to the 
+testing-security repository instead. It can also happen that vulnerable 
+packages are removed from Debian testing.
+
+Migrated from unstable:
+=======================
+alien-arena 7.33-6 (contrib):
+<no CVE yet> : alien-arena: server dos
+               http://bugs.debian.org/575621
+
+
+
+How to update:
+--------------
+Make sure the line
+
+	deb http://security.debian.org squeeze/updates main contrib non-free
+
+is present in your /etc/apt/sources.list. Of course, you also need the line
+pointing to your normal squeeze mirror. You can use
+
+	aptitude update && aptitude dist-upgrade
+
+to install the updates.
+
+
+More information:
+-----------------
+More information about which security issues affect Debian can be found in the 
+security tracker:
+
+	http://security-tracker.debian.org/tracker/
+
+A list of all known unfixed security issues is at
+
+	http://security-tracker.debian.org/tracker/status/release/testing
+
+
+-- 
+To UNSUBSCRIBE, email to debian-testing-security-announce-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E1O7HlS-0005nH-55@soler.debian.org
+
+

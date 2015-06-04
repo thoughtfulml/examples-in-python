@@ -1,0 +1,152 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282dcd5bad5612d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs83616wfj;
+        Fri, 23 Apr 2010 20:12:35 -0700 (PDT)
+Received: by 10.87.35.20 with SMTP id n20mr1730374fgj.0.1272078753983;
+        Fri, 23 Apr 2010 20:12:33 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si3295433fka.44.2010.04.23.20.12.32;
+        Fri, 23 Apr 2010 20:12:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; domainkeys=hardfail header.From=goran@dobosevic.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 17E3913A4F87; Sat, 24 Apr 2010 03:12:14 +0000 (UTC)
+Old-Return-Path: <goran@dobosevic.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8CA2A13A4D7C
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 03:12:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QNjRC2jOyvdS for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 03:12:01 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .dobosevic. - helo: .outbound-mail-01.bluehost. - helo-domain: .bluehost.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from outbound-mail-01.bluehost.com (cpoproxy1-pub.bluehost.com [69.89.21.11])
+	by liszt.debian.org (Postfix) with SMTP id 9F15E13A4A6B
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 03:11:47 +0000 (UTC)
+Received: (qmail 2661 invoked by uid 0); 24 Apr 2010 03:11:44 -0000
+Received: from unknown (HELO host307.hostmonster.com) (74.220.215.107)
+  by cpoproxy1.bluehost.com with SMTP; 24 Apr 2010 03:11:44 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=dobosevic.com;
+	h=Received:Message-ID:Date:From:User-Agent:MIME-Version:To:Subject:References:In-Reply-To:Content-Type:Content-Transfer-Encoding:X-Identified-User;
+	b=r0/7MF7xhjOxfTAE7PKgCtHTyIgQt9/FendNdFO5xKOe98WHE3RU7RAmiD+z83U/ASkWizIF6HrSDmZfK0D13nTBbybMjxIwPR+Ax+E4AQbYv2qNEd7etmupDI4dOyTe;
+Received: from 93-139-115-73.adsl.net.t-com.hr ([93.139.115.73] helo=[192.168.1.241])
+	by host307.hostmonster.com with esmtpa (Exim 4.69)
+	(envelope-from <goran@dobosevic.com>)
+	id 1O5VmR-0007Zk-Vz
+	for debian-user@lists.debian.org; Fri, 23 Apr 2010 21:11:44 -0600
+Message-ID: <4BD260C5.1020600@dobosevic.com>
+Date: Sat, 24 Apr 2010 05:08:53 +0200
+From: godo <goran@dobosevic.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: VM software for personal use?
+References: <87y6ge166m.fsf@berkeley.edu>
+In-Reply-To: <87y6ge166m.fsf@berkeley.edu>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Identified-User: {818:host307.hostmonster.com:paukicco:dobosevic.com} {sentby:smtp auth 93.139.115.73 authed with goran@dobosevic.com}
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bHOFD3x-TVD.A.k4G.OGm0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574869
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 03:12:14 +0000 (UTC)
+
+On 04/23/2010 06:31 PM, Richard Lawrence wrote:
+> Hi all,
+>
+> I am looking to run some virtual machines for personal use: I'd like
+> to (attempt to) try out some alternative OSes from within my Lenny
+> host.  My goals are to be able to get a taste of some more "exotic"
+> systems (maybe: BSD, Plan 9, Open Genera) without threatening my
+> stable environment, and with easy cleanup.  My understanding is that
+> the easiest way to do this is to run these systems as virtual
+> machines, though if others have different suggestions, please let me
+> know.
+>
+> I would also just like to learn more about running a VM, since I'd
+> like to be able to help my dad out. He has a Windows development
+> machine that is choking to death on anti-virus software.  It would be
+> nice to be able to help him convert that into a VM inside GNU/Linux,
+> so the machine will become usable again for things other that don't
+> require Windows.
+>
+> I am wondering if others have recommendations for where to start with
+> this project.  I am pretty much a complete newb with respect to
+> virtual machine technology; I don't really know how to assess whether
+> Xen, VirtualBox, QEMU, KVM, or something else would be the best
+> software for me to start learning.
+>
+> I value:
+> - free over non-free
+> - ease of use and good documentation over performance
+> - installation via apt and reasonable default configuration
+> - simple networking on commodity hardware
+> - other basic integration with host OS services (perhaps file sharing,
+> USB, printing)
+>
+> I realize that these things may not all come in the same package. But
+> if they do, or if someone could give me some guidance about how to
+> sort out the tradeoffs, I'd be most appreciative!
+>
+> Thanks,
+>
+> Richard
+>
+> P.S.  Apologies if this question seems too far off-topic for
+> debian-user.  If there's a better place to ask this question, I'd like
+> to know that, too.
+>
+>
+Hi,
+I have Sun VirtualBox. It's easy to use and install.
+The guests OS that I tried and work: Debian, MEPIS, OpenSolaris, 
+OpenSuse, Solaris 10, XP and some other Linux distros. DesktopBSD and 
+FreeBSD work but can't get GUI -that can be lack of my knowledge.
+
+Same with open VirtualBox except I think that there is no USB support.
+
+Aqemu (qemu) easy to use and install -DesktopBSD work's with GUI.
+
+I think that all VM have file sharing, printing depends on USB if you 
+have USB printer.
+
+-- 
+Bye,
+Goran Dobosevic
+Hrvatski: www.dobosevic.com
+  English: www.dobosevic.com/en/
+Registered Linux User #503414
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD260C5.1020600@dobosevic.com
+
+

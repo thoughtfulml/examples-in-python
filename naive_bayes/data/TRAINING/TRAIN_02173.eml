@@ -1,0 +1,258 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d7ede24c6a140
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs16762wfi;
+        Wed, 7 Apr 2010 04:00:46 -0700 (PDT)
+Received: by 10.87.53.28 with SMTP id f28mr13294898fgk.70.1270638043781;
+        Wed, 07 Apr 2010 04:00:43 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 28si23352340fxm.28.2010.04.07.04.00.43;
+        Wed, 07 Apr 2010 04:00:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9E6CE2D0F84; Wed,  7 Apr 2010 11:00:40 +0000 (UTC)
+Old-Return-Path: <smokejohn@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1CE102D0C5A
+	for <lists-debian-kde@liszt.debian.org>; Wed,  7 Apr 2010 11:00:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Hn1adKu95Xr8 for <lists-debian-kde@liszt.debian.org>;
+	Wed,  7 Apr 2010 11:00:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f210.google.com (mail-fx0-f210.google.com [209.85.220.210])
+	by liszt.debian.org (Postfix) with ESMTP id AAAF413A448E
+	for <debian-kde@lists.debian.org>; Wed,  7 Apr 2010 11:00:26 +0000 (UTC)
+Received: by fxm2 with SMTP id 2so851712fxm.30
+        for <debian-kde@lists.debian.org>; Wed, 07 Apr 2010 04:00:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type;
+        bh=o2fOdlUEr/Azm8Qge7rz4N5SYkN+GlUZZ8LkABI8ICg=;
+        b=K6vfQPahx7LxEyuys8zWIFpCD4IBQZ7aMHUTZHqTgJeA+Mr0Wc47ig+12Cqa9ajHfo
+         jl12AkrT82cw1JKKQGbdKhe7WfWY+oiyjsJVgNToAMlhP608u2RQTxBBlZua/mUw4Uo8
+         RzUxeTuhDXctvFO0rD5GveMkFO0b4FkJXHxqk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=ZkNQZV8v/FyWXaOSLqEBeQlUBQRLsS4F/bR+Uo7neIU+v92kBjFa2w/O+Qs0UqXr7P
+         eD3RF7foQ6uFczimN9hx4VxwziS9VX+/r5gBHwsfBVq4T5TJPphmtTVmE4JdXIS4e1kj
+         lu73wT673uZyx38eWois0oQcgYyCTJwXAu6gI=
+MIME-Version: 1.0
+Received: by 10.223.108.2 with HTTP; Wed, 7 Apr 2010 04:00:20 -0700 (PDT)
+In-Reply-To: <w2laee79c571004070335q80635354uf21347f6776b2a38@mail.csmining.org>
+References: <4BBB62E7.9010208@csmining.org>
+	 <l2w8f23146b1004061146w7dca7842sd0c14533936b2caa@mail.csmining.org>
+	 <n2zaee79c571004061341q66664974z7e5c4ce1decdb79d@mail.csmining.org>
+	 <201004062253.54963.colonius@free.fr>
+	 <u2x8f23146b1004070315t791a80d4sc27bdf20a2e14b23@mail.csmining.org>
+	 <g2naee79c571004070334gd92eb786uefc481df70c74cce@mail.csmining.org>
+	 <w2laee79c571004070335q80635354uf21347f6776b2a38@mail.csmining.org>
+Date: Wed, 7 Apr 2010 14:00:20 +0300
+Received: by 10.223.15.148 with SMTP id k20mr8817598faa.67.1270638021842; Wed, 
+	07 Apr 2010 04:00:21 -0700 (PDT)
+Message-ID: <y2y8f23146b1004070400g4060b0bbxb06f93989117389@mail.csmining.org>
+Subject: Re: Cannot login
+From: Smokejohn <smokejohn@csmining.org>
+To: Daniel Sutil <daniel.sutil@csmining.org>
+Cc: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=00151747373aee17e00483a37765
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <skQaxyLRPDG.A.6WB.YXGvLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31973
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 11:00:40 +0000 (UTC)
+
+--00151747373aee17e00483a37765
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, Apr 7, 2010 at 1:35 PM, Daniel Sutil <daniel.sutil@csmining.org> wrote=
+:
+
+>
+> On Wed, Apr 7, 2010 at 12:15 PM, Smokejohn <smokejohn@csmining.org> wrote:
+>
+>>
+>>
+>> On Tue, Apr 6, 2010 at 11:53 PM, Klaus Becker <colonius@free.fr> wrote:
+>>
+>>> Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :
+>>> > Finally I applied the following workaround: I remove kdm and installe=
+d
+>>> gdm.
+>>> > After that, I have no problem to login. I haven't investigated any
+>>> further
+>>> > because I really don't know from where the problem comes, but now,
+>>> maybe we
+>>> > have to undo the steps applied with the skype's solution to solve our
+>>> > problem.
+>>>
+>>>
+>>> Hi,
+>>>
+>>> I had the same problem with kdm, but no problem with gdm.
+>>>
+>>> cheers
+>>>
+>>> Klaus
+>>>
+>>> Hi. Installing gdm did not do the trick :(
+>>
+>> You must uninstall the kdm service first and select in the session
+> selector of gdm "kde". If you don't select the session type, get some
+> errors.
+>
+
+I uninstalled kdm and selected kde as a session but I got the same message
+telling me that my session lasted lower than 10s and bla bla..
+
+>
+>
+>> When doing startx as a normal user from console I get some errors like
+>> "xkb could not initialize" and "Xinit: no such file or directory" and
+>> "Xinit: Could not connect to xserver"....
+>>
+>
+> Have you stopped the kdm first?
+>
+
+Yes I did stop kdm when I tried that. The strange thing is that if I login
+as root from console and do a startx then a kde session starts normally. If
+I do that as a normal user I get the errors..
+
+>
+>
+>>
+>> Some friend told me to purge kde and reinstall it. I don't think this wi=
+ll
+>> help. Do you think I should give it a try?
+>>
+>>
+>>
+> I tried that with no success :-(
+>
+> If that didn't help you I will not bother..
+
+J
+
+--00151747373aee17e00483a37765
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Wed, Apr 7, 2010 at 1:35 PM, Daniel S=
+util <span dir=3D"ltr">&lt;<a href=3D"mailto:daniel.sutil@csmining.org">daniel=
+.sutil@csmining.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote"=
+ style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 2=
+04); padding-left: 1ex;">
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"im"=
+><div>On Wed, Apr 7, 2010 at 12:15 PM, Smokejohn <span dir=3D"ltr">&lt;<a h=
+ref=3D"mailto:smokejohn@csmining.org" target=3D"_blank">smokejohn@csmining.org</a=
+>&gt;</span> wrote:<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<br><br><div class=3D"gmail_quote"><div>On Tue, Apr 6, 2010 at 11:53 PM, Kl=
+aus Becker <span dir=3D"ltr">&lt;<a href=3D"mailto:colonius@free.fr" target=
+=3D"_blank">colonius@free.fr</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb=
+(204, 204, 204); padding-left: 1ex;">
+
+
+
+Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :<br>
+<div>&gt; Finally I applied the following workaround: I remove kdm and inst=
+alled gdm.<br>
+&gt; After that, I have no problem to login. I haven&#39;t investigated any=
+ further<br>
+&gt; because I really don&#39;t know from where the problem comes, but now,=
+ maybe we<br>
+&gt; have to undo the steps applied with the skype&#39;s solution to solve =
+our<br>
+&gt; problem.<br>
+<br>
+<br>
+</div>Hi,<br>
+<br>
+I had the same problem with kdm, but no problem with gdm.<br>
+<br>
+cheers<br>
+<div><br>
+Klaus<br>
+<br></div></blockquote></div><div>Hi. Installing gdm did not do the trick :=
+(<br><br></div></div></blockquote></div><div>You must uninstall the kdm ser=
+vice first and select in the session selector of gdm &quot;kde&quot;. If yo=
+u don&#39;t select the session type, get some errors.<br>
+
+
+</div></div></div></div></blockquote><div><br>I uninstalled kdm and selecte=
+d kde as a session but I got the same message telling me that my session la=
+sted lower than 10s and bla bla..=A0 <br></div><blockquote class=3D"gmail_q=
+uote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 2=
+04, 204); padding-left: 1ex;">
+<div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"im"><di=
+v>=A0<br></div><div><blockquote class=3D"gmail_quote" style=3D"margin: 0pt =
+0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex=
+;"><div class=3D"gmail_quote">
+<div>When doing startx as a normal user from console I get some errors like=
+ &quot;xkb could not initialize&quot; and &quot;Xinit: no such file or dire=
+ctory&quot; and &quot;Xinit: Could not connect to xserver&quot;....<br>
+
+
+</div></div></blockquote></div></div><div><br>Have you stopped the kdm firs=
+t?<br></div></div></div></blockquote><div><br>Yes I did stop kdm when I tri=
+ed that. The strange thing is that if I login as root from console and do a=
+ startx then a kde session starts normally. If I do that as a normal user I=
+ get the errors.. <br>
+</div><blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex;=
+ border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;"><div class=
+=3D"gmail_quote"><div class=3D"gmail_quote"><div>=A0<br></div><div class=3D=
+"im"><div>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<div class=3D"gmail_quote">
+<div>
+<br>Some friend told me to purge kde and reinstall it. I don&#39;t think th=
+is will help. Do you think I should give it a try?<br><br>=A0<br></div></di=
+v>
+</blockquote></div></div></div><div class=3D"im">I tried that with no succe=
+ss :-(<br>
+</div></div><br></blockquote><div>If that didn&#39;t help you I will not bo=
+ther..<br><br>J <br></div></div><br>
+
+--00151747373aee17e00483a37765--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2y8f23146b1004070400g4060b0bbxb06f93989117389@mail.csmining.org
+
+

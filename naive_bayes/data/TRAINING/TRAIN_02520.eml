@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId12811789116ae492
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs47210wfj;
+        Sun, 18 Apr 2010 08:10:34 -0700 (PDT)
+Received: by 10.150.214.13 with SMTP id m13mr4816475ybg.134.1271603433725;
+        Sun, 18 Apr 2010 08:10:33 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 40si11437369iwn.94.2010.04.18.08.10.33;
+        Sun, 18 Apr 2010 08:10:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@yahoo.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id EB0C01BAC3780
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 08:10:32 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E56B526E90652
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 08:10:32 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 1B73726E90456
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 08:10:14 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 0B688CBA02C4
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 08:10:14 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-e5-4bcb20d5ca85
+Received: from web55601.mail.re4.yahoo.com (web55601.mail.re4.yahoo.com
+	[206.190.58.225])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	04.03.25880.5D02BCB4; Sun, 18 Apr 2010 08:10:13 -0700 (PDT)
+Received: (qmail 33912 invoked by uid 60001); 18 Apr 2010 15:10:13 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024;
+	t=1271603412; bh=eYXRJzdEJDdViUWc1jECT1jirtxm5u6e/eKAuuZMg24=;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type;
+	b=VvjCquZvK5HanwyUnVROlZmJ1K0Hjq2/MSv6DfiMX/7H5NCakYFNlDezA/QzmCARAeB+fPw5YblGX6OXX2esb3aXZt/nEmDoWmfuPYcfvToUbuED/0Huz+uHqi12HDHzR0/4ZDf2dRm0I5E2cmYQhrxf4G1JZkDnBXdGqVJ/vL4=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type;
+	b=uXNuklZNR/AYnHhgFDXjcE2jdn2zzyNHvRQ7aW7G17n72Sx6pNKF/JaG+vObZUTXsEVNZxeDajO0uR+wjXuefJovW1b+oqjCCt6jEhxjLbYacvV0RpDCr+eX6K5kiwIZRYCMKQS/GqSGLTUuTQKOY6IHvsMpWGJAwSfD7998ozo=;
+Message-ID: <944345.33232.qm@web55601.mail.re4.yahoo.com>
+X-YMail-OSG: ZL.rOssVM1lkmobsHVheXtxmDr6q5jtSfBgUvb1lsy57ogB
+	efMQmTCqLQU_VELJApG4XiRQrJVscJRkG2PU3XUDE7hcVB_pAuuA5XaDnO2M
+	3.wgi_LNXwT2IzUa_hJEKaLKdiEpBHwLk5i7Ydh8I3vykpAnAgVNeYBd._oQ
+	4hYMV7OVnFDH9hWLO0p3Tj9d7cbm7aOuIXu.sSMsH.Bk_SNtVBcXY28VzU4K
+	v4iUpV_rHmJuaHEydBaz67Fu.FRfnhQrE7Spr_ZZmp4NGsdCB.meuPgDWgic
+	t0J1FnBtrRzxjXE0kdRRT6Xik3ciG.xYOdQt.LH7F0fzJ6m6nYJKRDjLchr5
+	gjRQ_QFsa..I-
+Received: from [213.189.170.189] by web55601.mail.re4.yahoo.com via HTTP;
+	Sun, 18 Apr 2010 08:10:12 PDT
+X-Mailer: YahooMailRC/348.5 YahooMailWebService/0.8.100.260964
+References: <543587.87903.qm@web55604.mail.re4.yahoo.com>
+	<FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+	<460333.63537.qm@web55608.mail.re4.yahoo.com>
+	<20100418.095448.252095907.hanche@math.ntnu.no>
+Date: Sun, 18 Apr 2010 08:10:12 -0700 (PDT)
+From: Pierre Baguis <pbaguis@yahoo.com>
+To: Harald Hanche-Olsen <hanche@math.ntnu.no>
+In-Reply-To: <20100418.095448.252095907.hanche@math.ntnu.no>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Brightmail-Tracker: AAAAAwzExQITtlpdE7ZwhA==
+Cc: X11-users@lists.apple.com, jeremyhu@apple.com
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Just when you said that you "have the same", I thought this was the full setup, that is Gnome included. Anyway, it does not matter, I tried other window managers in the problematic machine, other user accounts too, and always strange behavior with the middle click. It seemed to be deeply rooted somewhere in the system. As a last resort, I rebooted the machine, and... problem solved!
+
+Should we reboot after updating X11?
+
+Thanks,
+Pierre
+
+
+
+
+----- Original Message ----
+From: Harald Hanche-Olsen <hanche@math.ntnu.no>
+To: pbaguis@yahoo.com
+Cc: jeremyhu@apple.com; X11-users@lists.apple.com
+Sent: Sun, April 18, 2010 3:54:48 PM
+Subject: Re: Middle button click broken
+
++ Pierre Baguis <pbaguis@yahoo.com>:
+
+> I am wondering if Gnome is to blame (but then Harald had not issues).
+
+Oh, wait. I don't use Gnome. I don't think I said I did, or at least I did not mean to imply it. Of course, you could try switching back to quartz-wm and see if the problem persists.
+
+- Harald
+
+
+
+      
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

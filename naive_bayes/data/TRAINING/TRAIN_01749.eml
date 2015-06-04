@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282c0b129daf44e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs73709wfj;
+        Fri, 23 Apr 2010 12:00:44 -0700 (PDT)
+Received: by 10.87.71.7 with SMTP id y7mr1040675fgk.63.1272049243021;
+        Fri, 23 Apr 2010 12:00:43 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si2664184fkx.10.2010.04.23.12.00.42;
+        Fri, 23 Apr 2010 12:00:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E87BF13A51E6; Fri, 23 Apr 2010 19:00:36 +0000 (UTC)
+Old-Return-Path: <tomh0665@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=FVGT_m_MULTI_ODD,
+	LDOSUBSCRIBER,LDO_WHITELIST,RERE,SARE_MSGID_LONG45 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0D50913A51E0
+	for <lists-debian-user@liszt.debian.org>; Fri, 23 Apr 2010 19:00:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.087 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, LDO_WHITELIST=-5, RERE=1,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id zARgDZmwzEfy for <lists-debian-user@liszt.debian.org>;
+	Fri, 23 Apr 2010 19:00:23 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmail. - helo: .mail-bw0-f212.google. - helo-domain: .google.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from mail-bw0-f212.google.com (mail-bw0-f212.google.com [209.85.218.212])
+	by liszt.debian.org (Postfix) with ESMTP id DFABC13A519F
+	for <debian-user@lists.debian.org>; Fri, 23 Apr 2010 19:00:22 +0000 (UTC)
+Received: by bwz4 with SMTP id 4so8652193bwz.18
+        for <debian-user@lists.debian.org>; Fri, 23 Apr 2010 12:00:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=uwL8+zvzbNjQ2Ymp0kww9o2FOxGehzOts4Fdeov6wjQ=;
+        b=uCWkjmGqxTcVR68GvGmuOTtqM/TthW9xTM5atHQT4fwCCL3vwSLcJIMZrIff3VkOgy
+         uKy+SBQVEdyp78y676tTt9YK76oYsKWTeAkBk0P9SequmexzSo7NjSpdJAyW67E2zz8f
+         YjDBdOTepuo3OVJo6NseTqZL+6wCIDJIjUpMI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=dS1L/WuIFn/Q03/YGer2CjhJmzvAjgaajZKbAtv3N67niFW73+S/vmSGv9uRca2tEY
+         nfyObM6PTHaAP0w3WedY7kn0Am5DpigyUvFftBORNdnvlLx+UPKbWXaC8uoInQYXiT4O
+         6iOaCz1QU8zmZgfCrQjZFRi/g5e/TzaLszWgE=
+MIME-Version: 1.0
+Received: by 10.239.185.137 with SMTP id c9mr42112hbh.69.1272049220428; Fri, 
+	23 Apr 2010 12:00:20 -0700 (PDT)
+Received: by 10.239.133.194 with HTTP; Fri, 23 Apr 2010 12:00:20 -0700 (PDT)
+In-Reply-To: <4BD1E83C.3010603@pu-pm.univ-fcomte.fr>
+References: <w2g6d4219cc1004231029o7cba238aufdea22ae4d7ff6ea@mail.csmining.org>
+	 <4BD1E83C.3010603@pu-pm.univ-fcomte.fr>
+Date: Fri, 23 Apr 2010 15:00:20 -0400
+Message-ID: <k2x6d4219cc1004231200q41526068z87e9b0fc010b9bdf@mail.csmining.org>
+Subject: Re: Re: Help needed: error booting to btrfs filesystem
+From: Tom H <tomh0665@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LmLsbc073VP.A.LRD.U5e0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574849
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 23 Apr 2010 19:00:36 +0000 (UTC)
+
+On Fri, Apr 23, 2010 at 2:34 PM, Eugen Dedu
+<Eugen.Dedu@pu-pm.univ-fcomte.fr> wrote:
+>> On Fri, Apr 23, 2010 at 11:25 AM, Eugen Dedu
+>> <Eugen.Dedu@pu-pm.univ-fcomte.fr> wrote:
+>>
+>> What is the filesystem of /boot?
+>>
+>> It should not be btrfs.
+>
+> Well, /boot is on the same filesystem as / (only one FS), so it is
+> btrfs. =A0Does not grub2 boot linux from btrfs? =A0I have seen Web pages
+> saying that it boots...
+
+It is unlikely because /boot/grub contains ext2.mod, jfs.mod,
+ntfs.mod, ufs1.mod, ufs2.mod, xfs.mod, zfs.mod but not btrfs.mod.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2x6d4219cc1004231200q41526068z87e9b0fc010b9bdf@mail.csmining.org
+
+

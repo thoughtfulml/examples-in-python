@@ -1,0 +1,235 @@
+X-Account-Key: account5
+X-UIDL: GmailId128183d9a060dcdf
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs44384wfj;
+        Mon, 19 Apr 2010 15:47:36 -0700 (PDT)
+Received: by 10.223.67.144 with SMTP id r16mr687495fai.102.1271717010035;
+        Mon, 19 Apr 2010 15:43:30 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si1551820fks.35.2010.04.19.15.43.29;
+        Mon, 19 Apr 2010 15:43:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 112D813A4E7D; Mon, 19 Apr 2010 22:43:26 +0000 (UTC)
+Old-Return-Path: <deva1984@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-12.9 required=4.0 tests=FOURLA,FVGT_m_MULTI_ODD,
+	HTML_MESSAGE,IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,PGPSIGNATURE,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9FF4F13A4DD8
+	for <lists-debian-laptop@liszt.debian.org>; Mon, 19 Apr 2010 22:43:19 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-8.987 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02, HTML_MESSAGE=1,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id BbPZlnMkx5a7 for <lists-debian-laptop@liszt.debian.org>;
+	Mon, 19 Apr 2010 22:43:12 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.152])
+	by liszt.debian.org (Postfix) with ESMTP id 2118B13A4C77
+	for <debian-laptop@lists.debian.org>; Mon, 19 Apr 2010 22:43:12 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id e12so2118994fga.12
+        for <debian-laptop@lists.debian.org>; Mon, 19 Apr 2010 15:43:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=HhbWgJSdRDn0fC/5n91Fo4CEhErxZlSlpzwua3sEqAY=;
+        b=sIgIqj+GzIi+s12XSwurNG8CZUgEEoFSeTrLgKmGNr6ITOrcSrdr7HfqVQ1ZjJ+195
+         GfTz9dYOouyi6yL6GHOTong/vuPxipHl0hfZhCGXDYA2GPjM3q/FglQo+3vEuXnaoJYV
+         eqkWlcCrlz2sBhj2IBxbC8/MEd92OpYr9AWuA=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=Ltssy/QwA67JqNLLJZGPQboU+0YHeoP9magnjrvFD5M1B+q0JAS6A3aAxy7I0sPhlS
+         ge8T8JoAlyKx+wiMDx1Ge4uujS2gMwkaCr+Rm8O2XLsXzKRqo0uGxIWObTNpJGId900A
+         oJzNAveXqP0RX4iXPwgSuT7BEuD+7J7ihUpc0=
+MIME-Version: 1.0
+Received: by 10.223.117.2 with HTTP; Mon, 19 Apr 2010 15:40:57 -0700 (PDT)
+In-Reply-To: <20100419212930.GA5574@dementia.proulx.com>
+References: <4BCCBC32.8090706@emenaker.com>
+	 <20100419212930.GA5574@dementia.proulx.com>
+Date: Tue, 20 Apr 2010 00:40:57 +0200
+Received: by 10.223.92.153 with SMTP id r25mr474516fam.76.1271716857307; Mon, 
+	19 Apr 2010 15:40:57 -0700 (PDT)
+Message-ID: <o2l9e87a6011004191540qb6b851b7w214ea4c691f1e76@mail.csmining.org>
+Subject: Re: Battery monitor tools?
+From: Simon Chen <deva1984@csmining.org>
+To: debian-laptop@lists.debian.org
+Content-Type: multipart/alternative; boundary=00151747b64088e24f04849ea701
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tbQZcv9WNbH.A.uzF.OyNzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34113
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 22:43:26 +0000 (UTC)
+
+--00151747b64088e24f04849ea701
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I may be a light debian user. 'Cause i simply use GNOME power manager as
+battery tool, supposed to be the default power manager in GNOME. I think it
+is kind of dull. I've found battery using up much more quickly under debian
+than it under windows(yes, i'm using a dual-booting laptop).
+
+So, is this just because i choosed a unsuitable tool? Or it has any other
+reason. In the comparison mentioned above, I was doing some file work and/o=
+r
+running emacs
+
+On Mon, Apr 19, 2010 at 11:29 PM, Bob Proulx <bob@proulx.com> wrote:
+
+> Joe Emenaker wrote:
+> > I'm looking for a good battery charge/discharge profiler tool for my
+> > Ubuntu laptop.
+>
+> Of course I am sure that you know you are posting about Ubuntu to the
+> Debian laptop mailing list?  The least you could do is to lie to us
+> and say you are running Debian when posting to a Debian list.  :-)
+>
+> > A couple of years ago, I came across a really neat tool for Windows for
+> > estimating the time remaining until the battery is completely charged o=
+r
+> > discharged. It was pretty clever about how it went about it. It would
+> > ...
+> > tool was learning what "80%" /really/ meant to that battery.
+>
+> I have often wanted this too.  And your other wishlist items as well.
+> As far as I know there isn't a tool that does exactly this for
+> GNU/Linux in general or on Debian in particular.  If you find one I
+> would be interested in it.
+>
+> There are some useful tools available though.  You might look at 'ibam'.
+>
+>  IBAM is an advanced battery monitor for laptops, which uses
+>  statistical and adaptive linear methods to provide accurate
+>  estimations of minutes of battery left or of the time needed until
+>  full recharge. It requires APM, ACPI or PMU.
+>
+> It needs some training.  But given that it does perform fairly well.
+> Unfortunately it isn't tied into the system tray tools and so isn't
+> going to be a seemless integration there.  It is available in gkrellm
+> if you use that stack.  See the gkrellm-ibam package.
+>
+> Bob
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.9 (GNU/Linux)
+>
+> iEYEARECAAYFAkvMyzoACgkQ0pRcO8E2ULYdhACdGU6+dGFyC/JEBZ7ZKJ1DADeQ
+> QQIAnifmqo0x0oW6l6rSl4pqZdpuTG6z
+> =3DEbsH
+> -----END PGP SIGNATURE-----
+>
+>
+
+
+--=20
+Mit freundlichen Gr=C3=BC=C3=9Fen
+
+Zichen Chen
+
+--00151747b64088e24f04849ea701
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I may be a light debian user. &#39;Cause i simply use GNOME power manager a=
+s battery tool, supposed to be the default power manager in GNOME. I think =
+it is kind of dull. I&#39;ve found battery using up much more quickly under=
+ debian than it under windows(yes, i&#39;m using a dual-booting laptop).<br=
+>
+<br>So, is this just because i choosed a unsuitable tool? Or it has any oth=
+er reason. In the comparison mentioned above, I was doing some file work an=
+d/or running emacs<br><br><div class=3D"gmail_quote">On Mon, Apr 19, 2010 a=
+t 11:29 PM, Bob Proulx <span dir=3D"ltr">&lt;<a href=3D"mailto:bob@proulx.c=
+om">bob@proulx.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;"><div class=3D"im"=
+>Joe Emenaker wrote:<br>
+&gt; I&#39;m looking for a good battery charge/discharge profiler tool for =
+my<br>
+&gt; Ubuntu laptop.<br>
+<br>
+</div>Of course I am sure that you know you are posting about Ubuntu to the=
+<br>
+Debian laptop mailing list? =C2=A0The least you could do is to lie to us<br=
+>
+and say you are running Debian when posting to a Debian list. =C2=A0:-)<br>
+<div class=3D"im"><br>
+&gt; A couple of years ago, I came across a really neat tool for Windows fo=
+r<br>
+&gt; estimating the time remaining until the battery is completely charged =
+or<br>
+&gt; discharged. It was pretty clever about how it went about it. It would<=
+br>
+</div>&gt; ...<br>
+<div class=3D"im">&gt; tool was learning what &quot;80%&quot; /really/ mean=
+t to that battery.<br>
+<br>
+</div>I have often wanted this too. =C2=A0And your other wishlist items as =
+well.<br>
+As far as I know there isn&#39;t a tool that does exactly this for<br>
+GNU/Linux in general or on Debian in particular. =C2=A0If you find one I<br=
+>
+would be interested in it.<br>
+<br>
+There are some useful tools available though. =C2=A0You might look at &#39;=
+ibam&#39;.<br>
+<br>
+ =C2=A0IBAM is an advanced battery monitor for laptops, which uses<br>
+ =C2=A0statistical and adaptive linear methods to provide accurate<br>
+ =C2=A0estimations of minutes of battery left or of the time needed until<b=
+r>
+ =C2=A0full recharge. It requires APM, ACPI or PMU.<br>
+<br>
+It needs some training. =C2=A0But given that it does perform fairly well.<b=
+r>
+Unfortunately it isn&#39;t tied into the system tray tools and so isn&#39;t=
+<br>
+going to be a seemless integration there. =C2=A0It is available in gkrellm<=
+br>
+if you use that stack. =C2=A0See the gkrellm-ibam package.<br>
+<font color=3D"#888888"><br>
+Bob<br>
+</font><br>-----BEGIN PGP SIGNATURE-----<br>
+Version: GnuPG v1.4.9 (GNU/Linux)<br>
+<br>
+iEYEARECAAYFAkvMyzoACgkQ0pRcO8E2ULYdhACdGU6+dGFyC/JEBZ7ZKJ1DADeQ<br>
+QQIAnifmqo0x0oW6l6rSl4pqZdpuTG6z<br>
+=3DEbsH<br>
+-----END PGP SIGNATURE-----<br>
+<br></blockquote></div><br><br clear=3D"all"><br>-- <br>Mit freundlichen Gr=
+=C3=BC=C3=9Fen<br><br>Zichen Chen<br>
+
+--00151747b64088e24f04849ea701--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2l9e87a6011004191540qb6b851b7w214ea4c691f1e76@mail.csmining.org
+
+

@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284ecacea86b9f0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs92766wfj;
+        Fri, 30 Apr 2010 05:57:14 -0700 (PDT)
+Received: by 10.115.38.22 with SMTP id q22mr2551608waj.41.1272632233706;
+        Fri, 30 Apr 2010 05:57:13 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 32si2903797pzk.58.2010.04.30.05.57.13;
+        Fri, 30 Apr 2010 05:57:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 30B2E1C4012AC
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 05:57:13 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 2CF5627442FB7
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 05:57:13 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 9F89127442949
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 05:56:16 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 81A9BD76BB1A
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 05:56:16 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-59-4bdad36ad5a0
+Received: from tigger.cubiculum.com (tigger.cubiculum.com [198.175.236.1])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	2A.E0.17067.A63DADB4; Fri, 30 Apr 2010 05:56:16 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by tigger.cubiculum.com (Postfix) with ESMTP id C17D5384B4DE;
+	Fri, 30 Apr 2010 08:56:09 -0400 (EDT)
+X-Virus-Scanned: amavisd-new at cubiculum.com
+Received: from tigger.cubiculum.com ([127.0.0.1])
+	by localhost (tigger.cubiculum.com [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with ESMTP id tvL4aa3MfmVd; Fri, 30 Apr 2010 08:56:08 -0400 (EDT)
+Received: from piglet.cubiculum.com (piglet.cubiculum.com [198.175.236.136])
+	by tigger.cubiculum.com (Postfix) with ESMTPSA id 93178384B4C8;
+	Fri, 30 Apr 2010 08:56:08 -0400 (EDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: "Ronald C.F. Antony" <rcfa@cubiculum.com>
+In-Reply-To: <938126.30135.qm@web62505.mail.re1.yahoo.com>
+Date: Fri, 30 Apr 2010 08:56:07 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <9E111BBA-00A4-4328-BF3F-ED5110024070@cubiculum.com>
+References: <C8007901.FA9A%kustaa.nyholm@planmeca.com>
+	<6F546F63-CCF9-4040-9C0B-E2C4B08F8ADA@csmining.org>
+	<938126.30135.qm@web62505.mail.re1.yahoo.com>
+To: niagarasoft20-jdev@yahoo.com
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAARPvoAQ=
+Cc: list Java-dev <java-dev@lists.apple.com>,
+	"Ronald C.F. Antony" <rcfa@cubiculum.com>
+Subject: [OT] Re: Jobs: Thoughts on Java
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 30 Apr 2010, at 07:42, niagarasoft20-jdev@yahoo.com wrote:
+
+> Java _is_ allowed on OSX.
+
+The situation between Flash and Java isn't even comparable.
+
+Java is open and useful, Flash is neither.
+
+Java still shares the the lowest-common-denominator cross-platform =
+weakness/strength (depending on perspective), which Apple may not want =
+to promote on the iPhone, because, let's face it, there are so many =
+patents on the iPhone that lots of that stuff can't be done in a =
+cross-platform way, because other platforms won't be allowed to have the =
+same functionality.
+So cross-platform code on the iPhone/iPod/iPad just doesn't make sense. =
+The market is big enough that if their product sell on these devices, =
+the developers can afford to make a first-class citizen native app =
+rather than being lazy and trying to write the same things for =
+deployment everywhere.
+
+Nothing stops anyone from using a portable code engine (e.g. C code or =
+Java compiled to C) and then put a native Cocoa Touch GUI on it.
+
+Flash from the get-go was designed to captivate a part of the internet =
+and make it privately owned, just like Silverlight and a slew of other =
+efforts, too. Flash and Frames are the bane of the web. Can't properly =
+search, bookmark, print, copy&paste, etc. any of these. May they die a =
+quick, painful death, they caused enough suffering for users and web =
+developers alike.
+
+Having a several dozen web pages open sucks the life out of the fastest =
+machines, because of all the flash. That I only could suspect until 10.6 =
+put plug-ins in subprocesses. The relative CPU load between all of =
+Safari vs. the Flash plug-in speaks volumes.
+
+As much as I have to criticize about the closed nature/censorship of the =
+AppStore ecosystem, I'm THRILLED that Apple isn't bending. I hope Apple =
+can give the blow of death to Flash, which has been more than an =
+annoyance for many years. I can't wait until that's a chapter in =
+computing HISTORY. Bravo Jobs&Co.!!!
+
+I also support his statement about Adobe being lazy. No version of any =
+Macromedia/Adobe Suite has ever run properly on any machine that has a =
+case-sensitvive root file system. If software is properly written, it =
+shouldn't even notice a difference, and the only parties which have to =
+be aware of the difference are users that copy files in a mixed file =
+system environment, or writers of backup/file-management software (where =
+2 files on one file system might map to one file on another).
+
+Only sloppy coding where paths are not #define-ed in one place but more =
+or less accurately copy&paste-ed all over the code base causes issues =
+with resource and path name mismatches when the software is installed on =
+a case-sensitive file system. For a decade and several product cycles =
+Adobe didn't fix that, even though there were many bug reports about the =
+matter and even though Apple emphasized several times on various =
+occasions at WWDC that developers shouldn't make any assumptions on the =
+nature of the file system that the system is installed.
+
+Adobe didn't (want to) get it. They just wanted to continue milking =
+their old pre-OS9 code base for as long as possible. I wish Apple would =
+use some of their war chest to produce true competitors to Adobe's crap =
+that are reasonably priced. Adobe charges up the wazoo, and didn't care =
+to be a good platform citizen, and were it not for the 64-bit =
+transition, they'd still ship old, buggy Carbon based code. Barf! I'm =
+glad Jobs finally said it and broke with corporate politeness.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

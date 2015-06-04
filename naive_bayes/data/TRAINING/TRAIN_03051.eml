@@ -1,0 +1,210 @@
+X-Account-Key: account5
+X-UIDL: GmailId12877ac1fcefb497
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs502461wfb;
+        Sat, 8 May 2010 04:28:09 -0700 (PDT)
+Received: by 10.223.144.79 with SMTP id y15mr1437916fau.22.1273318088394;
+        Sat, 08 May 2010 04:28:08 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h4si4059349fai.43.2010.05.08.04.28.07;
+        Sat, 08 May 2010 04:28:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id DE8C16C8428; Sat,  8 May 2010 11:28:04 +0000 (UTC)
+Old-Return-Path: <grianav@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.9 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F08B313A5966
+	for <lists-debian-laptop@liszt.debian.org>; Sat,  8 May 2010 11:27:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-4.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, HTML_MESSAGE=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id zNu1Ji5uw7cP for <lists-debian-laptop@liszt.debian.org>;
+	Sat,  8 May 2010 11:27:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 210F813A5674
+	for <debian-laptop@lists.debian.org>; Sat,  8 May 2010 11:27:45 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so3353604qyk.3
+        for <debian-laptop@lists.debian.org>; Sat, 08 May 2010 04:27:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:received:in-reply-to
+         :references:from:date:message-id:subject:to:cc:content-type;
+        bh=fquGk4zvzrpzeju1vQEZ60Kdwk2miE8P46WZnCo+pJY=;
+        b=QHGvlhvPYhEmBDmqahXJItzLnmWsQfWOVcSxdZo8QiUXgzytESbre/YQdqMfc+E3xP
+         z8F+CfJ+uIA9IMa1bRZ9RA0yo3CT7guYizv9mu8wjxU82282t5j8TJY76HSiPW4ye+4q
+         XI0aJ7fGZRCzXLcMR2TTiLyGRj9iqBy2GJsOU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc:content-type;
+        b=Aw1eo2NBhik5P3RPLwkYDqkL9hFNhDVIFFvrZuP0D7F28ZnNH/koJCgm20vz8nX9V9
+         T3jGatKajEl04D6SfLfcIbIaw/mjXIvzj3fsCzXLzrJM99LYY+4JQQJeK9nnMCgi57Ha
+         PHS53l2qTlWzIWzyHxzrirlk07dH9tmd8ViqA=
+Received: by 10.229.222.208 with SMTP id ih16mr968227qcb.55.1273318056369; 
+	Sat, 08 May 2010 04:27:36 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.84.85 with HTTP; Sat, 8 May 2010 04:27:16 -0700 (PDT)
+In-Reply-To: <9910535707.20100507203657@csmining.org>
+References: <9910535707.20100507203657@csmining.org>
+From: grey smith <grianav@csmining.org>
+Date: Sat, 8 May 2010 07:27:16 -0400
+Message-ID: <j2g1892a0f11005080427l41545935ja5cbbcfe3853118c@mail.csmining.org>
+Subject: Re: Hardware of Acer Extensa 5220, Microsoft Lifecam VX-3000, Sony 
+	Cybershot DSC-W55 7.2MPx and Debian.
+To: Fedor Biryukov <fedor.birjukov@csmining.org>
+Cc: debian-laptop@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016361e829e6fa0fc04861376cf
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8o0g-2saOAP.A.zJG.ErU5LB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34140
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 11:28:04 +0000 (UTC)
+
+--0016361e829e6fa0fc04861376cf
+Content-Type: text/plain; charset=UTF-8
+
+>
+>
+>
+> ##### 2 - My microphone works with lots of noise.
+> Hi! I have a problem with my microphone. It works with lots of noise and
+> recorded sound is very-very quiet or simply there is no sound but only
+> rhythmical crack. This result changes when I change in alsamixer L R Capture
+> parameter (Capture [dB gain=6.00, 6.00] - lots of noise and quite sound,
+> Capture [dB gain=30.00, 30.00] - rhythmical crack). Maybe this is a problem
+> of bad configuration. Who can help?
+> I have not only one parameter but two parameters L R Capture and now I was
+> talking about the first of them. When I turn the second parameter a bit up
+> from null than that is a loud siren. Who knows this problem?
+>
+> This happens with my inner microphone in Acer 5220 and with my Microsoft
+> Lifecam under Ubuntu 9.04 (Mint 7).
+> This is about my sound card:
+> 00:1b.0 Audio device: Intel Corporation 82801H (ICH8 Family) HD Audio
+> Controller (rev 03)
+> Subsystem: Acer Incorporated [ALI] Device 011f
+> Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr-
+> Stepping- SERR+ FastB2B- DisINTx-
+> Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort-
+> <MAbort- >SERR- <PERR- INTx-
+> Latency: 0, Cache Line Size: 64 bytes
+> Interrupt: pin A routed to IRQ 21
+> Region 0: Memory at fc300000 (64-bit, non-prefetchable) [size=16K]
+> Capabilities: <access denied>
+> Kernel driver in use: HDA Intel
+> Kernel modules: snd-hda-intel
+>
+> Thanks,
+> Theodore
+>
+> #########
+>
+With regard to the noise produced on the microphone when plugged into the
+sound card, try the sound card drivers available here,
+ www.opensound.com/oss.html . Thought by some to be superior to ALSA.
+
+
+I'm not clear i
+>
+> --
+> To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/9910535707.20100507203657@csmining.org
+>
+>
+
+--0016361e829e6fa0fc04861376cf
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote"><blockquote class=3D"gmail_quote" style=3D"margi=
+n:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex;"><br>
+<br>
+##### 2 - My microphone works with lots of noise.<br>
+Hi! I have a problem with my microphone. It works with lots of noise and re=
+corded sound is very-very quiet or simply there is no sound but only rhythm=
+ical crack. This result changes when I change in alsamixer L R Capture para=
+meter (Capture [dB gain=3D6.00, 6.00] - lots of noise and quite sound, Capt=
+ure [dB gain=3D30.00, 30.00] - rhythmical crack). Maybe this is a problem o=
+f bad configuration. Who can help?<br>
+
+
+I have not only one parameter but two parameters L R Capture and now I was =
+talking about the first of them. When I turn the second parameter a bit up =
+from null than that is a loud siren. Who knows this problem?<br>
+<br>
+This happens with my inner microphone in Acer 5220 and with my Microsoft Li=
+fecam under Ubuntu 9.04 (Mint 7).<br>
+This is about my sound card:<br>
+00:1b.0 Audio device: Intel Corporation 82801H (ICH8 Family) HD Audio Contr=
+oller (rev 03)<br>
+Subsystem: Acer Incorporated [ALI] Device 011f<br>
+Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Steppin=
+g- SERR+ FastB2B- DisINTx-<br>
+Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=3Dfast &gt;TAbort- &lt;TAb=
+ort- &lt;MAbort- &gt;SERR- &lt;PERR- INTx-<br>
+Latency: 0, Cache Line Size: 64 bytes<br>
+Interrupt: pin A routed to IRQ 21<br>
+Region 0: Memory at fc300000 (64-bit, non-prefetchable) [size=3D16K]<br>
+Capabilities: &lt;access denied&gt;<br>
+Kernel driver in use: HDA Intel<br>
+Kernel modules: snd-hda-intel<br>
+<br>
+Thanks,<br>
+Theodore<br>
+<br>
+#########<br></blockquote><div>With regard to the noise produced on the mic=
+rophone when plugged into the sound card, try the sound card drivers availa=
+ble here,</div><div>=C2=A0<a href=3D"http://www.opensound.com/oss.html">www=
+.opensound.com/oss.html</a> . Thought by some to be superior to ALSA.</div>
+
+<div><br></div><div><br></div><blockquote class=3D"gmail_quote" style=3D"ma=
+rgin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex;"><font color=
+=3D"#888888">I&#39;m not clear i<br>
+<br>
+--<br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-laptop-REQUEST@lists.debi=
+an.org">debian-laptop-REQUEST@lists.debian.org</a><br>
+with a subject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mail=
+to:listmaster@lists.debian.org">listmaster@lists.debian.org</a><br>
+Archive: <a href=3D"http://lists.debian.org/9910535707.20100507203657@gmail=
+.com" target=3D"_blank">http://lists.debian.org/9910535707.20100507203657@g=
+mail.com</a><br>
+<br>
+</font></blockquote></div><br>
+
+--0016361e829e6fa0fc04861376cf--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2g1892a0f11005080427l41545935ja5cbbcfe3853118c@mail.csmining.org
+
+

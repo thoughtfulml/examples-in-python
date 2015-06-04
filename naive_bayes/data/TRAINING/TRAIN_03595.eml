@@ -1,0 +1,162 @@
+X-Account-Key: account5
+X-UIDL: GmailId128706077511bbdd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs424711wfb;
+        Thu, 6 May 2010 18:28:11 -0700 (PDT)
+Received: by 10.223.65.73 with SMTP id h9mr632414fai.75.1273195689953;
+        Thu, 06 May 2010 18:28:09 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si1017297fas.51.2010.05.06.18.28.09;
+        Thu, 06 May 2010 18:28:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 182F62D0DAE; Fri,  7 May 2010 01:28:04 +0000 (UTC)
+Old-Return-Path: <pecondon@mesanetworks.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 65A492D0DAC
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 01:27:58 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id UqbgMJvaNVL9 for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 01:27:50 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from omta0109.mta.everyone.net (imta-38.everyone.net [216.200.145.38])
+	by liszt.debian.org (Postfix) with ESMTP id 7597C2D0DA7
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 01:27:43 +0000 (UTC)
+Received: from dm0206.mta.everyone.net (sj1-slb03-gw2 [172.16.1.96])
+	by omta0109.mta.everyone.net (Postfix) with ESMTP id 2BB19642F4
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 18:27:40 -0700 (PDT)
+X-Eon-Dm: dm0206
+Received: by dm0206.mta.everyone.net (EON-AUTHRELAY2 - 4813b144) id dm0206.4be1f7af.2f25a7
+	for <debian-user@lists.debian.org>; Thu, 6 May 2010 18:27:37 -0700
+X-Eon-Sig: AQMnnbRL42yJ7KJCpQIAAAAB,0135a81042553d4497461ac816f7513a
+Received: from pec by big.lan.gnu with local (Exim 4.71)
+	(envelope-from <pecondon@mesanetworks.net>)
+	id 1OACLo-0005kW-Ba
+	for debian-user@lists.debian.org; Thu, 06 May 2010 19:27:36 -0600
+Date: Thu, 6 May 2010 19:27:36 -0600
+From: Paul E Condon <pecondon@mesanetworks.net>
+To: debian-user@lists.debian.org
+Subject: Re: Suggestion/Question for the approx apt(itutde) proxy daemon
+Message-ID: <20100507012736.GD15335@big.lan.gnu>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <F6ADABA9-636B-4D51-878C-A8DD8EC73C17@cs.rutgers.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <F6ADABA9-636B-4D51-878C-A8DD8EC73C17@cs.rutgers.edu>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <iXmSFVdm6eI.A.0sH.ky24LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576098
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 01:28:04 +0000 (UTC)
+
+On 20100505_184737, Rick Thomas wrote:
+> Hi Eric,
+> 
+> I just started using approx.  I'm really impressed.  It's a great
+> piece of work.  Thanks!
+> 
+> Here's a question:  Is it permissible/possible to have two (or more)
+> different mirrors listed as servers for the same set of archives?
+> 
+> for example, my approx server's approx.conf file has
+> 	security http://security.debian.org/
+> 	volatile http://volatile.debian.org/debian-volatile/
+> 	debian http://ftp.us.debian.org/debian/
+> 
+> but the University has a fast Internet2 link so I'd like to use that
+> to connect when I can.  e.g. I'd like to add
+> 	debian http://debian.cs.binghamton.edu/debian/
+> 	debian http://debian.lcs.mit.edu/debian/
+
+Look at man approx.conf for more details on what I say here.
+Each of you example lines is interpreted by approx as a name/value
+pair. Thus each line starting with debian binds a different value
+to the name debian. Only one can apply. They cannot all apply at once.
+
+If, instead, you change them to
+
+ 	debian http://ftp.us.debian.org/debian/
+ 	debia2 http://debian.cs.binghamton.edu/debian/
+ 	debia3 http://debian.lcs.mit.edu/debian/
+
+Put into your sources.list three lines where you now have only one
+pointing to debian in you approx proxy server, the other two point to
+debia2 and debia3, also in you proxy server. You probably will get
+something close to what you want. Apt-get or aptitude will work its
+way down sources.list until it finds a working server and update the
+corresponding section of the proxy cache.
+
+But this would make approx create three separate proxy caches, one for
+each external repository. I think that this is not really what you want.
+
+I suggest that you look at 
+/var/cache/approx/
+You will find one one subdirectory there for each definition
+line in your /etc/approx.conf file. You might get what you
+want by replacing directories debia2 and debia3 by symlinks
+that point to debian.
+
+Post a reply saying whether this works. I don't have a situation where
+I can test this exactly, and I'd like to know.
+
+HTH
+
+> 
+> before the one for ftp.us.d.o and have those be used by preference
+> unless our link to I2 is down, in which case have it switch over to
+> the more generic ftp.us .
+> 
+> Is this possible now?  Could it be added as a feature in a future
+> release?
+> 
+> 
+> Thanks!
+> 
+> Rick
+> 
+> 
+> -- 
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.orgwith a
+> subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/F6ADABA9-636B-4D51-878C-A8DD8EC73C17@cs.rutgers.edu
+> 
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507012736.GD15335@big.lan.gnu
+
+

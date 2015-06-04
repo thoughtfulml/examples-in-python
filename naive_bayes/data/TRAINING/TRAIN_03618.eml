@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ab1f1b8226e61
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs13516wfo;
+        Tue, 18 May 2010 04:14:23 -0700 (PDT)
+Received: by 10.227.156.84 with SMTP id v20mr6218487wbw.191.1274181262204;
+        Tue, 18 May 2010 04:14:22 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u30si19321642wbs.85.2010.05.18.04.14.21;
+        Tue, 18 May 2010 04:14:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8828813A4ACD; Tue, 18 May 2010 11:14:17 +0000 (UTC)
+Old-Return-Path: <avbidder@fortytwo.ch>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-20.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9DC4113A4816
+	for <lists-debian-kde@liszt.debian.org>; Tue, 18 May 2010 11:14:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id MuZiEPWlqP6u for <lists-debian-kde@liszt.debian.org>;
+	Tue, 18 May 2010 11:14:04 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from zbasel.fortytwo.ch (zbasel.fortytwo.ch [193.138.215.60])
+	by liszt.debian.org (Postfix) with ESMTP id 793DD13A4881
+	for <debian-kde@lists.debian.org>; Tue, 18 May 2010 11:13:54 +0000 (UTC)
+Received: from laeggerli.fortytwo.ch (intranet.sygroup.ch [95.128.32.140])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by zbasel.fortytwo.ch (Postfix) with ESMTP id 3223D203
+	for <debian-kde@lists.debian.org>; Tue, 18 May 2010 13:13:52 +0200 (CEST)
+From: Adrian von Bidder <avbidder@fortytwo.ch>
+To: "Debian-KDE Mailingliste" <debian-kde@lists.debian.org>
+Subject: KWebkitPart dependency
+Date: Tue, 18 May 2010 13:13:34 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-686; KDE/4.4.3; i686; ; )
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1423957.3acfT79oWN";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005181313.46561@fortytwo.ch>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2-WuLVH8tKE.A._6.Jan8LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32455
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 11:14:17 +0000 (UTC)
+
+--nextPart1423957.3acfT79oWN
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Heyho!
+
+Short note to the KDE packagers since kdenetwork now depends on=20
+libkwebkitpart-dev: don't hesitate to NMU (even with zero delay) if it help=
+s=20
+to get KDE into squeeze faster.  (In any case, and if no bug reports come=20
+in, I'll just wait with the next upload until kwebkitpart is in testing.)
+
+cheers
+=2D- vbi
+
+
+=2D-=20
+No wonder you're tired!  You understood so much today.
+
+--nextPart1423957.3acfT79oWN
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: get my key from http://fortytwo.ch/gpg/92082481
+
+iKcEABECAGcFAkvydl9gGmh0dHA6Ly9mb3J0eXR3by5jaC9sZWdhbC9ncGcvZW1h
+aWwuMjAwMjA4MjI/dmVyc2lvbj0xLjUmbWQ1c3VtPTVkZmY4NjhkMTE4NDMyNzYw
+NzFiMjVlYjcwMDZkYTNlAAoJECqqZti935l6aP0AnRzoL6b3F5tqvdNjZX5RIOwh
+hdzVAKCvTjvsSHipV8K6EyM4sOz6gyls/Q==
+=eKo2
+-----END PGP SIGNATURE-----
+
+--nextPart1423957.3acfT79oWN--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005181313.46561@fortytwo.ch
+
+

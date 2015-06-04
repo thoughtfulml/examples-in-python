@@ -1,0 +1,127 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a593890adc435
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs9297wfo;
+        Mon, 17 May 2010 02:23:50 -0700 (PDT)
+Received: by 10.223.50.68 with SMTP id y4mr5935573faf.51.1274088229241;
+        Mon, 17 May 2010 02:23:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si12255159fak.96.2010.05.17.02.23.48;
+        Mon, 17 May 2010 02:23:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 539C42D0DF8; Mon, 17 May 2010 09:23:39 +0000 (UTC)
+Old-Return-Path: <alexey.salmin@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AECC12D0C74
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 09:23:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id lSEr-P0vpskX for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 09:23:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 7599B2D0DEF
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 09:23:26 +0000 (UTC)
+Received: by mail-fx0-f47.google.com with SMTP id 15so365789fxm.6
+        for <debian-user@lists.debian.org>; Mon, 17 May 2010 02:23:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:received:in-reply-to
+         :references:from:date:message-id:subject:to:cc:content-type
+         :content-transfer-encoding;
+        bh=NlSbPD6oWkGxt/UQlsl6qXgPDljF6qdsybUfAleGihY=;
+        b=c2Sa9QbYGEXcg1bnwqMbdvAlmss474oYv54Z/hqWh3JA40LWgJA1yxN/vn4YHLAFZT
+         lY5aAHTbdRV9yr2HT7SkHIKbmy//Qu09MbaalSJlYwPnKYZiNk1QfxryPjXCOHkyhduN
+         EDt5RMXqLStpF7hZ1kAnEwwdgwQtHmP1Je7xQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc:content-type:content-transfer-encoding;
+        b=TDgpnLMjSHzX2R7/EfXN5TsMmFL5PrysADGFUXkELfjz5pQhOpidtpVD5Gd2M1Hk/W
+         zRAkz+anlUH7YHMWJg9367HHgpjr2bwkNah/yvL2BncRYo0Og0KjDmTaw0sZAKjLXD/L
+         Z/usDun7OTIHbsFi0d5YJeP6AprhARA6IHCM4=
+Received: by 10.239.174.70 with SMTP id i6mr501506hbf.180.1274088206301; Mon, 
+	17 May 2010 02:23:26 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.239.164.140 with HTTP; Mon, 17 May 2010 02:23:06 -0700 (PDT)
+In-Reply-To: <87ocge52fo.fsf@turtle.gmx.de>
+References: <4BEC9B19.5060001@acu.edu> <4BEDADA7.8090908@acu.edu> 
+	<20100515090425.GA3589@apocatequil> <87aas1r0fc.fsf@turtle.gmx.de> 
+	<AANLkTikipjZpNoT5TLovlA0y6bgxInL4djUTrznkkDVy@mail.csmining.org> 
+	<87zkzz3tmt.fsf@turtle.gmx.de> <87ocge52fo.fsf@turtle.gmx.de>
+From: Alexey Salmin <alexey.salmin@csmining.org>
+Date: Mon, 17 May 2010 16:23:06 +0700
+Message-ID: <AANLkTikX6udd_Ny3KROb09XgI9be6TXWAOp1L2yi835n@mail.csmining.org>
+Subject: Re: executable won't execute
+To: debian-user@lists.debian.org
+Cc: Kent West <westk@acu.edu>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <hK2Kqfp0aQM.A.11.bsQ8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577019
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 09:23:39 +0000 (UTC)
+
+On Mon, May 17, 2010 at 3:59 PM, Sven Joachim <svenjoac@gmx.de> wrote:
+> On 2010-05-17 08:54 +0200, Sven Joachim wrote:
+>
+>> On 2010-05-17 08:46 +0200, Alexey Salmin wrote:
+>>
+>>> So, it's a bug in lsb-core package?
+>>
+>> Yes, the LSB mandates that /lib/ld-lsb.so.3 is the dynamic linker:
+>>
+>> http://refspecs.freestandards.org/LSB_4.0.0/LSB-Core-IA32/LSB-Core-IA32/=
+baselib.html
+>
+> This makes me wonder how Ubuntu obtained their LSB certification,
+> considering that they do not seem have /lib/ld-lsb.so.3 in any package
+> either, according to http://packages.ubuntu.com. =A0The whole LSB seems t=
+o
+> be a joke.
+>
+> Sven
+>
+
+It appears that ld-lsb symlinks are created by lsb-core postinst
+script. That's why they're not listed in package contents.
+
+Kent, it seems that it's a somehow better solution for you to install
+the lsb-core package (or a whole lsb group) rather than create that
+symlink manually (it's not that important though).
+
+Alexey
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikX6udd_Ny3KROb09XgI9be6TXWAOp1L2yi835n@mail.csmining.org
+
+

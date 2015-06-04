@@ -1,0 +1,211 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287fe4d5a20de76
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs574820wfb;
+        Sun, 9 May 2010 18:47:03 -0700 (PDT)
+Received: by 10.143.25.27 with SMTP id c27mr2164737wfj.65.1273456022942;
+        Sun, 09 May 2010 18:47:02 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 27si6155178pzk.3.2010.05.09.18.47.02;
+        Sun, 09 May 2010 18:47:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id A11521C6A1A90
+	for <mlsubscriber.tech@csmining.org>; Sun,  9 May 2010 18:47:02 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9C9B827862780
+	for <mlsubscriber.tech@csmining.org>; Sun,  9 May 2010 18:47:02 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 07BE427862775
+	for <augd@lists.apple.com>; Sun,  9 May 2010 18:46:59 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id E834BD207180
+	for <augd@lists.apple.com>; Sun,  9 May 2010 18:46:59 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-f8-4be765938571
+Received: from homiemail-a38.g.dreamhost.com (caiajhbdcbbj.dreamhost.com
+	[208.97.132.119])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	9D.08.07800.39567EB4; Sun,  9 May 2010 18:46:59 -0700 (PDT)
+Received: from [192.168.0.101] (c-174-54-90-115.hsd1.pa.comcast.net
+	[174.54.90.115])
+	by homiemail-a38.g.dreamhost.com (Postfix) with ESMTP id E7AC6D4FCF
+	for <augd@lists.apple.com>; Sun,  9 May 2010 18:46:55 -0700 (PDT)
+From: "Chuck Joiner" <chuck@chuckjoiner.com>
+To: "Apple Discussion List" <augd@lists.apple.com>
+Date: Sun, 9 May 2010 21:45:19 -0400
+Message-Id: <20100510014519.880325075@mail.chuckjoiner.com>
+X-Mailer: CTM PowerMail version 6.0.3 build 4609 English (intel)
+	<http://www.ctmdev.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAhQMCz8UDGnJ
+Subject: AUGD: The MUG Center Briefing: May 9, 2010
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+May 9, 2010
+The MUG Center
+The Mac User Group Resource Site
+<http://www.mugcenter.com>
+
+
+CONTENTS:
+
+1 - The MUG Event Calendar for May 10: Bob "Dr. Mac" LeVitus' Mid-
+Atlantic MUG Tour Continues, Francis Shepherd of Apple, Andrew Taylor of
+MacSpeech, Michael Simmons of Cultured Code, Wacom and More
+
+2 - Next SF Cutters Meeting to Feature Adobe, AJA, Chris Fenwick and More
+
+3 - Dave Marra of Apple Updates His Mac User Group Presentation Schedule
+
+4 - This Week on the MUG Event Calendar
+
+---------
+
+1 - The MUG Event Calendar for May 10: Bob "Dr. Mac" LeVitus' Mid-
+Atlantic MUG Tour Continues, Francis Shepherd of Apple, Andrew Taylor of
+MacSpeech, Michael Simmons of Cultured Code, Wacom and More
+<http://www.mugcenter.com/the-mug-event-calendar-for-may-10-bob-dr-mac-
+levitus-mid-atlantic-mug-tour-continues-francis-shepherd-of-apple-andrew-
+taylor-of-macspeech-michael-simmons-of-cultured-code-wacom-and-more/>
+The MUG Event Calendar is extra large this week, with presentations from
+all sorts of special guests as well as plenty of home-grown
+demonstrations and topics.
+
+Bob "Dr. Mac" LeVitus continues his Mid-Atlantic Tour this week, with
+appearances in New Jersey and Pennsylvania, while Apple Systems Engineer
+=46rancis Shepherd will present to a North Carolina group, Andrew Taylor
+of MacSpeech will visit a Massachusetts group, Michael Simmons of
+Cultured Code will be the guest at a New York group, and the folks from
+Wacom will visit an Oregon group. (more)
+
+
+2 - Next SF Cutters Meeting to Feature Adobe, AJA, Chris Fenwick and More
+<http://www.mugcenter.com/next-sf-cutters-meeting-to-feature-adobe-aja-
+chris-fenwick-and-more/>
+The next meeting of SF Cutters, the San Francisco Final Cut Pro User
+Group, will be held on May 13, and features a full slate of presenters. =
+(more)
+
+
+3 - Dave Marra of Apple Updates His Mac User Group Presentation Schedule
+<http://www.mugcenter.com/dave-marra-of-apple-updates-his-mac-user-group-
+presentation-schedule/>
+Apple Senior Systems Engineer Dave Marra has updated his Mac User Group
+presentation schedule with even more dates. Dave's current complete
+schedule includes: (more)
+
+
+4 - This week on The MUG Event Calendar
+<http://www.mugcenter.com/mug-event-calendar-may-2010/>
+
+Monday=0910 May=09
+ - Portland Macintosh Users Group - WACOM Demos Their Tablets
+ - London Macintosh Users Group - SIGs on Bento, iSync, Managing photos
+on the Mac, iPhone OS, Mac Basics
+ - Southern Maryland Mac User Group - TBA
+ - Cambridge Macintosh Users Group (United Kingdom) - TBA
+
+Tuesday=0911-May
+ - Princeton Macintosh Users Group - Bob "Dr. Mac" LeVitus Mid-Atlantic
+MUG Tour
+ - Triangle Macintosh Users Group - Apple Systems Engineer Francis Shepherd
+ - Cowtown Macintosh Users Group - The iPad
+ - South Suburban Macintosh Users Group - MacSpeech Dictate
+ - Gateway Macintosh Users Group - iPad demo
+ - MacinTech Users Group - The iPad
+ - Whatcom Macintosh Users Group - Brainstorming Meeting Topics
+ - Oxford Macintosh Users Group (United Kingdom) - Colour Management
+ - Capitol Macintosh - Annual Social
+ - Corvallis Macintosh User Group - Backing Up; Mac Tips; Downloading
+Audio Books
+ - MacWichita - The iPad is here!
+ - Santa Fe Macintosh Users Group - GarageBand
+ - Charlotte Apple Computer Club - Digital Imaging, Part 2
+ - Maryland Apple Core - Drawing Satire on a Mac
+ - Bellarine Mac User Group (Australia) - All In Together
+ - Macintosh Computer Club of Calgary (Canada) - Demo of i7-based MacBook =
+Pro
+ - Mt. Dora Macintosh Users Group - TBA
+ - North Queensland Mac Users Group (Australia) - TBA
+ - Mac@LehighValley Users Group - TBA
+
+Wednesday=0912-May
+ - Hershey Apple Core - Bob "Dr. Mac" LeVitus Mid-Atlantic MUG Tour
+ - Boston Macintosh - Andrew Taylor of MacSpeech
+ - West Pasco Macintosh User Group - Q&A Workshop
+ - ApplePickers - PDF File Manipulation
+ - Apple CIDER - Things; iPad App Development; LogMeIn
+ - Bay Area Macintosh Users Group - "Identity Theft and Fraud Schemes -
+How to Stay Safe" and MoneyDance personal accountin gsoftware
+ - Greater Albany AppleByters - TBA
+
+Thursday=0913-May
+ - SF Cutters - Adobe Creative Suite 5; AJA; FCP with editor Chris
+=46enwick, and filmmaker Mitchell Rose
+ - East Bay Macintosh Users Group - Be Master of Your Data - Build Your
+Own Hard Drive
+ - Upper Keys Macintosh User Group - Meet the iPad!
+ - Tidewater Area Macintosh Users Group - Bluetooth Hardware & OS Interface
+ - Laguna Woods Macintosh Users Group - Introducing the iPad
+ - Cambria Computer Club - Get A (i)Life
+ - MacPeople - Basic Photo Editing with iPhoto and Photoshop Elements;
+Appe Show and Tell; Working with the iPad
+ - Colorado Macintosh Users Group - TBA
+ - Port Townsend Seriously Laid-back User Group - TBA
+
+=46riday=0914-May
+ - Long Island Macintosh Users Group - Michael Simmons of Cultured Code
+presents Things
+ - Club Mac of Monterey - Googling Around
+ - Atlantic City Area Macintosh Users Group - iPad Hands On
+
+Saturday=0915-May
+ - Tuscarawas County Mac Users Group - TBA
+ - Houston Area Apple Users Group - Tropical Software presents TopXNotes
+ - MacTechnics - Macprofessionals & and Apple Pro App Overview
+
+
+Sunday=0916-May
+ - Double-Click - Buying a New Mac: Tips on the Decision Process
+ - Central Wisconsin Apple Users Group - Swap Fest Exchange
+
+
+Thanks,
+
+---Chuck
+=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F
+
+Chuck Joiner
+Editor-In-Chief
+The MUG Center
+http://www.mugcenter.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

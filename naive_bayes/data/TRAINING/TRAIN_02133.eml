@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286eb9efac98e66
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs407967wfb;
+        Thu, 6 May 2010 10:46:39 -0700 (PDT)
+Received: by 10.223.19.87 with SMTP id z23mr7042224faa.7.1273167998480;
+        Thu, 06 May 2010 10:46:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k29si2568067fkk.15.2010.05.06.10.46.37;
+        Thu, 06 May 2010 10:46:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2328313A53BD; Thu,  6 May 2010 17:46:28 +0000 (UTC)
+Old-Return-Path: <trish@thefrasers.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B4BF113A5339
+	for <lists-debian-user@liszt.debian.org>; Thu,  6 May 2010 17:46:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id PvRC85hGouwd for <lists-debian-user@liszt.debian.org>;
+	Thu,  6 May 2010 17:46:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 1583 seconds by postgrey-1.31 at liszt; Thu, 06 May 2010 17:46:15 UTC
+Received: from mail.cc.com.au (mail.cc.com.au [202.125.43.137])
+	by liszt.debian.org (Postfix) with ESMTP id 32A2B13A40D5
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 17:46:15 +0000 (UTC)
+Received: from sanity (sanity.cc.com.au [202.125.43.148])
+	by mail.cc.com.au (Postfix) with ESMTP id AA84DFC157
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 17:19:46 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at sanity.cc.com.au
+Received: from mail.cc.com.au ([202.125.43.137])
+	by sanity (sanity.cc.com.au [202.125.43.148]) (amavisd-new, port 10024)
+	with ESMTP id hu6hCqVtdREc for <debian-user@lists.debian.org>;
+	Thu,  6 May 2010 17:19:40 +0000 (UTC)
+Received: from andromeda.localdomain (d28-63.icpnet.pl [77.65.28.63])
+	by mail.cc.com.au (Postfix) with ESMTP id 7AC06FC132
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 17:19:39 +0000 (UTC)
+Date: Thu, 6 May 2010 19:19:30 +0200
+From: Patricia Fraser <trish@thefrasers.org>
+To: debian-user@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Message-ID: <20100506191930.3fd6bf47@andromeda.localdomain>
+In-Reply-To: <v2i880dece01005060805uc205651al9f414e9bfb6e3436@mail.csmining.org>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+	<20100506120356.GT28964@n0nb.us>
+	<u2j880dece01005060559i8d269387ue479fb65b3fe4596@mail.csmining.org>
+	<20100506132209.GB18442@n0nb.us>
+	<v2i880dece01005060805uc205651al9f414e9bfb6e3436@mail.csmining.org>
+X-Mailer: Claws Mail 3.7.3 (GTK+ 2.18.6; x86_64-mandriva-linux-gnu)
+Mime-Version: 1.0
+Content-Type: multipart/signed; micalg=PGP-SHA1;
+ boundary="Sig_/0LzGC=rI3LrJcUf_eMBMlx3"; protocol="application/pgp-signature"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <E5pWSn_peiE.A.6zE.0Bw4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576058
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 17:46:28 +0000 (UTC)
+
+--Sig_/0LzGC=rI3LrJcUf_eMBMlx3
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+Hi Dotan,
+
+> This is what I'd like to know! It is very subjective, but KDE 3 was
+> very intuitive in some aspects. Tell me what is not intuitive in KDE
+> 4.4 and I will file the bugs. Thanks, this is an important one! I
+> agree that many things are _not_ intuitive.
+
+The thing I miss most in KDE4 is: pausing the cursor over a music
+file in Konq (file manager, icon view) and hearing the contents.
+This was such an awesome feature that Microsoft has copied it for
+Windows 7; and it's disappeared from Konq/Dolphin. I asked about it
+once, and got <shrug> back.
+
+Otherwise, I'm a happy KDE4.4 user (on a number of distros).
+
+Any chance?
+
+--=20
+Trish Fraser, JD9R RQ2D
+52.4161N,16.9303E
+do mei  6 19:16:30 CEST 2010
+GNU/Linux 1997-2010 #283226 counter.li.org
+andromeda up 1 hour(s), 3 min.
+kernel 2.6.31.13-desktop-1mnb
+--
+
+--Sig_/0LzGC=rI3LrJcUf_eMBMlx3
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Disposition: attachment; filename=signature.asc
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJL4voiAAoJEFTnxl6Z2dG450oH/3tflVyVlnszbnTlpmkel2Hq
+lbHAOq82shLxgRANt/l1LZooBO2+hE75Iabl4nLQVk4yOFToiuMjvtp2re/ct/5z
+jZkVtlMbQunsbJW9AKtkGyui4RUGywqq4iePGSbiNFjDORcAS09Js/xBZ3auNJvn
+f81ycak9Y7Mjuf+1M4aVjxdtRAUt1RKdSd1AMHiEw5Pnw3exfuYWh/4OyQjPJDLC
+d98VVicErIZbalC90o4zL+PrwFHBozq52Zsxluaf3OX8aNrYBfJdkm8WxYF/VWOw
+ZR9wVefQGmpACT3bJzkdhqEqY3BdjvDu9+8sYWP8n1jYcG5rAoFA0+DaASQGWf0=
+=AcRV
+-----END PGP SIGNATURE-----
+
+--Sig_/0LzGC=rI3LrJcUf_eMBMlx3--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506191930.3fd6bf47@andromeda.localdomain
+
+

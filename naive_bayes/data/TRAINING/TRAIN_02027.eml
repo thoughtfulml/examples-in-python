@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId12821a810fa1d411
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs125708wfj;
+        Wed, 21 Apr 2010 11:36:53 -0700 (PDT)
+Received: by 10.223.29.218 with SMTP id r26mr226240fac.5.1271874982214;
+        Wed, 21 Apr 2010 11:36:22 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si4923371fkg.28.2010.04.21.11.36.21;
+        Wed, 21 Apr 2010 11:36:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6698913A4A5D; Wed, 21 Apr 2010 18:36:15 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 71F8913A4947
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 18:36:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 7WwK5XiBXOpp for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 18:35:59 +0000 (UTC)
+Received: from eastrmmtao106.cox.net (eastrmmtao106.cox.net [68.230.240.48])
+	by liszt.debian.org (Postfix) with ESMTP id AF20313A480D
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 18:35:58 +0000 (UTC)
+Received: from eastrmimpo01.cox.net ([68.1.16.119])
+          by eastrmmtao106.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100421183556.BABN26523.eastrmmtao106.cox.net@eastrmimpo01.cox.net>
+          for <debian-user@lists.debian.org>;
+          Wed, 21 Apr 2010 14:35:56 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo01.cox.net with bizsmtp
+	id 8Jbv1e00B4dcMZy02JbvEQ; Wed, 21 Apr 2010 14:35:56 -0400
+X-VR-Score: -130.00
+X-Authority-Analysis: v=1.1 cv=u9aaE4Pfr0xy9UvPxuh9qFR1i2SV5RyaXjJQawTgqeY=
+ c=1 sm=1 a=aBSQCAnLn7gA:10 a=IkcTkHD0fZMA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=QmLi76iDclBQP7v-Rb0A:9 a=VrXwm8ata6Kby77KOVYAA8_56i0A:4 a=QEXdDO2ut3YA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BCF458B.9040008@cox.net>
+Date: Wed, 21 Apr 2010 13:35:55 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Linux compatible mainboards -another thought
+References: <4BCF2855.5050901@heard.name> <4BCF3261.7080105@heard.name>	<pan.2010.04.21.17.22.13@csmining.org> <4BCF3986.1070502@cox.net> <pan.2010.04.21.18.04.01@csmining.org>
+In-Reply-To: <pan.2010.04.21.18.04.01@csmining.org>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PhCV0Z0AqYN.A.z8D.fW0zLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574708
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 18:36:15 +0000 (UTC)
+
+On 2010-04-21 13:04, Camaleón wrote:
+> On Wed, 21 Apr 2010 12:44:38 -0500, Ron Johnson wrote:
+> 
+>> On 2010-04-21 12:22, Camaleón wrote: [snip]
+>>> For GeForce 7600GS you have the following options:
+>>>
+>>> 1/ "nv" driver (only 2-D)
+>> Except that Nvidia deprecated this driver a few weeks ago...
+> 
+> ... only for "newer" (fermi) cards ;-)
+
+Will they keep it current with X?
+
+[snip]
+> 
+> I agree. I guess from now on nvidia will be pushing their own proprietary 
+> drivers.
+
+It is blazingly fast, and narrows the code base they need to work on...
+
+>>> I am currently using option #2 for my GeForce 7600GS in Debian lenny
+>>> and works pretty well.
+>>>
+>>>
+>> I use #3 with a 7300GS in a mixed 32/64-bit environment (totally
+>> unsupported by Nvidia, but works like a charm).
+> 
+> I find it a bit more difficult to manage (if you change the kernel, you 
+> need to recompile the driver again).
+> 
+
+Eh.  I'm still running .31 from December.  (Will soon be upgrading 
+to .33, though.)
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF458B.9040008@cox.net
+
+

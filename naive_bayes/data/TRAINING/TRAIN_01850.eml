@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286de9602cb0ead
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs395025wfb;
+        Thu, 6 May 2010 06:58:52 -0700 (PDT)
+Received: by 10.86.239.11 with SMTP id m11mr1658699fgh.22.1273154330651;
+        Thu, 06 May 2010 06:58:50 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si2098531fks.35.2010.05.06.06.58.50;
+        Thu, 06 May 2010 06:58:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 48C8213A57ED; Thu,  6 May 2010 13:58:48 +0000 (UTC)
+Old-Return-Path: <Howland@priss.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.7 required=4.0 tests=FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,
+	MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5378113A577A
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 13:58:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.68 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Tg97FyrlyzsG for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 13:58:34 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from omta01.suddenlink.net (omta01-pub.suddenlink.net [208.180.40.73])
+	by liszt.debian.org (Postfix) with ESMTP id 2238113A56C7
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 13:58:27 +0000 (UTC)
+Received: from random-2.local ([74.192.191.217]) by omta01.suddenlink.net
+          (InterMail vM.7.09.02.04 201-2219-117-106-20090629) with ESMTP
+          id <20100506135824.BUHE20698.omta01.suddenlink.net@random-2.local>
+          for <debian-kde@lists.debian.org>; Thu, 6 May 2010 08:58:24 -0500
+Content-Disposition: inline
+From: Curt Howland <Howland@priss.com>
+Organization: Acolytes of the Goddess Priss
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Date: Thu, 6 May 2010 09:58:24 -0400
+User-Agent: KMail/1.9.9
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005060958.24930.Howland@priss.com>
+X-Cloudmark-Analysis: v=1.1 cv=er5GIMWN3ynD5puP/BcTD4wbho0Kiw4gb/2JzTYhYLY= c=1 sm=0 a=8nJEP1OIZ-IA:10 a=fo6KsVNdkr9mQnQB75IA:9 a=HUKx91qE5R4qT6SfpmFKjillKJ4A:4 a=wPNLvfGTeEIA:10 a=HpAAvcLHHh0Zw7uRqdWCyQ==:117
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jEUVYGGd0hI.A.49G.Yss4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32126
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 13:58:48 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thursday 06 May 2010 it was so written:
+> So, let me ask the above question again: where is your code ?
+
+I was thinking about getting all obsequious and fawning at the High 
+Priests of Development, to verbally bow in thanks for the scraps of 
+code that we mere users are able to pick up off the ground after the 
+Priests have passed, but then I realized that there are lots of 
+people for whom English isn't a first language, and sarcasm doesn't 
+work in email very well anyway.
+
+What's left for a user to do? As Nate put it a moment ago, just move 
+on.
+
+> Are _you_ interested in doing it ?
+
+Backporting KDE4 applications to a KDE3 working environment is beyond 
+my skills. I can't even get Squeeze KDM to use a different background 
+as it is.
+
+> At that game, there are two types of players: those who rant and
+> contribute to fix the root of their rant (aka code) and those who
+> rant and do nothing.
+
+Going back to obsequious pandering is looking very tempting. Yes, us 
+mere users have nothing to contribute, since we don't write code.
+
+> We are all volunteers and among those volunteers, nobody is
+> interested in maintaining KDE 3.5 within Debian. I don't see this
+> as a problem; its just a fact.
+
+Indeed. And I assure you, that fact is not lost on anyone.
+
+> Ranting wont change the facts.
+
+Let them eat cake.
+
+> OdyX
+
+Curt-
+
+- - -- 
+Those who torment us for our own good will torment us without end,
+for they do so with the approval of their consciences.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iQEVAwUBS+LLAC9Y35yItIgBAQKlVwf/TpRme9P/nghvduVJ14Lao0+ejEA7Vdro
+AdkSgUIHkxYx1PzcW4qISXkC3VL1ZWz8ZZCxXn6o2Z/C/5582tif4A/tpaeISPfg
+lgC2RSNRLZIGOqo4t9iWWp8cCWbnPMP1GZaq/PRh6AaFDvk+bJ7KdP7Wg/JjK7xE
+iilXzb0S+gOYlacvJ6f28Nv9sQJMsLFcqlS4g6F3mKkAEKWERwI5Y36nCunJvdEw
+5/90K1ZWWAv7HMR7iaWmiX61pg6vOru7KewLw+0OesEbdPF28WhCpHqAZHHr4ep+
+wcP88A/uYa9s+wC/KhGuZ8V12Bfgm/ZL4K8WcTrXhoLXS6RbJhGYEA==
+=svYH
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005060958.24930.Howland@priss.com
+
+

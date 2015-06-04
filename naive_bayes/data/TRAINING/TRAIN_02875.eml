@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280675851e143ea
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs20828wfj;
+        Fri, 16 Apr 2010 04:51:25 -0700 (PDT)
+Received: by 10.143.26.21 with SMTP id d21mr787049wfj.225.1271418684690;
+        Fri, 16 Apr 2010 04:51:24 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 3si8382258iwn.12.2010.04.16.04.51.24;
+        Fri, 16 Apr 2010 04:51:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 185761BFEAE43
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 04:51:24 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 10BBF26D8A2EB
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 04:51:24 -0700 (PDT)
+X-Original-To: Java-dev@lists.apple.com
+Delivered-To: Java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 03A3626D89C79
+	for <Java-dev@lists.apple.com>; Fri, 16 Apr 2010 04:50:28 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id E7B88CF33621
+	for <Java-dev@lists.apple.com>; Fri, 16 Apr 2010 04:50:28 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-63-4bc84f04ca6f
+Received: from mail-gx0-f216.google.com (mail-gx0-f216.google.com
+	[209.85.217.216])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	1E.8A.26228.40F48CB4; Fri, 16 Apr 2010 04:50:28 -0700 (PDT)
+Received: by gxk8 with SMTP id 8so1347708gxk.9
+	for <Java-dev@lists.apple.com>; Fri, 16 Apr 2010 04:50:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:subject:from:content-type
+	:message-id:date:to:content-transfer-encoding:mime-version:x-mailer;
+	bh=eT2Bba5CywkbHbEjSnETEpg8ru9l4TsaIedTtk3SELQ=;
+	b=g8iuM8Vh6ArdWS3jM9dGYysEj+4Wv2vXahXjcug5xjVDE1twNSqDncmKtwSpsGWScz
+	6aHbPcb1S7kwykceav4O9F9QGBTO2TC4TRK9rzXo3P2ZHVsQ8jC9e1rwzdzmFLVgdAQe
+	s9hMbsaJvZtV/tKlkwq8/P5stnc2sX5rYFhic=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=subject:from:content-type:message-id:date:to
+	:content-transfer-encoding:mime-version:x-mailer;
+	b=gnhMO/VN9PwoqgsONb8C6EraR9FuTK5WSXooYV7FqQk/lXZqnALyGb+ek7iPVgOHA8
+	3WtEvUNkMbFLVOuO9gkhQ37CI2xtS7Zy4W/kCgKBjCEADefmRLlZcYPclRD0N9muUn4h
+	gd61afE4L8m8edGdlHojzo0U4g8BwMeX/UBKM=
+Received: by 10.101.178.8 with SMTP id f8mr3576215anp.179.1271418627167;
+	Fri, 16 Apr 2010 04:50:27 -0700 (PDT)
+Received: from [192.168.24.53] (pl571.nas982.takamatsu.nttpc.ne.jp
+	[124.154.42.59])
+	by mx.google.com with ESMTPS id 30sm11763579anp.11.2010.04.16.04.50.26
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Fri, 16 Apr 2010 04:50:26 -0700 (PDT)
+From: Jean-Christophe Helary <jean.christophe.helary@csmining.org>
+Content-Type: text/plain; charset=us-ascii
+Message-Id: <E95B25C5-374B-4CDC-9617-7E8D5666471C@csmining.org>
+Date: Fri, 16 Apr 2010 20:50:23 +0900
+To: list Java-dev <Java-dev@lists.apple.com>
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAABhO1VpgTtVtIE7XV+RO2WEwTtoHBE7aDxw==
+Cc: 
+Subject: Recommended values for JVMVersion ?
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+There have been a number of releases since March 2009 so I'd like to =
+know if the information on that page regarding the possible values of =
+"JVMVersion" is still relevant:
+
+=
+http://developer.apple.com/mac/library/documentation/Java/Reference/Java_I=
+nfoplistRef/Articles/JavaDictionaryInfo.plistKeys.html
+
+Especially the part where it is written that the "1.n*" values are not =
+recommended.
+
+Thanks in advance.
+
+
+Jean-Christophe Helary
+----------------------------------------
+fun: http://mac4translators.blogspot.com
+work: http://www.doublet.jp (ja/en > fr)
+tweets: http://twitter.com/brandelune
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

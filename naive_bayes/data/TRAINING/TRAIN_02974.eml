@@ -1,0 +1,147 @@
+X-Account-Key: account5
+X-UIDL: GmailId128238e43eb16d60
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs141685wfj;
+        Wed, 21 Apr 2010 20:27:26 -0700 (PDT)
+Received: by 10.223.16.84 with SMTP id n20mr418732faa.94.1271906845192;
+        Wed, 21 Apr 2010 20:27:25 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si414890fka.46.2010.04.21.20.27.24;
+        Wed, 21 Apr 2010 20:27:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5116813A4CFC; Thu, 22 Apr 2010 03:27:17 +0000 (UTC)
+Old-Return-Path: <ken@heard.name>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-13.8 required=4.0 tests=FVGT_m_MULTI_ODD,
+	LDOSUBSCRIBER,LDO_WHITELIST,MONEY,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,
+	PGPSIGNATURE,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 640E913A4CA7
+	for <lists-debian-user@liszt.debian.org>; Thu, 22 Apr 2010 03:27:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.18 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, LDO_WHITELIST=-5,
+	MONEY=0.5, MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id w0+cl4WYcWXs for <lists-debian-user@liszt.debian.org>;
+	Thu, 22 Apr 2010 03:27:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -4.2
+Received: from ironport2-out.pppoe.ca (ironport2-out.teksavvy.com [206.248.154.183])
+	by liszt.debian.org (Postfix) with ESMTP id 4D45913A4C02
+	for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 03:26:58 +0000 (UTC)
+X-IronPort-AntiFiltered: true
+X-IronPort-AntiResult: AhACAB9fz0tFxLSh/2dsb2JhbAAHgw+NCLoAkV2BKoJ3bQSLfw
+X-IronPort-AV: E=Sophos;i="4.52,253,1270440000"; 
+   d="scan'208";a="61725166"
+Received: from 69-196-180-161.dsl.teksavvy.com (HELO [192.168.0.114]) ([69.196.180.161])
+  by ironport2-out.pppoe.ca with ESMTP; 21 Apr 2010 23:26:55 -0400
+Message-ID: <4BCFC1FF.9090103@heard.name>
+Date: Wed, 21 Apr 2010 23:26:55 -0400
+From: Ken Heard <ken@heard.name>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.24) Gecko/20100328 Thunderbird/2.0.0.24 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Linux compatible mainboards
+References: <4BCF2855.5050901@heard.name> <r2g1840f6971004211644k32cb95dv6e1b174659fef954@mail.csmining.org>
+In-Reply-To: <r2g1840f6971004211644k32cb95dv6e1b174659fef954@mail.csmining.org>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8Ng58jmR88M.A.oTE.VI8zLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574735
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 22 Apr 2010 03:27:17 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kelly Clowers wrote:
+
+<snip>
+
+> I don't know specifically about buggy bioses, but in general, Foxconn
+> is not a brand associated with quality, while Gigabyte, Asus and Intel are.
+
+Aside from the quality issue, two+ years ago there was considerable
+internet chatter about BIOSes on some Foxconn models that were
+unfriendly to Linux.  According to the Foxconn article in the Wikipedia
+Foxconn was forced by some of the companies which used Foxconn boards in
+their own brands to fix those BIOSes.  In any event if the information
+in that article is even half true, Foxconn is a manufacturer to avoid.
+
+<snip>
+
+> Intel chipsets make sense for Intel Motherboards, the days when you
+> needed to look to Via or someone else to provide the needed features
+> are mostly gone (Nvidia is, for now, still the best for more powerful
+> integrated graphics with Intel CPUs. But Linux users probably don't
+> want Nvidia graphics anyway).
+
+As I mentioned in my "another thought" post, I am planning to use a
+Nvidia GPU anyway, mainly in order to have two monitors.
+
+
+> Driver-wise it isn't really a matter of the north- or south- bridge, it is
+> about the individual chips that need drivers. Things like ATA controllers
+> and wired Ethernet controllers are generally a non-issue nowadays.
+> The biggest things you need to look at are the GPU (all Intel GPUs
+> except the mobile GMA500 have good support), and wireless 802.11
+> chipsets (not usually built in on desktops, of course)
+
+Good to know.
+
+> In the case of the GA-G41M-ES2H, the Southbridge is old (ICH7; ICH11
+> will be out soon), and the Realtek audio and ethernet chips aren't the
+> greatest. Nonetheless, they do the job and shouldn't have any major
+> compatibly problems with recent kernels. It should be noted that
+> boards with newer ICHs and something other than Realtek are a
+> fair bit more expensive.
+
+In view of your comments I looked further into what is available
+locally.  The model I was originally looking at was a GA-G31M-ES2L for
+CA$59.00.  I found however a GA-EP43-UD3L with the ICH10 and many other
+more advanced features including better Realtek audio for CA$83.00.  As
+I am using an external GPU which GPU internal chipset is provided is not
+really an issue for me. I think the latter model is better value for the
+price.
+
+Regards, Ken Heard
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvPwf4ACgkQlNlJzOkJmTfrCACggUeE10NsliUzCLAH/s4lXqTS
+VW8An0dPH6RXXTTF5f5zOAGUfto4lKh5
+=IwK/
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCFC1FF.9090103@heard.name
+
+

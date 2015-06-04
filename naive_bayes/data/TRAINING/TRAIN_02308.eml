@@ -1,0 +1,92 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283a990ccd269d3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs90200wfj;
+        Mon, 26 Apr 2010 07:50:35 -0700 (PDT)
+Received: by 10.87.1.13 with SMTP id d13mr3711915fgi.29.1272293428494;
+        Mon, 26 Apr 2010 07:50:28 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si7216335fkt.11.2010.04.26.07.50.27;
+        Mon, 26 Apr 2010 07:50:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 11F0E13A54CC; Mon, 26 Apr 2010 14:48:43 +0000 (UTC)
+Old-Return-Path: <rick@niof.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 518D813A5391
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 14:48:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id eQMzDPBlqXwH for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 14:48:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 1152 seconds by postgrey-1.31 at liszt; Mon, 26 Apr 2010 14:48:29 UTC
+Received: from niof.net (niof.net [69.17.2.49])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id DBA9A13A4646
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 14:48:29 +0000 (UTC)
+Received: from rick by niof.net with local (Exim 4.71)
+	(envelope-from <rick@niof.net>)
+	id 1O6PJ4-0006tf-AU
+	for debian-user@lists.debian.org; Mon, 26 Apr 2010 10:29:12 -0400
+Date: Mon, 26 Apr 2010 10:29:06 -0400
+From: Rick Pasotto <rick@niof.net>
+To: debian-user@lists.debian.org
+Message-ID: <20100426142906.GL17245@niof.net>
+Mail-Followup-To: debian-user@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-SA-Exim-Connect-IP: <locally generated>
+X-SA-Exim-Mail-From: rick@niof.net
+Subject: aptitude and held packages
+X-SA-Exim-Version: 4.2.1 (built Mon, 22 Mar 2010 06:51:10 +0000)
+X-SA-Exim-Scanned: Yes (on niof.net)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <g2jJKguQLhI.A.LsE.Lfa1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575129
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 14:48:43 +0000 (UTC)
+
+I just upgraded apt and aptitude to the latest testing version. Although
+'aptitude -s safe-upgrade' tells me that '172 not upgraded' it no longer
+lists them. Is this a bug or an intentional change?
+
+-- 
+"Pay less attention to what men say. Just watch what they do."
+	-- Dale Carnegie
+    Rick Pasotto    rick@niof.net    http://www.niof.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426142906.GL17245@niof.net
+
+

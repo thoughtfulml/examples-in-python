@@ -1,0 +1,189 @@
+X-Account-Key: account5
+X-UIDL: GmailId12870ea2d15fb001
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs428394wfb;
+        Thu, 6 May 2010 20:58:36 -0700 (PDT)
+Received: by 10.223.92.154 with SMTP id r26mr7512417fam.33.1273204714958;
+        Thu, 06 May 2010 20:58:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d4si1130723fac.94.2010.05.06.20.58.34;
+        Thu, 06 May 2010 20:58:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0D65F2E8AF5; Fri,  7 May 2010 03:58:26 +0000 (UTC)
+Old-Return-Path: <alex@samad.com.au>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 387E32E8AEC
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 03:58:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id je4UAOSj2Tdc for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 03:58:12 +0000 (UTC)
+Received: from mail-iw0-f199.google.com (mail-iw0-f199.google.com [209.85.223.199])
+	by liszt.debian.org (Postfix) with ESMTP id 7D88C13A4ACE
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 03:58:12 +0000 (UTC)
+Received: by iwn37 with SMTP id 37so481853iwn.30
+        for <debian-user@lists.debian.org>; Thu, 06 May 2010 20:58:07 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.167.21 with SMTP id o21mr3342174iby.58.1273204686881; Thu, 
+	06 May 2010 20:58:06 -0700 (PDT)
+Received: by 10.231.143.198 with HTTP; Thu, 6 May 2010 20:58:06 -0700 (PDT)
+In-Reply-To: <4BE2B248.7080507@meetinghouse.net>
+References: <4BE2162B.8050207@meetinghouse.net>
+	 <1273118314.31600.5.camel@alex-mini.samad.com.au>
+	 <4BE2B248.7080507@meetinghouse.net>
+Date: Fri, 7 May 2010 13:58:06 +1000
+Message-ID: <u2w836a6dcf1005062058qd3b61a7dx5fb98b79a742344f@mail.csmining.org>
+Subject: Re: network setup question
+From: Alexander Samad <alex@samad.com.au>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <SeUMa73R1EM.A.0vD.i_44LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576107
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 03:58:26 +0000 (UTC)
+
+On Thu, May 6, 2010 at 10:12 PM, Miles Fidelman
+<mfidelman@meetinghouse.net> wrote:
+> Thanks to all who replied. =A0I'm starting to zero in on this now.
+>
+> A few more details:
+>
+[snip]
+
+>
+> on server 1:
+> eth0: inet addr:207.154.13.48 =A0Bcast:207.154.13.63 =A0Mask:255.255.255.=
+224
+> (first netblock)
+> server1:/home/milesf# route
+> Kernel IP routing table
+> Destination =A0 =A0 Gateway =A0 =A0 =A0 =A0 Genmask =A0 =A0 =A0 =A0 Flags=
+ Metric Ref =A0 =A0Use
+> Iface
+> localnet =A0 =A0 =A0 =A0* =A0 =A0 =A0 =A0 =A0 =A0 =A0 255.255.255.224 U =
+=A0 =A0 0 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
+> default =A0 =A0 =A0 =A0 207.154.13.33 =A0 0.0.0.0 =A0 =A0 =A0 =A0 UG =A0 =
+=A00 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
+> server1:/home/milesf# arp -a
+> ? (207.154.13.33) at 00:d0:03:b3:18:00 [ether] on eth0
+>
+> on server 2:
+> eth0: net addr:207.154.59.130 =A0Bcast:207.154.59.159 =A0Mask:255.255.255=
+.224
+> (2nd netblock)
+> server2:/home/milesf# route
+> Kernel IP routing table
+> Destination =A0 =A0 Gateway =A0 =A0 =A0 =A0 Genmask =A0 =A0 =A0 =A0 Flags=
+ Metric Ref =A0 =A0Use
+> Iface
+> localnet =A0 =A0 =A0 =A0* =A0 =A0 =A0 =A0 =A0 =A0 =A0 255.255.255.224 U =
+=A0 =A0 0 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
+> default =A0 =A0 =A0 =A0 207.154.59.129 =A00.0.0.0 =A0 =A0 =A0 =A0 UG =A0 =
+=A00 =A0 =A0 =A00 =A0 =A0 =A0 =A00 eth0
+> server2:/home/milesf# arp -a
+> ? (207.154.59.129) at 00:d0:03:b3:18:00 [ether] on eth0
+>
+> from box 1 -> box 2
+> traceroute to 207.154.59.130 (207.154.59.130), 30 hops max, 40 byte packe=
+ts
+> =A01 =A0207.154.13.33 (207.154.13.33) =A00.418 ms =A00.429 ms =A00.481 ms
+> =A02 =A0server2.neighborhoods.net (207.154.59.130) =A00.299 ms =A00.317 m=
+s =A00.309 ms
+>
+> from box 2 -> box 1
+> server2:/home/milesf# traceroute 207.154.13.48
+> traceroute to 207.154.13.48 (207.154.13.48), 30 hops max, 40 byte packets
+> =A01 =A0207.154.13.33 (207.154.13.33) =A00.352 ms =A00.369 ms =A00.436 ms
+> =A02 =A0server1.neighborhoods.net (207.154.13.48) =A00.292 ms =A00.295 ms=
+ =A00.302 ms
+>
+> The traffic is definitely going through the datacenter's router
+> (207.154.13.33).
+>
+> I'm thinking that adding something like:
+>
+> server 1: route add -net 207.154.13.128 netmask 255.255.255.244 dev eth0
+> server 2: route add -net 207.154.13.32 netmask 255.255.255.244 dev eth0
+
+why not just limit it to the ip address you want currently only 2
+
+server 1: ip route add 207.154.59.130 dev eth0  src 207.154.13.48
+server 2: ip route add 207.154.13.48 dev eth0 src 207.154.59.130
+
+just put in routing statements for the ip's that you need
+
+>
+>
+> One of the machines is a production machine, so I want to be fairly sure =
+of
+> this before starting to play with the routing table.
+>
+> Any more comments?
+>
+> And... anybody know if the "route" command persists across reboots, and i=
+f
+> so, where it store the information?
+
+iproute is the new route
+
+place them in /etc/network/interfaces as post-up command don't forget
+|| true at the end of the command
+
+
+>
+> Thanks again,
+
+answered agan
+
+>
+> Miles
+>
+> --
+> In theory, there is no difference between theory and practice.
+> In<fnord> =A0practice, there is. =A0 .... Yogi Berra
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a subj=
+ect
+> of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BE2B248.7080507@meetinghouse.net
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2w836a6dcf1005062058qd3b61a7dx5fb98b79a742344f@mail.csmining.org
+
+

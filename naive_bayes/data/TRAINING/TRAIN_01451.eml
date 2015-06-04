@@ -1,0 +1,122 @@
+X-Account-Key: account5
+X-UIDL: GmailId12886e142e554ffd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs55255wfb;
+        Tue, 11 May 2010 03:20:30 -0700 (PDT)
+Received: by 10.223.63.17 with SMTP id z17mr5921254fah.66.1273573229398;
+        Tue, 11 May 2010 03:20:29 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h18si10837616fai.20.2010.05.11.03.20.28;
+        Tue, 11 May 2010 03:20:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 20E8413A591E; Tue, 11 May 2010 10:20:23 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=FORGED_YAHOO_RCVD,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2B53313A5877
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 10:20:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.703 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FORGED_YAHOO_RCVD=2.297, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ZgoEJTuV5TnZ for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 10:20:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 01B8813A5847
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 10:20:08 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OBmZH-0006qI-KV
+	for debian-user@lists.debian.org; Tue, 11 May 2010 12:20:03 +0200
+Received: from chello062178025100.9.11.vie.surfer.at ([62.178.25.100])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 12:20:03 +0200
+Received: from deloptes by chello062178025100.9.11.vie.surfer.at with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 12:20:03 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: deloptes <deloptes@yahoo.com>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Date: Tue, 11 May 2010 12:17:55 +0200
+Lines: 31
+Message-ID: <hsbasj$bv6$3@dough.gmane.org>
+References: <201005071123.48345.lisi.reisz@csmining.org> <hsa97l$eat$1@dough.gmane.org> <20100511054051.GA14798@Europa.office> <20100511055911.GA17757@Europa.office>
+Reply-To: deloptes@yahoo.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7Bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: chello062178025100.9.11.vie.surfer.at
+User-Agent: KNode/0.10.9
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BXDVDhZlQOE.A.kpF.n9S6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576489
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 10:20:23 +0000 (UTC)
+
+Freeman wrote:
+
+> On Mon, May 10, 2010 at 10:40:51PM -0700, evenso wrote:
+>> On Tue, May 11, 2010 at 02:43:32AM +0200, deloptes wrote:
+>> 
+>>  . . .
+>> 
+>> > 
+>> > when is squeeze becoming stable??
+>> > 
+>> 
+>> According to officialdom, approximately when the number of R-C bugs hits
+>> 300. That is the green line here:
+>> http://bugs.debian.org/release-critical/ . Process trumps schedules.
+>> 
+> 
+> OK, started looking around and found a better answer. :-)
+> 
+> http://lists.debian.org/debian-devel-announce/2010/05/msg00000.html
+> 
+
+Thank a lot really useful.
+
+I did install yesterday sid 4.4 .... it's a headache ... so I'll wait until
+it works at least half the way.
+I'll try squeeze (kde4.3) but I think it was told that it's not pretty food
+yet.
+
+So to me it looks like we can safely use kde3 the next 2-3 years.
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsbasj$bv6$3@dough.gmane.org
+
+

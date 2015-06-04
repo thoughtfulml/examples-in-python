@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e3c2da36c9407
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs42570wfi;
+        Fri, 9 Apr 2010 11:09:11 -0700 (PDT)
+Received: by 10.141.214.41 with SMTP id r41mr750367rvq.77.1270836551386;
+        Fri, 09 Apr 2010 11:09:11 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 35si2590823iwn.126.2010.04.09.11.09.10;
+        Fri, 09 Apr 2010 11:09:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; domainkeys=hardfail header.From=brandon@pixelture.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id DA93D1BBDC145
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 11:09:09 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D4D6426A93FF0
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 11:09:09 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 0A1BA26A93978
+	for <java-dev@lists.apple.com>; Fri,  9 Apr 2010 11:08:13 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id EDFF0C8DA68F
+	for <java-dev@lists.apple.com>; Fri,  9 Apr 2010 11:08:13 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c7dae000001ba1-cc-4bbf6d0d9a18
+Received: from edge25.inmotionhosting.com (edge25.inmotionhosting.com
+	[74.124.200.24])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	5D.59.07073.D0D6FBB4; Fri,  9 Apr 2010 11:08:13 -0700 (PDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=pixelture.com;
+	h=Received:Message-ID:Date:From:User-Agent:MIME-Version:To:Subject:Content-Type:Content-Transfer-Encoding;
+	b=Dc8N4udMMFregh4RiE1rvxMcgpzl0ExvjnBKnV5MzHPiHRf/yeMd5K7yVgQ5JJwfQRw5v4iUC49L6BOa3Qy5ZYFyHumPs0gTE+J002As1pKTfFcOehQT5APQoDD0j3wq;
+Received: from icielab.cs.byu.edu ([128.187.81.183] helo=[192.168.13.63])
+	by edge25.inmotionhosting.com with esmtpsa (TLSv1:AES256-SHA:256)
+	(Exim 4.69) (envelope-from <brandon@pixelture.com>)
+	id 1O0Icn-0005HY-7M
+	for java-dev@lists.apple.com; Fri, 09 Apr 2010 11:08:13 -0700
+Message-ID: <4BBF6D0B.7030304@pixelture.com>
+Date: Fri, 09 Apr 2010 12:08:11 -0600
+From: Brandon Moon <brandon@pixelture.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: java-dev@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - edge25.inmotionhosting.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - pixelture.com
+X-Brightmail-Tracker: AAAAAA==
+Subject: Mouse events on an unfocused window on Mac?
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I have an application that is designed to do something when the user 
+pauses over it with the mouse, especially when the java application is 
+unfocused.  From what I can tell, on Mac OS X, unfocused Java windows 
+don't get mouse events.  Other applications in Cocoa seem to get this, 
+so I'm curious: Is this a bug?  Or was Java for Mac OS X defined this 
+way?  Is there a way to get these events?
+
+-- 
+Brandon Moon<brandon@pixelture.com
+http://www.pixelture.com
+
+Join us for EduComm 2010
+June 7 - 9 Las Vegas
+www.EducommConference.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

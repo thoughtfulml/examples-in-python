@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dcda8b5ee2623
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs71925wfi;
+        Thu, 8 Apr 2010 02:57:43 -0700 (PDT)
+Received: by 10.87.48.34 with SMTP id a34mr52869fgk.2.1270720662110;
+        Thu, 08 Apr 2010 02:57:42 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 24si16555189fxm.13.2010.04.08.02.57.41;
+        Thu, 08 Apr 2010 02:57:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 781D813A5E69; Thu,  8 Apr 2010 09:57:33 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.5 required=4.0 tests=BLOGSPOT,FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9FD4513A5E64
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 09:57:26 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BLOGSPOT=3, FOURLA=0.1, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id FPWoy2E92Y1u for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 09:57:19 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 7754713A5DC6
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 09:57:19 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1NzoU6-0007s9-Gr
+	for debian-user@lists.debian.org; Thu, 08 Apr 2010 11:57:14 +0200
+Received: from prog.dsi.unifi.it ([150.217.37.31])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 08 Apr 2010 11:57:14 +0200
+Received: from bettini by prog.dsi.unifi.it with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 08 Apr 2010 11:57:14 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+From: Lorenzo Bettini <bettini@dsi.unifi.it>
+Subject: Re: recompiling the kernel with a different version name
+Date: Thu, 08 Apr 2010 11:56:58 +0200
+Lines: 49
+Message-ID: <hpk99h$mh2$1@dough.gmane.org>
+References: <hpiena$t7t$1@dough.gmane.org> <1843272845.1680871270662498861.JavaMail.root@md01.wow.synacor.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: prog.dsi.unifi.it
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100404 Lightning/1.0b1 Thunderbird/3.0.4
+In-Reply-To: <1843272845.1680871270662498861.JavaMail.root@md01.wow.synacor.com>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <n7WpeqeHguO.A.JRG.NiavLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573576
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 09:57:33 +0000 (UTC)
+
+On 04/07/2010 07:48 PM, Stephen Powell wrote:
+> On Wed, 7 Apr 2010 13:17:30 -0400 (EDT), Lorenzo Bettini wrote:
+>> I tried also with --revision, e.g.,
+>>
+>> fakeroot make-kpkg --revision=lore01 --initrd
+>> --append-to-version=-recompiled kernel-image kernel-headers
+>>
+>> but I cannot seem to get rid of that +drm33.1 string:
+>>
+>> linux-headers-2.6.32.10+drm33.1-recompiled_2.6.32.10+drm33.1-recompiled-10.00.Custom_i386.deb
+>
+> "10.00.Custom" is the
+> default value for --revision.  The fact that you see it in the package
+> file name means that it did not recognize the option.  Try it this way:
+>
+>     fakeroot make-kpkg clean
+>     fakeroot make-kpkg --append-to-version -recompiled --revision x.x.xxx \
+>      --initrd kernel_image kernel_headers
+>
+> Note: you must always issue "make-kpkg clean" after running "make menuconfig"
+> or after running "make-kpkg" with any target other than "clean".  Otherwise,
+> version and revision numbers will not work as expected.  Assuming that you
+> are using official Debian kernel sources, you will want to make the value
+> for --revision match the "version" of the linux-source-2.6.32 package.
+> I know the web page I pointed you to is long and boring.  But the answers to
+> all of your problems are in there.  Where did you get your kernel sources,
+> by the way?  And why are you compiling a custom kernel in the first place?
+>
+
+Stephen
+
+sorry I pasted the wrong name: --revision actually took effect since the 
+generated .deb is now (note the 'lore01')
+
+linux-image-2.6.32.10+drm33.1-recompiled_lore01_i386.deb
+
+but what I need to do is to get rid of '+drm33.1' which seems to be 
+automatically added...
+
+the kernel sources are from the ubuntu lucid package 'linux-source-2.6.32'.
+
+cheers
+	Lorenzo
+
+-- 
+Lorenzo Bettini, PhD in Computer Science, DI, Univ. Torino
+HOME: http://www.lorenzobettini.it MUSIC: http://www.purplesucker.com
+BLOGS: http://tronprog.blogspot.com  http://longlivemusic.blogspot.com
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hpk99h$mh2$1@dough.gmane.org
+
+

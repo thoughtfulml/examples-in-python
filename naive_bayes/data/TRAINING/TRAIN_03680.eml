@@ -1,0 +1,153 @@
+X-Account-Key: account5
+X-UIDL: GmailId12836979f686a24b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs57429wfj;
+        Sun, 25 Apr 2010 13:12:47 -0700 (PDT)
+Received: by 10.87.31.36 with SMTP id i36mr5380594fgj.56.1272226226047;
+        Sun, 25 Apr 2010 13:10:26 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si1874913fkg.58.2010.04.25.13.10.25;
+        Sun, 25 Apr 2010 13:10:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4D53B13A5274; Sun, 25 Apr 2010 20:10:15 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.1 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FOURLA,FVGT_m_MULTI_ODD,IMPRONONCABLE_1,IMPRONONCABLE_2,
+	MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9823113A518B
+	for <lists-debian-user@liszt.debian.org>; Sun, 25 Apr 2010 20:10:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.38 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1,
+	FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_1=1, IMPRONONCABLE_2=1,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id x3lOifj89ac2 for <lists-debian-user@liszt.debian.org>;
+	Sun, 25 Apr 2010 20:10:04 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id 538AA13A515A
+	for <debian-user@lists.debian.org>; Sun, 25 Apr 2010 20:10:04 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id 2EA753A652B
+	for <debian-user@lists.debian.org>; Sun, 25 Apr 2010 22:10:02 +0200 (CEST)
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Subject: Re: USB key accepts data only as root
+Date: Sun, 25 Apr 2010 22:06:14 +0200
+Message-ID: <87y6gbe1qh.fsf@merciadriluca-station.MERCIADRILUCA>
+References: <4BD4950F.1020201@student.ulg.ac.be> <4BD499B5.8040704@cox.net> <4BD49C3B.5000903@student.ulg.ac.be> <4BD49F23.10401@cox.net>
+To: debian-user@lists.debian.org
+Organization: ULg
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+Cancel-Lock: sha1:GaBf/Xlut691lqTghOwmWS+LF7g=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 62.197.101.67
+X-Trace: news.sunsite.dk DXC=^nln1lhA2RW60aK5>0M0DVYSB=nbEKnk[2[HYl_M\WJRB`G2cTG;MnQLGVLjEY^2YX[=LHD=0P^YT9g\V1BeNHOY5Z@8`56Df9PN9<DSj:3giY=OO8AnLnMDX
+X-Complaints-To: staff@sunsite.dk
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eDfwZ-46G-1@gated-at.bofh.it> <eDfQm-4xS-15@gated-at.bofh.it> <eDg02-4MW-13@gated-at.bofh.it> <eDg9I-4Zx-5@gated-at.bofh.it>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <w8b9yT0ttiJ.A.qJ.nGK1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575047
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 25 Apr 2010 20:10:15 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ron Johnson <ron.l.johnson@cox.net> writes:
+
+> On 04/25/2010 02:47 PM, Merciadri Luca wrote:
+>> Ron Johnson wrote:
+>>> Not enough information.
+>> Sorry.
+>>> Automounted from a DE, or manually from the CLI?
+>> Automounted, but the related folder is still there (in /media/) even
+>> when the USB key is disconnected.
+>>> What are the ownership and privs on the mount point?  And the raw device?
+>> ==
+>> /media# ls -al
+>> total 28
+>> drwxrwxrwx  6 root root 4096 2010-04-25 13:26 .
+>> drwxr-xr-x 23 root root 4096 2010-01-27 11:13 ..
+>> drwxr-xr-x  3 root root 4096 2009-09-04 19:30 disk
+>> drwxr-xr-x  3 root root 4096 2010-04-25 13:30 disk-1
+>> lrwxrwxrwx  1 root root    7 2009-07-17 17:01 floppy ->  floppy0
+>> drwxr-xr-x  2 root root 4096 2009-07-17 17:01 floppy0
+>> -rw-r--r--  1 root root  299 2010-04-25 13:26 .hal-mtab
+>> -rw-------  1 root root    0 2010-04-25 09:31 .hal-mtab-lock
+>> drwx------  2 root root 4096 2009-08-29 22:20 KUBUNTU_LAPTOP22
+>> ==
+>>
+>> It happens for every removable disk, actually. The raw device is /dev/sde1:
+>>
+>> ==
+>> # ls -al | grep sde
+>> brw-rw----  1 root floppy    8,  64 2010-04-25 21:45 sde
+>> brw-rw----  1 root floppy    8,  65 2010-04-25 21:45 sde1
+>> ==
+>>
+>
+> $ echo $USER
+> me
+$ echo $USER
+merciadriluca
+
+> $ dir /media | grep CENTON
+> drwxr-xr-x  2 me   root 4096 1969-12-31 18:00:00 CENTON USB/
+>
+> ~$ dir /dev/sdh
+> brw-rw---- 1 root floppy 8, 112 2010-04-22 16:19:48 /dev/sdh
+>
+> You wouldn't happen to be logged in as root, would you?
+I am not logged as root. Unfortunately. I do not understand this
+problem. It happens for every removable device: USB keys, external
+HDDs, etc.
+
+
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Man is truly himself when he's alone.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 <http://mailcrypt.sourceforge.net/>
+
+iEYEARECAAYFAkvUoLYACgkQM0LLzLt8MhycrgCfaz2Tu+5UsazVXXe6AQfjr4tp
+7IwAnROwXdusiAFhs9e3aRq0R+NiF8Yf
+=0PNb
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87y6gbe1qh.fsf@merciadriluca-station.MERCIADRILUCA
+
+

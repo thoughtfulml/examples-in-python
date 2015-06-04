@@ -1,0 +1,92 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a75ecb70b63a9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs27336wfo;
+        Mon, 17 May 2010 10:45:28 -0700 (PDT)
+Received: by 10.223.53.91 with SMTP id l27mr6753680fag.0.1274118327282;
+        Mon, 17 May 2010 10:45:27 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n15si13469279fam.57.2010.05.17.10.45.26;
+        Mon, 17 May 2010 10:45:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 75D9513A4989; Mon, 17 May 2010 17:45:16 +0000 (UTC)
+Old-Return-Path: <dsalva@gmx.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.1 required=4.0 tests=MDO_DATING2 autolearn=no
+	version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1F10113A47BD
+	for <lists-debian-kde@liszt.debian.org>; Mon, 17 May 2010 17:27:53 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, MDO_DATING2=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mCNURbPzXUTC for <lists-debian-kde@liszt.debian.org>;
+	Mon, 17 May 2010 17:27:46 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+X-Greylist: delayed 400 seconds by postgrey-1.31 at liszt; Mon, 17 May 2010 17:27:45 UTC
+Received: from lilly.ping.de (lilly.ping.de [83.97.42.2])
+	by liszt.debian.org (Postfix) with SMTP id 7463B13A477F
+	for <debian-kde@lists.debian.org>; Mon, 17 May 2010 17:27:45 +0000 (UTC)
+Received: (qmail 24680 invoked by uid 10); 17 May 2010 17:21:03 -0000
+Received: from ping.de by lilly.ping.de with BSMTP (rgsmtp-qm-ot 0.6) for <debian-kde@lists.debian.org>; 17 May 2010 17:21:03 -0000
+Received: (Debian Exim 4.69)
+	id 1OE3zp-0002DQ-I7
+	for debian-kde@lists.debian.org; Mon, 17 May 2010 19:20:53 +0200
+Date: Mon, 17 May 2010 19:20:53 +0200
+From: Dirk Salva <dsalva@gmx.de>
+To: Debian-KDE Mailingliste <debian-kde@lists.debian.org>
+Subject: How to get kdict or aequivalent in KDE4 / Squeeze?
+Message-ID: <20100517172053.GA8454@dserver.dnetz>
+Mail-Followup-To: Debian-KDE Mailingliste <debian-kde@lists.debian.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+X-No-Archive: Yes
+X-Heimat: dnetz
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <W0rmlWQIbWN.A.85F.sCY8LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32451
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 17:45:16 +0000 (UTC)
+
+Hi folks,
+
+a few days ago I've upgraded my Debian from Lenny to Squeeze. My
+problem: the beloved kdict with the small input-field in the kicker are
+not there anymore. I am missing it:-(
+What can I do to get access with such a small input-field to my local
+dictd?
+
+
+ciao, Dirk
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517172053.GA8454@dserver.dnetz
+
+

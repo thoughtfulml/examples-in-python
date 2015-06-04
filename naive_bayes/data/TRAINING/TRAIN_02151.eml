@@ -1,0 +1,334 @@
+X-Account-Key: account5
+X-UIDL: GmailId12839a283850442a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs79243wfj;
+        Mon, 26 Apr 2010 03:21:11 -0700 (PDT)
+Received: by 10.142.247.21 with SMTP id u21mr1667806wfh.115.1272277271265;
+        Mon, 26 Apr 2010 03:21:11 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 11si5587497pzk.63.2010.04.26.03.21.11;
+        Mon, 26 Apr 2010 03:21:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id E14A41BC820EE
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 03:21:10 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id DBC42271C2421
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 03:21:10 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id CE607271C23ED
+	for <augd@lists.apple.com>; Mon, 26 Apr 2010 03:21:07 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id B745DCF6A8E3
+	for <augd@lists.apple.com>; Mon, 26 Apr 2010 03:21:07 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-1a-4bd5691296c4
+Authentication-Results: mail-in12.apple.com x-tls.subject="/C=US/ST=UT/L=Salt
+	Lake City/O=The USERTRUST
+	Network/OU=http://www.usertrust.com/CN=UTN-USERFirst-Network
+	Applications"; auth=fail (cipher=RC4-SHA)
+Received: from c60.cesmail.net (c60.cesmail.net [216.154.195.49])
+	(using TLS with cipher RC4-SHA (RC4-SHA/128 bits))
+	(Client CN "UTN-USERFirst-Network Applications",
+	Issuer "UTN-USERFirst-Network Applications" (not verified))
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	E8.7A.25880.31965DB4; Mon, 26 Apr 2010 03:21:07 -0700 (PDT)
+Received: from unknown (HELO webmail2) ([192.168.1.183])
+	by c60.cesmail.net with ESMTP; 26 Apr 2010 06:21:06 -0400
+Received: from pool-72-66-235-184.ronkva.east.verizon.net
+	(pool-72-66-235-184.ronkva.east.verizon.net [72.66.235.184]) by
+	webmail.spamcop.net (Horde MIME library) with HTTP; Mon, 26 Apr 2010
+	06:21:04 -0400
+Message-ID: <20100426062104.zyduibuq8c8kock4-fubjxre@webmail.spamcop.net>
+Date: Mon, 26 Apr 2010 06:21:04 -0400
+From: showker@spamcop.net
+To: augd@lists.apple.com
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.4)
+X-Brightmail-Tracker: AAAAARPYxU8=
+Subject: AUGD: InfoManager for Monday, April 26, 2010
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+InfoManager for Monday, April 26, 2010
+-------------------------------------------------------------------
+by Lynn Wegley, InfoManager, with coeditor Fred Showker
+
+What's Here:
+01  UGN Salutes OMUG
+02  WordPress Blogs Hacked
+03  iPad on a roll, good and bad
+04  Phishers still find plenty of suckers
+05  New iPad Vanity Plate
+06  Dracula HD 1.0 for iPad
+07  WeatherCal
+08  txtDrop
+09  Free Mac Software
+10  Mac OS X Secret Keystrokes
+11  60-Seconds: Rush does it again
+12  Mailbag: Thanks from a reader
+13  Note to readers: Books to give away
+14  Quote: Writing
+17  For April 26th, have a great week!
+
+* Follow and Be Followed: http://twitter.com/UGNnet
+
+Subscribe / unsubscribe:
+http://dtgnews.com/mailman/listinfo/infomanager_dtgnews.com
+
+-------------------------------------------------------------------
+
+01  UGN Salutes OMUG
+
+      Mac computer users
+- The Ocala Macintosh User Group, Ocala, Florida
+
+http://www.ugnn.com/2010/04/ugn-salutes-omug/
+
+-------------------------------------------------------------------
+
+02   WordPress Blogs Hacked
+
+      For the past two weeks we've been battling WordPress hacks and
+attacks that have affected thousands of blogs. Fortunately, they
+did not get UGNN. However they did get several other sites we
+administer, and it's not a pretty sight. Network Solutions
+was hacked twice in ten days, and they don't seem to be
+able to stay ahead of the hackers.
+
+http://www.ugnn.com/2010/04/wordpress-blogs-hacked/
+
+-------------------------------------------------------------------
+
+03  iPad on a roll, good and bad
+
+      iPad news continues with pro and con news -
+Apple: iPad 3G Coming on April 30 -- but when a 100-year old
+Apple fan writes poem about iPad, you know it's special.
+
+Other news includes
+* iPad gets an 'okay' from Microsoft's Bill Gates
+* Will iPad cannibalize Mac sales?
+* Apple iPad is illegal in Israel
+* 26 Percent of Wired's Mobile Traffic Comes From the iPad
+* man loses pinky finger during ipad snatching
+... and a skeptic's review (plus several others.)
+
+http://www.ugnn.com/2010/04/ipad-on-a-roll-good-and-bad/
+
+-------------------------------------------------------------------
+
+04  Phishers still find plenty of suckers
+
+      Phishing doesn't stop ... it just changes its methods as
+seen in this week's phishing update:
+* 1.5 Million Facebook Accounts for Sale
+* Porn sites top drive-by download list
+* Twitter Phishing Scam
+* Fake Ticket Sites
+* Google Cyberattack
+* Facebook virus causes headaches
+* 'Phishing' Phone Calls
+* Social Networking on Facebook Declared Unsafe
+   -- and others
+
+http://www.ugnn.com/2010/04/phishers-still-find-plenty-of-suckers/
+
+-------------------------------------------------------------------
+
+05  New iPad Vanity Plate
+
+      NewPCgadgets introduces the new Vanity Plate for the iPad.
+The Vanity Plate offers a custom look while providing valuable
+contact information in the event your iPad is lost or misplaced.
+This is the first loss-prevention product designed to
+protect your latest Apple investment.
+
+http://www.ugnn.com/2010/04/new-ipad-vanity-plate/
+
+-------------------------------------------------------------------
+
+06  Dracula HD 1.0 for iPad
+
+      Last Friday, Intelligenti Publishing, the developers of
+Dracula HD have launched a first-of-its-kind application.
+Thanks to a flexible custom development, Dracula HD presents
+a realistic series of journal entries, letters and newspaper
+clippings that reveal, piece by piece, Bram Stoker's Dracula.
+
+The Apps visual presentation is beyond what has been possible
+or released before, to take users to a new level of
+book enjoyment in a mobile platform.
+
+http://www.ugnn.com/2010/04/dracula-hd-1-0-for-ipad/
+
+-------------------------------------------------------------------
+
+07  WeatherCal
+
+      Our friends at Bare Bones software have a new product
+called WeatherCal. With WeatherCal, you enter the city of
+your choice and you get a 5 day weather forecast as a
+calendar. This calendar is compatible with iCal.
+
+http://www.ugnn.com/2010/04/weathercal/
+
+-------------------------------------------------------------------
+
+08  txtDrop
+
+      For a long time now, we have been told that the most expense
+way to send data from one person to another was text messaging
+on a cell phone. At 20 to 30 cents per message, it is
+extremely expensive, but when you realize, you are
+paying it coming and going, it would double the expense.
+
+http://www.ugnn.com/2010/04/txtdrop/
+
+-------------------------------------------------------------------
+
+09  Free Mac Software
+
+      I am not sure that you really can't live without these,
+but I do love lists.
+
+http://www.ugnn.com/2010/04/free-mac-software/
+
+-------------------------------------------------------------------
+
+10  Mac OS X Secret Keystrokes
+
+      This is a list of OS X Keystrokes taken from the book
+'The Missing Manual Leopard.'
+
+http://www.ugnn.com/2010/04/mac-os-x-secret-keystrokes/
+
+-------------------------------------------------------------------
+
+11  60-Seconds: Rush does it again
+
+      Thursday, I got a phone call from a reader who remembered
+an old 2003 article of mine in 60-Second Windows. The near
+frantic voice on the line said "Fred, you've got to turn
+on the radio right now ... "
+Once again Rush Limbaugh proves a theory about the internet.
+
+http://bit.ly/9yIrJZ
+
+-------------------------------------------------------------------
+
+12  Mailbag: Thanks from a reader
+
+      RB from West palm Beach FL wrote in to say
+   >  I just want to thank you for all the amazing info
+   >   about MAC a nd other things. I greatly appreciate
+   >   it and so does my family in NY and chicago.
+   >  Especailly my grandchildren.
+   >  We are a MAC family.
+
+Thank you, RB -- we really love getting reader feedback!
+
+
+
+-------------------------------------------------------------------
+
+13  Note to readers: Books to give away
+
+      UGNN has accumulated a mountain of books from various
+publishers for review. Our samples room is full to the ceiling,
+and we would rather find someone who can benefit from these
+rather than just hauling to recycling. There are also way
+too many to list. So if you're adventurous, and want to
+pay the shipping, let us know topics you're passionate
+about and we'll send books free.
+
+Let me know.
+
+-------------------------------------------------------------------
+
+14  Quote: Writing
+
+      do something worth writing, or write something worth doing.
+      -- Benjamin Franklin
+
+      The secret of good writing is telling the truth.
+       -- Dick Cavett
+
+-------------------------------------------------------------------
+
+16  For April 26, have a great week!
+
+      Remember, I invite all user groups to use this column in full
+or in pieces in your newsletter. Or add a link to their web site.
+
+         Pau
+
+* Participate:
+    http://www.ugnn.com/post-your-article/
+   * Follow and Be Followed: http://twitter.com/UGNnet
+   * Subscribe:
+         http://dtgnews.com/mailman/listinfo/infomanager_dtgnews.com
+   -------------------------------------------------------------------
+
+   ** THE INFO MANAGER
+   A weekly column from the mice of Lynn Wegley and Fred Showker.
+
+   Lynn is a UGN veteran (AOL User Groups Forum) and User Group Network.
+He's been a supporter and volunteer on many, many UGNet and User
+Group Academy projects. As a long time user group member, he's
+been a volunteer from Honolulu to Boston and beyond.
+
+Currently working primarily the with the Cowtown MUG of Ft. Worth
+but also works with the Apple Corp of Dallas and is a lifetime
+member of TUMS the Tulsa Users of Macintosh Society).
+
+Fred has been user group guy since 1986, through the AOL
+UG Forumdays, then out onto the web.
+
+-------------------------------------------------------------------
+Copyright 2010, All Rights Reserved. Affiliate User Groups are
+granted permission to reprint the InfoManager column or excerpts
+thereof so long as proper credit is given, and a clearly
+stated web URL link to: http://www.UGNN.com
+
+Subscribe or Unsubscribe:
+http://dtgnews.com/mailman/listinfo/infomanager_dtgnews.com
+PLEASE NOTE:  If a link is disconnected due to your email client's
+wrapping of text, remove the return character or space separating
+the parts of the link and paste it into your browser.
+Thanks for reading! We'll leave the modem on for'ya!
+
+-------------------------------------------------------------------
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

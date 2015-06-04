@@ -1,0 +1,146 @@
+From - Fri May 14 10:47:16 2010
+X-Account-Key: account2
+X-UIDL: UID13614-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail2.csmining.org (localhost [127.0.0.1])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 7A39916B29
+	for <m0620212@mail.csmining.org>; Fri, 14 May 2010 10:48:23 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 766BF16B14
+	for <m0620212@mail.csmining.org>; Fri, 14 May 2010 10:48:23 +0900 (JST)
+X-ASG-Debug-ID: 1273801702-78f5c2350001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id qp7z856rH9siDUfD for <m0620212@mail.csmining.org>; Fri, 14 May 2010 10:48:22 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o4E1mMZY021179
+        for <m0620212@mail.csmining.org>; Fri, 14 May 2010 10:48:22 +0900 (JST)
+Received: from mx2.csmining.org (ns4.csmining.org [192.168.3.4])
+        by gw2.csmining.org  with ESMTP id o4E1mMjv021176
+        for <hibody@csmining.org>; Fri, 14 May 2010 10:48:22 +0900 (JST)
+Received: from f2e9eee4b8eb4f5 (unknown [94.98.114.96])
+	by mx2.csmining.org (csminingorg MX Server2) with SMTP id 9577C63
+	for <hibody@csmining.org>; Fri, 14 May 2010 10:48:18 +0900 (JST)
+Received: (qmail 2693 by uid 235); Fri, 14 May 2010 05:32:56 +0400
+X-Barracuda-BWL-IP: 94.98.114.96
+X-Barracuda-BBL-IP: 94.98.114.96
+X-Barracuda-RBL-IP: 94.98.114.96
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Date: Fri, 14 May 2010 05:32:56 +0400
+Message-ID: <0a6a01caf320$972248f0$6072625e@f2e9eee4b8eb4f5>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: hibody@csmining.org Message 62184
+Subject:   hibody@csmining.org Message 62184
+From: Canadian Viagra <hibody@csmining.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by gw2.csmining.org id o4E1mMZY021179
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1273801702
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (pillvasilis64a.ru)
+X-Barracuda-Spam-Score: 33.60
+X-Barracuda-Spam-Status: No, SCORE=33.60 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA290_RN, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2, BSF_SC1_TG624, BSF_SC2_SA154_HL, BSF_SC2_SA154d, BSF_SC5_MJ1963, BSF_SC5_MJ2808, HTML_IMAGE_ONLY_20, HTML_IMAGE_ONLY_20_2, HTML_IMAGE_RATIO_02, HTML_MESSAGE, HTML_SHORT_LINK_IMG_3, HTML_SHORT_LINK_IMG_3_2, MIME_HTML_ONLY, PR0N_SUBJECT, RDNS_NONE, URIBL_AB_SURBL, URIBL_JP_SURBL, URIBL_SC_SURBL, URIBL_WS_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.29806
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of words
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: pillvasilis64a.ru]
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: pillvasilis64a.ru]
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: pillvasilis64a.ru]
+	2.52 URIBL_SC_SURBL         Contains an URL listed in the SC SURBL blocklist
+	                           [URIs: pillvasilis64a.ru]
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.70 HTML_IMAGE_ONLY_20_2   HTML: images with 1600-2000 bytes of words
+	0.00 HTML_SHORT_LINK_IMG_3  HTML is very short with a linked image
+	0.20 PR0N_SUBJECT           Subject has letters around special characters (pr0n)
+	0.56 HTML_SHORT_LINK_IMG_3_2 HTML is very short with a linked image
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	2.50 BSF_SC2_SA154d         Custom Rule SA154d
+	2.00 BSF_SC1_TG624          Custom Rule TG624
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC5_MJ2808         Custom Rule MJ2808
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2 Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL2
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/x=
+html1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv=3D"Content-Type" content=3D"application/xhtml+xml;=
+ charset=3DUTF-8" />
+      </head>
+   <body>
+
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"wi=
+dth: 896px">
+
+
+<tr><td align=3D"center" style=3D"font: normal 11px Verdana, sans-serif; =
+color: #333;"><a href=3D"http://www.pillvasilis64a.ru?sll=3Dhibody@nict.g=
+o.jp" style=3D"text-decoration: none; color: #0099ff;">Click here</a> to =
+view as a web page. </td></tr>
+
+         <tr><td align=3D"center">
+        	 <br />
+			 <a href=3D"http://www.pillvasilis64a.ru?uzn=3Dhibody@csmining.org">
+			 <img alt=3D"View image in browser now" width=3D"618" height=3D"326" s=
+rc=3D"http://www.pillvasilis64a.ru/e.gif" style=3D"border-width: 0px" /><=
+/a></td></tr>
+
+
+<tr><td valign=3D"top" style=3D"border-right: 1px solid #e5e4e4; padding-=
+right: 10px">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+width: 884px">
+
+<tr><td align=3D"center" style=3D"font: normal 9px Verdana, sans-serif; c=
+olor: #999; padding-top: 20px">
+
+<a href=3D"http://www.pillvasilis64a.ru?etb=3Dhibody@csmining.org" style=3D=
+"font: 9px Verdana, sans-serif; text-decoration: none; color: #0099ff">To=
+ hibody@csmining.org</a> |=20
+<a href=3D"http://www.pillvasilis64a.ru?olk=3Dhibody@csmining.org" style=3D=
+"font: 9px Verdana, sans-serif; text-decoration: none; color: #0099ff">Pr=
+ivacy Policy</a> |=20
+<a href=3D"http://www.pillvasilis64a.ru?gfm=3Dhibody@csmining.org" style=3D=
+"font: 9px Verdana, sans-serif; text-decoration: none; color: #0099ff">Co=
+ntact Us</a><br /><br />
+Copyright =A9 2010 All rights reserved.<br />
+					  </td></tr>
+
+        </table>
+
+</td>
+</tr>
+      </table>
+</body>
+</html>
+
+
+
+

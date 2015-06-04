@@ -1,0 +1,152 @@
+X-Account-Key: account5
+X-UIDL: GmailId128844ec20fecc8c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs34268wfb;
+        Mon, 10 May 2010 15:21:14 -0700 (PDT)
+Received: by 10.223.143.67 with SMTP id t3mr5233950fau.16.1273530073886;
+        Mon, 10 May 2010 15:21:13 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k9si9716829fad.29.2010.05.10.15.21.13;
+        Mon, 10 May 2010 15:21:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9D23C13A58D1; Mon, 10 May 2010 22:21:11 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D1E9913A5866
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 22:21:04 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id t6agUXOBDEpp for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 22:20:57 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id 8027313A54F6
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 22:20:57 +0000 (UTC)
+Received: from shambhala.localnet (ppp-93-104-144-245.dynamic.mnet-online.de [93.104.144.245])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id 4E7205ADDA
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 00:20:55 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: debian-kde@lists.debian.org
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Date: Tue, 11 May 2010 00:20:52 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.2-tp42-toi-3.1-lowmem-free-991-992-04964-gf00c7ec-dirty; KDE/4.4.3; i686; ; )
+References: <201005071123.48345.lisi.reisz@csmining.org> <AANLkTinKUAi3n9XgIW_TDiwbXEC3RPn4_K4zYSq2rZC4@mail.csmining.org> <201005100602.49682.mgb-debian@yosemite.net> (sfid-20100510_151547_262719_94B7CA7D)
+In-Reply-To: <201005100602.49682.mgb-debian@yosemite.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart33520692.ZCapDJYJFH";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005110020.53324.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <rCHAaAE9h_E.A.QpB.XbI6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32347
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 22:21:11 +0000 (UTC)
+
+--nextPart33520692.ZCapDJYJFH
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi Mike!
+
+Am Montag 10 Mai 2010 schrieb Mike Bird:
+> On Mon May 10 2010 05:47:08 Dotan Cohen wrote:
+> > Just let them go, Adrian. When I to to fix KDE 4 for these two, I am
+> > "obstructing KDE 3.5 at every opportunity". Let them troll themselves
+> > into obscurity. At least they cannot complain that nobody tried to
+> > help them get the features they need into KDE 4. Well, they will
+> > complain about that because apparently I "ordered" them to tell me
+> > what is wrong with KDE 4, instead of simply deducing that out of thin
+> > air.
+>=20
+> Please note the subject of this thread.  This thread is about
+> how users can best continue using KDE 3.5, or alternatively
+> where to migrate when Lenny is EOL'd.
+
+What do you want to achieve in this thread on this debian-kde user support=
+=20
+mailinglist?
+
+Resurrecting KDE 3.5 for Debian?
+
+Well did you?
+
+If not, I suggest you to try it elsewhere.
+
+Possible places are:
+
+=2D debian-qt-kde@lists.debian.org since that is where development of Debia=
+n=20
+KDE packages is coordinated
+
+=2D Trinity Desktop Environment / Vector Linux
+
+This is for KDE user support. KDE 3.5 in Lenny. KDE 4 in Squeeze unless=20
+someone - except the current Debian KDE / Qt developer team - does and=20
+maintains KDE 3.5 packages that are co-installable and meet Debians high=20
+packaging standards.
+
+This list is not for development issues like developing / maintaining KDE=20
+3.5 packages for Squeeze.
+
+So IMHO any further request for KDE 3.5 in Squeeze is off topic on this=20
+list as Debian KDE/Qt maintainers repeatedly said they won't.
+
+You want KDE 3.5 for Squeeze? Spend your energy towards that goal. Here it=
+=20
+apparently does not change the situation.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart33520692.ZCapDJYJFH
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvohsUACgkQmRvqrKWZhMfa6wCdETp4t1DvfNUHAaq3sDe4iPba
+XNQAoKsXLvnwfFR8mK+E5Yx3kjL9liaq
+=ApQc
+-----END PGP SIGNATURE-----
+
+--nextPart33520692.ZCapDJYJFH--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005110020.53324.Martin@lichtvoll.de
+
+

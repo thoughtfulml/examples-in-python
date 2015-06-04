@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282ca3da3ef6c6d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs77468wfj;
+        Fri, 23 Apr 2010 14:47:37 -0700 (PDT)
+Received: by 10.87.67.25 with SMTP id u25mr1330302fgk.32.1272059255642;
+        Fri, 23 Apr 2010 14:47:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si2934000fks.12.2010.04.23.14.47.35;
+        Fri, 23 Apr 2010 14:47:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AA8FA2D0CB9; Fri, 23 Apr 2010 21:47:29 +0000 (UTC)
+Old-Return-Path: <rak@fcien.edu.uy>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B53CB2D0CD0
+	for <lists-debian-user@liszt.debian.org>; Fri, 23 Apr 2010 21:47:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id g-L3HoS3lvKF for <lists-debian-user@liszt.debian.org>;
+	Fri, 23 Apr 2010 21:47:16 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) HELO_IP_IN_CL_SUBNET=-1.2 (check from: .edu. - helo: .fcien.edu. - helo-domain: .edu.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -6.2
+Received: from fcien.edu.uy (caffeine.fcien.edu.uy [164.73.80.2])
+	by liszt.debian.org (Postfix) with ESMTP id A08FB2D0CB8;
+	Fri, 23 Apr 2010 21:47:14 +0000 (UTC)
+Received: from localhost (druna.fcien.edu.uy [127.0.0.1])
+	by fcien.edu.uy (Postfix) with ESMTP id DD143ABBCB;
+	Fri, 23 Apr 2010 18:47:09 -0300 (UYT)
+Received: from fcien.edu.uy ([127.0.0.1])
+	by localhost (druna.fcien.edu.uy [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id mAeBmy3+4pyH; Fri, 23 Apr 2010 18:47:09 -0300 (UYT)
+Received: from [164.73.80.7] (info-7.fcien.edu.uy [164.73.80.7])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by fcien.edu.uy (Postfix) with ESMTP id C565DABB5C;
+	Fri, 23 Apr 2010 18:47:09 -0300 (UYT)
+Message-ID: <4BD21384.20607@fcien.edu.uy>
+Date: Fri, 23 Apr 2010 18:39:16 -0300
+From: Carlos Bergero <rak@fcien.edu.uy>
+User-Agent: Thunderbird 2.0.0.24 (X11/20100228)
+MIME-Version: 1.0
+To: Wojciech Ziniewicz <wojciech.ziniewicz@csmining.org>
+CC: Ezra Taylor <ezra.taylor@csmining.org>, debian-user@lists.debian.org, 
+ debian-isp@lists.debian.org
+Subject: Re: Cyrus 2.2 imapd in AMD64
+References: <4BD0E0D1.1080109@fcien.edu.uy> <z2reb90f15e1004222119o601453bck4c48cfb151827f66@mail.csmining.org> 	<4BD19D1D.2010609@fcien.edu.uy> <g2yd1473ad91004230656p60e0bcf1ycd6c51337be64fd3@mail.csmining.org>
+In-Reply-To: <g2yd1473ad91004230656p60e0bcf1ycd6c51337be64fd3@mail.csmining.org>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <d2rizp7eGUH.A.D_.xVh0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574858
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 23 Apr 2010 21:47:29 +0000 (UTC)
+
+Wojciech Ziniewicz escribió:
+> 2010/4/23 Carlos Bergero <rak@fcien.edu.uy>:
+>   
+>> I copied the old files, but also try to run with the original files of the
+>> install, in both cases i have the same problema and files dont differ much.
+>>
+>>     
+>
+> did You copy cyrus database between servers too ?
+>
+> regards
+>
+>
+>   
+Yup I copied the mail directories and other cyrus directories 
+/var/lib/cyrus and /var/run/cyrus , plus config files /etc/cyrus.conf 
+/etc/imapd.conf
+
+think thats all?
+
+Cheers,
+            Carlos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD21384.20607@fcien.edu.uy
+
+

@@ -1,0 +1,91 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288a314ec194c6b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs20977wfb;
+        Tue, 11 May 2010 18:46:47 -0700 (PDT)
+Received: by 10.223.25.74 with SMTP id y10mr1479965fab.81.1273628806704;
+        Tue, 11 May 2010 18:46:46 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d4si12693829fac.42.2010.05.11.18.46.46;
+        Tue, 11 May 2010 18:46:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7FC392D0D5C; Wed, 12 May 2010 01:46:44 +0000 (UTC)
+Old-Return-Path: <blowers@computer.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 05C9F2D0CC0
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 01:46:39 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_2=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 0erTgsbBaFgI for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 01:46:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -1.8
+X-Greylist: delayed 3620 seconds by postgrey-1.31 at liszt; Wed, 12 May 2010 01:46:31 UTC
+Received: from vms173017pub.verizon.net (vms173017pub.verizon.net [206.46.173.17])
+	by liszt.debian.org (Postfix) with ESMTP id 90D5D13A5A07
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 01:46:21 +0000 (UTC)
+Received: from rab05.localnet ([unknown] [71.178.193.42])
+ by vms173017.mailsrvcs.net
+ (Sun Java(tm) System Messaging Server 7u2-7.02 32bit (built Apr 16 2009))
+ with ESMTPA id <0L2A005S77GDLFPQ@vms173017.mailsrvcs.net> for
+ debian-kde@lists.debian.org; Tue, 11 May 2010 19:45:50 -0500 (CDT)
+From: Allen <blowers@computer.org>
+To: debian-kde@lists.debian.org
+Subject: Re: What needs to improve in KDE 4?
+Date: Tue, 11 May 2010 20:37:59 -0400
+User-Agent: KMail/1.13.3 (Linux/2.6.32-trunk-686; KDE/4.4.3; i686; ; )
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+ <AANLkTinvsjKE5j4hLyA2CljNhHWscIjuVd9ZHkDJuiHI@mail.csmining.org>
+ <201005120121.10993.schwarzerf@csmining.org>
+In-reply-to: <201005120121.10993.schwarzerf@csmining.org>
+MIME-version: 1.0
+Content-type: Text/Plain; charset=iso-8859-1
+Content-transfer-encoding: 7bit
+Message-id: <201005112038.02484.blowers@computer.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <HN4CHEgc9y.A.qDE.Eig6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32400
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 01:46:44 +0000 (UTC)
+
+At this moment, for me, kaddressbook?  Akonadi did not  get configured right, I 
+had to follow this advice to get it to start working:  
+http://forum.kde.org/viewtopic.php?f=20&t=79717&sid=ce96096a96a9d8ca3ebb13105dce3d21&start=10#p137002
+
+Having done that yesterday I noticed that the concept of contact categories is 
+missing.  Today I found that I only get empty dialogs when I attempt to edit a 
+contact!  So for me kaddressbook is unstable.
+
+- Allen
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005112038.02484.blowers@computer.org
+
+

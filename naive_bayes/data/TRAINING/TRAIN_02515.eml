@@ -1,0 +1,97 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ac71bf3be9b6a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs23079wfo;
+        Tue, 18 May 2010 10:24:16 -0700 (PDT)
+Received: by 10.223.16.207 with SMTP id p15mr1857824faa.99.1274203455141;
+        Tue, 18 May 2010 10:24:15 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si16191999fas.51.2010.05.18.10.24.14;
+        Tue, 18 May 2010 10:24:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 303EA13A508A; Tue, 18 May 2010 17:24:12 +0000 (UTC)
+Old-Return-Path: <dsalva@gmx.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A083213A5053
+	for <lists-debian-kde@liszt.debian.org>; Tue, 18 May 2010 17:07:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id adwDvxyXhrKb for <lists-debian-kde@liszt.debian.org>;
+	Tue, 18 May 2010 17:07:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lilly.ping.de (lilly.ping.de [83.97.42.2])
+	by liszt.debian.org (Postfix) with SMTP id 3CBDC13A5059
+	for <debian-kde@lists.debian.org>; Tue, 18 May 2010 17:07:10 +0000 (UTC)
+Received: (qmail 3202 invoked by uid 10); 18 May 2010 17:07:08 -0000
+Received: from ping.de by lilly.ping.de with BSMTP (rgsmtp-qm-ot 0.6) for <debian-kde@lists.debian.org>; 18 May 2010 17:07:08 -0000
+Received: (Debian Exim 4.69)
+	id 1OEQAV-0002Ak-3g
+	for debian-kde@lists.debian.org; Tue, 18 May 2010 19:01:23 +0200
+Date: Tue, 18 May 2010 19:01:23 +0200
+From: Dirk Salva <dsalva@gmx.de>
+To: Debian-KDE Mailingliste <debian-kde@lists.debian.org>
+Subject: How to improve font-using in KDE4?
+Message-ID: <20100518170123.GB8060@dserver.dnetz>
+Mail-Followup-To: Debian-KDE Mailingliste <debian-kde@lists.debian.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-15
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+X-No-Archive: Yes
+X-Heimat: dnetz
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jY9hC9_qFIN.A.2NH.80s8LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32462
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 17:24:12 +0000 (UTC)
+
+Hi,
+
+im comparison to another computer, working still with Lenny, the
+display of fonts in Konsole is bad:-(
+Without antialiasing on Squeeze (as in Lenny) the fonts are angular,
+with activated antialiasing the fonts are too spongy. So, where do I
+have to search to resolve this problem? On my Lenny-Desktop font in
+Konsole without antialiasing looks perfect. In Squeeze not:-(
+Ah: another one: in Lenny the used font is "Fixed [misc]" and it can
+display an "¤". Using "Fixed [misc]" in Squeeze cannot show me the "¤"
+anymore:-(
+
+Any hints?
+
+
+ciao, Dirk
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100518170123.GB8060@dserver.dnetz
+
+

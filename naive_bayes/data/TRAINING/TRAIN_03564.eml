@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId12807fe0b6e37947
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs36947wfj;
+        Fri, 16 Apr 2010 12:00:10 -0700 (PDT)
+Received: by 10.223.58.83 with SMTP id f19mr890331fah.88.1271444409294;
+        Fri, 16 Apr 2010 12:00:09 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si4568460fka.32.2010.04.16.12.00.08;
+        Fri, 16 Apr 2010 12:00:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AE5D213A4B6B; Fri, 16 Apr 2010 18:59:58 +0000 (UTC)
+Old-Return-Path: <listmail@b79.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1B22E13A48C4
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 18:59:53 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ybzALqK+YgpV for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 18:59:45 +0000 (UTC)
+Received: from n13.c05.mtsvc.net (n13.c05.mtsvc.net [70.32.68.13])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 7814F13A4A8E
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 18:59:45 +0000 (UTC)
+Received: from adsl-70-231-231-83.dsl.snfc21.sbcglobal.net ([70.231.231.83]:46407 helo=localhost)
+	by n13.c05.mtsvc.net with esmtpsa (TLS-1.0:DHE_RSA_AES_128_CBC_SHA:16)
+	(Exim 4.63)
+	(envelope-from <listmail@b79.net>)
+	id 1O2qlP-0003fS-Vj
+	for debian-user@lists.debian.org; Fri, 16 Apr 2010 11:59:41 -0700
+Date: Fri, 16 Apr 2010 12:00:00 -0700
+From: John Magolske <listmail@b79.net>
+To: debian-user@lists.debian.org
+Subject: How to play 3gp audio files?
+Message-ID: <20100416190000.GA12338@s70206.gridserver.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.19 (2009-01-05)
+X-Authenticated-User: 70206 listmail@b79.net
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Cqp1lgtZKGG.A.4UB.uOLyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574267
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 18:59:58 +0000 (UTC)
+
+I'm looking for a way to play *.3gp audio files from the command line.
+Mplayer doesn't seem to work:
+
+    % Mplayer some-audio-file.3gp
+    [...]
+    Playing some-audio-file.3gp.
+    libavformat file format detected.
+    [lavf] Audio stream found, -aid 0
+    ==========================================================================
+    Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders
+    Cannot find codec 'libamr_nb' in libavcodec...
+    ADecoder init failed :(
+    ADecoder init failed :(
+    Cannot find codec for audio format 0x726D6173.
+    Read DOCS/HTML/en/codecs.html!
+    Audio: no sound
+    Video: no video
+
+Any suggestions for alternate approaches, pointers on how & what to
+install in terms of a codec, or maybe a way to convert these files
+(ideally without transcoding degradation)?
+
+These audio files were created by the android app "Voice Recorder".
+
+TIA for any help,
+
+John
+
+
+-- 
+John Magolske
+http://B79.net/contact
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100416190000.GA12338@s70206.gridserver.com
+
+

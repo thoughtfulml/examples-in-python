@@ -1,0 +1,125 @@
+X-Account-Key: account5
+X-UIDL: GmailId12873eeb68c56104
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs466856wfb;
+        Fri, 7 May 2010 11:02:24 -0700 (PDT)
+Received: by 10.223.99.78 with SMTP id t14mr402106fan.85.1273255343636;
+        Fri, 07 May 2010 11:02:23 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y20si2684713fah.102.2010.05.07.11.02.23;
+        Fri, 07 May 2010 11:02:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C909F13A5B40; Fri,  7 May 2010 18:02:19 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2DE4213A5B3E
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 18:02:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id APj6LpvZWeHd for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 18:02:06 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id D411E13A5B3C
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 18:02:06 +0000 (UTC)
+Received: from shambhala.localnet (ppp-93-104-152-249.dynamic.mnet-online.de [93.104.152.249])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id B28975ADEA
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 20:02:04 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: debian-kde@lists.debian.org
+Subject: Re: kde SC 4.4
+Date: Fri, 7 May 2010 20:02:02 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.2-tp42-toi-3.1-lowmem-free-991-992-04964-gf00c7ec-dirty; KDE/4.4.3; i686; ; )
+References: <201005070936.04140.lftabera@yahoo.es> <20100507113803.GA2655@n0nb.us> (sfid-20100507_134952_385505_F3009677)
+In-Reply-To: <20100507113803.GA2655@n0nb.us>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart12370670.H9NY8mEexj";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005072002.03163.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <S_EeeBpiviH.A.tLH.rWF5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32247
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 18:02:19 +0000 (UTC)
+
+--nextPart12370670.H9NY8mEexj
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi Nate,
+
+Am Freitag 07 Mai 2010 schrieb Nate Bargmann:
+> I also
+> think that setting a different wallpaper for each desktop could be more
+> intuitive than having to enable desktop activities in the Settings
+> Manager, then zoom out with the cashew, then set the wallpaper via
+> right-click menu from each desktop, and find out it's a craps shoot=20
+> which desktop has which wallpaper.  But those are nits I've noticed=20
+> so far and are fixable.
+
+The activities system upto to KDE 4.4 IMHO is quite broken. Activity=20
+selection is slow, it forgets which activity is mapped to which desktop=20
+from time to time and and and... I reported about 10 bugs just regarding=20
+that activity system in KDE's bugtracker, of which a user named Beat Wolf=20
+marked most invalid in the last days cause this stuff gets completely=20
+rewritten in KDE 4.5. In KDE 4.5 there will be a new activity system=20
+sporting Nepomuk and whatnot, I think there has been a blog post, maybe by=
+=20
+Aaron Seigo on Planet KDE.I agree rewriting the stuff is one of the better=
+=20
+things you can do with it ;-).  Let's see what comes out of it.
+
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart12370670.H9NY8mEexj
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvkVZsACgkQmRvqrKWZhMcSrwCgnOzyHZ8x0Ta2XaGB0gqS5nzI
+jDQAnA41xuCA6k0jWoa6qCS75OqU2M3Y
+=tkLt
+-----END PGP SIGNATURE-----
+
+--nextPart12370670.H9NY8mEexj--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005072002.03163.Martin@lichtvoll.de
+
+

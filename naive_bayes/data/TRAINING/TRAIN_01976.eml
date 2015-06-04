@@ -1,0 +1,136 @@
+X-Account-Key: account4
+X-UIDL: GmailId128c9baf140bee84
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: hibody@csmining.org
+Received: by 10.231.13.66 with SMTP id b2cs83712iba;
+        Mon, 24 May 2010 02:53:11 -0700 (PDT)
+Received: by 10.91.161.22 with SMTP id n22mr2670298ago.91.1274694791329;
+        Mon, 24 May 2010 02:53:11 -0700 (PDT)
+Return-Path: <Direct.Buy@masterbargainsource.com>
+Received: from masterbargainsource.com ([98.159.32.99])
+        by mx.google.com with ESMTP id 28si1845002gxk.24.2010.05.24.02.53.09;
+        Mon, 24 May 2010 02:53:11 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning Direct.Buy@masterbargainsource.com does not designate 98.159.32.99 as permitted sender) client-ip=98.159.32.99;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of transitioning Direct.Buy@masterbargainsource.com does not designate 98.159.32.99 as permitted sender) smtp.mail=Direct.Buy@masterbargainsource.com
+Message-Id: <4bfa4c87.1c0bca0a.6197.ffffe9beSMTPIN_ADDED@mx.google.com>
+Date: Mon, 24 May 2010 02:53:11 -0700
+From: <Direct.Buy@masterbargainsource.com>
+To: <hibody@csmining.org>
+Subject: Your visitor passes
+MIME-Version: 1.0
+Content-Type: multipart/alternative;boundary=np4bf90c1112a30
+List-Unsubscribe: <mailto:ryhlhnnjylgiolkykl@masterbargainsource.com?Subject=Unsubscribe>
+
+This is a MIME encoded message.
+
+--np4bf90c1112a30
+Content-type: text/html;Content-Disposition: inline
+
+<map style="color:white; font-size:0.0%; line-height:0.0px">
+Members Only Showroom<br>
+The #1 Way to Buy Direct for Your Home:<br>
+
+Class2 Class1::func (char* response)
+{
+         printf( response);
+         Class2* d_ = new Class2;
+         d_->func (response);
+         //print response within Class2->func prints the response
+         return d_;
+
+}
+
+Snippet of Class2:
+Class2 {
+//constructor & destructor
+void func(char*);
+
+}; 
+template<class T>
+class base_container
+{
+public:
+  const T* get() const;
+  T* get();
+  void insert(T*);
+  // etc
+
+};
+
+template<class T, class derivedT>
+class base_container_specialized
+{
+public:
+  typedef base_container<T> this_base;
+private:
+  this_base _base;
+public:
+  operator const this_base&() { return _base; }
+
+  const derivedT* get() const { return static_cast<const
+derivedT*>(_base.get()); }
+  derivedT* get() { return static_cast<derivedT*>(_base.get()); }
+  void insert(derivedT* p) { _base.insert(p); }
+  // etc
+
+};
+
+class base{};
+class derived1 : public base {};
+class derived2 : public base {};
+
+base_container_specialized is NOT_A base_container. It offers same,
+but type-safe, interface as base_container. It does so through some
+simple casting (from T to derivedT). It also contains base_container,
+so that you can get a reference to that if need be (operator const
+this_base&). operator is const, to prevent e.g. calling insert with
+base* or derived2*, as that would be bad, as others have shown. So
+that gives you e.g.
+
+void f0(base_container<base>& c) { c.insert(new base); }
+void f0const(const base_container<base>&) {}
+void f1(base_container_specialized<base, derived1>&) {}
+void f2(base_container_specialized<base, derived2>&) {}
+
+void test()
+{
+  base_container_specialized<base, derived1> c1;
+  c1.insert(new derived1); //ok
+  c1.insert(new derived2); //bad
+  c1.insert(new base);     //bad, don't want base among derived1
+  c1.insert(new derived11);//ok
+  const base* b = c1.get();//ok, derived1 IS_A base
+  const derived1* d1 = c1.get();//ok
+  const derived2* d2 = c1.get();//bad, derived1 !IS_A derived2
+  f0const(c1);//ok, conversion operator used
+  f0(c1);//bad, could insert base among derived1
+  f1(c1);//ok, it's us
+  f2(c1);//bad, f2 wants derived2 container
+
+} 
+
+</map>
+</div>
+
+<br><br>
+Direct.Buy<br>
+Members Only Showroom<br>
+The #1 Way to Buy Direct for Your Home:<br>
+@_#megadealsource.com/neqw.html?ne=ykhlg.pzmyhlhnnjlatasykl<br>
+<br><br>
+_____________________________________________________<br>
+<br><br>
+Unsubscribe-Here:<br>
+@_#megadealsource.com/neqw.html?ne=ykhlh.pzmyhlhnnjlatasykl<br>
+or write: DirectBuy IM Network LLC, P.O. Box 1572, Boulder, CO 80306<br>
+<br><br>
+_____________________________________________________<br>
+<br><br>
+Unsubscribe_Here:<br>
+@_#megadealsource.com/us_ylgiolkpzmyhlhnnjlatasykl_xls/<br>
+or write: HS Media, PO Box 105603 #32520 ,Atlanta, GA ,30348-5603<br><br><br>
+
+--np4bf90c1112a30--
+

@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d518ecc0795c8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs214310wfa;
+        Tue, 6 Apr 2010 14:48:54 -0700 (PDT)
+Received: by 10.223.101.80 with SMTP id b16mr8096228fao.25.1270590533483;
+        Tue, 06 Apr 2010 14:48:53 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 10si31831961fxm.43.2010.04.06.14.48.52;
+        Tue, 06 Apr 2010 14:48:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6F2C32D0FFD; Tue,  6 Apr 2010 21:48:41 +0000 (UTC)
+Old-Return-Path: <andmalc@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8F1D92D0FEC
+	for <lists-debian-user@liszt.debian.org>; Tue,  6 Apr 2010 21:48:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id xbrGf1cPLy-I for <lists-debian-user@liszt.debian.org>;
+	Tue,  6 Apr 2010 21:48:28 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-pv0-f175.google.com (mail-pv0-f175.google.com [74.125.83.175])
+	by liszt.debian.org (Postfix) with ESMTP id F3D342D0FE6
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 21:48:27 +0000 (UTC)
+Received: by pvb32 with SMTP id 32so290952pvb.6
+        for <debian-user@lists.debian.org>; Tue, 06 Apr 2010 14:48:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=go20oyGgcJYu6bcf3fFGyJa8/YeIM+Cb/S+/DIYXw6c=;
+        b=h+ZICb9VeEh49r6+4tjq9qFwsegQmXGEcHjYJRPnWJ7bfEkR6BmA+nMGKWHvnYWFW+
+         3gjM2SJDra7XhPQC7IuyygoWGF3b4IdIlzbxzHavmW+BxjOPWlKJidPTKi8WdTVq9hSN
+         6m9rVWEE2O+OfIvN+OwoR+VKtk4xF/Tl7Zv74=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=nNzSQCfb9hXXyugd1i0Fe/jCbftE3mDxr3hsBD4fvR/TZJQGS5PWK8XXCeDfqFb91b
+         fvoB6FdDHEgTkt4G0CcXWM6fju9jQP8UsszlwKw8cB3EkOiwAXh03uKwgXqfZXOWYWIF
+         ZEL1pZ1zkXKmXX7Y4ElYG7Xxm+f+y9pYiLN+Q=
+MIME-Version: 1.0
+Received: by 10.143.2.10 with HTTP; Tue, 6 Apr 2010 14:48:19 -0700 (PDT)
+In-Reply-To: <4BB4D939.5030207@student.ulg.ac.be>
+References: <87hbnwishx.fsf@merciadriluca-eee.WORKGROUP>
+	 <20100331134158.5b03df41@abydos.stargate.org.uk>
+	 <4BB37D42.4040002@student.ulg.ac.be>
+	 <20100331184715.24a08d69@abydos.stargate.org.uk>
+	 <20100331204123.GA473@bobcox.com> <4BB3C64F.5050301@student.ulg.ac.be>
+	 <pan.2010.04.01.09.28.11@csmining.org>
+	 <4BB4D939.5030207@student.ulg.ac.be>
+Date: Tue, 6 Apr 2010 17:48:19 -0400
+Received: by 10.142.249.27 with SMTP id w27mr3044182wfh.188.1270590499429; 
+	Tue, 06 Apr 2010 14:48:19 -0700 (PDT)
+Message-ID: <j2rae6dd7d31004061448r431c99b4gbd549652855843e0@mail.csmining.org>
+Subject: Re: `Print selection' unimplemented in Iceweasel?
+From: Andrew Malcolmson <andmalc@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7OVPyGh0e4H.A.8kF.5w6uLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573479
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 21:48:41 +0000 (UTC)
+
+On Thu, Apr 1, 2010 at 1:34 PM, Merciadri Luca
+<Luca.Merciadri@student.ulg.ac.be> wrote:
+> Thanks for all your messages. What I regret is simply that, once you
+> click on `Print,' there is no `Selection' checkbox. Thanks all.
+
+There's an existing upstream bug report for this here:
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=541132
+
+Click on 'Vote' to show that you want this fixed.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2rae6dd7d31004061448r431c99b4gbd549652855843e0@mail.csmining.org
+
+

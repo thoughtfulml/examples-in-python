@@ -1,0 +1,171 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b011ffd4307fc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs48133wfo;
+        Wed, 19 May 2010 03:18:10 -0700 (PDT)
+Received: by 10.223.44.86 with SMTP id z22mr6086605fae.13.1274264289053;
+        Wed, 19 May 2010 03:18:09 -0700 (PDT)
+Return-Path: <bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e15si17667403fai.75.2010.05.19.03.18.08;
+        Wed, 19 May 2010 03:18:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2FCC013A542E; Wed, 19 May 2010 10:17:34 +0000 (UTC)
+Old-Return-Path: <tolimar@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.8 required=4.0 tests=ALL_TRUSTED,HEADER_SPAM,
+	LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_FINANCE6,SARE_HEAD_HDR_APPROV
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-announce@liszt.debian.org
+Delivered-To: lists-debian-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 44D7B13A541D
+	for <lists-debian-announce@liszt.debian.org>; Wed, 19 May 2010 10:17:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+X-AmavisStatus: No, score=-0.887 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, HEADER_SPAM=3.396, LDO_WHITELIST=-5,
+	MURPHY_FINANCE6=1.7, SARE_HEAD_HDR_APPROV=0.817] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id BffbqCzgMTqK
+	for <lists-debian-announce@liszt.debian.org>;
+	Wed, 19 May 2010 10:17:23 +0000 (UTC)
+Received: from melusine.alphascorpii.net (cl-961.dus-01.de.sixxs.net [IPv6:2a01:198:200:3c0::2])
+	by liszt.debian.org (Postfix) with ESMTP id 1F56013A542D
+	for <debian-announce@lists.debian.org>; Wed, 19 May 2010 10:17:23 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by melusine.alphascorpii.net (Postfix) with ESMTP id E54F987F22A
+	for <debian-announce@lists.debian.org>; Wed, 19 May 2010 12:17:20 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at melusine.alphascorpii.net
+Received: from melusine.alphascorpii.net ([127.0.0.1])
+	by localhost (melusine.alphascorpii.net [127.0.0.1]) (amavisd-new, port 10026)
+	with LMTP id c3HzK0SsssmN for <debian-announce@lists.debian.org>;
+	Wed, 19 May 2010 12:17:19 +0200 (CEST)
+Received: by melusine.alphascorpii.net (Postfix, from userid 1001)
+	id C9F1B87F222; Wed, 19 May 2010 12:17:19 +0200 (CEST)
+Date: Wed, 19 May 2010 12:17:19 +0200
+From: Alexander Reichle-Schmehl <tolimar@debian.org>
+To: debian-announce@lists.debian.org
+Subject: A better DebConf10 with your help: donate or become a sponsor
+Message-ID: <20100519101719.GY3233@melusine.alphascorpii.net>
+Mail-Followup-To: debian-announce@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-15
+Content-Disposition: inline
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jVUIB6BtRYN.A.KxD.-q78LB@liszt>
+Resent-From: debian-announce@lists.debian.org
+X-Mailing-List: <debian-announce@lists.debian.org> archive/latest/127
+X-Loop: debian-announce@lists.debian.org
+List-Id: <debian-announce.lists.debian.org>
+List-Post: <mailto:debian-announce@lists.debian.org>
+List-Help: <mailto:debian-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-announce-request@lists.debian.org
+Resent-Date: Wed, 19 May 2010 10:17:34 +0000 (UTC)
+
+------------------------------------------------------------------------
+The Debian Project                                http://www.debian.org/
+New archive snapshot service available                  press@debian.org
+May 19th, 2010                  http://www.debian.org/News/2010/20100519
+------------------------------------------------------------------------
+
+A better DebConf10 with your help: donate or become a sponsor
+
+
+DebConf is the Debian Project's developer conference. In addition to a
+full schedule of technical, social and policy talks, DebConf provides
+an opportunity for developers, contributors and other interested people
+to meet in person and work together. It has taken place annually since
+2000 in locations as varied as Canada, Finland, Mexico, Scotland, and
+Argentina. This year DebConf10 is in New York City, New York, USA.
+
+This year, as every year, a great deal of the burden for the conference
+is placed on Debian volunteers who donate time and energy to organizing
+the conference. Your help would be most welcome. If you are interested
+in volunteering, you can contact debconf-team [at] lists.debian.org.
+
+Alternatively, you can help DebConf10 by donating money which will be
+used to enable those Debian contributors who currently cannot attend
+due to funding shortage. You can contribute money by either becoming a
+sponsor (if you are a company) or donating money as an individual.
+
+As Raphael Geissert wrote on his blog: "DebConf10 needs your help!
+That's right: it needs help from potential sponsors and donors to help
+cover the costs implied by this event. If you are interested in
+becoming a sponsor please contact sponsors [at] debconf.org, or if you
+want to make a donation please visit the DebConf10 >donations page [1].
+
+  1: http://debconf10.debconf.org/payments.xhtml
+
+Companies or organizations can, in addition to money donation, lend
+equipment for the conference.
+
+Current sponsors of DebConf10 include HP [2], Google [3], Canonical
+[4], Intel [5], Collabora [6], Bytemark [7] and Univention [8], plus
+our permanent and media sponsors [9]; we thank them for their support
+already!
+
+  2: http://www.hp.com/go/linux
+  3: http://www.google.com
+  4: http://www.canonical.com
+  5: http://www.intel.com
+  6: http://www.collabora.co.uk
+  7: http://www.bytemark.co.uk
+  8: http://www.univention.de
+  9: http://debconf.org/#permanent_sponsors
+
+
+An updated schedule [10] is available as well.
+
+ 10: http://debconf10.debconf.org/dates.xhtml
+
+
+
+About Debian
+------------
+
+The Debian Project was founded in 1993 by Ian Murdock to be a truly
+free, community project. Since then the project has grown to be one of
+the largest and most influential open source projects.  Over three
+thousand volunteers from all over the world work together to create and
+maintain Debian software. Translated into over 30 languages, and
+supporting a huge range of computer types, Debian calls itself the
+"universal operating system".
+
+
+About DebConf
+-------------
+
+DebConf is the Debian Project's developer conference. In addition to a
+full schedule of technical, social and policy talks, DebConf provides
+an opportunity for developers, contributors and other interested people
+to meet in person and work together more closely. It has taken place
+annually since 2000 in locations as varied as Canada, Finland, and
+Mexico.
+
+
+Contact Information
+-------------------
+
+For further information, please visit the Debian web pages at
+http://www.debian.org/ or send mail to <press@debian.org>.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519101719.GY3233@melusine.alphascorpii.net
+
+

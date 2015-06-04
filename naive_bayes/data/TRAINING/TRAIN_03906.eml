@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId12841d947172a83a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs158322wfj;
+        Tue, 27 Apr 2010 17:37:59 -0700 (PDT)
+Received: by 10.87.5.30 with SMTP id h30mr4743503fgi.3.1272415078401;
+        Tue, 27 Apr 2010 17:37:58 -0700 (PDT)
+Return-Path: <bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si4901085fka.14.2010.04.27.17.37.57;
+        Tue, 27 Apr 2010 17:37:58 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-testing-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9734113A5143; Wed, 28 Apr 2010 00:37:56 +0000 (UTC)
+Old-Return-Path: <sectracker@soler.debian.org>
+X-Original-To: lists-debian-testing-security-announce@liszt.debian.org
+Delivered-To: lists-debian-testing-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5C61A13A5114
+	for <lists-debian-testing-security-announce@liszt.debian.org>; Wed, 28 Apr 2010 00:37:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -7.001
+XLevel: 
+XStatus: No, score=-7.001 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, NO_RELAYS=-0.001] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 8cLaKiWDH+a6
+	for <lists-debian-testing-security-announce@liszt.debian.org>;
+	Wed, 28 Apr 2010 00:37:49 +0000 (UTC)
+Received: from merikanto.debian.org (merikanto.debian.org [IPv6:2001:858:2:2:216:35ff:fec4:a49a])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 235C513A50CE
+	for <debian-testing-security-announce@lists.debian.org>; Wed, 28 Apr 2010 00:37:49 +0000 (UTC)
+Received: from soler.debian.org ([2001:8d8:2:1:6564:a62:0:5])
+	from C=NA,ST=NA,L=Ankh Morpork,O=Debian SMTP,OU=Debian SMTP CA,CN=soler.debian.org,EMAIL=hostmaster@soler.debian.org (verified)
+	by merikanto.debian.org with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <sectracker@soler.debian.org>)
+	id 1O6vHe-0007RO-Rj
+	for debian-testing-security-announce@lists.debian.org; Wed, 28 Apr 2010 00:37:46 +0000
+Received: from sectracker by soler.debian.org with local (Exim 4.69)
+	(envelope-from <sectracker@soler.debian.org>)
+	id 1O6vHd-0005td-Vo
+	for debian-testing-security-announce@lists.debian.org; Wed, 28 Apr 2010 00:37:45 +0000
+From: Testing Security Team <secure-testing-team@lists.alioth.debian.org>
+To: debian-testing-security-announce@lists.debian.org
+Subject: Security update for Debian Testing - 2010-04-28
+Message-Id: <E1O6vHd-0005td-Vo@soler.debian.org>
+Sender: security tracker role <sectracker@soler.debian.org>
+Date: Wed, 28 Apr 2010 00:37:45 +0000
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <akGFEbe06kI.A.n-.kN41LB@liszt>
+Resent-From: debian-testing-security-announce@lists.debian.org
+X-Mailing-List: <debian-testing-security-announce@lists.debian.org> archive/latest/258
+X-Loop: debian-testing-security-announce@lists.debian.org
+List-Id: <debian-testing-security-announce.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-testing-security-announce/>
+List-Post: <mailto:debian-testing-security-announce@lists.debian.org>
+List-Help: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-testing-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-testing-security-announce-request@lists.debian.org
+Resent-Date: Wed, 28 Apr 2010 00:37:56 +0000 (UTC)
+
+This automatic mail gives an overview over security issues that were recently 
+fixed in Debian Testing. The majority of fixed packages migrate to testing 
+from unstable. If this would take too long, fixed packages are uploaded to the 
+testing-security repository instead. It can also happen that vulnerable 
+packages are removed from Debian testing.
+
+Migrated from unstable:
+=======================
+cacti 0.8.7e-3:
+CVE-2010-1431: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1431
+               http://bugs.debian.org/578909
+
+
+
+How to update:
+--------------
+Make sure the line
+
+	deb http://security.debian.org squeeze/updates main contrib non-free
+
+is present in your /etc/apt/sources.list. Of course, you also need the line
+pointing to your normal squeeze mirror. You can use
+
+	aptitude update && aptitude dist-upgrade
+
+to install the updates.
+
+
+More information:
+-----------------
+More information about which security issues affect Debian can be found in the 
+security tracker:
+
+	http://security-tracker.debian.org/tracker/
+
+A list of all known unfixed security issues is at
+
+	http://security-tracker.debian.org/tracker/status/release/testing
+
+
+-- 
+To UNSUBSCRIBE, email to debian-testing-security-announce-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E1O6vHd-0005td-Vo@soler.debian.org
+
+

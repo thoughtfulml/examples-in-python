@@ -1,0 +1,157 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287d58bd55ac6aa
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs551897wfb;
+        Sun, 9 May 2010 06:54:48 -0700 (PDT)
+Received: by 10.223.17.90 with SMTP id r26mr2908263faa.5.1273413287228;
+        Sun, 09 May 2010 06:54:47 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si6269919fay.31.2010.05.09.06.54.46;
+        Sun, 09 May 2010 06:54:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 341D86C8419; Sun,  9 May 2010 13:54:45 +0000 (UTC)
+Old-Return-Path: <ismaelbej@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 566016C8417
+	for <lists-debian-kde@liszt.debian.org>; Sun,  9 May 2010 13:54:39 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id f2mZuqf9WKgq for <lists-debian-kde@liszt.debian.org>;
+	Sun,  9 May 2010 13:54:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-bw0-f210.google.com (mail-bw0-f210.google.com [209.85.218.210])
+	by liszt.debian.org (Postfix) with ESMTP id D32B56C8416
+	for <debian-kde@lists.debian.org>; Sun,  9 May 2010 13:54:31 +0000 (UTC)
+Received: by bwz2 with SMTP id 2so1266552bwz.30
+        for <debian-kde@lists.debian.org>; Sun, 09 May 2010 06:54:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=74D2IB83MlJUSZw8UqJRN/gU2pw+OvgtQoDykGlcTd8=;
+        b=tOJnJ4zYGgyXWqawY9MxIPSXjEiYetfk0J3ksuHWtIgoAkm6N0+DifzH9hUY6atMAX
+         PkZMb22jCtIpvY4OZKsiEDAns16Sw39XU1SfF+He/EviOcsj6tFWLkhTSQresw/UHKH7
+         eDMqY5YX93B40aXtKNiN+gtl+zRVI4ROs6w4A=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=x0xe/SJkdklylfP/peSnDzOyLoGhpGp8NaV3CfaWBOamGcm9MUvif+5XqZyYkighpb
+         sO+eedODaMls3NNJxULQFPnGq19ZCN4jNA5V91K3051hdhed1SM8fyatucj4Z1XHse6m
+         cVMy3DzVH5SePnSQHkIE/hcA9DiH1+5c3jkT4=
+MIME-Version: 1.0
+Received: by 10.204.25.145 with SMTP id z17mr1581255bkb.181.1273413266792; 
+	Sun, 09 May 2010 06:54:26 -0700 (PDT)
+Received: by 10.204.67.77 with HTTP; Sun, 9 May 2010 06:54:26 -0700 (PDT)
+In-Reply-To: <20100509023401.GB7341@n0nb.us>
+References: <20100508133341.GA7341@n0nb.us>
+	 <201005081609.25352.didi.debian@cknow.org>
+	 <20100509023401.GB7341@n0nb.us>
+Date: Sun, 9 May 2010 10:54:26 -0300
+Message-ID: <AANLkTimu1d6au0OfEJqt8RZsSvo71X-ANNGggTc4Ato4@mail.csmining.org>
+Subject: Re: KDE unable to play complete K3B .wav files
+From: Ismael Bejarano <ismaelbej@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dKKLi9puN1P.A.FRF.l6r5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32290
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 13:54:45 +0000 (UTC)
+
+Hi,
+
+On Sat, May 8, 2010 at 11:34 PM, Nate Bargmann <n0nb@n0nb.us> wrote:
+> * On 2010 08 May 09:10 -0500, Diederik de Haas wrote:
+>> On 2010-05-08 Nate Bargmann wrote:
+>> > In System Settings configure notification (also from the same menu in
+>> > configure K3B) only the first note is played.
+>>
+>> Tried it from K3b and I can confirm your findings
+>>
+>> > In Dolphin clicking on k3b_success1.wav launches gnome-mplayer and the
+>> > entire file is played.
+>>
+>> Same here, although I've played it with both Amarok as smplayer
+>>
+>> > Also in Dolphin with k3b_success1.wav highlighted clicking the play
+>> > button in the far right hand pane plays the first three notes.
+>>
+>> Same here.
+>>
+>> > Here is an oddity I've noticed
+>>
+>> It sure is odd.
+>
+> Thanks for the confirmation, Diederik. =C2=A0I wonder which package to fi=
+le a
+> bug report against? =C2=A0The k3b package may in fact be easiest to reque=
+st
+> that the sound files be packaged in .ogg format, but that only masks
+> that fact that something in the KDE sound stack is having an issue with
+> .wav files.
+>
+> My system is configured to use the Phonon Xine Backend in Sound and Video
+> Configuration. =C2=A0Could that be the culprit and how can we test?
+>
+> - Nate >>
+>
+> --
+>
+> "The optimist proclaims that we live in the best of all
+> possible worlds. =C2=A0The pessimist fears this is true."
+>
+> Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+>
+
+Triying with dragonplayer it also fails with xine backend, amarok and
+kaffeine on the other hand play it complete.
+
+Switched to gstreamer backend and DragonPlayer played it successfully.
+
+I think you may have to file two separate bugreports: one to k3b
+suggesting as a new feature to use ogg files instead of wavs; and a
+separate to phonon indicating to xine backend fails to play k3b's
+files.
+
+But since it does play ok with amarok (which also uses phonon)
+probably will be nice to ask this question to a phonon developer,
+maybe that the issue is in k3b and dragonplayer.
+
+Cheers,
+Ismael
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTimu1d6au0OfEJqt8RZsSvo71X-ANNGggTc4Ato4@mail.csmining.org
+
+

@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e4eea14cc7408
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs60404wfi;
+        Fri, 9 Apr 2010 16:36:37 -0700 (PDT)
+Received: by 10.223.101.80 with SMTP id b16mr734103fao.25.1270856196207;
+        Fri, 09 Apr 2010 16:36:36 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 7si4489799fxm.59.2010.04.09.16.36.35;
+        Fri, 09 Apr 2010 16:36:36 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2055A13A675A; Fri,  9 Apr 2010 23:36:31 +0000 (UTC)
+Old-Return-Path: <clivemcbarton@web.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=FVGT_m_MULTI_ODD,
+	LDOSUBSCRIBER,LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 49AA913A6554
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 23:36:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id TvMYXGWdHyD6 for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 23:36:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from fmmailgate02.web.de (fmmailgate02.web.de [217.72.192.227])
+	by liszt.debian.org (Postfix) with ESMTP id 2914613A652D
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 23:36:14 +0000 (UTC)
+Received: from smtp06.web.de (fmsmtp06.dlan.cinetic.de [172.20.5.172])
+	by fmmailgate02.web.de (Postfix) with ESMTP id 16C6D15D62280
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 01:36:12 +0200 (CEST)
+Received: from [213.39.198.110] (helo=[192.168.178.29])
+	by smtp06.web.de with asmtp (TLSv1:AES256-SHA:256)
+	(WEB.DE 4.110 #4)
+	id 1O0NkB-0007TF-00
+	for debian-user@lists.debian.org; Sat, 10 Apr 2010 01:36:11 +0200
+Message-ID: <4BBFBA3B.20009@web.de>
+Date: Sat, 10 Apr 2010 01:37:31 +0200
+From: Clive McBarton <clivemcbarton@web.de>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100329)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: automate updates in Lenny
+References: <1270666354.6395.7.camel@localhost> <4BBCDC8E.2090306@cox.net>
+In-Reply-To: <4BBCDC8E.2090306@cox.net>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Sender: clivemcbarton@web.de
+X-Sender: clivemcbarton@web.de
+X-Provags-ID: V01U2FsdGVkX1+zAYU0UVeadYoygVEZX5y5PlA3bSBbRla++kyP
+	cP1sajqlS5ZsoavqgDNFzi3ol5VTHeJQEau9nym6mJbYgCcoFS
+	4BLGooV6k+0fF4y60kjg==
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6MDMxiJGm5C.A.UvE._n7vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573755
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 23:36:31 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ron Johnson wrote:
+> Anyway, the cron-apt package does what you want.  It is recommended,
+> though, to use it only for downloads.
+
+It does help the OP since he uses apt-get, but what about the people who
+normally use aptitude? There's no "cron-aptitude" package. And though
+cron-apt can be configured to actually run aptitude, I don't get the
+impression that it has really been tested that way.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAku/ujoACgkQ+VSRxYk44081HACgi1eRESKUeGr3uCMTvANuvrFJ
+6uUAni0/x+HETBqXee0iaemKsl3gAiff
+=zNjl
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBFBA3B.20009@web.de
+
+

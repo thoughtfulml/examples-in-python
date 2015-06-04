@@ -1,0 +1,97 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ac762cc426c91
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs23214wfo;
+        Tue, 18 May 2010 10:29:06 -0700 (PDT)
+Received: by 10.223.98.19 with SMTP id o19mr8507099fan.80.1274203745558;
+        Tue, 18 May 2010 10:29:05 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h4si16185568fai.95.2010.05.18.10.29.05;
+        Tue, 18 May 2010 10:29:05 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1F9C413A509E; Tue, 18 May 2010 17:28:54 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1FE2F13A504A
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 17:28:48 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id V6qOo4PBlLLI for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 17:28:41 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 0441F13A4A04
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 17:28:38 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OEQak-0000O8-S3
+	for debian-user@lists.debian.org; Tue, 18 May 2010 19:28:30 +0200
+Received: from 76-10-156-244.dsl.teksavvy.com ([76.10.156.244])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 18 May 2010 19:28:30 +0200
+Received: from monnier by 76-10-156-244.dsl.teksavvy.com with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 18 May 2010 19:28:30 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Stefan Monnier <monnier@iro.umontreal.ca>
+Subject: Re: Diskless notebooks with Debian Lenny or Squeeze?
+Date: Tue, 18 May 2010 13:28:21 -0400
+Lines: 8
+Message-ID: <jwvfx1pt91e.fsf-monnier+gmane.linux.debian.user@gnu.org>
+References: <877hn3oiwy.fsf@csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 76-10-156-244.dsl.teksavvy.com
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/24.0.50 (gnu/linux)
+Cancel-Lock: sha1:9r3nofb3AeRDPqj2EFbHEYYQNQk=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <DS0ngU9u4nF.A.kS.W5s8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577106
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 17:28:54 +0000 (UTC)
+
+> are there any advices for diskless notebooks that is compatible with
+> Debian Lenny or Squeeze?
+
+What means "diskless"?  Do you mean "without a harddrive" or "without
+removable media (like CD/DVD/floppy)"?  Something else?
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwvfx1pt91e.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

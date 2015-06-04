@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b9d55be014ce
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs39347wfb;
+        Wed, 12 May 2010 01:24:25 -0700 (PDT)
+Received: by 10.223.5.13 with SMTP id 13mr7668415fat.68.1273652664479;
+        Wed, 12 May 2010 01:24:24 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h4si13315279fai.43.2010.05.12.01.24.22;
+        Wed, 12 May 2010 01:24:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=pass header.i=@cs.rutgers.edu
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 359C42D8E11; Wed, 12 May 2010 08:24:07 +0000 (UTC)
+Old-Return-Path: <rbthomas@cs.rutgers.edu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0680713A5186
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 08:06:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kEX-OayMI3se for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 08:06:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from dragon.rutgers.edu (dragon.rutgers.edu [128.6.4.3])
+	by liszt.debian.org (Postfix) with ESMTP id 5083B13A505A
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 08:06:10 +0000 (UTC)
+X-ExtScanner: Niversoft's Regex Matcher
+X-Virus-Scanned: by dragon-cgpav-clamav-v1.3b
+X-ExtFilter: Niversoft's DomainKeys Helper
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	d=cs.rutgers.edu; s=mx;
+	h=Message-Id:From:To:Content-Type:Content-Transfer-Encoding:Subject:
+	Mime-Version:Date:X-Mailer;
+	b=cxZdn+5uUDegTBKZumTudoFnipyrqmqqNY9IXjzcw9xROo4NSOXJfUGOO8W54HEJjD
+	wtnoG80g2g0HDGFZasbgv5s/FxP5U7WOcTa99r/MYxpDywHA93p6qY/C8wje3nolnxlm
+	wO+UFyombiXFUV5doVzSUbTugyoqSiaCT08oI=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=cs.rutgers.edu; s=mx; l=281; t=1273651567; x=1274256367;
+	q=dns/txt; h=Message-Id:From:To:Content-Type:
+	Content-Transfer-Encoding:Subject:Mime-Version:Date:X-Mailer;
+	bh=Rj8letNFA3D1DR/6vvoU1KeELR7Xf4+lVHyeFxszArI=; b=WcLfpmch4l+7S
+	CClhnN4A5FqIOgFugJaQfFQlYCRmxWBTHJlDIIJ0Z3zngP1j57gKuWdp4H8C4OSy
+	SGHpaqFskn8XCoYsbUkTw7J4FQWUSlMAYzoTPAHjr3rUFCoXsiEXjrZFDe1mMa2E
+	Wue3aLZAhW4r0sGGSOLv0QvxhbLItI=
+Received: from [68.192.169.62] (account rbthomas HELO [192.168.1.88])
+  by dragon.rutgers.edu (CommuniGate Pro SMTP 5.2.16)
+  with ESMTPSA id 90813610; Wed, 12 May 2010 04:06:07 -0400
+Message-Id: <AC045FBC-F572-4D9E-967B-67660214AA82@cs.rutgers.edu>
+From: Rick Thomas <rbthomas@cs.rutgers.edu>
+To: debian-user List Debian <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: Why does /dev/rtc0 belong to group audio in Lenny but not in Sid?
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Wed, 12 May 2010 04:06:06 -0400
+X-Mailer: Apple Mail (2.936)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <QIsasozOe1C.A.7qH.nWm6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576596
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 08:24:07 +0000 (UTC)
+
+In Lenny, "ls -ld /dev/audio" gives
+
+> lenny:~$ ls -ld /dev/rtc0
+> crw-rw---- 1 root audio 254, 0 May  2 15:25 /dev/rtc0
+>
+
+
+But in Sid, it gives
+
+> sid:~$ ls -ld /dev/rtc0
+> crw-rw---- 1 root root 254, 0 May 10 23:51 /dev/rtc0
+>
+
+Anybody know why?
+
+Thanks!
+
+Rick
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AC045FBC-F572-4D9E-967B-67660214AA82@cs.rutgers.edu
+
+

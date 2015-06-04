@@ -1,0 +1,155 @@
+X-Account-Key: account5
+X-UIDL: GmailId128742ff92172087
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs470641wfb;
+        Fri, 7 May 2010 12:13:41 -0700 (PDT)
+Received: by 10.143.24.25 with SMTP id b25mr313214wfj.90.1273259621498;
+        Fri, 07 May 2010 12:13:41 -0700 (PDT)
+Return-Path: <quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 30si3461848pzk.69.2010.05.07.12.13.40;
+        Fri, 07 May 2010 12:13:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+DomainKey-Status: bad (test mode)
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; domainkeys=hardfail (test mode) header.From=mkoob@rogers.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 0C39C1C622256
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 12:13:40 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 07E4E277A93CF
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 12:13:40 -0700 (PDT)
+X-Original-To: quicktime-users@lists.apple.com
+Delivered-To: quicktime-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id DE001277A514E
+	for <quicktime-users@lists.apple.com>;
+	Fri,  7 May 2010 12:04:14 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id CAB4FD3B938F
+	for <quicktime-users@lists.apple.com>;
+	Fri,  7 May 2010 12:04:14 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-47-4be4642eeeee
+Received: from smtp107.rog.mail.re2.yahoo.com (smtp107.rog.mail.re2.yahoo.com
+	[68.142.225.205])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	46.C6.07800.E2464EB4; Fri,  7 May 2010 12:04:14 -0700 (PDT)
+Received: (qmail 90446 invoked from network); 7 May 2010 19:04:13 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=rogers.com;
+	h=Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Mime-Version:In-Reply-To:References:Content-Type:Message-Id:Content-Transfer-Encoding:From:Subject:Date:To:X-Mailer;
+	b=SY1sGqOSjzprm2aXscXOElpgVpvmkmS5Lv4QF4E6dSxszngzrc6dlIG9w/3pXgh0bSH0wiH68jlWwI8OHrEEjVpTtnH+sgWBtFxNO91AmUWh5kMsJKizWh0B7plJ54K2D1JTwA8P1Y/o9rxQL/dAp8R2+bSe77x77Ii8wZzRlHY=
+	; 
+Received: from [192.168.0.102] (mkoob@99.232.101.228 with plain)
+	by smtp107.rog.mail.re2.yahoo.com with SMTP;
+	07 May 2010 12:04:13 -0700 PDT
+X-Yahoo-SMTP: cFSgwOeswBA3R59eZuBpt8tYLPJw1cowBZvAM50-
+X-YMail-OSG: wWduCcIVM1kdNiGibdaE0..YR7TuI4RoghGdiyNoTcNUfg4tY2bM7G8u88.St2hSi4_0q8xb6yDDFmnY_mgRxAMthrcrumxHX5zUolXAOpyZPp9NZDhLfeLpVcbsQgGezksYslCPo8Or.3_lP70EEA1b1oxUKPLWfS4flTV990EmQFFFH8PNtQ2KtA7eiRZ.ldO85wQFlZF4gu2gADROBH0yxarp5pa15oLrI29EyfCfrQ7tx.gCWRCngMhup0ZL.A1YHAS83vR.hGarc770PHIT44YJne_pr.jQ7ki2tYoEU4pIqpMWFC1DsxX.oGSMNkqeM4bolINHFPdbt7Rnz4EewKPz8ALr1kM1s221KmT8zgvacbl4uRlVWv6QNjpWofoDpoDAGKYrJL33WMY0YWAN.9c75yeKbhCcODeVpiFUM4J_AUyjyHZlc10wBQ3Kad9g8ucNHJBSSbJFco8dI6C0RXIYz3O2
+X-Yahoo-Newman-Property: ymail-3
+Mime-Version: 1.0 (Apple Message framework v753.1)
+In-Reply-To: <376DECD5-FDE7-42CA-B163-D232EE47029C@csmining.org>
+References: <443A3A83-3ED3-4DA3-A986-3A622D8FC707@rogers.com>
+	<376DECD5-FDE7-42CA-B163-D232EE47029C@csmining.org>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <CE719F70-95C0-4043-BB92-DBEF52D5670B@rogers.com>
+Content-Transfer-Encoding: 7bit
+From: Martin Koob <mkoob@rogers.com>
+Date: Fri, 7 May 2010 15:04:12 -0400
+To: QuickTime Talk List <quicktime-users@lists.apple.com>
+X-Mailer: Apple Mail (2.753.1)
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: Basic authorization not working on QuickTime X player OSStatus
+	error -128
+X-BeenThere: quicktime-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Usage of QuickTIme <quicktime-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-users@lists.apple.com>
+List-Help: <mailto:quicktime-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi  Thorston
+
+Thanks for the quick response.
+
+I just got it to work another way by having QuickTime Player 7 open  
+before I click the link on the web page which has the embed attribute  
+of target="quicktimeplayer".  Quicktime 7 Player then displays the  
+authorization dialog and that works correctly.
+
+Martin Koob
+
+On 7-May-10, at 2:33 PM, Thorsten Philipp wrote:
+
+> Hi Martin,
+>
+> i filed a bug report some months ago. Unfortunately it was closed  
+> (duplicate). The duplicate (ID: 7275187 ) radar entry is not  
+> viewable by me.
+>
+> A workaround (also nasty...). Open the URL in Safari and Store the  
+> password. Therefore it is in the keychain. Quicktime X can now  
+> access the resource.
+>
+> If you find another solution or here anything from apple.. please  
+> let me know.
+>
+>
+> Thorsten
+>
+> On 07.05.2010, at 20:25, Martin Koob wrote:
+>
+>> Hi.
+>>
+>> I have some movies on a website in a protected directory on the  
+>> server.  When I open them in Quicktime Player 7 I  get the dialog  
+>> for the username and password and I can enter the and then the  
+>> movie will load.  If I embed these movies in a web page the  
+>> password authorization  will also work correctly on Snow Leopard.
+>>
+>> When try to open the URL in Quicktime player X  I get an error  
+>> OSStatus error -128.
+>>
+>> If I set the target in the embed tags for the movie to  
+>> quicktimeplayer  I will also get the same error and the movie will  
+>> not open.
+>>
+>> If I turn off the folder protection on the folder on the server  
+>> then the movie will open correctly,  So it seems it is the  
+>> authorization that is not working.
+>>
+>> Is this a known problem?   Has it been reported as a bug?
+>>
+>> Martin
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/quicktime-users/kyrios% 
+>> 40csmining.org
+>>
+>> This email sent to kyrios@csmining.org
+>
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-users/mkoob% 
+> 40rogers.com
+>
+> This email sent to mkoob@rogers.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

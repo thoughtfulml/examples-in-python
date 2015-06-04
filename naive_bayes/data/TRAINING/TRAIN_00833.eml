@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fd9fb7b35a0da
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs27905wfa;
+        Wed, 14 Apr 2010 11:40:56 -0700 (PDT)
+Received: by 10.102.15.22 with SMTP id 22mr4498757muo.7.1271270455040;
+        Wed, 14 Apr 2010 11:40:55 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id i7si3816830mue.34.2010.04.14.11.40.54;
+        Wed, 14 Apr 2010 11:40:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8E4AD13A51F9; Wed, 14 Apr 2010 18:40:48 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 89A8613A51A9
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 18:40:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mNkonxJQMTT5 for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 18:40:35 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 301D413A51CB
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 18:40:35 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O27Vi-0002aB-Pe
+	for debian-user@lists.debian.org; Wed, 14 Apr 2010 20:40:26 +0200
+Received: from 76-10-156-71.dsl.teksavvy.com ([76.10.156.71])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 20:40:26 +0200
+Received: from monnier by 76-10-156-71.dsl.teksavvy.com with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 20:40:26 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+From: Stefan Monnier <monnier@iro.umontreal.ca>
+Subject: Re: Boot / LVM best practices
+Date: Wed, 14 Apr 2010 14:40:12 -0400
+Lines: 18
+Message-ID: <jwvtyrdlw3c.fsf-monnier+gmane.linux.debian.user@gnu.org>
+References: <4BC17813.6080302@cajuninc.com>
+	<4BC1AF63.3060208@hardwarefreak.com> <4BC4461B.2030801@debian.org>
+	<4BC489D1.60308@cox.net>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 76-10-156-71.dsl.teksavvy.com
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/24.0.50 (gnu/linux)
+Cancel-Lock: sha1:Lpxxj4JxCjd5pEsvyw55VFQMDnw=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <mhCU9opYM7L.A.AR.wwgxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574081
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 18:40:48 +0000 (UTC)
+
+>>> If you're going to buy two drives, you'd be stupid to not use
+>>> mirroring for fault tolerance and a little added read performance
+>>> here and there (depends on application).
+>> I disagree.  Mirroring only protects you against drive failures and not
+>> human error.
+> And I disagree with that.
+
+With the fact that it's not necessarily stupid to not use mirroring?
+
+> Mirroring *definitely* makes both reads and writes go faster, due
+> to parallelism.
+
+AFAIK that's not true for writes (they may even slow down slightly).
+But in any case, this does not contradict the fact that the kind of
+protection it offers is different from the one offered by using backup.
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwvtyrdlw3c.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

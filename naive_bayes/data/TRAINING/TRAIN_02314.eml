@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId128addb6486c3f15
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs32237wfo;
+        Tue, 18 May 2010 16:59:16 -0700 (PDT)
+Received: by 10.141.106.14 with SMTP id i14mr5654819rvm.259.1274227155992;
+        Tue, 18 May 2010 16:59:15 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id b13si415525rvn.153.2010.05.18.16.59.15;
+        Tue, 18 May 2010 16:59:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id BE94B1C52B6C7
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 16:59:15 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id B9D3B27C0105F
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 16:59:15 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 0261E27C00DF3
+	for <objc-language@lists.apple.com>;
+	Tue, 18 May 2010 16:58:53 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id E5C55D598C5C
+	for <objc-language@lists.apple.com>;
+	Tue, 18 May 2010 16:58:53 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-0d-4bf329bdee22
+Received: from asmtpout029.mac.com (asmtpout029.mac.com [17.148.16.104])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	67.86.05834.DB923FB4; Tue, 18 May 2010 16:58:53 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [172.16.254.77]
+	(mail221.theindiecompanyllc.com [173.13.167.221]) by asmtp029.mac.com
+	(Sun Java(tm) System Messaging Server 6.3-8.01 (built Dec 16 2008;
+	32bit)) with ESMTPSA id <0L2N00IIU3Y1Y310@asmtp029.mac.com> for
+	objc-language@lists.apple.com; Tue, 18 May 2010 16:58:50 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=6.0.2-1004200000 definitions=main-1005180171
+X-Proofpoint-Virus-Version: vendor=fsecure
+	engine=1.12.8161:2.4.5,1.2.40,4.0.166
+	definitions=2010-05-18_04:2010-02-06, 2010-05-18,
+	2010-05-18 signatures=0
+Message-id: <1C0A76E4-8286-4CE6-9F5B-C1BB76693297@me.com>
+From: "Jason T. Slack-Moehrle" <slackmoehrle@me.com>
+To: objc-language@lists.apple.com
+X-Mailer: iPad Mail (7B367)
+Date: Tue, 18 May 2010 17:00:27 -0700
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: Class Structure Questions
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi All,
+
+A few questions on class structure.
+
+I am working on an example to create a list of recent files that have been opened.
+
+This obviously involves a UITableView
+
+So I created a class called FileListView and made it a subclass of UITableView like:
+
+@interface FileListView : UITableView
+
+so I call the init method and I want to create the table with the items in it.
+
+Here is what I am not understanding:
+1. Using proper MVC, I should have a UITableViewController and for a sequence of events, on init I should create the controller, assign my table to the controller, implement the necessary methods the UITableView requires and them populate the table. it does not make sense to me that on FileListView *fileList = [[FileListView alloc] init]; what I need to do.
+
+I guess I am confused by subclassing my FileListView to UITableView.
+
+Do I create the table controller first, then create the table, then assign the table to the controller and then load the data into the controller so that it is reflected into the table?
+
+2. Where can I find out what methods must be implemented as a requirement for a UITableView, I recall someplace stuff like minimumRows, style, etc.
+
+3. Difference between a delegate and a controller?
+
+I found the table view programming guide so that will help, but can someone explain to me from a more generic stand point? Maybe I need more study on MVC too.
+
+I am not using InterfaceBuilder, btw, but I would think that would be known since I am asking on an Objective-C list....
+
+-Jason
+
+As Thomas Edison said, "I have not failed. I've just found 10,000 ways that won't work."
+
+* Sent from Jason's iPad *
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

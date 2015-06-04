@@ -1,0 +1,159 @@
+X-Account-Key: account5
+X-UIDL: GmailId12825ed5b160ac0a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs21644wfj;
+        Thu, 22 Apr 2010 07:32:51 -0700 (PDT)
+Received: by 10.223.99.156 with SMTP id u28mr106082fan.53.1271946633067;
+        Thu, 22 Apr 2010 07:30:33 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si6835157fkb.33.2010.04.22.07.30.31;
+        Thu, 22 Apr 2010 07:30:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+DomainKey-Status: bad (test mode)
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; domainkeys=hardfail (test mode) header.From=adsrtg-mlist@yahoo.com.au
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 56E0C13A4554; Thu, 22 Apr 2010 14:30:16 +0000 (UTC)
+Old-Return-Path: <adsrtg-mlist@yahoo.com.au>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: *
+XStatus: No, score=1.0 required=4.0 tests=IMPRONONCABLE_2 autolearn=no
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F361613A493E
+	for <lists-debian-user@liszt.debian.org>; Thu, 22 Apr 2010 14:13:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_2=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id TZD5W58gEuuh for <lists-debian-user@liszt.debian.org>;
+	Thu, 22 Apr 2010 14:13:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from n19.bullet.mail.mud.yahoo.com (n19.bullet.mail.mud.yahoo.com [68.142.206.146])
+	by liszt.debian.org (Postfix) with SMTP id 5333213A4C77
+	for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 14:13:10 +0000 (UTC)
+Received: from [68.142.194.244] by n19.bullet.mail.mud.yahoo.com with NNFMP; 22 Apr 2010 14:13:08 -0000
+Received: from [68.142.201.254] by t2.bullet.mud.yahoo.com with NNFMP; 22 Apr 2010 14:13:07 -0000
+Received: from [127.0.0.1] by omp415.mail.mud.yahoo.com with NNFMP; 22 Apr 2010 14:12:41 -0000
+X-Yahoo-Newman-Id: 574493.4463.bm@omp415.mail.mud.yahoo.com
+Received: (qmail 76519 invoked from network); 22 Apr 2010 14:12:41 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com.au;
+  h=Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Received:Date:From:To:Subject:Message-ID:Mail-Followup-To:References:MIME-Version:Content-Type:Content-Disposition:Content-Transfer-Encoding:In-Reply-To:User-Agent;
+  b=MfruBJGMd/rkkYq4NmVbm+P3H9X7EoYsAsZTwPcbtRu6b5bhwamETLmCrZMW1eUkMnD+NS1TQ/Z5BIKO7+fitb+b0Cdgp5X0XliPUV4EtmurMtBQCibL0KvX/SzawVHmcOAZ/ebSP04exlJnIhey8vYTnpqIlO1C0KnMQrgjHqo=  ;
+Received: from  (adsrtg-mlist@80.74.171.89 with login)
+        by smtp139.mail.mud.yahoo.com with SMTP; 22 Apr 2010 07:12:40 -0700 PDT
+X-Yahoo-SMTP: ZYKvYWWswBCTLjPLrFFdYba8wICvaQ--
+X-YMail-OSG: .sgogjoVM1ljqeDC2fHd8XqL47rdX6Jpz_o4fx0cdi.DfKKYfiJQ19L3eXtwiUJXA5t711D5EX.5zevWCnSX9m3yRj8f_DIpdn0NQHMeQ4f6npEfta8Yu5mn7DEo6A4X__DS6zB8QXK8ENack5B8Iv_87oSW57fejUwRe64tJcjJeWk0kc88XRtm5kqgoWjntQHry4OEtWIqP4YnFr_3.h2G1da3O97vukWIjr.v9NhOjthAzx2OwQfFroF_dZhp
+X-Yahoo-Newman-Property: ymail-3
+Received: by alfa (Postfix, from userid 1000)
+	id 2A03A87E3C; Thu, 22 Apr 2010 16:59:36 +0200 (CEST)
+Date: Thu, 22 Apr 2010 16:59:36 +0200
+From: Martin <adsrtg-mlist@yahoo.com.au>
+To: debian-user@lists.debian.org
+Subject: Re: Hash Sum mismatch
+Message-ID: <20100422145935.GB2609@alfa>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100421132759.GA2635@alfa> <pan.2010.04.21.17.34.49@csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <pan.2010.04.21.17.34.49@csmining.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Lnz1qa4RyiO.A.9fE.41F0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574763
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 22 Apr 2010 14:30:16 +0000 (UTC)
+
+On Wed, Apr 21, 2010 at 05:34:49PM +0000, Camaleón wrote:
+> On Wed, 21 Apr 2010 15:27:59 +0200, Martin wrote:
+> 
+> > When I tryed to install simutrans game with aptitude I got this error
+> > and was not able to install it:
+> 
+> (...)
+> 
+> > I have original DVDs. Content of /cdrom/.disk/info is: Debian GNU/Linux
+> > 5.0.4 "Lenny" - Official i386 DVD Binary-3 20100131-19:16
+> > 
+> > Any idea why this is so?
+> 
+> Did you check the MD5SUM of the downloaded ISO before burning the image 
+> in a DVD? :-?
+
+Oh, my ... was I happy boy ... until now :)
+No, I did not :(
+So I downloaded MD5SUMS file from internet, Its content is:
+202b8e90d52b7eb3ed7294211f5aadfe  debian-504-i386-DVD-1.iso
+ad134f6556f8b79d39508a844ff59925  debian-504-i386-DVD-2.iso
+45b9ad2bfaa20547f23471829e2f7d7e  debian-504-i386-DVD-3.iso
+b46ee70c83e4e02107e4a5c271927459  debian-504-i386-DVD-4.iso
+ca1ec6584d9e5df2df958ce5d647fb91  debian-504-i386-DVD-5.iso
+4b07df455905e47f2db772b3715f46ca  debian-update-5.0.4-i386-DVD-1.iso
+
+After that I was inserting my DVDs in oredr 1-5 without mounting it
+and issued command 'md5sum /dev/hdc' which produced this output
+(one line for each DVD in turn):
+
+md5sum: /dev/hdc: Input/output error
+d6dd905d890c6f94e164f2b6c027c8a4  /dev/hdc
+1b662e97035cce34e1e9fa42223cdfc5  /dev/hdc
+6e0279dcd3dc5ff0dcf6e6188f6df2b3  /dev/hdc
+15462fa19c0c49f517c66fb76e6ce109  /dev/hdc
+
+Therefore DVD 1 seems to be seriously damaged (thou I had not any
+problems with it when installing any program - yet), and DVD 2-4 have
+different checksums, but I am not sure if this is proper way to check
+DVDs now when they are already burned on disc.
+
+Then I inserted DVD 3, mounted it and run 'cd /cdrom; md5sum -c md5sum.txt'
+It printed one line per package and concluded with:
+
+md5sum: WARNING: 167 of 4996 computed checksums did NOT match
+
+I did the same for DVD 2,4 and 5 but in now md5sum did not find any
+package with bad checksum! All lines are like this:
+
+./pool/main/z/zvbi/zvbi_0.2.30-1_i386.deb: OK
+./pool/main/z/zzuf/zzuf_0.12-1_i386.deb: OK
+
+while with DVD 3 there were 167 lines like this:
+
+./pool/main/a/asc/asc-data_2.1.0.0-1_all.deb: FAILED
+./pool/main/b/balazar/balazar_0.3.4.ds1-3_all.deb: FAILED
+./pool/main/h/hgsvn/hgsvn_0.1.6-2_all.deb: FAILED
+./pool/main/s/simutrans/simutrans-data_100.0+ds1-4_all.deb: FAILED
+
+I guess I am doing something wrong as one method showed that DVDs 2,4,5
+are bad while other test passed OK. At least I do know that
+packages I was trying to install from DVD 3 are bad.
+
+Thank you.
+Martin
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100422145935.GB2609@alfa
+
+

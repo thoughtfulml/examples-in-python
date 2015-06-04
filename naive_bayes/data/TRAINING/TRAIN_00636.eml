@@ -1,0 +1,136 @@
+X-Account-Key: account5
+X-UIDL: GmailId128070ca78ff9dad
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs26838wfj;
+        Fri, 16 Apr 2010 07:36:29 -0700 (PDT)
+Received: by 10.142.122.11 with SMTP id u11mr912037wfc.227.1271428589387;
+        Fri, 16 Apr 2010 07:36:29 -0700 (PDT)
+Return-Path: <quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 7si3963565ywh.50.2010.04.16.07.36.28;
+        Fri, 16 Apr 2010 07:36:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id A0F231BA4BF89
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 07:36:28 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9ACA426D9AD9D
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 07:36:28 -0700 (PDT)
+X-Original-To: quicktime-users@lists.apple.com
+Delivered-To: quicktime-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 2B8AF26D991EA
+	for <quicktime-users@lists.apple.com>;
+	Fri, 16 Apr 2010 07:31:58 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 1BE26CA8E25A
+	for <quicktime-users@lists.apple.com>;
+	Fri, 16 Apr 2010 07:31:58 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-0d-4bc874dc2cbc
+Authentication-Results: mail-in13.apple.com
+	x-tls.subject="/C=DE/O=mail.speedpartner.de/OU=3180027174/OU=See
+	www.rapidssl.com/resources/cps (c)08/OU=Domain Control
+	Validated - RapidSSL(R)/CN=mail.speedpartner.de";
+	auth=fail (cipher=AES256-SHA)
+Received: from mail.speedpartner.de (mail.speedpartner.de [91.184.32.3])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client CN "mail.speedpartner.de",
+	Issuer "Equifax Secure Global eBusiness CA-1" (not verified))
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	DC.96.17067.DD478CB4; Fri, 16 Apr 2010 07:31:57 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.speedpartner.de (Postfix) with ESMTP id BD4F8B3C89
+	for <quicktime-users@lists.apple.com>;
+	Fri, 16 Apr 2010 16:31:54 +0200 (CEST)
+Received: from mail.speedpartner.de ([127.0.0.1])
+	by localhost (mail.speedpartner.de [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with ESMTP id M2NGweSz3klE for <quicktime-users@lists.apple.com>;
+	Fri, 16 Apr 2010 16:31:54 +0200 (CEST)
+Received: from [192.168.1.83] (f054214104.adsl.alicedsl.de [78.54.214.104])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by mail.speedpartner.de (Postfix) with ESMTP id 98107B3C5D
+	for <quicktime-users@lists.apple.com>;
+	Fri, 16 Apr 2010 16:31:54 +0200 (CEST)
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Marc Manthey <marc@let.de>
+In-Reply-To: <BLU0-SMTP73C83B0C14B37344E9A0AA40F0@phx.gbl>
+Date: Fri, 16 Apr 2010 16:31:53 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <3FC705AD-BC0D-4F41-9DDC-97B3D0E82ABC@let.de>
+References: <BLU0-SMTP73C83B0C14B37344E9A0AA40F0@phx.gbl>
+To: QuickTime Talk List <quicktime-users@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAhO1VPETtVeZ
+Subject: Re: Google open sources VP8 codec.
+X-BeenThere: quicktime-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Usage of QuickTIme <quicktime-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-users@lists.apple.com>
+List-Help: <mailto:quicktime-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+Am 15.04.2010 um 19:53 schrieb Harry:
+
+> Google open sources VP8 codec. What impact on Apple /Quicktime?
+>=20
+>=20
+>=20
+> =
+http://www.betanews.com/article/Google-may-face-legal-challenges-if-it-ope=
+nsources-VP8-codec/1271343375
+
+
+while VP8 will be integrated into Firefox it would be interesting to =
+know if and when apple will integrate it
+aswell.
+
+-----
+Mozilla -- maker of the Firefox browser -- and Google Chrome are =
+expected to also announce support for HTML5 video playback using the new =
+open codec."
+
+=
+http://blogs.computerworld.com/15921/google_open_sourcing_vp8_video_may_ch=
+ange_internet_video_forever
+
+regards
+
+
+Marc
+-- =20
+Les enfants teribbles - research / deployment
+Marc Manthey- Vogelsangerstrasse 97
+50823 K=F6ln - Germany
+Tel.:0049-221-29891489
+Mobil:0049-1577-3329231
+blog: http://let.de
+project : http://opencu.org
+twitter: http://twitter.com/macbroadcast/
+facebook : http://opencu.tk
+
+
+Opinions expressed may not even be mine by the time you read them, and =
+certainly don't reflect those of any other entity (legal or otherwise).
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

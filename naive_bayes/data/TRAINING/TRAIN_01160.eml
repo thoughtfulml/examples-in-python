@@ -1,0 +1,93 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283aaa01f6d3d82
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs91184wfj;
+        Mon, 26 Apr 2010 08:09:03 -0700 (PDT)
+Received: by 10.115.87.32 with SMTP id p32mr4476523wal.86.1272294539681;
+        Mon, 26 Apr 2010 08:08:59 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 12si6093838pzk.66.2010.04.26.08.08.59;
+        Mon, 26 Apr 2010 08:08:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 7414E1BC92AA3
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 08:08:59 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6F22F271E9C38
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 08:08:59 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 90846271E95C1
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 08:08:05 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 7FB86D5FC312
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 08:08:05 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-1d-4bd5ac548fa1
+Received: from mail-vw0-f51.google.com (mail-vw0-f51.google.com
+	[209.85.212.51])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	F5.38.26228.55CA5DB4; Mon, 26 Apr 2010 08:08:05 -0700 (PDT)
+Received: by vws17 with SMTP id 17so88801vws.24
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 08:08:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:date:message-id
+	:subject:from:to:content-type;
+	bh=Rowi2xXebN/fSGpt7K3Ao4E1wN0M8uHmTOH14oipDlI=;
+	b=aU8jGSS+17SoJ/0khyVAJouIoZZ1QwSuuYCMtCNItLCy2FoozMDJUivSBevwQD6o3t
+	FMIFgwt9S1moFFBbAQp7/wef2ykq3NYv4M5ILKS6DQ32rooWuqHq3klm8rBbPpguMTz/
+	dBt0nFLSdDwj0oWR5l9cX/rwuLJQYscDyAwg0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=qlSr2J4yCxCFYwgzujQx5pp7ypVz81OWTMNSRf+7W0ioegXix0KqXsEQmiOkTlD0Bm
+	W7J920U97crSEicibcnr0t2haJSC4jtkFfqImmpHlN/D6EItw9kpx781ZujU2irAkVSI
+	rMobFvoxh3nRWikhgwDJ7C1MUZKdwBaNaQ2/0=
+MIME-Version: 1.0
+Received: by 10.229.221.65 with SMTP id ib1mr5154859qcb.47.1272294484044; Mon, 
+	26 Apr 2010 08:08:04 -0700 (PDT)
+Received: by 10.229.99.70 with HTTP; Mon, 26 Apr 2010 08:08:03 -0700 (PDT)
+Date: Mon, 26 Apr 2010 09:08:03 -0600
+Message-ID: <j2s2bdc32d81004260808h9d7f4189w53669f07b261d520@mail.csmining.org>
+From: David Brayford <dbrayford@csmining.org>
+To: list Java-dev <java-dev@lists.apple.com>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAxPYxgsT2WikE9mWyA==
+Subject: how to debug JNI in xcode
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi,
+
+I have a jni program that crashes, but don't know how to use xcode to debug it.
+
+Is it possible to start the Java code in xcode and debug the *.mm code
+and if so how do I go about doing that?
+
+Or do I have to start the program and then attach the debugger and if
+so how do I do that?
+
+David
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

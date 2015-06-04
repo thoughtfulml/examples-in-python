@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b7d2de65948e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs37659wfb;
+        Wed, 12 May 2010 00:49:17 -0700 (PDT)
+Received: by 10.223.16.142 with SMTP id o14mr7741055faa.11.1273650555931;
+        Wed, 12 May 2010 00:49:15 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c9si13239605fac.12.2010.05.12.00.49.15;
+        Wed, 12 May 2010 00:49:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 069A813A5267; Wed, 12 May 2010 07:49:11 +0000 (UTC)
+Old-Return-Path: <kevin.krammer@gmx.at>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.9 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0CBDA13A50DA
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 07:49:05 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id H-MZdJGpNqVO for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 07:48:57 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by liszt.debian.org (Postfix) with SMTP id ADD2313A4855
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 07:48:46 +0000 (UTC)
+Received: (qmail invoked by alias); 12 May 2010 07:48:42 -0000
+Received: from dialbs-092-079-186-076.static.arcor-ip.net (EHLO artemis.localnet) [92.79.186.76]
+  by mail.gmx.net (mp059) with SMTP; 12 May 2010 09:48:42 +0200
+X-Authenticated: #3816551
+X-Provags-ID: V01U2FsdGVkX184YXgNgUA4Bav10nDmcMSNLJ5Ze4QDQbApVE8erR
+	wb76zUzcKp6SrA
+From: Kevin Krammer <kevin.krammer@gmx.at>
+To: debian-kde@lists.debian.org
+Subject: Re: What needs to improve in KDE 4?
+Date: Wed, 12 May 2010 09:48:35 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.28-grml; KDE/4.4.3; i686; ; )
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org> <AANLkTikpTdU3kqSqixX8nKBjuUl0YFxiBpTREfhJ0CzW@mail.csmining.org> <201005101725.59198.bss@iguanasuicide.net>
+In-Reply-To: <201005101725.59198.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2997872.evJTtnoRWv";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005120948.35432.kevin.krammer@gmx.at>
+X-Y-GMX-Trusted: 0
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <UwJdtFODcOK.A.6WB.21l6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32409
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 07:49:11 +0000 (UTC)
+
+--nextPart2997872.evJTtnoRWv
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday, 2010-05-11, Boyd Stephen Smith Jr. wrote:
+> On Monday 10 May 2010 17:02:35 Richard Hartmann wrote:
+> > On Mon, May 10, 2010 at 22:39, Dotan Cohen <dotancohen@csmining.org> wrote:
+> > > Really? Please file those crashes! I though that all the serious Kmail
+> > > crashers were fixed!
+> >=20
+> > Speaking of which... As you are a walking bug filofax:
+> > Even though I have to say the d word.. What is the state of
+> > disconnected IMAP? Still killing a few thousands emails
+> > sometimes, as with KDE 3?
+>=20
+> I didn't have it hit me in KDE 3.
+>=20
+> I use multiple disconnected IMAP accounts and have without issue since 4.2
+> entered Sid.
+
+Same here, even when getting disconnected a lot during operations (e.g. whe=
+n=20
+using mobile broadband on a train trip).
+
+Cheers,
+Kevin
+
+--nextPart2997872.evJTtnoRWv
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iD8DBQBL6l1TnKMhG6pzZJIRArcxAJ9DSlUlzv7vPGVzjbFy8UKuB3/7mQCfQI5a
+2dLvCttwhi7mtl2BHWYGSKI=
+=pRrB
+-----END PGP SIGNATURE-----
+
+--nextPart2997872.evJTtnoRWv--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005120948.35432.kevin.krammer@gmx.at
+
+

@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId128969e0b01c9604
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs24456wfo;
+        Fri, 14 May 2010 04:41:00 -0700 (PDT)
+Received: by 10.223.127.196 with SMTP id h4mr1479451fas.56.1273837259451;
+        Fri, 14 May 2010 04:40:59 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si5590551fah.74.2010.05.14.04.40.58;
+        Fri, 14 May 2010 04:40:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 461D613A50F5; Fri, 14 May 2010 11:40:53 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EE56213A50D8
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 11:40:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JdW37tEQ4mtO for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 11:40:40 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 6A79713A50A0
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 11:40:40 +0000 (UTC)
+Received: (qmail 26120 invoked from network); 14 May 2010 13:40:37 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <sjoerd@lorentz.leidenuniv.nl>; 14 May 2010 13:40:37 +0200
+Message-ID: <4BED3663.9040906@student.ulg.ac.be>
+Date: Fri, 14 May 2010 13:39:15 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+CC: debian-user@lists.debian.org
+Subject: Re: Is acroread blind, or ps2pdf dangerous?
+References: <4BEC1506.4090508@student.ulg.ac.be> <87ocgj8s2y.fsf@turtle.gmx.de> <4BEC71E3.7090200@student.ulg.ac.be> <4BED28B8.4010402@lorentz.leidenuniv.nl>
+In-Reply-To: <4BED28B8.4010402@lorentz.leidenuniv.nl>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enigF8BC083208413A0C634ACBF8"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kyl_OT9I69B.A.1T.FbT7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576757
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 11:40:53 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enigF8BC083208413A0C634ACBF8
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sjoerd Hardeman wrote:
+> Op 13-05-10 23:40, Merciadri Luca schreef:
+>  =20
+>> Sven Joachim wrote:
+>> Thanks for this answer. There are *many* reasons not to use pdfLaTeX.
+>> They do not enter in the scope of this mailing list, but I am pretty
+>> sure you will find them directly on the Internet. For example, pdfLaTe=
+X
+>> encourages one to use directly JPG, etc., for the inclusion in the
+>> document, which is pretty bad. There are also many incompatibilities
+>> with different packages.
+>>    =20
+> Or png or pdf which basically is eps or even real eps via the epstopdf
+> package.
+>  =20
+/
+> Sorry, pdflatex offers more choice. That's not a bad thing.
+>  =20
+I do not agree, sorry. PDFLaTeX generally write bigger PDFs, simply
+because there is no compression (consider for example
+http://www.tug.org/pipermail/pdftex/2004-June/005046.html). Moreover, I
+think that psTricks does not work with PDFLaTeX (you need to use PDFTrick=
+s).
+
+I also vaguely remember about many situations where, if I had had to use
+PDFLaTeX, I would not have been able to produce the same document,
+because I would have had to change many packages which were incompatible.=
+
+
+You might ask on comp.text.tex, this is a better place for this, because
+this is my point of view, and it is not shared by the whole community.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Instruction ends in the schoolroom, but education ends only with life.
+(F. W. Robertson)
+
+
+--------------enigF8BC083208413A0C634ACBF8
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvtNmUACgkQM0LLzLt8MhyJ8QCfU5ACR7Xxtaxol3mqjLRUkPp3
+vwMAoJ3s8tUQtkCPz+/N8Ji8HYqy4wwJ
+=1ITe
+-----END PGP SIGNATURE-----
+
+--------------enigF8BC083208413A0C634ACBF8--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED3663.9040906@student.ulg.ac.be
+
+

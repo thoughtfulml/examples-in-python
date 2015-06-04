@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281f87cd6abbe1d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs103946wfj;
+        Wed, 21 Apr 2010 01:42:58 -0700 (PDT)
+Received: by 10.223.144.84 with SMTP id y20mr1428656fau.78.1271839313101;
+        Wed, 21 Apr 2010 01:41:53 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si762863fks.42.2010.04.21.01.41.52;
+        Wed, 21 Apr 2010 01:41:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D7BB213A4E64; Wed, 21 Apr 2010 08:41:42 +0000 (UTC)
+Old-Return-Path: <sgeorge.ml@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PUSSY,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 77DD913A4797
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 08:41:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PUSSY=2,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id rmIkjFQKVfjN for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 08:41:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 1C86813A49A0
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 08:41:29 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so9401823qyk.3
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 01:41:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type;
+        bh=v4ZmfFqaZUxK29BDclChLsfoeoioDXIJ3lh5z2s8aCs=;
+        b=MC6P3Rr5OYJtvdQsvlS3s2V6trz9Faby5QxhkWbIcyjcGZrjV1Nq7VEuMQSpAzIFtD
+         iBl6ll1iidAsuC4uM6sMYbZNtjkRJZ/6RoqQqYi3uovrEX0G6JtXr5hwAs1RERHKqJLD
+         s6yXBJToPmqfyKxLCbY/kRbP7R6QxpZx6RA+s=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=jKUfbZTMaTL6F97uIR0RWiKmnFq/buFJSKS0JMfLCFR/YBFajoYfagj07HHErj8urY
+         rTRXGOQk6c2kthvaH1GdItOOWzRn6nbSXDVn4XUbYZ0WgVKQUqeW9VECpEELlKv7FW9i
+         ahF8vvDspvXxbIHYKd86NLhZ5hi+zYIKJvPIE=
+MIME-Version: 1.0
+Received: by 10.229.220.133 with HTTP; Wed, 21 Apr 2010 01:41:21 -0700 (PDT)
+In-Reply-To: <20100421083137.GB3866@lk-ws11-debian.office.cyso.net>
+References: <r2vb713df2c1004210114gb50d1141k46180a717d79566d@mail.csmining.org>
+	 <20100421083137.GB3866@lk-ws11-debian.office.cyso.net>
+Date: Wed, 21 Apr 2010 14:11:21 +0530
+Received: by 10.229.221.78 with SMTP id ib14mr1683636qcb.28.1271839281487; 
+	Wed, 21 Apr 2010 01:41:21 -0700 (PDT)
+Message-ID: <i2nb713df2c1004210141vc61462aaqd9add3d8934a6cae@mail.csmining.org>
+Subject: Re: Hi how to escaping under ` ` in sh
+From: Siju George <sgeorge.ml@csmining.org>
+To: Nick Douma <n.douma@nekoconeko.nl>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2qh-FbVafpK.A.dtC.GprzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574643
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 08:41:42 +0000 (UTC)
+
+On Wed, Apr 21, 2010 at 2:01 PM, Nick Douma <n.douma@nekoconeko.nl> wrote:
+>>>
+> When using single quotes ('), everything in the string is literal, so no escaping is required. You only need escaping when using double quotes (").
+>
+
+It is not quotes '' but `` :-)
+
+thanks
+
+--Siju
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2nb713df2c1004210141vc61462aaqd9add3d8934a6cae@mail.csmining.org
+
+

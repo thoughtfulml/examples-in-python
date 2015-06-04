@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289886d30dc876a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs47588wfo;
+        Fri, 14 May 2010 13:34:53 -0700 (PDT)
+Received: by 10.223.56.27 with SMTP id w27mr2239979fag.37.1273869292448;
+        Fri, 14 May 2010 13:34:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g5si6705018fai.85.2010.05.14.13.34.51;
+        Fri, 14 May 2010 13:34:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6653613A590E; Fri, 14 May 2010 20:34:47 +0000 (UTC)
+Old-Return-Path: <westk@acu.edu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=BLOGSPOT,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DEA5D13A58CF
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 20:34:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BLOGSPOT=3, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id YIcUmzspQiZu for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 20:34:35 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .acu. - helo: .mail-gw0-f47.google. - helo-domain: .google.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from mail-gw0-f47.google.com (mail-gw0-f47.google.com [74.125.83.47])
+	by liszt.debian.org (Postfix) with ESMTP id BEA3213A58F0
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 20:34:33 +0000 (UTC)
+Received: by gwb17 with SMTP id 17so850269gwb.6
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 13:34:25 -0700 (PDT)
+Received: by 10.101.172.4 with SMTP id z4mr2200067ano.197.1273869265403;
+        Fri, 14 May 2010 13:34:25 -0700 (PDT)
+Received: from [150.252.128.51] ([150.252.128.51])
+        by mx.google.com with ESMTPS id 15sm1487965gxk.2.2010.05.14.13.34.24
+        (version=SSLv3 cipher=RC4-MD5);
+        Fri, 14 May 2010 13:34:24 -0700 (PDT)
+Message-ID: <4BEDB3CF.5070101@acu.edu>
+Date: Fri, 14 May 2010 15:34:23 -0500
+From: Kent West <westk@acu.edu>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: executable won't execute
+References: <4BEC9B19.5060001@acu.edu> <4BEDADA7.8090908@acu.edu> <AANLkTilOrBbDAd8QobBCPsJ4g6HvJtnLoCrvXuHXwzdW@mail.csmining.org>
+In-Reply-To: <AANLkTilOrBbDAd8QobBCPsJ4g6HvJtnLoCrvXuHXwzdW@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <wpKJtakalkK.A.rwC.nPb7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576848
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 20:34:47 +0000 (UTC)
+
+Alexey Salmin wrote:
+> On Sat, May 15, 2010 at 3:08 AM, Kent West <westk@acu.edu> wrote:
+>   
+>> Kent West wrote:
+>>     
+>>> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:> ldd
+>>> lmgrd
+>>> /usr/bin/ldd: line 117: ./lmgrd: No such file or directory
+>>>       
+> Not amd64, ok :) Try to use ldd on that binary and check if all
+> dependencies are present.
+>   
+
+See above.
+
+-- 
+Kent West     <*)))><
+http://kentwest.blogspot.com
+Praise Yah! \o/
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEDB3CF.5070101@acu.edu
+
+

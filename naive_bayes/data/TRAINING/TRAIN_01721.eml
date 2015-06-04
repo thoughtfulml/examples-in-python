@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ab06d3701e68b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs12506wfo;
+        Tue, 18 May 2010 03:47:51 -0700 (PDT)
+Received: by 10.223.63.76 with SMTP id a12mr190651fai.10.1274179670595;
+        Tue, 18 May 2010 03:47:50 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w12si15267827fah.35.2010.05.18.03.47.50;
+        Tue, 18 May 2010 03:47:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B9C0C13A46CA; Tue, 18 May 2010 10:47:43 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0A8EE13A4A91
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 10:47:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id yGQVUusYVVCm for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 10:47:30 +0000 (UTC)
+Received: from eastrmmtao102.cox.net (eastrmmtao102.cox.net [68.230.240.8])
+	by liszt.debian.org (Postfix) with ESMTP id 6371513A495E
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 10:47:30 +0000 (UTC)
+Received: from eastrmimpo02.cox.net ([68.1.16.120])
+          by eastrmmtao102.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100518104727.COBJ7060.eastrmmtao102.cox.net@eastrmimpo02.cox.net>
+          for <debian-user@lists.debian.org>;
+          Tue, 18 May 2010 06:47:27 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo02.cox.net with bizsmtp
+	id JykL1e0024dcMZy02ykLbi; Tue, 18 May 2010 06:44:20 -0400
+X-VR-Score: -130.00
+X-Authority-Analysis: v=1.1 cv=aULFgNpA2FocahsKo8+v7SODIG/QbULPhZLHKS4UqaY=
+ c=1 sm=1 a=ykTgGPYmEW0A:10 a=GQCbJdZ--msA:10 a=8nJEP1OIZ-IA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:17 a=hYGzy1yPuuF8vQNNfiwA:9
+ a=kqquylhKpPKkyJRAy25EzFZWaT0A:4 a=wPNLvfGTeEIA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BF2703E.5030802@cox.net>
+Date: Tue, 18 May 2010 05:47:26 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Is there a workaround for bug #578937 [SOLVED]
+References: <4BF16DF5.2080607@chandlerfamily.org.uk> <4BF1A30C.5060900@cox.net> <4BF1BD96.4010806@chandlerfamily.org.uk> <4BF1D705.8090503@cox.net> <4BF21ADC.9020805@chandlerfamily.org.uk> <4BF21FA8.9080305@cox.net> <4BF262EA.8040003@chandlerfamily.org.uk>
+In-Reply-To: <4BF262EA.8040003@chandlerfamily.org.uk>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nI1-si_gBpM.A.7IC.PBn8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577091
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 10:47:43 +0000 (UTC)
+
+On 05/18/2010 04:50 AM, Alan Chandler wrote:
+> On 18/05/10 06:03, Ron Johnson wrote:
+>
+>> Hmmm. Just occurred to me that maybe I don't have fam installed. <pause>
+>> Yup, not installed. gamin 0.1.10-2+b1 is, though.
+>>
+>
+>
+> Bingo
+>
+> libfam0 had been installed automatically by courier-imap and/or
+> courier-base
+>
+> I manually switched over the libgamin0 and the problem has gone away.
+>
+
+You should add that work-around to the bug report...
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF2703E.5030802@cox.net
+
+

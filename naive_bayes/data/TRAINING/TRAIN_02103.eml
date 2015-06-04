@@ -1,0 +1,168 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b06d465772c7a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs50509wfo;
+        Wed, 19 May 2010 04:57:52 -0700 (PDT)
+Received: by 10.223.5.81 with SMTP id 17mr9706080fau.42.1274270271302;
+        Wed, 19 May 2010 04:57:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si17878773fas.51.2010.05.19.04.57.50;
+        Wed, 19 May 2010 04:57:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@linuxwall.info
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 88D2313A47A4; Wed, 19 May 2010 11:57:44 +0000 (UTC)
+Old-Return-Path: <julien@linuxwall.info>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.6 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F003C13A5125
+	for <lists-debian-user@liszt.debian.org>; Wed, 19 May 2010 11:57:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6Xl2rJzOpCQt for <lists-debian-user@liszt.debian.org>;
+	Wed, 19 May 2010 11:57:31 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .linuxwall. - helo: .smtp3-g21.free. - helo-domain: .free.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from smtp3-g21.free.fr (smtp3-g21.free.fr [212.27.42.3])
+	by liszt.debian.org (Postfix) with ESMTP id 06F4513A513A
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 11:57:17 +0000 (UTC)
+Received: from smtp3-g21.free.fr (localhost [127.0.0.1])
+	by smtp3-g21.free.fr (Postfix) with ESMTP id 069318181A3
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 13:57:13 +0200 (CEST)
+Received: from ptichoun.linuxwall.info (ver44-2-82-242-128-240.fbx.proxad.net [82.242.128.240])
+	by smtp3-g21.free.fr (Postfix) with ESMTP
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 13:57:12 +0200 (CEST)
+Received: from ptichoun.linuxwall.info (localhost [127.0.0.1])
+	by ptichoun.linuxwall.info (Postfix) with ESMTP id EB527123725
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 13:57:11 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=linuxwall.info; h=
+	mime-version:content-type:content-transfer-encoding:date:from:to
+	:subject:message-id; s=lnw-dkim; bh=TGvdajxZP5qseZ2H3Gc5XDnRFfDi
+	LdZTZV4T+x9fKe8=; b=crrbD+ipS9bl6J//IoNQIVn72zmVmhappMAqlYrkmHF6
+	OqgwSRB5sTh9ZA3XeppSQB/pSDfxJJ7DlEz6uTtcqrOQdzQmrPavgudNPUacr4sw
+	oIVWWj3M+QS0wCmIqLbysdJ4GeG9C/8PO10PHa29IwWMWiB5T/AqeebHaLuuE2A=
+Received: from njm.linuxwall.info (localhost [127.0.0.1])
+	by ptichoun.linuxwall.info (Postfix) with ESMTP id D4A451236F5
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 13:57:11 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Date: Wed, 19 May 2010 13:57:11 +0200
+From: Julien Vehent <julien@linuxwall.info>
+To: Debian user <debian-user@lists.debian.org>
+Subject: Postfix, SASL and LDAPDB
+Organization: linuxwall.info
+Message-ID: <505f7e7fe90abdcfc03c0d7611f5ceca@localhost>
+X-Sender: julien@linuxwall.info
+User-Agent: Linuxwall Roundcube Webmail/0.4-beta
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nn4RlKPMXTJ.A.bxH.4I98LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577172
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 19 May 2010 11:57:44 +0000 (UTC)
+
+Hey guys,
+
+I want to set up SASL authentication using LDAPDB, but it seems that
+postfix connects to LDAP but doesn't send anything to it...
+
+I try to authenticate using 'auth plain <base64>', and I receive :
+
+535 5.7.8 Error: authentication failed: authentication failure
+
+Connection to LDAP works fine at the network level, but the only thing
+that postfix send to Slapd (sniffed using tcpdump) is a "UNBIND" request.
+Confirmed by the logs of slapd:
+
+----
+May 18 17:25:29 samchiel slapd[1431]: conn=35 fd=17 ACCEPT from
+IP=127.0.0.1:57368 (IP=127.0.0.1:389)
+May 18 17:25:29 samchiel slapd[1431]: conn=35 op=0 UNBIND
+May 18 17:25:29 samchiel slapd[1431]: conn=35 fd=17 closed
+----
+
+Postfix says the following:
+
+----
+May 18 17:25:29 samchiel postfix/smtpd[12094]: < localhost[127.0.0.1]:
+auth plain XXXXXXXXXXXXXXXXXXXXX
+May 18 17:25:29 samchiel postfix/smtpd[12094]: xsasl_cyrus_server_first:
+sasl_method plain, init_response XXXXXXXXXXXXXXXXXXXXX
+May 18 17:25:29 samchiel postfix/smtpd[12094]: xsasl_cyrus_server_first:
+decoded initial response
+May 18 17:25:29 samchiel postfix/smtpd[12094]: warning: SASL
+authentication failure: Password verification failed
+May 18 17:25:29 samchiel postfix/smtpd[12094]: warning:
+localhost[127.0.0.1]: SASL plain authentication failed: authentication
+failure
+May 18 17:25:29 samchiel postfix/smtpd[12094]: > localhost[127.0.0.1]: 535
+5.7.8 Error: authentication failed: authentication failure
+----
+
+So, I assumed there might be something wrong with my configuration. Since
+I'm on Debian Squeeze (for testing purpose), I have a
+/etc/postfix/sasl/smtpd.conf that contains the configuration of ldapdb:
+
+----
+# cat /etc/postfix/sasl/smtpd.conf
+pwcheck_method: auxprop
+auxprop_plugin: ldapdb
+mech_list: PLAIN LOGIN
+ldapdb_uri: ldap://localhost
+ldapdb_id: postfix
+ldapdb_pw: ZZZZzzzzZZZZZZZ
+ldapdb_mech: DIGEST-MD5 PLAIN LOGIN
+----
+
+and sasl directives in main.conf
+
+----
+# grep smtpd_sasl main.cf
+smtpd_sasl_type = cyrus
+smtpd_sasl_auth_enable = yes
+smtpd_sasl_path = smtpd
+smtpd_sasl_security_options = noanonymous
+smtpd_sasl_local_domain = $mydomain
+smtpd_sasl_authenticated_header = yes
+----
+
+
+Did I miss anything ? Any clue on why postfix doesn't send anything but an
+UNBIND request to LDAP ?
+
+
+
+Thanks,
+Julien
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505f7e7fe90abdcfc03c0d7611f5ceca@localhost
+
+

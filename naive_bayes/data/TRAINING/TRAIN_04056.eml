@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId12828deca7fc28f8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs45607wfj;
+        Thu, 22 Apr 2010 21:13:29 -0700 (PDT)
+Received: by 10.114.252.5 with SMTP id z5mr10545945wah.105.1271996009258;
+        Thu, 22 Apr 2010 21:13:29 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 26si841071pzk.78.2010.04.22.21.13.29;
+        Thu, 22 Apr 2010 21:13:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@messagingengine.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id E1DE01BBF1C05
+	for <mlsubscriber.tech@csmining.org>; Thu, 22 Apr 2010 21:13:28 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id DD30C270A5C3D
+	for <mlsubscriber.tech@csmining.org>; Thu, 22 Apr 2010 21:13:28 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id AB6F0270A55C9
+	for <java-dev@lists.apple.com>; Thu, 22 Apr 2010 21:12:29 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 970B1D421C03
+	for <java-dev@lists.apple.com>; Thu, 22 Apr 2010 21:12:29 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-b4-4bd11e2cbc42
+Received: from out1.smtp.messagingengine.com (out1.smtp.messagingengine.com
+	[66.111.4.25])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	00.F0.26228.D2E11DB4; Thu, 22 Apr 2010 21:12:29 -0700 (PDT)
+Received: from compute2.internal (compute2.internal [10.202.2.42])
+	by gateway1.messagingengine.com (Postfix) with ESMTP id 87AC2EBBA4
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 00:12:28 -0400 (EDT)
+Received: from heartbeat2.messagingengine.com ([10.202.2.161])
+	by compute2.internal (MEProxy); Fri, 23 Apr 2010 00:12:28 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=messagingengine.com;
+	h=from:content-type:content-transfer-encoding:subject:date:message-id:to:mime-version;
+	s=smtpout; bh=6oTYufInezyWvzfy8Llody+wgcE=;
+	b=aclVmYutK5ZAyRGfyUsJXo2qK/EYfUrx9XrwpB2fsD6EMeP5JucRy04WxSj7h6CAekItVbVQ7hDcYU8cR4liTq1Rvi85EbQFe0ZJNgsg+vj9CSUyBJ7Q/QB2o1dppuQ338r3HPz/Iz/4Pcu5gxvZjocGLcD4GTdoMByYr+fcTTQ=
+X-Sasl-enc: /rsJxkDo1kw9K/I11IoLQIWMyHqMlGfx4dFNJYtvNdQo 1271995948
+Received: from [192.168.15.2] (c-24-6-48-165.hsd1.ca.comcast.net [24.6.48.165])
+	by mail.messagingengine.com (Postfix) with ESMTPSA id 2878D8F43
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 00:12:28 -0400 (EDT)
+From: Rick Mann <rmann@latencyzero.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 22 Apr 2010 21:12:26 -0700
+Message-Id: <ADF2F647-54A5-44DA-B723-3CAE69A4D3C4@latencyzero.com>
+To: list Java-dev <java-dev@lists.apple.com>
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAARPY2nY=
+Subject: Detecting a closed SSL connection
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I've written my Apple Push Notification client code in Java (on my =
+server). I open an SSL socket to Apple with a client-side cert, and push =
+a stream of bytes.
+
+If part of that stream is mal-formed, as I understand it, Apple closes =
+their end of the connection. Also as I understand it, this is made =
+evident to a C client because the number of bytes written to the socket =
+is 0 (or less than was intended).
+
+However, in Java, I'm finding no evidence at all that Apple has stopped =
+accepting push notifications, except that I can see the last =
+notification doesn't go through (I set up a test case with one good and =
+one bad token. By changing the order, I can see it work or not work).
+
+What do I need to do to detect this condition in Java? I tried checking =
+that the connection is still open and not half-open after each token, =
+but it always looks good.
+
+TIA,
+Rick
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

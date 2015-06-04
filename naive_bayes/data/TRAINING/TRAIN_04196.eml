@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ce1714e1921e8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs120293wfo;
+        Mon, 24 May 2010 23:12:19 -0700 (PDT)
+Received: by 10.223.117.164 with SMTP id r36mr5548617faq.28.1274767939073;
+        Mon, 24 May 2010 23:12:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t1si6405600faa.98.2010.05.24.23.12.18;
+        Mon, 24 May 2010 23:12:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@pobox.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AD08813A5BAF; Tue, 25 May 2010 06:12:13 +0000 (UTC)
+Old-Return-Path: <rbthomas@pobox.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A148613A5B97
+	for <lists-debian-user@liszt.debian.org>; Tue, 25 May 2010 05:55:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id j30wCk4OB3cL for <lists-debian-user@liszt.debian.org>;
+	Tue, 25 May 2010 05:55:48 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -8.1
+Received: from sasl.smtp.pobox.com (a-pb-sasl-quonix.pobox.com [208.72.237.25])
+	by liszt.debian.org (Postfix) with ESMTP id A90AB13A5B92
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 05:55:48 +0000 (UTC)
+Received: from sasl.smtp.pobox.com (unknown [127.0.0.1])
+	by a-pb-sasl-quonix.pobox.com (Postfix) with ESMTP id 9D1EFB692E;
+	Tue, 25 May 2010 01:55:45 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=pobox.com; h=from:to
+	:in-reply-to:subject:references:message-id:content-type
+	:content-transfer-encoding:mime-version:date:cc; s=sasl; bh=6cvF
+	bn3VnzK+tHhbpAAD1BfjfCM=; b=DiPsFyVVCpP9bxaASYOaRW4UN5DpL454wW5a
+	txeDqXN0bXdAx9InQzAi1qaRSZmAHdsYtH7KvQFEKZODjGFRqZvELjdbXQ2G0QJ4
+	NhFfNt+uRlVpMs46QrHzeVuahyqOulawW/a8XVlKuuABhF+Gc/kVsXufbR8px13w
+	4GD9kzI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=pobox.com; h=from:to
+	:in-reply-to:subject:references:message-id:content-type
+	:content-transfer-encoding:mime-version:date:cc; q=dns; s=sasl; b=
+	iJ+ByaIiOujbT26rv0/BOMX4brWsgcQkH6pXmvq/8tuRxUtdybBaNfbjk0MsogWS
+	/hGBn5QP6eJ71MmAqHaWL5KgtgZlwJCP0BW4czE5OyIblzOI4w2l+h7vG/60GTOH
+	YxUFXrZI3oa3KggM1sfeSfH+sDYzk2eGuZDzyHv9W1w=
+Received: from a-pb-sasl-quonix. (unknown [127.0.0.1])
+	by a-pb-sasl-quonix.pobox.com (Postfix) with ESMTP id C77C9B692C;
+	Tue, 25 May 2010 01:55:42 -0400 (EDT)
+Received: from [192.168.1.88] (unknown [68.192.169.62]) (using TLSv1 with
+ cipher AES128-SHA (128/128 bits)) (No client certificate requested) by
+ a-pb-sasl-quonix.pobox.com (Postfix) with ESMTPSA id 5A203B692B; Tue, 25 May
+ 2010 01:55:40 -0400 (EDT)
+From: Rick Thomas <rbthomas@pobox.com>
+To: Stan Hoeppner <stan@hardwarefreak.com>
+In-Reply-To: <4BFB6376.8040004@hardwarefreak.com>
+Subject: Re: (OT) suggestion on terse wording of "IT Helpdesk"
+References: <4BFB4BC3.9010302@realss.com>
+ <4BFB6376.8040004@hardwarefreak.com>
+Message-Id: <2BC321D9-D2EA-47E7-B035-34533468AAD9@pobox.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Tue, 25 May 2010 01:55:36 -0400
+Cc: debian-user@lists.debian.org
+X-Mailer: Apple Mail (2.936)
+X-Pobox-Relay-ID:
+ 2776CF28-67C2-11DF-BAD2-6730EE7EF46B-02150157!a-pb-sasl-quonix.pobox.com
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <VvukHFCzG3J.A.KYH.9o2-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577578
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 06:12:13 +0000 (UTC)
+
+
+On May 25, 2010, at 1:43 AM, Stan Hoeppner wrote:
+
+> To try to jam all of that information into the smtp address itself  
+> is silly.
+> Again, this is what display names and sigs are for.
+
+Silly, perhaps for you or me, Stan.  Not so for somebody from another  
+culture, where the chain-of-command from me to the president of the  
+company is an important part of my reason for being.
+
+
+Rick
+
+Comparative Sociology is fun, but definitely OT on debian-users.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2BC321D9-D2EA-47E7-B035-34533468AAD9@pobox.com
+
+

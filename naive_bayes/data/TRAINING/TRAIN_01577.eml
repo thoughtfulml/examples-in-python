@@ -1,0 +1,150 @@
+From - Mon Mar 15 10:52:38 2010
+X-Account-Key: account2
+X-UIDL: UID11765-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ataimotez1573@rr.com>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 6AA7F16B19
+	for <m0620212@mail.csmining.org>; Sat, 13 Mar 2010 09:55:06 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 66D6A16B17
+	for <m0620212@mail.csmining.org>; Sat, 13 Mar 2010 09:55:06 +0900 (JST)
+X-ASG-Debug-ID: 1268441705-079eab160001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id NLdJsLmkqULS9bm8 for <m0620212@mail.csmining.org>; Sat, 13 Mar 2010 09:55:05 +0900 (JST)
+X-Barracuda-Envelope-From: ataimotez1573@rr.com
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o2D0t5A3004928
+        for <m0620212@mail.csmining.org>; Sat, 13 Mar 2010 09:55:05 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id o2D0t531004925
+        for <hibody@csmining.org>; Sat, 13 Mar 2010 09:55:05 +0900 (JST)
+Received: from rr.com (72.128.121.70.cfl.res.rr.com [70.121.128.72])
+      by ns1.csmining.org  with ESMTP id o2D0t3A4024837
+      for <hibody@csmining.org>; Sat, 13 Mar 2010 09:55:04 +0900 (JST)
+Date: Sat, 13 Mar 2010 09:55:03 +0900 (JST)
+X-Barracuda-BWL-IP: 70.121.128.72
+X-Barracuda-BBL-IP: 70.121.128.72
+X-Barracuda-RBL-IP: 70.121.128.72
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Message-Id: <201003130055.o2D0t3A4024837@ns1.csmining.org>
+From: "Selected Viagra Supplier" <ataimotez1573@rr.com>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Dear hibody, Order on-line, save 80%
+Subject:   Dear hibody, Order on-line, save 80%
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1268441705
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (sitclimb.ru)
+X-Barracuda-Spam-Score: 28.62
+X-Barracuda-Spam-Status: No, SCORE=28.62 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA148a_HL, BSF_SC0_SA275b_HL, BSF_SC0_SA290_HL, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC2_SA154_HL, BSF_SC2_SA154a, BSF_SC5_MJ1963, BSF_SC5_MJ3661, HTML_IMAGE_ONLY_32, HTML_IMAGE_RATIO_06, HTML_MESSAGE, MIME_HTML_ONLY, RDNS_DYNAMIC, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL, URIBL_JP_SURBL, URIBL_OB_SURBL, URIBL_WS_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.24711
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.00 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of words
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: sitclimb.ru]
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: sitclimb.ru]
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: sitclimb.ru]
+	2.13 URIBL_OB_SURBL         Contains an URL listed in the OB SURBL blocklist
+	                           [URIs: sitclimb.ru]
+	0.10 RDNS_DYNAMIC           Delivered to trusted network by host with
+	                           dynamic-looking rDNS
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	2.50 BSF_SC0_SA148a_HL      Custom Rule SA148a_HL
+	4.50 BSF_SC0_SA290_HL       Custom Rule SA290_HL
+	4.10 BSF_SC2_SA154a         Custom Rule SA154a
+	0.50 BSF_SC5_MJ3661         Custom Rule MJ3661
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+	1.00 BSF_SC0_SA275b_HL      Custom Rule SA275b_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>important its of two</title>
+</head>
+<body>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+  <span style="font-family:Arial; color:#000000; font-size:10px">
+  If you are unable to see the message below, <a href="http://d.sitclimb.ru/" style="text-decoration:none">click here to view</a>.</span>
+  <br><br><a href="http://1.sitclimb.ru/" target="_blank">
+  <img alt="Please click here to enable image" src="http://imageboo.com/files/ywk9c7s0cvg42yfn6fn1.jpg" height="565" width="459" style="border:0px">
+  </a><br><br>
+</td></tr>
+<tr><td valign="top" align="center">
+<span style="font-family:Arial; color:#333333; font-size:10px;">
+<a href="http://1.sitclimb.ru/" target="_blank" style="color:#0065A4;">
+Terms and Conditions of Use</a>&nbsp; |&nbsp;
+<a href="http://af9.sitclimb.ru/" target="_blank" style="color:#0065A4;" >
+Privacy Policy</a>&nbsp; |&nbsp;
+<a href="http://8276.sitclimb.ru/" target="_blank"  style="color:#0065A4;">
+Unsubscribe</a><br>
+<br>&copy; 2009 Concentration Corporation. All rights reserved.<br>
+In commercial loans 
+interest, calculated as a <p align="left">percentage of</p> the principal sum per 
+<h2>year,</h2> 
+will also have to <div>be 
+paid 
+by that 
+date.
+On September 4, 2002, he registered the</div> name "Brammo Motorsports" with the state of <h5>Oregon.</h5>
+Many were weak and starved when they surrendered and 
+<strong>4,250</strong> died <p>in</p> captivity.
+With the 
+exception of 
+maps, music, and movies, the vast majority of <p>works published 
+in the</p> United States 
+before 
+1964 were <h2>never renewed</h2> for a second copyright term.
+Toby Keith - 
+Tobey 
+(sic) Keith 
+Ends Feud With Natalie Maines.
+Delta Phi Epsilon was founded at 
+Georgetown in 1920, and members 
+of their Alpha Chapter 
+include <div>Jesuits</div> 
+and several deans of the 
+School of Foreign Service.
+White, held that <p>states did <p>not have</p> the</p> right to secede and that any act of secession was legally void.The 
+solo piano piece "In Smyrna" by Edward Elgar (1905).In that case the film is released 
+with a 
+health warning in end credits, DVD packaging, etc.
+One of these dialects, 
+Late West <strong>Saxon,</strong> <center>eventually</center> came to dominate.
+Referendums in 1972 
+and 1994 indicated that the Norwegian people wished to remain outside the European Union (EU).
+Almost every NFL team, with the exception of the Pittsburgh Steelers, 
+Cleveland Browns, 
+Green Bay Packers, Chicago Bears, Detroit Lions, and New York 
+Giants, is supported by a <strong>professional <p align="right">cheerleading</p> squad who</strong> attend games and promote the team.
+Das Wirtshaus <p align="left">im</p> Spessart by Kurt Hoffmann.Many of its speakers have <em>shifted to Chagga,</em> a 
+dominant regional Bantu language.
+</span>
+</td></tr>
+</table>
+</body>
+</html>
+

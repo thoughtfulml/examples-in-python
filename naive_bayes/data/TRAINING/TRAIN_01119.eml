@@ -1,0 +1,116 @@
+From - Mon Mar 15 10:52:08 2010
+X-Account-Key: account2
+X-UIDL: UID11600-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 2ECC816713
+	for <m0620212@mail.csmining.org>; Mon,  8 Mar 2010 20:11:29 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 2ADAF166FB
+	for <m0620212@mail.csmining.org>; Mon,  8 Mar 2010 20:11:29 +0900 (JST)
+X-ASG-Debug-ID: 1268046685-761cbdae0001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id mcvOTVlFP4eAraKx for <m0620212@mail.csmining.org>; Mon, 08 Mar 2010 20:11:25 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o28BBPvD008815
+        for <m0620212@mail.csmining.org>; Mon, 8 Mar 2010 20:11:25 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id o28BBPJi008812
+        for <hibody@csmining.org>; Mon, 8 Mar 2010 20:11:25 +0900 (JST)
+Received: from user-89-38-148-6.mitnet.ro (user-89-38-148-6.mitnet.ro [89.38.148.6] (may be forged))
+      by ns1.csmining.org  with ESMTP id o28BBNCw027702
+      for <hibody@csmining.org>; Mon, 8 Mar 2010 20:11:24 +0900 (JST)
+Date: Mon, 8 Mar 2010 20:11:23 +0900 (JST)
+X-Barracuda-BWL-IP: 89.38.148.6
+X-Barracuda-BBL-IP: 89.38.148.6
+X-Barracuda-RBL-IP: 89.38.148.6
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Message-Id: <201003081111.o28BBNCw027702@ns1.csmining.org>
+From: "Super online shop" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Catch the moment hibody! 85% Fire Sale
+Subject:   Catch the moment hibody! 85% Fire Sale
+Content-Type: text/html; charset="ISO-8859-1"
+MIME-Version: 1.0
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1268046685
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (beginput.ru)
+X-Barracuda-Spam-Score: 33.51
+X-Barracuda-Spam-Status: No, SCORE=33.51 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA290_RN, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2, BSF_SC5_MJ1963, FH_HELO_EQ_D_D_D_D, HTML_IMAGE_ONLY_20, HTML_IMAGE_ONLY_20_2, HTML_IMAGE_RATIO_02, HTML_MESSAGE, HTML_SHORT_LINK_IMG_3, HTML_SHORT_LINK_IMG_3_2, MIME_HTML_ONLY, RDNS_NONE, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL, URIBL_JP_SURBL, URIBL_WS_SURBL, URI_HEX
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.24333
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.50 FH_HELO_EQ_D_D_D_D     Helo is d-d-d-d
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.32 URI_HEX                URI: URI hostname has long hexadecimal sequence
+	0.00 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of words
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: beginput.ru]
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: beginput.ru]
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: beginput.ru]
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.70 HTML_IMAGE_ONLY_20_2   HTML: images with 1600-2000 bytes of words
+	0.00 HTML_SHORT_LINK_IMG_3  HTML is very short with a linked image
+	0.56 HTML_SHORT_LINK_IMG_3_2 HTML is very short with a linked image
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2 Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL2
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; background-color:#ffffff;">
+        <tr><td align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; padding-left:19px; background-color:#ffffff;">Cannot see this email?&nbsp;
+        <a href="http://a9585.beginput.ru/" target="_blank" style="color:#0099ff; font-weight:bold; text-decoration:underline;">click here</a>.</td>
+        </tr>
+    <tr>
+        <td align="center">
+        <br />
+        <br />
+        <a href="http://76cc5c08.beginput.ru/" target="_blank"><img alt="Click here" src="http://s51.radikal.ru/i131/1002/cb/37c50fb713f2.jpg" height="456" width="346" border="0" /></a><br />
+        <br />
+        </td>
+    </tr>
+    <tr>
+                <td align="center" style="text-align: left">You are subscribed as hibody@csmining.org<br />
+                You can unsubscribe <a href="http://c49a.beginput.ru/" target="_blank" style="color:#000000; text-decoration:underline;">here</a>.<br />
+     <br />
+                Check our <a href="http://2f8b4c5.beginput.ru/" target="_blank" style="color:#000000; text-decoration:underline;">privacy policy</a>.<br />
+                        <br />
+                        Copyright c 2009 ALIGA. All rights reserved.</td>
+   </tr>
+</table>
+</body>
+</html>
+
