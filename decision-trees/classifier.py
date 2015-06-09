@@ -1,11 +1,12 @@
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from numpy.random import permutation
 from numpy import array_split, concatenate
+from sklearn.metrics import roc_curve, auc
 import pandas as pd
 import numpy as np
 
-class MushroomClassifier:
+class MushroomProblem:
   def __init__(self, data_file):
     self.dataFrame = pd.read_csv(data_file)
     for k in self.dataFrame.columns[1:]:
@@ -14,10 +15,13 @@ class MushroomClassifier:
     self.classes = np.array(sorted(pd.Categorical(self.dataFrame['class']).categories))
     self.features = self.dataFrame.columns[self.dataFrame.columns != 'class']
 
-  def validate(self, folds):
-    confusion_matrices = []
+  def factorize(self, data):
+    y, _ = pd.factorize(pd.Categorical(data['class']), sort=True)
+    return y
 
+  def validation_data(self, folds):
     df = self.dataFrame
+    response = []
 
     assert len(df) > folds
 
@@ -37,28 +41,42 @@ class MushroomClassifier:
       training = df.iloc[train]
       test_data = df.iloc[test_idx]
 
-      confusion_matrices.append(self.confusion_matrix(training, test_data))
+      y = self.factorize(training)
+      classifier = self.train(training[self.features], y)
+      predictions = classifier.predict(test_data[self.features])
+
+      expected = self.factorize(test_data)
+      response.append([predictions, expected])
+
+    return response
+
+
+class MushroomRegression(MushroomProblem):
+  def train(self, X, Y):
+    reg = DecisionTreeRegressor()
+    reg = reg.fit(X, Y)
+    return reg
+
+class MushroomClassifier(MushroomProblem):
+  def validate(self, folds):
+    confusion_matrices = []
+
+    for test, training in self.validation_data(folds):
+      confusion_matrices.append(self.confusion_matrix(training, test))
 
     return confusion_matrices
 
   def confusion_matrix(self, train, test):
-    y, _ = pd.factorize(pd.Categorical(train['class']), sort=True)
-
-    classifier = self.train(train[self.features], y)
-    predictions = self.classes[classifier.predict(test[self.features])]
-
-    return pd.crosstab(test['class'], predictions, rownames=['actual'], colnames=['preds'])
+    return pd.crosstab(test, train, rownames=['actual'], colnames=['preds'])
 
 class MushroomForest(MushroomClassifier):
   def train(self, X, Y):
     clf = RandomForestClassifier(n_jobs = 2)
     clf = clf.fit(X, Y)
-    self.classifier = clf
     return clf
 
 class MushroomTree(MushroomClassifier):
   def train(self, X, Y):
     clf = DecisionTreeClassifier()
     clf = clf.fit(X, Y)
-    self.classifier = clf
     return clf
