@@ -2,7 +2,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from numpy.random import permutation
 from numpy import array_split, concatenate
-from sklearn.metrics import roc_curve, auc
+from sklearn.metrics import roc_curve, auc, mean_squared_error
 import pandas as pd
 import numpy as np
 
@@ -15,7 +15,7 @@ class MushroomProblem:
     self.classes = np.array(sorted(pd.Categorical(self.dataFrame['class']).categories))
     self.features = self.dataFrame.columns[self.dataFrame.columns != 'class']
 
-  def factorize(self, data):
+  def __factorize(self, data):
     y, _ = pd.factorize(pd.Categorical(data['class']), sort=True)
     return y
 
@@ -41,11 +41,11 @@ class MushroomProblem:
       training = df.iloc[train]
       test_data = df.iloc[test_idx]
 
-      y = self.factorize(training)
+      y = self.__factorize(training)
       classifier = self.train(training[self.features], y)
       predictions = classifier.predict(test_data[self.features])
 
-      expected = self.factorize(test_data)
+      expected = self.__factorize(test_data)
       response.append([predictions, expected])
 
     return response
@@ -56,6 +56,14 @@ class MushroomRegression(MushroomProblem):
     reg = DecisionTreeRegressor()
     reg = reg.fit(X, Y)
     return reg
+
+  def validate(self, folds):
+    responses = []
+
+    for y_true, y_pred in self.validation_data(folds):
+      responses.append(mean_squared_error(y_true, y_pred))
+
+    return responses
 
 class MushroomClassifier(MushroomProblem):
   def validate(self, folds):
