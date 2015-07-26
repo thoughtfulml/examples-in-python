@@ -1,12 +1,13 @@
 import unittest
 import io
 import re
+from naive_bayes.email_object import EmailObject
 
-class TestMultipartEmail(unittest.TestCase):
+class TestMultipartEmailObject(unittest.TestCase):
   def setUp(self):
     self.multipart_file = './tests/fixtures/multipart.eml'
     self.multipart = io.open(self.multipart_file, 'r').read()
-    self.multipart_email = Email(multipart_file)
+    self.multipart_email = EmailObject(self.multipart_file)
 
   def test_parse_concatenated_body_of_text(self):
     internal_mail = self.multipart_email.mail
