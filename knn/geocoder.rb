@@ -14,7 +14,7 @@ dictionary = {}
 
 IGNORE_HEADERS = %w[id TaxableValue Address ErosionHazard LandfillBuffer HundredYrFloodPlain SeismicHazard LandslideHazard SteepSlopeHazard Stream Wetland SpeciesOfConcern SensitiveAreaTract AirportNoise DNRLease CommonProperty CoalMineHazard CriticalDrainage]
 
-CSV.open('/tmp/king_county_data_geocoded.csv', 'wb') do |csv|
+CSV.open('./king_county_data_geocoded.csv', 'wb') do |csv|
   CSV.foreach('/tmp/king_county_data.csv', headers: true) do |row|
     headers ||= begin 
                   headers = row.headers.reject {|h| IGNORE_HEADERS.include?(h) } + ['lat', 'long']
