@@ -11,10 +11,13 @@ class EmailObject:
     return self.mail.get('Subject')
 
   def body(self):
-    if self.mail.is_multipart():
+    if self.is_multipart():
       return self.multipart_body()
     else:
       return self.single_body()
+
+  def is_multipart(self):
+    return self.mail.is_multipart() or self.mail.get_content_type() == 'multipart/mixed'
 
   def single_body(self, part = None):
     if not part:
@@ -27,13 +30,13 @@ class EmailObject:
     elif content_type == 'text/plain':
       return body 
     else:
-      return ''
+      return ""
 
   def multipart_body(self):
     output = ''
     for part in self.mail.walk():
+      if part.get_content_maintype() == "multipart":
+        flapzap
+        continue
       output += self.single_body(part=part)
     return output
-
-
-

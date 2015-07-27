@@ -16,7 +16,6 @@ class TestHTMLEmail(unittest.TestCase):
     expected = BeautifulSoup(body).text 
     self.assertEqual(self.html_email.body(), expected)
 
-
   def test_stores_subject(self):
     subject = re.search("Subject: (.*)", self.html).group(1)
     self.assertEqual(self.html_email.subject(), subject)
