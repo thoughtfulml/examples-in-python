@@ -36,7 +36,6 @@ class EmailObject:
     output = ''
     for part in self.mail.walk():
       if part.get_content_maintype() == "multipart":
-        flapzap
         continue
       output += self.single_body(part=part)
     return output

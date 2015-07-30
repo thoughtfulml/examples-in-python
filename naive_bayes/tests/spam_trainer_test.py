@@ -1,107 +1,56 @@
-require_relative '../spec_helper'
+import unittest
+import io
+import sets
+from naive_bayes.email_object import EmailObject
+from naive_bayes.spam_trainer import SpamTrainer
 
-describe SpamTrainer do
-  let(:training) do
-    [['spam','./tests/fixtures/plain.eml'], ['ham','./tests/fixtures/small.eml']]
-  end
+class TestSpamTrainer(unittest.TestCase):
 
-  let(:trainer) { SpamTrainer.new(training)}
+  def setUp(self):
+    self.hash_test = {'spam': './filepath', 'ham': './another', 'scram': './another2'}
+    self.training = {'spam': './tests/fixtures/plain.eml', 'ham': './tests/fixtures/small.eml', 'scram': './tests/fixtures/plain.eml'}
+    self.trainer = SpamTrainer(self.training)
+    file = io.open('./tests/fixtures/plain.eml', 'r')
+    self.email = EmailObject(file)
 
-  describe 'initialization' do
-    let(:hash_test) do
-      {'spam' => './filepath', 'ham' => './another', 'scram' => './another2'}
-    end
-    it 'allows you to pass in multiple categories' do
-      st = SpamTrainer.new(hash_test)
-      st.categories.sort.must_equal hash_test.keys.uniq.sort
-    end
+  def test_multiple_categories(self):
+    st = SpamTrainer(self.hash_test)
+    categories = st.categories
+    self.assertEqual(categories, sets.Set(self.hash_test.keys()))
 
-    it 'initializes counts all at 0 plus an _all category' do
-      st = SpamTrainer.new(hash_test)
-      %w[_all spam ham scram].each do |cat|
-        st.total_for(cat).must_equal 0
-      end
-    end
-  end
+  def test_counts_all_at_zero(self):
+    st = SpamTrainer(self.hash_test)
 
-  describe 'scoring and classification' do
-    let (:training) do
-      [
-        ['spam','./tests/fixtures/plain.eml'],
-        ['ham','./tests/fixtures/plain.eml'],
-        ['scram','./tests/fixtures/plain.eml']
-      ]
-    end
+    for cat in ['_all', 'spam', 'ham', 'scram']:
+      self.assertEqual(st.total_for(cat), 0)
 
-    let(:trainer) do
-      SpamTrainer.new(training)
-    end
+  def test_preference_category(self):
+    trainer = self.trainer
+    expected = sorted(trainer.categories, key=lambda cat: trainer.total_for(cat))
 
-    let(:email) { Email.new('./tests/fixtures/plain.eml') }
+    self.assertEqual(trainer.preference(), expected)
 
-    it 'sets the preference based on how many times a category shows up' do
-      expected = trainer.categories.sort_by {|cat| trainer.total_for(cat) }
+  def test_probability_being_1_over_n(self):
+    trainer = self.trainer
+    scores = trainer.score(self.email).values()
 
-      trainer.preference.must_equal expected
-    end
+    self.assertAlmostEqual(scores[0], scores[-1])
 
-    it 'always passes in an object that has blob defined on it' do
-      -> {trainer.score(Struct)}.must_raise RuntimeError
-    end
+    for i in range(len(scores)-1):
+      self.assertAlmostEqual(scores[i], scores[i+1])
 
-    it 'calculates the probability to be 1/n' do
-      scores = trainer.score(email).values
+  def test_adds_up_to_one(self):
+    trainer = self.trainer
+    scores = trainer.normalized_score(self.email).values()
+    self.assertAlmostEqual(sum(scores), 1)
+    self.assertAlmostEqual(scores[0], 1/2.0)
 
-      assert_in_delta scores.first, scores.last
+  def test_give_preference_to_whatever_has_the_most(self):
+    trainer = self.trainer
+    score = trainer.score(self.email)
 
-      scores.each_slice(2) do |slice|
-        assert_in_delta slice.first, slice.last
-      end
-    end
+    preference = trainer.preference()[-1]
+    preference_score = score[preference]
 
-    it 'calculates the probability to be exactly the same and add up to 1' do
-      trainer.normalized_score(email).values.inject(&:+).must_equal 1
-      trainer.normalized_score(email).values.first.must_equal Rational(1,3)
-    end
-
-    it 'gives preference to whatever has the most in it' do
-      score = trainer.score(email)
-      preference = trainer.preference.last
-      preference_score = score.fetch(preference)
-
-      expected = SpamTrainer::Classification.new(preference, preference_score)
-
-      trainer.classify(email).must_equal expected
-    end
-  end
-
-  describe 'entropy' do
-    it 'calculates entropy' do
-      skip
-      # Entropy is the sum of probabilities
-      # times the log2 of itself
-      entropy = 0.0
-      trainer.train!
-      training = trainer.instance_variable_get("@training")
-
-      trainer.categories.each do |cat|
-        hash = training.fetch(cat)
-        hash.each do |token, count|
-          prob = Rational(count.to_i, trainer.total_for("_all"))
-          entropy += prob * Math::log2(prob)
-        end
-      end
-
-      trainer.entropy.wont_equal 0.0
-      trainer.entropy.must_equal entropy
-    end
-
-    describe 'perplexity' do
-      it 'calculates perplexity as 2 ** -entropy' do
-        skip
-        trainer.perplexity.wont_equal 0.0
-        trainer.perplexity.must_equal (2 ** (-trainer.entropy))
-      end
-    end
-  end
-end
+    expected = SpamTrainer.Classification(preference, preference_score)
+    self.assertEqual(trainer.classify(self.email), expected)
