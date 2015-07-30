@@ -14,7 +14,7 @@ class SpamTrainer:
   def __init__(self, training_files):
     self.categories = Set()
 
-    for category, file in training_files.iteritems():
+    for category, file in training_files:
       self.categories.add(category)
 
     self.totals = defaultdict(float)
@@ -34,7 +34,7 @@ class SpamTrainer:
     return self.totals[category]
 
   def train(self):
-    for category, file in self.to_train.iteritems():
+    for category, file in self.to_train:
       email = EmailObject(io.open(file, 'r'))
 
       self.categories.add(category)

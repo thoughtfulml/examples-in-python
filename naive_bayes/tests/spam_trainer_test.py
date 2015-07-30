@@ -7,22 +7,19 @@ from naive_bayes.spam_trainer import SpamTrainer
 class TestSpamTrainer(unittest.TestCase):
 
   def setUp(self):
-    self.hash_test = {'spam': './filepath', 'ham': './another', 'scram': './another2'}
-    self.training = {'spam': './tests/fixtures/plain.eml', 'ham': './tests/fixtures/small.eml', 'scram': './tests/fixtures/plain.eml'}
+    self.training = [['spam', './tests/fixtures/plain.eml'], ['ham', './tests/fixtures/small.eml'], ['scram', './tests/fixtures/plain.eml']]
     self.trainer = SpamTrainer(self.training)
     file = io.open('./tests/fixtures/plain.eml', 'r')
     self.email = EmailObject(file)
 
   def test_multiple_categories(self):
-    st = SpamTrainer(self.hash_test)
-    categories = st.categories
-    self.assertEqual(categories, sets.Set(self.hash_test.keys()))
+    categories = self.trainer.categories
+    expected = sets.Set([k for k,v in self.training])
+    self.assertEqual(categories, expected) 
 
   def test_counts_all_at_zero(self):
-    st = SpamTrainer(self.hash_test)
-
     for cat in ['_all', 'spam', 'ham', 'scram']:
-      self.assertEqual(st.total_for(cat), 0)
+      self.assertEqual(self.trainer.total_for(cat), 0)
 
   def test_preference_category(self):
     trainer = self.trainer
