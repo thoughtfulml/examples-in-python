@@ -5,6 +5,7 @@ class EmailObject:
   def __init__(self, filepath, category = None):
     self.filepath = filepath
     self.category = category
+    print self.filepath
     self.mail = email.message_from_file(self.filepath)
 
   def subject(self):

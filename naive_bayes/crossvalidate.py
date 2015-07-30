@@ -1,5 +1,7 @@
-from naive_bayes.spam_trainer import SpamTrainer
-from naive_bayes.email_object import EmailObject
+from spam_trainer import SpamTrainer
+from email_object import EmailObject
+import io
+import re
 
 print "Cross Validation"
 
@@ -7,84 +9,60 @@ correct = 0
 false_positives = 0.0
 false_negatives = 0.0
 confidence = 0.0
+    
+def label_to_training_data(fold_file):
+  training_data = []
+  
+  for line in io.open(fold_file, 'r'):
+    label_file = line.rstrip().split(' ')
+    training_data.append(label_file)
 
-    def self.label_to_training_data(fold_file)
-      training_data = []
-      st = SpamTrainer.new([])
+  print training_data
+  return SpamTrainer(training_data)
 
-      File.open(fold_file, 'rb').each_line do |line|
-        label, file = line.split(/\s+/)
-        st.write(label, file)
-      end
+def parse_emails(keyfile):
+  emails = []
+  print "Parsing emails for " + keyfile
 
-      st
-    end
+  for line in io.open(keyfile, 'r'):
+    label, file = line.rstrip().split(' ')
+    emails.append(EmailObject(io.open(file, 'r'), category=label))
 
-    def self.parse_emails(keyfile)
-      emails = []
-      puts "Parsing emails for #{keyfile}"
-      File.open(keyfile, 'rb').each_line do |line|
-        label, file = line.split(/\s+/)
-        emails << Email.new(filepath, label)
-      end
-      puts "Done parsing emails for #{keyfile}"
-      emails
-    end
+  print "Done parsing files for " + keyfile
 
-    def self.validate(trainer, set_of_emails)
-      correct = 0
-      false_positives = 0.0
-      false_negatives = 0.0
-      confidence = 0.0
+def validate(trainer, set_of_emails):
+  correct = 0
+  false_positives = 0.0
+  false_negatives = 0.0
+  confidence = 0.0
 
-      set_of_emails.each do |email|
-        classification = trainer.classify(email)
-        confidence += classification.score
-        if classification.guess == 'spam' && email.category == 'ham'
-          false_positives += 1
-        elsif classification.guess == 'ham' && email.category == 'spam'
-          false_negatives += 1
-        else
-          correct += 1
-        end
-      end
+  for email in set_of_emails:
+    classification = trainer.classify(email)
+    confidence += classification.score
 
-      total = false_positives + false_negatives + correct
+    if classification.guess == 'spam' and email.category == 'ham':
+      false_positives += 1
+    elif classification.guess == 'ham' and email.category == 'spam':
+      false_negatives += 1
+    else:
+      correct += 1
 
-      message = <<-EOL
-      False Positives: #{false_positives / total}
-      False Negatives: #{false_negatives / total}
-      Accuracy: #{(false_positives + false_negatives) / total}
-      EOL
-      message
-    end
+  total = false_positives + false_negatives + correct
+  
+  false_positive_rate = false_positives/total
+  false_negative_rate = false_negatives/total
+  accuracy = (false_positives + false_negatives) / total
+  message = """
+  False Positives: {0}
+  False Negatives: {1} 
+  Accuracy: {2} 
+  """.format(false_positive_rate, false_negative_rate, accuracy)
+  print message
 
-    describe "Fold1 unigram model" do
-      let(:trainer) { 
-        self.class.label_to_training_data('./test/fixtures/fold1.label') 
-      }
+trainer = label_to_training_data('./tests/fixtures/fold1.label')
+emails = parse_emails('./tests/fixtures/fold2.label') 
+validate(trainer, emails)
 
-      let(:emails) { 
-        self.class.parse_emails('./test/fixtures/fold2.label') 
-      }
-
-      it "validates fold1 against fold2 with a unigram model" do
-        skip(self.class.validate(trainer, emails))
-      end
-    end
-
-    describe "Fold2 unigram model" do
-      let(:trainer) { 
-        self.class.label_to_training_data('./test/fixtures/fold2.label') 
-      }
-
-      let(:emails) { 
-        self.class.parse_emails('./test/fixtures/fold1.label') 
-      }
-
-      it "validates fold2 against fold1 with a unigram model" do
-        skip(self.class.validate(trainer, emails))
-      end
-    end
-  end
-e
+trainer = label_to_training_data('./tests/fixtures/fold2.label') 
+emails = parse_emails('./tests/fixtures/fold1.label') 
+validate(trainer, emails)

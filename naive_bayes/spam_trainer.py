@@ -1,7 +1,7 @@
 from sets import Set
 import io
-from naive_bayes.tokenizer import Tokenizer
-from naive_bayes.email_object import EmailObject
+from tokenizer import Tokenizer
+from email_object import EmailObject
 from collections import defaultdict
 class SpamTrainer:
   class Classification:
