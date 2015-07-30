@@ -35,7 +35,7 @@ class SpamTrainer:
 
   def train(self):
     for category, file in self.to_train:
-      email = EmailObject(io.open(file, 'r'))
+      email = EmailObject(io.open(file, 'rb'))
 
       self.categories.add(category)
       

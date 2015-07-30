@@ -2,11 +2,11 @@ import email
 from BeautifulSoup import BeautifulSoup
 
 class EmailObject:
-  def __init__(self, filepath, category = None):
-    self.filepath = filepath
+  def __init__(self, file, category = None):
+    self.file = file
     self.category = category
-    print self.filepath
-    self.mail = email.message_from_file(self.filepath)
+    self.mail = email.message_from_file(self.file)
+    self.file.close()
 
   def subject(self):
     return self.mail.get('Subject')

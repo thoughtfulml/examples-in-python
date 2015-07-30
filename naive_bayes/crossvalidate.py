@@ -13,7 +13,7 @@ confidence = 0.0
 def label_to_training_data(fold_file):
   training_data = []
   
-  for line in io.open(fold_file, 'r'):
+  for line in io.open(fold_file, 'rb'):
     label_file = line.rstrip().split(' ')
     training_data.append(label_file)
 
@@ -24,11 +24,13 @@ def parse_emails(keyfile):
   emails = []
   print "Parsing emails for " + keyfile
 
-  for line in io.open(keyfile, 'r'):
+  for line in io.open(keyfile, 'rb'):
     label, file = line.rstrip().split(' ')
-    emails.append(EmailObject(io.open(file, 'r'), category=label))
+
+    emails.append(EmailObject(io.open(file, 'rb'), category=label))
 
   print "Done parsing files for " + keyfile
+  return emails
 
 def validate(trainer, set_of_emails):
   correct = 0
