@@ -29,9 +29,9 @@ class EmailObject:
     if content_type == 'text/html':
       return BeautifulSoup(body).text 
     elif content_type == 'text/plain':
-      return body 
+      return body
     else:
-      return ""
+      return ''
 
   def multipart_body(self):
     output = ''
