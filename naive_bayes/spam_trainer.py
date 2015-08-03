@@ -3,6 +3,7 @@ import io
 from tokenizer import Tokenizer
 from email_object import EmailObject
 from collections import defaultdict
+
 class SpamTrainer:
   class Classification:
     def __init__(self, guess, score):

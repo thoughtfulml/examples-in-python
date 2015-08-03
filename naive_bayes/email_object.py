@@ -1,7 +1,9 @@
 import email
+import chardet
 from BeautifulSoup import BeautifulSoup
 
 class EmailObject:
+  CLRF = "\n\r\n\r"
   def __init__(self, file, category = None):
     self.file = file
     self.category = category
@@ -12,17 +14,15 @@ class EmailObject:
     return self.mail.get('Subject')
 
   def body(self):
-    if self.is_multipart():
-      return self.multipart_body()
+    payload = self.mail.get_payload()
+    parts = []
+    if self.mail.is_multipart():
+      parts = [self.single_body(part) for part in list(payload)]
     else:
-      return self.single_body()
-
-  def is_multipart(self):
-    return self.mail.is_multipart() or self.mail.get_content_type() == 'multipart/mixed'
-
-  def single_body(self, part = None):
-    if not part:
-      part = self.mail
+      parts = [self.single_body(self.mail)]
+    return self.CLRF.join(parts)
+      
+  def single_body(self, part):
     content_type = part.get_content_type()
     body = part.get_payload(decode=True)
 
@@ -32,11 +32,3 @@ class EmailObject:
       return body
     else:
       return ''
-
-  def multipart_body(self):
-    output = ''
-    for part in self.mail.walk():
-      if part.get_content_maintype() == "multipart":
-        continue
-      output += self.single_body(part=part)
-    return output
