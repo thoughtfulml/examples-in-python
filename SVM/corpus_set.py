@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.sparse import csr_matrix, vstack
+
 from corpus import Corpus
 
 
@@ -27,7 +28,7 @@ class CorpusSet(object):
         self._yes = []
         self._xes = None
         for corpus in self._corpora:
-            vectors = self.load_corpus(corpus)
+            vectors = self.feature_matrix(corpus)
             if self._xes is None:
                 self._xes = vectors
             else:
@@ -35,21 +36,36 @@ class CorpusSet(object):
             self._yes.extend([corpus.sentiment_code] * vectors.shape[0])
         self._calculated = True
 
-    def load_corpus(self, corpus):
-        vectors = None
+    def feature_matrix(self, corpus):
+        data = []
+        indices = []
+        indptr = [0]
         for sentence in corpus.get_sentences():
-            vector = self.sparse_vector(sentence)
-            if vectors is None:
-                vectors = vector
-            else:
-                vectors = vstack((vectors, vector))
-        return vectors
+            sentence_indices = self._get_indices(sentence)
+            indices.extend(sentence_indices)
+            data.extend([1] * len(sentence_indices))
+            indptr.append(len(indices))
+        feature_matrix = csr_matrix((data, indices, indptr),
+                                    shape=(len(indptr) - 1,
+                                           len(self._words)),
+                                    dtype=np.float64)
+        feature_matrix.sort_indices()
+        return feature_matrix
 
-    def sparse_vector(self, sentence):
+    def feature_vector(self, sentence):
+        indices = self._get_indices(sentence)
+        data = [1] * len(indices)
+        indptr = [0, len(indices)]
+        vector = csr_matrix((data, indices, indptr),
+                            shape=(1, len(self._words)),
+                            dtype=np.float64)
+        return vector
+
+    def _get_indices(self, sentence):
         word_list = list(self._words)
-        vector = csr_matrix((1, len(word_list)), dtype=np.float64)
+        indices = []
         for token in Corpus.tokenize(sentence):
             if token in self._words:
                 index = word_list.index(token)
-                vector[0, index] = 1
-        return vector
+                indices.append(index)
+        return indices

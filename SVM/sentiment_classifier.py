@@ -55,7 +55,7 @@ class SentimentClassifier(object):
     def classify(self, string):
         if self._model is None:
             self._model = self.fit_model()
-        prediction = self._model.predict(self._corpus_set.sparse_vector(string))
+        prediction = self._model.predict(self._corpus_set.feature_vector(string))
         return self.present_answer(prediction)
 
     def fit_model(self):
