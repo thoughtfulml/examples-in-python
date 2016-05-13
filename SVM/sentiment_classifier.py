@@ -59,7 +59,9 @@ class SentimentClassifier(object):
         return self.present_answer(prediction)
 
     def fit_model(self):
-        y_vec, x_mat = self._corpus_set.to_sparse_vectors()
+        self._corpus_set.calculate_sparse_vectors()
+        y_vec = self._corpus_set.yes
+        x_mat = self._corpus_set.xes
         clf = svm.SVC(C=self.c,
                       cache_size=1000,
                       gamma=1.0 / len(y_vec),

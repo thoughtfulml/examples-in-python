@@ -32,7 +32,9 @@ class TestCorpusSet(unittest.TestCase):
              [0, 0, 1, 1]]
         ))
 
-        ys, xes = self.corpus_set.to_sparse_vectors()
+        self.corpus_set.calculate_sparse_vectors()
+        ys = self.corpus_set.yes
+        xes = self.corpus_set.xes
 
         self.assertListEqual(expected_ys, ys)
         self.assertListEqual(list(expected_xes.data),

@@ -8,7 +8,6 @@ class CorpusSet(object):
     def __init__(self, corpora):
         self._yes = None
         self._xes = None
-        self._calculated = False
         self._corpora = corpora
         self._words = set()
         for corpus in self._corpora:
@@ -18,13 +17,15 @@ class CorpusSet(object):
     def words(self):
         return self._words
 
-    def to_sparse_vectors(self):
-        self._calculate_sparse_vectors()
-        return self._yes, self._xes
+    @property
+    def xes(self):
+        return self._xes
 
-    def _calculate_sparse_vectors(self):
-        if self._calculated:
-            return
+    @property
+    def yes(self):
+        return self._yes
+
+    def calculate_sparse_vectors(self):
         self._yes = []
         self._xes = None
         for corpus in self._corpora:
@@ -34,7 +35,6 @@ class CorpusSet(object):
             else:
                 self._xes = vstack((self._xes, vectors))
             self._yes.extend([corpus.sentiment_code] * vectors.shape[0])
-        self._calculated = True
 
     def feature_matrix(self, corpus):
         data = []
