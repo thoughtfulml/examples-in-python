@@ -21,6 +21,7 @@ class TestSentimentClassifier(unittest.TestCase):
 
         c = 2 ** 7
         classifier.c = c
+        classifier.reset_model()
 
         n_er = self.validate(classifier, neg['validation'], 'negative')
         p_er = self.validate(classifier, pos['validation'], 'positive')
@@ -38,6 +39,7 @@ class TestSentimentClassifier(unittest.TestCase):
 
         c = 2 ** 7
         classifier.c = c
+        classifier.reset_model()
 
         n_er = self.validate(classifier,
                              'data/rt-polaritydata/rt-polarity.neg',

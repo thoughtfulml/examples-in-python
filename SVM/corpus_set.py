@@ -11,7 +11,7 @@ class CorpusSet(object):
         self._corpora = corpora
         self._words = set()
         for corpus in self._corpora:
-            self._words.update(corpus.words)
+            self._words.update(corpus.get_words())
 
     @property
     def words(self):
@@ -37,7 +37,7 @@ class CorpusSet(object):
 
     def load_corpus(self, corpus):
         vectors = None
-        for sentence in corpus.sentences:
+        for sentence in corpus.get_sentences():
             vector = self.sparse_vector(sentence)
             if vectors is None:
                 vectors = vector

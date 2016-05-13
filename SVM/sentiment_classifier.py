@@ -45,6 +45,8 @@ class SentimentClassifier(object):
     @c.setter
     def c(self, cc):
         self._c = cc
+
+    def reset_model(self):
         self._model = None
 
     def words(self):
@@ -52,11 +54,11 @@ class SentimentClassifier(object):
 
     def classify(self, string):
         if self._model is None:
-            self._model = self.model()
+            self._model = self.fit_model()
         prediction = self._model.predict(self._corpus_set.sparse_vector(string))
         return self.present_answer(prediction)
 
-    def model(self):
+    def fit_model(self):
         y_vec, x_mat = self._corpus_set.to_sparse_vectors()
         clf = svm.SVC(C=self.c,
                       cache_size=1000,

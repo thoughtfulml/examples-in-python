@@ -33,7 +33,7 @@ class TestCorpusSet(unittest.TestCase):
 
     def test_words(self):
         """consumes a positive training set and unique set of words"""
-        self.assertEqual({'loved', 'movie'}, self.positive_corpus.words)
+        self.assertEqual({'loved', 'movie'}, self.positive_corpus.get_words())
 
     def test_sentiment_code_1(self):
         """defines a sentiment_code of 1 for positive"""

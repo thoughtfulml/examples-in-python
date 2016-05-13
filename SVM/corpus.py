@@ -24,7 +24,10 @@ class Corpus(object):
         return self._sentiment
 
     @property
-    def words(self):
+    def sentiment_code(self):
+        return self.sentiment_to_number[self._sentiment]
+
+    def get_words(self):
         if self._words is None:
             self._words = set()
             for line in self._io:
@@ -33,11 +36,6 @@ class Corpus(object):
             self._io.seek(0)
         return self._words
 
-    @property
-    def sentences(self):
+    def get_sentences(self):
         for line in self._io:
             yield line
-
-    @property
-    def sentiment_code(self):
-        return self.sentiment_to_number[self._sentiment]
