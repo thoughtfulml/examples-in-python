@@ -10,8 +10,8 @@ data = []
 artists = []
 years = []
 
-with open('data/less_covariance_jazz_albums.csv', 'rb') as csvfile:
-    # with open('data/annotated_jazz_albums.csv', 'rb') as csvfile:
+# with open('data/less_covariance_jazz_albums.csv', 'rb') as csvfile:
+with open('data/annotated_jazz_albums.csv', 'rb') as csvfile:
     reader = csv.DictReader(csvfile)
     headers = reader.fieldnames[3:]
     for row in reader:
