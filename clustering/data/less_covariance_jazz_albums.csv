@@ -1,0 +1,865 @@
+artist_album,key_index,year,Genre_0,Genre_1
+Duke Ellington In A Mellotone,0,1940,13,116
+Duke Ellington Sophisticated Lady,1,1940,13,116
+Coleman Hawkins Rainbow Mist,3,1944,116,0
+Lennie Tristano Crosscurrents,5,1949,16,32
+Duke Ellington Liberian Suite,6,1949,13,116
+Lee Konitz Subconscious-Lee,7,1949,16,32
+Miles Davis Birth of the Cool,9,1950,32,0
+Lennie Tristano Wow,12,1950,16,32
+Stan Getz Quartets,13,1950,32,0
+Stan Kenton City of Glass,14,1951,10,114
+Oscar Peterson 1951,15,1951,16,0
+Shorty Rogers Modern Sounds,16,1951,32,0
+Gerry Mulligan Mulligan Quartet,17,1952,16,32
+Duke Ellington Piano Reflections,18,1953,116,0
+Modern Jazz Quartet Django,20,1953,32,93
+Shorty Rogers Cool And Crazy,21,1953,13,32
+Chet Baker Sextet,24,1954,32,0
+Herbie Nichols The Third World,25,1955,62,0
+Erroll Garner Concert by the Sea,27,1955,16,32
+George Shearing Spell,28,1955,42,0
+Horace Silver Horace Silver and the Jazz Messengers,29,1955,62,0
+Lennie Tristano Lennie Tristano,30,1955,32,0
+Frank Morgan Frank Morgan,32,1955,109,0
+Frank Sinatra Songs for Young Lovers,34,1955,12,13
+Charles Mingus Pithecanthropus Erectus ,35,1956,93,0
+Modern Jazz Quartet Fontessa,36,1956,16,0
+Thelonious Monk Brilliant Corners,37,1956,16,62
+Sonny Rollins Saxophone Colossus,38,1956,16,0
+George Russell Jazz Workshop,39,1956,82,93
+Lennie Tristano Manhattan Studio/ New York Improvisations,40,1956,52,0
+John Lewis Grand Encounter,42,1956,16,32
+Miles Davis Round About Midnight,47,1956,62,0
+Zoot Sims Tonite's Music Today,48,1956,16,32
+Quincy Jones This Is How I Feel About Jazz,50,1956,13,0
+Stan Kenton Cuban Fire,51,1956,5,0
+Jimmy Smith A New Star A New Sound,53,1956,16,0
+Kenny Burrell All Day Long,54,1956,62,0
+Charles Mingus Tijuana Moods,55,1957,62,93
+Art Blakey Orgy In Rhythm,56,1957,16,0
+Yusef Lateef Jazz Mood,57,1957,62,82
+John Coltrane Blue Train,58,1957,62,0
+John Lewis Piano,59,1957,32,0
+Milt Jackson Soul Brothers,60,1957,32,98
+Miles Davis Miles Ahead,61,1957,62,0
+Sonny Rollins Way Out West,63,1957,62,0
+Art Pepper Meets the Rhythm Section,65,1957,16,0
+Art Taylor Wailers,66,1957,62,0
+Jay Jay Johnson Blue Trombone,68,1957,16,62
+Hank Mobley Quintet,69,1957,62,0
+Jimmy Giuffre Western Suite,71,1958,10,93
+Sun Ra Jazz in Silhouette,72,1958,62,0
+Art Blakey Moanin',74,1958,62,0
+Cecil Taylor Looking Ahead,75,1958,52,0
+Jimmy Smith The Sermon,76,1958,111,0
+Blue Mitchell Big Six,77,1958,62,0
+Clark Terry In Orbit,79,1958,16,62
+Cannonball Adderley Somethin' Else,80,1958,16,62
+Chico Hamilton Gongs East,81,1958,93,0
+Hank Mobley Peckin' Time,82,1958,62,0
+Mongo Santamaria Yambu,83,1958,4,0
+Thelonious Monk Misterioso,86,1958,16,62
+Ornette Coleman The Shape of Jazz To Come,88,1959,52,0
+George Russell New York New York,89,1959,13,31
+Miles Davis Kind Of Blue,90,1959,24,0
+Charles Mingus Mingus Ah Um,91,1959,16,62
+John Coltrane Giant Steps,92,1959,62,0
+Billy Taylor And Four Flutes,94,1959,16,0
+Charles Mingus Blues and Roots,95,1959,93,0
+Gerry Mulligan What Is There To Say,96,1959,16,0
+Horace Silver Blowin; the Blues Away,97,1959,62,0
+Horace Silver Finger Poppin',98,1959,16,62
+Jimmy Heath The Thumper,101,1959,16,0
+Milt Jackson Bags And Trane,102,1959,62,0
+Dave Brubeck Time Out,103,1959,32,0
+Mongo Santamaria Mongo,104,1959,5,0
+Ornette Coleman Free Jazz,106,1960,52,0
+Max Roach Freedom Now Suite,107,1960,5,62
+Charles Mingus Presents,108,1960,93,0
+George Russell Jazz in the Space Age,110,1960,82,114
+Eric Dolphy Far Cry,111,1960,62,93
+Joe Harriott Free Form,112,1960,52,0
+Tina Brooks True Blue,113,1960,62,0
+Randy Weston Uhuru Africa,114,1960,82,0
+Gil Evans Out of the Cool,115,1960,31,62
+Lennie Tristano The New Tristano,116,1960,52,0
+Hank Mobley Soul Station,119,1960,62,0
+Horace Silver Horace-Scope,120,1960,62,0
+Art Blakey The Big Beat,121,1960,16,0
+Modern Jazz Quartet The Comedy,122,1960,93,109
+Betty Carter The Modern Sound,123,1960,13,49
+Wes Montgomery The Incredible Jazz Guitar,125,1960,62,0
+Sam Jones Soul Society,126,1960,62,0
+George Russell Stratusphunk,127,1960,82,93
+David Newman & James Clay The Sound Of the Wide Open Spaces,128,1960,53,72
+Duke Jordan Flight To Jordan,129,1960,62,0
+Herbie Mann Flute Brass Vibes And Percussion,130,1960,5,0
+Jazztet Meet the Jazztet,131,1960,62,0
+Art Pepper Gettin' Together,133,1960,16,0
+Ornette Coleman Ornette,134,1961,46,0
+John Coltrane Impressions,135,1961,82,93
+Charles Mingus Oh Yeah,136,1961,93,0
+Yusef Lateef Eastern Sounds,137,1961,82,93
+Bill Evans Explorations,138,1961,82,93
+George Russell Ezz-thetic,139,1961,16,32
+Oliver Nelson Blues and the Abstract Truth,141,1961,31,93
+John Coltrane My Favorite Things,142,1961,62,82
+Cecil Taylor New York City R&B,143,1961,52,0
+Hank Mobley Workout,144,1961,62,0
+Jackie McLean Bluesnik,145,1961,62,0
+Mal Waldron The Quest,146,1961,52,62
+Max Roach Percussion Bitter Sweet,147,1961,62,0
+Ran Blake & Jeanne Lee The Newest Sound Around,148,1961,31,82
+Stan Getz Focus,149,1961,11,16
+Benny Carter Further Definitions,150,1961,13,116
+Art Blakey Mosaic,151,1961,16,62
+Jimmy Giuffre Fusion,152,1961,52,0
+Oliver Nelson Afro-American Sketches,153,1961,13,93
+Wes Montgomery So Much Guitar,154,1961,93,111
+Abbey Lincoln Straight Ahead,155,1961,93,0
+Charles Mingus Epitaph,156,1962,13,93
+Cecil Taylor Nefertiti,157,1962,52,93
+Joe Harriott Abstract,159,1962,52,0
+Jackie McLean Let Freedom Ring,160,1962,62,0
+Sonny Rollins The Bridge,161,1962,62,0
+Dexter Gordon Go,162,1962,62,0
+Freddie Hubbard Artistry,163,1962,93,0
+Jimmy Woods Awakening,164,1962,93,0
+George Russell Stratus Seekers,165,1962,82,93
+Prince Lasha The Cry,167,1962,82,0
+Sheila Jordan Portrait,168,1962,31,111
+Charles Mingus The Black Saint And The Sinner Lady,169,1963,93,0
+Sun Ra Cosmic Tones For Mental Therapy,170,1963,0,8
+Joe Harriott Movement,171,1963,101,108
+Bill Evans Conversations with Myself,172,1963,82,93
+Jackie McLean Destination Out,174,1963,62,93
+Stanley Turrentine Soul Shoutin',175,1963,111,0
+Eric Dolphy Iron Man,176,1963,52,0
+Jackie McLean One Step Beyond,177,1963,62,93
+Joe Henderson Page One,178,1963,62,0
+Art Blakey Ugetsu,180,1963,62,0
+Lee Morgan Sidewinder,181,1963,32,0
+Donald Byrd A New Perspective,182,1963,111,0
+Chico Hamilton Man from Two Worlds,183,1963,16,82
+Grant Green Idle Moments,184,1963,16,0
+John Coltrane A Love Supreme,186,1964,10,82
+Albert Ayler Spiritual Unity,187,1964,52,0
+Eric Dolphy Out to Lunch,188,1964,52,62
+Albert Ayler New York Eye And Ear Control,189,1964,52,0
+Albert Ayler Witches and Devils,190,1964,31,52
+Andrew Hill Point of Departure,191,1964,31,0
+Sam Rivers Fuchsia Swing Song,192,1964,52,93
+Wayne Shorter Speak No Evil,193,1964,93,0
+Herbie Hancock Empyrean Isles,194,1964,82,0
+New York Art Quartet New York Art Quartet,195,1964,52,0
+Albert Ayler Vibrations,196,1964,52,0
+Sun Ra Other Planes of There,197,1964,52,0
+Horace Silver Song For My Father,198,1964,62,0
+Andre Previn My Fair Lady,199,1964,32,0
+Denny Zeitlin Carnival,200,1964,31,93
+Ben Webster Meet You At The Fair,202,1964,15,22
+Oscar Peterson Canadian Suite,203,1964,42,0
+Cal Tjader Soul Sauce,204,1964,75,79
+Denny Zeitlin Cathexis,205,1964,82,93
+Randy Weston African Cookbook,206,1964,5,16
+Duke Pearson Wahoo,207,1964,62,0
+Freddie Hubbard Breaking Point,208,1964,62,82
+Joe Henderson In 'n Out,209,1964,82,93
+Tony Scott Music For Zen Meditation,210,1964,121,0
+Joe Henderson Inner Urge,211,1964,82,93
+Larry Young Into Somethin',212,1964,52,93
+Lee Morgan Search For The new Land,213,1964,62,0
+John Coltrane Crescent,214,1964,51,82
+Wayne Shorter Juju,217,1964,62,0
+Tony Williams Life Time,218,1964,92,117
+Charles Lloyd Discovery,220,1964,31,0
+John Coltrane Ascension,221,1965,51,52
+Sun Ra The Magic City,222,1965,52,0
+Marion Brown Quartet,223,1965,52,0
+Don Cherry Complete Communion,224,1965,52,0
+Sam Rivers Contours,225,1965,52,93
+Herbie Hancock Maiden Voyage,226,1965,62,82
+Sun Ra Heliocentric Worlds Vol 2,227,1965,52,0
+John Coltrane Meditations,228,1965,51,52
+Milford Graves Percussion Ensemble,229,1965,51,52
+Patty Waters Sings,230,1965,46,52
+Wayne Shorter The All Seeing Eye,231,1965,93,0
+Frank Wright Trio,232,1965,52,0
+Andrew Hill Compulsion,233,1965,31,52
+Ornette Coleman Chappaqua Suite,234,1965,31,51
+Wayne Shorter Soothsayer,235,1965,62,82
+Bobby Hutcherson Components,236,1965,10,62
+New York Art Quartet Mohawk,237,1965,52,0
+Horace Silver The Cape Verdean Blues,238,1965,62,75
+Bobby Hutcherson Dialogue,239,1965,93,0
+Lee Morgan Cornbread,241,1965,62,93
+Prince Lasha Inside Story,242,1965,82,93
+Lee Morgan The Gigolo,243,1965,62,0
+Archie Shepp Fire Music,244,1965,52,62
+Roswell Rudd Roswell Rudd,245,1965,52,0
+Eddie Palmieri Mozambique,246,1965,15,22
+Gabor Szabo Gypsy,247,1965,32,60
+Cecil Taylor Unit Structures,248,1966,52,0
+Roscoe Mitchell Sound,249,1966,52,0
+Don Cherry Symphony For Improvisers,250,1966,52,0
+Cecil Taylor Conquistador,251,1966,52,0
+Alex Schlippenbach Globe Unity,252,1966,52,0
+Archie Shepp Mama Too Tight,253,1966,52,0
+Steve Lacy The Forest And The Zoo,254,1966,52,0
+Steve Lacy Sortie,255,1966,52,0
+Duke Ellington The Far East Suite,256,1966,13,0
+Chick Corea Tones For Joan's Bones,257,1966,62,0
+Sun Ra Strange Strings,258,1966,51,114
+Patty Waters College Tour,259,1966,46,52
+Joseph Jarman Song For,260,1966,51,52
+Bobby Hutcherson Happenings,263,1966,93,0
+Bobby Hutcherson Stick-Up,265,1966,82,93
+Charles Lloyd Dream Weaver,266,1966,93,0
+Charles Tyler First Album,267,1966,98,99
+Denny Zeitlin Zeitgeist,268,1966,31,0
+Jaki Byard Sunshine Of My Soul,269,1966,93,0
+Horace Silver The Jody Grind,270,1966,62,111
+Lee Morgan Delightfulee,272,1966,62,0
+Sonny Simmons Music From The Spheres,273,1966,10,52
+Dewey Redman Look for the Black Star,274,1966,62,0
+Sunny Murray Sunny Murray Quintet,275,1966,52,0
+Sun Ra Atlantis,276,1967,52,0
+Gary Burton A Genuine Tong Funeral,277,1967,31,52
+Sam Rivers Dimensions And Extensions,278,1967,52,62
+Bill Dixon Intents And Purposes,280,1967,13,52
+George Russell Othello Ballet Suite,281,1967,46,55
+Muhal Richard Abrams Levels and Degrees of Light,282,1967,51,52
+Archie Shepp The Magic of Ju-Ju,283,1967,51,93
+Jackie McLean New and Old Gospel,284,1967,31,82
+John Coltrane Interstellar Space,285,1967,52,0
+Frank Wright Your Prayer,286,1967,52,0
+Chick Corea Now He Sings Now He Sobs,289,1967,93,0
+Miles Davis Nefertiti,290,1967,82,0
+Jackie McLean Demon's Dance,291,1967,62,93
+Miles Davis Sorcerer,292,1967,82,0
+John Coltrane Expression,294,1967,51,52
+McCoyTyner The Real McCoy,295,1967,62,0
+Wayne Shorter Schizophrenia,296,1967,93,0
+Lee Konitz Duets,297,1967,82,93
+Paul Bley Virtuosi,298,1967,31,52
+Lester Bowie Numbers 1 & 2,299,1967,52,0
+Paul Bley Ballads,300,1967,93,0
+Roscoe Mitchell Congliptious,302,1968,52,0
+Don Cherry Eternal Rhythm,303,1968,31,52
+Spontaneous Music Ensemble Karyobin,307,1968,51,0
+Kenny Wheeler Windmill Tilter,308,1968,31,0
+Roland Kirk Left And Right,310,1968,52,82
+Sun Ra Outer Spaceways Incorporated,311,1968,52,0
+Horace Silver Serenade to a Soul Sister,312,1968,62,75
+Paul Horn Inside The Taj Mahal,313,1968,11,52
+McCoyTyner Expansions,314,1968,82,0
+Pat Martino Baiyina,316,1968,31,0
+Charles Tolliver Paper Man,317,1968,93,0
+Herbie Hancock Speak Like A Child,318,1968,62,82
+Miles Davis Miles in the Sky,319,1968,62,0
+Dave Burrell High Won High Two,320,1968,52,0
+Anthony Braxton For Alto,321,1968,52,0
+Don Cherry Mu,322,1969,52,0
+Miles Davis Bitches Brew,323,1969,54,0
+Pharoah Sanders Karma,324,1969,82,111
+Miles Davis In a Silent Way,325,1969,39,0
+Art Ensemble of Chicago People in Sorrow,326,1969,31,52
+Art Ensemble of Chicago Reese and the Smooth Ones,327,1969,31,52
+George Russell Electronic Sonata For Souls Loved By Nature,329,1969,11,31
+Dollar Brand African Piano,330,1969,52,0
+Roland Kirk Rahsaan Rahsaan,332,1969,82,111
+Pharoah Sanders Jewels Of Thought,333,1969,52,0
+Archie Shepp Yasmina,334,1969,10,0
+Art Ensemble of Chicago A Jackson In Your House,335,1969,52,0
+Charles Tolliver The Ringer,336,1969,93,0
+Joe McPhee Underground Railroad,337,1969,52,0
+Jan Garbarek Esoteric Circle,338,1969,31,0
+Pharoah Sanders Izipho Zam,339,1969,52,0
+Art Ensemble of Chicago Message to our Folks,340,1969,52,0
+Chick Corea Is,342,1969,31,0
+Dave Burrell Echo,343,1969,52,0
+Dewey Redman Tarik,344,1969,52,0
+Charles Earland Black Talk,348,1969,72,0
+Leon Thomas Spirits Known and Unknown,351,1969,5,93
+Tony Williams Emergency,353,1969,54,0
+Archie Shepp Blase',354,1969,52,0
+Dollar Brand African Sketchbook,355,1969,21,31
+John McLaughlin Extrapolation,356,1969,54,73
+Stanley Cowell Blues for the Viet Cong,357,1969,10,82
+Stanley Cowell Brilliant Circles,358,1969,52,93
+Wolfgang Dauner The Oimels,359,1969,54,73
+Horace Tapscott West Coast Hot,360,1969,31,0
+Liberation Music Orchestra Song for Che,361,1969,52,0
+Paul Bley Improvisie,362,1970,0,46
+Marion Brown Afternoon of a Georgia Faun,363,1970,52,0
+Alice Coltrane Ptah The El Daoud,364,1970,111,114
+McCoy Tyner Extensions,365,1970,16,0
+Art Ensemble of Chicago Les Stances A Sophie,366,1970,31,52
+Freddie Hubbard Straight Life,367,1970,32,54
+Art Ensemble of Chicago With Fontella Bass,368,1970,52,0
+Jan Garbarek Afric Pepperbird,370,1970,31,52
+Evan Parker The Topography of the Lungs,371,1970,10,51
+Herbie Hancock Mwandishi,372,1970,52,54
+Alice Coltrane Journey in Satchidananda,374,1970,10,52
+Woody Shaw Blackstone Legacy,376,1970,31,0
+Freddie Hubbard Red Clay,377,1970,62,0
+McCoy Tyner Asante,378,1970,93,0
+Miles Davis Big Fun,379,1970,54,72
+Hubert Laws Afro Classic,381,1970,32,54
+John McLaughlin My Goals Beyond,382,1970,2,54
+Keith Tippett Dedicated To You But You Weren't Listening,385,1970,54,73
+Chris McGregor And the Brotherhood of Breath,388,1970,51,52
+Joe McPhee Nation Time,389,1970,52,0
+Dave Burrell After Love,390,1970,52,0
+Sonny Sharrock Monkey-Pockie-Boo,391,1970,52,0
+Carla Bley Escalator Over The Hill,392,1971,13,31
+Charles Mingus Let My Children Hear Music,393,1971,13,93
+Paul Bley Dual Unity,394,1971,52,114
+Art Ensemble of Chicago Phase One,395,1971,52,0
+Pharoah Sanders Black Unity,399,1971,51,52
+Lol Coxhill Ear Of The Beholder,400,1971,46,52
+Keith Jarrett Facing You,401,1971,31,52
+Mike Westbrook Metropolis,402,1971,13,31
+Willem Breuker Instant Composers Pool 008,403,1971,51,0
+Jan Garbarek Sart,404,1971,52,0
+Chick Corea The Gathering,405,1971,52,54
+Keith Tippett Septober Energy,406,1971,52,94
+Derek Bailey Solo Guitar,407,1971,51,0
+George Russell Listen to the Silence,408,1971,11,83
+Ornette Coleman Science Fiction,409,1971,52,82
+Chick Corea Piano Improvisations,412,1971,93,0
+Joe Zawinul Zawinul,413,1971,54,0
+Joe McPhee Trinity,414,1971,52,0
+Oliver Nelson Swiss Suite,415,1971,72,111
+Terje Rypdal Terje Rypdal,416,1971,31,54
+Alice Coltrane Universal Consciousness,417,1971,52,0
+Paul Winter Icarus,418,1971,31,0
+Alice Coltrane World Galaxy,419,1971,52,111
+Paul Winter Road,420,1971,31,0
+Donald Byrd Ethiopian Knights,421,1971,72,111
+Tim Weisberg Tim Weisberg,422,1971,54,109
+Anthony Braxton Saxophone Improvisations,423,1972,51,52
+Dave Holland Conference of the Birds,424,1972,52,0
+Weather Report I Sing the Body Electric,426,1972,54,0
+Jean-Luc Ponty Sonata Erotica,427,1972,52,54
+London Jazz Composers Orchestra Ode,428,1972,51,52
+Herbie Hancock Crossings,429,1972,54,72
+John Surman Westering Home,430,1972,31,52
+Chick Corea Light as a Feather,431,1972,54,75
+Chick Corea Return To Forever,433,1972,54,75
+Paul Motian Conception Vessel,434,1972,31,52
+Neil Ardley Symphony of Amaranths,435,1972,82,0
+David Liebman Open Sky,436,1972,52,0
+Ornette Coleman Skies of America,437,1972,52,54
+Gato Barbieri Bolivia,438,1972,5,17
+Gary Burton Crystal Silence,440,1972,31,0
+Evan Parker Collective Calls,441,1972,51,52
+Albert Mangelsdorff Trombirds,443,1972,52,0
+Julius Hemphill Dogon AD,444,1972,52,0
+Randy Weston Tanjah,445,1972,13,16
+Miles Davis On The Corner,450,1972,16,0
+Oregon Music Of Another Present Era,451,1972,31,51
+Paul Bley Open To Love,452,1972,31,0
+George Russell Living Time,453,1972,13,54
+McCoy Tyner Echoes of a Friend,454,1972,82,0
+Mahavishnu Orchestra Birds of Fire,455,1972,54,73
+Stanley Cowell Illusion Suite,456,1972,54,111
+Stanley Clarke Children of Forever,457,1972,54,111
+Gary Bartz Juju Street Songs,458,1972,54,0
+Airto Moreira Free,459,1972,31,51
+Sam Rivers Streams,460,1973,10,0
+Art Ensemble of Chicago Fanfare For The Warriors,463,1973,52,0
+Don Cherry Relativity Suite,464,1973,52,0
+Cecil Taylor Spring of Two Blue J's,465,1973,52,0
+Keith Jarrett Solo Concerts,466,1973,51,0
+Carla Bley Tropic Appetites,468,1973,31,0
+Marion Brown Geechee Recollections,470,1973,52,0
+Herbie Hancock Sextant,471,1973,46,54
+Frank Wright Church Number Nine,472,1973,52,0
+Gato Barbieri Latin America,473,1973,75,0
+Frank Lowe Black Beings,474,1973,52,111
+Ralph Towner Diary,475,1973,31,0
+Dewey Redman The Ear of the Behearer,476,1973,52,0
+Eberhard Weber Colours of Chloe,477,1973,31,0
+Oregon Distant Hills,479,1973,31,0
+Weather Report Sweetnighter,481,1973,54,0
+David Liebman Lookout Farm,482,1973,31,0
+Cecil Taylor Solo,484,1973,72,111
+John Surman Morning Glory,485,1973,52,93
+Mal Waldron Up Popped the Devil,487,1973,52,0
+Michael Mantler No Answer,488,1973,31,0
+Billy Cobham Spectrum,489,1973,54,72
+Herbie Hancock Headhunters,490,1973,53,72
+Charles Earland Leaving This Planet,492,1973,54,0
+Flora Purim Butterfly Dreams,493,1973,54,0
+Herbie Hancock Thrust,494,1973,54,72
+Billy Cobham Crosswinds,495,1973,54,0
+Sam Rivers Crystals,496,1974,51,52
+Cecil Taylor Silent Tongues,497,1974,51,0
+Steve Lacy Saxophone Special,498,1974,52,0
+Jeanne Lee Conspiracy,499,1974,52,111
+Bennie Maupin The Jewel In The Lotus,501,1974,54,111
+Weather Report Mysterious Traveller,502,1974,54,0
+Randy Weston Blues To Africa,503,1974,82,0
+Marion Brown Sweet Earth Flying,504,1974,52,0
+Paul Rutherford Gentle Harm of the Bourgeoisie,505,1974,52,0
+Marvin Peterson Children of the Fire,506,1974,62,0
+John Abercrombie Timeless,507,1974,31,54
+Roswell Rudd Flexible Flyer,508,1974,52,0
+McCoy Tyner Atlantis,509,1974,82,0
+Globe Unity Orchestra Hamburg '74,510,1974,52,0
+Cecil McBee Mutima,511,1974,111,0
+Mahavishnu Orchestra Apocalypse,512,1974,54,73
+Ralph Towner Solstice,513,1974,31,0
+Terje Rypdal Whenever I Seem To Be Far Away,514,1974,31,54
+Steve Kuhn Ecstasy,516,1974,51,93
+Joe McPhee Pieces Of Light,517,1974,52,0
+Keith Jarrett Death and the Flower,518,1974,52,0
+Steve Kuhn Trance,519,1974,82,114
+David Liebman Drum Ode,521,1974,54,0
+Kenny Barron Peruvian Blue,522,1974,93,0
+Bill Watrous Manhattan Wildlife Refuge,524,1974,13,0
+Lonnie Liston Smith Expansions,525,1974,55,72
+McCoy Tyner Sama Layuca,527,1974,62,93
+Billy Cobham Total Eclipse,529,1974,54,73
+Revolutionary Ensemble The Psyche,531,1975,52,0
+Miles Davis Pangaea,532,1975,54,0
+Evan Parker Saxophone Solos,533,1975,51,52
+Leroy Jenkins For Players Only,534,1975,10,30
+Air Air Song,535,1975,44,117
+Oliver Lake Heavy Spirits,536,1975,31,51
+Kenny Wheeler Gnu High,537,1975,31,0
+Terje Rypdal Odyssey,538,1975,31,0
+Steve Lacy Dreams,539,1975,52,0
+Pat Metheny Bright Size Life,540,1975,54,0
+Anthony Braxton Five Pieces,541,1975,52,0
+Michael Mantler Michael Mantler - Carla Bley,544,1975,13,83
+Sonny Sharrock Paradise,545,1975,52,72
+Dudu Pukwana Diamond Express,546,1975,52,0
+Frank Lowe The Flam,548,1975,52,0
+John Surman S.O.S.,549,1975,31,0
+Don Pullen Healing Force,550,1975,51,82
+Miles Davis Get Up With It,551,1975,52,54
+Julius Hemphill Coon Bid'ness,552,1975,52,0
+Gateway Trio Gateway,553,1975,47,75
+Collin Walcott Cloud Dance,554,1975,31,0
+Don Moye Sun Percussion,555,1975,52,0
+Martial Solal Nothing But Piano,556,1975,31,0
+Eberhard Weber Yellow Fields,557,1975,31,0
+Don Pullen Five To Go,558,1975,13,42
+Charles Tolliver Impact,559,1975,13,93
+Lol Coxhill Welfare State,560,1975,11,46
+Joe McPhee The Willisau Concert,562,1975,51,52
+Yosuke Yamashita Chiasma,563,1975,52,0
+Michael Mantler The Hapless Child,564,1975,9,45
+Dollar Brand Soweto,565,1975,6,31
+Don Pullen Capricorn Rising,566,1975,52,0
+Stanley Clarke Journey to Love,567,1975,72,73
+Enrico Rava The Pilgrim and the Stars,568,1975,31,0
+Manhattan Transfer Manhattan Transfer,569,1975,13,116
+Keith Jarrett Survivors Suite,570,1976,31,0
+George Lewis Solo Trombone Record,571,1976,51,0
+Air Air Raid,572,1976,114,0
+David Murray Flowers for Albert,573,1976,52,0
+Derek Bailey Company 1,574,1976,51,52
+Jan Garbarek Dis,575,1976,31,0
+Albert Mangelsdorff Tromboneliness,577,1976,51,0
+Ornette Coleman Dancing in Your Head,580,1976,52,53
+Jaco Pastorius Jaco Pastorius,581,1976,54,72
+Martial Solal Movability,582,1976,31,0
+Art Lande Rubisa Patrol,584,1976,31,0
+Chick Corea Romantic Warrior,585,1976,54,0
+Jean-Luc Ponty Imaginary Voyage,587,1976,54,73
+Dexter Gordon Biting the Apple,589,1976,62,0
+Joachim Kuhn Springfever,590,1976,54,73
+Eberhard Weber The Following Morning,591,1976,31,0
+Weather Report Black Market,594,1976,54,0
+Al DiMeola Land of The Midnight Sun,596,1976,54,0
+Woody Shaw Little Red's Fantasy,597,1976,93,0
+Stanley Clarke School Days,598,1976,72,109
+Yosuke Yamashita Banslikana,599,1976,52,0
+George Lewis Shadowgraph,605,1977,10,52
+Joe McPhee Graphics,606,1977,35,103
+James Ulmer Revealing,607,1977,31,51
+Pat Metheny Watercolors,608,1977,31,54
+John Scofield East Meets West,609,1977,54,0
+Julius Hemphill Blue Boye,611,1977,10,11
+Michael Mantler Movies,612,1977,31,0
+Roscoe Mitchell Nonaah,614,1977,52,0
+Art Lande Desert Marauders,616,1977,31,0
+Chico Freeman Kings of Mali,617,1977,51,82
+Arthur Blythe Metamorphosis,619,1977,11,93
+Collin Walcott Grazing Dreams,620,1977,31,51
+Dave Holland Emerald Tears,622,1977,31,0
+Neil Ardley Kaleidoscope of Rainbows,623,1977,31,72
+Weather Report Heavy Weather,627,1977,54,0
+Derek Bailey Company 5,629,1977,51,0
+Chico Freeman No Time Left,630,1977,52,0
+Paul Motian Dance,631,1977,31,0
+Jan Garbarek Places,633,1977,31,0
+World Saxophone Quartet Point Of No Return,634,1977,52,0
+John Tchicai Real,635,1977,31,0
+Julius Hemphill Raw Materials and Residuals,636,1977,10,0
+Julius Hemphill Roi Boye and the Gotham Minstrels,639,1977,52,0
+Kenny Wheeler Deer Wan,640,1977,31,0
+Leroy Jenkins Lifelong Ambitions,642,1977,31,51
+Ralph Towner Sound And Shadows,644,1977,31,93
+Hamiet Bluiett Birthright,645,1977,52,0
+Jean-Luc Ponty Enigmatic Ocean,646,1977,54,73
+Muhal Richard Abrams 1-OQA+19,647,1977,52,0
+Cecil McBee Music From the Source,648,1977,31,52
+Steve Lacy Raps,649,1977,31,52
+Gateway Trio 2,651,1977,47,75
+Al DiMeola Elegant Gypsy,654,1977,54,73
+Arthur Blythe Bush Baby,657,1977,52,0
+Roscoe Mitchell LRG-Maze-S II Examples,660,1978,52,0
+Leroy Jenkins Legend of Ai Glatson,661,1978,52,93
+Sam Rivers Waves,664,1978,52,0
+George Lewis Imaginary Suite,665,1978,0,46
+Don Pullen Warriors,666,1978,52,0
+Cecil Taylor 3 Phasis,668,1978,11,51
+John Oswald Improvised,669,1978,11,31
+Andrew Cyrille Metamusician's Stomp,670,1978,52,0
+Art Ensemble of Chicago Nice Guys,672,1978,52,0
+Carla Bley Musique Mecanique,673,1978,31,0
+Air Open Air Suit,674,1978,0,29
+Marvin Peterson The Light,675,1978,82,111
+Anthony Davis Of Blues and Dream,676,1978,14,0
+David Liebman Pendulum,677,1978,93,0
+Pat Metheny Group,678,1978,54,0
+Ernie Krivda The Alchemist,679,1978,72,0
+Evan Parker Monoceros,680,1978,51,0
+Ganelin Trio Concerto Grosso,682,1978,51,52
+Cecil Taylor Cecil Taylor Unit,683,1978,11,51
+James Ulmer Tales From Captain Black,684,1978,31,72
+Oliver Lake Life Dance Of Is,685,1978,10,0
+Arthur Blythe Lenox Avenue Breakdown,688,1978,31,0
+Paul Winter Common Ground,689,1978,31,42
+Max Roach & Anthony Braxton Birth And Rebirth,695,1978,16,0
+Chico Freeman The Outside Within,696,1978,31,52
+Anthony Braxton Alto Saxophone Improvisations,700,1979,51,52
+Dollar Brand African Marketplace,701,1979,3,52
+Martial Solal Four Keys,702,1979,31,93
+Terje Rypdal Descendre,703,1979,31,54
+Jack DeJohnette Special Edition,704,1979,31,52
+Andrew Cyrille Nuba,705,1979,52,0
+Art Pepper Straight Life,707,1979,16,93
+Anthony Davis Hidden Voices,708,1979,52,0
+Niels-Henning Orsted Pedersen Dancing On The Tables,710,1979,16,62
+George Lewis Homage to Charles Parker,712,1979,51,52
+Paul Motian Le Voyage,713,1979,31,0
+John Surman Upon Reflection,715,1979,8,31
+Joseph Jarman Magic Triangle,716,1979,52,0
+Max Roach & Anthony Braxton One in Two,717,1979,16,0
+Woody Shaw Woody III,718,1979,31,52
+Ralph Towner Solo Concert,720,1979,31,0
+Kenny Wheeler Around 6,721,1979,31,0
+Cecil McBee Alternate Spaces,723,1979,31,82
+Fred Anderson Dark Day,724,1979,52,0
+Al DiMeola Splendido Hotel,725,1979,73,0
+String Trio Of New York First String,726,1979,10,0
+Pat Metheny American Garage,727,1979,31,54
+Billy Bang Sweet Space,728,1979,49,0
+Eberhard Weber Fluid Rustle,731,1979,54,0
+Anthony Davis Lady of the Mirrors,734,1980,10,0
+Pat Metheny As Falls Wichita So Falls Wichita,737,1980,31,46
+Pat Metheny 1980-1981,740,1980,31,93
+Steve Tibbetts YR,741,1980,11,54
+David Murray Ming,743,1980,52,0
+Ganelin Trio Ancora Da Capo,744,1980,31,51
+Muhal Richard Abrams Mama and Daddy,747,1980,10,52
+Derek Bailey Aida,748,1980,51,0
+Evan Parker Six of One,749,1980,51,0
+Steps Ahead Step By Step,750,1980,56,65
+Music Revelation Ensemble No Wave,752,1980,52,93
+Jan Garbarek Eventyr,753,1980,31,0
+David Liebman If They Only Knew,754,1980,82,0
+Tom Varner Quartet,755,1980,31,0
+Paul Winter Callings,757,1980,8,84
+Kazumi Watanabe To Chi Ka,760,1980,31,54
+Jack DeJohnette Tin Can Alley,762,1980,31,0
+Jay Clayton All Out,763,1980,31,52
+Art Pepper Winter Moon,765,1980,93,0
+Julius Hemphill Flat Out Jump Suite,766,1980,10,0
+Anthony Davis Episteme,767,1981,51,0
+Joe McPhee Topology,768,1981,51,52
+Paul Motian Psalm,769,1981,31,0
+Rova Saxophone Quartet As Was,770,1981,52,0
+MUhal Richard Abrams Blues Forever,772,1981,31,0
+David Murray Home,776,1981,31,52
+Willem Breuker In Holland,778,1981,51,52
+Billy Bang Rainbow Gladiator,780,1981,52,0
+Frederic Hand Heart's Song,782,1981,13,116
+Jaco Pastorius Word of Mouth,783,1981,54,73
+Joanne Brackeen Special Identity,784,1981,10,31
+Hal Russell NRG Ensemble,785,1981,52,0
+Marvin Peterson The Angels of Atlanta,786,1981,59,110
+Jan Garbarek Paths Prints,787,1981,31,0
+Oscar Peterson Nigerian Marketplace,788,1981,16,62
+Ronald Shannon Jackson Street Priest,790,1981,31,50
+Steve Douglas Rainbow Suite,791,1981,0,20
+Steve Khan Eyewitness,792,1981,54,0
+Wynton Marsalis Wynton Marsalis,793,1981,16,31
+Henry Threadgill When Was That,796,1982,31,0
+Air 80 Degrees Below,797,1982,31,51
+Billy Bang Outline No 12,798,1982,31,51
+Dave Holland Life Cycle,799,1982,30,52
+David Murray Murray's Steps,800,1982,31,0
+Jane Ira Bloom Mighty Lights,801,1982,31,0
+Lol Coxhill Instant Replay,802,1982,31,51
+Dewey Redman The Struggle Continues,803,1982,31,93
+Steve Lacy Flame,804,1982,52,0
+Elements Elements,805,1982,18,0
+James Ulmer Black Rock,807,1982,50,72
+Joe McPhee Oleo,808,1982,52,0
+John Carter Dauwhe,809,1982,52,0
+Steps Ahead Paradox,811,1982,56,61
+Ronald Shannon Jackson Mandance,813,1982,31,52
+Paul Winter Missa Gaia,815,1982,86,88
+Cecil McBee Flying Out,816,1982,33,48
+Shadowfax Shadowfax,817,1982,31,54
+Jack DeJohnette Inflation Blues,818,1982,31,0
+Kevin Eubanks Guitarist,820,1982,16,31
+Derek Bailey Epiphany,821,1982,51,0
+Anthony Davis Hemispheres,823,1983,51,0
+Terje Rypdal Eos,824,1983,46,51
+Don Pullen Evidence of Things Unseen,825,1983,10,52
+James Newton Luella,826,1983,16,51
+Ganelin Trio Semplice,828,1983,31,51
+Microscopic Septet Take the Z Train,829,1983,31,0
+MUhal Richard Abrams Rejoicing with Light,830,1983,52,0
+Tim Berne Mutant Variations,831,1983,52,0
+Steps Ahead Steps Ahead,832,1983,54,93
+Jamaaladeen Tacuma Show Stopper,834,1983,73,0
+Paul Motian The Story Of Maryam,835,1983,31,0
+Kenny Wheeler Double Double You,837,1983,31,0
+Dave Holland Jumpin' In,840,1983,31,0
+Henry Threadgill Just the Facts,841,1983,31,0
+George Russell So What,842,1983,54,72
+Bob Wasserman Solo,844,1983,32,0
+Joe McPhee Visitation,845,1983,52,0
+Bobby Watson Jewel,846,1983,31,32
+Branford Marsalis Scenes In The City,847,1983,31,62
+Ronald Shannon Jackson Barbeque Dog,848,1983,31,0
+Shadowfax Shadowdance,849,1983,54,0
+John Zorn Locus Solus,850,1984,11,31
+Geri Allen Printmakers,851,1984,31,0
+Steps Ahead Modern Times,852,1984,31,54
+Oliver Lake Expandable Language,853,1984,31,51
+Hal Russell Conserving NRG,855,1984,52,0
+Henry Kaiser Invite The Spirit,858,1984,51,0
+Paul Motian It Should've Happened A Long Time Ago,861,1984,31,0
+Keith Tippett A Loose Kite In A Gentle Wind,862,1984,51,52
+Dave Holland Seeds of Time,863,1984,31,0
+James Williams Alter Ego,864,1984,44,81
+Bobby McFerrin The Voice,866,1984,31,0
+Butch Morris Current Trends In Racism,867,1985,11,46
+Bobby Previte Bump The Renaissance,868,1985,31,0
+George Russell The African Game,869,1985,52,0
+Rova Saxophone Quartet Crowd,870,1985,52,0
+Lyle Mays Lyle Mays,871,1985,31,0
+David Liebman The Loneliness Of A Long-Distance Runner,872,1985,31,51
+David Torn Best Laid Plans,875,1985,54,0
+Mark Nauseef Wun Wun,877,1985,31,0
+Kip Hanrahan Vertical Currency,878,1985,5,54
+Patrick O'Hearn Ancient Dreams,879,1985,8,89
+Gerry Hemingway Outerbridge Crossing,882,1985,31,0
+Marc Johnson Bass Desires,884,1985,31,54
+Terje Rypdal Chasers,885,1985,31,0
+Wynton Marsalis Black Codes,887,1985,31,82
+Wynton Marsalis J Mood,888,1985,31,0
+Paul Winter Canyon,889,1985,109,0
+Tony Williams Civilization,890,1985,73,0
+Michael Mantler Alien,891,1985,31,0
+Herbie Hancock Village Life,892,1985,54,55
+Manhattan Transfer Vocalese,893,1985,12,116
+John Zorn Cobra,894,1986,46,51
+Evan Parker Atlanta,895,1986,51,52
+Steve Coleman On the Edge Of Tomorrow,897,1986,50,52
+Jim Staley Mumbo Jumbo,899,1986,51,52
+Tim Berne Fulton Street Maul,901,1986,51,52
+Cecil Taylor For Olim,902,1986,51,52
+Michael Shrieve In Suspect Terrain,904,1986,8,0
+Kazumi Watanabe Spice Of Life,905,1986,54,0
+Sonny Sharrock Guitar,907,1986,11,14
+Evan Parker The Snake Decides,908,1986,51,0
+Courtney Pine Journey to the Urge Within,909,1986,31,111
+Last Exit Koln,911,1986,11,14
+John Carter Dance of Love Ghosts,912,1986,31,0
+Kenny G Duotones,913,1986,72,109
+Reggie Workman Synthesis,914,1986,31,52
+Christy Doran Red Twist and Tuned Arrow,917,1986,52,0
+Arturo Sandoval Tumbaito,918,1986,75,0
+Henry Threadgill Easily Slip Into Another World,919,1987,31,0
+Anthony Davis Undine,920,1987,31,0
+Steve Lacy Momentum,921,1987,52,0
+John Zorn Spillane,922,1987,30,0
+Hank Roberts Black Pastels,923,1987,31,54
+Marilyn Crispell Labyrinths,924,1987,52,0
+Guy Klucevsek Scenes From A Mirage,925,1987,30,46
+David Torn Cloud About Mercury,926,1987,8,31
+"Bobby Previte Dull Bang, Gushing Sound, Human Shriek",927,1987,8,112
+Tim Berne Sanctified Dreams,928,1987,52,0
+Borbetomagus Fish That Sparkling Bubble,929,1987,46,52
+Marty Ehrlich Pliant Plaint,930,1987,31,0
+Benny Carter Central City Sketches,931,1987,13,0
+Bobby Previte Pushing The Envelope,932,1987,31,0
+Danny Gottlieb Aquamarine,934,1987,54,73
+Dave Holland Razor's Edge,935,1987,31,0
+Henry Kaiser Crazy-backwards Alphabet,937,1987,7,11
+Henry Kaiser Devil In The Drain,938,1987,9,11
+Kenny Wheeler Flutter By Butterfly,939,1987,31,0
+Mark Helias The Current Set,940,1987,31,0
+Michael Brecker Michael Brecker,941,1987,31,54
+Sonny Sharrock Seize the Rainbow,943,1987,31,52
+Earthworks Earthworks,946,1987,63,65
+Bill Frisell Before We Were Born,947,1988,31,0
+Henry Threadgill Rag Bush And All,948,1988,31,0
+Lyle Mays Street Dreams,950,1988,54,109
+Dave Holland Triplicate,951,1988,31,0
+John Carter Fields,953,1988,52,0
+Leni Stern Secrets,954,1988,31,54
+Music Revelation Ensemble Music Revelation Ensemble,956,1988,31,72
+Trilok Gurtu Usfret,959,1988,54,0
+Bobby Previte Claude's Late Morning,960,1988,31,0
+Bill Frisell Lookout for Hope,961,1988,31,0
+Marcus Roberts Truth is Spoken Here,963,1988,31,93
+David Ware Passage To Music,964,1988,52,0
+David Liebman Trio + One,965,1988,31,0
+Freddie Hubbard Stardust,966,1988,62,0
+Gary Thomas Code Violations,967,1988,31,54
+Tim Berne Fractured Fairy Tales,972,1989,31,0
+Nimal Nimal,975,1989,9,94
+Michael Shrieve Stiletto,977,1989,31,0
+Dave Holland Extensions,978,1989,31,0
+Henry Kaiser Re-Marrying For Money,981,1989,9,11
+Michael Shrieve Big Picture,982,1989,8,39
+John Zorn Naked City,987,1989,9,11
+Marty Fogel Many Bobbing Heads,990,1989,73,0
+No Safety This Lost Leg,993,1989,46,90
+John Carter Shadows on a Wall,994,1989,31,0
+Ray Anderson Blues Bred,996,1989,31,0
+Evan Parker Conic Sections,997,1989,51,0
+Dewey Redman Living on the Edge,998,1989,52,0
+John Scofield Time on my Hands,1000,1989,16,32
+Roy Hargrove Diamond In The Rough,1001,1989,62,0
+Jane Ira Bloom Art & Aviation,1005,1992,12,17
+Maria Schneider Evanescence,1006,1992,13,31
+Medeski Martin and Wood Notes From the Underground,1012,1992,31,52
+Courtney Pine To The Eyes Of Creation,1013,1992,31,0
+Hank Roberts Little Motor People,1014,1992,31,51
+Franz Koglmann L'Heure Bleue,1019,1992,52,0
+Bill Frisell Have a Little Faith,1020,1992,31,0
+Bill Frisell This Land,1022,1992,93,0
+Hal Russell Bells,1026,1992,52,0
+John Scofield What We Do,1028,1992,31,0
+Ray Anderson Every One of Us,1031,1992,13,0
+Uri Caine Sphere Music,1032,1992,31,0
+Sonny Simmons Ancient Ritual,1033,1992,51,0
+Michael Formanek Wide Open Spaces,1037,1990,31,0
+Charlie Haden Dream Keeper,1042,1990,10,13
+Bobby Previte Empty Suits,1043,1990,31,0
+Myra Melford Jump,1046,1990,42,52
+Danny Gottlieb Brooklyn Blues,1047,1990,98,0
+David Liebman The Tree,1049,1990,31,0
+Elements Spirit River,1050,1990,93,0
+Hank Roberts Birds Of Prey,1051,1990,31,0
+Music Revelation Ensemble Elec Jazz,1052,1990,31,72
+Phil Woods All Bird's Children,1056,1990,13,38
+Philip Catherine I Remember You,1057,1990,92,0
+Ray Anderson What Because,1058,1990,10,31
+Terence Blanchard Terence Blanchard,1061,1990,31,0
+Yellowjackets Green House,1063,1990,5,13
+Kenny Wheeler Widow in the Window,1064,1990,31,0
+Matthew Shipp Circular Temple,1067,1990,52,0
+Michael Formanek Extended Animation,1072,1991,31,0
+Bill Frisell Where in the World,1074,1991,25,34
+Don Byron Tuskegee Experiments,1075,1991,31,0
+Marilyn Crispell Images,1076,1991,52,0
+Sonny Sharrock Ask the Ages,1079,1991,52,62
+Steve Coleman Black Science,1080,1991,31,72
+Joe Lovano From the Soul,1081,1991,13,31
+David Sanborn Another Hand,1082,1991,31,0
+David Ware Flight Of I,1083,1991,52,0
+Terje Rypdal Q.E.D.,1085,1991,30,0
+Jackie McLean Rites of Passage,1086,1991,31,82
+John Scofield Grace Under Pressure,1088,1991,31,0
+Wynton Marsalis Blue Interlude,1093,1991,16,0
+Marty Ehrlich Side by Side,1094,1991,0,31
+Tim Berne Can't Put My Finger On It,1095,1991,31,0
+Joey Baron Tongue in Groove,1097,1991,31,0
+Steve Swallow Swallow,1102,1991,31,0
+Steve Turre Right There,1104,1991,31,0
+Branford Marsalis The Beautiful Ones Are Not Yet Born,1106,1991,93,0
+George Lewis Voyager,1111,1993,63,0
+Matthew Shipp Prism,1112,1993,52,0
+Zeena Parkins Isabelle,1113,1993,9,11
+Music Revelation Ensemble In The Name Of,1116,1993,31,72
+Greg Osby 3D Lifestyles,1122,1993,1,124
+John Scofield Hand Jive,1124,1993,31,0
+Charlie Hunter Trio,1133,1993,31,0
+Gerry Hemingway Demon Chaser,1134,1993,51,0
+Ray Anderson Big Band Record,1139,1993,91,99
+Myra Melford Even the Sounds Shine,1141,1994,31,0
+Steve Coleman Def Trance Beat,1147,1994,6,31
+Joshua Redman Moodswing,1150,1994,31,42
+Franklin Kiermyer Solomon's Daughter,1151,1994,51,52
+Mark Helias Loopin' the Cool,1152,1994,31,52
+Dave Douglas Five,1167,1995,27,0
+Bill Frisell Go West,1168,1995,112,0
+Don Byron Music for Six Musicians,1175,1995,31,0
+Uri Caine Toys,1176,1995,31,0
+Maria Schneider Coming About,1181,1996,13,31
+Zeena Parkins Mouth=Maul=Betrayer,1182,1996,37,46
+Kenny Wheeler Siren's Song,1183,1996,31,0
+Matthew Shipp By the Law of Music,1185,1996,52,0
+Courtney Pine Modern Day Jazz Stories,1188,1996,39,40
+Joshua Redman Freedom In The Groove,1189,1996,93,0
+Steve Coleman Genesis,1195,1997,92,117
+ICP Orchestra Jubilee Varia,1197,1997,51,52
+Franz Koglmann O Moon My Pin Up,1202,1997,52,0
+Courtney Pine Underground,1203,1997,31,109
+Joe Lovano Trio Fascination,1206,1997,31,0
+Steve Coleman The Sonic Language of Myth - Believing Learning Knowing,1216,1999,6,31
+Marty Ehrlich Malinke's Dance,1217,1999,31,0
+Misha Mengelberg Solo,1222,1999,51,0
+Joshua Redman Beyond,1227,1999,31,0
+Branford Marsalis Contemporary Jazz,1229,1999,16,31
+Spring Heel Jack Disappeared,1232,2000,40,55
+Andrew Hill Dusk,1236,2000,19,81
+Dave Douglas El Trilogy,1237,2000,7,33
+Supersilent 5 (Rune Grammofon),1239,2001,8,10
+Brad Mehldau Art of the Trio,1251,2001,31,93
+Triangles Triangles,1252,2001,123,0
+William Parker O'Neal's Porch,1257,2001,31,52
+"Crispell, Peacock, Motian Amaryllis",1258,2001,31,0
+Tom Harrell Paradise,1259,2001,117,0
+Dave Douglas Witness,1261,2001,31,0
+Keith Jarrett Whisper Not,1263,2001,31,93
+Claudia Quintet I,1273,2002,31,32
+Keith Jarrett Always Let Me Go (ECM),1281,2002,31,52
+Joe Zawinul Faces and Places (ESC),1283,2002,6,54
+Joshua Redman Elastic (Warner),1288,2002,31,93
+Hiromi Another Mind (Telarc),1303,2003,54,0
+Spring Heel Jack Live (Thirsty Ear),1306,2003,40,46
+Bad Plus These Are The Vistas (Columbia),1312,2003,31,0
+Michael Brecker Wide Angles (2003),1313,2003,31,93
+Tord Gustavsen Changing Places (ECM),1314,2003,31,0
+Dave Douglas Freak In (Bluebird),1315,2003,10,51
+Andrew Hill Passing Ships (Blue Note),1316,2003,52,0
+Nicholas Payton Sonic Trance (Warner),1318,2003,31,0
+Triosk Moment Returns (Leaf),1323,2004,55,58
+Jan Garbarek In Praise of Dreams (ECM),1327,2004,31,0
+Geri Allen The Life of a Song (Telarc),1331,2004,31,0
+Diana Krall The Girl in the Other Room (Verve),1333,2004,31,0
+Wynton Marsalis The Magic Hour (Blue Note),1336,2004,31,0
+Dave Douglas Mountain Passages,1337,2005,31,52
+Wayne Shorter Beyond The Sound Barrier (Verve),1351,2005,31,0
+Terence Blanchard Flow (Blue Note),1352,2005,31,62
+Tomasz Stanko Lontano,1358,2006,31,0
+Dave Holland Critical Mass,1361,2006,56,61
+Bill Frisell History Mystery (Nonesuch),1367,2008,31,0
+Leo Smith Tabligh (Cuneiform),1368,2008,10,54
+Bill Frisell Disfarmer,1375,2009,10,31
+Joe Lovano Us Five (Blue Note),1377,2009,16,31
