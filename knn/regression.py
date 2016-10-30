@@ -1,11 +1,11 @@
 from pandas import Series, DataFrame
 import pandas as pd
 import numpy as np
-import numpy.random as npr
 import random
 from scipy.spatial import KDTree
 from sklearn.metrics import mean_absolute_error
 import sys
+import matplotlib.pyplot as plt
 
 sys.setrecursionlimit(10000)
 
@@ -39,6 +39,17 @@ class Regression:
     else:
       return m
 
+  def plot_error_rates(self):
+    folds = range(2, 11)
+    errors = pd.DataFrame({'max': 0, 'min': 0}, index=folds)
+    for f in folds:
+      error_rates = r.error_rate(f)
+      errors['max'][f] = max(error_rates)
+      errors['min'][f] = min(error_rates)
+    errors.plot(title='Mean Absolute Error of KNN over different folds')
+    plt.show()
+
+
   def error_rate(self, folds):
     holdout = 1 / float(folds)
     errors = []
@@ -48,7 +59,6 @@ class Regression:
 
     return errors
     
-
   def __validation_data(self, holdout):
     test_rows = random.sample(self.df.index, int(round(len(self.df) * holdout)))
     train_rows = set(range(len(self.df))) - set(test_rows)
