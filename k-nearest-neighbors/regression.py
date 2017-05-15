@@ -43,7 +43,7 @@ class Regression:
     folds = range(2, 11)
     errors = pd.DataFrame({'max': 0, 'min': 0}, index=folds)
     for f in folds:
-      error_rates = r.error_rate(f)
+      error_rates = self.error_rate(f)
       errors['max'][f] = max(error_rates)
       errors['min'][f] = min(error_rates)
     errors.plot(title='Mean Absolute Error of KNN over different folds')
@@ -60,7 +60,7 @@ class Regression:
     return errors
     
   def __validation_data(self, holdout):
-    test_rows = random.sample(self.df.index, int(round(len(self.df) * holdout)))
+    test_rows = random.sample(self.df.index.tolist(), int(round(len(self.df) * holdout)))
     train_rows = set(range(len(self.df))) - set(test_rows)
     df_test = self.df.ix[test_rows]
     df_train = self.df.drop(test_rows)
