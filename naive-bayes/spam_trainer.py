@@ -1,83 +1,84 @@
-from sets import Set
+# from sets import Set
 import io
 from tokenizer import Tokenizer
 from email_object import EmailObject
 from collections import defaultdict
 
+
 class SpamTrainer:
-  class Classification:
-    def __init__(self, guess, score):
-      self.guess = guess
-      self.score = score
-    def __eq__(self, other):
-      return self.guess == other.guess and self.score == other.score
+    class Classification:
+        def __init__(self, guess, score):
+            self.guess = guess
+            self.score = score
 
-  def __init__(self, training_files):
-    self.categories = Set()
+        def __eq__(self, other):
+            return self.guess == other.guess and self.score == other.score
 
-    for category, file in training_files:
-      self.categories.add(category)
+    def __init__(self, training_files):
+        self.categories = set()
 
-    self.totals = defaultdict(float)
+        for category, file in training_files:
+            self.categories.add(category)
 
-    self.training = {c: defaultdict(float) for c in self.categories}
+        self.totals = defaultdict(float)
 
-    self.to_train = training_files
-  
-  def normalized_score(self, email):
-    score = self.score(email)
-    scoresum = sum(score.values())
+        self.training = {c: defaultdict(float) for c in self.categories}
 
-    normalized = {cat: (aggregate/scoresum) for cat, aggregate in score.iteritems()}
-    return normalized
+        self.to_train = training_files
 
-  def total_for(self, category):
-    return self.totals[category]
+    def normalized_score(self, email):
+        score = self.score(email)
+        scoresum = sum(score.values())
 
-  def train(self):
-    for category, file in self.to_train:
-      email = EmailObject(io.open(file, 'rb'))
+        normalized = {cat: (aggregate / scoresum) for cat, aggregate in score.items()}
+        return normalized
 
-      self.categories.add(category)
-      
-      for token in Tokenizer.unique_tokenizer(email.body()):
-        self.training[category][token] += 1
-        self.totals['_all'] += 1
-        self.totals[category] += 1
+    def total_for(self, category):
+        return self.totals[category]
 
-    self.to_train = {}
+    def train(self):
+        for category, file in self.to_train:
+            email = EmailObject(io.open(file, 'r', errors='replace'))
 
-  def score(self, email):
-    self.train()
+            self.categories.add(category)
 
-    cat_totals = self.totals
+            for token in Tokenizer.unique_tokenizer(email.body()):
+                self.training[category][token] += 1
+                self.totals['_all'] += 1
+                self.totals[category] += 1
 
-    aggregates = {cat: cat_totals[cat]/cat_totals['_all'] for cat in self.categories}
+        self.to_train = {}
 
-    for token in Tokenizer.unique_tokenizer(email.body()):
-      for cat in self.categories:
-        value = self.training[cat][token]
-        r = (value+1)/(cat_totals[cat]+1)
-        aggregates[cat] *= r
+    def score(self, email):
+        self.train()
 
-    return aggregates
+        cat_totals = self.totals
 
-  def preference(self):
-    return sorted(self.categories, key=lambda cat: self.total_for(cat))
+        aggregates = {cat: cat_totals[cat] / cat_totals['_all'] for cat in self.categories}
 
-  def classify(self, email):
-    score = self.score(email)
+        for token in Tokenizer.unique_tokenizer(email.body()):
+            for cat in self.categories:
+                value = self.training[cat][token]
+                r = (value + 1) / (cat_totals[cat] + 1)
+                aggregates[cat] *= r
 
-    max_score = 0.0
-    preference = self.preference()
-    max_key = preference[-1]
+        return aggregates
 
-    for k,v in score.iteritems():
-      if v > max_score:
-        max_key = k
-        max_score = v
-      elif v == max_score and preference.index(k) > preference.index(max_key):
-        max_key = k
-        max_score = v
-    return self.Classification(max_key, max_score)
+    def preference(self):
+        return sorted(self.categories, key=lambda cat: self.total_for(cat))
 
+    def classify(self, email):
+        score = self.score(email)
+
+        max_score = 0.0
+        preference = self.preference()
+        max_key = preference[-1]
+
+        for k, v in score.items():
+            if v > max_score:
+                max_key = k
+                max_score = v
+            elif v == max_score and preference.index(k) > preference.index(max_key):
+                max_key = k
+                max_score = v
+        return self.Classification(max_key, max_score)
