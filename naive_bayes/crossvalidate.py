@@ -1,6 +1,11 @@
+"""
+Chapter 4. Naive Bayesian Classification
+The script to investigate cross-validation
+"""
+import io
+
 from spam_trainer import SpamTrainer
 from email_object import EmailObject
-import io
 
 print("Cross Validation")
 

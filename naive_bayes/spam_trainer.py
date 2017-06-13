@@ -1,12 +1,25 @@
-# from sets import Set
+"""
+Chapter 4. Naive Bayesian Classification
+SpamTrainer class
+"""
 import io
-from tokenizer import Tokenizer
-from email_object import EmailObject
 from collections import defaultdict
 
+from naive_bayes.tokenizer import Tokenizer
+from naive_bayes.email_object import EmailObject
 
-class SpamTrainer:
-    class Classification:
+
+class SpamTrainer(object):
+    """
+    Storing training data
+    Building a Bayesian classifier
+    Error minimization through cross-validation
+    """
+
+    class Classification(object):
+        """
+        Guess and score
+        """
         def __init__(self, guess, score):
             self.guess = guess
             self.score = score
@@ -17,7 +30,7 @@ class SpamTrainer:
     def __init__(self, training_files):
         self.categories = set()
 
-        for category, file in training_files:
+        for category, _ in training_files:
             self.categories.add(category)
 
         self.totals = defaultdict(float)
@@ -27,6 +40,11 @@ class SpamTrainer:
         self.to_train = training_files
 
     def normalized_score(self, email):
+        """
+        Calculates normalized score
+        :param email: EmailObject
+        :return: float number
+        """
         score = self.score(email)
         scoresum = sum(score.values())
 
@@ -34,6 +52,11 @@ class SpamTrainer:
         return normalized
 
     def total_for(self, category):
+        """
+        Get
+        :param category:
+        :return:
+        """
         return self.totals[category]
 
     def train(self):
@@ -50,6 +73,11 @@ class SpamTrainer:
         self.to_train = {}
 
     def score(self, email):
+        """
+        Calculates score
+        :param email: EmailObject
+        :return: float number
+        """
         self.train()
 
         cat_totals = self.totals

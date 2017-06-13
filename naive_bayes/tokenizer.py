@@ -1,9 +1,14 @@
+"""
+Chapter 4. Naive Bayesian Classification
+Text tokenizer
+"""
 import re
 
 
-# import sets
-
 class Tokenizer:
+    """
+    Splits lines by whitespaces, converts to lower case and builds n-grams.
+    """
     NULL = u'\u0000'
 
     @staticmethod

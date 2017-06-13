@@ -1,3 +1,4 @@
+import io
 import unittest
 import sys
 
@@ -8,10 +9,10 @@ from naive_bayes.email_object import EmailObject
 
 class TestHTMLEmail(unittest.TestCase):
     def setUp(self):
-        self.html_file = open('./tests/fixtures/html.eml', 'r')
-        self.html = self.html_file.read()
-        self.html_file.seek(0)
-        self.html_email = EmailObject(self.html_file)
+        with open('./tests/fixtures/html.eml', 'r') as html_file:
+            self.html = html_file.read()
+            html_file.seek(0)
+            self.html_email = EmailObject(html_file)
 
     def test_parses_stores_inner_text_html(self):
         body = "\n\n".join(self.html.split("\n\n")[1:])
@@ -21,8 +22,10 @@ class TestHTMLEmail(unittest.TestCase):
         else:
             # Python 2 code in this block
             expected = BeautifulSoup(body, 'html.parser', from_encoding="iso-8859-1").text
-        self.assertEqual(self.html_email.body(), expected)
+        actual_body = self.html_email.body()
+        self.assertEqual(actual_body, expected)
 
     def test_stores_subject(self):
-        subject = re.search("Subject: (.*)", self.html).group(1)
-        self.assertEqual(self.html_email.subject(), subject)
+        expected_subject = re.search("Subject: (.*)", self.html).group(1)
+        actual_subject = self.html_email.subject()
+        self.assertEqual(actual_subject, expected_subject)

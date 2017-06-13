@@ -1,47 +1,58 @@
+"""
+Chapter 4. Naive Bayesian Classification
+EmailObject class
+"""
 import email
 
 from bs4 import BeautifulSoup
 
 
-class EmailObject:
+class EmailObject(object):
+    """
+    Parses incoming email messages
+    """
     CLRF = "\n\r\n\r"
 
-    def __init__(self, file, category=None):
-        self.file = file
+    def __init__(self, infile, category=None):
         self.category = category
-        self.mail = email.message_from_file(self.file)
-        self.file.close()
+        self.mail = email.message_from_file(infile)
 
     def subject(self):
+        """
+        Get message subject line
+        :return: str
+        """
         return self.mail.get('Subject')
 
     def body(self):
+        """
+        Get message body
+        :return: str in Py3, unicode in Py2
+        """
         payload = self.mail.get_payload()
         if self.mail.is_multipart():
-            parts = [self.single_body(part) for part in list(payload)]
+            parts = [self._single_body(part) for part in list(payload)]
         else:
-            parts = [self.single_body(self.mail)]
+            parts = [self._single_body(self.mail)]
         parts = [part for part in parts if len(part) > 0]
         return self.CLRF.join(parts)
 
-    def single_body(self, part):
+    @staticmethod
+    def _single_body(part):
+        """
+        Get text from part.
+        :param part: email.Message
+        :return: str body or empty str if body cannot be decoded
+        """
         content_type = part.get_content_type()
         try:
             body = part.get_payload(decode=True)
             body = body.decode(errors='replace')
-        except:
+        except Exception:
             return ''
-
-        # if isinstance(body, bytes):
-        #     if part.get_content_charset() is None or part.get_content_charset() == 'default':
-        #         encoding = 'us-ascii'
-        #     else:
-        #         encoding = part.get_content_charset()
-        # body = body.decode(encoding=encoding, errors='replace')
 
         if content_type == 'text/html':
             return BeautifulSoup(body, 'html.parser').text
         elif content_type == 'text/plain':
             return body
-        else:
-            return ''
+        return ''
