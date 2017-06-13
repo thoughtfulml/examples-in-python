@@ -18,3 +18,24 @@ when package  name is a valid Python identifier.
 4. The variable name 'file' is not used because overrides the built-in function 'file'.
 
 5. 'file' is not closed by EmailObject, because it violates SRP (the 'file' object is owned and opened by caller).
+
+6. The standard Python idiom `with open('name') as fp:` used because it provides
+  exceptional stability (it closes file if any exception occurs inside the block).
+  
+This 
+  
+```
+with open('name') as fp:
+    do_something(fp)
+```
+
+is short equivalent (approximately) of:
+  
+```
+try:
+    fp = open('name')
+    do_something(fp)
+finally:
+    fp.close()
+```
+
