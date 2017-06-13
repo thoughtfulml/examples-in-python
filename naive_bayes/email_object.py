@@ -40,8 +40,15 @@ class EmailObject(object):
             parts = [self._single_body(part) for part in list(payload)]
         else:
             parts = [self._single_body(self.mail)]
-        parts = [part for part in parts if len(part) > 0]
-        return self.CLRF.join(parts)
+        decoded_parts = []
+        for part in parts:
+            if len(part) == 0:
+                continue
+            if isinstance(part, bytes):
+                decoded_parts.append(part.decode('utf-8'))
+            else:
+                decoded_parts.append(part)
+        return self.CLRF.join(decoded_parts)
 
     @staticmethod
     def _single_body(part):
@@ -53,7 +60,6 @@ class EmailObject(object):
         content_type = part.get_content_type()
         try:
             body = part.get_payload(decode=True)
-            # body = body.decode(errors='replace')
         except Exception:
             return ''
 

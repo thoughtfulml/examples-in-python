@@ -8,8 +8,8 @@ from naive_bayes.email_object import EmailObject
 class TestMultipartEmailObject(unittest.TestCase):
     def setUp(self):
         self.multipart_file = './tests/fixtures/multipart.eml'
-        with io.open(self.multipart_file, 'r') as multipart:
-            self.text = multipart.read()
+        with io.open(self.multipart_file, 'rb') as multipart:
+            self.text = multipart.read().decode('utf-8')
             multipart.seek(0)
             self.multipart_email = EmailObject(multipart)
 

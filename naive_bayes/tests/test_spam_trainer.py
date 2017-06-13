@@ -10,7 +10,7 @@ class TestSpamTrainer(unittest.TestCase):
         self.training = [['spam', './tests/fixtures/plain.eml'], ['ham', './tests/fixtures/small.eml'],
                          ['scram', './tests/fixtures/plain.eml']]
         self.trainer = SpamTrainer(self.training)
-        with io.open('./tests/fixtures/plain.eml', 'r') as eml_file:
+        with io.open('./tests/fixtures/plain.eml', 'rb') as eml_file:
             self.email = EmailObject(eml_file)
 
     def test_multiple_categories(self):

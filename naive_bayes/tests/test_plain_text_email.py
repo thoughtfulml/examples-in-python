@@ -11,7 +11,7 @@ class TestPlaintextEmailObject(unittest.TestCase):
     def setUp(self):
         self.plain_file = './tests/fixtures/plain.eml'
         with io.open(self.plain_file, 'rb') as plaintext:
-            self.text = plaintext.read()
+            self.text = plaintext.read().decode('utf-8')
             plaintext.seek(0)
             self.plain_email = EmailObject(plaintext)
 

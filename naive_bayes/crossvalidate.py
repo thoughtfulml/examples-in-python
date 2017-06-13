@@ -33,7 +33,7 @@ def parse_emails(keyfile):
     for line in io.open(keyfile, 'r'):
         label, file = line.rstrip().split(' ')
 
-        with io.open(file, 'r', errors='replace') as eml_file:
+        with io.open(file, 'rb') as eml_file:
             emails.append(EmailObject(eml_file, category=label))
 
     print("Done parsing files for " + keyfile)
