@@ -1,7 +1,14 @@
+"""
+Chapter 4. Naive Bayesian Classification
+Text tokenizer
+"""
 import re
-import sets
+
 
 class Tokenizer:
+  """
+  Splits lines by whitespaces, converts to lower case and builds n-grams.
+  """
   NULL = u'\u0000'
 
   @staticmethod
@@ -10,7 +17,7 @@ class Tokenizer:
 
   @staticmethod
   def unique_tokenizer(string):
-    return sets.Set(Tokenizer.tokenize(string))
+    return set(Tokenizer.tokenize(string))
 
   @staticmethod
   def ngram(string, ngram):
@@ -19,8 +26,8 @@ class Tokenizer:
     ngrams = []
 
     for i in range(len(tokens)):
-      shift = i-ngram+1
-      padding = max(-shift,0)
+      shift = i - ngram + 1
+      padding = max(-shift, 0)
       first_idx = max(shift, 0)
       last_idx = first_idx + ngram - padding
 

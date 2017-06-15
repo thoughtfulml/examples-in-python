@@ -1,5 +1,7 @@
 import unittest
+
 from naive_bayes.tokenizer import Tokenizer
+
 
 class TestTokenizer(unittest.TestCase):
   def setUp(self):
@@ -13,9 +15,9 @@ class TestTokenizer(unittest.TestCase):
 
   def test_ngrams(self):
     expectation = [
-        [u'\u0000', "quick"],
-        ["quick", "brown"],
-        ["brown", "fox"],
+      [u'\u0000', "quick"],
+      ["quick", "brown"],
+      ["brown", "fox"],
     ]
 
     actual = Tokenizer.ngram("quick brown fox", 2)

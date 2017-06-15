@@ -1,21 +1,37 @@
-from sets import Set
+"""
+Chapter 4. Naive Bayesian Classification
+SpamTrainer class
+"""
 import io
-from tokenizer import Tokenizer
-from email_object import EmailObject
 from collections import defaultdict
 
-class SpamTrainer:
-  class Classification:
+from naive_bayes.tokenizer import Tokenizer
+from naive_bayes.email_object import EmailObject
+
+
+class SpamTrainer(object):
+  """
+  Storing training data
+  Building a Bayesian classifier
+  Error minimization through cross-validation
+  """
+
+  class Classification(object):
+    """
+    Guess and score
+    """
+
     def __init__(self, guess, score):
       self.guess = guess
       self.score = score
+
     def __eq__(self, other):
       return self.guess == other.guess and self.score == other.score
 
   def __init__(self, training_files):
-    self.categories = Set()
+    self.categories = set()
 
-    for category, file in training_files:
+    for category, _ in training_files:
       self.categories.add(category)
 
     self.totals = defaultdict(float)
@@ -23,23 +39,34 @@ class SpamTrainer:
     self.training = {c: defaultdict(float) for c in self.categories}
 
     self.to_train = training_files
-  
+
   def normalized_score(self, email):
+    """
+    Calculates normalized score
+    :param email: EmailObject
+    :return: float number
+    """
     score = self.score(email)
     scoresum = sum(score.values())
 
-    normalized = {cat: (aggregate/scoresum) for cat, aggregate in score.iteritems()}
+    normalized = {cat: (aggregate / scoresum) for cat, aggregate in score.items()}
     return normalized
 
   def total_for(self, category):
+    """
+    Get
+    :param category:
+    :return:
+    """
     return self.totals[category]
 
   def train(self):
     for category, file in self.to_train:
-      email = EmailObject(io.open(file, 'rb'))
+      with io.open(file, 'rb') as eml_file:
+        email = EmailObject(eml_file)
 
       self.categories.add(category)
-      
+
       for token in Tokenizer.unique_tokenizer(email.body()):
         self.training[category][token] += 1
         self.totals['_all'] += 1
@@ -48,16 +75,21 @@ class SpamTrainer:
     self.to_train = {}
 
   def score(self, email):
+    """
+    Calculates score
+    :param email: EmailObject
+    :return: float number
+    """
     self.train()
 
     cat_totals = self.totals
 
-    aggregates = {cat: cat_totals[cat]/cat_totals['_all'] for cat in self.categories}
+    aggregates = {cat: cat_totals[cat] / cat_totals['_all'] for cat in self.categories}
 
     for token in Tokenizer.unique_tokenizer(email.body()):
       for cat in self.categories:
         value = self.training[cat][token]
-        r = (value+1)/(cat_totals[cat]+1)
+        r = (value + 1) / (cat_totals[cat] + 1)
         aggregates[cat] *= r
 
     return aggregates
@@ -72,7 +104,7 @@ class SpamTrainer:
     preference = self.preference()
     max_key = preference[-1]
 
-    for k,v in score.iteritems():
+    for k, v in score.items():
       if v > max_score:
         max_key = k
         max_score = v
@@ -80,4 +112,3 @@ class SpamTrainer:
         max_key = k
         max_score = v
     return self.Classification(max_key, max_score)
-
