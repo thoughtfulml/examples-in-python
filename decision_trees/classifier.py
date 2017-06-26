@@ -28,7 +28,7 @@ class MushroomProblem:
     perms = array_split(permutation(len(df)), folds)
 
     for i in range(folds):
-      train_idxs = range(folds)
+      train_idxs = list(range(folds))
       train_idxs.pop(i)
       train = []
       for idx in train_idxs:
