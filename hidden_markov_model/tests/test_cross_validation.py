@@ -2,7 +2,7 @@ import glob
 import re
 import unittest
 
-from pos_tagger import POSTagger
+from hidden_markov_model.pos_tagger import POSTagger
 
 
 class TestCrossValidation(unittest.TestCase):
@@ -12,9 +12,9 @@ class TestCrossValidation(unittest.TestCase):
         self.files = glob.glob('data/brown/c???')
 
     def test(self):
-        for i in xrange(TestCrossValidation.FOLDS):
-            print "test cross validation for fold %d" % i
-            splits = len(self.files) / TestCrossValidation.FOLDS
+        for i in range(TestCrossValidation.FOLDS):
+            print("test cross validation for fold %d" % i)
+            splits = int(len(self.files) / TestCrossValidation.FOLDS)
             validation_indexes = range(i * splits, (i + 1) * splits)
 
             training_indexes = list(set(range(len(self.files))).difference(validation_indexes))
@@ -29,7 +29,7 @@ class TestCrossValidation(unittest.TestCase):
             successes = 0
 
             for vf in validation_files:
-                with open(vf, 'rb') as f:
+                with open(vf, 'r') as f:
                     for l in f:
                         if re.match(r'\A\s+\Z', l):
                             continue
@@ -46,5 +46,5 @@ class TestCrossValidation(unittest.TestCase):
                                 successes += 1
                             else:
                                 misses += 1
-                print misses / float(misses + successes)
-            print 'Error rate was %f' % (misses / float(misses + successes))
+                print(misses / float(misses + successes))
+            print('Error rate was %f' % (misses / float(misses + successes)))

@@ -1,12 +1,12 @@
-from StringIO import StringIO
+from io import StringIO
 import unittest
 
-from pos_tagger import POSTagger
+from hidden_markov_model.pos_tagger import POSTagger
 
 
 class TestViterbi(unittest.TestCase):
     def setUp(self):
-        self.training = 'I/PRO want/V to/TO race/V ./. I/PRO like/V cats/N ./.'
+        self.training = u'I/PRO want/V to/TO race/V ./. I/PRO like/V cats/N ./.'
         self.sentence = 'I want to race.'
         self.pos_tagger = POSTagger([StringIO(self.training)])
         self.pos_tagger.train()
@@ -20,7 +20,7 @@ class TestViterbi(unittest.TestCase):
 
 class TestProbabilityCalculation(unittest.TestCase):
     def setUp(self):
-        self.stream = 'A/B C/D C/D A/D A/B ./.'
+        self.stream = u'A/B C/D C/D A/D A/B ./.'
         self.pos_tagger = POSTagger([StringIO(self.stream)])
         self.pos_tagger.train()
 

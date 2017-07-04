@@ -1,11 +1,11 @@
 from collections import defaultdict
 import re
 
-from corpus_parser import CorpusParser
+from hidden_markov_model.corpus_parser import CorpusParser
 
 
-class POSTagger:
-    class LazyFile:
+class POSTagger(object):
+    class LazyFile(object):
         def __init__(self, filename):
             self.filename = filename
             self.file = None
@@ -14,13 +14,16 @@ class POSTagger:
             self.file = open(self.filename, 'r')
             return self
 
-        def next(self):
+        def __next__(self):
             try:
-                line = self.file.next()
-            except StopIteration, e:
+                line = next(self.file)
+            except StopIteration as e:
                 self.file.close()
                 raise e
             return line
+
+        def next(self):
+            return self.__next__()
 
     @classmethod
     def from_filepaths(cls, training_files, eager=False):
@@ -78,10 +81,10 @@ class POSTagger:
                     last_viterbi[tag] = probability
 
         if len(last_viterbi) > 0:
-            backpointer = max(last_viterbi.iterkeys(),
+            backpointer = max(last_viterbi,
                               key=(lambda key: last_viterbi[key]))
         else:
-            backpointer = max(self.tag_frequencies.iterkeys(),
+            backpointer = max(self.tag_frequencies,
                               key=(lambda key: self.tag_frequencies[key]))
         backpointers.append(backpointer)
 
@@ -93,7 +96,7 @@ class POSTagger:
                 if len(last_viterbi) == 0:
                     break
 
-                best_tag = max(last_viterbi.iterkeys(),
+                best_tag = max(last_viterbi,
                                key=(lambda prev_tag: last_viterbi[prev_tag] *
                                                      self.tag_probability(prev_tag, tag) *
                                                      self.word_tag_probability(part, tag)))
@@ -108,10 +111,10 @@ class POSTagger:
             last_viterbi = viterbi
 
             if len(last_viterbi) > 0:
-                backpointer = max(last_viterbi.iterkeys(),
+                backpointer = max(last_viterbi,
                                   key=(lambda key: last_viterbi[key]))
             else:
-                backpointer = max(self.tag_frequencies.iterkeys(),
+                backpointer = max(self.tag_frequencies,
                                   key=(lambda key: self.tag_frequencies[key]))
             backpointers.append(backpointer)
 
@@ -144,7 +147,7 @@ class POSTagger:
 
         probability = 1.0
 
-        for i in xrange(1, length):
+        for i in range(1, length):
             probability *= self.tag_probability(tags[i - 1], tags[i]) * \
                            self.word_tag_probability(words[i], tags[i])
 
