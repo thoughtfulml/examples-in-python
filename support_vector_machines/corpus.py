@@ -1,10 +1,11 @@
+import io
 import re
 
 
 class Corpus(object):
     skip_regex = re.compile(r'[\'"\.\?\!]+')
     space_regex = re.compile(r'\s', re.UNICODE)
-    stop_words = [x.strip() for x in open('data/stopwords.txt').readlines()]
+    stop_words = [x.strip() for x in io.open('data/stopwords.txt', errors='ignore').readlines()]
     sentiment_to_number = {'positive': 1, 'negative': -1}
 
     @classmethod

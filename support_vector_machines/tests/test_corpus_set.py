@@ -1,12 +1,12 @@
-from StringIO import StringIO
+from io import StringIO
 import unittest
 
 from numpy import array
 
 from scipy.sparse import csr_matrix
 
-from corpus import Corpus
-from corpus_set import CorpusSet
+from support_vector_machines.corpus import Corpus
+from support_vector_machines.corpus_set import CorpusSet
 
 
 class TestCorpusSet(unittest.TestCase):

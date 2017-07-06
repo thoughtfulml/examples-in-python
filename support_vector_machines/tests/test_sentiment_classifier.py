@@ -1,8 +1,9 @@
 from fractions import Fraction
+import io
 import os
 import unittest
 
-from sentiment_classifier import SentimentClassifier
+from support_vector_machines.sentiment_classifier import SentimentClassifier
 
 
 class TestSentimentClassifier(unittest.TestCase):
@@ -27,7 +28,7 @@ class TestSentimentClassifier(unittest.TestCase):
         p_er = self.validate(classifier, pos['validation'], 'positive')
         total = Fraction(n_er.numerator + p_er.numerator,
                          n_er.denominator + p_er.denominator)
-        print total
+        print(total)
         self.assertLess(total, 0.35)
 
     def test_validate_itself(self):
@@ -49,14 +50,14 @@ class TestSentimentClassifier(unittest.TestCase):
                              'positive')
         total = Fraction(n_er.numerator + p_er.numerator,
                          n_er.denominator + p_er.denominator)
-        print total
+        print(total)
         self.assertEqual(total, 0)
 
     def validate(self, classifier, file, sentiment):
         total = 0
         misses = 0
 
-        with(open(file, 'rb')) as f:
+        with(open(file, errors='ignore')) as f:
             for line in f:
                 if classifier.classify(line) != sentiment:
                     misses += 1
@@ -68,9 +69,9 @@ class TestSentimentClassifier(unittest.TestCase):
         counter = 0
         training_filename = 'tests/fixtures/training%s' % ext
         validation_filename = 'tests/fixtures/validation%s' % ext
-        with(open(filepath, 'rb')) as input_file:
-            with(open(validation_filename, 'wb')) as val_file:
-                with(open(training_filename, 'wb')) as train_file:
+        with(io.open(filepath, errors='ignore')) as input_file:
+            with(io.open(validation_filename, 'w')) as val_file:
+                with(io.open(training_filename, 'w')) as train_file:
                     for line in input_file:
                         if counter % 2 == 0:
                             val_file.write(line)

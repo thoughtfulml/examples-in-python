@@ -1,11 +1,12 @@
+import io
 import os
 
 from numpy import ndarray
 
 from sklearn import svm
 
-from corpus import Corpus
-from corpus_set import CorpusSet
+from .corpus import Corpus
+from .corpus_set import CorpusSet
 
 
 class SentimentClassifier(object):
@@ -26,7 +27,7 @@ class SentimentClassifier(object):
         corpora = []
         for file in files:
             ext = os.path.splitext(file)[1]
-            corpus = Corpus(open(file, 'rb'),
+            corpus = Corpus(io.open(file, errors='ignore'),
                             cls.ext_to_sentiment[ext])
             corpora.append(corpus)
         corpus_set = CorpusSet(corpora)

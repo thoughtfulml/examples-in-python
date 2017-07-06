@@ -1,7 +1,7 @@
-from StringIO import StringIO
+from io import StringIO
 import unittest
 
-from corpus import Corpus
+from support_vector_machines.corpus import Corpus
 
 
 class TestCorpusSet(unittest.TestCase):
