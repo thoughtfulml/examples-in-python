@@ -2,7 +2,7 @@ import numpy as np
 import theanets
 import climate
 
-from tokenizer import Tokenizer
+from .tokenizer import Tokenizer
 
 climate.enable_default_logging()
 
@@ -48,7 +48,7 @@ class Network(object):
 
     def _code(self, vector):
         result = np.zeros(len(self.inputs))
-        for char, freq in vector.iteritems():
+        for char, freq in vector.items():
             if char in self.inputs:
                 result[self.inputs.index(char)] = float(freq)
         return result
@@ -57,5 +57,5 @@ class Network(object):
         hidden_neurons = 2 * (len(self.inputs) + len(self.languages)) / 3
 
         self._net = theanets.Classifier([len(self.inputs),
-                                         {'size': hidden_neurons, 'activation': 'tanh'},
+                                         {'size': int(hidden_neurons), 'activation': 'tanh'},
                                          len(self.languages)])

@@ -1,9 +1,9 @@
 # coding=utf-8
-from StringIO import StringIO
+from io import StringIO
 import string
 import unittest
 
-from language import Language
+from artificial_neural_networks.language import Language
 
 
 class TestLanguage(unittest.TestCase):

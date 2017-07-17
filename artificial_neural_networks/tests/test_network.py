@@ -1,5 +1,5 @@
 # coding=utf-8
-from StringIO import StringIO
+from io import StringIO
 import codecs
 from glob import glob
 import os
@@ -8,8 +8,8 @@ import unittest
 
 from nose_parameterized import parameterized
 
-from language import Language
-from network import Network
+from artificial_neural_networks.language import Language
+from artificial_neural_networks.network import Network
 
 
 def language_name(file_name):
@@ -36,7 +36,7 @@ class TestNetwork(unittest.TestCase):
     @parameterized.expand('English Finnish German Norwegian Polish Swedish'.split())
     def test_accuracy(self, lang):
         """Trains and cross-validates with an error of 5%"""
-        print 'Test for %s' % lang
+        print('Test for %s' % lang)
         self.compare(self.matthew_verses, './data/%s_1.txt' % lang)
         self.compare(self.acts_verses, './data/%s_0.txt' % lang)
 

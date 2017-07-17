@@ -31,4 +31,4 @@ class Tokenizer(object):
     @classmethod
     def normalize(cls, dist):
         sum_values = sum(dist.values())
-        return {k: Fraction(v, sum_values) for k, v in dist.iteritems()}
+        return {k: Fraction(v, sum_values) for k, v in dist.items()}
