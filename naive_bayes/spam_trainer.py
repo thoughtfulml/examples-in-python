@@ -5,8 +5,8 @@ SpamTrainer class
 import io
 from collections import defaultdict
 
-from naive_bayes.tokenizer import Tokenizer
-from naive_bayes.email_object import EmailObject
+from tokenizer import Tokenizer
+from email_object import EmailObject
 
 
 class SpamTrainer(object):

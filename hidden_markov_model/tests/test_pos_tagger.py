@@ -1,7 +1,7 @@
 import unittest
 
 from io import StringIO
-from hidden_markov_model.pos_tagger import POSTagger
+from pos_tagger import POSTagger
 
 
 class TestViterbi(unittest.TestCase):

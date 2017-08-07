@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.sparse import csr_matrix, vstack
 
-from .corpus import Corpus
+from corpus import Corpus
 
 
 class CorpusSet(object):

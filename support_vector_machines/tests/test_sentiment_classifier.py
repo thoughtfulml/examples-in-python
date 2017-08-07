@@ -3,7 +3,7 @@ import unittest
 
 import io
 import os
-from support_vector_machines.sentiment_classifier import SentimentClassifier
+from sentiment_classifier import SentimentClassifier
 
 
 class TestSentimentClassifier(unittest.TestCase):

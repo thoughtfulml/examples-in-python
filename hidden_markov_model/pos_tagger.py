@@ -4,7 +4,7 @@ Chapter 6. Hidden Markov Model
 from collections import defaultdict
 import re
 
-from hidden_markov_model.corpus_parser import CorpusParser
+from corpus_parser import CorpusParser
 
 
 class POSTagger(object):

@@ -1,8 +1,8 @@
 import unittest
 
 import io
-from naive_bayes.email_object import EmailObject
-from naive_bayes.spam_trainer import SpamTrainer
+from email_object import EmailObject
+from spam_trainer import SpamTrainer
 
 
 class TestSpamTrainer(unittest.TestCase):

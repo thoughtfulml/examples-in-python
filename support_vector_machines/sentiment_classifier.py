@@ -5,8 +5,8 @@ from numpy import ndarray
 
 from sklearn import svm
 
-from .corpus import Corpus
-from .corpus_set import CorpusSet
+from corpus import Corpus
+from corpus_set import CorpusSet
 
 
 class SentimentClassifier(object):

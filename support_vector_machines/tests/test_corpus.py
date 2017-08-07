@@ -1,7 +1,7 @@
 import unittest
 
 from io import StringIO
-from support_vector_machines.corpus import Corpus
+from corpus import Corpus
 
 
 class TestCorpusSet(unittest.TestCase):
