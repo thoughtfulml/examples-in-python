@@ -1,6 +1,6 @@
 import unittest
 
-from hidden_markov_model.corpus_parser import CorpusParser
+from corpus_parser import CorpusParser
 
 
 class TestCorpusParser(unittest.TestCase):

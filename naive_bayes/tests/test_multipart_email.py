@@ -2,7 +2,7 @@ import unittest
 
 import io
 import re
-from naive_bayes.email_object import EmailObject
+from email_object import EmailObject
 
 
 class TestMultipartEmailObject(unittest.TestCase):

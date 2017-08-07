@@ -3,14 +3,14 @@ import unittest
 from io import StringIO
 from numpy import array
 from scipy.sparse import csr_matrix
-from support_vector_machines.corpus import Corpus
-from support_vector_machines.corpus_set import CorpusSet
+from corpus import Corpus
+from corpus_set import CorpusSet
 
 
 class TestCorpusSet(unittest.TestCase):
   def setUp(self):
-    self.positive = StringIO('I love this country')
-    self.negative = StringIO('I hate this man')
+    self.positive = StringIO(u'I love this country')
+    self.negative = StringIO(u'I hate this man')
 
     self.positive_corp = Corpus(self.positive, 'positive')
     self.negative_corp = Corpus(self.negative, 'negative')

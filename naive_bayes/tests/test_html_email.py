@@ -3,7 +3,7 @@ import unittest
 import io
 import re
 from bs4 import BeautifulSoup
-from naive_bayes.email_object import EmailObject
+from email_object import EmailObject
 
 
 class TestHTMLEmail(unittest.TestCase):

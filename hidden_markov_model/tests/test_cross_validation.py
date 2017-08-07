@@ -2,7 +2,7 @@ import glob
 import unittest
 
 import re
-from hidden_markov_model.pos_tagger import POSTagger
+from pos_tagger import POSTagger
 
 
 class TestCrossValidation(unittest.TestCase):

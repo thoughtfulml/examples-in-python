@@ -7,8 +7,8 @@ import codecs
 import os
 import re
 from nose_parameterized import parameterized
-from artificial_neural_networks.language import Language
-from artificial_neural_networks.network import Network
+from language import Language
+from network import Network
 
 
 def language_name(file_name):

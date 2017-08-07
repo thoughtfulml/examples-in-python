@@ -3,7 +3,7 @@ import string
 import unittest
 
 from io import StringIO
-from artificial_neural_networks.language import Language
+from language import Language
 
 
 class TestLanguage(unittest.TestCase):

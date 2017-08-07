@@ -1,6 +1,6 @@
 import unittest
 
-from naive_bayes.tokenizer import Tokenizer
+from tokenizer import Tokenizer
 
 
 class TestTokenizer(unittest.TestCase):

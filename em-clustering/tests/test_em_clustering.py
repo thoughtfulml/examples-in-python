@@ -13,7 +13,7 @@ class TestEMClustering(unittest.TestCase):
 
         data = []
 
-        with open('tests/old_faithful.csv', 'rb') as csvfile:
+        with open('tests/old_faithful.csv', 'r') as csvfile:
             reader = csv.DictReader(csvfile)
             headers = reader.fieldnames[1:]
             for row in reader:
