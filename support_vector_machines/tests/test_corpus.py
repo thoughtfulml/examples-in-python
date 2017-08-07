@@ -6,9 +6,9 @@ from corpus import Corpus
 
 class TestCorpusSet(unittest.TestCase):
   def setUp(self):
-    self.negative = StringIO('I hated that so much')
+    self.negative = StringIO(u'I hated that so much')
     self.negative_corpus = Corpus(self.negative, 'negative')
-    self.positive = StringIO('loved movie!! loved')
+    self.positive = StringIO(u'loved movie!! loved')
     self.positive_corpus = Corpus(self.positive, 'positive')
 
   def test_trivial(self):
@@ -37,8 +37,8 @@ class TestCorpusSet(unittest.TestCase):
 
   def test_sentiment_code_1(self):
     """defines a sentiment_code of 1 for positive"""
-    self.assertEqual(1, Corpus(StringIO(''), 'positive').sentiment_code)
+    self.assertEqual(1, Corpus(StringIO(u''), 'positive').sentiment_code)
 
   def test_sentiment_code_minus1(self):
     """defines a sentiment_code of 1 for positive"""
-    self.assertEqual(-1, Corpus(StringIO(''), 'negative').sentiment_code)
+    self.assertEqual(-1, Corpus(StringIO(u''), 'negative').sentiment_code)

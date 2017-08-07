@@ -57,7 +57,7 @@ class TestSentimentClassifier(unittest.TestCase):
     total = 0
     misses = 0
 
-    with(open(file, errors='ignore')) as f:
+    with(io.open(file, errors='ignore')) as f:
       for line in f:
         if classifier.classify(line) != sentiment:
           misses += 1
