@@ -21,7 +21,6 @@ nose-parameterized==0.6.0
 numpy==1.12.1
 packaging==16.8
 pandas==0.20.1
-pkg-resources==0.0.0
 plac==0.9.6
 pyparsing==2.2.0
 python-dateutil==2.6.0
