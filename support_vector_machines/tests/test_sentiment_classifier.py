@@ -3,6 +3,7 @@ import unittest
 
 import io
 import os
+
 from sentiment_classifier import SentimentClassifier
 
 
@@ -51,7 +52,8 @@ class TestSentimentClassifier(unittest.TestCase):
     total = Fraction(n_er.numerator + p_er.numerator,
                      n_er.denominator + p_er.denominator)
     print(total)
-    self.assertEqual(total, 0)
+
+    assert round(float(total), 3) == 0
 
   def validate(self, classifier, file, sentiment):
     total = 0
