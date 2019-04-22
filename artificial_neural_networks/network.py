@@ -1,10 +1,7 @@
 import numpy as np
 import theanets
-import climate
 
 from tokenizer import Tokenizer
-
-climate.enable_default_logging()
 
 
 class Network(object):
