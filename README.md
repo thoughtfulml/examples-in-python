@@ -38,7 +38,7 @@ Install system packages
 Install remaining packages in virtualenv
 
     virtualenv -p `which python3` venv35
-    venv27/bin/pip3 install -r requirements27.txt
+    venv35/bin/pip3 install -r requirements35.txt
 
 ## MS Windows, using Python 2.7, anaconda
 
