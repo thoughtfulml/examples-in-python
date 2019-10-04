@@ -2,12 +2,12 @@
 Chapter 4. Naive Bayesian Classification
 SpamTrainer class
 """
-import io
 from collections import defaultdict
-
-from tokenizer import Tokenizer
 from email_object import EmailObject
-
+from tokenizer import Tokenizer
+import io
+import math
+import numpy as np
 
 class SpamTrainer(object):
   """
@@ -40,6 +40,10 @@ class SpamTrainer(object):
 
     self.to_train = training_files
 
+    self.class_log_prior = {}
+    self.B = 0
+
+
   def normalized_score(self, email):
     """
     Calculates normalized score
@@ -61,18 +65,25 @@ class SpamTrainer(object):
     return self.totals[category]
 
   def train(self):
+    y = []
     for category, file in self.to_train:
       with io.open(file, 'rb') as eml_file:
         email = EmailObject(eml_file)
 
       self.categories.add(category)
+      y.append(1 if category == 'spam' else 0)
 
       for token in Tokenizer.unique_tokenizer(email.body()):
         self.training[category][token] += 1
         self.totals['_all'] += 1
         self.totals[category] += 1
 
-    self.to_train = {}
+    if self.to_train:
+      y = np.array(y)
+      self.class_log_prior['spam'] = math.log(sum(y==1)/y.shape[0])
+      self.class_log_prior['ham'] = math.log(sum(y==0)/y.shape[0])
+      self.B = len(set(self.training['spam'].keys()).union(set(self.training['ham'].keys())))
+      self.to_train = {}
 
   def score(self, email):
     """
@@ -84,14 +95,20 @@ class SpamTrainer(object):
 
     cat_totals = self.totals
 
-    aggregates = {cat: cat_totals[cat] / cat_totals['_all'] for cat in self.categories}
+    aggregates = {cat: self.class_log_prior[cat] for cat in self.categories}
+
 
     for token in Tokenizer.unique_tokenizer(email.body()):
       for cat in self.categories:
         value = self.training[cat][token]
-        r = (value + 1) / (cat_totals[cat] + 1)
-        aggregates[cat] *= r
-
+        r = math.log((value + 1) / (cat_totals[cat] + self.B))
+        aggregates[cat] += r
+    max_val = aggregates['spam'] if aggregates['spam'] > aggregates['ham'] else aggregates['ham']
+    aggregates['spam'] = math.exp(aggregates['spam'] - max_val)
+    aggregates['ham'] = math.exp(aggregates['ham'] - max_val)
+    norm_factor = aggregates['spam'] + aggregates['ham']
+    aggregates['spam'] /= norm_factor
+    aggregates['ham'] /= norm_factor
     return aggregates
 
   def preference(self):
