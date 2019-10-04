@@ -6,40 +6,41 @@ import re
 
 
 class Tokenizer:
-  """
+    """
   Splits lines by whitespaces, converts to lower case and builds n-grams.
   """
-  NULL = u'\u0000'
 
-  @staticmethod
-  def tokenize(string):
-    return re.findall("\w+", string.lower())
+    NULL = u"\u0000"
 
-  @staticmethod
-  def unique_tokenizer(string):
-    return set(Tokenizer.tokenize(string))
+    @staticmethod
+    def tokenize(string):
+        return re.findall("\w+", string.lower())
 
-  @staticmethod
-  def ngram(string, ngram):
-    tokens = Tokenizer.tokenize(string)
+    @staticmethod
+    def unique_tokenizer(string):
+        return set(Tokenizer.tokenize(string))
 
-    ngrams = []
+    @staticmethod
+    def ngram(string, ngram):
+        tokens = Tokenizer.tokenize(string)
 
-    for i in range(len(tokens)):
-      shift = i - ngram + 1
-      padding = max(-shift, 0)
-      first_idx = max(shift, 0)
-      last_idx = first_idx + ngram - padding
+        ngrams = []
 
-      ngrams.append(Tokenizer.pad(tokens[first_idx:last_idx], padding))
+        for i in range(len(tokens)):
+            shift = i - ngram + 1
+            padding = max(-shift, 0)
+            first_idx = max(shift, 0)
+            last_idx = first_idx + ngram - padding
 
-    return ngrams
+            ngrams.append(Tokenizer.pad(tokens[first_idx:last_idx], padding))
 
-  @staticmethod
-  def pad(tokens, padding):
-    padded_tokens = []
+        return ngrams
 
-    for i in range(padding):
-      padded_tokens.append(Tokenizer.NULL)
+    @staticmethod
+    def pad(tokens, padding):
+        padded_tokens = []
 
-    return padded_tokens + tokens
+        for i in range(padding):
+            padded_tokens.append(Tokenizer.NULL)
+
+        return padded_tokens + tokens
