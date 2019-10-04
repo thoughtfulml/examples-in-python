@@ -22,7 +22,6 @@ def label_to_training_data(fold_file):
     label_file = line.rstrip().split(' ')
     training_data.append(label_file)
 
-  print(training_data)
   return SpamTrainer(training_data)
 
 
@@ -59,14 +58,13 @@ def validate(trainer, set_of_emails):
 
   total = false_positives + false_negatives + correct
 
-  false_positive_rate = false_positives / total
-  false_negative_rate = false_negatives / total
-  accuracy = (false_positives + false_negatives) / total
+  accuracy = 1 - (false_positives + false_negatives) / total
+
   message = """
-  False Positives: {0}
-  False Negatives: {1} 
-  Accuracy: {2} 
-  """.format(false_positive_rate, false_negative_rate, accuracy)
+  False Positives: %d
+  False Negatives: %d
+  Accuracy: %.5f
+  """ % (false_positives, false_negatives, accuracy)
   print(message)
 
 
