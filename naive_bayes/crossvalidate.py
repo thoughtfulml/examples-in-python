@@ -16,62 +16,66 @@ confidence = 0.0
 
 
 def label_to_training_data(fold_file):
-  training_data = []
+    training_data = []
 
-  for line in io.open(fold_file, 'r'):
-    label_file = line.rstrip().split(' ')
-    training_data.append(label_file)
+    for line in io.open(fold_file, "r"):
+        label_file = line.rstrip().split(" ")
+        training_data.append(label_file)
 
-  return SpamTrainer(training_data)
+    return SpamTrainer(training_data)
 
 
 def parse_emails(keyfile):
-  emails = []
-  print("Parsing emails for " + keyfile)
+    emails = []
+    print("Parsing emails for " + keyfile)
 
-  for line in io.open(keyfile, 'r'):
-    label, file = line.rstrip().split(' ')
+    for line in io.open(keyfile, "r"):
+        label, file = line.rstrip().split(" ")
 
-    with io.open(file, 'rb') as eml_file:
-      emails.append(EmailObject(eml_file, category=label))
+        with io.open(file, "rb") as eml_file:
+            emails.append(EmailObject(eml_file, category=label))
 
-  print("Done parsing files for " + keyfile)
-  return emails
+    print("Done parsing files for " + keyfile)
+    return emails
 
 
 def validate(trainer, set_of_emails):
-  correct = 0
-  false_positives = 0.0
-  false_negatives = 0.0
-  confidence = 0.0
+    correct = 0
+    false_positives = 0.0
+    false_negatives = 0.0
+    confidence = 0.0
 
-  for email in set_of_emails:
-    classification = trainer.classify(email)
-    confidence += classification.score
+    for email in set_of_emails:
+        classification = trainer.classify(email)
+        confidence += classification.score
 
-    if classification.guess == 'spam' and email.category == 'ham':
-      false_positives += 1
-    elif classification.guess == 'ham' and email.category == 'spam':
-      false_negatives += 1
-    else:
-      correct += 1
+        if classification.guess == "spam" and email.category == "ham":
+            false_positives += 1
+        elif classification.guess == "ham" and email.category == "spam":
+            false_negatives += 1
+        else:
+            correct += 1
 
-  total = false_positives + false_negatives + correct
+    total = false_positives + false_negatives + correct
 
-  accuracy = 1 - (false_positives + false_negatives) / total
+    accuracy = 1 - (false_positives + false_negatives) / total
 
-  message = """
+    message = """
   False Positives: %d
   False Negatives: %d
   Accuracy: %.5f
-  """ % (false_positives, false_negatives, accuracy)
-  print(message)
+  """ % (
+        false_positives,
+        false_negatives,
+        accuracy,
+    )
+    print(message)
 
 
-trainer = label_to_training_data('./tests/fixtures/fold1.label')
-emails = parse_emails('./tests/fixtures/fold2.label')
+trainer = label_to_training_data("./tests/fixtures/fold1.label")
+emails = parse_emails("./tests/fixtures/fold2.label")
 validate(trainer, emails)
 
-trainer = label_to_training_data('./tests/fixtures/fold2.label')
-emails = parse_emails('./tests/fixtures/fold1.label')
+trainer = label_to_training_data("./tests/fixtures/fold2.label")
+emails = parse_emails("./tests/fixtures/fold1.label")
 validate(trainer, emails)
