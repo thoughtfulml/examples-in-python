@@ -1,6 +1,6 @@
 # dependencies
 
-numpy beautifulsoup4 theanets nose_parameterized
+numpy beautifulsoup4 keras nose_parameterized
 
 # for tests
 
