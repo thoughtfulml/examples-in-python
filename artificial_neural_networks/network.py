@@ -1,7 +1,7 @@
 import numpy as np
 
 from keras.models import Sequential
-from keras.layers import Dense, Input, Embedding
+from keras.layers import Dense, Input
 from keras.optimizers import Adam
 from keras.utils import to_categorical
 
@@ -26,7 +26,7 @@ class Network(object):
 
     def predict(self, sentence):
         if self._net is None or self._data is None:
-            raise Exception("Must train first")
+            raise RuntimeError("Must train first")
 
         vectors, characters = Tokenizer.tokenize(sentence)
         if len(vectors) == 0:

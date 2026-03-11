@@ -1,0 +1,13 @@
+beautifulsoup4
+matplotlib
+numpy
+pandas
+parameterized
+python-dateutil
+pytz
+requests
+scikit-learn
+scipy
+urllib3
+keras
+tensorflow

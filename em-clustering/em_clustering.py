@@ -92,11 +92,11 @@ class EMClustering(object):
     self._partitions = np.empty(self._n_samples, dtype=np.int32)
 
   def expect(self):
-    log_likelyhood = 0
+    log_likelihood = 0
     for cluster_num, cluster in enumerate(self._clusters):
       log_density = dvmnorm(self._data, cluster.mean, cluster.covariance, log=True)
       membership_weights = cluster.weight * np.exp(log_density)
-      log_likelyhood += sum(log_density * self._membership_weights[:, cluster_num])
+      log_likelihood += sum(log_density * self._membership_weights[:, cluster_num])
 
       self._membership_weights[:, cluster_num] = membership_weights
 
@@ -110,7 +110,7 @@ class EMClustering(object):
       else:
         self._membership_weights[sample_num, :] = probabilities / prob_sum
 
-    self.logger.debug('log likelyhood %f', log_likelyhood)
+    self.logger.debug('log likelihood %f', log_likelihood)
 
   def maximize(self):
     for cluster_num, cluster in enumerate(self._clusters):

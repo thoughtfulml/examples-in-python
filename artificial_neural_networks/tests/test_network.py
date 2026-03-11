@@ -6,7 +6,7 @@ from io import StringIO
 import codecs
 import os
 import re
-from nose_parameterized import parameterized
+from parameterized import parameterized
 from language import Language
 from network import Network
 

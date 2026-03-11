@@ -45,7 +45,7 @@ class Regression(object):
     _, indexes = self.kdtree.query(query_point, self.k)
     value = self.metric(self.values.iloc[indexes])
     if np.isnan(value):
-      raise Exception('Unexpected result')
+      raise ValueError('Unexpected NaN result from regression')
     else:
       return value
 
@@ -67,7 +67,7 @@ class RegressionTest(object):
     """
     houses = pd.read_csv(csv_file, nrows=limit)
     self.values = houses['AppraisedValue']
-    houses = houses.drop('AppraisedValue', 1)
+    houses = houses.drop('AppraisedValue', axis=1)
     houses = (houses - houses.mean()) / (houses.max() - houses.min())
     self.houses = houses
     self.houses = self.houses[['lat', 'long', 'SqFtLot']]
@@ -110,10 +110,10 @@ class RegressionTest(object):
     test_rows = random.sample(self.houses.index.tolist(),
                   int(round(len(self.houses) * holdout)))
     train_rows = set(range(len(self.houses))) - set(test_rows)
-    df_test = self.houses.ix[test_rows]
+    df_test = self.houses.loc[test_rows]
     df_train = self.houses.drop(test_rows)
 
-    train_values = self.values.ix[train_rows]
+    train_values = self.values.loc[list(train_rows)]
     regression = Regression()
     regression.set_data(houses=df_train, values=train_values)
 

@@ -3,7 +3,6 @@ Chapter 4. Naive Bayesian Classification
 EmailObject class
 """
 import email
-import sys
 
 from bs4 import BeautifulSoup
 
@@ -17,12 +16,7 @@ class EmailObject(object):
 
     def __init__(self, infile, category=None):
         self.category = category
-        if sys.version_info > (3, 0):
-            # Python 3 code in this block
-            self.mail = email.message_from_binary_file(infile)
-        else:
-            # Python 2 code in this block
-            self.mail = email.message_from_file(infile)
+        self.mail = email.message_from_binary_file(infile)
 
     def subject(self):
         """
@@ -34,7 +28,7 @@ class EmailObject(object):
     def body(self):
         """
     Get message body
-    :return: str in Py3, unicode in Py2
+    :return: str
     """
         payload = self.mail.get_payload()
         if self.mail.is_multipart():

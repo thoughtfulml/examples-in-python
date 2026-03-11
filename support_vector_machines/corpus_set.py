@@ -12,6 +12,7 @@ class CorpusSet(object):
     self._words = set()
     for corpus in self._corpora:
       self._words.update(corpus.get_words())
+    self._word_index = {word: i for i, word in enumerate(self._words)}
 
   @property
   def words(self):
@@ -62,10 +63,8 @@ class CorpusSet(object):
     return vector
 
   def _get_indices(self, sentence):
-    word_list = list(self._words)
     indices = []
     for token in Corpus.tokenize(sentence):
-      if token in self._words:
-        index = word_list.index(token)
-        indices.append(index)
+      if token in self._word_index:
+        indices.append(self._word_index[token])
     return indices

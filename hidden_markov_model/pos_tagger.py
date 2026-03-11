@@ -32,9 +32,6 @@ class POSTagger(object):
         raise e
       return line
 
-    def next(self):
-      return self.__next__()
-
   @classmethod
   def from_filepaths(cls, training_files, eager=False):
     """
